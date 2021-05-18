@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+<menus>
+	<menu menuid="1001" desc="运营商统计报表">
+		<column colid="1" display="2">提交总数</column>
+		<column colid="2" display="1">发送成功数</column>
+		<column colid="3" display="2">发送失败数</column>
+		<column colid="4" display="2" type="1">接收成功数</column>
+		<column colid="5" display="1">接收失败数</column>
+		<column colid="6" display="2">未返数</column>
+		<column colid="7" display="2">发送成功率</column>
+		<column colid="8" display="2">发送失败率</column>
+		<column colid="9" display="2" type="1">接收成功率</column>
+		<column colid="10" display="2">接收失败率</column>
+		<column colid="11" display="2">未返率</column>
+	</menu>
+	<menu menuid="1002" desc="SP账号统计报表">
+		<column colid="1" display="2">提交总数</column>
+		<column colid="2" display="1">发送成功数</column>
+		<column colid="3" display="2">发送失败数</column>
+		<column colid="4" display="2" type="1">接收成功数</column>
+		<column colid="5" display="1">接收失败数</column>
+		<column colid="6" display="2">未返数</column>
+		<column colid="7" display="2">发送成功率</column>
+		<column colid="8" display="2">发送失败率</column>
+		<column colid="9" display="2" type="1">接收成功率</column>
+		<column colid="10" display="2">接收失败率</column>
+		<column colid="11" display="2">未返率</column>
+	</menu>
+	<menu menuid="1003" desc="机构统计报表">
+		<column colid="1" display="2">提交总数</column>
+		<column colid="2" display="1">发送成功数</column>
+		<column colid="3" display="2">发送失败数</column>
+		<column colid="4" display="2" type="1">接收成功数</column>
+		<column colid="5" display="1">接收失败数</column>
+		<column colid="6" display="2">未返数</column>
+		<column colid="7" display="2">发送成功率</column>
+		<column colid="8" display="2">发送失败率</column>
+		<column colid="9" display="2"  type="1">接收成功率</column>
+		<column colid="10" display="2">接收失败率</column>
+		<column colid="11" display="2">未返率</column>
+	</menu>
+	<menu menuid="1004" desc="操作员统计报表">
+		<column colid="1" display="2">提交总数</column>
+		<column colid="2" display="1">发送成功数</column>
+		<column colid="3" display="2">发送失败数</column>
+		<column colid="4" display="2" type="1">接收成功数</column>
+		<column colid="5" display="1">接收失败数</column>
+		<column colid="6" display="2">未返数</column>
+		<column colid="7" display="2">发送成功率</column>
+		<column colid="8" display="2">发送失败率</column>
+		<column colid="9" display="2" type="1">接收成功率</column>
+		<column colid="10" display="2">接收失败率</column>
+		<column colid="11" display="2">未返率</column>
+	</menu>
+	<menu menuid="1005" desc="业务类型统计报表">
+		<column colid="1" display="2">提交总数</column>
+		<column colid="2" display="1">发送成功数</column>
+		<column colid="3" display="2">发送失败数</column>
+		<column colid="4" display="2" type="1">接收成功数</column>
+		<column colid="5" display="1">接收失败数</column>
+		<column colid="6" display="2">未返数</column>
+		<column colid="7" display="2">发送成功率</column>
+		<column colid="8" display="2">发送失败率</column>
+		<column colid="9" display="2" type="1">接收成功率</column>
+		<column colid="10" display="2">接收失败率</column>
+		<column colid="11" display="2">未返率</column>
+	</menu>
+	<menu menuid="1006" desc="区域统计报表">
+		<column colid="1" display="2">提交总数</column>
+		<column colid="2" display="1">发送成功数</column>
+		<column colid="3" display="2">发送失败数</column>
+		<column colid="4" display="2" type="1">接收成功数</column>
+		<column colid="5" display="1">接收失败数</column>
+		<column colid="6" display="2">未返数</column>
+		<column colid="7" display="2">发送成功率</column>
+		<column colid="8" display="2">发送失败率</column>
+		<column colid="9" display="2" type="1">接收成功率</column>
+		<column colid="10" display="2">接收失败率</column>
+		<column colid="11" display="2">未返率</column>
+	</menu>
+
+	<menu menuid="1008" desc="自定义参数统计报表">
+		<column colid="1" display="2">提交总数</column>
+		<column colid="2" display="1">发送成功数</column>
+		<column colid="3" display="2">发送失败数</column>
+		<column colid="4" display="2" type="1">接收成功数</column>
+		<column colid="5" display="1">接收失败数</column>
+		<column colid="6" display="2">未返数</column>
+		<column colid="7" display="2">发送成功率</column>
+		<column colid="8" display="2">发送失败率</column>
+		<column colid="9" display="2" type="1">接收成功率</column>
+		<column colid="10" display="2">接收失败率</column>
+		<column colid="11" display="2">未返率</column>
+	</menu>
+</menus>
+ -->
+<menus>
+	<menu menuid="1001" desc="运营商统计报表">
+		<column colid="1" display="2">cxtj_rpt_colid_1</column>
+		<column colid="2" display="1">cxtj_rpt_colid_2</column>
+		<column colid="3" display="2">cxtj_rpt_colid_3</column>
+		<column colid="4" display="2" type="1">cxtj_rpt_colid_4</column>
+		<column colid="5" display="1">cxtj_rpt_colid_5</column>
+		<column colid="6" display="2">cxtj_rpt_colid_6</column>
+		<column colid="7" display="2">cxtj_rpt_colid_7</column>
+		<column colid="8" display="2">cxtj_rpt_colid_8</column>
+		<column colid="9" display="2" type="1">cxtj_rpt_colid_9</column>
+		<column colid="10" display="2">cxtj_rpt_colid_10</column>
+		<column colid="11" display="2">cxtj_rpt_colid_11</column>
+	</menu>
+	<menu menuid="1002" desc="SP账号统计报表">
+		<column colid="1" display="2">cxtj_rpt_colid_1</column>
+		<column colid="2" display="1">cxtj_rpt_colid_2</column>
+		<column colid="3" display="2">cxtj_rpt_colid_3</column>
+		<column colid="4" display="2" type="1">cxtj_rpt_colid_4</column>
+		<column colid="5" display="1">cxtj_rpt_colid_5</column>
+		<column colid="6" display="2">cxtj_rpt_colid_6</column>
+		<column colid="7" display="2">cxtj_rpt_colid_7</column>
+		<column colid="8" display="2">cxtj_rpt_colid_8</column>
+		<column colid="9" display="2" type="1">cxtj_rpt_colid_9</column>
+		<column colid="10" display="2">cxtj_rpt_colid_10</column>
+		<column colid="11" display="2">cxtj_rpt_colid_11</column>
+	</menu>
+	<menu menuid="1003" desc="机构统计报表">
+		<column colid="1" display="2">cxtj_rpt_colid_1</column>
+		<column colid="2" display="1">cxtj_rpt_colid_2</column>
+		<column colid="3" display="2">cxtj_rpt_colid_3</column>
+		<column colid="4" display="2" type="1">cxtj_rpt_colid_4</column>
+		<column colid="5" display="1">cxtj_rpt_colid_5</column>
+		<column colid="6" display="2">cxtj_rpt_colid_6</column>
+		<column colid="7" display="2">cxtj_rpt_colid_7</column>
+		<column colid="8" display="2">cxtj_rpt_colid_8</column>
+		<column colid="9" display="2"  type="1">cxtj_rpt_colid_9</column>
+		<column colid="10" display="2">cxtj_rpt_colid_10</column>
+		<column colid="11" display="2">cxtj_rpt_colid_11</column>
+	</menu>
+	<menu menuid="1004" desc="操作员统计报表">
+		<column colid="1" display="2">cxtj_rpt_colid_1</column>
+		<column colid="2" display="1">cxtj_rpt_colid_2</column>
+		<column colid="3" display="2">cxtj_rpt_colid_3</column>
+		<column colid="4" display="2" type="1">cxtj_rpt_colid_4</column>
+		<column colid="5" display="1">cxtj_rpt_colid_5</column>
+		<column colid="6" display="2">cxtj_rpt_colid_6</column>
+		<column colid="7" display="2">cxtj_rpt_colid_7</column>
+		<column colid="8" display="2">cxtj_rpt_colid_8</column>
+		<column colid="9" display="2" type="1">cxtj_rpt_colid_9</column>
+		<column colid="10" display="2">cxtj_rpt_colid_10</column>
+		<column colid="11" display="2">cxtj_rpt_colid_11</column>
+	</menu>
+	<menu menuid="1005" desc="业务类型统计报表">
+		<column colid="1" display="2">cxtj_rpt_colid_1</column>
+		<column colid="2" display="1">cxtj_rpt_colid_2</column>
+		<column colid="3" display="2">cxtj_rpt_colid_3</column>
+		<column colid="4" display="2" type="1">cxtj_rpt_colid_4</column>
+		<column colid="5" display="1">cxtj_rpt_colid_5</column>
+		<column colid="6" display="2">cxtj_rpt_colid_6</column>
+		<column colid="7" display="2">cxtj_rpt_colid_7</column>
+		<column colid="8" display="2">cxtj_rpt_colid_8</column>
+		<column colid="9" display="2" type="1">cxtj_rpt_colid_9</column>
+		<column colid="10" display="2">cxtj_rpt_colid_10</column>
+		<column colid="11" display="2">cxtj_rpt_colid_11</column>
+	</menu>
+	<menu menuid="1006" desc="区域统计报表">
+		<column colid="1" display="2">cxtj_rpt_colid_1</column>
+		<column colid="2" display="1">cxtj_rpt_colid_2</column>
+		<column colid="3" display="2">cxtj_rpt_colid_3</column>
+		<column colid="4" display="2" type="1">cxtj_rpt_colid_4</column>
+		<column colid="5" display="1">cxtj_rpt_colid_5</column>
+		<column colid="6" display="2">cxtj_rpt_colid_6</column>
+		<column colid="7" display="2">cxtj_rpt_colid_7</column>
+		<column colid="8" display="2">cxtj_rpt_colid_8</column>
+		<column colid="9" display="2" type="1">cxtj_rpt_colid_9</column>
+		<column colid="10" display="2">cxtj_rpt_colid_10</column>
+		<column colid="11" display="2">cxtj_rpt_colid_11</column>
+	</menu>
+
+	<menu menuid="1008" desc="自定义参数统计报表">
+		<column colid="1" display="2">cxtj_rpt_colid_1</column>
+		<column colid="2" display="1">cxtj_rpt_colid_2</column>
+		<column colid="3" display="2">cxtj_rpt_colid_3</column>
+		<column colid="4" display="2" type="1">cxtj_rpt_colid_4</column>
+		<column colid="5" display="1">cxtj_rpt_colid_5</column>
+		<column colid="6" display="2">cxtj_rpt_colid_6</column>
+		<column colid="7" display="2">cxtj_rpt_colid_7</column>
+		<column colid="8" display="2">cxtj_rpt_colid_8</column>
+		<column colid="9" display="2" type="1">cxtj_rpt_colid_9</column>
+		<column colid="10" display="2">cxtj_rpt_colid_10</column>
+		<column colid="11" display="2">cxtj_rpt_colid_11</column>
+	</menu>
+</menus>

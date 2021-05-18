@@ -1,0 +1,41 @@
+.ac_img {
+width: 18px;
+background: url('../img/select.gif');
+height: 20px;
+float: right;
+cursor: pointer;
+}
+.ac_conteiner {
+border: 1px solid #abadb3;
+height: 20px;width: 153px;
+}
+.ac_input {
+text-indent: 2px;
+font-size: 1em;
+font-family: sans-serif;
+float: left;
+padding: 1px;
+border: 0 !important;
+height: 16px;
+
+}
+.ac_results,.ac_results2 {
+	border: 1px solid gray;
+	background-color: white;
+	list-style: none;
+	position: relative;
+	z-index: 100;
+	overflow-x: hidden;
+	display:none;
+	overflow-y: auto;
+	height: 150px;
+	width: 153px; 
+	margin-left: -1px !important; /*all*/
+	_margin-left:-3px !important; /*ie8*/
+	_margin-left:-1px;            /*ie6*/
+	_margin-top: -1px !important; /*ieX*/
+}
+.selected{
+	background-color: #6699ff;
+	cursor:default;
+}

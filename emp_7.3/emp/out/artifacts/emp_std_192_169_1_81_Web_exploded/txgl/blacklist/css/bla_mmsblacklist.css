@@ -1,0 +1,148 @@
+#bla_mmsblacklist .editmmsBl{
+	padding:5px;
+	display:none;
+	font-size: 12px;
+}
+
+#bla_mmsblacklist .addmmsBl{
+	padding:5px;
+	display:none;
+	font-size: 12px;
+}
+
+#bla_mmsblacklist .addmmsBl_down_div{
+	height:40px;
+	margin-top: 30px;
+}
+
+#bla_mmsblacklist .mobile{
+	width:176px;
+}
+
+#bla_mmsblacklist .blok_div{
+	height: 50px;
+	line-height: 50px;
+	margin-top: 10px;
+}
+
+#bla_mmsblacklist .uploadmmsBl{
+	padding:5px;
+	display:none;
+	font-size: 12px;
+}
+
+#bla_mmsblacklist .blloginparams1_down_div{
+	height: 110px;
+	margin-top: 10px;
+}
+
+#bla_mmsblacklist .xzwj_table{
+	width:95%;
+}
+
+#bla_mmsblacklist .xzwj_tr{
+	height: 30px;
+}
+
+#bla_mmsblacklist .xzwj_span{
+	text-align: right;
+	display: block;
+	white-space: nowrap;
+}
+
+#bla_mmsblacklist .filename_down_tr{
+	height: 10px;
+}
+
+#bla_mmsblacklist .spzhczhs_z1{
+	text-align: right;
+	padding-bottom: 20px;
+}
+
+#bla_mmsblacklist .spzhczhs_z1{
+	text-align: right;
+}
+
+#bla_mmsblacklist .z1zcetwjgssc_td{
+	line-height: 20px;
+}
+
+#bla_mmsblacklist .2xtzdglgsbzq_td{
+	line-height: 20px;
+}
+
+#bla_mmsblacklist .3xtzdglxtywlx_td{
+	line-height: 20px;
+}
+
+#bla_mmsblacklist .impfont_div{
+	height: 60px;
+	line-height: 55px;
+	margin-top: 50px !important;
+	margin-top: 0px;
+}
+
+#bla_mmsblacklist .impfont1{
+	display: none;
+	position: absolute;
+	left:96px;
+	top:105px;
+	font-size: 15px;
+}
+
+#bla_mmsblacklist .impfont2{
+	display: none;
+	position: absolute;
+	left:140px;
+	top:105px;
+	font-size: 15px;
+}
+
+#bla_mmsblacklist .exportDiv{
+	padding:5px;
+	display:none;
+	font-size: 12px;
+}
+
+#bla_mmsblacklist .excelBut_span1{
+	position: absolute;
+	left:112px;
+	top:30px;
+}
+
+#bla_mmsblacklist .excelBut_span2{
+	position: absolute;
+	left:60px;
+	top:30px;
+}
+
+#bla_mmsblacklist .outfont1{
+	display: none;
+	position: absolute;
+	left:102px;
+	top:65px;
+	font-size: 15px;
+}
+
+#bla_mmsblacklist .outfont2{
+	display: none;
+	position: absolute;
+	left:130px;
+	top:65px;
+	font-size: 15px;
+}
+
+#bla_mmsblacklist .qxzdcgscg_font{
+	display: block;
+	position: absolute;
+	left:20px;
+	top:90px;
+}
+
+#bla_mmsblacklist .sjhm_td{
+	width: 140px;
+}
+
+#bla_mmsblacklist .phone{
+	width:180px;
+}

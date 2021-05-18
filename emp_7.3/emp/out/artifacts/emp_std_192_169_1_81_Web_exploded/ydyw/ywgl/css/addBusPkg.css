@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+.contTable tr td{
+	height: 30px;line-height: 30px;
+}
+.contTable tr td .wth1{
+	width:229px;
+}
+.contTable tr td .wth2{
+	width:180px;
+}
+.searIcon{
+	display: block;
+	width:28px;
+	height: 23px;
+	float: left;
+	margin: 2px 0px;
+	cursor: pointer;
+}
+
+/*=======UL模拟select===========*/
+#getChooseMan{
+	width:100%;overflow-y:auto;overflow-x:hidden;text-align:left;height:258px;
+}
+#getChooseMan li{
+	list-style:none;cursor:pointer;font-size:12px;padding:0 2px;margin:0; word-wrap: break-word; word-break: break-all;width:210px;height: 16px;line-height:15px;overflow: hidden;
+}
+#getChooseMan li.cur{
+	background-color:#6D6D6D;color:#fff;
+}
+
+.left_select_choose{
+	width: 214px;
+	border: 0;
+	font-size:12px;
+	vertical-align:middle;
+	margin:-4px 0 0 -8px;
+	*margin:-2px 0 0 -8px !important;
+	padding:4px 0 4px 8px;
+	height:264px;
+	*height:275px !important;
+}
+.left_select_choose option{
+	padding:0 6px;
+}
+.search_tx_choose{
+	margin-left:6px;width:153px;height:22px;background-color:#F3FAEE;float:left;overflow:hidden;
+}
+#rightDiv{
+	margin-top:3px;background-color:white;width:204px;height:258px;overflow-x:hidden;overflow-y:hidden;display:block;float: left; padding-top: 1px;
+}

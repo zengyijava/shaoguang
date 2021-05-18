@@ -1,0 +1,14 @@
+
+说明：4个SQL文件的分隔符都是&&
+
+执行步骤：
+su - db2inst1
+
+连接数数据库:
+据库名称：BANK2020，用户：db2inst1  ,密码：123456
+[db2inst1@node1 ~]$db2 CONNECT TO BANK2020  USER db2inst1 USING 123456
+
+[db2inst1@node1 ~]$db2 "-td&&" -vf   000-创建表空间V71.00.sql  > 000.txt
+[db2inst1@node1 ~]$db2 "-td&&" -vf   001-EMP网关实时库DB2初始化表结构全新脚本V73.00.sql  > 001.txt
+[db2inst1@node1 ~]$db2 "-td&&" -vf   002-EMP网关实时库DB2初始化数据全新脚本V73.00.sql  > 002.txt
+[db2inst1@node1 ~]$db2 "-td&&" -vf   003-EMP-WEB实时库DB2初始化全新脚本V73.00.sql > 003.txt

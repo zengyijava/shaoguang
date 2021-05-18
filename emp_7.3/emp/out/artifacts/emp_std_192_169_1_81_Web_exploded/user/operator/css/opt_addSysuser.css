@@ -1,0 +1,497 @@
+#opt_addSysuser #lyout {
+	width: 840px;
+	padding: 10px;
+	margin-bottom: 15px;
+	display: block;
+}
+
+#opt_addSysuser .tabyys {
+	display: block;
+	width: 130px;
+	height: 20px;
+	line-height: 20px;
+	margin-left: 20px;
+	margin-bottom: -10px;
+	position: relative;
+	background-color: #FFF;
+	font-weight: 800;
+	text-align: left;
+	padding: 0 3px;
+}
+
+#opt_addSysuser .mt10 {
+	margin-bottom: 10px;
+}
+
+#opt_addSysuser .user_table1 {
+	width: 850px;
+	height: 15px;
+	border: 0px solid red;
+}
+
+#opt_addSysuser .fhsyj_span {
+	margin-right: 10px;
+}
+
+#opt_addSysuser .table_input {
+	border: 0px;
+	padding-left: 0px;
+}
+
+#opt_addSysuser .jbxx_div {
+	width: 95px;
+}
+
+#opt_addSysuser .lyout2 {
+	padding-top: 20px;
+}
+
+#opt_addSysuser .sysTable {
+	width: 100%;
+	height: 100%;
+	width: 870px;
+}
+
+#opt_addSysuser .loginId_td {
+	width: 120px;
+}
+
+#opt_addSysuser .userNo_td {
+	width: 300px;
+}
+
+#opt_addSysuser .userNo_label {
+	position: relative;
+}
+
+#opt_addSysuser .font_red {
+	color: red;
+}
+
+#opt_addSysuser .czumc_td {
+	width: 120px;
+	text-align: left;
+}
+
+#opt_addSysuser .userCode {
+	width: 180px;
+}
+
+#opt_addSysuser .depNam_td {
+	position: relative;
+	z-index: 10;
+}
+
+#opt_addSysuser .depNam_div {
+	width: 300px;
+}
+
+#opt_addSysuser .depNam {
+	width: 201px;
+	height: 20px;
+	cursor: pointer;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+#opt_addSysuser .ssdep {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#opt_addSysuser .dropMenu_udep {
+	position: absolute;
+	left: -1px;
+	top: 28px;
+	display: none;
+	margin-left: 0px;
+	width: 366px;
+	background-color: white;
+	border: 1px solid;
+	z-index: 999;
+}
+
+#opt_addSysuser .dropdownMenu_udep {
+	margin-left: 0px;
+	height: 450px;
+	width: 356px;
+	background-color: white;
+	overflow: auto;
+}
+
+#opt_addSysuser .dropMenu_udep_iframe {
+	width: 366px;
+	height: 450px;
+	border: none;
+	position: absolute;
+	top: 0;
+	left: 0px;
+	z-index: -1;
+	filter: mask();
+}
+
+#opt_addSysuser .birthday {
+	cursor: pointer;
+	background-color: white;
+}
+
+#opt_addSysuser .roleName {
+	width: 225px;
+	height: 20px;
+	cursor: pointer;
+}
+
+#opt_addSysuser .allRoleName2 {
+	display: none;
+	z-index: 4000px;
+}
+
+#opt_addSysuser .isNeedSubno {
+	width: 15px;
+}
+
+#opt_addSysuser .addSubno {
+	display: none;
+}
+
+#opt_addSysuser .msgRemind {
+	width: 15px;
+}
+
+#opt_addSysuser .emailRemind {
+	width: 15px;
+}
+
+#opt_addSysuser .isCustome {
+	width: 15px;
+}
+
+#opt_addSysuser .sjqx_div1 {
+	width: 140px;
+}
+
+#opt_addSysuser .sjqx_div2 {
+	width: 100px;
+}
+
+#opt_addSysuser .czysjqx_td {
+	width: 120px;
+}
+
+#opt_addSysuser .domDepId_td {
+	width: 300px;
+	position: relative;
+	z-index: 10;
+}
+
+#opt_addSysuser .depPerm {
+	width: 220px;
+	display: nono;
+}
+
+#opt_addSysuser .domdepName {
+	width: 150px;
+	height: 20px;
+	border: 1px solid #7F9DB9;
+}
+
+#opt_addSysuser .selectDepBtn_user {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#opt_addSysuser .dropMenu_user {
+	position: absolute;
+	display: none;
+	left: 0;
+	top: 28px;
+	width: 366px;
+	background-color: white;
+	border: 1px solid;
+	z-index: 999;
+}
+
+#opt_addSysuser .dropdownMenu_user {
+	margin-left: 0px;
+	height: 450px;
+	width: 356px;
+	background-color: white;
+	overflow-y: auto;
+	overflow-x: auto;
+	z-index: 999;
+}
+
+#opt_addSysuser .jgshy_td {
+	text-align: left;
+	width: 120px;
+}
+
+#opt_addSysuser .domDepId_employ_td {
+	position: relative;
+	z-index: 9;
+}
+
+#opt_addSysuser .depPerm_employ {
+	width: 220px;
+}
+
+#opt_addSysuser .domdepName_employ {
+	width: 150px;
+	height: 20px;
+	border: 1px solid #7F9DB9;
+}
+
+#opt_addSysuser .selectDepBtn_employ {
+	cursor: pointer;
+	text-decoration: underline;
+	display: none;
+}
+
+#opt_addSysuser .dropMenu_employ {
+	position: absolute;
+	display: none;
+	left: 0;
+	top: 28px;
+	width: 366px;
+	background-color: white;
+	border: 1px solid;
+	z-index: 999;
+}
+
+#opt_addSysuser .qd_div {
+	margin-top: 3px;
+	margin-right: 10px;
+	text-align: right;
+}
+
+#opt_addSysuser .dropdownMenu_employ {
+	margin-left: 0px;
+	height: 450px;
+	width: 356px;
+	background-color: white;
+	overflow-y: auto;
+	overflow-x: auto;
+	z-index: 999;
+}
+
+#opt_addSysuser .domDepId_client_td {
+	position: relative;
+}
+
+#opt_addSysuser .depPerm_client {
+	width: 220px;
+	display: none;
+}
+
+#opt_addSysuser .domdepName_client {
+	width: 150px;
+	height: 20px;
+	border: 1px solid #7F9DB9;
+}
+
+#opt_addSysuser .selectDepBtn_client {
+	cursor: pointer;
+	text-decoration: underline;
+	display: none;
+}
+
+#opt_addSysuser .dropMenu_client {
+	position: absolute;
+	left: 0;
+	top: 27px;
+	display: none;
+	width: 366px;
+	background-color: white;
+	border: 1px solid;
+	z-index: 999;
+}
+
+#opt_addSysuser .dropMenu_client_down_div {
+	margin-top: 3px;
+	margin-right: 10px;
+	text-align: right;
+}
+
+#opt_addSysuser .dropdownMenu_client {
+	margin-left: 0px;
+	height: 450px;
+	width: 356px;
+	background-color: white;
+	overflow-y: auto;
+	overflow-x: auto;
+	z-index: 999;
+}
+
+#opt_addSysuser .domDepId_dep_td {
+	position: relative;
+}
+
+#opt_addSysuser .depPerm_dep {
+	width: 220px;
+}
+
+#opt_addSysuser .domDepName_dep {
+	width: 150px;
+	height: 20px;
+	border: 1px solid #7F9DB9;
+}
+
+#opt_addSysuser .selectDepBtn_dep {
+	cursor: pointer;
+	text-decoration: underline;
+	display: none;
+}
+
+#opt_addSysuser .dropMenu_dep {
+	position: absolute;
+	display: none;
+	left: 0;
+	top: 28px;
+	width: 366px;
+	background-color: white;
+	border: 1px solid;
+	z-index: 999;
+}
+
+#opt_addSysuser .dropMenu_dep_down_div {
+	margin-top: 3px;
+	margin-right: 10px;
+	text-align: right;
+}
+
+#opt_addSysuser .dropdownMenu_dep {
+	margin-left: 0px;
+	height: 450px;
+	width: 356px;
+	background-color: white;
+	overflow-y: auto;
+	overflow-x: auto;
+	z-index: 999;
+}
+
+#opt_addSysuser .qtlxfs_div1 {
+	width: 140px;
+}
+
+#opt_addSysuser .qtlxfs_div2 {
+	width: 100px;
+}
+
+#opt_addSysuser .zj_td {
+	width: 120px;
+}
+
+#opt_addSysuser .oph_td {
+	width: 300px;
+}
+
+#opt_addSysuser .mail_td {
+	text-align: left;
+	width: 120px;
+}
+
+#opt_addSysuser .addEmailCheck {
+	color: red;
+	display: none;
+}
+
+#opt_addSysuser .jrygtxl_div1 {
+	width: 200px;
+}
+
+#opt_addSysuser .jrygtxl_div2 {
+	width: 100px;
+}
+
+#opt_addSysuser .bjr_input {
+	padding-left: 130px;
+}
+
+#opt_addSysuser .isJoinEmploy {
+	display: none;
+}
+
+#opt_addSysuser .gh_td {
+	width: 120px;
+}
+
+#opt_addSysuser .employeeNo_td {
+	width: 300px;
+}
+
+#opt_addSysuser .employeeNo {
+	width: 180px;
+}
+
+#opt_addSysuser .ygjg_td {
+	width: 120px;
+}
+
+#opt_addSysuser .employDepNam_div {
+	width: 300px;
+}
+
+#opt_addSysuser .employDepNam {
+	width: 203px;
+	height: 20px;
+	cursor: pointer;
+	font-size: 12px;
+}
+
+#opt_addSysuser .ssdep {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#opt_addSysuser .dropMenu_edep {
+	position: absolute;
+	display: none;
+	margin-left: 0px;
+	width: 366px;
+	background-color: white;
+	border: 1px solid;
+	z-index: 999;
+}
+
+#opt_addSysuser .dropdownMenu_edep {
+	margin-left: 0px;
+	height: 450px;
+	width: 356px;
+	background-color: white;
+	overflow-y: auto;
+	overflow-x: auto;
+	z-index: 999;
+}
+
+#opt_addSysuser .bz_tr {
+	display: none;
+}
+
+#opt_addSysuser .hint-tr_table {
+	width: 862px;
+	height: 100%;
+}
+
+#opt_addSysuser .isEmp_td {
+	text-align: center;
+	padding-left: 50px;
+}
+
+#opt_addSysuser .roDiv {
+	display: none;
+}
+
+#opt_addSysuser .roDiv_down_div {
+	width: 300px;
+	height: 200px;
+	padding: 10px 0 10px 10px;
+	overflow: auto;
+}
+
+#opt_addSysuser .roleDiv {
+	width: 140px;
+}
+.img-position{
+	position: absolute;
+	padding-top: 9px;
+}

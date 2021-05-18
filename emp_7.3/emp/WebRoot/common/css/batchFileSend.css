@@ -1,0 +1,226 @@
+#batchFileSend {
+	width: 610px;
+	font-size: 12px;
+	text-align: left;
+	margin-left:16px;
+}
+
+/*#batchFileSend div {
+	margin-bottom: 10px;
+}*/
+
+
+#batchFileSend span {
+	line-height:26px;
+	width: 70px;
+	text-align: left;
+	display: block;
+	float: left;
+	margin-bottom: 10px !important;
+	_margin:0px;
+	padding:0px;
+	padding-right: 5px;
+	padding-top: 3px;
+}
+
+#batchFileSend p {
+	width: 380px;
+	float: left;
+	padding:0px;
+	margin-bottom: 10px !important;
+	_margin-bottom: 10px;
+}
+
+#batchFileSend p a {
+	cursor: pointer;
+	
+	text-decoration: none;
+}
+
+#batchFileSend p label input {
+	width: 97%;
+}
+
+#batchFileSend p select {
+	width: 370px;
+}
+
+#star {
+	color: #F00;
+	display: inline;
+}
+
+em {
+	font-size: 12px;
+	color: red;
+	font-style: normal;
+}
+
+#batchFileSend #b_f_top {
+	width: 500px;
+}
+
+#mmstable span
+{
+    font-size: 12px;
+}
+
+label {
+	font-size: 12px;
+	font-style: normal;
+}
+
+.b_F_block {
+	display: block;
+}
+
+.b_F_inline { /*display:inline-block !important;
+	display:inline;*/
+	display: block;
+}
+
+.b_f_margin {
+	margin-left: 10px;
+}
+
+.b_F_btn {
+	clear: both;
+	text-align: right;
+	width: 600px;
+}
+
+.b_F_btn input {
+	
+	display: inline;
+	cursor: pointer;
+}
+
+#btnclick {
+	cursor: pointer;
+	text-align: center;
+	float: left;
+	width: 470px;
+	height: 24px;
+}
+
+#upload {
+	width: 70%;
+}
+
+#tab_menu {
+	width: 100%;
+}
+
+#s_ud_s_list {
+	width: 500px;
+	margin-left: 8px;
+	height:30px;
+}
+
+#s_ud_s_list li {
+	float: left;
+	padding: 6px;
+	border: 1px solid #999;
+	margin-right: 5px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+#s_ud_s_list li.s_ud_tabin {
+	border: 1px solid #999;
+	/*border-bottom: 1px solid #FFF;*/
+	position: relative;
+	z-index: 100;
+	font-weight: 600;
+}
+
+#tab_menu #s_ud_s_day,#tab_menu #s_ud_s_month {
+	clear: both;
+	border: 1px solid #999;
+	top: -1px;
+	position: relative;
+	padding: 5px;
+}
+
+.suds_table_top {
+	width: 728px;
+	margin: 5px 0 5px 0;
+	text-align: right;
+	font-size: 12px;
+}
+
+.s_ud_contentin {
+	display: block
+}
+
+.suds_table_top input {
+	margin-right: 8px;
+	padding: 0 3px;
+}
+
+.suds_table_top select {
+	margin-right: 8px;
+}
+
+.suds_table_bottom {
+	width: 728px;
+	overflow: hidden;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+.subs_input_width {
+	width: 90px;
+}
+
+.suds_t_t_left {
+	text-align: left;
+}
+
+.suds_t_t_s_mar {
+	margin-right: 0;
+}
+ul{list-style:none;}
+.clr{clear:both;overflow:hidden;height:0;}
+a.closeBtn{position:absolute;top:0px;right:2px;display:block;width:60px;height:18px;font:12px;padding:0px 1px;text-align:center;background:#fff;border:1px solid #85B6E2;color:#333;}
+a.closeBtn:hover{color:#fff;border:1px solid #85B6E2;background:#85B6E2;}
+.model{width:300px;height:120px;position:relative;border:2px solid #85B6E2;background:#fff;}
+.model .head{padding-left:0px;border-bottom: 1px solid #85B6E2;height:20px;}
+.model .foot{padding-left:4px;background-position:left bottom;_height:3px;}
+.model .foot-right{background-position:right bottom;}
+.model .main{width:300px;height:130px;position:relative;font:12px;}
+.model .head h2{font:bold 16px "Microsoft YaHei";padding:2px 0px 0px 0px;color:#85B6E2;}
+.model .main ul{padding:10px;zoom:1;overflow:hidden;font-size:12px;}
+.model .main ul li{float:left;width:70px;text-align:center;line-height:20px;margin-bottom:2px;cursor: pointer;text-decoration: underline;border:1px solid #85B6E2;}
+.model .main ul li a{color:#333;display:block;}
+.model .main ul li a:hover{background:#85B6E2;color:#fff;font-weight:bold;font-size:14px;}
+.mmsFrame{position: relative;z-index:1;width:58px;height:50px;padding-top: 2px;cursor: pointer;
+display: inline-block;margin-top: 4px;border:1px solid #7e8081;}
+.mmsFrames{position: relative;z-index:1;width:58px;height:50px;padding-top: 2px;cursor: pointer;
+display: inline-block;margin-top: 4px; border: 1px solid #e1e1e1;}
+
+#matList img{
+    cursor: pointer;
+    padding-bottom: 3px;
+}
+
+#matList a{
+    cursor: pointer;
+    text-decoration:underline;
+    padding-left:3px;
+    padding-bottom: 3px;
+}
+textarea {
+	padding: 4px;
+}
+.eq_sendDiv_c input{
+	height:13px; vertical-align:text-top; margin-top:0;
+}
+#timerTime,#sendtime{
+	width: 180px;
+	height:20px; 
+	cursor: pointer; 
+	background-color: white;
+	margin-top:-2px;
+	*margin-top:-4px;
+}

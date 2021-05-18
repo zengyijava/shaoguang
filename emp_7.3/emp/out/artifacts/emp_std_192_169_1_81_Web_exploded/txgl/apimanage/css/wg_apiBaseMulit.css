@@ -1,0 +1,169 @@
+#clientIntName,#InterfaceName,#req_type,#resp_type,#methodNames{
+	width: 174px;
+}
+
+
+#wg_apiBaseMulit .toggleDiv_up_div{
+	margin-top:20px;
+}
+
+#wg_apiBaseMulit .toggleDiv_down_input{
+	margin-bottom:8px;
+	margin-left: 10px;
+}
+
+#wg_apiBaseMulit .addmethod{
+	padding:5px;
+	display:none;
+	font-size: 12px;
+}
+
+#wg_apiBaseMulit .addmethod_down_div{
+	height:140px;
+	margin-top: 10px;
+}
+
+#wg_apiBaseMulit .ffmcmh_td{
+	width:120px;
+}
+
+#wg_apiBaseMulit .addmethod_table_tr{
+	height:5px;
+}
+
+#wg_apiBaseMulit .blok_div{
+	height: 50px;
+	line-height: 50px;
+	margin-top: 10px;
+}
+
+#wg_apiBaseMulit .addtype{
+	padding:5px;
+	display:none;
+	font-size: 12px;
+}
+
+#wg_apiBaseMulit .addtype_down_div{
+	height:140px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#wg_apiBaseMulit .qymc_table{
+	border-collapse:separate; 
+	border-spacing:0px 10px;
+}
+
+#wg_apiBaseMulit .corp_name{
+	width:174px;
+}
+
+#wg_apiBaseMulit .xzqy_input{
+	margin-bottom:8px;
+}
+
+#wg_apiBaseMulit .corp_code{
+	width:174px;
+}
+
+#wg_apiBaseMulit .functiontype{
+	width:174px;
+}
+
+#wg_apiBaseMulit .typesave_div{
+	height: 50px;
+	line-height: 50px;
+	margin-top: 100px;
+}
+
+#wg_apiBaseMulit .etccode{
+	width:154px;
+}
+
+#wg_apiBaseMulit .etcname{
+	width:154px;
+}
+
+#wg_apiBaseMulit .funtype{
+	width:154px;
+}
+
+#wg_apiBaseMulit .reqfmt{
+	width:158px;
+}
+
+#wg_apiBaseMulit .respfmt{
+	width:158px;
+}
+
+#wg_apiBaseMulit .startdate{
+	cursor: pointer; 
+	width: 152px; 
+	background-color: white;
+}
+
+#wg_apiBaseMulit .enddate{
+	cursor: pointer; 
+	width: 152px; 
+	background-color: white;
+}
+
+#wg_apiBaseMulit .fflx_th{
+	width: 10%;
+}
+
+#wg_apiBaseMulit .ffs_th{
+	width: 5%;
+}
+
+#wg_apiBaseMulit .qyzt_th{
+	width: 6%;
+}
+
+#wg_apiBaseMulit .cjsj_th{
+	width: 10%;
+}
+
+#wg_apiBaseMulit .xgsj_th{
+	width: 10%;
+}
+
+#wg_apiBaseMulit .cz_th{
+	width: 12%;
+}
+
+#wg_apiBaseMulit .status_td{
+	width:120px;
+}
+
+#wg_apiBaseMulit .tmplDiv{
+	padding:5px 0 5px 5px;
+	display:none;
+	height:755px;
+}
+
+#wg_apiBaseMulit .tempFrame{
+	width:1180px;
+	height:685px;
+	border: 0;
+}
+
+#wg_apiBaseMulit .custDiv{
+	padding:5px 0 5px 5px;
+	display:none;
+	height:460px;
+}
+
+#wg_apiBaseMulit .custFrame_1{
+	width:740px;
+	height:460px;
+	border: 0;
+}
+
+#wg_apiBaseMulit .custFrame_2{
+	width:635px;
+	height:460px;
+	border: 0;
+}
+

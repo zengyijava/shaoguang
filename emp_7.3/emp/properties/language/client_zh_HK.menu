@@ -1,0 +1,122 @@
+##短信客服-移动客服
+##客户通讯录管理
+##公共标识
+client_common_text_permissiondenied=You do not have the authority of the client, can not operate the module, if in doubt please contact the administrator!
+client_common_text_all=All
+client_common_text_yes=Yes
+client_common_text_no=No
+client_common_text_norecord=No data
+client_common_text_select=Please choose
+client_common_text_opt=Operation
+client_common_text_org=Organization
+##公共操作
+client_common_opt_export=Export
+client_common_opt_delete=Delete
+client_common_opt_confire=OK
+client_common_opt_cancel=Cancel
+client_common_opt_gobak=Back to previous
+client_common_opt_emptiy=Client
+client_common_opt_back=Back
+client_common_opt_uploadfile=Select upload file
+client_common_opt_modify=Edit
+##客户通讯录标识
+client_khtxlgl_kftxl_text_addressbook=ClientAddressBook
+client_khtxlgl_kftxl_text_clientorg=Client organization
+client_khtxlgl_kftxl_text_name=Name
+client_khtxlgl_kftxl_text_phone=Phone
+client_khtxlgl_kftxl_text_signuser=Sign user
+client_khtxlgl_kftxl_text_appaccount=APP user account
+client_khtxlgl_kftxl_text_appstatus=APP Status
+client_khtxlgl_kftxl_text_registered=Registered
+client_khtxlgl_kftxl_text_unregistered=Unregistered
+client_khtxlgl_kftxl_text_jobnumber=Job number
+client_khtxlgl_kftxl_text_singdetail=Signing details
+client_khtxlgl_kftxl_text_orgname=Organization name
+client_khtxlgl_kftxl_text_orgcode=Organization code
+client_khtxlgl_kftxl_text_nikename=Nickname
+client_khtxlgl_kftxl_text_useraccount=User account
+client_khtxlgl_kftxl_text_phonenum=Cellphone number
+client_khtxlgl_kftxl_text_age=Age
+client_khtxlgl_kftxl_text_regtime=Registration time
+##客户通讯录操作
+client_khtxlgl_kftxl_opt_newclient=Add
+client_khtxlgl_kftxl_opt_deleteclient=Delete
+##新建客户
+client_khtxlgl_kftxl_text_addclient=Add a client
+client_khtxlgl_kftxl_text_addsingle=Single add
+client_khtxlgl_kftxl_text_addbatch=Batch Import
+client_khtxlgl_kftxl_text_clientnumber=Client ID
+client_khtxlgl_kftxl_text_birthday=Birthday
+client_khtxlgl_kftxl_text_sex=Gender
+client_khtxlgl_kftxl_text_unknown=Unknown
+client_khtxlgl_kftxl_text_man=Male
+client_khtxlgl_kftxl_text_woman=Female
+client_khtxlgl_kftxl_text_affiliation=Organization
+client_khtxlgl_kftxl_text_clickselectorg=Click to select the organization
+client_khtxlgl_kftxl_text_clientdes=Description
+client_khtxlgl_kftxl_text_landline=Telphone
+client_khtxlgl_kftxl_text_fax=Fax
+client_khtxlgl_kftxl_text_duties=Position
+client_khtxlgl_kftxl_text_industry=Industry
+client_khtxlgl_kftxl_text_accountmanager=Client Manager
+client_khtxlgl_kftxl_text_belongarea=Belonged area
+client_khtxlgl_kftxl_text_downmodel=Support for uploading Excel files. Click to download the upload template
+client_khtxlgl_kftxl_text_filterheavy=Filter heavy
+client_khtxlgl_kftxl_text_filter=Filter
+client_khtxlgl_kftxl_text_notfilter=Not filter
+client_khtxlgl_kftxl_text_selectfilter=Select the filter, then the phone number of the same record will be filtered out
+client_khtxlgl_kftxl_text_automaticupdates=System will automatically update records with same name and mobile phone in the same organization.
+client_khtxlgl_kftxl_text_filemaxsize=Excel 2017 maximally supports 200 thousand data in single uploading.
+client_khtxlgl_kftxl_text_usermax=Client address book apply to business management for menbership,client information.No limitation,the proposed control should be within 3 million.
+client_khtxlgl_kftxl_text_exportmodel=Export excel templates
+client_khtxlgl_kftxl_text_2003model=2003
+client_khtxlgl_kftxl_text_2007model=2007
+client_khtxlgl_kftxl_text_affiliatedoperator=Operator
+##修改客户
+client_khtxlgl_kftxl_text_modifyclient=Edit the client
+##通讯录权限管理
+client_khtxlgl_txlqxgl_text_clientorg=Client organization
+client_khtxlgl_txlqxgl_text_selectedorg=Current organization：
+client_khtxlgl_txlqxgl_text_optname=Operator
+client_khtxlgl_txlqxgl_text_bindPermission=Permission binding
+client_khtxlgl_txlqxgl_text_jurisdiction=Organization
+client_khtxlgl_txlqxgl_text_curorg=Current organization
+##客户属性管理
+client_khtxlgl_khssgl_text_clientattributes=Client attributes
+client_khtxlgl_khssgl_text_attrval=Attribute value
+client_khtxlgl_khssgl_text_addattr=Add attribute
+client_khtxlgl_khssgl_text_attrname=Attribute name
+client_khtxlgl_khssgl_text_attrtype=Attribute type
+client_khtxlgl_khssgl_text_singleoption=Single option
+client_khtxlgl_khssgl_text_multipleoptions=Multiple options
+client_khtxlgl_khssgl_text_modifyattr=Edit the attribute
+client_khtxlgl_khssgl_opt_addattributes=Add
+client_khtxlgl_khssgl_opt_delattributes=Delete
+client_khtxlgl_khssgl_opt_modifyattrval=Edit the attribute value
+
+client_khtxlgl_txl_1=Radio
+client_khtxlgl_txl_2=Check
+client_khtxlgl_txl_3=(Option)
+client_khtxlgl_txl_4=Client upload template
+
+##
+client_khtxlgl_temp_text_signpackage=Sign the package
+client_khtxlgl_temp_text_signaccount=Signed account number
+client_khtxlgl_temp_text_signtime=Signing time
+client_khtxlgl_temp_text_freezetime=Cancel sign / freeze time
+client_khtxlgl_temp_text_signstatus=Contract status
+client_khtxlgl_temp_text_sign=Signed
+client_khtxlgl_temp_text_cancelsign=Canceled sign up
+client_khtxlgl_temp_text_freezen=Has been frozen
+##
+client_khtxlgl_txl_upload_1=No.
+client_khtxlgl_txl_upload_2=Row
+client_khtxlgl_txl_upload_3=Name is empty or more than 60 characters
+client_khtxlgl_txl_upload_4=Phone number is empty
+client_khtxlgl_txl_upload_5=Mobile phone number illegal
+client_khtxlgl_txl_upload_6=Name and phone numbers are duplicated
+##批量上传成功提示
+client_upload_success=Successfully uploaded
+client_record_number=records
+client_record_count=records
+client_grep_number=grep number：

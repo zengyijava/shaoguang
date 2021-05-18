@@ -1,0 +1,51 @@
+#par_editRoute .sign {
+	width: 260px;
+}
+
+#par_editRoute .rContent2 {
+	padding: 5px;
+}
+
+#par_editRoute .xgdcspzhly_table {
+	width: 438px;
+}
+
+#par_editRoute .detail_Info {
+	padding-left: 40px;
+	width: 610px;
+}
+
+#par_editRoute .userType_table{
+	width:90%; 
+	height:100%; 
+	font-size: 12px;
+	line-height: 40px !important; 
+	line-height: 30px;
+}
+
+#par_editRoute .userType_up_td{
+	width:150px;
+}
+
+#par_editRoute .select_wd{
+	width:265px;
+}
+
+#par_editRoute .userType_table_input{
+	background-color: #E8E8E8;
+	width:260px;
+}
+
+#par_editRoute .dxqmm_tr{
+	display: none;
+}
+
+#par_editRoute .table_input2{
+	width:260px;
+}
+
+#par_editRoute .btn_div{
+	width:410px;
+	text-align:right;
+}
+

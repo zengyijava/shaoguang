@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+
+	<listener> 
+        <listener-class>com.montnets.emp.netnews.listener.TimerListener</listener-class> 
+	</listener>
+	<filter>
+		<description>动态地址静态化过滤器</description>
+		<display-name>动态地址静态化过滤器</display-name>
+        <filter-name>UrlRewriteFilter</filter-name>
+        <filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
+        <init-param>   
+		   <param-name>logLevel</param-name>   
+		   <param-value>WARN</param-value>   
+		</init-param>
+	</filter>
+	<filter-mapping>
+        <filter-name>UrlRewriteFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	<filter>
+		<description>网讯文件判断</description>
+		<display-name>网讯文件判断</display-name>
+        <filter-name>FileExitFilter</filter-name>
+        <filter-class>com.montnets.emp.common.filter.FileExitFilter</filter-class>
+        <init-param>   
+		   <param-name>logLevel</param-name>   
+		   <param-value>WARN</param-value>   
+		</init-param>
+	</filter>
+	<filter-mapping>
+        <filter-name>FileExitFilter</filter-name>
+        <url-pattern>/file/wx/mater/*</url-pattern>
+	</filter-mapping>
+  
+  <servlet>
+	    <description>移动网讯</description>
+	    <display-name>业务数据</display-name>
+	    <servlet-name>wx_trustdataSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.netnews.servlet.wx_trustDataSvt</servlet-class>
+	  </servlet>
+	
+	<servlet-mapping>
+		<servlet-name>wx_trustdataSvt</servlet-name>
+		<url-pattern>/wx_trustdata.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+    	<description>创建网讯</description>
+    	<display-name>创建网讯</display-name>
+    	<servlet-name>wx_ueditorServlet</servlet-name>
+   		<servlet-class>com.montnets.emp.netnews.servlet.wx_ueditorServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>wx_ueditorServlet</servlet-name>
+    	<url-pattern>/wx_ueditor.htm</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+    	<description>互动数据交互</description>
+    	<display-name>互动数据交互</display-name>
+    	<servlet-name>wx_interSvt</servlet-name>
+   		<servlet-class>com.montnets.emp.netnews.common.servlet.wx_interSvt</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>wx_interSvt</servlet-name>
+    	<url-pattern>/wx_inter.hts</url-pattern>
+  	</servlet-mapping>
+	
+  	
+  	<servlet>
+    	<description>管理网讯</description>
+    	<display-name>管理网讯</display-name>
+    	<servlet-name>wx_netMangerServlet</servlet-name>
+   		<servlet-class>com.montnets.emp.netnews.servlet.wx_netMangerServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>wx_netMangerServlet</servlet-name>
+    	<url-pattern>/wx_manger.htm</url-pattern>
+  	</servlet-mapping>
+	
+	<servlet>
+		<description>生成网讯Wap页面</description>
+		<display-name>生成网讯Wap页面</display-name>
+		<servlet-name>wx_getNetServlet</servlet-name>
+		<servlet-class>com.montnets.emp.netnews.common.servlet.wx_getNetServlet</servlet-class>
+	</servlet>
+  	<servlet-mapping>
+		<servlet-name>wx_getNetServlet</servlet-name>
+		<url-pattern>/wx.nms</url-pattern>
+	</servlet-mapping>
+	
+	<!-- chensj 网讯素材 -->
+	<servlet>
+    	<servlet-name>wx_netAttachedServlet</servlet-name>
+   		<servlet-class>com.montnets.emp.netnews.servlet.wx_netAttachedServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>wx_netAttachedServlet</servlet-name>
+    	<url-pattern>/wx_attached.htm</url-pattern>
+  	</servlet-mapping>
+  	<servlet>
+    	<description>文件上传</description>
+    	<servlet-name>FileUploadServlet</servlet-name>
+   		<servlet-class>com.montnets.emp.netnews.servlet.FileUploadServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>FileUploadServlet</servlet-name>
+    	<url-pattern>/FileUpload.htm</url-pattern>
+  	</servlet-mapping>
+  	<servlet>
+    	<description>视频上传</description>
+    	<servlet-name>VedFileUploadServlet</servlet-name>
+   		<servlet-class>com.montnets.emp.netnews.servlet.VedFileUploadServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>VedFileUploadServlet</servlet-name>
+    	<url-pattern>/VedFileUpload.htm</url-pattern>
+  	</servlet-mapping>
+  	<!-- 结束 -->
+  	
+  	<!--问卷管理 -->
+	<servlet>
+    	<servlet-name>wx_surveySvt</servlet-name>
+   		<servlet-class>com.montnets.emp.netnews.servlet.wx_surveySvt</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>wx_surveySvt</servlet-name>
+    	<url-pattern>/wx_survey.htm</url-pattern>
+  	</servlet-mapping>
+  	<!-- 问卷管理结束 -->
+
+	<servlet>
+	    <description>移动网讯</description>
+	    <display-name>网讯模板</display-name>
+	    <servlet-name>wx_templateSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.wxmanager.servlet.wx_templateSvt</servlet-class>
+	  </servlet>
+	
+	<servlet-mapping>
+		<servlet-name>wx_templateSvt</servlet-name>
+		<url-pattern>/wx_template.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    	<description>网讯审核</description>
+    	<display-name>网讯审核</display-name>
+    	<servlet-name>wx_checkSvt</servlet-name>
+   		<servlet-class>com.montnets.emp.wxmanager.servlet.wx_checkSvt</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>wx_checkSvt</servlet-name>
+    	<url-pattern>/wx_check.htm</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+    	<description>运营商审核</description>
+    	<display-name>运营商审核</display-name>
+    	<servlet-name>wx_operAppSvt</servlet-name>
+   		<servlet-class>com.montnets.emp.wxmanager.servlet.wx_operAppSvt</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>wx_operAppSvt</servlet-name>
+    	<url-pattern>/wx_operApp.htm</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+    	<description>发送网讯</description>
+    	<display-name>发送网讯</display-name>
+    	<servlet-name>wx_sendrSvt</servlet-name>
+   		<servlet-class>com.montnets.emp.netnews.servlet.wx_sendrSvt</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>wx_sendrSvt</servlet-name>
+    	<url-pattern>/wx_send.htm</url-pattern>
+  	</servlet-mapping>
+  	<servlet>
+    	<description>个性网讯</description>
+    	<display-name>个性网讯</display-name>
+    	<servlet-name>wx_sendDSMSvt</servlet-name>
+   		<servlet-class>com.montnets.emp.netnews.servlet.wx_sendDSMSvt</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>wx_sendDSMSvt</servlet-name>
+    	<url-pattern>/wx_senddsm.htm</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+    	<description>网讯统计</description>
+    	<display-name>网讯统计</display-name>
+    	<servlet-name>wx_netCountServlet</servlet-name>
+   		<servlet-class>com.montnets.emp.netnews.servlet.wx_netCountServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>wx_netCountServlet</servlet-name>
+    	<url-pattern>/wx_count.htm</url-pattern>
+  	</servlet-mapping>
+  	<servlet>
+    	<description>网讯访问统计</description>
+    	<display-name>网讯访问统计</display-name>
+    	<servlet-name>wx_netVisitServlet</servlet-name>
+   		<servlet-class>com.montnets.emp.netnews.servlet.wx_netVisitServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>wx_netVisitServlet</servlet-name>
+    	<url-pattern>/wx_visitreport.htm</url-pattern>
+  	</servlet-mapping>
+	<servlet>
+    	<description>网讯发送查询</description>
+    	<servlet-name>wx_taskReportServlet</servlet-name>
+   		<servlet-class>com.montnets.emp.netnews.servlet.wx_taskReportServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>wx_taskReportServlet</servlet-name>
+    	<url-pattern>/wx_taskreport.htm</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+    	<description>网讯群发历史</description>
+    	<servlet-name>wx_wmsSendedBoxSvt</servlet-name>
+   		<servlet-class>com.montnets.emp.netnews.servlet.wx_smsSendedBoxSvt</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>wx_wmsSendedBoxSvt</servlet-name>
+    	<url-pattern>/wx_wmsTaskRecord.htm</url-pattern>
+  	</servlet-mapping>
+  	
+  	

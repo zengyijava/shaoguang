@@ -1,0 +1,96 @@
+ydcw_button_1=Submit
+ydcw_button_2=Cancel
+ydcw_button_3=Reset
+ydcw_button_4=Send
+ydcw_button_5=Save
+ydcw_button_6=Close
+
+
+
+
+
+ydcw_title_1=Content:
+ydcw_title_2=Please select a template
+ydcw_title_3=Data import:
+ydcw_title_4=Upload
+ydcw_title_5=Manual input
+ydcw_title_6=Format
+ydcw_title_7=Records
+ydcw_title_8=Edit
+ydcw_title_9=Delete
+ydcw_title_10=Send time:
+ydcw_title_11=Immediately
+ydcw_title_12=Timed
+ydcw_title_13=Advanced
+ydcw_title_14=Business type:
+ydcw_title_15=Reply set:
+ydcw_title_16=No reply
+ydcw_title_17=This task
+ydcw_title_18=My tail number
+ydcw_title_19=Current tail number:
+ydcw_title_20=File format as shown:
+ydcw_title_21=txt format:
+ydcw_title_22=xls format:
+ydcw_title_23=Note:
+ydcw_title_24=1.Use comma "," as separator;
+ydcw_title_25=2. The number of valid numbers should be less than 500,000.
+ydcw_title_26=In the process, please wait .....
+ydcw_title_27=Preview effect
+ydcw_title_28=Send the number of:
+ydcw_title_29=Balance:
+ydcw_title_30=Valid number:
+ydcw_title_31=Number of submissions:
+ydcw_title_32=Invalid number
+ydcw_title_33=Blacklist number：
+ydcw_title_34=Download details
+ydcw_title_35=Repeated number：
+ydcw_title_36=Illegal format：
+ydcw_title_37=Include keywords：
+ydcw_title_38=Partial preview：
+ydcw_title_39=Number
+ydcw_title_40=Phone
+ydcw_title_41=Message
+ydcw_title_42=Prompt
+ydcw_title_43=Send to gateway success!
+ydcw_title_44=View the send record
+ydcw_title_45=Balance is not allowed to send!
+ydcw_title_46=Option saved as default
+ydcw_title_47=Organization balance:
+ydcw_title_48=SP account balance:
+ydcw_title_49=SMS preview of mobile finance
+
+
+ydcw_ErrorCode_ECWD100=Failed to load number segment！
+ydcw_ErrorCode_ECWV101=Failed to upload file due to empty content！
+ydcw_ErrorCode_ECWB102=Template param or document param is wrong！
+ydcw_ErrorCode_ECWB103=Getting authentication code exception！
+ydcw_ErrorCode_ECWV104=Initializing financial template or SP account exception！
+ydcw_ErrorCode_ECWV105=Importing form collections exception！
+ydcw_ErrorCode_ECWV106=Upload file type error, please upload TXT/XLS type file！
+ydcw_ErrorCode_ECWV107=Electronic payroll text messages sending exceptions！
+ydcw_ErrorCode_ECWV108=Failed to generate verification code！
+ydcw_ErrorCode_ECWB109=Gateway connection exception！
+ydcw_ErrorCode_ECWB110=Electronic payroll task creation exception！
+ydcw_ErrorCode_ECWB111=Message content is encrypted with an exception！
+ydcw_ErrorCode_ECWV112=SMS messages sending number exceed the upper limit！
+ydcw_ErrorCode_ECWV113=Reimbursement reminder SMS sending exception！
+ydcw_ErrorCode_ECWV114=Returned money  message sending exception！
+ydcw_ErrorCode_ECWV115=Manual entry data message send exception！
+ydcw_ErrorCode_RESULT_FORMAT=The number format is abnormal or the content length exceeds the limit！
+ydcw_ErrorCode_RESULT_BLACKLIST=All sender's number are on the blacklist！
+ydcw_ErrorCode_RESULT_KEYWORDS=The sending content contains keywords！
+ydcw_ErrorCode_RESULT_EFFS=Please check whether the sending number contains blacklist or content contains keywords！
+ydcw_ErrorCode_CONNECT_EXEC=Failed to send a request to the gateway：
+ydcw_ErrorCode_TEMPLATE_ERROR=Gateway connection exception！
+ydcw_ErrorCode_PREVIEW_ERROR=Preview exception！
+ydcw_ErrorCode_error_code=Error code：
+ydcw_ErrorCode_repeat_submit_stirng=Failed to complete SMS sending task！
+ydcw_ErrorCode_SMSBalance=SMS balance is insufficient！
+ydcw_ErrorCode_ExpandedTail=Failed to handle expanded tail！
+ydcw_ErrorCode_GetOperatorBalance=Failed to obtain operator balance！
+ydcw_ErrorCode_OperatorBalance=Failed to deduction due to insufficient operator balance！
+ydcw_ErrorCode_SPBalance=Failed to deduction due to insufficient SP balance！
+ydcw_ErrorCode_SMSTimingTask=Succeed in creating SMS timing task！
+ydcw_defaultBusiness=Default business
+ydcx_common_text_1=Not sent as SMS content
+

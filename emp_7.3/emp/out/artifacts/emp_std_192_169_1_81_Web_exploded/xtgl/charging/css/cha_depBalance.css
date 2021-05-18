@@ -1,0 +1,19 @@
+#cha_depBalance .tree2{
+	width: inherit;
+}
+
+#cha_depBalance .rMenu{
+	position: absolute; 
+	top: 160px; 
+	left: 102px;
+	border:1px solid #999999;
+	visibility: visible;
+	display:none;
+	background-color: #EDEDED;
+}
+
+#cha_depBalance .rMenu_div{
+	margin:2px 5px;
+	background-color: #EFEFEF;
+	border:1px solid #AAA;
+}

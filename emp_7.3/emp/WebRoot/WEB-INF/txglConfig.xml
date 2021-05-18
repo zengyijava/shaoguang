@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+	<servlet>
+		<description>通道运行参数配置</description>
+		<display-name>网关后端配置</display-name>
+		<servlet-name>gat_spgateSvt</servlet-name>
+		<servlet-class>com.montnets.emp.gateway.servlet.gat_spgateSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>网关运行参数配置</description>
+		<display-name>网关后端配置</display-name>
+		<servlet-name>gat_webgateSvt</servlet-name>
+		<servlet-class>com.montnets.emp.gateway.servlet.gat_webgateSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>通道管理</description>
+		<display-name>网关后端配置</display-name>
+		<servlet-name>pas_passageSvt</servlet-name>
+		<servlet-class>com.montnets.emp.passage.servlet.pas_passageSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>网关后端配置</description>
+		<display-name>通道账户管理</display-name>
+		<servlet-name>gat_userdataSvt</servlet-name>
+		<servlet-class>com.montnets.emp.gateway.servlet.gat_userdataSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>通道账号监控</description>
+		<display-name>通道账号监控</display-name>
+		<servlet-name>mon_accountGateMonitorSvt</servlet-name>
+		<servlet-class>com.montnets.emp.monitorpas.servlet.mon_accountGateMonitorSvt</servlet-class>
+	</servlet>
+	
+	<!-- 
+	 <servlet>
+		<description>发送账号监控</description>
+		<display-name>发送账号监控</display-name>
+		<servlet-name>mon_accountAccessMonitorSvt</servlet-name>
+		<servlet-class>com.montnets.emp.monitorsp.servlet.mon_accountAccessMonitorSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>系统运行监控</description>
+		<display-name>系统运行监控</display-name>
+		<servlet-name>mon_systemRuntimerMonitorSvt</servlet-name>
+		<servlet-class>com.montnets.emp.monitorsys.servlet.mon_systemRuntimerMonitorSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mon_accountGateMonitorSvt</servlet-name>
+		<url-pattern>/mon_accountGateMonitor.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>mon_accountAccessMonitorSvt</servlet-name>
+		<url-pattern>/mon_accountAccessMonitor.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>mon_systemRuntimerMonitorSvt</servlet-name>
+		<url-pattern>/mon_systemRuntimerMonitor.htm</url-pattern>
+	</servlet-mapping>
+	 -->
+
+	<servlet-mapping>
+		<servlet-name>gat_spgateSvt</servlet-name>
+		<url-pattern>/gat_spgate.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>pas_passageSvt</servlet-name>
+		<url-pattern>/pas_passage.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>gat_webgateSvt</servlet-name>
+		<url-pattern>/gat_webgate.htm</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping>
+		<servlet-name>gat_userdataSvt</servlet-name>
+		<url-pattern>/gat_userdata.htm</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	<description>短彩SP账户</description>
+	<display-name>网关前端配置</display-name>
+	<servlet-name>pag_userDataSvt</servlet-name>
+	<servlet-class>com.montnets.emp.pasgroup.servlet.pag_userDataSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>pag_userDataSvt</servlet-name>
+		<url-pattern>/pag_userData.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+	<description>代理账号管理</description>
+	<display-name>网关前端配置</display-name>
+	<servlet-name>pag_proxyMageSvt</servlet-name>
+	<servlet-class>com.montnets.emp.pasgroup.servlet.pag_proxyMageSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>pag_proxyMageSvt</servlet-name>
+		<url-pattern>/pag_proxyMage.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+	<description>账户通道配置</description>
+	<display-name>网关前端配置</display-name>
+	<servlet-name>par_routeSvt</servlet-name>
+	<servlet-class>com.montnets.emp.pasroute.servlet.par_routeSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>par_routeSvt</servlet-name>
+		<url-pattern>/par_route.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<description>SP账号充值/回收</description>
+	<display-name>网关前端配置</display-name>
+	<servlet-name>spb_spBalanceMgrSvt</servlet-name>
+	<servlet-class>com.montnets.emp.spbalance.servlet.spb_spBalanceMgrSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>spb_spBalanceMgrSvt</servlet-name>
+		<url-pattern>/spb_spBalanceMgr.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+	<description>SP账户绑定</description>
+	<display-name>网关前端配置</display-name>
+	<servlet-name>pgb_spBindSvt</servlet-name>
+	<servlet-class>com.montnets.emp.pasgrpbind.servlet.pgb_spBindSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>pgb_spBindSvt</servlet-name>
+		<url-pattern>/pgb_spBind.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<description>号段管理</description>
+	<display-name>网关前端配置</display-name>
+	<servlet-name>seg_phoneNoSvt</servlet-name>
+	<servlet-class>com.montnets.emp.segnumber.servlet.seg_phoneNoSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>seg_phoneNoSvt</servlet-name>
+		<url-pattern>/seg_phoneNo.htm</url-pattern>
+	</servlet-mapping>
+	
+	
+  	<servlet>
+    <description>上行指令绑定</description>
+    <display-name>上行指令绑定</display-name>
+    <servlet-name>pag_orderBindSvt</servlet-name>
+    <servlet-class>com.montnets.emp.pasgroup.servlet.pag_orderBindSvt</servlet-class>
+ 	</servlet>
+	<servlet-mapping>
+	<servlet-name>pag_orderBindSvt</servlet-name>
+	<url-pattern>/pag_orderBind.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>黑名单</description>
+		<display-name>参数维护</display-name>
+		<servlet-name>bla_blacklistSvt</servlet-name>
+		<servlet-class>com.montnets.emp.servmodule.txgl.blacklist.servlet.bla_blacklistSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>bla_blacklistSvt</servlet-name>
+		<url-pattern>/bla_blacklistSvt.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>彩信黑名单</description>
+		<display-name>参数维护</display-name>
+		<servlet-name>bla_mmsblacklistSvt</servlet-name>
+		<servlet-class>com.montnets.emp.servmodule.txgl.blacklist.servlet.bla_mmsblacklistSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>bla_mmsblacklistSvt</servlet-name>
+		<url-pattern>/bla_mmsblacklistSvt.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <description>关键字管理</description>
+	    <display-name>关键字管理</display-name>
+	    <servlet-name>key_keywordServlet</servlet-name>
+	    <servlet-class>com.montnets.emp.servmodule.txgl.keywords.servlet.key_keywordSvt</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+		<servlet-name>key_keywordServlet</servlet-name>
+		<url-pattern>/key_keywordSvt.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<description>运营商号段管理</description>
+	<display-name>网关前端配置</display-name>
+	<servlet-name>seg_areaPhoneNoSvt</servlet-name>
+	<servlet-class>com.montnets.emp.areaphno.servlet.seg_areaPhoneNoSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>seg_areaPhoneNoSvt</servlet-name>
+		<url-pattern>/seg_areaPhoneNo.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<description>SP账号充值日志查看</description>
+	<display-name>SP账号充值日志查看</display-name>
+	<servlet-name>SPBalanceLogSvt</servlet-name>
+	<servlet-class>com.montnets.emp.spbalance.servlet.SPBalanceLogSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SPBalanceLogSvt</servlet-name>
+		<url-pattern>/sp_balanceLog.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>mwadmin登录</description>
+		<display-name>通道账号参数设置</display-name>
+		<servlet-name>mwg_userdataSvt</servlet-name>
+		<servlet-class>com.montnets.emp.gateway.servlet.mwg_userdataSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mwg_userdataSvt</servlet-name>
+		<url-pattern>/mwg_userdata.htm</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<description>mwadmin登录接入SP账号参数设置</description>
+		<display-name>接入SP账号参数设置</display-name>
+		<servlet-name>mwp_userDataSvt</servlet-name>
+		<servlet-class>com.montnets.emp.pasgroup.servlet.mwp_userDataSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mwp_userDataSvt</servlet-name>
+		<url-pattern>/mwp_userData.htm</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+	<description>API接口参数管理</description>
+	<display-name>API接口参数管理</display-name>
+	<servlet-name>ApiParaSvt</servlet-name>
+	<servlet-class>com.montnets.emp.apimanage.servlet.wg_apiParaSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ApiParaSvt</servlet-name>
+		<url-pattern>/wg_apiPara.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<description>API个性化配置</description>
+	<display-name>API个性化配置</display-name>
+	<servlet-name>wg_apiBaseSvt</servlet-name>
+	<servlet-class>com.montnets.emp.apimanage.servlet.wg_apiBaseSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>wg_apiBaseSvt</servlet-name>
+	<url-pattern>/wg_apiBaseMage.htm</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+	<description>API推送用户回应管理</description>
+	<display-name>API推送用户回应管理</display-name>
+	<servlet-name>wg_pushRsProtocolSvt</servlet-name>
+	<servlet-class>com.montnets.emp.apimanage.servlet.wg_pushRsProtocolSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>wg_pushRsProtocolSvt</servlet-name>
+	<url-pattern>/wg_pushRsProtocol.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<description>接入账号查看权限</description>
+	<display-name>接入账号查看权限</display-name>
+	<servlet-name>pgb_accessPriSvt</servlet-name>
+	<servlet-class>com.montnets.emp.accountpower.servlet.pgb_accessPriSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>pgb_accessPriSvt</servlet-name>
+	<url-pattern>/pgb_accessPri.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<description>富信平台</description>
+	<display-name>计费档位管理</display-name>
+	<servlet-name>tx_degreeManagerSvt</servlet-name>
+	<servlet-class>com.montnets.emp.degree.servlet.rms_degreeManagerSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>tx_degreeManagerSvt</servlet-name>
+		<url-pattern>/tx_degreeManager.htm</url-pattern>
+	</servlet-mapping>
+
+	<!-- 新增企业富信权限模块管理 -->
+	<servlet>
+		<description>企业富信权限管理</description>
+		<servlet-name>tx_corManagerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.txgl.corpmanage.servlet.cor_managerSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>tx_corManagerSvt</servlet-name>
+		<url-pattern>/tx_corManager.htm</url-pattern>
+	</servlet-mapping>

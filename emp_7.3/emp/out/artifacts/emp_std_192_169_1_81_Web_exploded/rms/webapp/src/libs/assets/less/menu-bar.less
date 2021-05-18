@@ -1,0 +1,107 @@
+@import "variables";
+
+.menu-bar {
+  display: table-cell;
+  text-align: center;
+  li {
+    color: #cdd0d7;
+    cursor: pointer;
+    vertical-align: middle;
+    &:hover {
+      color: #fff;
+      .icon-text {
+        background-image: url('../../assets/img/nav-bar/text_choice_icon.png');
+      }
+      .icon-picture {
+        background-image: url('../../assets/img/nav-bar/picture_choice_icon.png');
+      }
+      .icon-music {
+        background-image: url('../../assets/img/nav-bar/music_choice_icon.png');
+      }
+      .icon-video {
+        background-image: url('../../assets/img/nav-bar/video_choice_icon.png');
+      }
+      .icon-button {
+        background-image: url('../../assets/img/nav-bar/button_choice_icon.png');
+      }
+      .icon-code {
+        background-image: url('../../assets/img/nav-bar/code_choice_icon.png');
+      }
+      .icon-chart {
+        background-image: url('../../assets/img/nav-bar/chart_choice_icon.png');
+      }
+      .icon-card {
+        background-image: url('../../assets/img/nav-bar/card_choice_icon.png');
+      }
+      .icon-bg{
+        background-image: url('../img/nav-bar/bg_choice_icon.png');
+      }
+    }
+    & + li {
+      margin-left: 50px;
+    }
+    i {
+      display: block;
+      &.iconfont {
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    .icon-text {
+      background-image: url('../../assets/img/nav-bar/text_default_icon.png');
+    }
+    .icon-picture {
+      background-image: url('../../assets/img/nav-bar/picture_default_icon.png');
+    }
+    .icon-music {
+      background-image: url('../../assets/img/nav-bar/music_default_icon.png');
+    }
+    .icon-video {
+      background-image: url('../../assets/img/nav-bar/video_default_icon.png');
+    }
+    .icon-button {
+      background-image: url('../../assets/img/nav-bar/button_default_icon.png');
+    }
+    .icon-code {
+      background-image: url('../../assets/img/nav-bar/code_default_icon.png');
+    }
+    .icon-chart {
+      background-image: url('../../assets/img/nav-bar/chart_default_icon.png');
+    }
+    .icon-card {
+      background-image: url('../../assets/img/nav-bar/card_default_icon.png');
+    }
+    .icon-bg{
+      background-image: url('../../assets/img/nav-bar/bg_default_icon.png');
+    }
+  }
+  .btn-card {
+    width: 100px;
+    height: 35px;
+    border: solid 1px @nav-bar-grey;
+    vertical-align: middle;
+
+    &:hover {
+      .icon-card {
+        background-image: url('../../assets/img/nav-bar/card_choice_icon.png');
+      }
+    }
+    .icon-card {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+      background-image: url('../../assets/img/nav-bar/card_default_icon.png');
+    }
+    .text {
+      display: inline-block;
+      height: 20px;
+      line-height: 35px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+#cha_balanceMgr .depTree_div{
+	height:425px;
+	WIDTH: 97%;
+	OVERFLOW-Y:YES;
+	OVERFLOW:auto
+}
+
+#cha_balanceMgr .tableInfo_up_div{
+	display:none;
+}

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+
+	<servlet>
+		<servlet-name>AppWgListener</servlet-name>
+		<servlet-class>com.montnets.emp.appmage.listener.AppWgListener</servlet-class>
+		<load-on-startup>13</load-on-startup>
+	</servlet>
+	
+	<servlet>
+		<description>APP信息发送</description>
+		<display-name>APP管理</display-name>
+		<servlet-name>app_msgsendSvt</servlet-name>
+		<servlet-class>com.montnets.emp.appmage.svt.app_msgSendSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>app_msgsendSvt</servlet-name>
+		<url-pattern>/app_msgsend.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	    <description>APP上行记录</description>
+	    <display-name>APP上行记录</display-name>
+	    <servlet-name>app_morecordselectSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.appmage.svt.app_morecordselectSvt</servlet-class>
+	</servlet>
+  	
+	<filter>
+	    <description>APP首页编辑中图片资源加载过滤器</description>
+	    <display-name>APP首页编辑中图片资源加载过滤器（对于本地不存在的图片 先从文件服务器下载 ）</display-name>
+		<filter-name>apphomeImgLoad</filter-name>
+		<filter-class>com.montnets.emp.appmage.filter.AppHomeImgLoaderFilter</filter-class>
+	</filter>
+	<filter-mapping>
+  		<filter-name>apphomeImgLoad</filter-name>
+		<url-pattern>/file/apphome/*</url-pattern>
+	</filter-mapping>
+  
+	<servlet>
+	    <description>APP首页编辑</description>
+	    <display-name>APP首页编辑</display-name>
+	    <servlet-name>app_homeeditSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.appmage.svt.app_homeeditSvt</servlet-class>
+  	</servlet>
+  	
+	<servlet-mapping>
+		<servlet-name>app_morecordselectSvt</servlet-name>
+		<url-pattern>/app_morecordselect.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>app_homeeditSvt</servlet-name>
+		<url-pattern>/app_homeedit.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <description>APP发送任务查询</description>
+	    <display-name>APP发送任务查询</display-name>
+	    <servlet-name>app_mttaskselect</servlet-name>
+	    <servlet-class>com.montnets.emp.appmage.svt.app_mttaskselectSvt</servlet-class>
+  	</servlet>
+
+	<servlet-mapping>
+	    <servlet-name>app_mttaskselect</servlet-name>
+	    <url-pattern>/app_mttaskselect.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<description>APP公众帐号管理</description>
+	<display-name>APP公众帐号管理</display-name>
+	<servlet-name>acctManagerSvt</servlet-name>
+	<servlet-class>com.montnets.emp.appmage.svt.app_acctManagerSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>acctManagerSvt</servlet-name>
+	<url-pattern>/app_acctmanager.htm</url-pattern>
+</servlet-mapping>
+<servlet>
+	<description>APP客户管理</description>
+	<display-name>APP客户管理</display-name>
+	<servlet-name>app_climanagerSvt</servlet-name>
+	<servlet-class>com.montnets.emp.appmage.svt.app_climanagerSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>app_climanagerSvt</servlet-name>
+	<url-pattern>/app_climanager.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>APP客户端下载</description>
+	<display-name>APP客户端下载</display-name>
+	<servlet-name>clidownloadSvt</servlet-name>
+	<servlet-class>com.montnets.emp.appmage.svt.app_clidownloadSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>clidownloadSvt</servlet-name>
+	<url-pattern>/app_clidownload.htm</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<description>APP客户群组</description>
+	<display-name>APP客户群组</display-name>
+	<servlet-name>app_cligroupmanagerSvt</servlet-name>
+	<servlet-class>com.montnets.emp.appmage.svt.app_cligroupmanagerSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>app_cligroupmanagerSvt</servlet-name>
+	<url-pattern>/app_cligroupmanager.htm</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<description>APP发送记录查询</description>
+	<display-name>APP发送记录查询</display-name>
+	<servlet-name>mtRecordSelectSvt</servlet-name>
+	<servlet-class>com.montnets.emp.appmage.svt.app_mtrecordselectSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>mtRecordSelectSvt</servlet-name>
+	<url-pattern>/app_mtrecordselect.htm</url-pattern>
+</servlet-mapping>
+
+	<servlet>
+		<description>接收AppHttp请求</description>
+		<servlet-name>app_httpReqSvt</servlet-name>
+		<servlet-class>com.montnets.emp.appmage.httpinterface.app_httpReqSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>app_httpReqSvt</servlet-name>
+		<url-pattern>/appreq.hts</url-pattern>
+	</servlet-mapping>
+
+	<!-- APP短信群发历史查看 -->
+	<servlet>
+		<description>群发历史查询</description>
+		<display-name>群发历史查询</display-name>
+		<servlet-name>app_smsTaskRecordSvt</servlet-name>
+		<servlet-class>com.montnets.emp.appmage.svt.app_smsSendedBoxSvt</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>app_smsTaskRecordSvt</servlet-name>
+		<url-pattern>/app_appsmsTaskRecord.htm</url-pattern>
+	</servlet-mapping>

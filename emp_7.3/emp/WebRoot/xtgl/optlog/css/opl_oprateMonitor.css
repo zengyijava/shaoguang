@@ -1,0 +1,53 @@
+#opl_oprateMonitor .container{
+	float:left;
+	min-width:1200px;
+	_width:1200px;
+}
+
+
+#opl_oprateMonitor .sendtime{
+	cursor: pointer; 
+	width: 178px;
+	background-color: white;
+}
+
+#opl_oprateMonitor .recvtime{
+	cursor: pointer; 
+	width: 178px;
+	background-color: white;
+}
+
+#opl_oprateMonitor .opAction{
+	width: 182px;
+}
+
+#opl_oprateMonitor .opContent{
+	width: 178px;
+}
+
+#opl_oprateMonitor .opResult{
+	width: 184px;
+}
+
+#opl_oprateMonitor .opUser{
+	width: 176px;
+}
+
+#opl_oprateMonitor .content_th1{
+	width:160px;
+}
+
+#opl_oprateMonitor .content_th2{
+	width:100px;
+}
+
+#opl_oprateMonitor .content_th3{
+	width:60px;
+}
+
+#opl_oprateMonitor .content_th4{
+	width:60px;
+	
+}
+
+

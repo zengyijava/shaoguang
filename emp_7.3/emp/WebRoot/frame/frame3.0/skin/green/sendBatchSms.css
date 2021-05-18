@@ -1,0 +1,35 @@
+.formatFont{
+	color:#095AD1;
+}
+#timerTime{
+	background-color: white;
+}
+#infoDiv,.centerBack{
+	background-color:#FAFAFF;
+}
+
+/*选择员工图片样式*/
+.selectEmp_old{
+{
+	display:block;
+	width:21px;
+	height:25px;
+	background:url("images/selectEmp.png") no-repeat;
+}
+/*导入文件图片样式*/
+.importFile_old{
+	display:block;
+	width:21px;
+	height:25px;
+	background:url("images/importFile.png") no-repeat;
+}
+
+.div_hover_bg .selectEmp_old{
+{
+	background:url("images/selectEmp2.png") no-repeat;
+}
+
+.div_hover_bg .importFile
+{
+	background:url("images/importFile2.png") no-repeat;
+}

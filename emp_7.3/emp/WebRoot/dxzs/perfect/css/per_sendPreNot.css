@@ -1,0 +1,159 @@
+#sendPreNot div#effinfo table{
+	width: 95%;
+}
+#sendPreNot div#effinfo table tr td:nth-child(1){
+	width: 90px;
+}
+#sendPreNot td.showNum{
+	width: 25px;
+}
+#sendPreNot .input_bd{
+	height: 22px;
+}
+#sendPreNot .dxzs_table{
+	width:100%;
+	border-left: none;
+}
+#sendPreNot .div_bd.td1{
+	border-left: none;
+	height: 25px;
+}
+#sendPreNot .div_bd.td2{
+	height: 25px;
+}
+#sendPreNot .div_bd.td3{
+	border-right: none;
+	height: 25px;
+}
+#sendPreNot .div_bg.td1{
+	height: 116px;
+}
+#sendPreNot .div_bd.td4{
+	height:70px !important;
+	height:68px;
+}
+#sendPreNot .graytext.input1{
+	line-height:23px;
+	width:50px; 
+	height: 26px;
+	border:0;
+}
+#sendPreNot .graytext.input2{
+	line-height:23px;
+	width: 85px; 
+	height: 26px;
+	border:0;
+}
+#sendPreNot .placeholder.adName_la,.placeholder.adPhone_la{
+	position:absolute;
+	left:5px;
+	top:0;
+}
+#sendPreNot .div_bd.td5{
+	cursor:pointer
+}
+#sendPreNot .div_bd.textarea{
+	width:490px;
+	font-size: 12px;
+	resize:none;
+	height: 80px;
+}
+#sendPreNot .dxzs_p1{
+	padding-left:95px;
+	padding-top: 5px;
+}
+#sendPreNot .dxzs_p2{
+	padding-left:75px;
+	padding-top: 5px;
+}
+#sendPreNot .eq_sendDiv2{
+	float:left;
+	margin-top:10px;
+}
+#sendPreNot .unfold{
+	text-decoration: none;
+}
+#sendPreNot .div_bg.moreSelect{
+	height: 100px;
+}
+#sendPreNot .dxzs_div{
+	width:580px;
+}
+#sendPreNot .dxzs_td{
+	width:108px;
+	padding-left:35px;
+}
+#sendPreNot #spUser,#busCode{
+	width:240px;
+	vertical-align:middle;
+	height: 22px;
+}
+#sendPreNot .b_F_btn{
+	float:left;
+	padding-right:300px
+}
+#sendPreNot .dxzsFlowFrame{
+	width:525px;
+	height:465px;
+	border: 0;
+}
+#sendPreNot .dxzs_td1{
+	width:520px;
+}
+#sendPreNot .detail_Info{
+	width: 100%; 
+	padding: 5px; 
+	display: none;
+}
+#sendPreNot .infos{
+	width: 98%; 
+	border:0;
+}
+#sendPreNot .nosendReason{
+	padding-top: 5px;
+	color: red;
+}
+#sendPreNot .dxzs_p3{
+	font-size: 12px;
+}
+#sendPreNot .alleff{
+	color: red;
+}
+#sendPreNot .dxzs_div1{
+	height:5px;
+}
+#sendPreNot .dxzs_p4{
+	font-size: 12px;
+	margin-left: 1%;
+}
+#sendPreNot .maindiv{
+	overflow: auto;
+	height: 280px;
+	margin-top: 10px;
+}
+#sendPreNot .dxzs_content{
+	width:490px;
+}
+#sendPreNot .dxzs_footer{
+	margin-top: 10px;
+}
+#sendPreNot .dxzs_p5{
+	padding-top: 8px;
+}
+#sendPreNot .dxzs_img{
+	padding-left: 25px;
+}
+#sendPreNot .dxzs_message{
+	padding:5px;
+	display:none;
+	font-size: 12px;
+}
+#sendPreNot .dxzs_div2{
+	height:25px;
+}
+#sendPreNot .dxzs_div3{
+	height:10px
+}
+#sendPreNot .display_none{
+	display: none;
+}

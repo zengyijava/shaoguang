@@ -1,0 +1,167 @@
+﻿@charset "utf-8";
+/*链接文字颜色*/
+a, a:active,a:hover{color:#8e560c}
+/*通用输入框行高，边框（除查询外的输入框均是此颜色）*/
+.input_bd , .Wdate.input_bd  ,.emp_currentselected.input_bd{
+	border: 1px solid #c3c3c3;
+}
+
+/*通用边框色,（通用层边框，设计边框的层）*/
+.div_bd,.Wdate.div_bd {
+	border: 1px solid #c3c3c3;
+}
+/*通用hover背景*/
+.div_hover_bg{
+	background-color: #fafafa;
+}
+/*通用文字背景色，（凡文字带背景的均是这个颜色）*/
+.div_bg {
+	background-color: #efefef;
+}
+
+/*通用标题背景色，（凡标题的均是这个颜色）*/
+.title_bg {
+	background-color: #efefef;
+}
+.tree li a:hover {background-color:#ecf0f8;}
+.tree li a.curSelectedNode {
+	background-color:#e0ebfd; 
+	color:black;
+	border:1px #c9d9f2 solid; 
+	opacity:0.8; filter:alpha(opacity=80);
+}
+.btnClass1,.btnClass2,.btnClass3,.btnClass4{
+background-image: url(images/but-bg1.jpg);
+background-repeat:no-repeat;
+}
+.btnClass1 {
+	background-position:0px -78px;
+}
+
+.btnClass2 {
+	background-position:0px -52px;
+}
+
+.btnClass3 {
+	background-position:0px -26px;
+}
+
+.btnClass4 {
+	background-position:0px -168px;
+}
+.btnClass4.btnHover,.btnClass3.btnHover,.btnClass2.btnHover,.btnClass1.btnHover {
+	background-image: url(images/but-bg2.jpg);
+}
+.btnClass5 {
+	height:33px;
+	width: 86px;
+	line-height:33px;
+	color: #FFFFFF;
+	background: url(images/but-bg.png) no-repeat 0px 0px;
+}
+
+.btnClass6 {
+	height:33px;
+	width: 86px;
+	line-height:33px;
+	background: url(images/but-bg.png) no-repeat -89px 0px;
+}
+.btn-hover{background-position-y:-66px;}
+
+#file
+{
+	color: #0e5ad1;
+}
+
+.fold
+{
+	background:url("images/fold.gif") no-repeat 0px 2px;
+}
+.unfold
+{	
+	background:url("images/unfold.gif") no-repeat 0px 2px;
+}
+
+.titletop_font {
+	display: none;
+	background: url(images/buttons.jpg) no-repeat -754px -72px;
+}
+
+.top {
+	display : block;	
+	padding-right: 10px;
+}
+.zhu
+{
+	color: #adadad;
+}
+
+.titletop 
+{
+	padding-top:5px;
+}
+.abs_right .titletop_font,.goback{
+background: url(images/buttons.jpg) no-repeat -606px -72px;
+}
+
+.c_hoverBg{background-color: #efefef;}
+
+
+/*查询条件背景色----查询条件背景边框色（与表格边框色一致）*/
+#condition table {
+	background-color: #fffedd;
+	border: #c3c3c3 1px solid;
+}
+/*选项卡文字normal颜色*/
+#wjsend .send_ac2,#dtsend .send_ac2{
+	color: #000;
+	font-weight:normal;
+}
+
+/*表头背景*/
+#content thead th {
+	background-color: #efefef;
+	border-left: #c3c3c3 1px solid;
+	border-top: #c3c3c3 1px solid;
+	border-bottom: #c3c3c3 1px solid;
+}
+/*表格行鼠标经过色*/
+.hoverColor {background-color: #fff8da;}
+/*表格选中色*/
+.c_selectedBg{background: #ededfb;}
+/*表格边框*/
+#content tbody td {
+	border-right: #c3c3c3 1px solid;
+	border-left: #c3c3c3 1px solid;
+	border-bottom: #c3c3c3 1px solid;
+}
+.bb_line{border-bottom: #c3c3c3 1px solid;}
+.tx_line{border-top: #c3c3c3 1px solid;}
+/*表格搜索中控件边框*/
+#condition table tr td input,#condition table tr td select {
+	border: #c3c3c3 1px solid;
+}
+/*工作路径背景色值*/
+#top_main {background-color:#ede7e5;color : #000;}
+/*添加员工背景色---单个添加---批量导入*/
+.infotd1
+{
+  background-color: #d61000;
+  border-bottom: 3px #A71E02 solid;
+  color:#fff;
+}
+.infotd2
+{
+   background-color: #efefef;
+   border-bottom: 3px #c3c3c3 solid;
+}
+/*弹出层边框--机构*/
+#condition table tr td #dropMenu,#condition table tr td #dropMenu2 {
+	border: #b3caee 1px solid;
+}
+a.bulkImport{
+background-position:0 -70px;
+}
+.x-fileBtn{
+	background-position: 0 -96px;
+}

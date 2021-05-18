@@ -1,0 +1,232 @@
+@charset "UTF-8";
+/*.invalidPhone{
+    font-size: 12px;
+    background-color: #b7adad;
+    line-height: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}*/
+
+.unfold{
+    background: url("../img/packup.png")no-repeat;
+}
+
+.fold{
+    background: url("../img/unfold.png")no-repeat;
+}
+.errorDiv{
+    right: 7px;
+    width:230px;
+    height:auto;
+    position: absolute;
+    top: 127px;
+    background-color: #eaeaea;
+    box-shadow: 0 8px 10px gray,-10px 8px 15px gray,10px 8px 15px gray;
+}
+#infos{
+    background-color: #c9d9f24f;
+    height: 62px;
+    border-top: 1px solid #e7eaea;
+    margin: 20px auto 14px;
+    width: 700px;
+    font-size: 12px;
+    color: #222222;
+    table-layout: fixed;
+}
+#errorDiv_diff{
+    width:260px;
+    height:140px;
+    position: absolute;
+    right: 58px;
+    top: 85px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 10px gray,-10px 8px 15px gray,10px 8px 15px gray;
+}
+.preview_wrapper.inner{
+    width: 265px;
+    height: 400px;
+    position: absolute;
+    top: 33px;
+    left: 13px;
+    /*cursor: pointer;*/
+    overflow:hidden;
+}
+/*-------------滚动条样式------------------*/
+/*滚动条整体样式*/
+.rollBak::-webkit-scrollbar {
+    /*高宽分别对应横竖滚动条的尺寸*/
+    width: 2px;
+    height: 2px;
+}
+/*滚动条里面小方块*/
+.rollBak::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #0F3A56;
+}
+/*滚动条里面轨道*/
+.rollBak::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,0.1);
+}
+
+#infos > tbody > tr > td:nth-child(1){
+    padding-left: 30px;
+}
+
+#downlink{
+    position: absolute;
+    left: 180px;
+    bottom: 15px;
+}
+
+#moreSelect_diff{
+    margin-top:10px;
+    margin-left: 10px;
+    width: 50%;
+    height: 85%;
+}
+
+.arrowUp{
+    position: absolute;
+    right: 28px;
+    top: -10px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ffffff;
+}
+#ContentTitle{
+    width: 700px;
+    height: 50px;
+    background-color: #f3f7fd;
+    margin: 20px auto 0;
+}
+
+#ContentTitle #ContentTitleTable{
+    width: 100%;
+    height: 100%;
+}
+#ContentTitleTable td{
+    text-align: center;
+    font-size: 12px;
+    color: #222222;
+    font-weight: bold;
+}
+#btsend,#btcancel{
+    min-width: 80px;
+    height: 32px;
+    margin-right: 10px;
+    line-height: 32px;
+    display: block;
+    float: left;
+    text-align: center;
+}
+#btcancel{
+    background-color: #e9edf3;
+    color: #333;
+}
+.content-wrapper{
+    height:278px;
+    width:700px;
+    overflow-y: auto;
+    margin:0 auto 10px;
+}
+#diffContent{
+    table-layout:fixed;
+    width: 698px;
+}
+#diffContent tr{
+    height: 48px;
+    border-bottom: 1px solid #e9e9e9;
+}
+#diffContent tr:hover{
+    background-color: #f7fbff;
+}
+#diffContent tr td:nth-child(1){
+    text-align: center;
+    width: 20%;
+}
+#diffContent tr td:nth-child(2){
+    text-align: center;
+    width: 60%;
+}
+#diffContent tr td:nth-child(3),#diffContent tr td:nth-child(4){
+    text-align: center;
+}
+.paramSpan{
+    /*white-space: nowrap;*/
+}
+#preview_same_Table{
+    position: absolute;
+    left: 454px;
+    top: 40px;
+}
+
+#preview_same_foot{
+    margin-top: 200px;
+    margin-left: 445px;
+}
+#preview_same_Table table tr{
+    line-height: 30px;
+}
+#preview_same_Table span{
+    font-size: 14px;
+    color: #666666;
+}
+#moreSelect_same{
+    margin-left: 10px;
+    margin-top: 5px;
+    width:70%;
+    height:80%;
+    border:0
+}
+#downlink_same{
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    left: 150px;
+    bottom: 10px;
+}
+#nosendReason_same{
+    text-align:center;
+    margin-top:5px;
+    width:250px;
+    height:15px;
+    color: red;
+    float: right;
+    font-size: 14px;
+    font-weight: bolder
+}
+.cust_preview_diff_outer{
+    left: 12px;
+    width: 294px;
+    position: relative;
+    top: 48px;
+    height: 498px;
+    overflow-y: auto;
+}
+/*格式提示*/
+#reminder_div{
+    width: 370px;
+    height: 400px;
+    background-color: #E6EDF0;
+    box-shadow: 10px 10px 10px gray;
+}
+#reminder_arrow{
+    position: relative;
+    right: 10px;
+    top: 74px;
+    width: 0;
+    height: 0;
+    border-right: 10px solid #E6EDF0;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+}
+#reminder{
+    z-index: 5000;
+    position: relative;
+    left: 762px;
+}

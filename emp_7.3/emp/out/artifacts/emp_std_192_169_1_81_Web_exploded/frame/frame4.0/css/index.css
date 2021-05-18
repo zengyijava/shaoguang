@@ -1,0 +1,182 @@
+.menuDiv {
+	display: block;
+	width: 178px;
+	height: 178px;
+	margin-bottom: 15px;
+	float: left;
+}
+
+.div_active {
+	background-image: url(img/index_menu_active.png);
+}
+
+.div_hover {
+	background-image: url(img/index_menu_hover.png);
+}
+
+.menuDiv a {
+	display: block;
+	width: 100%;
+	height: 35px;
+	cursor: pointer;
+	text-align: center;
+	padding-top: 143px;
+	color: #000;
+	font-size: 1.1em;
+	text-decoration: none;
+	outline: none;
+}
+.menuDiv a:active {star:expression(this.onFocus=this.blur());}
+
+.midDiv {
+	display: block;
+	width: 20px;
+	height: 178px;
+	margin-bottom: 15px;
+	float: left;
+}
+
+body {
+	background-color: #fff;
+	margin: 0;
+	padding:0;
+}
+
+#bg_top_line {
+	display: none;
+}
+
+.touchslider-item{width:1150px;margin-right:-20px;overflow:hidden;}
+.touchslider{width:1150px;margin:0 auto;position:relative;}
+.act_content{
+	padding-top:10px;
+    padding-bottom: 10%;
+}
+#mod_style_1{
+	background: url(../images/dyb_default_icon.png) no-repeat;
+	width:138px;
+	height:138px;
+}
+#mod_style_1:hover{
+	background: url(../images/dyb_Selected_icon.png) no-repeat;
+}
+#mod_style_2{
+	background: url(../images/dyk_default_icon.png) no-repeat;
+	width:138px;
+	height:138px;
+}
+#mod_style_2:hover{
+	background: url(../images/dyk_Selected_icon.png) no-repeat;
+}
+#mod_style_4{
+	background: url(../images/dyc_default_icon.png) no-repeat;
+	width:138px;
+	height:138px;
+}
+#mod_style_4:hover{
+	background: url(../images/dyc_Selected_icon.png) no-repeat;
+}
+#mod_style_9{
+	background: url(../images/dzy_default_icon.png) no-repeat;
+	width:138px;
+	height:138px;
+}
+#mod_style_9:hover{
+	background: url(../images/dzy_Selected_icon.png) no-repeat;
+}
+#mod_style_11{
+	background: url(../images/dtg_default_icon.png) no-repeat;
+	width:138px;
+	height:138px;
+}
+#mod_style_11:hover{
+	background: url(../images/dtg_Selected_icon.png) no-repeat;
+}
+#mod_style_12{
+	background: url(../images/dxg_default_icon.png) no-repeat;
+	width:138px;
+	height:138px;
+}
+#mod_style_12:hover{
+	background: url(../images/dxg_Selected_icon.png) no-repeat;
+}
+#mod_style_13{
+	background: url(../images/dcg_default_icon.png) no-repeat;
+	width:138px;
+	height:138px;
+}
+#mod_style_13:hover{
+	background: url(../images/dcg_Selected_icon.png) no-repeat;
+}
+#mod_style_14{
+	background: url(../images/dyw_default_icon.png) no-repeat;
+	width:138px;
+	height:138px;
+}
+#mod_style_14:hover{
+	background: url(../images/dyw_Selected_icon.png) no-repeat;
+}
+#mod_style_16{
+	background: url(../images/mod_index16_default_icon.png) no-repeat;
+	width:138px;
+	height:138px;
+}
+#mod_style_16:hover{
+	background: url(../images/mod_index16_Selected_icon.png) no-repeat;
+}
+#mod_style_18{
+	background: url(../images/mod_index18_default_icon.png) no-repeat;
+	width:138px;
+	height:138px;
+}
+#mod_style_18:hover{
+	background: url(../images/mod_index18_Selected_icon.png) no-repeat;
+}
+#mod_style_20{
+	background: url(../images/mod_index20_default_icon.png) no-repeat;
+	width:138px;
+	height:138px;
+}
+#mod_style_20:hover{
+	background: url(../images/mod_index20_Selected_icon.png) no-repeat;
+}
+#mod_style_21{
+	background: url(../images/mod_index21_default_icon.png) no-repeat;
+	width:138px;
+	height:138px;
+}
+#mod_style_21:hover{
+	background: url(../images/mod_index21_Selected_icon.png) no-repeat;
+}
+#mod_style_22{
+	background: url(../images/mod_index22_default_icon.png) no-repeat;
+	width:138px;
+	height:138px;
+}
+#mod_style_22:hover{
+	background: url(../images/mod_index22_Selected_icon.png) no-repeat;
+}
+#mod_style_25{
+	background: url(../images/dqx_default_icon.png) no-repeat;
+	width:138px;
+	height:138px;
+}
+#mod_style_25:hover{
+	background: url(../images/dqx_Selected_icon.png) no-repeat;
+}
+#mod_style_26{
+    background: url(../images/qdl_default_icon.png) no-repeat;
+    width:138px;
+    height:138px;
+}
+#mod_style_26:hover{
+    background: url(../images/qdl_Selected_icon.png) no-repeat;
+}
+#mod_style_28{
+    background: url(../images/qll_default_icon.png) no-repeat;
+    width:138px;
+    height:138px;
+}
+#mod_style_28:hover{
+    background: url(../images/qll_Selected_icon.png) no-repeat;
+}

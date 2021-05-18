@@ -1,0 +1,17 @@
+.singledetail {
+	padding: 5px;
+	display: none;
+	word-wrap: break-word;
+	word-break: break-all;
+	overflow-y: auto;
+}
+
+.msg {
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+}
+
+.getDepResp_label {
+	display: none;
+}

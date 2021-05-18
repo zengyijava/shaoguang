@@ -1,0 +1,120 @@
+.btnMatel {
+	background: url(images/matel.png) no-repeat;
+	width: 74px;
+	height: 24px;
+	text-align:right;
+	border : 0;
+	display: inline;
+	cursor: pointer;
+	font-size:12px;
+	padding-right: 4px;
+}
+.btnImage {
+	background: url(images/addImage.png) no-repeat;
+	width: 74px;
+	height: 24px;
+	text-align:right;
+	border : 0;
+	display: inline;
+	cursor: pointer;
+	font-size:12px;
+	padding-right: 4px;
+}
+.btnMusic {
+	background: url(images/addMusic.png) no-repeat;
+	width: 74px;
+	height: 24px;
+	text-align:right;
+	border : 0;
+	display: inline;
+	cursor: pointer;
+	font-size:12px;
+	padding-right: 4px;
+}
+.btnMatel.btnHover {
+	background: url(images/matel_hover.png) no-repeat;
+}
+.btnImage.btnHover {
+	background: url(images/addImage_hover.png) no-repeat;
+}
+.btnMusic.btnHover {
+	background: url(images/addMusic_hover.png) no-repeat;
+}
+.hasImage {
+	background: url(images/hasImage.png) no-repeat;
+	display: inline-block;
+	height:30px;
+	width:30px;
+}
+.hasMusic {
+	background: url(images/hasMusic.png) no-repeat;
+	display: inline-block;
+	height:30px;
+	width:30px;
+}
+.moveUp {
+	background: url(images/moveUp.png) #7e8081 ;
+	width: 12px;
+	height: 10px;
+	text-align:right;
+	border : 0;
+	display: inline;
+	cursor: pointer;
+}
+.moveDown {
+	background: url(images/moveDown.png) #7e8081  ;
+	width: 12px;
+	height: 10px;
+	margin-left:15px;
+	text-align:center;
+	border : 0;
+	display: inline;
+	cursor: pointer;
+}
+.deleteFrame {
+	background: url(images/deleteFrame.png) ;
+	width: 15px;
+	height: 15px;
+	text-align:right;
+	top:-10px;
+	right:-10px;
+	border : 0;
+	display: inline;
+	cursor: pointer;
+}
+.floatFrame{
+	background:#7e8081;
+	width:58px;
+	height:16px;
+    position:absolute;
+    z-index:3;
+	filter: Alpha(Opacity=80);
+	left:0px;
+	bottom:0px; 
+	border: 0px;
+	display: none;
+}
+.floatDel{
+	background:#eff1f3;
+	width:15px;
+	height:15px;
+    position:absolute;
+    z-index:3;
+	filter: Alpha(Opacity=80);
+	right:-6px;
+	top:-6px; 
+	border: 0px;
+	display: none;
+}
+.textFrame{
+	font-size:14px; 
+	text-align:left;
+	position: absolute;
+	z-index: 1;
+	width: 58px;
+	height:50px;
+	bottom: 0px;
+	left: 0px;
+	filter: Alpha(Opacity=80);
+	border: 0px;
+}

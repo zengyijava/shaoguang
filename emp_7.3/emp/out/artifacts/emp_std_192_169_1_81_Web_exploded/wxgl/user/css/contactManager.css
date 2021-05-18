@@ -1,0 +1,25 @@
+#dropdownMenu span {
+	float: none !important;
+}
+
+.img-circle {
+	border-radius: 500px 500px 500px 500px;
+}
+
+.headimg5 {
+	border: 1px solid #CCCCCC;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	height: 38px;
+	width: 38px;
+	vertical-align: middle;
+	margin: 5px 0;
+	_margin: 4px 0 5px;
+}
+
+.visible_hidden {
+	visibility: hidden;
+}
+
+.blueColor {
+	color: #0e5ad1;
+}

@@ -1,0 +1,308 @@
+@charset "utf-8";
+
+/*------移动网讯——网讯管理——网讯编辑-----------*/
+#ydwx_netManager #add{
+	border-radius:3px;
+}
+#ydwx_netManager #search{
+	border-radius:3px;
+}
+#ydwx_netManager #add font {
+	height:28px;
+	line-height:28px;
+	margin-left: 5px;
+    color: #fff;
+}
+#ydwx_netManager #content thead th {
+	height: 45px;
+}
+#ydwx_netManager #condition table tr td:nth-child(even){
+ 	padding-right: 15px;
+ }
+#ydwx_netManager .c_selectBox {
+ 	width: 208px !important;
+ }
+#ydwx_netManager .c_result  {
+ 	width: 208px !important;
+ }
+/*------移动网讯——网讯管理——网讯编辑结束-----------*/
+
+/*------移动网讯——网讯管理——互动项管理-----------*/
+#ydwx_trustData #add{
+	border-radius:3px;
+}
+#ydwx_addData .ydwx_manageType_a{
+	float: left;
+	padding-top: 10px;
+	margin-left: 5px !important;
+}
+#ydwx_addData .ydwx_typeName{
+	height: 30px;
+}
+#ydwx_dataType #content thead tr th{
+	height: 40px !important;
+}
+#ydwx_dataType #content tbody tr td.no_l_b{
+	height: 40px !important;
+}
+#ydwx_editData .ydwx_manageType_a{
+	padding-top: 10px;
+	margin-left: 5px !important;
+}
+#ydwx_trustData #search{
+	border-radius:3px;
+}
+#ydwx_trustData #add font {
+	height:28px;
+	line-height:28px;
+	margin-left: 5px;
+    color: #fff;
+}
+#ydwx_trustData #content thead th {
+	height: 45px;
+}
+#ydwx_trustData  .c_selectBox {
+ 	width: 208px !important;
+ }
+#ydwx_trustData  .c_result  {
+ 	width: 208px !important;
+ }
+#ydwx_addData  .c_selectBox {
+ 	width: 303px !important;
+ 	float: left;
+ }
+#ydwx_addData  .c_result  {
+ 	width: 303px !important;
+ 	margin-top: 13px;
+ }
+#ydwx_addData .c_selectBox .c_input  {
+	 margin-top: 8px !important;
+	 margin-left: 10px !important;
+}
+#ydwx_editData  .c_selectBox {
+ 	width: 303px !important;
+ 	float: left;
+ }
+#ydwx_editData  .c_result  {
+ 	width: 303px !important;
+ 	margin-top: 13px;
+ }
+#ydwx_editData .c_selectBox .c_input  {
+	 margin-top: 8px !important;
+	 margin-left: 10px !important;
+}
+/*------移动网讯——网讯管理——互动项管理结束-----------*/
+
+/*------移动网讯——网讯管理——网讯素材-----------*/
+#ydwx_webexbook #add font {
+	height:28px;
+	line-height:28px;
+	margin-left: 5px;
+    color: #fff;
+}
+ 
+#ydwx_webexbook #condition table tr td.tdSer a#search font {
+    margin-left: 30px !important;
+    color: #fff !important;
+    height: 28px;
+    line-height: 28px;
+}
+
+#ydwx_webexbook #content thead th {
+	height: 45px;
+}
+#ydwx_webexbook #addeployee{
+	border-radius:3px;
+}
+#ydwx_webexbook #delepl{
+	border-radius:3px;
+}
+#ydwx_webexbook #search{
+	border-radius:3px;
+}
+/*------移动网讯——网讯管理——网讯素材结束-----------*/
+
+/*------移动网讯——网讯查询统计——网讯访问统计-----------*/
+#ydwx_netVisitCount  .ydwx_dtsend1 {
+	height:38px;
+    float: left;
+    cursor: pointer;
+    background:url('none');
+    background-color: #00aa72;
+}
+#ydwx_netVisitCount  .ydwx_wjsend1 {
+	height:38px;
+    float: left;
+    cursor: pointer;
+    background:url('none');
+    background-color: #00aa72;
+}
+
+
+/*------移动网讯——网讯管理——网讯访问统计结束-----------*/
+
+/*------移动网讯——网讯查询统计——互动项管理-----------*/
+#ydwx_addData .ydwx_code {
+   height: 33px;
+}
+ 
+#ydwx_addData .ydwx_name {
+   height: 33px;
+}
+#ydwx_addData .ydwx_dataTypeId {
+    width: 303px;
+    height: 33px;
+    border: 1px solid #e8ecf0;
+}
+ 
+#ydwx_addData .ydwx_quesType {
+    width: 303px;
+    height: 33px;
+    border: 1px solid #e8ecf0;
+}
+#ydwx_addData .ydwx_quesContent {
+    border: 1px solid #e8ecf0;
+}
+#ydwx_dataType .ydwx_rContent{
+	padding:5px;width:550px;
+}
+
+#ydwx_addData .ydwx_tempFrame{
+	width:560px;height:370px;border: 0;
+}
+#ydwx_dataType .ydwx_typeDailog{
+	width:560; height: 430px;
+}
+#ydwx_addData .ydwx_addTypeDiv{
+	height: 375px !important;
+}
+#ydwx_editData .ydwx_addTypeDiv {
+	height: 400px !important;
+}
+#ydwx_dataType .ydwx_name{
+	height: 31px;
+	border: 1px solid #e8ecf0;
+}
+ 
+#ydwx_editData .ydwx_tempFrame{
+	width: 560px;
+	height: 370px;
+}
+ 
+ 
+ 
+/*------移动网讯——网讯管理——互动项管理结束-----------*/
+ 
+/*------移动网讯——网讯管理——网讯模板-----------*/
+#ydwx_templateManger #search{
+	border-radius:3px;
+}
+
+ 
+/*------移动网讯——网讯管理——网讯模板结束-----------*/
+ 
+/*------移动网讯——网讯管理——网讯审核-----------*/
+#ydwx_netCheck #search{
+	border-radius:3px;
+}
+#ydwx_netCheck .ydwx_tmName{
+	height: 32px !important;
+}
+#ydwx_netCheck .c_selectBox {
+	width: 208px !important;
+}
+#ydwx_netCheck .c_result  {
+	width: 208px !important;
+}
+ 
+/*------移动网讯——网讯管理——网讯审核结束-----------*/
+ 
+/*------移动网讯——网讯查询统计——网讯发送统计-----------*/
+#ydwx_wmsTaskRecord #search{
+	border-radius:3px;
+}
+ 
+#ydwx_wmsTaskRecord #exportCondition{
+	border-radius:3px;
+}
+ 
+#ydwx_wmsTaskRecord .c_selectBox {
+	width: 208px !important;
+}
+#ydwx_wmsTaskRecord .c_result  {
+	width: 208px !important;
+}
+#ydwx_wmsTaskRecord #condition .isContainsSun{
+	vertical-align: middle;
+}
+ 
+ 
+/*------移动网讯——网讯管理——网讯发送统计结束-----------*/
+ 
+/*------移动网讯——网讯查询统计——网讯访问统计-----------*/
+#ydwx_netVisitCount #search{
+	border-radius:3px;
+}
+ 
+#ydwx_netVisitCount #exportCondition{
+	border-radius:3px;
+}
+ 
+#ydwx_netVisitCount .c_selectBox {
+	width: 208px !important;
+}
+#ydwx_netVisitCount .c_result  {
+	width: 208px !important;
+} 
+ 
+#ydwx_visitPagePhone  #search{
+	border-radius:3px;
+}
+ 
+#ydwx_visitPagePhone  #exportCondition{
+	border-radius:3px;
+}
+ 
+/*------移动网讯——网讯管理——网讯访问统计结束-----------*/
+ 
+/*------移动网讯——网讯查询统计——网讯回复统计-----------*/
+#ydwx_netReplyCount #search{
+	border-radius:3px;
+}
+ 
+#ydwx_netReplyCount #exportCondition{
+	border-radius:3px;
+}
+#ydwx_replyPageCount  #search{
+	border-radius:3px;
+}
+ 
+#ydwx_replyPageCount  #exportCondition{
+	border-radius:3px;
+}
+#ydwx_netReplyCount .c_selectBox {
+	width: 208px !important;
+}
+#ydwx_netReplyCount .c_result  {
+	width: 208px !important;
+}
+ 
+/*------移动网讯——网讯管理——网讯回复统计结束-----------*/
+ 
+/*------移动网讯——网讯查询统计——网讯发送查询-----------*/
+#ydwx_taskReport  #search{
+	border-radius:3px;
+}
+ 
+#ydwx_taskReport  #exportCondition{
+	border-radius:3px;
+}
+#ydwx_taskReport  .c_selectBox {
+	width: 208px !important;
+}
+#ydwx_taskReport  .c_result  {
+	width: 208px !important;
+}
+ 
+/*------移动网讯——网讯管理——网讯发送查询结束-----------*/
+ 

@@ -1,0 +1,49 @@
+#not_notice .addNotice{
+	padding:5px;
+	display:none;
+	font-size: 12px;
+}
+
+#not_notice .title{
+	width:300px;
+}
+
+#not_notice .cont{
+	width:300px;
+	height:200px;
+}
+
+#not_notice .gglb_fb_div{
+	height: 60px;
+	line-height: 60px;
+	padding-top: 5px;
+}
+
+#not_notice .Notices{
+	padding:5px;
+	display:none;
+	font-size: 12px;
+}
+
+#not_notice .user{
+	width:300px;
+}
+
+#not_notice .ttime{
+	width:300px;
+}
+
+#not_notice .ttitle{
+	width:300px;
+}
+
+#not_notice .tcont{
+	width:300px;
+	height:200px;
+	overflow-y:auto;
+	word-break: break-all;
+}
+
+#not_notice .rContent_div{
+	height:30px;
+}

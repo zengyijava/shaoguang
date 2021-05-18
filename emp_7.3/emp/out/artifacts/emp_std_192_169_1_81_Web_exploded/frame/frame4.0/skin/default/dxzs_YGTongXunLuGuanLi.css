@@ -1,0 +1,228 @@
+/**
+*�ƶ��칫-Ա��ͨѶ¼����
+*/
+/*Ա��ͨѶ¼��ʼ*/
+#epl_employeeBook #sexy{
+	width: 209px;
+}
+#epl_employeeBook #option{
+	width: 209px;
+}
+#epl_employeeBook #condition table tr td.tdSer a#search font {
+    margin-left: 30px !important;
+}
+
+/*Ա��ͨѶ¼-����Ա��*/
+#epl_addEmployee .infotd1,.infotd2{
+	height: 36px;
+	line-height: 36px;
+	font-size: 15px;
+	background-color: #f5f8fa;
+}
+#epl_addEmployee .infotd1{
+	color:#ffffff;
+	background-color: #00ab72;
+	font-weight: bold;
+}
+#epl_addEmployee .infotd1.dxzs_addone{
+	color:#ffffff;
+	background-color: #00ab72;
+	font-weight: bold;
+}
+#epl_addEmployee .infotd2.dxzs_addall{
+	color:#ffffff;
+	background-color: #00ab72;
+	font-weight: bold;
+}
+#epl_addEmployee .dxzs_sysTable tbody tr{
+	height: 40px;
+}
+#epl_addEmployee .dxzs_sysTable tbody tr td input{
+	height: 32px;
+}
+#epl_addEmployee .user_div1 .input_bd{
+	height: 32px;
+}
+#epl_addEmployee .dxzs_sysTable tbody tr td select{
+	height: 32px;
+}
+#epl_addEmployee #sex{
+	border: 1px solid #e8ecf0;
+}
+#epl_addEmployee .dxzs_radio{
+	height:13px !important;
+	vertical-align: middle;
+}
+#epl_addEmployee #isNeedSubno{
+	height:14px !important;
+	vertical-align: middle;
+}
+#epl_addEmployee .user_div2 .input_bd{
+	height:32px;
+}
+#epl_addEmployee #roleName{
+	height:32px;
+}
+#epl_addEmployee .dxzs_sysTable .dxzs_tr1{
+	height:16px;
+}
+#epl_addEmployee .dxzs_sysTable .dxzs_tr1 #hint{
+	height:16px;
+}
+#epl_addEmployee .user_div5 .input_bd{
+	height:36px;
+	line-height: 36px;
+}
+#epl_addEmployee .user_table2 tr{
+	height:50px;
+}
+/*Ա��ͨѶ¼-�޸�Ա��*/
+#epl_editEmployee .dxzs_sysTable tbody tr{
+	height: 40px;
+}
+#epl_editEmployee .dxzs_sysTable tbody tr td input{
+	height: 32px;
+}
+#epl_editEmployee #birth,#sex,#userState{
+	border: 1px solid #e8ecf0;
+}
+#epl_editEmployee #job,#epl_editEmployee #sex,
+#epl_editEmployee #userState,#epl_editEmployee .input_bd.user_select,
+#epl_editEmployee #isaudited,#epl_editEmployee #userPerType,
+#epl_editEmployee #employPerType,#epl_editEmployee #clientPerType{
+	height: 34px;
+}
+#epl_editEmployee #roleName{
+	height: 32px;
+}
+#epl_editEmployee .dxzs_isaudited{
+	height: 32px;
+}
+#epl_editEmployee .dxzs_depNam .input_bd{
+	height: 34px;
+}
+#epl_editEmployee .user_td2 .input_bd{
+	height: 34px;
+	line-height: 34px;
+}
+#epl_editEmployee .dxzs_input{
+	height: 13px !important;
+	vertical-align: middle;
+}
+#epl_editEmployee #isNeedSubno{
+	height: 15px !important;
+	vertical-align: middle;
+}
+/*�����޸Ļ���*/
+#epl_employeeBook #addDep .user_td_3 {
+    height: 31px;
+    line-height: 31px;
+}
+#epl_employeeBook #addDep #depName {
+    height: 31px;
+    line-height: 31px;
+}
+#epl_employeeBook #addDep #depcodethird {
+    height: 31px;
+    line-height: 31px;
+}
+#epl_employeeBook #addDep .user_td_1{
+	height: 10px;
+}
+#epl_employeeBook #updateDep .user_td_3{
+	height: 31px;
+}
+#epl_employeeBook #updateDep #depNewName{
+	height: 31px;
+}
+#epl_employeeBook #updateDep .user_td_1{
+	height: 10px;
+}
+/*Ա��ͨѶ¼����*/
+
+/*Ա����������ʼ-�����޸Ļ���*/
+/*�����޸Ļ���*/
+#epl_empDep #addDep .user_td_3 {
+    height: 31px;
+    line-height: 31px;
+}
+#epl_empDep #addDep #depName {
+    height: 31px;
+    line-height: 31px;
+}
+#epl_empDep #addDep #depcodethird {
+    height: 31px;
+    line-height: 31px;
+}
+#epl_empDep #addDep .user_td_1{
+	height: 10px;
+}
+#epl_empDep #updateDep .user_td_3{
+	height: 31px;
+}
+#epl_empDep #updateDep #depNewName{
+	height: 31px;
+}
+#epl_empDep #updateDep .user_td_1{
+	height: 10px;
+}
+/*Ա�������������-�����޸Ļ���*/
+
+/*�ƶ��칫-Ա��ͨѶ¼����-ͨѶ¼Ȩ�޹���ʼ*/
+/*Ȩ�ް�*/
+#epl_permissions #bindUserFrame{
+	width: 875px;
+ 	height: 700px;
+}
+#epl_permissions .user_table1{
+	width: 875px;
+}
+#epl_perbindSysuser{
+	overflow: hidden;
+}
+#epl_perbindSysuser #rContent{
+	width: 830px;
+}
+#epl_perbindSysuser #depname{
+	height: 35px;
+	background-color: #ffffff;
+}
+#epl_perbindSysuser #sysName{
+	height: 35px;
+}
+/*�ƶ��칫-Ա��ͨѶ¼����-ͨѶ¼Ȩ�޹������*/
+
+/*�ƶ��칫-Ա��ͨѶ¼����-ְλ����ʼ*/
+
+#epl_position #add{
+	color: #ffffff;
+	height: 30px;
+	line-height: 30px;
+}
+#epl_position .dxzs_td_1{
+	height: 40px;
+}
+#epl_position #addN{
+	height: 33px;
+}
+#epl_position #updN{
+	height: 33px;
+}
+/*�ƶ��칫-Ա��ͨѶ¼����-ְλ�������*/
+/*�ƶ��칫-Ա��ͨѶ¼����-����Ⱥ�鿪ʼ*/
+
+#grp_groupManage #groupType{
+	width: 197px;
+}
+#grp_groupManage #shareflowFrame{
+	width: 658px;
+}
+#grp_groupManage #shareDiv{
+	background-color: #ffffff;
+}
+#grp_groupManage #flowFrame, #editFrame {
+    width: 658px;
+    height: 470px;
+    border: 0;
+}
+/*�ƶ��칫-Ա��ͨѶ¼����-����Ⱥ�����*/

@@ -1,0 +1,497 @@
+#condition table {
+	width: 100%;
+	margin: -1px 0 6px 0;
+}
+
+#condition table tr td { /*border: #b5d6e6 1px solid;*/
+	font-size: 12px;
+	padding: 5px;
+	vertical-align: middle;
+	/*text-align: right;*/
+}
+
+#condition table tr td input,#condition table tr td select {
+	height: 20px;
+	line-height: 20px;
+	width: 150px;
+	padding:0 0 0 2px;
+	outline: 0;
+}
+/*#condition table tr td .div_bd{border:#ddd7c4 1px solid;}*/
+#condition table tr td.condi_f_l {
+	text-align: left;
+}
+
+#condition table tr td #dropMenu,#condition table tr td #dropMenu2 {
+	position: absolute;
+	display: none;
+	margin-left: 0px;
+	height: 360px;
+	width: 356px;
+	background-color: white;
+	border: 1px solid;
+	z-index: 999;
+	overflow: auto;
+}
+
+#condition table tr td #dropMenu .tree {
+	position: absolute;
+	margin-left:0px;
+	height:295px; 
+	width: 346px; 
+	background-color:white;
+	overflow-y:auto;
+	overflow-x:auto;
+	z-index:999;
+}
+
+#condition table tr td #dropMenu #dropdownMenu {
+	width:322px;
+}
+
+#condition table tr td.condi_f_l input {
+	height: 20px;
+	line-height: 20px;
+	float: none;
+	width: 150px;
+}
+
+#condition table tr td.condi_f_l .btnClass1
+{
+	background: url(images/but-bg1.jpg) no-repeat 0px -78px ;
+	width: 48px;
+	height: 24px;
+	border : 0;
+	font-size:12px;
+	display: inline;
+	cursor: pointer;
+}
+
+
+#condition table tr td#tip {
+	color: #fff;
+	background-color: #A8CFF6;
+	font-weight: 800;
+}
+
+#condition table tr {
+	height: 16px;
+}
+
+#condition table tr td.tdSer {
+	width: 70px;
+}
+
+#condition table tr td button {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#condition table tr td.tdSer a#search {
+	/*background: url(images/but-bg.png) no-repeat;*/
+	background-position: -168px 0;
+	display: block;
+	cursor: pointer;
+	height: 24px;
+	width: 54px;
+	text-decoration:none;
+	text-align:center;
+}
+
+#condition table tr td.tdSer a#search:hover {
+	background-position: -168px -24px;
+}
+
+
+#condition table tr td.tdSer a#replysearch {
+	/*background: url(images/but-bg.png) no-repeat;*/
+	background-position: -168px 0;
+	display: block;
+	cursor: pointer;
+	height: 24px;
+	width: 54px;
+}
+
+#condition table tr td.tdSer a#replysearch:hover {
+	background-position: -168px -24px;
+}
+
+#content {
+	width: 100%;
+	/*margin:0 1% 0 1%;
+	border:  #c9d9f2 1px solid;*/
+}
+#content thead .relat th {
+	/*position: relative;*/
+}
+
+#content thead th {
+	font-size: 12px;
+	text-align: center;
+	height: 26px;
+	font-weight: normal;
+	white-space: inherit;
+}
+
+#content thead th.th_l_b {
+	border-left: #c9d9f2 1px solid;
+}
+
+#content thead th.th_r_b {
+	border-right: #c9d9f2 1px solid;
+}
+
+#content tbody td { 
+	font-size: 12px;
+	text-align: center;
+	height: 24px;
+	line-height: 24px;
+	padding: 0 4px;
+	word-break: break-all;
+}
+
+#content  tbody tr.tbody_last td {
+	border-bottom: #b3caee 1px solid;
+}
+
+#content  tbody tr td.no_r_b {
+	border-right: none;
+}
+
+#content  tbody tr td.no_l_b {
+	border-left: none;
+}
+
+#content tbody td.textalign {
+	text-align: left;
+}
+
+#content tbody td.ztalign { /*	background-color: #FFFFFF;*/
+	text-align: center;
+}
+
+#content tbody td xmp {
+    padding: 0;
+    margin: 0;
+    word-break: break-all;
+    white-space: normal;
+}
+
+#content .pre-wrap {
+    white-space: pre-wrap;
+    *white-space: pre;
+    *word-wrap: break-word;
+    word-break: break-all;
+}
+
+#content tbody tr td a {
+	cursor: pointer;
+	border: none;
+	text-decoration: none;
+}
+
+#content tbody tr td a:hover {
+	text-decoration: underline;
+}
+
+#content tbody tr td input[type=checkbox] {
+	height: 13px;
+	width: 13px;
+	background-color: #f7f8fa;
+	/*border: 1px #c0c9d2 solid;*/
+}
+
+#content  tfoot tr td {
+	font-size: 12px;
+	text-align: right;
+	/*color: #03515D;*/
+	padding: 10px 10px 2px 2px;
+	font-family: Tahoma;
+	border: none;
+	/*background-image: url(../images/tab_19.gif);
+	background-color: #A8CFF6;*/
+}
+
+#content  tfoot tr td #p_info {
+	float: right;
+	line-height: 21px;
+	height: 21px;
+	display: block;
+	margin-right: 8px;
+}
+
+#content  tfoot tr td a {
+	height: 21px;
+	display: block;
+	float: right;
+	width: 26px;
+	background-image: url(images/pageinfos.png);
+	margin-right: 8px;
+}
+
+#content  tfoot tr td #p_goto {
+	height: 21px;
+	width: 53px;
+	display: block;
+	float: right;
+	background-image: url(images/goto.png);
+	cursor: pointer;
+}
+
+#content  tfoot tr td a#p_back {
+	background-position: -26px 0%;
+	width: 34px;
+}
+
+#content  tfoot tr td a.p_a_h#p_back:hover {
+	background-position: -26px -21px;
+}
+
+#content  tfoot tr td a#p_next {
+	background-position: -60px 0%;
+	width: 34px;
+}
+
+#content  tfoot tr td a.p_a_h#p_next:hover {
+	background-position: -60px -21px;
+}
+
+#content  tfoot tr td a#p_last {
+	background-position: -94px 0%;
+}
+
+#content  tfoot tr td a.p_a_h#p_last:hover {
+	background-position: -94px -21px;
+}
+
+#content  tfoot tr td a.p_a_h#p_first:hover {
+	background-position: 0% -21px;
+}
+
+#p_jump_menu {
+	width: 132px;
+	height: 52px;
+	/*background-color: #f3f6ff;
+	border: 1px #c9d9f2 solid;*/
+	line-height: 25px;
+}
+
+#p_jump_menu input {
+	width: 24px;
+	height: 17px;
+	/*border: 1px #c9d9f2 solid;*/
+	line-height: 17px;
+}
+
+#p_jump_sure {
+	display: block;
+	background: url(images/jump_sure.png) no-repeat;
+	width: 86px;
+	height: 20px;
+}
+
+.buttons #toggleDiv {
+	width: 79px;
+	float: right;
+	z-index: 20;
+	position: relative;
+	height: 30px;
+	cursor: pointer;
+	background: url(images/toggle_expand.png) 0 0 no-repeat;
+	/*border-bottom: 1px solid #f2faef;*/
+}
+
+.buttons #toggleDiv.collapse {
+	background: url(images/toggle_collapse.png) center top no-repeat;
+}
+
+.buttons #toggleDiv.collapse:hover {
+	background: url(images/toggle_collapse_hover.png) center top no-repeat;
+}
+
+.buttons { /*height: 30px;*/
+	padding: 0;
+	overflow: hidden;
+	zoom: 1;
+	height: auto;
+	/*margin:0 1%;
+	border:#FFF 1px solid;*/
+	border-bottom: none;
+}
+.buttons a {
+	display: block;
+	float: left;
+	margin: 0px 5px 2px 0;
+	background-color: #dddddd;
+	/*border: 1px solid #dddddd;
+	border-top: 1px solid #eee;
+	border-left: 1px solid #eee;
+	font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;*/
+	font-size: 12px;
+	line-height: 2.2em;
+	overflow: hidden;
+	text-decoration: none;
+	/*font-weight: bold;
+	color: #336699;*/
+	cursor: pointer;
+	/*padding: 1px 2px 1px 0px;  Links */
+	height: 24px;
+	width: 54px;
+	text-indent: 20px;
+	color: #000;
+}
+
+.buttons a:hover {
+	color:#000;
+	text-decoration: none;
+}
+
+.buttons a#delete {
+	background: url(images/buttons.jpg) no-repeat -606px 0;
+}
+.buttons a#add {
+	background: url(images/buttons.jpg) no-repeat -552px 0;
+}
+/*toSysuer*/
+.buttons a#toSysuer,.buttons a#toEmployee {
+	width: 74px;
+	height: 24px;
+	background: url(images/buttons.jpg) no-repeat -148px 0;
+}
+/*del employee*/
+.buttons a#delepl,.buttons a#delgr,.buttons a#delcli,.buttons a#delMem  {
+	width: 74px;
+	height: 24px;
+	background: url(images/buttons.jpg) no-repeat -74px 0px;
+}
+a#addCondition {
+	width: 74px;
+	height: 24px;
+	background: url(images/buttons.jpg) no-repeat -670px -72px;
+	display: block;
+	float: left;
+	margin: 0px 5px 2px 0;
+	background-color: #dddddd;
+	/*border: 1px solid #dddddd;
+	border-top: 1px solid #eee;
+	border-left: 1px solid #eee;
+	font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;*/
+	font-size: 12px;
+	line-height: 2.2em;
+	overflow: hidden;
+	text-decoration: none;
+	/*font-weight: bold;
+	color: #336699;*/
+	cursor: pointer;
+	/*padding: 1px 2px 1px 0px;  Links */
+	text-indent: 20px;
+	color: #000;
+}
+/*add employee*/
+.buttons a#addeployee,.buttons a#addgr,.buttons a#addcli,
+.buttons a#addMem,.buttons a.addNoti {
+	width: 74px;
+	height: 24px;
+	background: url(images/buttons.jpg) no-repeat 0px 0px;
+}
+.buttons a#addcporv {
+	width: 94px;
+	height: 24px;
+	background: url(images/buttons.jpg) no-repeat -660px 0px;
+}
+.buttons a#delcporv {
+	width: 94px;
+	height: 24px;
+	background: url(images/buttons.jpg) no-repeat -754px 0px;
+}
+/*changedep*/
+.buttons a#changedep {
+	width: 74px;
+	height: 24px;
+	text-indent: 22px;
+	background: url(images/buttons.jpg) no-repeat -222px 0px;
+}
+.buttons a#upload {
+	background: url(images/buttons.jpg) no-repeat -350px 0px;
+}
+
+.buttons a#exportCondition {
+	background: url(images/buttons.jpg) no-repeat -296px 0;
+}
+
+.buttons a#bindIpMac{
+	width: 94px;
+	background: url(images/buttons.jpg) no-repeat 0 -72px;
+}
+.buttons a#enablePwd{
+	width: 94px;
+	background: url(images/buttons.jpg) no-repeat -94px -72px;
+}
+.buttons a#cancelBind{
+	width: 74px;
+	background: url(images/buttons.jpg) no-repeat -478px 0;
+}
+
+.buttons a#showAll {
+	width: 74px;
+	height: 24px;
+	text-indent: 0px;
+	text-align:center;
+	background: url(images/buttons.jpg) no-repeat -374px -72px;
+}
+
+
+.buttons a#bind {
+	width: 74px;
+	background: url(images/buttons.jpg) no-repeat -404px 0;
+}
+
+#pageInfo input {
+	height: 16px;
+	width: 30px;
+	border: 1px solid #999999;
+	vertical-align: text-bottom;
+}
+
+#pageInfo img,#pageInfo a img {
+	border: 0;
+	vertical-align: text-bottom;
+	cursor: pointer;
+}
+
+#u_o_c_explain {
+	border: 1px solid #D1D1D1;
+	/*background: #EDEDED;*/
+	font-weight: 500;
+	font-style: "����";
+	width: auto;
+	/*margin: 10px 5px;*/
+	padding: 5px;
+}
+
+#u_o_c_explain p {
+	font-weight: 600;
+	cursor: pointer;
+}
+
+#u_o_c_explain ul li {
+	text-indent: 18px;
+	line-height: 20px;
+	font-size: 12px;
+	list-style: none;
+}
+
+#condition table tr td.condi_f_l .treeInput{
+	padding-right: 20px;
+}
+.treeInput
+{
+	background: white url(images/select_arrows.png) no-repeat right;
+	padding-right: 24px;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #BEC3D1;
+	outline: none;
+}
+textarea{resize:none;outline:none;}
+/*非IE下有效*/

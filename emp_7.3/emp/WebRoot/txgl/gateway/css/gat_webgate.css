@@ -1,0 +1,157 @@
+#gat_webgate .input1 {
+	width: 304px;
+}
+
+#gat_webgate .tdtxt {
+	width: 15%;
+}
+
+#gat_webgate .tdinput {
+	width: 300px;
+}
+
+#gat_webgate #paramValues {
+	padding: 0;
+}
+
+#gat_webgate #paramValues table  tbody tr th {
+	background-color: #7BF;
+	padding: 4px 5px;
+	border: 1px solid #DDF0F3;
+	font-size: 12px;
+	color: white;
+}
+
+#gat_webgate .input,#gat_webgate .numInput {
+	width: 300px;
+}
+
+#gat_webgate #content tbody tr td {
+	padding: 1px 5px;
+	font-size: 12px;
+	text-align: left;
+}
+
+#gat_webgate #paramValues {
+	vertical-align: top;
+}
+
+#gat_webgate .container_down_div {
+	padding: 10px;
+}
+
+#gat_webgate .paramValues_table {
+	width: 950px;
+	padding: 5px;
+}
+
+#gat_webgate .add_div {
+	height: 30px;
+}
+
+#gat_webgate .gwNo {
+	width: 250px;
+}
+
+#gat_webgate .generalParamDiv {
+	cursor: pointer;
+	width: 100%;
+	height: 26px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 10px;
+	line-height: 26px;
+	padding-top: 0px !important;
+	padding-top: 9px;
+}
+
+#gat_webgate .generalParamIcon1 {
+	text-decoration: none;
+	margin-left: 720px;
+}
+
+#gat_webgate .generalParamIcon2 {
+	text-decoration: none;
+	margin-left: 812px;
+}
+
+#gat_webgate .advancedParamDiv_up_tr {
+	height: 20px;
+}
+
+#gat_webgate .advancedParamDiv {
+	cursor: pointer;
+	width: 100%;
+	height: 26px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 10px;
+	line-height: 26px;
+	padding-top: 0px !important;
+	padding-top: 9px;
+}
+
+#gat_webgate .advancedParamIcon1{
+	text-decoration: none;
+	margin-left:700px;
+}
+
+#gat_webgate .advancedParamIcon2{
+	text-decoration: none;
+	margin-left:812px;
+}
+
+#gat_webgate .allParamItems_table{
+	width: 950px;
+	margin-top: 26px;
+}
+
+#gat_webgate .allParamItems_tr{
+	hieght:24px;
+}
+
+#paramValues select{
+	height: 32px;
+	border: 1px solid #dee2e6;
+}
+#paramValues input:not([type='button']){
+	height: 30px;
+	border: 1px solid #dee2e6;
+}
+.paramDiv_set{
+	height: 36px !important;
+	font-family: 微软雅黑 !important;
+	font-size: 12px !important;
+	color: #222222 !important;
+	background-color: #f5f6fa !important;
+}
+.paramDiv_set b{
+    display: inline-block;
+    margin: 4px 0px 0px 8px;
+    font-family: 微软雅黑;
+}
+.paramValues_table .unfold,.fold{
+    margin: 12px 12px 0px 0px;
+    float: right;
+}
+.tdtxt{
+	font-family: 微软雅黑;
+	font-size: 12px;
+	color: #222222;
+	text-align: right !important;
+}
+.no_r_b{
+	font-family: 微软雅黑;
+	font-size: 12px;
+	color: #666666;
+}
+#btn{
+	margin-top: 5px;
+}
+.wgcx_class{
+    margin: 3px 0px 16px 0px;
+    display: inline-block
+}
+.wgcx_class td{
+    font-family: 微软雅黑 !important;
+}

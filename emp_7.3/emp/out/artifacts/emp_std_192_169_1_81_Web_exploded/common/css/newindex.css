@@ -1,0 +1,248 @@
+*{padding: 0;margin: 0;}
+ul,ol,li,h1{margin: 0;padding: 0;border: 0;}
+a{text-decoration: none;display: block;}
+li{list-style: none;}
+body {
+	background:url(../img/Basemap.png) no-repeat;
+	background-size: cover;
+}
+.header {
+	width: 100%;
+}
+.header .header_tp{
+	width: 1246px;
+	margin: 0 auto;
+}
+.header h1{
+	color: #FF6537;
+	font-size: 32px;
+	float: left;
+	margin-top: 13px;
+}
+.header .header_list li{
+	float: right;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-right: 22px;
+}
+.header .header_list li a{
+	color: #d7d7d9;
+	padding: 6px 24px;
+}
+.header .header_list li a:hover{
+	background: #ff6537;
+	
+	border-radius: 30px;
+	color: #fff;
+}
+.header .header_list li.login{
+	margin-right: 0;
+}
+.header .header_list li.login a{
+	border: 1px #B6B8BD solid;
+	color:#fff;
+	border-radius: 30px;
+	padding: 5px 23px;
+}
+.header .header_list .h_current a{
+	background: #ff6537;
+	padding: 6px 24px;
+	border-radius: 30px;
+	color: #fff;
+}
+                                              /*index*/
+.header .header_list .index a{
+	background: #ff6537;
+	padding: 6px 24px;
+	border-radius: 30px;
+	color: #fff;
+}
+.content{
+	width: 100%;
+	margin-top: 200px;
+	float: left;
+}
+.content .content_c{
+	width: 1118px;
+	margin: 0 auto;
+}
+.content .content_c span{
+	float: left;
+	font-size: 158px;
+	color:#fe6637;
+	margin-top: 34px;
+}
+.content .content_c .shop{
+	float: right;
+}
+.content .content_c .shop .text{
+	color:#fff;
+	font-size: 30px;
+	text-align: left;
+}
+.content .content_c .shop .English{
+	font-size:19px;
+	color:#acadb2;
+	text-align: left;
+}
+.content .content_c .shop .text_01{
+	font-size: 59px;
+	color:#fe6637;
+	font-weight: bold;
+	text-align: left;
+}
+.content .content_c .shop ul{
+	float: left;
+	margin-right: 100px;
+}
+.content .content_c .shop li{
+	color: #fff;
+	font-size: 24px;
+	line-height: 45px;
+}
+.content .content_c .shop li span{
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background: #94949c;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+                                                 /*main*/
+.main{
+	width: 100%;
+	margin-top: 66px;
+	float: left;
+}
+.main .container{
+	width: 1721px;
+	margin: 0 auto;
+	height: 800px;
+}
+.container .left{
+	width: 43px;
+	height: 690px;
+	float: left;
+	background: url(../img/Arrow_zuo.png) no-repeat left center;
+}
+.container .center{
+	width: 1635px;
+	height: 690px;
+	background: rgba(0,0,0,.6);
+	float: left;
+}
+.container .center p{
+	text-align: center;
+	font-size: 32px;
+	color:#fff;
+	margin-top: 27px;
+}
+.container .center span{
+	color:#fe6539;
+}
+.container .center .c_list{
+	width: 1142px;
+	color: #b4b4b6;
+	font-size: 20px;
+	margin: 0 auto;
+	margin-top: 32px;
+}
+.container .center .c_list li{
+	float: left;
+	margin-right: 71px;
+	cursor:pointer;
+}
+.container .center .c_list #c_cur{
+	margin-right: 0;
+}
+.container .center .c_list .current{
+	color:#fe6539;
+}
+.container .center .carousel{
+	width: 1573px;
+	margin: 0 33px;
+	float: left;
+	position: relative;
+	z-index: 1;
+	height: 472px;
+	overflow: hidden;
+}
+.container .center .carousel ul{
+	
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.container .center .carousel  li{
+	float: left;
+	margin-right: 29px;
+	margin-top: 20px;
+	
+}
+.container .center .picture .c_pic{
+	margin-right: 0;
+}
+.container .center .all .c_pic{
+	margin-right: 0;
+}
+.container .center .traffic .c_pic{
+	margin-right: 0;
+}
+.container .center .Bank .c_pic{
+	margin-right: 0;
+}
+.container .center .Tourism .c_pic{
+	margin-right: 0;
+}
+.container .center .Restaurant .c_pic{
+	margin-right: 0;
+}
+.container .center .Film .c_pic{
+	margin-right: 0;
+}
+.container .center .enterprise .c_pic{
+	margin-right: 0;
+}
+.container .center .footer ul{
+	width: 1332px;
+	height: 71px;
+	margin: 0 auto;
+	clear: both;
+}
+.container .center .footer {
+	
+}
+.container .center .footer li{
+	float: left;
+	margin-top: 22px;
+	margin-right: 316px;
+}
+.container .center .footer li a{
+	color:#fff;
+	font-size: 24px;
+}
+.container .center .footer .c_f{
+	margin-right: 0;
+}
+.container .center .shadow{
+	width: 1573px;
+	height: 40px;
+	z-index: 1;
+	background:url(../img/Mask.png) repeat-x;
+	position: absolute;
+	margin: -111px 30px;
+}
+.container .right{
+	width: 43px;
+	height: 690px;
+	float: right;
+	background:url(../img/Arrow_you.png) no-repeat right center;
+}
+
+
+
+
+
+
+

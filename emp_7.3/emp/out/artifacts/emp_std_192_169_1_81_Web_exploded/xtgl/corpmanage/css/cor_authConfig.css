@@ -1,0 +1,39 @@
+.container {
+    width: 800px;
+    padding: 10px;
+}
+.supply-method-groups {
+    padding: 12px 10px;
+    background-color: #EAEAEA;
+}
+.switch-module {
+    padding: 10px 5px;
+}
+
+input[type="checkbox"] {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.supply-method-groups span {
+    margin-right: 10px;
+}
+
+.buttonDiv {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.buttonDiv #buttonOk,#buttonBack {
+    margin: 5px 10px;
+}
+
+.title-label {
+    margin-right: 10px;
+}
+
+span {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: inline-block;
+}

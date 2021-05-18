@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<servlet>
+	<description>测试路径待删除</description>
+	<display-name>测试路径待删除</display-name>
+	<servlet-name>testSvt</servlet-name>
+	<servlet-class>com.montnets.emp.rms.test.TestSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>testSvt</servlet-name>
+<url-pattern>/testSvt</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>测试路径待删除</description>
+	<display-name>测试路径待删除</display-name>
+	<servlet-name>fx_img</servlet-name>
+	<servlet-class>com.montnets.emp.rms.test.ImgSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>fx_img</servlet-name>
+	<url-pattern>/fx_img</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>富信相同内容发送</description>
+	<display-name>富信平台</display-name>
+	<servlet-name>rms_sameMmsSvt</servlet-name>
+	<!--<servlet-class>com.montnets.emp.rms.samesend.servlet.SameMmsSvt</servlet-class>-->
+	<servlet-class>com.montnets.emp.rms.meditor.servlet.SameMmsSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>rms_sameMmsSvt</servlet-name>
+	<url-pattern>/rms_rmsSameMms.htm</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+<description>富信不同内容发送</description>
+<display-name>富信平台</display-name>
+<servlet-name>rms_diffMmsSvt</servlet-name>
+<!--<servlet-class>com.montnets.emp.rms.diffsend.servlet.DiffMmsSvt</servlet-class>-->
+<servlet-class>com.montnets.emp.rms.meditor.servlet.DiffMmsSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>rms_diffMmsSvt</servlet-name>
+<url-pattern>/rms_diffMms.htm</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<description>富信平台数据同步发布接口</description>
+	<display-name>富信平台数据同步发布接口</display-name>
+	<servlet-name>RMSDataSyncServicePushServlet</servlet-name>
+	<servlet-class>com.montnets.emp.rms.wbs.servlet.RMSDataSyncServicePushServlet</servlet-class>
+	<load-on-startup>2000</load-on-startup>
+</servlet>
+
+<servlet>
+	<description>模板管理</description>
+	<display-name>模板管理</display-name>
+	<servlet-name>mbgl_templateSvt</servlet-name>
+	<servlet-class>com.montnets.emp.rms.templmanage.servlet.Mbgl_templateSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>mbgl_templateSvt</servlet-name>
+	<url-pattern>/mbgl_mytemplate.htm</url-pattern>
+</servlet-mapping>
+<servlet>
+	<description>模板管理</description>
+	<display-name>模板管理</display-name>
+	<servlet-name>HttpTest</servlet-name>
+	<servlet-class>com.montnets.emp.rms.test.HttpTest</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>HttpTest</servlet-name>
+	<url-pattern>/httpTest.hts</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>档位套餐统计报表</description>
+	<display-name>富信平台</display-name>
+	<servlet-name>rep_degreeReportSvt</servlet-name>
+	<servlet-class>com.montnets.emp.rms.report.servlet.rep_degreeReportSvt
+	</servlet-class>
+</servlet>
+
+ <servlet-mapping>
+	<servlet-name>rep_degreeReportSvt</servlet-name>
+	<url-pattern>/rep_degreeReport.htm</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+		<description>富信平台</description>
+		<display-name>容量套餐统计报表监听</display-name>
+		<servlet-name>rltcRptListener</servlet-name>
+		<servlet-class>com.montnets.emp.rms.report.listener.RptListener</servlet-class>
+		<load-on-startup>14</load-on-startup>
+</servlet>
+
+<servlet>
+	<description>富信平台</description>
+	<display-name>发送明细查询</display-name>
+	<servlet-name>rms_sendDetailSvt</servlet-name>
+	<servlet-class>com.montnets.emp.rms.detailsend.servlet.rms_sendDetailSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>rms_sendDetailSvt</servlet-name>
+	<url-pattern>/rms_sendDetail.htm</url-pattern>
+</servlet-mapping>
+
+	<servlet>
+		<servlet-name>TmplateTaskListner</servlet-name>
+		<servlet-class>com.montnets.emp.rms.templmanage.listener.TmplateTaskListner</servlet-class>
+		<load-on-startup>100</load-on-startup>
+	</servlet>
+	
+
+<servlet>
+	<description>富信平台</description>
+	<display-name>发送任务查询</display-name>
+	<servlet-name>rmsTaskRecordSvt</servlet-name>
+	<servlet-class>com.montnets.emp.rms.rmstask.servlet.RmsTaskSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>rmsTaskRecordSvt</servlet-name>
+	<url-pattern>/rmsTaskRecord.htm</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<description>富信平台</description>
+	<display-name>群发历史查询</display-name>
+	<servlet-name>rmsTaskHistorySvt</servlet-name>
+	<servlet-class>com.montnets.emp.rms.rmstask.servlet.RmsTaskSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>rmsTaskHistorySvt</servlet-name>
+	<url-pattern>/rms_rmsTaskHistory.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>富信平台</description>
+	<display-name>群发历史查询与群发任务查询的选择操作员与选择机构</display-name>
+	<servlet-name>rmsTaskUserAndDepSvt</servlet-name>
+	<servlet-class>com.montnets.emp.rms.rmstask.servlet.RmsTaskUserAndDepSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>rmsTaskUserAndDepSvt</servlet-name>
+	<url-pattern>/rmsTaskUserAndDep.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>视频裁剪工具类</description>
+	<display-name>视频裁剪工具类</display-name>
+	<servlet-name>fx_videoCropperUploader</servlet-name>
+	<servlet-class>com.montnets.emp.rms.upload.VideoCropperUploader</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>fx_videoCropperUploader</servlet-name>
+	<url-pattern>/fx_videoCropperUploader</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>图片裁剪工具类</description>
+	<display-name>图片裁剪工具类</display-name>
+	<servlet-name>fx_imgCropperUploder</servlet-name>
+	<servlet-class>com.montnets.emp.rms.upload.ImgCropperUploader</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>fx_imgCropperUploder</servlet-name>
+	<url-pattern>/fx_imgCropperUploder</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>快捷模板管理</description>
+	<display-name>快捷模板管理</display-name>
+	<servlet-name>rms_templateMana</servlet-name>
+	<servlet-class>com.montnets.emp.rms.templmanage.servlet.RmsShortTemplate</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>rms_templateMana</servlet-name>
+	<url-pattern>/rms_templateMana.htm</url-pattern>
+</servlet-mapping>
+<servlet>
+	<description>公共模板</description>
+	<display-name>公共模板</display-name>
+	<servlet-name>common_templateSvt</servlet-name>
+	<!--<servlet-class>com.montnets.emp.rms.commontempl.servlet.CommonTemplateSvt</servlet-class>-->
+	<servlet-class>com.montnets.emp.rms.meditor.servlet.CommonTemplateSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>common_templateSvt</servlet-name>
+	<url-pattern>/rms_commTpl.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>编辑器</description>
+	<display-name>编辑器</display-name>
+	<servlet-name>meditor</servlet-name>
+	<servlet-class>com.montnets.emp.rms.meditor.servlet.MeditorServlet
+    </servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>meditor</servlet-name>
+	<url-pattern>/meditor/*</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>模板</description>
+	<display-name>模板</display-name>
+	<servlet-name>mbgl</servlet-name>
+	<servlet-class>com.montnets.emp.rms.meditor.servlet.TempalteManageServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>mbgl</servlet-name>
+	<url-pattern>/mbgl/*</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>模板</description>
+	<display-name>模板</display-name>
+	<servlet-name>userInfo</servlet-name>
+	<servlet-class>com.montnets.emp.rms.meditor.servlet.UserServlet</servlet-class>
+</servlet>
+	<servlet-mapping>
+	<servlet-name>userInfo</servlet-name>
+	<url-pattern>/meditor/user/*</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>模板</description>
+	<display-name>模板</display-name>
+	<servlet-name>page</servlet-name>
+	<servlet-class>com.montnets.emp.rms.meditor.servlet.PageServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>page</servlet-name>
+	<url-pattern>*.meditorPage</url-pattern>
+</servlet-mapping>
+
+<filter>
+<filter-name>versionFilter</filter-name>
+<filter-class>com.montnets.emp.common.filter.VersionFilter</filter-class>
+</filter>
+
+<filter-mapping>
+<filter-name>versionFilter</filter-name>
+<url-pattern>*.meditorPage</url-pattern>
+</filter-mapping>
+<filter-mapping>
+<filter-name>versionFilter</filter-name>
+<url-pattern>/meditor/*</url-pattern>
+</filter-mapping>
+<filter-mapping>
+<filter-name>versionFilter</filter-name>
+<url-pattern>/meditor/user/*</url-pattern>
+</filter-mapping>
+
+		<!-- xss过滤器 -->
+<filter>
+	<filter-name>XssSqlFilter</filter-name>
+	<filter-class>com.montnets.emp.rms.meditor.filter.XssFilter</filter-class>
+</filter>
+<filter-mapping>
+	<filter-name>XssSqlFilter</filter-name>
+	<url-pattern>*.meditorPage</url-pattern>
+	<dispatcher>REQUEST</dispatcher>
+	<dispatcher>FORWARD</dispatcher>
+</filter-mapping>
+<filter-mapping>
+	<filter-name>XssSqlFilter</filter-name>
+	<url-pattern>/meditor/*</url-pattern>
+	<dispatcher>REQUEST</dispatcher>
+	<dispatcher>FORWARD</dispatcher>
+</filter-mapping>
+
+<servlet>
+	<description>富信平台</description>
+	<display-name>计费档位管理</display-name>
+	<servlet-name>rms_degreeManagerSvt</servlet-name>
+	<servlet-class>com.montnets.emp.rms.degree.servlet.rms_degreeManagerSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>rms_degreeManagerSvt</servlet-name>
+		<url-pattern>/rms_degreeManager.htm</url-pattern>
+	</servlet-mapping>
+
+<servlet>
+	<servlet-name>ConvertRmsThread</servlet-name>
+	<servlet-class>com.montnets.emp.rms.meditor.servlet.ConvertRmsSvt</servlet-class>
+	<load-on-startup>101</load-on-startup>
+</servlet>
+
+<!-- 批量模板导入-->
+<servlet>
+	<description>批量模板导入</description>
+	<display-name>富信平台</display-name>
+	<servlet-name>importTemSvt</servlet-name>
+	<servlet-class>com.montnets.emp.rms.meditor.servlet.ImportTemSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>importTemSvt</servlet-name>
+	<url-pattern>/importTemplate.htm</url-pattern>
+</servlet-mapping>
+
+		<!-- 批量导入详情-->
+<servlet>
+<description>批量导入详情</description>
+<display-name>富信平台</display-name>
+<servlet-name>importTemDetailsSvt</servlet-name>
+<servlet-class>com.montnets.emp.rms.meditor.servlet.ImportTemDetailsSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>importTemDetailsSvt</servlet-name>
+<url-pattern>/importTemplateDetails.htm</url-pattern>
+</servlet-mapping>
+
+		<!--RCOS模板同步类-->
+<servlet>
+<servlet-name>SyncRcosSVT</servlet-name>
+<servlet-class>com.montnets.emp.rms.meditor.servlet.SyncRcosSVT</servlet-class>
+<load-on-startup>102</load-on-startup>
+</servlet>

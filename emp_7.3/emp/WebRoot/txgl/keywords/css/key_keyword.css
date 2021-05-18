@@ -1,0 +1,98 @@
+#key_keyword .editKey{
+	padding:5px;
+	display:none;
+	font-size: 12px;
+}
+
+#key_keyword .editKey_down_div{
+	height:20px;
+}
+
+#key_keyword .bkw{
+	width:176px;
+}
+
+#key_keyword .zhumh_td{
+	padding-top:10px;
+}
+
+#key_keyword .qd_div{
+	height: 60px;
+	line-height: 60px;
+	margin-top: 10px;
+}
+
+#key_keyword .addKey{
+	padding:5px;
+	display:none;
+	font-size: 12px;
+}
+
+#key_keyword .gjz_div{
+	height:80px;
+	margin-top: 10px;
+}
+
+#key_keyword .keywored{
+	width:176px;
+}
+
+#key_keyword .zhs_z_td{
+	padding-top:10px;
+}
+
+#key_keyword .kwok_div{
+	height: 50px;
+	line-height: 50px;
+	margin-top: 10px;
+}
+
+#key_keyword .uploadKey{
+	padding:5px;
+	display:none;
+	font-size: 12px;
+}
+
+#key_keyword .uploadForm_div{
+	margin-top: 10px;
+	padding-bottom:20px;
+}
+
+#key_keyword .xzwj_table{
+	width:90%;
+}
+
+#key_keyword .xzwj_tr{
+	height: 30px;
+}
+
+#key_keyword .xzwj_span{
+	text-align: right;
+	display: block;
+	white-space: nowrap;
+}
+
+#key_keyword .spzhczhs_z_td{
+	padding-top:20px;
+}
+
+#key_keyword .kwsok_div{
+	height: 20px;
+	line-height: 20px;
+}
+
+#key_keyword .keyWord{
+	width:180px;
+}
+
+#key_keyword .keyState{
+	width:180px;
+}
+
+#key_keyword .keyState2{
+	width:180px;
+}
+
+#key_keyword .zt_th{
+	width:200px;
+}

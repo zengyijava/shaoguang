@@ -1,0 +1,50 @@
+#spb_spBalanceAll .inpstyle {
+	width: 280px;
+}
+
+#spb_spBalanceAll .inpstyle1 {
+	width: 136px;
+}
+
+#spb_spBalanceAll .a3 {
+	width: 35px;
+	height: 21px;
+	border: 0;
+	text-align: center;
+	background: white;
+}
+
+#spusertable {
+	width: 444px;
+	line-height: 30px;
+	border: #bdc7d7 1px solid;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#spusertable th {
+	border: #bdc7d7 1px solid;
+}
+
+#spusertable td {
+	border: #bdc7d7 1px solid;
+}
+
+#toptable {
+	width: 444px;
+	line-height: 30px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#spb_spBalanceAll .bltype{
+	width: 165px;
+}
+
+#spb_spBalanceAll .qd_div{
+	margin-top: 20px;
+}
+
+#spb_spBalanceAll .spzzh_th{
+	width:50%;
+}

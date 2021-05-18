@@ -1,0 +1,128 @@
+#wg_pushRsProtocol .toggleDiv_up_div{
+	height: 30px;
+}
+
+#wg_pushRsProtocol .getloginUser{
+	padding:5px;
+	display:none;
+}
+
+#wg_pushRsProtocol .crspfmt{
+	width:158px;
+}
+
+#wg_pushRsProtocol .rspStatus{
+	width:158px;
+}
+
+#wg_pushRsProtocol .rspCmd{
+	width:158px;
+}
+
+#wg_pushRsProtocol .cargName{
+	width:154px;
+}
+
+#wg_pushRsProtocol .cargValue{
+	width:154px;
+}
+
+#wg_pushRsProtocol .addDiv{
+	display:none;
+}
+
+#wg_pushRsProtocol .addDiv_table{
+	width:100%;
+	height:100%;
+	font-size: 12px; 
+}
+
+#wg_pushRsProtocol .addDiv_table_tr{
+	height: 39px;
+}
+
+#wg_pushRsProtocol .addDiv_table_tr_td1{
+	width:28%;
+	text-align:right; 
+	padding-right: 15px;
+}
+
+#wg_pushRsProtocol .addDiv_table_tr_td2{
+	width:72%;
+}
+
+#wg_pushRsProtocol .newRspCmd{
+	width: 270px;
+}
+
+#wg_pushRsProtocol .newCargName{
+	width: 266px;
+}
+
+#wg_pushRsProtocol .hyzt_td{
+	text-align:right; 
+	padding-right: 15px; 
+	height: 35px;
+}
+
+#wg_pushRsProtocol .newRspStatus{
+	width: 270px;
+}
+
+#wg_pushRsProtocol .newCargValue{
+	width: 266px;
+}
+
+#wg_pushRsProtocol .addsubmit_td{
+	text-align:center;
+}
+
+#wg_pushRsProtocol .editDiv{
+	display:none;
+}
+
+#wg_pushRsProtocol .editDiv_table{
+	width:100%;
+	height:100%;
+	font-size: 12px;
+}
+
+#wg_pushRsProtocol .editDiv_table_tr{
+	height: 39px;
+}
+
+#wg_pushRsProtocol .editDiv_table_tr_td1{
+	width:28%;
+	text-align:right; 
+	padding-right: 15px;
+}
+
+#wg_pushRsProtocol .editDiv_table_tr_td2{
+	width:72%;
+}
+
+#wg_pushRsProtocol .rspCmdEdit{
+	width: 266px;
+}
+
+#wg_pushRsProtocol .cargNameEdit{
+	width: 266px;
+}
+
+#wg_pushRsProtocol .editDiv_hyzt_td{
+	padding-right: 15px; 
+	height: 35px;
+}
+
+#wg_pushRsProtocol .rspStatusEdit{
+	width: 266px;
+}
+
+#wg_pushRsProtocol .cargValueEdit{
+	width: 266px;
+}
+
+#wg_pushRsProtocol .editsubmit_td{
+	text-align:center;
+}
+

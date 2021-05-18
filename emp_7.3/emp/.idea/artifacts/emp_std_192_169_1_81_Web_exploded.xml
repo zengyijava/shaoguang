@@ -1,0 +1,126 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="emp_std_192.169.1.81:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/emp_std_192_169_1_81_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="emp_std_192.169.1.81/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="emp_std_192.169.1.81" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="xstream-1.4.4.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="XMPPforEMPv1.0.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="activation.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="aliyun-sdk-oss-2.8.2.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="ant.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="ants-sj.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="ants.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="apache-cxf-2.5.9.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="apache-neethi-3.0.2.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="apache-xmlschema-core-2.0.3.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="axis-ant.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="axis.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="bonecp-0.7.1.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="bonecp-provider-0.7.0.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="bonecp-spring-0.7.0.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="c3p0-0.9.1.2.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="commons-beanutils-1.8.3.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="commons-beanutils.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="commons-codec-1.3.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="commons-collections4-4.0.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="commons-discovery-0.2.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="commons-fileupload-1.2.1.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="commons-httpclient-3.0.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="commons-io-2.4.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="commons-lang-2.1.0.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="commons-logging-1.1.1.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="db2jcc_license_cu.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="db2jcc.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="dom4j-1.6.1.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="dom4j.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="emp-txjk.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="fluent-hc-4.2.5.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="ganymed-ssh2-build210.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="geronimo-j2ee-management_1.1_spec-1.0.1.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="geronimo-jms_1.1_spec-1.1.1.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="geronimo-jta_1.0.1B_spec-1.0.1.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="gson-1.6.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="guava-19.0.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="guava-r07.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="httpclient-4.4.1.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="httpclient-cache-4.2.5.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="httpcore-4.4.1.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="httpmime-4.2.5.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="im4java-1.4.0.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="iText-2.1.7.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="iText-rtf-2.1.3.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="iTextAsian.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="jackson-core-asl-1.7.9.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="jackson-mapper-asl-1.7.9.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="javax.servlet.jsp.jstl-api-1.2.1.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="jave-1.0.2.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="jaxrpc.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="jcommon-1.0.16.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="jdbcpool-0.99.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="jdom.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="jetty-continuation-7.5.4.v20111024.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="jetty-http-7.5.4.v20111024.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="jetty-io-7.5.4.v20111024.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="jetty-security-7.5.4.v20111024.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="jetty-server-7.5.4.v20111024.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="jetty-util-7.5.4.v20111024.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="jfreechart-1.0.13.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="json-simple-1.1.1.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="json.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="jsoup-1.8.1.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="junrar-0.7.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="jxl.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="log4j-1.2.14.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="log4j-1.2.8.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="mail.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="mailapi_1_3_1.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="mysql-connector-java-commercial-5.1.17-bin.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="ojdbc14.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="org.json.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="pinyin4j-2.5.0.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="poi-3.8-20120326.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="poi-ooxml-3.8-20120326.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="poi-ooxml-schemas-3.8-20120326.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="rowset.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="saaj.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="sigar.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="slf4j-api-1.6.1.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="slf4j-log4j12-1.6.1.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="smack-3.4.1-0cec571.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="smackx-3.4.1-0cec571.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="smackx-debug-3.4.1-0cec571.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="smackx-experimental-0.1-0cec571.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="smackx-jingle-3.4.1-0cec571.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="smackx-workgroup-3.4.1-0cec571.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="sqljdbc4.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="standard.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="tomcat-dbcp.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="tomcat-jdbc.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="ueditor-1.1.2.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="ueditor-mini.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="urlrewrite-4.0.0.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="wsdl4j-1.6.3.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="xercesImpl.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="xfire-aegis-1.2.6.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="xfire-annotations-1.2.6.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="xfire-core-1.2.6.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="xfire-generator-1.2.6.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="xfire-java5-1.2.6.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="xfire-jaxb-1.1.2.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="xfire-jaxb2-1.2.6.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="xfire-jaxws-1.2.6.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="xfire-jsr181-api-1.0-M1.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="xfire-ws-security-1.2.6.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="xmlbeans-2.3.0.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="xmlpull-1.1.3.1.jar" module-name="emp_std_192.169.1.81" />
+          <element id="library" level="module" name="xmlsec-1.4.2.jar" module-name="emp_std_192.169.1.81" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

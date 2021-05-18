@@ -1,0 +1,32 @@
+@charset "utf-8";
+#pkgTitle tr td,#packageTable tr td {
+	text-align: center;
+}
+
+#getChooseMan{width:100%;overflow-y:auto;text-align:left;height:215px;}
+#getChooseMan li{line-height:22px;cursor:pointer;font-size:12px;padding:0 4px;list-style:none;}
+#getChooseMan li.cur{background-color:#6D6D6D;color:#fff;}
+.chooseBox{width:510px;margin: 0 auto;}
+.left_select_choose{
+width: 220px;
+border: 0;
+font-size:12px;
+vertical-align:middle;
+margin:-4px 0 0 -8px;
+padding:4px 0 0 8px;
+
+height:230px;
+}
+.left_select_choose option{
+padding:0 6px;
+}
+
+/*���Ӱ���table�ı߿���ɫ*/
+.trcss{
+border: solid 1px #ccdef8;
+width: 50%;
+height: 25px;
+}
+
+.search_tx_choose{margin-left:6px;width:153px;height:22px;background-color:#F3FAEE;float:left;overflow:hidden;}
+#rightDiv{margin-top:3px;background-color:white;width:204px;height:215px;overflow-x:hidden;overflow-y:hidden;display:block;float: left; padding-top: 1px;}

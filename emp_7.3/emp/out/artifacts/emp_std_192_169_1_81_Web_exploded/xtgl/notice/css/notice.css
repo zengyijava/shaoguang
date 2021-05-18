@@ -1,0 +1,61 @@
+@CHARSET "utf-8";
+
+ul,li {
+	margin: 0px;
+	padding: 0px
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#scrollDiv {
+	overflow: auto;
+	width: 600px;
+}
+
+.scrollText {
+	width: 596px;
+	height: 183px;
+	min-height: 30px;
+	line-height: 30px;
+	border-left: #82baf1 2px solid;
+	border-right: #82baf1 2px solid;
+	border-bottom: #82baf1 2px solid;
+	float: left;
+	overflow: hidden
+}
+
+.scrollText li {
+	height: 30px;
+}
+
+li span {
+	width: 596px;
+}
+
+.td1 {
+	width: 280px;
+	text-align: left;
+	padding: 0 10px;
+}
+
+.td2 {
+	width: 100px;
+	text-align: center;
+}
+
+.td3 {
+	width: 198px;
+	text-align: center;
+}
+
+.ttable {
+	width: 600px;
+	text-align: center;
+}

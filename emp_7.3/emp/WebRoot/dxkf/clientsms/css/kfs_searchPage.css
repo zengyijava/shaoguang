@@ -1,0 +1,155 @@
+.dxkf_display_none{
+	display:none;
+}
+#searchPage #dropdownMenu span {
+	float:none !important;
+}
+#searchPage #resultSet {
+	height:253px;
+	overflow-y:auto;
+}
+#searchPage #condition table tr td #check_div input{
+  	height:13px; 
+  	vertical-align:text-top; 
+  	margin-top:0;
+  	border:none;
+}
+#searchPage #condition table tr td input.btn_small{
+	width:50px;
+	border:none;
+	width: 50px;
+	border: none;
+	height: 25px;
+	margin:0 5px 0 0;
+}
+#searchPage .btn_long{
+	margin:10px 0 0;
+	display:block;
+}
+#searchPage #condition{
+	height:auto !important;
+	height:153px;
+	max-height:173px;
+	overflow-y:auto;
+}
+#searchPage #condition table{
+	border-top:none;
+	border-bottom:none;
+	margin:0;
+}
+#searchPage #condition table,#content{
+	width:980px;
+}
+#searchPage #condition table tr td.tdSer{
+	width:174px;
+}
+#searchPage .bb_line{
+	height:29px;
+	width:901px;
+}
+#searchPage .tx_line{
+	width:980px;
+}
+#searchPage #content tbody td.textalign{
+	text-align: center;
+}
+#searchPage #rContent{
+	padding-left:10px;
+}
+#searchPage .buttons.btx_line{
+	width:980px;
+}
+#searchPage .dxkf_div1{
+	padding-right:10px;
+}
+#searchPage #search{
+	text-align: center;
+}
+#searchPage #search font{
+	margin-left: 12px !important;
+}
+#searchPage #reset{
+	width: 48px;
+	border:none;
+	height:24px;
+	margin-right:5px;
+}
+#searchPage #condition table tr td input.btn_small {
+	width: 48px;
+	border:none;
+	height:24px;
+	margin-right:5px;
+}
+#searchPage .dxkf_div2{
+	width:180px;
+}
+#searchPage #depNam{
+	width:150px;
+}
+#searchPage #ssdep{
+	cursor: pointer;
+	text-decoration: underline;
+}
+#searchPage #dropMenu{
+	position: absolute; 
+	display:none;
+	margin-left:0px;
+	height:350px; 
+	width:356px; 
+	background-color:white;
+	border:1px solid;
+	overflow-y:auto;
+	overflow-x:auto;
+	z-index:999;
+}
+#searchPage .dxkf_div3{
+	margin-top: 3px;
+	margin-right:10px;
+	text-align:right;
+}
+#searchPage .dxkf_div4{
+	margin-top:3px;
+	padding-left:4px;
+}
+#searchPage #sex{
+	width:150px;
+}
+#searchPage #mobile{
+	width:170px;
+}
+#searchPage #area{
+	width:150px;
+}
+#searchPage #d1,#d2{
+	cursor: pointer; 
+	background-color: white;
+	width: 150px;
+}
+#searchPage .input_bd.dxkf_select{
+	width:155px;
+}
+#searchPage #check_div{
+	float:left;
+	display:inline;
+}
+#searchPage .dxkf_input{
+	width:14px;
+}
+#searchPage #doSearch,#reset,#back{
+	width: 50px;
+	border:none;
+	height:25px;
+	margin-right:5px;
+}
+#searchPage .dxkf_div5{
+	position:absolute;
+	bottom:0px;
+	left:50%;
+	margin-left:-100px;
+	width:200px;
+}
+#searchPage .dxkf_span1 td span{
+	width: 76px;
+	text-align: left;
+	display: inline-block;
+}

@@ -1,0 +1,36 @@
+#opt_sysuserTree .opt_sysuserTree_body {
+	margin: 0;
+	padding: 0;
+}
+
+#opt_sysuserTree .czy_td {
+	width: 305px;
+}
+
+#opt_sysuserTree .czy_down_td {
+	width: 15px;
+}
+
+#opt_sysuserTree .spr_td {
+	width: 305px;
+}
+
+#opt_sysuserTree .tdiv {
+	width: 287px;
+	height: 350px;
+}
+
+#opt_sysuserTree .right {
+	width: 280px;
+	height: 254px;
+	margin-top: 3px;
+}
+
+#opt_sysuserTree .showFlow {
+	width: 280px;
+	height: 100px;
+}
+
+#opt_sysuserTree .sureFlow_div {
+	padding-top: 10px;
+}

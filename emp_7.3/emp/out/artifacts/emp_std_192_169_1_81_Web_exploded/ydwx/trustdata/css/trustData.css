@@ -1,0 +1,219 @@
+#ydwx_trustData  #condition .ydwx_code{
+	width:180px;
+}
+#ydwx_trustData  #condition .ydwx_name{
+	width:180px;
+}
+#ydwx_trustData  #condition .ydwx_chUser{
+	width:180px;
+}
+#ydwx_trustData  #condition .ydwx_dataType{
+	width:222px;
+}
+#ydwx_trustData  #condition .ydwx_chDate{
+	cursor: pointer; width: 180px;background-color: white;
+}
+#ydwx_trustData  #condition .ydwx_chEndDate{
+	cursor: pointer; width: 180px;background-color: white;
+}
+#ydwx_trustData  .ydwx_divBox_sub{
+	width:240px;height:460px;margin-left:30px; margin-top:-3px; background:url('../../../common/img/iphone5.jpg');
+}
+#ydwx_trustData  .ydwx_iframe{
+	background: white;width:198px;height:325px;margin-top: 65px;margin-left: 22px;
+}
+/*--------------------互动项管理添加---------------------- */
+#ydwx_addData .ydwx_titletop_table{
+	width:435px;
+}
+#ydwx_addData .ydwx_titletop_font{
+	line-height: 2.2em; background-position: -754px -72px;
+}
+#ydwx_addData .ydwx_sysTable{
+	margin-top:10px;
+}
+
+#ydwx_addData .ydwx_code{
+	width:300px;
+}
+#ydwx_addData .ydwx_asterisk{
+	color: red;
+}
+#ydwx_addData .ydwx_name{
+	width:300px;
+}
+#ydwx_addData .ydwx_dataTypeId{
+	width:220px;
+}
+#ydwx_addData .ydwx_manageType_a{
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+#ydwx_addData .ydwx_quesType{
+	width:220px;
+}
+#ydwx_addData .ydwx_quesContent{
+	width:302px;margin-top:5px;
+}
+#ydwx_addData .ydwx_quesstrlen_font{
+	line-height:12px;float:left;padding-top:5px;color: #656565;
+}
+#ydwx_addData .ydwx_addCol{
+	display: none;cursor: hand;
+}
+#ydwx_addData .ydwx_addCol_a{
+	margin-left: 250px;cursor: pointer;
+}
+#ydwx_addData .ydwx_addCol_a{
+	margin-left: 250px;cursor: pointer;
+}
+#ydwx_addData .ydwx_btns{
+	margin:10px 0 0 150px;
+}
+#ydwx_addData .ydwx_addTypeDiv{
+	padding:5px 0 5px 20px;display:none;
+}
+#ydwx_addData .ydwx_tempFrame{
+	/* width:560px;height:380px;border: 0; */
+	width:395px;height:225px;border: 0;
+}
+
+#ydwx_dataType .ydwx_rContent{
+	padding:5px;width:400px;
+}
+#ydwx_dataType .ydwx_name{
+	width:220px;margin-left: 10px;
+}
+#ydwx_dataType .ydwx_addType{
+	cursor: pointer;margin-left: 25px;
+}
+#ydwx_dataType .ydwx_content_dv{
+	cursor: pointer;margin-left: 25px;
+}
+#ydwx_dataType .ydwx_content{
+	margin-top:10px;
+}
+#ydwx_dataType .ydwx_typeName{
+	width:150px; display: none;
+}
+#ydwx_dataType .ydwx_typeDailog{
+	width:430px; height: 250px;
+}
+
+/*-----------互动项管理编辑---------------*/
+#ydwx_editData .ydwx_titletop_table{
+	width:435px;
+}
+#ydwx_editData .ydwx_titletop_font{
+	line-height: 2.2em; background-position: -754px -72px;
+}
+#ydwx_editData .ydwx_sysTable{
+	margin-top:10px;
+}
+
+#ydwx_editData .ydwx_code{
+	width:300px;
+}
+#ydwx_editData .ydwx_asterisk{
+	color: red;
+}
+#ydwx_editData .ydwx_name{
+	width:300px;
+}
+#ydwx_editData .ydwx_dataTypeId{
+	width:220px;
+}
+#ydwx_editData .ydwx_manageType_a{
+	margin-left: 30px;cursor: pointer;
+}
+#ydwx_editData .ydwx_quesType{
+	width:220px;
+}
+#ydwx_editData .ydwx_quesContent{
+	width:302px;margin-top:5px;
+}
+#ydwx_editData .ydwx_quesstrlen_font{
+	line-height:12px;float:left;padding-top:5px;color: #656565;
+}
+#ydwx_editData .ydwx_addCol{
+	display: none;cursor: pointer;
+}
+#ydwx_editData .ydwx_addCol_a{
+	margin-left: 250px;cursor: pointer;
+}
+#ydwx_editData .ydwx_addCol_a{
+	margin-left: 250px;cursor: pointer;
+}
+#ydwx_editData .ydwx_btns{
+	margin:10px 0 0 150px;
+}
+#ydwx_editData .ydwx_addTypeDiv{
+	padding:5px 0 5px 20px;display:none;
+}
+#ydwx_editData .ydwx_tempFrame{
+	/* width:560px;height:380px;border: 0; */
+	width:395px;height:225px;border: 0;
+}
+
+/*-----------互动项管理编辑结束---------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------互动项管理添加结束------------------  */

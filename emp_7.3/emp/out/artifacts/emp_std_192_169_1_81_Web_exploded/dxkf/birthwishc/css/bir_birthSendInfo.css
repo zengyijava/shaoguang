@@ -1,0 +1,100 @@
+#bir_birthSendInfo center {
+	font-size: 14px;
+}
+#bir_birthSendInfo select {
+	font-size: 14px;
+}
+#bir_birthSendInfo #rightDiv{
+	margin-bottom:10px;
+}
+#bir_birthSendInfo .dept {
+    float: left;
+    text-align: left;
+    width: 240px;
+    margin-bottom:10px;
+}
+#bir_birthSendInfo .dxzs_div1{
+	height:460px;
+}
+#bir_birthSendInfo #tempOptions,#rightSelectTemp,#rightSelectTempAll{
+	display:none;
+}
+#bir_birthSendInfo .dxzs_td1{
+	font-size:12px;
+	width:302px;
+}
+#bir_birthSendInfo .dxzs_td2{
+	font-size:12px;
+	color:#666666;
+	text-align:left;
+}
+#bir_birthSendInfo .dxzs_td3{
+	border:1;
+}
+#bir_birthSendInfo #etree{
+	width:242px;
+	height:240px;
+}
+#bir_birthSendInfo #sonFrame{
+	width:240px;
+	height:240px;
+}
+#bir_birthSendInfo .div_bd.title_bg{
+	border-bottom:0;
+	height:22px;
+	width:242px;
+	float:left;
+	overflow: hidden
+}
+#bir_birthSendInfo .div_bd.title_bg span{
+	float:left;
+	margin-top:3px;
+	font-size:12px
+}
+#bir_birthSendInfo #showUserName{
+	height:22px;
+	width:240px;
+	padding-top: 5px;
+	padding-left:10px;
+	display: none; 
+	text-align: left;
+	font-size: 12px;
+}
+#bir_birthSendInfo #totalRec1{
+	color:blue;
+	display:none
+}
+#bir_birthSendInfo #etree1{
+	height: 120px; 
+	width: 237px;
+	overflow:hidden;
+	display:block;
+	padding-left:5px;
+}
+#bir_birthSendInfo #left{
+	padding:4px 0 6px 8px;
+}
+#bir_birthSendInfo .dxzs_td4{
+	width:5%;
+	padding: 5px;
+	height:350px;
+	text-align:center;
+}
+#bir_birthSendInfo #toRight{
+	margin-top:10px;
+}
+#bir_birthSendInfo #right{
+	width:204px; 
+	display:none;
+	height: 395px; 
+	border:0;
+	float:left;
+	color: black;
+	font-size: 12px;
+	padding:4px;
+	vertical-align:middle;
+	margin:-6px -10px;
+}
+#bir_birthSendInfo .pt10{
+	    padding-top: 0px;
+}

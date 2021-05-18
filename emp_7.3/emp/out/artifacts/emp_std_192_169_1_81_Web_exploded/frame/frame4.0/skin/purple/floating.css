@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.floating
+{
+	background: #0B3E75;
+}
+.uChildren li a
+{
+	background:#0B3E75;
+	color: #FFFFFF;
+}
+.uChildren li a:hover
+{
+	background:#b5d2ff;
+}
+.remindMessage{
+	color:#777978;
+	background-color:#F8FFF1;
+	border-color:#D4D8C7;
+}
+#uChildren li a
+{
+	background:#0B3E75;
+	color: #FFFFFF;
+}
+
+#uChildren li a:hover
+{
+	background:#b5d2ff;
+}
+
+.floating1
+{
+	background: #0B3E75;
+}
+

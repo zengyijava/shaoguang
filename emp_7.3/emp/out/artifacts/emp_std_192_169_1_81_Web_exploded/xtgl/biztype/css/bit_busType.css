@@ -1,0 +1,463 @@
+#busNameAdd,#busCode,#busNameEdit,#busCodeEdit  {
+	width: 170px;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+#busDescriptionAdd,#busDescriptionEdit {
+	width: 170px;
+	font-size: 13px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+#btn {
+	margin-top: 15px;
+	width: 240px !important;
+	text-align: right;
+}
+
+#btn input {
+	padding: 2px 5px;
+	font-size: 14px;
+	display: inline;
+	cursor: pointer;
+	width: 55px !important;
+	height: 23px !important;
+}
+
+#bit_busType .input_textarea
+{
+	border: 1px solid #b3caee;
+}
+
+#bit_busType .hiddenValueDiv{
+	display:none;
+}
+
+#bit_busType .busName{
+	width: 178px;
+}
+
+#bit_busType .busCode{
+	width: 178px;
+}
+
+#bit_busType .state{
+	width: 182px;
+}
+
+#bit_busType .riseLevel{
+	width: 182px;
+}
+
+#bit_busType .busType{
+	width: 182px;
+}
+
+#bit_busType .name{
+	width: 178px;
+}
+
+#bit_busType .deptid_div{
+	width:220px;
+}
+
+#bit_busType #condition .depNam{
+	width:159px;
+	cursor: pointer;
+}
+
+#bit_busType .dropMenu_iframe{
+	position: absolute; 
+	z-index: -1; 
+	width: 100%; 
+	height: 100%; 
+	top: 0; 
+	left: 0; 
+	scrolling: no;
+}
+
+#bit_busType .dropMenu_iframe_div{
+	margin-top: 3px;
+	margin-right:10px;
+	text-align:right;
+}
+
+#bit_busType .isContainsSun{
+	width:15px;
+	height:15px;
+	vertical-align:middle;
+	margin-right:3px;
+}
+
+#bit_busType .sendtime{
+	cursor: pointer; 
+	width: 178px; 
+	background-color: white;
+}
+
+#bit_busType .recvtime{
+	cursor: pointer; 
+	width: 178px; 
+	background-color: white;
+}
+
+#bit_busType .th1{
+	width:11%;
+}
+
+#bit_busType .th2{
+	width:11%;
+}
+
+#bit_busType .th3{
+	width:6%;
+}
+
+#bit_busType .th4{
+	width:6%;
+}
+
+#bit_busType .th5{
+	width:4%;
+}
+
+#bit_busType .th6{
+	width:11%;
+}
+
+#bit_busType .th7{
+	width:11%;
+}
+
+#bit_busType .th8{
+	width:11%;
+}
+
+#bit_busType .th9{
+	width:12%;
+}
+
+#bit_busType .th10{
+	width:11%;
+}
+
+
+#bit_busType .cz_th{
+	width:6%;
+}
+
+#bit_busType .lbDesc{
+	display:none;
+}
+
+#bit_busType .addDiv{
+	display:none;
+}
+
+#bit_busType .addDiv_table{
+	width:100%;
+	height:100%;
+	font-size: 12px; 
+}
+
+#bit_busType .ywmc_mh_tr{
+	height: 39px;
+}
+
+#bit_busType .ywmc_mh_td{
+	padding-right: 15px;
+	width:28%;
+}
+
+#bit_busType .busNameAdd_td{
+	width:72%;
+}
+
+#bit_busType .busNameAdd{
+	width: 266px;
+	height: 23px;
+	line-height: 23px;
+}
+
+#bit_busType .ywbm_mh_tr{
+	height: 39px;
+}
+
+#bit_busType .ywbm_mh_td{
+	padding-right: 15px;
+	width:28%;
+}
+
+#bit_busType .busCodeAdd_td{
+	width:72%;
+}
+
+#bit_busType .busCodeAdd{
+	width: 266px;
+}
+
+#bit_busType .ywlx_mh_tr{
+	height: 39px;
+}
+
+#bit_busType .ywlx_mh_td{
+	padding-right: 15px; 
+	height: 35px;
+}
+
+#bit_busType .busTypeAdd_td{
+	width:72%;
+}
+
+#bit_busType .busTypeAdd{
+	width: 270px;
+}
+
+#bit_busType .yxjb_mh_tr{
+	height: 39px;
+}
+
+#bit_busType .yxjb_mh_td{
+	padding-right: 15px;
+}
+
+#bit_busType .riseLevelAdd_td{
+	width:72%;
+}
+
+#bit_busType .riseLevelAdd{
+	width: 270px;
+}
+
+#bit_busType .ywms_mh_tr{
+	height: 65px;
+}
+
+#bit_busType .ywms_mh_td{
+	padding-right: 15px;
+}
+
+#bit_busType .busDescriptionAdd_td{
+	width:72%;
+}
+
+#bit_busType .busDescriptionAdd{
+	height:50px;
+	width: 266px; 
+	line-height: 18px;
+}
+
+#bit_busType .addsubmit_td{
+	text-align:center;
+}
+
+#bit_busType .bindDiv{
+	padding:5px;
+	display:none;
+}
+
+#bit_busType .bindDiv_table{
+	width:100%;
+	height:100%;
+}
+
+#bit_busType .ywlxgl_ywmc_mh_td{
+	width:30%;
+}
+
+#bit_busType .bindDivBusName_td{
+	width:70%;
+}
+
+#bit_busType .bindDiv_tr_td{
+	height:3px; 
+}
+
+#bit_busType .sp_td{
+	width:70%;
+}
+
+#bit_busType .sp{
+	width: 156px;
+}
+
+#bit_busType .ms_mh_td{
+	vertical-align:top;
+}
+
+#bit_busType .editDiv{
+	padding:5px;
+	display:none;
+}
+
+#bit_busType .editDiv_table{
+	width:100%;
+	height:100%;
+	font-size: 12px;
+}
+
+#bit_busType .editDiv_ywmc_mh_tr{
+	height: 39px;
+}
+
+#bit_busType .editDiv_ywmc_mh_td{
+	width:28%;
+	padding-right: 15px;
+}
+
+#bit_busType .busNameEdit_td{
+	width:72%;
+}
+
+#bit_busType .busNameEdit{
+	width: 266px;
+}
+
+#bit_busType .editDiv_ywbm_mh_tr{
+	height: 39px;
+}
+
+#bit_busType .editDiv_ywbm_mh_td{
+	width:28%;
+	padding-right: 15px;
+}
+
+#bit_busType .busCodeEdit_td{
+	width:72%;
+}
+
+#bit_busType .busCodeEdit{
+	color:#000;
+	background-color:#ffffff;
+	border: 0px solid #7F9DB9;
+}
+
+#bit_busType .editDiv_ywlx_mh_tr{
+	height: 39px;
+}
+
+#bit_busType .editDiv_ywlx_mh_td{
+	width:28%;
+	padding-right: 15px;
+}
+
+#bit_busType .busTypeEdit_td{
+	width:72%;
+}
+
+#bit_busType .busTypeEdit{
+	width: 270px;
+}
+
+#bit_busType .editDiv_yxjb_mh_tr{
+	height: 39px;
+}
+
+#bit_busType .editDiv_yxjb_mh_td{
+	padding-right: 15px;
+	width:28%;
+}
+
+#bit_busType .riseLevelEdit_td{
+	width:72%;
+}
+
+#bit_busType .riseLevelEdit{
+	width: 270px;
+}
+
+#bit_busType .editDiv_zt_mh_tr{
+	height: 39px;
+}
+
+#bit_busType .editDiv_zt_mh_td{
+	padding-right: 15px;
+	width:28%; 
+}
+
+#bit_busType .editDiv_qy_td{
+	width:72%;
+}
+
+#bit_busType .editDiv_ywms_mh_tr{
+	height: 65px;
+}
+
+#bit_busType .editDiv_ywms_mh_td{
+	padding-right: 15px;
+	width:28%;
+}
+
+#bit_busType .busDescriptionEdit{
+	width: 270px; 
+	height:50px;
+	line-height: 18px;
+}
+
+#bit_busType .editsubmit_td{
+	text-align:center
+}
+
+#bit_busType .singledetail{
+	padding:5px;
+	display:none;
+	word-wrap: break-word;
+	word-break:break-all;
+	overflow-y:auto;
+}
+
+#bit_busType .msg{
+	width:100%;
+	height:100%;
+	overflow-y:auto;
+}
+
+#bit_busType .msg_xmp{
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+.uploadResult_table{
+	margin-top: 30px;
+	margin-left: 45px;
+}
+#uploadResult{
+	float: right;
+}
+.ywmc_mh_tr_font{
+	font-family: 'Arial Normal', 'Arial';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+	color: #333333;
+	text-align: center;
+	line-height: normal; 
+}
+.font_green{
+	color:green;
+}
+.font_red{
+	color:red;
+}
+.ywmc_mh_tr_a{
+	text-decoration: none;
+	color:#1abce0;
+	outline: 0;
+	/* font-weight: 400;
+	font-style: normal; */
+	font-size: 12px;
+	text-align: center;
+ 
+	
+}
+.ff{
+    outline:none;
+	text-decoration: none;
+}
+.ff:HOVER{
+    outline:none;
+	text-decoration: none;
+}

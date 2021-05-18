@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+		<tree id="0">
+			<item id="dhtmlxtree" text="dhtmlxTree" im0="dhtmlxtree_icon.gif" im1="dhtmlxtree_icon.gif" im2="dhtmlxtree_icon.gif">
+				<userdata name="url">
+					../dhtmlxTree/doc
+				</userdata>
+				<userdata name="thisurl">
+					../dhtmlxTree/doc/guide.html
+				</userdata>
+				<item text="Main Features" id="mf">
+					<userdata name="url">guide.html</userdata>
+				</item>
+				<item text="Supported Browsers" id="browsers">
+					<userdata name="url">guide.html</userdata>
+				</item>
+				
+			</item>
+			
+
+		</tree>

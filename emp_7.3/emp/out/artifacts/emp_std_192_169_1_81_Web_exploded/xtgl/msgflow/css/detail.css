@@ -1,0 +1,13 @@
+/*#smmsExamine {background:#EDEDED;width:500px;border:1px solid #ccc;padding:10px 10px 10px 20px;z-index:300;
+	top:220px;left:37%;position:absolute;font-size:14px; text-align:left;word-break:break-all;overflow:auto;}*/
+#smsExamine {font-size:12px;overflow: visible;}	
+#smsExamine span {float:left;width:100px;height:24px;line-height:24px;;display:inline;text-align:right;}
+#smsExamine p {float:left;width:150px;line-height:24px;height:24px;display:inline;height:auto}
+#smsExamine p#msg{width:400px;float:left;height:30px;min-height:24px;height:auto !important;display:inline;}
+#smsExamine div{float:left;text-align:center;clear:both;margin-top:5px;display:inline;width:100%}
+#mmsExamine {font-size:12px;overflow: visible;}	
+#mmsExamine span {float:left;width:100px;height:24px;line-height:24px;;display:inline;text-align:right;}
+#mmsExamine p {float:left;width:150px;line-height:24px;height:24px;display:inline;height:auto}
+#mmsExamine p#msg{width:400px;float:left;height:30px;min-height:24px;height:auto !important;display:inline;}
+#mmsExamine div{float:left;text-align:center;clear:both;margin-top:5px;display:inline;width:100%}
+#mmsExamine a ,#smsExamine a {color:blue;cursor: pointer}

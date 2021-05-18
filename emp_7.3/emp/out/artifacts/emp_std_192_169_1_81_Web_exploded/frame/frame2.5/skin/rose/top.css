@@ -1,0 +1,86 @@
+@charset "utf-8";
+#topLink{
+height:34px;position: absolute;top:65px;left:125px;
+}
+.halving_line
+{
+	background-image:url(images/halving_line.png);
+	background-position: center;
+}
+
+#tbBody
+{
+	/*background: url(images/header.png);*/
+	background:none;
+}
+.top
+{
+	/*background: url(images/top_bg_right.jpg) no-repeat right;*/
+	background:none;
+}	
+.top_info {
+	color: #FFF;
+}
+.top_info a {
+	color: #FFF;
+}
+#firstPage
+{
+}
+#top_home 
+{
+	background-image: url('images/home.png') ;
+}
+
+.onSys {
+	background: #0B3E75;
+}
+.top_bg_div
+{
+	background: url(images/top_bg.png) repeat-x;
+}
+.top_bg_left
+{
+	background: url(images/red_top_bg.png) no-repeat;
+	float:left;height:99px;width:100%;
+}
+.top_bg_right
+{
+	
+	
+}
+.topMenu{height:24px;}
+.curhover {
+	color : #ffffff;
+	background:#d00c00;
+}
+.cursel{
+	background:#821604;
+	color : #fff;
+	font-weight:bold;
+}
+
+#top_menu_left
+{
+	display: block;
+	height:15px;
+	width:9px;
+	background: url(images/top_menu_left.gif) no-repeat center center;
+	cursor: pointer;
+}
+#top_menu_left:hover
+{
+	background: url(images/top_menu_left_hover.gif) no-repeat center center;
+}
+#top_menu_right
+{
+	display: block;
+	height:15px;
+	width:9px;
+	background: url(images/top_menu_right.gif) no-repeat center center;
+	cursor: pointer;
+}
+#top_menu_right:hover
+{
+	background: url(images/top_menu_right_hover.gif) no-repeat center center;
+}

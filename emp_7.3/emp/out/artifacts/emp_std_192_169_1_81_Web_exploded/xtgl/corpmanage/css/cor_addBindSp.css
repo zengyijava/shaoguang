@@ -1,0 +1,72 @@
+#cor_addBindSp #totable {
+    padding:2px 5px;
+	background: #e8f0f8;
+	border: 1px #82baf1 solid;
+	text-align: left;
+	width: 755px;
+}
+
+#cor_addBindSp #totable tr td {
+    padding:2px 5px;
+	border: 1px #82baf1 solid;
+}
+
+#cor_addBindSp #btn {
+	margin-top: 15px;
+	width: 240px !important;
+	text-align: right;
+}
+
+#cor_addBindSp .rContent2{
+	padding:5px 0;
+}
+
+#cor_addBindSp .fhsyj_span{
+	margin-right: 35px;
+}
+
+#cor_addBindSp .table_input{
+	border:0px
+}
+
+#cor_addBindSp .sysTable{
+	width:556px;
+	height:100%;
+}
+
+#cor_addBindSp .spzh_up_tr_td_hr{
+	width:458px;
+}
+
+#cor_addBindSp .spzh_down_div{
+	display:block;
+	width:250px;
+	height:150px;
+	overflow: auto;
+}
+
+#cor_addBindSp .t1{
+	margin-left:3px;
+	width:227px;
+	border:none;
+}
+
+#cor_addBindSp .GtPortUsed_td{
+	height:20px;
+}
+
+#cor_addBindSp .t2{
+	margin-left:3px;
+	width:227px;
+	display: none;
+	border:none;
+}
+
+#cor_addBindSp .btnOK_up_tr_td_hr{
+	width:458px;
+}
+
+#cor_addBindSp .btnOK_td{
+	padding-right:96px;
+}
+

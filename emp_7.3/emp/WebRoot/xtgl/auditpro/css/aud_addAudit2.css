@@ -1,0 +1,64 @@
+#aud_addAudit2 .getloginUser{
+	padding:5px;
+	display:none;
+}
+
+#aud_addAudit2 .optionstr{
+	padding:5px;
+	display:none;
+}
+
+#aud_addAudit2 .serForm_div1{
+	margin-left:25px;
+}
+
+#aud_addAudit2 .serForm_div1_table{
+	font-size:14px;
+	width:545px;
+	line-height:32px;
+}
+
+#aud_addAudit2 .serForm_div1_table_td1{
+	width:14%;
+}
+
+#aud_addAudit2 .serForm_div1_table_td2{
+	width:26%;
+	line-height:1em;
+}
+
+#aud_addAudit2 .serForm_div1_table_td3{
+	width:31%;
+}
+
+#aud_addAudit2 .serForm_div1_table_td4{
+	width:29%;
+}
+
+#aud_addAudit2 .serForm_div2{
+	margin-top:10px;
+	width: 520px;
+	height: 435px;
+}
+
+#aud_addAudit2 .serForm_div2_div{
+	width: 520px;
+	height:20px;
+	font-size: 12px;
+}
+
+#aud_addAudit2 .flowFrame{
+	width:510px;
+	height:410px;
+	border: 0;
+}
+
+#aud_addAudit2 .serForm_div3{
+	height: 30px;
+}
+
+#aud_addAudit2 .serForm_div3_table{
+	width: 460px;
+	height: 25px;
+}
+

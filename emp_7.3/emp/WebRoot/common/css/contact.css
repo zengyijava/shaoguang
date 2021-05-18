@@ -1,0 +1,97 @@
+*{padding: 0;margin: 0;}
+ul,ol,li,h1{margin: 0;padding: 0;border: 0;}
+a{text-decoration: none;display: block;}
+li{list-style: none;}
+
+
+.header {
+	width: 100%;
+	height:243px;
+	background-image:url(../img/map_zhong.png);
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+}
+.header .header_tp{
+	width: 1246px;
+	margin: 0 auto;
+}
+.header h1{
+	color: #FF6537;
+	font-size: 32px;
+	float: left;
+	margin-top: 13px;
+}
+.header .header_list li{
+	float: right;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-right: 22px;
+}
+.header .header_list li a{
+	color: #d7d7d9;
+	padding: 6px 24px;
+}
+.header .header_list li a:hover{
+	background: #ff6537;
+	border-radius: 30px;
+	color: #fff;
+}
+.header .header_list li.login{
+	margin-right: 0;
+}
+.header .header_list li.login a{
+	border: 1px #B6B8BD solid;
+	color:#fff;
+	border-radius: 30px;
+	padding: 5px 23px;
+}
+.header .header_list .h_current a{
+	background: #ff6537;
+	padding: 6px 24px;
+	border-radius: 30px;
+	color: #fff;
+}
+
+.header .header_list .index a{
+	background: #ff6537;
+	padding: 6px 24px;
+	border-radius: 30px;
+	color: #fff;
+}
+
+
+
+.bottom{
+  margin-top: 35px;
+  text-align: center
+}
+.one{
+  color: #333333;
+  font-size: 30px;
+  font-weight: lighter
+}
+.two{
+  color: #737373;
+  font-size: 17px;
+}
+.information{
+  margin-top: 50px;
+}
+.information li{
+  width: 500px;
+  padding-top: 5px;
+  text-align: left;
+  margin: 0 auto;
+  color: #333333
+}
+#YsityMap{
+  width: 868px;
+  height: 296px;
+  border: red 2px solid;
+  margin: 30px auto;
+  background-image:url(../img/map.png);
+}
+footer p{
+  font-weight: lighter;
+  margin-bottom:50px
+}

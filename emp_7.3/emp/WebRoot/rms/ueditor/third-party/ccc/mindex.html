@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Video.js 6.2.8</title>
+<link rel="stylesheet" href="css/video-js.min.css">
+<link rel="stylesheet" href="css/normalize.min.css" />
+<link rel="stylesheet" href="css/ion.rangeSlider.css" />
+<link rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css"/>
+<style>
+body{background-color: #2F4F4F}
+.m{ width: 740px; height: 400px; margin-left: auto; margin-right: auto; margin-top: 100px; }
+</style>
+<script>
+
+ </script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/ion.rangeSlider.js"></script>
+<script src="js/video.min.js"></script>	 
+</head>
+<body>
+	<div class="m">
+		<video id="my-video" class="video-js vjs-big-play-centered" controls preload="auto" width="740" height="400"
+		  poster="m.png" data-setup="{}">
+			<source id="videoPlayerSource" src="" type="video/mp4">
+<!-- 			<source src="../VID_20180112_102002.mp4" type="video/mp4"> -->
+			<p class="vjs-no-js">
+			  To view this video please enable JavaScript, and consider upgrading to a web browser that
+			  <a href="http://videojs.com/html5-video-support/" rel="noopener noreferrer nofollow" target="_blank">supports HTML5 video</a>
+			</p>
+		</video>
+	</div>
+	<div id="range-div" style="position:relative;padding-top:10px;width:740px;margin:0 auto;font-size:15px;visibility:hidden;">
+		<input id="range" type="text" />
+		<button id="cut">
+			<span>预览</span>
+		</button>
+		<button>
+			<span>流畅</span>
+		</button>
+		<button>
+			<span>普通</span>
+		</button>
+		<button>
+			<span>高清</span>
+		</button>
+		<button id="complete">
+			<span>裁剪</span>
+		</button>
+	</div>
+	<script type="text/javascript">
+
+		function getUrlParam(name) {
+			var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+			var r = window.location.search.substr(1).match(reg); //匹配目标参数
+			if (r != null)
+				return unescape(r[2]);
+			return null; //返回参数值
+		}
+		var pathName = window.location.pathname.substring(1);
+		var webName = pathName == '' ? '' : pathName.substring(0, pathName.indexOf('/'));
+		webName = '/' + webName + '/';
+		var videoPath = getUrlParam("videoPath");
+		var t = document.getElementById("videoPlayerSource");
+		/* if (0 != videoPath.indexOf('/')) {
+			videoPath = webName + videoPath;
+		} */
+		document.getElementById("videoPlayerSource").setAttribute("src", videoPath);
+		var myPlayer = videojs('my-video');
+		//videojs("my-video").ready(function(){
+		//	var myPlayer = this;		
+		//});
+
+		//视频加载完之后加载拖动条
+		myPlayer.on("loadeddata", function() {
+			var length = Math.ceil(myPlayer.duration());
+			$("#range-div").css("visibility", "visible");
+			$("#range").ionRangeSlider({
+				min : 0, //Range最小值
+				max : length, //Range最小值
+				from : 0, //Range默认开始位置
+				to : length, //Range默认结束位置
+				type : 'double', //设置游标个数
+				step : 1, //移动范围  
+				prefix : "", //设置数值前缀
+				postfix : "″", //设置数值后缀
+				hasGrid : false, //底部是否出现刻度
+				prettify : true
+			});
+		});
+
+		var fromStr, toStr
+		$("#cut").click(function() {
+			fromStr = $(".irs-from").text();
+			toStr = $(".irs-to").text();
+			fromStr = fromStr.substring(0, fromStr.indexOf("″"));
+			toStr = toStr.substring(0, toStr.indexOf("″"));
+
+			myPlayer.currentTime(fromStr);
+			myPlayer.play();
+
+			setTimeout(function() {
+				myPlayer.pause();
+			}, (toStr - fromStr) * 1000);
+		});
+	</script>
+</body>
+</html>

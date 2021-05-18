@@ -1,0 +1,194 @@
+#ydwx_netManager  .ydwx_rContent {
+	padding: 10px 25px 190px 25px;
+}
+
+#ydwx_netManager #condition .ydwx_wxid {
+	width: 178px;
+}
+
+#ydwx_netManager #condition .ydwx_wxname {
+	width: 180px;
+}
+
+#ydwx_netManager #condition .ydwx_operStatus {
+	width: 182px;
+}
+
+#ydwx_netManager #condition .ydwx_temptype {
+	width: 182px;
+}
+
+#ydwx_netManager #condition .ydwx_startdate {
+	cursor: pointer;
+	width: 180px;
+	background-color: white;
+}
+
+#ydwx_netManager #condition .ydwx_enddate {
+	cursor: pointer;
+	width: 180px;
+	background-color: white;
+}
+
+#ydwx_netManager #condition .ydwx_flowId {
+	width: 178px; 
+}
+#ydwx_netManager   .ydwx_deleBtn {
+	width: 80px;
+	height: 25px;
+}
+
+#ydwx_netManager .ydwx_content_dv {
+	width: 100%;
+}
+
+#ydwx_netManager #tbs .ydwx_wxname_td {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#ydwx_netManager #tbs .ydwx_creatname_td {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#ydwx_netManager #tbs .ydwx_creatdate_td {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#ydwx_netManager  .ydwx_nav_dv {
+	margin-right: 10px;
+	margin-top: 3px;
+}
+
+#ydwx_netManager .ydwx_ym {
+	width: 170px; 
+}
+#ydwx_netManager .ydwx_iframe_dv {
+	width: 240px;
+	height: 460px;
+	margin-left: 30px;
+	background: url('../../../common/img/iphone5.jpg');
+}
+#ydwx_netManager .ydwx_iframe {
+	background: white;width:198px;height:325px;margin-top: 65px;margin-left: 22px;
+}
+#ydwx_netManager .ydwx_pres_tabl {
+	margin-top: 10px;
+}
+
+#ydwx_netManager .ydwx_fType {
+	width: 180px;height:24px;
+}
+
+#ydwx_netManager .ydwx_btns_td {
+	text-align: center;
+}
+#ydwx_netManager .ywdx_submit {
+	margin-left: 9px;
+}
+#ydwx_netManager .ydwx_recordTableDiv {
+	width: 100%;padding:15px 0;display:none;
+}
+#ydwx_netManager .ydwx_recordTable {
+	text-align:center;
+}
+#ydwx_netManager .ydwx_nextrecordmgs {
+	width: 95%;padding-bottom:15px;padding-top:10px;display:none;font-size: 12px;color: blue;padding-left: 25px;
+}
+#ydwx_netManager .ydwx_reviewTableDiv {
+	width: 100%;padding:15px 0;display:none;
+}
+#ydwx_netManager .ydwx_reviewTable {
+	width:95%;
+	text-align:center;
+}
+#ydwx_netManager .ydwx_nextreviewmgs {
+	width: 95%;padding-bottom:15px;padding-top:10px;display:none;font-size: 12px;color: blue;padding-left: 25px;
+}
+#ydwx_netManager .ydwx_modify {
+	padding:5px;width:300px;height:160px;display:none;word-wrap: break-word;word-break:break-all;overflow-y:auto;
+}
+#ydwx_netManager .ydwx_msg {
+	width:100%;height:100%;overflow-y:auto;
+}
+
+#ydwx_netManager  .file-box_1 {
+	position: relative;
+	width: 275px;
+}
+
+#ydwx_netManager  .txt_1 {
+	height: 22px;
+	border: 1px solid #cdcdcd;
+	width: 180px;
+}
+
+#ydwx_netManager  .btn_1 {
+	background-color: #FFFF;
+	border: 1px solid #CDCDCD;
+	height: 24px;
+	width: 70px;
+	position: relative;
+}
+
+#ydwx_netManager  .file_1 {
+	position: absolute;
+	top: 0;
+	right: 80px;
+	height: 24px;
+	filter: alpha(opacity :   0);
+	opacity: 0;
+	width: 260px;
+	left: +0px;
+}
+#ydwx_netManager  .showNetbox
+   {
+     　background:#CCCCCC;
+       border-width:1px;
+       border-style:solid;
+       border-color:#71B8FF;
+       height:430px;width:235px;
+       position: absolute; 
+       z-index:7;
+   }
+#ydwx_netManager   .hideDlg {
+	height: 430px;
+	width: 234px;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

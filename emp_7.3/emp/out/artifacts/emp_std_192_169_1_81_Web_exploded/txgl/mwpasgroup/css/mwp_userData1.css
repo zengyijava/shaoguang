@@ -1,0 +1,17 @@
+#mwp_userData1 .ips-td div{display:none;}
+#mwp_userData1 #ips{padding-left: 20px;line-height: 16px;}
+
+#mwp_userData1 .userId{
+	width:154px;
+}
+
+#mwp_userData1 .editHttpsDiv{
+	padding:5px;
+	display:none;
+}
+
+#mwp_userData1 .editHttpsFrame{
+	width:580px;
+	height:230px;
+	border: 0;
+}

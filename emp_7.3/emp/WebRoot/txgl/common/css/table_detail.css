@@ -1,0 +1,136 @@
+/*新建页面等表格样式*/
+ @charset "utf-8";
+
+#detail_Info {
+	width: 100%;
+}
+
+#detail_Info table {
+	background: #e8f0f8;
+	border: 1px #999 solid;
+	text-align: left;
+	width: 755px;
+}
+
+#detail_Info table thead tr td {
+	border: 1px #82baf1 solid;
+	height: 28px;
+	font-size: 12px;
+	padding-left: 8px;
+	padding-right: 8px
+}
+
+#detail_Info table thead tr #btn input {
+	padding: 2px 10px;
+	margin: 2px
+}
+
+#detail_Info table thead tr #btn {
+	text-align: center;
+	width: auto;
+}
+
+#detail_Info table thead tr td label select {
+	width: 164px;
+}
+
+#detail_Info table thead tr td#pad {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	table-layout: fixed;
+	word-wrap: break-word;
+}
+
+#detail_Info table thead tr td label input {
+	width: 160px;
+}
+
+ 
+#detail_Info table thead tr td  a {
+	color: #0000FF;
+	text-decoration: underline;
+	cursor: pointer;
+}
+ 
+#detail_Info table thead tr td span {
+	float: right;
+}
+
+#detail_Info table thead tr td #star {
+	color: #F00;
+	display: inline;
+}
+
+#detail_Info table thead tr td span#auto {
+	color: #F00;
+	float: left;
+}
+
+#detail_Info #detail_word {
+	width: 755px;
+	text-align: left;
+}
+
+.tablefix {
+	table-layout: fixed;
+}
+
+/* 新建页面表格样式 */
+.addInfoContent table {
+	clear:both;
+	width:99%;
+	margin:0 0.5% 0.5% 0.5%;
+	position: relative;
+}
+.addInfoContent table tr{
+	height:16px;
+}
+.addInfoContent table tr td {
+	border: #b5d6e6 1px solid;
+	font-size:12px;
+	padding-left:3px;
+}
+
+ /*账户信息样式*/
+#cCheck {
+	float: left;
+	width: 112px;
+	height: 40px;
+	text-align: left;
+	background-color: #fff;
+	padding: 2px;
+	margin: 2px;
+	line-height: 20px;
+}
+
+#inputType {
+	width: 100px;
+	text-align: right;
+}
+ 
+/*功能说明*/
+#u_o_c_explain {
+	text-align:left;
+	border: 1px solid #D1D1D1;
+	background: #EDEDED;
+	font-weight: 500;
+	font-style: "宋体";
+	width: auto;
+	margin: 10px 5px;
+	padding: 5px;
+	width:740px;
+}
+
+#u_o_c_explain p {
+	font-weight: 600;
+	cursor: pointer;
+}
+
+#u_o_c_explain ul li {
+	text-indent: 18px;
+	line-height: 20px;
+	font-size: 12px;
+	list-style: none;
+}
+
+/*end 功能说明*/

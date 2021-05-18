@@ -1,0 +1,90 @@
+#not_sysNotice .addNotice{
+	padding:5px;
+	display:none;
+	font-size: 12px;
+}
+
+#not_sysNotice .title{
+	width:290px;
+}
+
+#not_sysNotice .font_red{
+	color: red;
+}
+
+#not_sysNotice .cont{
+	width:290px;
+	height:200px;
+}
+
+#not_sysNotice .noteTail{
+	width:290px;
+}
+
+#not_sysNotice .noteState1{
+	margin-left: 30px;
+}
+
+#not_sysNotice .noteValid{
+	width: 80px;
+}
+
+#not_sysNotice .yl_div{
+	height: 60px;
+	line-height: 60px;
+	padding-top: 5px;
+}
+
+#not_sysNotice .Notices{
+	padding:5px;
+	display:none;
+	font-size: 12px;
+}
+
+#not_sysNotice .Notices_td{
+	height:5px;
+}
+
+#not_sysNotice .user{
+	width:300px;
+}
+
+#not_sysNotice .ttime{
+	width:300px;
+}
+
+#not_sysNotice .ttitle{
+	width:300px;
+}
+
+#not_sysNotice .tcont{
+	width:300px;
+	height:200px;
+	overflow-y:auto;
+	word-break: break-all;
+}
+
+#not_sysNotice .rContent_div{
+	height:30px;
+}
+
+#not_sysNotice .getContext_label{
+	display:none;
+}
+
+#not_sysNotice .modify{
+	padding:5px;
+	width:300px;
+	height:160px;
+	display:none;
+	word-wrap: break-word;
+	word-break:break-all;
+	overflow-y:auto;
+}
+
+#not_sysNotice .msg{
+	width:100%;
+	height:100%;
+	overflow-y:auto;
+}
+

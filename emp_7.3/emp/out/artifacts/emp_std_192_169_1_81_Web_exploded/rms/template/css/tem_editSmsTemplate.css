@@ -1,0 +1,146 @@
+table#editSmstmpTable tr {
+	height: 42px;
+}
+table#editSmstmpTable td input[type="text"] {
+	width: 365px;
+	border: 0;
+}
+
+table#editSmstmpTable td select {
+    width: 370px;
+    border: 1px solid #e8ecf0;
+    height: 35px;
+}
+#tem_editSmsTemplate .temp_style
+{
+	vertical-align: top;
+}
+
+
+
+#tem_editSmsTemplate .hiddenValueDiv{
+	display:none;
+}
+
+#tem_editSmsTemplate .editSmstmpTable{
+	width: 610px;
+	text-align: left;
+}
+
+#tem_editSmsTemplate .only_tr{
+	display:none;
+}
+
+#tem_editSmsTemplate .spanSmsTmpName_td1{
+	width: 130px;
+}
+
+#tem_editSmsTemplate .spanSmsTmpName_td2{
+	width: 90px;
+}
+
+#tem_editSmsTemplate .tmName_td{
+	width: 380px;
+}
+
+#tem_editSmsTemplate .tmName_div{
+	float: left;
+	width:365px;
+}
+
+#tem_editSmsTemplate .tmName{
+	border-width:0;
+}
+
+#tem_editSmsTemplate .font_red{
+	color: red;
+}
+
+#tem_editSmsTemplate .spanSmsTmpCode_td{
+	width: 90px;
+}
+
+#tem_editSmsTemplate .tmCode_td{
+	width: 380px;
+}
+
+#tem_editSmsTemplate .tmCode_div{
+	float: left;
+	width:365px;
+}
+
+#tem_editSmsTemplate .tmCode{
+	border-width:0;
+}
+
+#tem_editSmsTemplate .tmCode_down_font{
+	color: red;
+	display:none;
+}
+
+#tem_editSmsTemplate .yszhzmzc_font{
+	color:#7f7f7f;
+}
+
+#tem_editSmsTemplate .trSmsTmpType{
+	height: 100px;
+}
+
+#tem_editSmsTemplate .dsflag_td{
+	width:200px;
+}
+
+#tem_editSmsTemplate .dsflag_div{
+	float: left;
+}
+
+#tem_editSmsTemplate .subModule{
+	float: left;
+	margin-top:5px;
+	margin-bottom: -7px;
+}
+
+#tem_editSmsTemplate .zmk_div{
+	padding:5px 0;
+}
+
+#tem_editSmsTemplate .cwcode_div{
+	float: left;
+}
+
+#tem_editSmsTemplate .gbcs_td{
+	padding:9px 0;
+	vertical-align: top;
+}
+
+#tem_editSmsTemplate .gbcs_div{
+	width:367px;
+}
+
+#tem_editSmsTemplate .gbcs_div_div{
+	display:none;
+	height: 15px;
+}
+
+#tem_editSmsTemplate .tmMsg{
+	width:365px;
+	height:90px;
+}
+
+#tem_editSmsTemplate .fontFmTip{
+	display: none; 
+	margin-left:120px;
+	float:left;
+	color:#7f7f7f;
+	clear:both;
+}
+
+#tem_editSmsTemplate .mbzt_mh_tr{
+	height:26px;
+}
+
+#tem_editSmsTemplate .btn{
+	text-align: center;
+}
+
+

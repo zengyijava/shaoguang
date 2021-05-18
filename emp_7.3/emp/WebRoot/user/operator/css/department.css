@@ -1,0 +1,220 @@
+﻿@charset "utf-8";
+
+#con_org_manager {
+	width: 700px !important;
+	height: 450px;
+	padding: 0px 10px 0 10px;
+	text-align: left;
+	border: 1px solid #00ADEE;
+}
+
+#con_org_manager #con_btn {
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+	width: 700px;
+	overflow: hidden;
+	white-space: nowrap;
+	border-bottom: 1px solid #00ADEE;
+	height: 30px;
+}
+
+#con_btn input {
+	line-height: 14px;
+	margin-right: 10px;
+	padding: 2px 5px;
+	font-size: 14px;
+	display: inline;
+	cursor: pointer;
+}
+
+#com_list {
+	float: left;
+	width: 350px;
+	height: 350px;
+	white-space: nowrap;
+}
+
+.h3_list {
+	width: 350px;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 16px;
+	border-bottom: 1px dashed #00ADEE;
+	height: 26px;
+	line-height: 26px;
+	text-indent: 26px;
+	background: url(../images/jt.gif) 2px 5px no-repeat left
+		center;
+	margin-bottom: 10px;
+}
+
+#com_list #c_l_container {
+	width: 350px;
+	overflow-y: auto;
+	overflow-x: auto;
+	white-space: nowrap;
+	height: 370px;
+	border: 1px solid #00ADEE;
+}
+
+#com_detail {
+	float: right;
+	height: 272px;
+	margin: 25px 0 0 0;
+	display: inline;
+	border: 1px solid #00ADEE;
+	font-size: 14px;
+	padding: 100px 25px 10px 25px;
+	_padding-bottom:55px;
+}
+
+#com_detail #com_detail_btn {
+	text-align: center;
+}
+
+#com_detail_btn input {
+	line-height: 14px;
+	margin-right: 10px;
+	padding: 2px 5px;
+	font-size: 14px;
+	display: inline;
+	cursor: pointer;
+}
+
+#com_detail #com_detail_btn input {
+	cursor: pointer;
+}
+
+#com_detail p {
+	width: 270px;
+	hieght: 35px;
+	margin-bottom: 10px;
+}
+
+#com_detail p textarea {
+	border: 1px solid #00ADEE;
+	font-size: 13px;
+}
+
+#superId,#superiorName,#depName,#depCode {
+	border: 1px solid #00ADEE;
+	width: 165px;
+	height: 20px;
+	line-height: 20px;
+	margin-right: 10px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+#com_abjust {
+	width: 350px;
+	border: 1px solid #83D1ED;
+	background: #E3FFFE;
+	margin-top: 15px;
+}
+
+#com_abjust #c_a_h3 {
+	background: url(../images/jt.gif) no-repeat left
+		center;
+}
+
+#com_abjust #com_abjust_list {
+	width: 385px;
+	height: 185px;
+	padding-left: 15px;
+}
+
+/*按添加按钮的css*/
+#com_add_part {
+	position: absolute;
+	left: 40%;
+	top: 30%;
+	width: 300px;
+	height: 250px;
+	border: 1px solid #83D1ED;
+	background: #d9f0ff;
+	display: none;
+	z-index: 190
+}
+
+#com_add_part #c_a_ph3 {
+	width: 300px;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 16px;
+	border-bottom: 1px dashed #00ADEE;
+	height: 26px;
+	line-height: 26px;
+	text-indent: 26px;
+	background: url(../images/jt.gif) no-repeat left
+		center;
+	margin-bottom: 10px;
+}
+
+#com_add_part table {
+	width: 100%;
+	padding-left: 15px;
+}
+
+#superDepName {
+	border: 1px solid #B6CDEF;
+	width: 250px;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+#addDepResp {
+	width: 170px;
+	border: 1px solid #BEC3D1;
+	font-size: 13px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+#com_add_part table tr td {
+	padding: 7px 7px 7px 10px;
+	font-size: 14px;
+}
+
+#com_add_part tr input {
+	width: 170px;
+	height: 20px;
+}
+
+#c_a_p_btn {
+	margin-top: 15px;
+	width: 240px !important;
+	text-align: right;
+}
+
+#c_a_p_btn input {
+	padding: 2px 5px;
+	font-size: 14px;
+	display: inline;
+	cursor: pointer;
+	width: 55px !important;
+	height: 23px !important;
+}
+
+#depResp {
+	width: 170px;
+	height: 80px;
+	font-size: 14px;
+	padding-left: 2px;
+}
+
+#showDeps,#btnAmend,#btnCancel {
+	line-height: 14px;
+	margin-right: 10px;
+	padding: 2px 5px;
+	font-size: 14px;
+	display: inline;
+	cursor: pointer;
+}
+
+#text_top {
+	vertical-align: top;
+	padding-top: 5px;
+}

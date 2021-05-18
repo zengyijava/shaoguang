@@ -1,0 +1,390 @@
+#busNameAdd,#busCode,#busNameEdit,#busCodeEdit  {
+	width: 170px;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+#busDescriptionAdd,#busDescriptionEdit {
+	width: 170px;
+	font-size: 13px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+#btn {
+	margin-top: 15px;
+	width: 240px !important;
+	text-align: right;
+}
+
+#btn input {
+	padding: 2px 5px;
+	font-size: 14px;
+	display: inline;
+	cursor: pointer;
+	width: 55px !important;
+	height: 23px !important;
+}
+#sta_stateCode .ywmc_mh_tr{
+	height: 39px;
+}
+.ywmc_mh_td {
+	width: 100px;
+}
+#sta_stateCode .busNameAdd_td{
+	width:72%;
+}
+
+#sta_stateCode .input_textarea
+{
+	border: 1px solid #b3caee;
+}
+
+#sta_stateCode .btnClass5Customer{
+	letter-spacing: 0px;
+	text-indent: 0px; 
+	border-radius: 3px;
+}
+.messagefoot{
+	margin-top: 20px;
+    /* text-align: left; */
+    float: right;
+    margin-right: 30px;
+}
+.messagefoot2{
+	margin-top: 20px;
+    /* text-align: left; */
+    float: right;
+    margin-right: 30px;
+    margin-top: 60px;
+}
+.messagefoot3{
+	margin-top: 20px;
+    /* text-align: left; */
+    float: right;
+    margin-right: 30px;
+    margin-top: 60px;
+}
+.messagefoot4{
+	margin-top: 20px;
+    /* text-align: left; */
+    float: right;
+    margin-right: 30px;
+    margin-top: 60px;
+}
+.messagefoot5{
+	margin-top: 20px;
+    /* text-align: left; */
+    float: right;
+    margin-right: 30px;
+    margin-top: 60px;
+}
+
+#u1115 .text{
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Arial Normal', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    margin-top:40px;
+    margin-left: 54px;
+}
+#u1117 .text{
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Arial Normal', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    margin-top:15px;
+}
+#u1119 .text{
+    font-size: 16px;
+    line-height: 30px;
+    color: #0099CC;
+    font-family: 'Arial Normal', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    margin-top:15px;
+}
+#u1121 .text{
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Arial Normal', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    margin-top:100px;
+}
+#u1123 .text{
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Arial Normal', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    margin-top:100px;
+}
+#u1125 .text{
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Arial Normal', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    margin-top:100px;
+}
+#u1127 .text{
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Arial Normal', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    margin-top:100px;
+}
+#downloadErrorMessage{
+color: #0099CC;
+}
+
+#u1121_img {
+    border-width: 0px;
+    left: 0px;
+    top: 0px;
+    width: 22px;
+    height: 17px;
+}
+
+._img {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:normal;
+  font-style:normal;
+  font-size:13px;
+  color:#000000;
+}
+.label {
+  font-size:14px;
+  text-align:left;
+}
+
+#u1121 .ax_default ._img{
+    font-family: 'Arial Normal', 'Arial';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+    color: #000000;
+}
+
+.ax_default {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+
+
+
+
+
+#sta_stateCode .hiddenValueDiv{
+	display:none;
+}
+
+#sta_stateCode .stateCode{
+	width: 178px;
+}
+
+#sta_stateCode .stateDes{
+	width: 178px;
+}
+
+#sta_stateCode .content_th1{
+	width:5%;
+}
+
+#sta_stateCode .content_th2{
+	width:10%;
+}
+#sta_stateCode .content_th7{
+	width:10%;
+}
+
+#sta_stateCode .content_th3{
+	width:35%;
+}
+
+#sta_stateCode .content_th4{
+	width:15%;
+}
+
+#sta_stateCode .content_th5{
+	width:15%;
+}
+
+#sta_stateCode .content_th6{
+	width:10%;
+}
+
+#sta_stateCode .addDiv{
+	display:none;
+}
+
+#sta_stateCode .addDiv_table{
+	width:100%;
+	height:100%;
+	font-size: 12px;
+}
+
+#sta_stateCode .ztm_mh_tr{
+	height: 39px;
+}
+
+#sta_stateCode .xzwj_mh_table{
+	width:380px;
+	border: blue;
+}
+
+#sta_stateCode .ztm_mh_td{
+	padding-right: 15px;
+	width:28%;
+}
+
+#sta_stateCode .stateCodeAdd_td{
+	width:72%;
+}
+
+#sta_stateCode .stateCodeAdd{
+	width: 266px;
+	height: 23px;
+	line-height: 23px;
+}
+
+#sta_stateCode .ztmms_mh_tr{
+	height: 65px;
+}
+
+#sta_stateCode .ztmms_mh_td{
+	padding-right: 15px;
+}
+
+#sta_stateCode .stateDesAdd_td{
+	width:72%;
+}
+
+#sta_stateCode .stateDesAdd{
+	height:50px;
+	width: 266px; 
+	line-height: 18px;
+}
+
+#sta_stateCode .addsubmit_td{
+	text-align:center;
+}
+
+#sta_stateCode .editDiv{
+	padding:5px;
+	display:none;
+}
+
+#sta_stateCode .filepath_span{
+	position:relative;
+	float:left;
+	display:block;
+	width:140px;
+	height:18px;
+	border:1px solid #999;
+	background: #eee;
+	text-align:center;
+}
+
+#sta_stateCode .filepath{
+	width:138px;
+	border:0px;
+}
+
+#sta_stateCode .fileBindDiv{
+	display:none;
+}
+
+#sta_stateCode .uploadFile{
+	position:absolute;
+	left:0;
+	top:0;
+	width:138px;
+	height:18px;
+	border:0px;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+#sta_stateCode .uploadFile_down_tr{
+	height:10px;
+}
+
+#sta_stateCode .kwComments_up_tr{
+	height:10px;
+}
+
+#sta_stateCode .editDiv_table{
+	width:100%;
+	height:100%;
+	font-size: 12px;
+}
+
+#sta_stateCode .ztm_mh_tr{
+	height: 39px;
+}
+
+#sta_stateCode .ztm_mh_td{
+	padding-right: 15px;
+	width:28%;
+}
+
+#sta_stateCode .stateCodeEdit_td{
+	width:72%;
+}
+
+#sta_stateCode .stateCodeEdit{
+	color:#000;
+	background-color:#ffffff;
+	border: 0px solid #7F9DB9;
+}
+
+#sta_stateCode .ztmsm_mh_tr{
+	height: 65px;
+}
+
+#sta_stateCode .ztmsm_mh_td{
+	padding-right: 15px;
+	width:28%;
+}
+
+#sta_stateCode .stateDesEdit{
+	width: 270px; 
+	height:50px;
+	line-height: 18px;
+}
+
+#sta_stateCode .mappingCodeEdit{
+	width: 270px; 
+	height:25px;
+	line-height: 18px;
+}
+
+#sta_stateCode .editsubmit_tr_td{
+	text-align:center;
+}
+
+#sta_stateCode .singledetail{
+	padding:5px;
+	display:none;
+	word-wrap: break-word;
+	word-break:break-all;
+	overflow-y:auto;
+}
+
+#sta_stateCode .msg{
+	width:100%;
+	height:100%;
+	overflow-y:auto;
+}

@@ -1,0 +1,116 @@
+/*短信助手-员工通讯录-修改员工样式*/
+.dxkf_display_none{
+	display:none;
+}
+#epl_editEmployee #dropdownMenu span {  
+	float:none !important;  
+}
+#epl_editEmployee table#sysTable{
+	height:100%;font-size: 12px;width: 820px;
+}
+#epl_editEmployee td#styleTd1,td#styleTd3{
+	width: 110px;
+}
+#epl_editEmployee td#styleTd2,td#styleTd4{
+	width: 300px;
+}
+#epl_editEmployee #loginUser{
+	padding:5px;display:none;
+}	
+#epl_editEmployee .titletop_table{
+	width: 760px;
+}	
+#epl_editEmployee #detail_Info{
+	width:830px;padding-left: 36px;height: 520px;line-height: 35px !important;line-height: 25px;
+}		
+#epl_editEmployee .user_label{
+	font-size: 14px;font-weight: bold;
+}		
+#epl_editEmployee .user_td1{
+	width:110px;
+}	
+#epl_editEmployee .user_td2{
+	width:300px;
+}	
+#epl_editEmployee .user_color_red{
+	color: red;
+}	
+#epl_editEmployee #birth{
+	cursor: pointer; background-color: white;
+}			
+#epl_editEmployee #depNam{
+	width: 203px;
+}			
+#epl_editEmployee #ssdep,#selectDepBtn_user{
+	cursor: pointer;text-decoration: underline;
+}			
+#epl_editEmployee #dropMenu{
+	position: absolute; display:none;margin-left:0px;height:450px; width:356px; background-color:white;border:1px solid;overflow-y:auto;overflow-x:auto;z-index:999;
+}		
+#epl_editEmployee .user_table{
+	font-size: 12px;width:100%;height:100%;
+}		
+#epl_editEmployee #userName{
+	width:225px;
+}
+#epl_editEmployee #userDepName{
+	width:203px;height:20px;cursor: pointer;font-size: 12px;
+}	
+#epl_editEmployee .user_color_blue{
+	color:blue;
+}	
+#epl_editEmployee #dropMenu_udep,#dropMenu_user{
+	position: absolute; display:none;margin-left:0px; width:366px;background-color:white;border:1px solid;z-index:999;
+}	
+#epl_editEmployee #dropdownMenu_udep,#dropdownMenu_user,#dropdownMenu_client{
+	margin-left:0px;height:450px; width:356px; background-color:white;overflow-y:auto;overflow-x:auto;z-index:999;
+}	
+#epl_editEmployee #roleName{
+	width:225px;height:20px;cursor: pointer;
+}
+#epl_editEmployee #allRoleName{
+	display: none;z-index: 4000;
+}
+#epl_editEmployee #userPerType{
+	width:230px;
+}
+#epl_editEmployee #depPerm,depPerm_client{
+	width:220px;display: nono;
+}
+#epl_editEmployee #domdepName{
+	width:225px;height:20px;
+}
+#epl_editEmployee .input_bd.user_select,#clientPerType{
+	width:230px;
+}
+#epl_editEmployee #depPerm_employ{
+	width:220px;
+}
+#epl_editEmployee #domdepName_employ,#domdepName_client{
+	width:150px;height:20px;border: 1px solid #7F9DB9;
+}
+#epl_editEmployee #selectDepBtn_employ,#selectDepBtn_client{
+	cursor: pointer;text-decoration: underline;display: none;
+}
+#epl_editEmployee #dropMenu_employ,#dropMenu_client{
+	position: absolute; display:none;margin-left:0px !important;margin-left:-280px;margin-top:-8px !important;margin-top:20px; width:366px;background-color:white;border:1px solid;z-index:999;
+}
+#epl_editEmployee .user_div2{
+	margin-top: 3px;margin-right:10px;text-align:right;
+}
+#epl_editEmployee #isNeedSubno{
+	width: 15px;
+}
+#epl_editEmployee #comments{
+	width: 638px;margin-top: 5px;
+}
+#epl_editEmployee .user_div3{
+	width:750px;
+}
+#epl_editEmployee .user_div4{
+	width:300px; height:200px;padding:10px 0 10px 10px;overflow: auto;
+}
+
+#epl_editEmployee #roleDiv{
+	width:140px;
+}

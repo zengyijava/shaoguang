@@ -1,0 +1,64 @@
+/* aud_auditpro */
+#aud_auditpro #condition table tr td select{
+	width:209px;
+	height:35px;
+}
+
+/* msg_examineMsg */
+#msg_examineMsg #condition table tr td select{
+	width:209px;
+	height: 35px;
+}
+
+/* tef_smsTemInfoReview */
+#tef_smsTemInfoReview #condition table tr td select{
+	width:209px;
+	height: 35px;
+}
+
+/* tem_smsTemplate */
+#tem_smsTemplate #condition table tr td select{
+	width:209px;
+	height: 35px;
+}
+
+/* tai_subno */
+#tai_subno #condition table tr td select{
+	width:209px;
+	height: 35px;
+}
+
+/* bit_busType */
+#bit_busType #condition table tr td select{
+	width:209px;
+	height: 35px;
+}
+
+/* ctr_securectrl */
+#ctr_securectrl #condition table tr td select{
+	width:209px;
+	height: 35px;
+}
+
+/* opl_oprateMonitor */
+#opl_oprateMonitor #condition table tr td select{
+	width:209px;
+	height: 35px;
+}
+
+/* cor_manager */
+#cor_manager #condition table tr td select{
+	width:209px;
+	height: 35px;
+}
+
+/* cor_BindSp */
+#cor_BindSp #condition table tr td > label > input{
+     width: 188px !important;
+}
+
+/* tai_msgTailMgr */
+#tai_msgTailMgr #condition table tr td select{
+	width:209px;
+	height: 35px;
+}

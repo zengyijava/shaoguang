@@ -1,0 +1,101 @@
+#par_selParamConfig .cszck_div{
+	padding-left: 0;
+	padding-top: 0;
+}
+
+#par_selParamConfig .cszck_table{
+	width: 100%;
+}
+
+#par_selParamConfig .memo_label{
+	display:none;
+}
+
+#par_selParamConfig .modify{
+	padding:5px;
+	width:300px;
+	height:160px;
+	display:none;
+	word-wrap: break-word;
+	word-break:break-all;
+	overflow-y:auto;
+}
+
+#par_selParamConfig .msg{
+	width:100%;
+	height:100%;
+	overflow-y:auto;
+}
+
+#par_selParamConfig .configDiv{
+	padding:5px;
+	display:none;
+	font-size:12px;
+}
+
+#par_selParamConfig .configDiv_table{
+	width:100%;
+}
+
+#par_selParamConfig .csmc_mh_up_tr_td{
+	height:5px;
+}
+
+#par_selParamConfig .csmc_mh_td{
+	vertical-align:top;
+}
+
+#par_selParamConfig .ParamSubName{
+	width:270px;
+}
+
+#par_selParamConfig .csz_mh_up_up_tr_td{
+	height:5px;
+}
+
+#par_selParamConfig .csz_mh_up_tr_td{
+	height:5px;
+}
+
+#par_selParamConfig .csz_mh_td{
+	vertical-align:top;
+}
+
+#par_selParamConfig .paramValues{
+	width:270px;
+}
+
+#par_selParamConfig .cszhy_mh_up_tr_td{
+	height:5px;
+}
+
+#par_selParamConfig .cszhy_mh_td{
+	vertical-align:top;
+}
+
+#par_selParamConfig .paramNames{
+	width:270px;
+}
+
+#par_selParamConfig .bz_mh_up_tr_td{
+	height:5px;
+}
+
+#par_selParamConfig .bz_mh_td{
+	vertical-align:top;
+}
+
+#par_selParamConfig .memo{
+	width:270px; 
+	height:60px;
+}
+
+#par_selParamConfig .dpidh_down_tr_td{
+	height:5px;
+}
+
+#par_selParamConfig .ok_div{
+	margin-top: 20px;
+}
+
+

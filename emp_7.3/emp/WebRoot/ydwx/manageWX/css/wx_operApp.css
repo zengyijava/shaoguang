@@ -1,0 +1,197 @@
+#wx_operApp file-box_1 {
+	position: relative;
+	width: 275px;
+}
+
+#wx_operApp txt_1 {
+	height: 22px;
+	border: 1px solid #cdcdcd;
+	width: 180px;
+}
+
+#wx_operApp btn_1 {
+	background-color: #FFFF;
+	border: 1px solid #CDCDCD;
+	height: 24px;
+	width: 70px;
+	position: relative;
+}
+
+#wx_operApp file_1 {
+	position: absolute;
+	top: 0;
+	right: 80px;
+	height: 24px;
+	filter: alpha(opacity :   0);
+	opacity: 0;
+	width: 260px;
+	left: +0px;
+}
+
+#wx_operApp showNetbox {
+	　background: #CCCCCC;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #71B8FF;
+	height: 430px;
+	width: 235px;
+	position: absolute;
+	z-index: 7;
+}
+
+#wx_operApp hideDlg {
+	height: 430px;
+	width: 234px;
+	display: none;
+}
+
+#wx_operApp rContent2 {
+	padding: 5px;
+}
+
+#wx_operApp hiddenValueDiv {
+	display: none;
+}
+
+#wx_operApp wxid {
+	width: 178px;
+}
+
+#wx_operApp wxname {
+	width: 180px;
+}
+
+#wx_operApp corpname {
+	width: 180px;
+}
+
+#wx_operApp operState {
+	width: 182px;
+}
+
+#wx_operApp temptype {
+	width: 182px;
+}
+
+#wx_operApp startdate {
+	cursor: pointer;
+	width: 180px;
+	background-color: white;
+}
+
+#wx_operApp enddate {
+	cursor: pointer;
+	width: 180px;
+	background-color: white;
+}
+
+#wx_operApp content_up_div {
+	width: 100%;
+}
+
+#wx_operApp checkall_th {
+	display: none;
+}
+
+#wx_operApp checklist_td {
+	display: none;
+}
+
+#wx_operApp name_td {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#wx_operApp creatname_td {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#wx_operApp creatdate_td {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#wx_operApp timeout_b {
+	font-weight: normal;
+}
+
+#wx_operApp wxTime {
+	display: none;
+}
+
+#wx_operApp divBox {
+	display: none;
+}
+
+#wx_operApp yemiandaohang_div {
+	margin-right: 10px;
+	margin-top: 3px;
+	text-align: center;
+}
+
+#wx_operApp yemiandaohang_select {
+	width: 170px;
+}
+
+#wx_operApp nm_preview_common {
+	background: white;
+	width: 198px;
+	height: 325px;
+	margin-top: 65px;
+	margin-left: 22px;
+}
+
+#wx_operApp smsdetailinfo {
+	display: none;
+	overflow: auto;
+}
+
+#wx_operApp recordTableDiv {
+	width: 100%;
+	padding: 15px 0;
+	display: none;
+	text-align: center;
+}
+
+#wx_operApp recordTable {
+	text-align: center;
+	width: 95%;
+}
+
+#wx_operApp nextrecordmgs {
+	width: 95%;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	display: none;
+	font-size: 12px;
+	color: blue;
+	padding-left: 25px;
+	text-align: left;
+}
+
+#wx_operApp .SetWxTemp_table {
+	margin: 30px auto 0;
+}
+
+#wx_operApp .spyjmh_td {
+	height: 22px;
+	border-width: 0 1px 0 0;
+	text-align: right;
+}
+
+#wx_operApp .contentText_td {
+	height: 50px;
+	border-width: 0 1px 0 0;
+	text-align: left;
+}
+
+#wx_operApp .contentText {
+	height: 50px;
+	width: 420px;
+	font-size: 12px;
+    /*border:0px;*/
+}

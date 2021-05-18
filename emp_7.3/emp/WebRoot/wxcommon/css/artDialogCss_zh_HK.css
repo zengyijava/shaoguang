@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+button.aui_state_highlight,.aui_buttons button {
+	text-indent: 21px;
+	letter-spacing: 0px;
+}
+button.aui_state_highlight{
+	text-indent: 30px;
+}

@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--全局初始化 -->
+<listener>
+    <listener-class>com.montnets.emp.common.listener.WebContextLoaderListener</listener-class>
+</listener>
+<listener>
+<listener-class>com.montnets.emp.common.listener.SessionListener</listener-class>
+</listener>
+<servlet>
+<servlet-name>SystemInitServlet</servlet-name>
+<servlet-class>com.montnets.emp.common.servlet.SystemInitServlet</servlet-class>
+<load-on-startup>10</load-on-startup>
+</servlet>
+        <filter>
+            <filter-name>characterEncodingFilter</filter-name>
+            <filter-class>com.montnets.emp.common.filter.CharacterEncodingFilter</filter-class>
+            <init-param>
+                <param-name>encoding</param-name>
+                <param-value>UTF-8</param-value>
+            </init-param>
+        </filter>
+        
+		<!-- 安全漏洞过滤器，合并下面三个注入过滤器 -->
+		<!-- xss 攻击，sql 注入过滤器 -->
+		<!--向所有会话cookie中添加“HttpOnly”属性-->
+		<!--对请求输入HOST头信息进行信息安全性校验，防止HOST头信息被恶意篡改利用。
+			使用一个HTTP头“X-Frame-Options”值为SAMEORIGIN-同源策略 -->
+		<filter>
+			<filter-name>empSecurityFilter</filter-name>
+			<filter-class>com.montnets.emp.common.security.filter.EmpSecurityFilter</filter-class>
+			<init-param>
+				<param-name>illegalChars</param-name>
+				<!-- 符号为 <, >, ", ', %, ;, (, ), + -->
+				<param-value>&lt;,&gt;,&quot;,&#39;,&#37;,&#59;,&#40;,&#41;,&#43;</param-value>
+				<!-- <param-value>|,$,@,',&quot;,\',\&quot;,&lt;,>,(,),+,CR,LF,\&quot;,&quot;,\</param-value> -->
+			</init-param>
+			<init-param>
+				<!-- UrlEncode解码次数 -->
+				<param-name>count</param-name>
+				<param-value>5</param-value>
+			</init-param>
+		</filter>
+		<filter-mapping>
+			<filter-name>empSecurityFilter</filter-name>
+			<url-pattern>/*</url-pattern>
+		</filter-mapping>
+        
+        <!-- 登录过滤器 -->
+        <filter>
+            <filter-name>checkLogin</filter-name>
+            <filter-class>com.montnets.emp.common.filter.CheckLoginFilter</filter-class>
+            <init-param>
+                <param-name>sessionKey</param-name>
+                <param-value>loginSysuser</param-value>
+            </init-param>
+        </filter>
+        <!--频繁请求过滤器-->
+        <filter>
+            <filter-name>frequentReq</filter-name>
+            <filter-class>com.montnets.emp.common.filter.FrequentReqFilter</filter-class>
+        </filter>
+        <!--频繁请求过滤器-->
+
+
+        <filter-mapping>
+            <filter-name>characterEncodingFilter</filter-name>
+            <url-pattern>*.htm</url-pattern>
+        </filter-mapping>
+
+        <filter-mapping>
+            <filter-name>characterEncodingFilter</filter-name>
+            <url-pattern>*.html</url-pattern>
+        </filter-mapping>
+        <filter-mapping>
+            <filter-name>characterEncodingFilter</filter-name>
+            <url-pattern>*.jsp</url-pattern>
+        </filter-mapping>
+        <filter-mapping>
+            <filter-name>characterEncodingFilter</filter-name>
+            <url-pattern>/meditor/*</url-pattern>
+        </filter-mapping>
+        <filter-mapping>
+            <filter-name>checkLogin</filter-name>
+            <url-pattern>*.htm</url-pattern>
+        </filter-mapping>
+        <filter-mapping>
+            <filter-name>checkLogin</filter-name>
+            <url-pattern>*.html</url-pattern>
+        </filter-mapping>
+
+        <filter-mapping>
+            <filter-name>checkLogin</filter-name>
+            <url-pattern>*.jsp</url-pattern>
+        </filter-mapping>
+        <filter-mapping>
+            <filter-name>checkLogin</filter-name>
+            <url-pattern>/meditor/*</url-pattern>
+        </filter-mapping>
+        <filter-mapping>
+            <filter-name>checkLogin</filter-name>
+            <url-pattern>*.meditorPage</url-pattern>
+        </filter-mapping>
+
+        <filter-mapping>
+             <filter-name>frequentReq</filter-name>
+            <url-pattern>*.htm</url-pattern>
+        </filter-mapping>
+        
+
+<servlet>
+<servlet-name>initServlet</servlet-name>
+<servlet-class>com.montnets.emp.common.servlet.InitServlet</servlet-class>
+<load-on-startup>1</load-on-startup>
+</servlet>
+
+<servlet>
+<description>请求处理WEB文件的svt</description>
+<display-name>请求处理WEB文件的svt</display-name>
+<servlet-name>glo_operWebSvt</servlet-name>
+<servlet-class>com.montnets.emp.global.servlet.glo_operWebSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>glo_operWebSvt</servlet-name>
+<url-pattern>/glo_operWebSvt.hts</url-pattern>
+</servlet-mapping>
+
+        <!-- add by chentingsheng 20130823 begin -->
+<servlet>
+<description>请求页面控件的svt</description>
+<display-name>请求页面控件的svt</display-name>
+<servlet-name>glo_operPageFieldSvt</servlet-name>
+<servlet-class>com.montnets.emp.global.servlet.glo_operPageFieldSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>glo_operPageFieldSvt</servlet-name>
+<url-pattern>/glo_operPageFieldSvt.hts</url-pattern>
+</servlet-mapping>
+        <!-- end -->
+
+<servlet>
+<description>关于平台</description>
+<display-name>关于平台</display-name>
+<servlet-name>FindAproInfoServlet</servlet-name>
+<servlet-class>com.montnets.emp.common.servlet.FindAproInfoServlet</servlet-class>
+</servlet>
+<servlet>
+<description>登录时调用</description>
+<display-name>操作员登录</display-name>
+<servlet-name>LoginServlet</servlet-name>
+<servlet-class>com.montnets.emp.authen.servlet.LoginServlet</servlet-class>
+</servlet>
+
+<servlet>
+<description>初始化加载模块</description>
+<display-name>系统启动</display-name>
+<servlet-name>InitMenuSvt</servlet-name>
+<servlet-class>com.montnets.emp.common.servlet.InitMenuSvt</servlet-class>
+<load-on-startup>11</load-on-startup>
+</servlet>
+
+
+<servlet-mapping>
+<servlet-name>FindAproInfoServlet</servlet-name>
+<url-pattern>/findAproInfo</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>LoginServlet</servlet-name>
+<url-pattern>/sglcorp</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>LoginServlet</servlet-name>
+<url-pattern>/login</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<description>验证码</description>
+<display-name>验证码</display-name>
+<servlet-name>YanzhengmaServlet</servlet-name>
+<servlet-class>com.montnets.emp.authen.servlet.YanzhengmaServlet</servlet-class>
+</servlet>
+<servlet>
+<description>手机动态口令</description>
+<display-name>手机动态口令</display-name>
+<servlet-name>DynGetPhoneWord</servlet-name>
+<servlet-class>com.montnets.emp.authen.servlet.DynGetPhoneWord</servlet-class>
+</servlet>
+<servlet>
+<description>mo接收</description>
+<display-name>mo接收</display-name>
+<servlet-name>MoReceiveServlet</servlet-name>
+<servlet-class>com.montnets.emp.common.servlet.MoReceiveServlet</servlet-class>
+</servlet>
+
+<servlet>
+<description>登录页个性化设置信息加载</description>
+<servlet-name>loginImgSvt</servlet-name>
+<servlet-class>com.montnets.emp.common.servlet.LoginImgSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>MoReceiveServlet</servlet-name>
+<url-pattern>/moreceive.hts</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<description>接收状态报告</description>
+<display-name>接收状态报告</display-name>
+<servlet-name>RptReceiveServlet</servlet-name>
+<servlet-class>com.montnets.emp.common.servlet.RptReceiveServlet</servlet-class>
+</servlet>
+
+
+<servlet>
+<description>公共servetl处理方法</description>
+<display-name>公共servetl处理方法</display-name>
+<servlet-name>CommonSvt</servlet-name>
+<servlet-class>com.montnets.emp.common.servlet.CommonSvt</servlet-class>
+</servlet>
+<servlet>
+<description>审批流程查看及催办</description>
+<display-name>审批流程查看及催办</display-name>
+<servlet-name>ReviewFlowSvt</servlet-name>
+<servlet-class>com.montnets.emp.common.servlet.ReviewFlowSvt</servlet-class>
+</servlet>
+
+
+<servlet>
+<description>短信群发时检测服务器是否异常</description>
+<display-name>短信群发时检测服务器是否异常</display-name>
+<servlet-name>LoadingServlet</servlet-name>
+<servlet-class>com.montnets.emp.common.servlet.LoadingServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>LoadingServlet</servlet-name>
+<url-pattern>/LoadingServlet.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<description>导出模板</description>
+<display-name>导出模板</display-name>
+<servlet-name>ExportUtilServlet</servlet-name>
+<servlet-class>com.montnets.emp.common.servlet.ExportUtilServlet</servlet-class>
+</servlet>
+<servlet>
+<description>导出Excel</description>
+<display-name>导出Excel</display-name>
+<servlet-name>Export</servlet-name>
+<servlet-class>com.montnets.emp.util.Export</servlet-class>
+<init-param>
+    <param-name>fileRoot</param-name>
+    <param-value/>
+</init-param>
+<init-param>
+    <param-name>enc</param-name>
+    <param-value>utf-8</param-value>
+</init-param>
+</servlet>
+<servlet-mapping>
+<servlet-name>ExportUtilServlet</servlet-name>
+<url-pattern>/doExport.hts</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>Export</servlet-name>
+<url-pattern>/down.htm</url-pattern>
+</servlet-mapping>
+<servlet>
+<description>投诉管理</description>
+<display-name>投诉管理</display-name>
+<servlet-name>ComplainSvt</servlet-name>
+<servlet-class>com.montnets.emp.common.servlet.ComplainSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ComplainSvt</servlet-name>
+<url-pattern>/complain.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<description>投诉管理</description>
+<display-name>投诉管理</display-name>
+<servlet-name>UploadLogoSvt</servlet-name>
+<servlet-class>com.montnets.emp.common.servlet.UploadLogoSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>UploadLogoSvt</servlet-name>
+<url-pattern>/uploadLogo.hts</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>RptReceiveServlet</servlet-name>
+<url-pattern>/rptreceive.hts</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>YanzhengmaServlet</servlet-name>
+<url-pattern>/changeyzm</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>DynGetPhoneWord</servlet-name>
+<url-pattern>/getphoneword</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>CommonSvt</servlet-name>
+<url-pattern>/common.htm</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>ReviewFlowSvt</servlet-name>
+<url-pattern>/reviewflow.htm</url-pattern>
+</servlet-mapping>
+<error-page>
+<error-code>404</error-code>
+<location>/error404</location>
+</error-page>
+<welcome-file-list>
+<welcome-file>emp_tz.hts</welcome-file>
+</welcome-file-list>
+
+<servlet>
+<description>三级菜单管理</description>
+<display-name>三级菜单管理</display-name>
+<servlet-name>ThirdMenuServlet</servlet-name>
+<servlet-class>com.montnets.emp.common.servlet.ThirdMenuSvt</servlet-class>
+</servlet>
+<servlet>
+<description>框架相关功能管理</description>
+<display-name>框架相关功能管理</display-name>
+<servlet-name>FrameControlServlet</servlet-name>
+<servlet-class>com.montnets.emp.common.servlet.FrameControlSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>ThirdMenuServlet</servlet-name>
+<url-pattern>/thirdMenu.htm</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>FrameControlServlet</servlet-name>
+<url-pattern>/emp_tz.htm</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>FrameControlServlet</servlet-name>
+<url-pattern>/emp_tz.hts</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>FrameControlServlet</servlet-name>
+<url-pattern>/error404</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>FrameControlServlet</servlet-name>
+<url-pattern>/logout</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>SummJobSvt</servlet-name>
+<servlet-class>com.montnets.emp.common.servlet.SummJobSvt</servlet-class>
+<load-on-startup>28000</load-on-startup>
+</servlet>
+<servlet>
+<servlet-name>JobSvt</servlet-name>
+<servlet-class>com.montnets.emp.common.servlet.JobSvt</servlet-class>
+<load-on-startup>20000</load-on-startup>
+</servlet>
+
+<servlet>
+<servlet-name>CheckFee</servlet-name>
+<servlet-class>com.montnets.emp.common.servlet.CheckFeeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>CheckFee</servlet-name>
+<url-pattern>/checkFee.htm</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>loginImgSvt</servlet-name>
+<url-pattern>/loginImg.login</url-pattern>
+</servlet-mapping>
+<servlet>
+<description>管理数据库连接</description>
+<display-name>管理数据库连接</display-name>
+<servlet-name>systemManageSvt</servlet-name>
+<servlet-class>com.montnets.emp.datasource.servlet.systemManageSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>systemManageSvt</servlet-name>
+<url-pattern>/systemManage.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<description>单点登录</description>
+<display-name>单点登录</display-name>
+<servlet-name>SingleSignOnSvt</servlet-name>
+<servlet-class>com.montnets.emp.datasource.servlet.singleSignOnSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>SingleSignOnSvt</servlet-name>
+<url-pattern>/singleSign.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>CheckRespSvt</servlet-name>
+<servlet-class>com.montnets.emp.common.servlet.CheckRespSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>CheckRespSvt</servlet-name>
+<url-pattern>/checkresp.hts</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<description>发送界面的选择人员</description>
+<display-name>发送界面的选择人员</display-name>
+<servlet-name>SelectUserInfoServlet</servlet-name>
+<servlet-class>com.montnets.emp.common.servlet.SelectUserInfoServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>SelectUserInfoServlet</servlet-name>
+<url-pattern>/selectUserInfo.htm</url-pattern>
+</servlet-mapping>
+
+<jsp-config>
+<taglib>
+    <taglib-uri>
+        http://www.montnets.com/emp/i18n/tags/simple
+    </taglib-uri>
+    <taglib-location>
+        /WEB-INF/i18n.tld
+    </taglib-location>
+</taglib>
+</jsp-config>
+
+        <!-- cors解决跨域访问问题 -->
+<filter>
+    <filter-name>cors</filter-name>
+    <filter-class>com.montnets.emp.SimpleCORSFilter</filter-class>
+</filter>
+    <filter-mapping>
+    <filter-name>cors</filter-name>
+    <url-pattern>/*</url-pattern>
+</filter-mapping>

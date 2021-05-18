@@ -1,0 +1,37 @@
+@import 'variables';
+
+.media-panel {
+  padding: 12px 20px 0 20px;
+  .media-preview {
+    width: 304px;
+    height: 304px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border: solid 1px #dcdcdc;
+    .img {
+      width: 304px;
+      height: 304px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
+  .buttons {
+    display: table;
+    margin: 16px auto;
+    .media-upload {
+      display: table-cell;
+    }
+    .el-button {
+      &:first-child {
+        width: 174px;
+      }
+      &.is-plain {
+        margin-left: 10px;
+        width: 120px;
+      }
+    }
+  }
+}
+

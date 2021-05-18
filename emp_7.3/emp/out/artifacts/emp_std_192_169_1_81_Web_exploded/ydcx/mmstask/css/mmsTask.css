@@ -1,0 +1,337 @@
+﻿.table01 {
+	border-collapse: collapse;
+	width: 95%;
+	margin: 15px auto 0;
+}
+
+.table01 tr td {
+	padding: 6px 10px;
+}
+
+.table01 tr td.t1 {
+	text-align: right;
+	width: 100px;
+}
+
+#ydcx_mmsTask .ydcx_modify {
+	padding: 5px;
+	width: 300px;
+	height: 160px;
+	display: none;
+	word-wrap: break-word;
+	word-break: break-all;
+	overflow-y: auto;
+}
+
+#ydcx_mmsTask .ydcx_msg {
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+}
+
+#ydcx_mmsTask .ydcx_tempView {
+	display: none;
+	overflow: auto;
+}
+#ydcx_mmsTask   .ydcx_tempView_sub {
+	float: left;
+	width: 250px;
+	margin-left: 30px;
+	display: inline;
+}
+
+#ydcx_mmsTask .ydcx_mobile {
+	width: 240px;
+	height: 470px;
+	position: absolute;
+	background: url('../../../common/img/iphone5.jpg') no-repeat;
+}
+
+#ydcx_mmsTask .ydcx_pers {
+	position: relative;
+	margin-top: 90px;
+	border: 1px #09F solid;
+	text-align: left;
+	display: none;
+	width: 180px;
+	height: 13px;
+	background-color: #FFFFFF;
+}
+
+#ydcx_mmsTask .ydcx_showtime {
+	position: absolute;
+	width: 140px;
+	height: 13px;
+	text-align: center;
+}
+
+#ydcx_mmsTask .ydcx_chart {
+	position: absolute;
+	left: 0px;
+	background-color: #00ffdd;
+	width: 0px;
+	height: 13px;
+	text-align: right;
+	padding-top: 0px;
+}
+
+#ydcx_mmsTask .ydcx_screen {
+	position: relative;
+	width: 189px;
+	height: 240px;
+	background: #ffffff;
+	margin-left: 23px;
+	margin-top: 95px;
+	overflow: auto;
+	padding: 2px;
+	word-break: break-all;
+}
+
+#ydcx_mmsTask .ydcx_pointer {
+	vertical-align: bottom;
+}
+
+#ydcx_mmsTask .ydcx_nextpage {
+	vertical-align: bottom;
+}
+
+#ydcx_mmsTask .ydcx_currentpage {
+	vertical-align: bottom;
+}
+
+#ydcx_mmsTask .ydcx_inputParamCnt1 {
+	margin-top: 10px;
+	margin-left: 280px;
+}
+
+#ydcx_mmsTask .ydcx_mmsdetailinfo {
+	display: none;
+	overflow: auto;
+}
+
+#ydcx_mmsTask .ydcx_record_dv {
+	width: 100%;
+	padding: 15px 0;
+	display: none;
+}
+
+#ydcx_mmsTask .ydcx_recordTable {
+	text-align: center; } #ydcx_mmsTask   .ydcx_nextrecordmgs {
+	width: 95%;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	display: none;
+	font-size: 12px;
+	color: blue;
+	padding-left: 25px;
+}
+
+#ydcx_mmsTask .ydcx_reviewflowinfo {
+	display: none;
+	overflow: auto; } #ydcx_mmsTask   .ydcx_reviewTableDiv {
+	width: 100%;
+	padding: 15px 0;
+	display: none;
+}
+
+#ydcx_mmsTask .ydcx_reviewTable {
+	text-align: center; } #ydcx_mmsTask   .nextreviewmgs {
+	width: 95%;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	display: none;
+	font-size: 12px;
+	color: blue;
+	padding-left: 25px;
+}
+
+#ydcx_mmsTask .ydcx_getloginUser {
+	padding: 5px;
+	display: none; } #ydcx_mmsTask   .ydcx_dep_dv {
+	width: 220px;
+}
+
+#ydcx_mmsTask #depNam {
+	width: 160px;
+	height: 20px;
+	vertical-align: bottom;
+	cursor: pointer;
+}
+
+#ydcx_mmsTask #condition table tr td #dropMenu {
+	position: absolute;
+	display: none;
+	margin-left: 0px;
+	height: 450px;
+	width: 356px;
+	background-color: white;
+	border: 1px solid;
+	z-index: 999;
+}
+
+#ydcx_mmsTask .ydcx_iframe {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	scrolling: no;
+}
+
+#ydcx_mmsTask .ydcx_confirm_reset {
+	margin-top: 3px;
+ } 
+ #ydcx_mmsTask   .ydcx_confirm_reset  .ydcx_isContainsSun {
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+}
+
+#ydcx_mmsTask .ydcx_tree {
+	position: absolute;
+	margin-left: 0px;
+	height: 412px;
+	width: 346px;
+	background-color: white;
+	overflow-y: auto;
+	overflow-x: auto;
+	z-index: 999;
+}
+
+#ydcx_mmsTask .ydcx_usertree_dv {
+	width: 220px;
+}
+
+#ydcx_mmsTask #userName {
+	width: 160px;
+	cursor: pointer;
+}
+
+#ydcx_mmsTask #condition table tr td #dropMenu2 {
+	position: absolute;
+	display: none;
+	margin-left: 0px;
+	height: 450px;
+	width: 356px;
+	background-color: white;
+	border: 1px solid;
+	z-index: 999;
+}
+
+#ydcx_mmsTask .ydcx_userName {
+	width: 160px;
+	cursor: pointer;
+}
+
+#ydcx_mmsTask .ydcx_dropMenu2_iframe {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	scrolling: no;
+}
+
+#ydcx_mmsTask .ydcx_dropMenu2_confirmcancle {
+	margin-top: 3px;
+}
+
+#ydcx_mmsTask .ydcx_note_dv {
+	margin-top: 3px;
+	padding-left: 4px;
+}
+
+#ydcx_mmsTask  #condition table tr td #dropMenu2 {
+	position: absolute;
+	margin-left: 0px;
+	height: 385px;
+	width: 346px;
+	background-color: white;
+	overflow-y: auto;
+	overflow-x: auto;
+	z-index: 999;
+}
+
+#ydcx_mmsTask  #condition .ydcx_sstate {
+	width: 178px;
+	cursor: pointer;
+}
+
+#ydcx_mmsTask .ydcx_taskName {
+	width: 178px;
+}
+
+#ydcx_mmsTask .ydcx_theme {
+	width: 178px;
+}
+
+#ydcx_mmsTask .ydcx_state {
+	width: 178px;
+}
+
+#ydcx_mmsTask .ydcx_submitSartTime {
+	cursor: pointer;
+	width: 178px;
+	background-color: white;
+}
+#ydcx_mmsTask .ydcx_submitEndTime {
+	cursor: pointer; width: 178px;background-color: white;
+}
+#ydcx_mmsTask .ydcx_submitEndTime {
+	cursor: pointer; width: 178px;background-color: white;
+}
+
+#ydcx_mmsTask .ydcx_flowId {
+	width: 178px;
+}
+#ydcx_mmsTask .ydcx_detail {
+	padding:5px;width:300px;height:160px;display:none;
+}
+#ydcx_mmsTask .ydcx_detail table .ydcx_detail_tr1 {
+	padding-top:2px;margin-bottom: 2px;
+}
+#ydcx_mmsTask .ydcx_detail table .ydcx_detail_td1 {
+	word-break: break-all;
+}
+#ydcx_mmsTask .ydcx_detail .ydcx_msgcont {
+	width:100%;height:100%
+}
+
+#ydcx_mmsTask .ydcx_detail table .ydcx_detail_tr2 {
+	padding-top:2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

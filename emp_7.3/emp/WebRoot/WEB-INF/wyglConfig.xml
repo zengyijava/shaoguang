@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+
+<servlet>
+		<servlet-name>RptWyListener</servlet-name>
+		<servlet-class>com.montnets.emp.wyquery.listener.RptWyListener</servlet-class>
+		<load-on-startup>14</load-on-startup>
+</servlet>
+	
+	<servlet>
+	    <description>网优路由绑定</description>
+	    <display-name>网优路由绑定</display-name>
+	    <servlet-name>wy_routeManageSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.wymanage.servlet.wy_routeManageSvt</servlet-class>
+  	</servlet>
+
+	<servlet-mapping>
+	    <servlet-name>wy_routeManageSvt</servlet-name>
+	    <url-pattern>/wy_routeManage.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    	<description>国家代码管理</description>
+    	<servlet-name>wy_areaCodeManageSvt</servlet-name>
+   		<servlet-class>com.montnets.emp.wymanage.servlet.wy_areaCodeManageSvt</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>wy_areaCodeManageSvt</servlet-name>
+    	<url-pattern>/wy_areaCodeManage.htm</url-pattern>
+  	</servlet-mapping>
+  	
+	<servlet>
+	    <description>特殊号码管理</description>
+	    <display-name>特殊号码管理</display-name>
+	    <servlet-name>wy_spePhoneManageSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.wymanage.servlet.wy_spePhoneManageSvt</servlet-class>
+  	</servlet>
+
+	<servlet-mapping>
+	    <servlet-name>wy_spePhoneManageSvt</servlet-name>
+	    <url-pattern>/wy_spePhoneManage.htm</url-pattern>
+	</servlet-mapping>
+ 	<servlet>
+    	<description>网讯群发历史</description>
+    	<servlet-name>wy_gateManageSvt</servlet-name>
+   		<servlet-class>com.montnets.emp.wymanage.servlet.wy_gateManageSvt</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>wy_gateManageSvt</servlet-name>
+    	<url-pattern>/wy_gateManage.htm</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+    	<description>网优历史记录</description>
+    	<servlet-name>wyq_historyRecordSvt</servlet-name>
+   		<servlet-class>com.montnets.emp.wyquery.servlet.wyq_historyRecordSvt</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>wyq_historyRecordSvt</servlet-name>
+    	<url-pattern>/wyq_historyRecord.htm</url-pattern>
+  	</servlet-mapping>
+  	
+ 	<servlet>
+ 		<description>携号号码管理</description>
+		<servlet-name>wy_mnpManageSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wymanage.servlet.wy_mnpManageSvt</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	    <servlet-name>wy_mnpManageSvt</servlet-name>
+	    <url-pattern>/wy_mnpManage.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>携号错误码管理 </description>
+		<servlet-name>wy_mnpErrCodeManageSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wymanage.servlet.wy_mnpErrCodeManageSvt</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	    <servlet-name>wy_mnpErrCodeManageSvt</servlet-name>
+	    <url-pattern>/wy_mnpErrCodeManage.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <description>网优下行记录</description>
+	    <display-name>网优下行记录</display-name>
+	    <servlet-name>wy_mtRecordSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.wymanage.servlet.wy_mtRecordSvt</servlet-class>
+  	</servlet>
+
+	<servlet-mapping>
+	    <servlet-name>wy_mtRecordSvt</servlet-name>
+	    <url-pattern>/wyq_mtRecord.htm</url-pattern>
+	</servlet-mapping>
+    
+	<servlet>
+		<description>网优统计报表</description>
+		<display-name>网优统计报表</display-name>
+		<servlet-name>wyq_reportSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wyquery.servlet.wyq_reportSvt
+		</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+		<servlet-name>wyq_reportSvt</servlet-name>
+		<url-pattern>/wyq_statisticalReport.htm</url-pattern>
+    </servlet-mapping>
+	

@@ -1,0 +1,48 @@
+#grp_cliManage #getloginUser,#com_add_Dom2{
+	padding:5px;display:none;
+}
+#grp_cliManage .group_div1{
+	clear:right;
+}
+#grp_cliManage #flowFrame,#editFrame{
+	width:626px;
+	height:520px;
+	border: 0;
+}
+#grp_cliManage .group_table1{
+	border:0px;
+	margin-bottom: 30px;
+}
+#grp_cliManage .group_table1 td{
+	border: 0;
+}
+#grp_cliManage .group_td1{
+	width:660px;
+	border:0px;
+}
+#grp_cliManage #shareDiv{
+	padding:5px;
+	display:none;
+	background: #FAFAFF;
+}
+#grp_cliManage #shareflowFrame{
+	width:530px;
+	height:465px;
+	border: 0;
+}
+#grp_cliManage #shareDiv,#editInfoDiv table,tr,td{
+	border:0px;
+}
+#grp_cliManage #editInfoDiv{
+	display:none;
+	position: relative;
+}
+#grp_cliManage #groupDetail{
+	width:98%;
+}
+#grp_cliManage .group_div2{
+	height: 72px;
+}
+.group_display_none{
+	display:none
+}

@@ -1,0 +1,9 @@
+@charset "utf-8";
+.colName {width: 8%;}
+.colspace {width: 1%;}
+.colValue {width: 10%;word-wrap: break-word;word-break:break-all;}
+#sysTable,#rContent{
+    width: 800px;
+}
+
+

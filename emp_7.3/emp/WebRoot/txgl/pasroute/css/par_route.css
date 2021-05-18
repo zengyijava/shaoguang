@@ -1,0 +1,16 @@
+#par_route .select_st{
+	width:158px;
+	display:none;
+}
+
+#par_route .select_wi{
+	width:158px;
+}
+
+#par_route .cpno{
+	width:154px;
+}
+
+#par_route .getCpno_td{
+	width:120px;
+}

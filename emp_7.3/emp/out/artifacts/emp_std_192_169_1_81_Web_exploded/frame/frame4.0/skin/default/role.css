@@ -1,0 +1,139 @@
+@charset "utf-8"; 
+
+.l_mana_son {
+	line-height: 24px;
+	border-top:none;
+	white-space: nowrap;
+	background: #ffffff;
+	width: 100%;
+	float: left;
+}
+
+#roleNameHideenSpan
+{
+	background: url(images/deleteFrame.png) no-repeat;
+}
+
+.l_pRightCon .packCheck .fackCheckbox
+{
+	background : url(images/selectChecbox.png);
+}	
+
+.roleNameColor {
+	background: url(images/packUp.png) no-repeat left;
+}
+
+#r_s_manager h5 {
+	background-image:url(../images/jt.gif);
+}
+
+.depOperateButton1
+{
+	background: url(images/dep_Button.png) no-repeat 0 0px;
+}
+.depOperateButton2
+{
+	
+	background: url(images/dep_Button.png) no-repeat -70px 0px;
+}
+.depOperateButton3
+{
+	
+	background: url(images/dep_Button.png) no-repeat -35px 0px;
+}
+.depOperateButton1On
+{
+	background: url(images/dep_Button.png) no-repeat 0 -21px;
+}
+.depOperateButton2On
+{
+	
+	background: url(images/dep_Button.png) no-repeat -70px -21px;
+}
+.depOperateButton3On
+{
+	
+	background: url(images/dep_Button.png) no-repeat -35px -21px;
+}
+.bindCon
+{
+	background: url(images/bindCon.png) no-repeat;
+}
+.depOperate .bindCon
+{
+	background: url(images/bindCon.png) no-repeat;
+}
+/*移动办公*/
+.index_roleMemu_1
+{
+	background: url("images/index_pic/index_roleMemu_1.png") no-repeat 8px;
+}
+/*移动客服*/
+.index_roleMemu_2
+{
+	background: url("images/index_pic/index_roleMemu_2.png") no-repeat 8px;
+}
+/*移动彩讯*/
+.index_roleMemu_4
+{
+	background: url("images/index_pic/index_roleMemu_4.png") no-repeat 8px;
+}
+.index_roleMemu_7
+{
+	background: url("images/index_pic/index_roleMemu_7.jpg") no-repeat left;
+}
+/*智能引擎*/
+.index_roleMemu_9
+{
+	background: url("images/index_pic/index_roleMemu_9.png") no-repeat 8px;
+}
+/*通信管理*/
+.index_roleMemu_11
+{
+	background: url("images/index_pic/index_roleMemu_11.png") no-repeat 8px;
+}
+/*系统管理*/
+.index_roleMemu_12
+{
+	background: url("images/index_pic/index_roleMemu_12.png") no-repeat 8px;
+}
+/*查询统计*/
+.index_roleMemu_13
+{
+	background: url("images/index_pic/index_roleMemu_13.png") no-repeat 8px;
+}
+/*移动网讯*/
+.index_roleMemu_14
+{
+	background: url("images/index_pic/index_roleMemu_14.png") no-repeat 8px;
+}
+/*企业微信*/
+.index_roleMemu_15
+{
+	background: url("images/index_pic/index_roleMemu_15.png") no-repeat 8px;
+}
+/*系统监控*/
+.index_roleMemu_16
+{
+	background: url("images/index_pic/index_roleMemu_16.png") no-repeat 8px;
+}
+/*企业微信*/
+.index_roleMemu_18
+{
+	background: url("images/index_pic/index_roleMemu_18.png") no-repeat 8px;
+}
+/*企业富信*/
+.index_roleMemu_25
+{
+	background: url("images/index_pic/index_roleMemu_25.png") no-repeat 8px;
+}
+/*企业短链*/
+.index_roleMemu_26
+{
+	background: url("images/index_pic/index_roleMemu_26.png") no-repeat 8px;
+}
+/*企业流量*/
+.index_roleMemu_28
+{
+	background: url("images/index_pic/index_roleMemu_28.png") no-repeat 8px;
+}

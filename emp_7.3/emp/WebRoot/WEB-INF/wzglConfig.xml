@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 微站管理servlet群 -->
+<servlet>
+	<description>微站管理列表</description>
+	<display-name>微站管理列表</display-name>
+	<servlet-name>siteManagerSvt</servlet-name>
+	<servlet-class>com.montnets.emp.wzgl.site.svt.wzgl_siteManagerSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>siteManagerSvt</servlet-name>
+	<url-pattern>/wzgl_siteManager.htm</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>siteManagerSvt</servlet-name>
+	<url-pattern>/wzgl_siteManager.hts</url-pattern>
+</servlet-mapping>
+<servlet>
+	<description>微站预览</description>
+	<display-name>微站预览</display-name>
+	<servlet-name>sitePreviewSvt</servlet-name>
+	<servlet-class>com.montnets.emp.wzgl.site.svt.wzgl_sitePreviewSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>sitePreviewSvt</servlet-name>
+	<url-pattern>/wzgl_sitePreview.hts</url-pattern>
+</servlet-mapping>
+<!-- end 微站管理servlet群 -->
+
+<!-- 表单设计servlet群 -->
+<servlet>
+   <description>表单设计</description>
+   <display-name>表单设计</display-name>
+   <servlet-name>wzgl_formManagerSvt</servlet-name>
+   <servlet-class>com.montnets.emp.wzgl.form.svt.wzgl_formManagerSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>wzgl_formManagerSvt</servlet-name>
+   <url-pattern>/wzgl_formManager.htm</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+   <servlet-name>wzgl_formManagerSvt</servlet-name>
+   <url-pattern>/wzgl_formManager.hts</url-pattern>
+</servlet-mapping>
+<!-- end 表单设计servlet群 -->

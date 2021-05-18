@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>在线聊天窗口</title>
+	<link rel="stylesheet" href="./static/css/base.css">
+	<link rel="stylesheet" href="./static/css/im.css">
+	<link rel="stylesheet" href="./static/css/nanoscroller.css">
+	<link rel="stylesheet" href="./static/js/lib/artDialog/skins/default.css">
+</head>
+<body>
+	<div class="im-header">
+		<div class="sign_info">
+			<ul>
+				<li>欢迎您[Allen]</li>
+				<li><a href="#" class="status online dropdown">
+					<i></i>在线</a>
+					<ul class="dropdown-menu">
+						<li><a href="#" class="online"><i></i>我在线上</a></li>
+						<li><a href="#" class="leave"><i></i>离开</a></li>
+						<li><a href="#" class="busy"><i></i>忙碌</a></li>
+						<li><a href="#" class="offline"><i></i>离线</a></li>
+					</ul>
+				</li>
+				<li><a href="" class="edit-pwd">修改密码</a></li>
+				<li><a href="">退出</a></li>
+			</ul>
+		</div>
+		<h1>易微信----企业移动互联网服务致胜专家</h1>
+	</div>
+	<div class="im_container">
+		<div class="im_contentwrapper">
+			<div class="contentcolumn">
+				<div class="hd">
+					<a href="" class="btnToggle"></a>
+					<ul class="hd-tab-list">
+						<li class="current" data-id="cus-list-1">
+							<a href="" class="hd-tab-fav cc">
+								<div class="hd-tab-left"><img src="static/images/iman.png" alt=""></div>
+								<div class="hd-tab-main">
+									<span class="cgTitle">唐伯虎</span>
+									<i class="tab-close">close</i>
+								</div>
+							</a>
+						</li>  
+						<li data-id="cus-list-2">
+							<a href="" class="hd-tab-fav cc">
+								<div class="hd-tab-left"><img src="static/images/iman.png" alt=""></div>
+								<div class="hd-tab-main">
+									<span class="cgTitle">唐伯虎</span>
+									<i class="tab-close">close</i>
+								</div>
+							</a>
+						</li>
+						<li data-id="cus-list-3">
+							<a href="" class="hd-tab-fav cc">
+								<div class="hd-tab-left"><img src="static/images/iman.png" alt=""></div>
+								<div class="hd-tab-main">
+									<span class="cgTitle">唐伯虎点秋香</span>
+									<i class="tab-close">close</i>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="bd chatContainer">
+					<div class="chatWrapper">
+						<div class="chatContent">
+							<div class="im-chat-list nano">
+								<div class="content" id="tab-container">
+									<div class="chat-tab" data-id="cus-list-1">
+										<div class="chatMsg im-msg-success">
+											<div class="im-icon-success"></div>
+											<p>易微信客服已加入会话</p>
+											<span class="im-msg-tl"></span>
+											<span class="im-msg-tr"></span>
+											<span class="im-msg-bl"></span>
+											<span class="im-msg-br"></span>
+										</div>
+										<div class="im-item">
+											<div class="im-message cc">
+												<div class="im-user-area">
+													<a href="" class="im-user-pic">
+														<img src="static/images/icon_customer_80.png" alt="" class="userPic" width="46" heigh="46">
+														<img src="static/images/tx.png" alt="" class="userCap">
+													</a>
+												</div>
+											
+											<div class="im-message-detail">
+												<table class="im-message-table" border="0" cellpadding="0" cellspacing="0"> 
+													<tbody>   
+														<tr>      
+															<td class="lt"></td>     
+															<td class="tt"></td>     
+															<td class="rt"></td> 
+														</tr>
+														<tr> 
+															<td class="lm">
+																<span></span>
+															</td>
+															<td class="mm">
+																<div class="im-message-title">
+																	<p class="im-message-owner">	
+																		<span class="im-txt-bold">唐伯虎</span>
+																	</p>	
+																	<span class="im-send-time">14:28:12</span>
+																</div> 
+																<div class="im-message-content"> 	
+																	<p >您好，请问易微信是网易与腾讯联合推出的吗？</p> 
+																</div> 
+															</td> 
+															<td class="rm"><span></span></td>
+														</tr>
+														<tr>        
+															<td class="lb"></td>           
+															<td class="bm"></td>            
+															<td class="rb"></td>         
+														</tr>      
+													</tbody>   
+												</table>
+											</div>
+											</div>
+										</div>
+										<div class="im-item item-me">
+											<div class="im-message cc">
+												<div class="im-user-area">
+													<a href="" class="im-user-pic">
+														<img src="static/images/user1.png" alt="" class="userPic" width="46" heigh="46">
+														<img src="static/images/tx.png" alt="" class="userCap">
+													</a>
+												</div>
+												<div class="im-message-detail">
+													<table class="im-message-table" border="0" cellpadding="0" cellspacing="0"> 
+														<tbody>   
+															<tr>      
+																<td class="lt"></td>     
+																<td class="tt"></td>     
+																<td class="rt"></td> 
+															</tr>
+															<tr> 
+																<td class="lm"></td>
+																<td class="mm">
+																	<div class="im-message-title">
+																		<p class="im-message-owner">	
+																			<span class="im-txt-bold">易微信客服</span>
+																		</p>	
+																		<span class="im-send-time">14:28:12</span>
+																	</div> 
+																	<div class="im-message-content"> 	
+																		<p >您好，请问易微信是网易与腾讯联合推出的吗？</p> 
+																	</div> 
+																</td> 
+																<td class="rm"><span></span></td>
+															</tr>
+															<tr>        
+																<td class="lb"></td>           
+																<td class="bm"></td>            
+																<td class="rb"></td>         
+															</tr>      
+														</tbody>   
+													</table>
+												</div>
+											</div>
+										</div>
+										<div class="im-item">
+											<div class="im-message cc">
+												<div class="im-user-area">
+													<a href="" class="im-user-pic">
+														<img src="static/images/icon_customer_80.png" alt="" class="userPic" width="46" heigh="46">
+														<img src="static/images/tx.png" alt="" class="userCap">
+													</a>
+												</div>
+											
+											<div class="im-message-detail">
+												<table class="im-message-table" border="0" cellpadding="0" cellspacing="0"> 
+													<tbody>   
+														<tr>      
+															<td class="lt"></td>     
+															<td class="tt"></td>     
+															<td class="rt"></td> 
+														</tr>
+														<tr> 
+															<td class="lm">
+																<span></span>
+															</td>
+															<td class="mm">
+																<div class="im-message-title">
+																	<p class="im-message-owner">	
+																		<span class="im-txt-bold">唐伯虎</span>
+																	</p>	
+																	<span class="im-send-time">14:28:12</span>
+																</div> 
+																<div class="im-message-content"> 	
+																	<p >您好，请问易微信是网易与腾讯联合推出的吗？</p> 
+																</div> 
+															</td> 
+															<td class="rm"><span></span></td>
+														</tr>
+														<tr>        
+															<td class="lb"></td>           
+															<td class="bm"></td>            
+															<td class="rb"></td>         
+														</tr>      
+													</tbody>   
+												</table>
+											</div>
+											</div>
+										</div>
+										<div class="im-item item-me">
+											<div class="im-message cc">
+												<div class="im-user-area">
+													<a href="" class="im-user-pic">
+														<img src="static/images/user1.png" alt="" class="userPic" width="46" heigh="46">
+														<img src="static/images/tx.png" alt="" class="userCap">
+													</a>
+												</div>
+												<div class="im-message-detail">
+													<table class="im-message-table" border="0" cellpadding="0" cellspacing="0"> 
+														<tbody>   
+															<tr>      
+																<td class="lt"></td>     
+																<td class="tt"></td>     
+																<td class="rt"></td> 
+															</tr>
+															<tr> 
+																<td class="lm"></td>
+																<td class="mm">
+																	<div class="im-message-title">
+																		<p class="im-message-owner">	
+																			<span class="im-txt-bold">易微信客服</span>
+																		</p>	
+																		<span class="im-send-time">14:28:12</span>
+																	</div> 
+																	<div class="im-message-content"> 	
+																		<p >您好，请问易微信是网易与腾讯联合推出的吗？</p> 
+																	</div> 
+																</td> 
+																<td class="rm"><span></span></td>
+															</tr>
+															<tr>        
+																<td class="lb"></td>           
+																<td class="bm"></td>            
+																<td class="rb"></td>         
+															</tr>      
+														</tbody>   
+													</table>
+												</div>
+											</div>
+										</div>
+										<div class="im-item">
+											<div class="im-message cc">
+												<div class="im-user-area">
+													<a href="" class="im-user-pic">
+														<img src="static/images/icon_customer_80.png" alt="" class="userPic" width="46" heigh="46">
+														<img src="static/images/tx.png" alt="" class="userCap">
+													</a>
+												</div>
+											
+											<div class="im-message-detail">
+												<table class="im-message-table" border="0" cellpadding="0" cellspacing="0"> 
+													<tbody>   
+														<tr>      
+															<td class="lt"></td>     
+															<td class="tt"></td>     
+															<td class="rt"></td> 
+														</tr>
+														<tr> 
+															<td class="lm">
+																<span></span>
+															</td>
+															<td class="mm">
+																<div class="im-message-title">
+																	<p class="im-message-owner">	
+																		<span class="im-txt-bold">唐伯虎</span>
+																	</p>	
+																	<span class="im-send-time">14:28:12</span>
+																</div> 
+																<div class="im-message-content"> 	
+																	<p >您好，请问易微信是网易与腾讯联合推出的吗？</p> 
+																</div> 
+															</td> 
+															<td class="rm"><span></span></td>
+														</tr>
+														<tr>        
+															<td class="lb"></td>           
+															<td class="bm"></td>            
+															<td class="rb"></td>         
+														</tr>      
+													</tbody>   
+												</table>
+											</div>
+											</div>
+										</div>
+										<div class="im-item item-me">
+											<div class="im-message cc">
+												<div class="im-user-area">
+													<a href="" class="im-user-pic">
+														<img src="static/images/user1.png" alt="" class="userPic" width="46" heigh="46">
+														<img src="static/images/tx.png" alt="" class="userCap">
+													</a>
+												</div>
+												<div class="im-message-detail">
+													<table class="im-message-table" border="0" cellpadding="0" cellspacing="0"> 
+														<tbody>   
+															<tr>      
+																<td class="lt"></td>     
+																<td class="tt"></td>     
+																<td class="rt"></td> 
+															</tr>
+															<tr> 
+																<td class="lm"></td>
+																<td class="mm">
+																	<div class="im-message-title">
+																		<p class="im-message-owner">	
+																			<span class="im-txt-bold">易微信客服</span>
+																		</p>	
+																		<span class="im-send-time">14:28:12</span>
+																	</div> 
+																	<div class="im-message-content"> 	
+																		<p >您好，请问易微信是网易与腾讯联合推出的吗？</p> 
+																	</div> 
+																</td> 
+																<td class="rm"><span></span></td>
+															</tr>
+															<tr>        
+																<td class="lb"></td>           
+																<td class="bm"></td>            
+																<td class="rb"></td>         
+															</tr>      
+														</tbody>   
+													</table>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="chat-tab" data-id="cus-list-2"></div>
+									<div class="chat-tab" data-id="cus-list-3"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="im-right-sidebar">
+						<div class="tab-group-title">客服群1<span>[ 1/8 ]</span></div>
+						<div class="bd">
+							<ul class="tab-group-list">
+							<li>
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/icon_group.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">唐伯虎</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/icon_group.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">唐伯虎</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/icon_group.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">唐伯虎</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/icon_group.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">唐伯虎</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/icon_group.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">唐伯虎</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/icon_group.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">唐伯虎</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+						</div>
+					</div>
+					<div class="im-toolbar cc">
+						<span class="im-t1"></span>
+						<span class="im-t2"></span>
+						<span class="im-t3"></span>
+						<span class="im-t4"></span>
+					</div>
+					<div class="im-send-area">
+						<div id="im-edit-msg" contenteditable="true" hidefocus="true" ></div>
+					</div>
+					<div class="im-edit-btn-area">
+						<span id="im-edit-tip">您还可以输入<span id="limit-count">0</span>个字</span>
+						
+						<div class="im-btn-send-area" title="按Enter键发送,按Ctrl+Enter键换行">
+							<a href="" class="im-btn im-btn-send" id="sendMsg">
+								<span class="im-txt">发送</span>
+								<span class="im-btn-l"></span>
+							</a>
+							<a href="" class="im-btn im-btn-send-set" title="发送设置">
+								<span class="im-icon-arrow-down"></span>
+								<span class="im-btn-r"></span>
+							</a>
+						</div>
+						<a href="" class="im-btn im-btn-close">
+							<span class="im-txt">关闭</span>
+							<span class="im-btn-l"></span>
+							<span class="im-btn-r"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="im-sidebar">
+			<div class="im-search">
+				<input type="text" name="" class="i-inp" placeholder="请输入内容">
+				<div class="seq-img"></div>
+			</div>
+			<div class="cus-group">
+				<div class="hd im-side-tab">
+					<ul class="tab_menu">
+						<li class="current">客服<i class="im-badge">22</i></li>
+						<li >客户<i class="im-badge">99+</i></li>
+						<li>群组</li>
+					</ul>
+				</div>
+				<div class="bd tab_box">
+					<div class="tabContainer">
+						<ul class="tab-group-list">
+							<li id="kf-list-1">
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/kf.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">客服1</span>
+									</div>
+								</a>
+							</li>
+							<li id="kf-list-2">
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/kf.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">客服2</span>
+									</div>
+								</a>
+							</li>
+							<li id="kf-list-3">
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/kf.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">客服3</span>
+									</div>
+								</a>
+							</li>
+							<li id="kf-list-4">
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/kf.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">客服4</span>
+									</div>
+								</a>
+							</li>
+							<li id="kf-list-5">
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/kf.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">客服5</span>
+									</div>
+								</a>
+							</li>
+							<li id="kf-list-6">
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/kf.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">客服1</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="tabContainer hide">
+						<ul class="tab-group-list">
+							<li id="cus-list-1">
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/iman.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">唐伯虎</span>
+									</div>
+								</a>
+							</li>
+							<li id="cus-list-2">
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/iman.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">唐伯虎</span>
+									</div>
+								</a>
+							</li>
+							<li id="cus-list-3">
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/iman.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">唐伯虎</span>
+									</div>
+								</a>
+							</li>
+							<li id="cus-list-4">
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/iman.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">唐伯虎</span>
+									</div>
+								</a>
+							</li>
+							<li id="cus-list-5">
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/iman.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">唐伯虎</span>
+									</div>
+								</a>
+							</li>
+							<li id="cus-list-6">
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/iman.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">唐伯虎</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="tabContainer hide">
+						<div class="tab-group-title"><a href="" class="group-plus">创建群组</a></div>
+						<ul class="tab-group-list">
+							<li id="group-list-1">
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/icon_group.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">唐伯虎群</span>
+									</div>
+								</a>
+							</li>
+							<li id="group-list-2">
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/icon_group.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">唐伯虎群</span>
+									</div>
+								</a>
+							</li>
+							<li id="group-list-3">
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/icon_group.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">唐伯虎群</span>
+									</div>
+								</a>
+							</li>
+							<li id="group-list-4">
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/icon_group.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">唐伯虎群</span>
+									</div>
+								</a>
+							</li>
+							<li id="group-list-5">
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/icon_group.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">唐伯虎群</span>
+									</div>
+								</a>
+							</li>
+							<li id="group-list-6">
+								<a href="" class="tab-fav cc">
+									<div class="tab-left"><img src="static/images/icon_group.png" alt=""></div>
+									<div class="tab-main">
+										<span class="cus-title">唐伯虎群</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--hide-element-->
+<!--edit-password-panel-->
+<div id="form-edit-password" class="hide">
+	<form action="">
+		<table class="table-mod1">
+			<tr>
+				<td>原密码：</td>
+				<td><input type="text" name="" id="" class="inpstyle"></td>
+			</tr>
+			<tr>
+				<td>新密码：</td>
+				<td><input type="text" name="" id="" class="inpstyle"></td>
+			</tr>
+			<tr>
+				<td>新密码：</td>
+				<td><input type="text" name="" id="" class="inpstyle"></td>
+			</tr>
+		</table>
+	</form>
+</div>
+<!--end-->
+<!--I-Say-->
+<div id="item-me-panel" class="hide">
+	<div class="im-item item-me">
+		<div class="im-message cc">
+			<div class="im-user-area">
+				<a href="" class="im-user-pic">
+					<img src="static/images/user1.png" alt="" class="userPic" width="46" heigh="46">
+					<img src="static/images/tx.png" alt="" class="userCap">
+				</a>
+			</div>
+			<div class="im-message-detail">
+				<table class="im-message-table" border="0" cellpadding="0" cellspacing="0"> 
+					<tbody>   
+						<tr>      
+							<td class="lt"></td>     
+							<td class="tt"></td>     
+							<td class="rt"></td> 
+						</tr>
+						<tr> 
+							<td class="lm"></td>
+							<td class="mm">
+								<div class="im-message-title">
+									<p class="im-message-owner">	
+										<span class="im-txt-bold">易微信客服</span>
+									</p>	
+									<span class="im-send-time">14:28:12</span>
+								</div> 
+								<div class="im-message-content"> 	
+									<p >您好，请问易微信是网易与腾讯联合推出的吗？</p> 
+								</div> 
+							</td> 
+							<td class="rm"><span></span></td>
+						</tr>
+						<tr>        
+							<td class="lb"></td>           
+							<td class="bm"></td>            
+							<td class="rb"></td>         
+						</tr>      
+					</tbody>   
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+<!--end-->
+<!--end-->	
+<script src="static/js/require.js" data-main="static/js/main"></script>	
+</body>
+</html>

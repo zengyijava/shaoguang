@@ -1,0 +1,282 @@
+#sendDiffSMS .bd1,.bd2{
+	left:463px;
+}
+#sendDiffSMS #batchFileSend span {
+	width:75px;
+}
+
+#sendDiffSMS #eq_sendDiv2 table tr td{
+	font-size:12px;
+}
+#sendDiffSMS #foldIcon{
+	font-weight: 800;
+	color: #000000;
+	display:block;
+	width:100px;
+	background-position: 62px 5px;
+	height:24px;
+	font-size: 12px;
+}
+#sendDiffSMS #u_o_c_explain a:hover{
+	text-decoration: none;
+}
+#sendDiffSMS .div_bg.dxzs_span{
+	padding-right: 20px;
+}
+#sendDiffSMS #showeffinfo p{
+	background-position: 90px 8px;
+	width: auto;
+	height: 24px;
+}
+#sendDiffSMS .x-fileUpload{
+   /* margin-bottom: 0;*/
+}
+#sendDiffSMS .tail-area{
+    text-indent: 1em;
+    display: block;
+}
+#sendDiffSMS .tail-text{
+    padding: 4px;
+    line-height: 16px;
+    background-color: #f8f8f8;
+    word-break:break-all;
+    color: #8a8a8a;
+}
+#sendDiffSMS .tail-text-file{
+    padding: 4px;
+    line-height: 16px;
+    background-color: #f8f8f8;
+    word-break:break-all;
+    color: #8a8a8a;
+    width: 370px;
+	display: inline-block;
+	margin-left: -12px;
+	border-right: 1px solid #c9d9f2;
+   }
+#sendDiffSMS .tail-text-draft{
+    display: inline;
+}
+#sendDiffSMS #toDraft{
+    text-align: center;
+    letter-spacing: 2px;
+    text-indent: 0;
+}
+#sendDiffSMS .tailContdiv {
+  	width: 507px;
+  	margin-bottom: 13px;
+  	min-height: 25px;
+  	_height: 128px;
+  	overflow: hidden;
+  	position: relative;
+   	border-top-style: none;
+  	margin-left: 80px; 
+    margin-top: -13px;
+}
+#sendDiffSMS .draftButton {
+  	width: 128px;
+  	height: 100%;
+  	min-height: 25px;
+  	position: absolute;
+  	right: 0;
+  	top: 0;
+  	background-color: #e9f0f9;
+    border-left: 1px solid #c9d9f2;
+}
+#sendDiffSMS #tailContendDiv {
+	min-height: 25px;
+	text-indent: 1em;
+	display:none;
+}
+#sendDiffSMS #tailShowDiv {
+	min-height: 25px;
+	background-color: #f8f8f8;
+	color: #8a8a8a;
+	width:379px;
+	line-height: 25px;
+}
+#sendDiffSMS .tailcontents{
+    word-break: break-all;
+}
+#sendDiffSMS #taskname{
+	width:503px;
+}
+#sendDiffSMS div#effinfo table{
+	width: 95%;
+}
+#sendDiffSMS div#effinfo table tr td:nth-child(1){
+	width: 90px;
+}
+#sendDiffSMS div#moreSelect{
+	margin-top: 30px;float: none;
+}
+#sendDiffSMS #rContent{
+	position:relative;
+}
+#sendDiffSMS #hidden_iframe,#allfilename{
+	display: none;
+}
+#sendDiffSMS #dtsend{
+	float: left;
+	cursor: pointer;
+}
+#sendDiffSMS #dtsend div{
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	padding-top:5px;
+}
+#sendDiffSMS #wjsend{
+	float: right;
+	cursor: pointer;
+}
+#sendDiffSMS #wjsend div{
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	padding-top:5px;
+}
+#sendDiffSMS #taskname{
+	padding-left:5px;
+}
+#sendDiffSMS #downlinks,.draftButton{
+	cursor: default;
+}
+#sendDiffSMS #wtailcontents .draftButton a{
+	margin-left: 45px;
+	line-height:25px;
+}
+#sendDiffSMS #showmessage{
+	margin-bottom: 0px;
+}
+#sendDiffSMS #qtem,#time2{
+	display: none;
+}
+#sendDiffSMS .dxzs_a{
+	margin-left: 10px;
+}
+#sendDiffSMS .tail-area.div_bd{
+	border-left: none;
+	border-right: none;
+	border-bottom: none
+}
+#sendDiffSMS .dxzs_font{
+	float:left;
+	cursor:pointer;
+	padding-top:5px;
+	margin-left:5px;
+}
+#sendDiffSMS .dxzs_div{
+	padding:3px 5px 0;
+	width: 493px;
+	line-height: 26px;
+}
+#sendDiffSMS .dxzs_timerStatus{
+	margin-left: 10px;
+}
+#sendDiffSMS .dxzs_div2{
+	width:580px;
+}
+#sendDiffSMS .dxzs_table{
+	width:580px;
+}
+#sendDiffSMS .dxzs_tr{
+	height: 36px;
+}
+#sendDiffSMS .dxzs_td1{
+	width:108px;
+	padding-left:35px;
+}
+#sendDiffSMS #busCode,#priority,#spUser{
+	width:225px;height:18px;
+}
+#sendDiffSMS .dxzs_td2{
+	padding-left:35px;
+}
+#sendDiffSMS #detail_Info{
+	width: 100%; 
+	padding: 5px; 
+	display: none;
+}
+#sendDiffSMS #infos{
+	width: 98%; 
+}
+#sendDiffSMS #messages2,#messages1 font{
+	color:red;
+}
+#sendDiffSMS #showeffinfo .unfold{
+	font-size: 12px;
+}
+#sendDiffSMS .dxzs_div3{
+	height: 15px;
+}
+#sendDiffSMS .dxzs_p{
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 1%
+}
+#sendDiffSMS #maindiv{
+	overflow: auto;
+	height: 280px;
+}
+#sendDiffSMS #content{
+	width: 650px;
+}
+#sendDiffSMS #footer{
+	margin-top: 20px;
+}
+#sendDiffSMS .infomodelclass{
+	padding-left:20px;
+	padding-right:10px;
+	display: none;
+	position: absolute;
+	z-index: 5000;
+	border: 1px solid #dae1cf;
+	background-color: #f7fff0;
+	width: 280px;
+	height: 330px;
+	padding-bottom: 8px;
+}
+#sendDiffSMS .dxzs_table1{
+	line-height: 30px;
+}
+#sendDiffSMS .dxzs_td3{
+	font-weight: bold;
+	font-size: 14px;
+}
+#sendDiffSMS .dxzs_span{
+	font-weight: bold;
+	font-size: 14px;
+}
+#sendDiffSMS #probar{
+	display: none;
+	text-align: center;
+}
+#sendDiffSMS #tempDiv{
+	padding:5px;
+	display:none
+}
+#sendDiffSMS #tempFrame{
+	width:610px;
+	height:370px;
+	border: 0;
+}
+#sendDiffSMS #addSmsTmpFrame{
+	display:none;
+	width:610px;
+	height:480px;
+	border: 0;
+}
+#sendDiffSMS #draftDiv{
+	padding:5px;
+	display:none
+}
+#sendDiffSMS #draftFrame{
+	width:880px;
+	height:400px;
+	border: 0;
+}
+#sendDiffSMS #message{
+	padding:5px;
+	display:none;
+	font-size: 12px;
+}

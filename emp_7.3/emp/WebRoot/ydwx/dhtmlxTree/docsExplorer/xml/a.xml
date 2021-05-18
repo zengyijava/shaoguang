@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tree id="0">
+        <item id="1" text="增加" im0="dhtmlxtree_icon.gif"  >
+                 <item text="Main Features" id="mf">
+					<userdata name="url">guide.html</userdata>
+				</item>
+				<item text="Supported Browsers" id="browsers">
+					<userdata name="url">guide.html</userdata>
+				</item>
+        </item>
+
+</tree>

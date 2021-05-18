@@ -1,0 +1,84 @@
+@charset "utf-8";
+#cont{background:url(images/content_bg_repeat.jpg) repeat 0 0;}
+body {
+	background-color: #FFFFFF;
+}
+
+.mid_bd {
+	border-color: #b3caee;
+}
+.topMenu {
+	height:31px;
+	background: url('images/tab_menu.jpg') no-repeat;
+}
+.curhover {
+	background-position: 0px -31px;
+}
+.cursel {
+	margin-top:1px;
+	height:30px;
+	color: #FFF;
+	background-position: 0px -62px;
+}
+
+.closeA {
+	font-family: "宋体";
+	color:rgb(243, 245, 247);
+}
+
+.closeA:hover {
+	color: #448add;
+}
+
+.cursel .closeA:hover {
+	color: #ccdef9;
+}
+
+#topLink {
+	border-bottom: 1px #0E4DA0 solid;
+}
+
+.putdown {
+	background-image:url('images/tab_menu.jpg');
+	background-position: -112px 0px;
+}
+.putdown.downhover {
+	background-position: -112px -31px;
+}
+
+#tb_child {
+	border-width: 1px;
+	border-style: solid;
+}
+
+#tb_child #cloall {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+#tb_child li a {
+	background: #eff4ff;
+	color: #333;
+}
+
+#tb_child li a:hover {
+	color: #124ea0 ;
+	background-color: #b5d2ff ;
+}
+
+#menuFrame {
+	border: 1px #b3caee solid;
+	border-top: none;
+}
+
+#menuFrame iframe {
+	background-color: #FFF;
+}
+
+.middle_toggle {
+	background:url(images/icon_contract_left.png) no-repeat center center;
+}
+.middle_toggle.mid_toggle_X {
+	background:url(images/icon_contract_right.png) no-repeat center center;
+	left:0px;
+}

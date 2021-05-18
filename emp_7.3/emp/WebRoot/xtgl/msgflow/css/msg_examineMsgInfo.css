@@ -1,0 +1,370 @@
+#msg_examineMsgInfo .rContent_div{
+	padding-top: 0px;
+}
+
+#msg_examineMsgInfo .rContent_div_table{
+	width:520px;
+}
+
+#msg_examineMsgInfo .msgdiva{
+	width:520px;
+	margin-left: 18px;
+	margin-bottom: 10px;
+}
+
+#msg_examineMsgInfo .msgdiva_table{
+	width:100%;
+	table-layout: fixed;
+}
+
+#msg_examineMsgInfo .tjr_mh_td{
+	width:97px; 
+	height:22px;
+}
+
+#msg_examineMsgInfo .tjr_mh_down_td{
+	height:22px;
+	border-left: 0px;
+	padding-left: 10px;
+}
+
+#msg_examineMsgInfo .zt_mh_td{
+	width:97px; 
+	height:22px;
+}
+
+#msg_examineMsgInfo .zt_mh_down_up{
+	height:22px;
+	border-top: 0px;
+	padding-left: 10px;
+}
+
+#msg_examineMsgInfo .yfsts_mh_td{
+	width:97px; 
+	height:22px;
+	border-top: 0px;
+}
+
+#msg_examineMsgInfo .yfsts_mh_down_td{
+	width:150px;
+	height:22px;
+	border-top: 0px;
+	border-left: 0px;
+	padding-left: 10px;
+}
+
+#msg_examineMsgInfo .yxhms_mh_td{
+	width:97px; 
+	height:22px;
+	border-top: 0px;
+	border-left: 0px;
+}
+
+#msg_examineMsgInfo .yxhms_mh_down_td{
+	height:22px;
+	border-top: 0px;
+	border-left: 0px;
+	padding-left: 10px;
+}
+
+#msg_examineMsgInfo .tjsj_mh_td{
+	width:97px; 
+	height:22px;
+	border-top: 0px;
+}
+
+#msg_examineMsgInfo .tjsj_mh_down_td{
+	width:150px;
+	height:22px;
+	border-top: 0px;
+	border-left: 0px;
+	padding-left: 10px;
+}
+
+#msg_examineMsgInfo .dssj_mh_td{
+	width:97px; 
+	height:22px;
+	border-top: 0px;
+}
+
+#msg_examineMsgInfo .dssj_mh_down_td{
+	width:150px;
+	height:22px;
+	border-top: 0px;
+	border-left: 0px;
+	padding-left: 10px;
+}
+
+#msg_examineMsgInfo .fsnr_mh_td{
+	width:100px; 
+	height:22px;
+	border-top: 0px;
+}
+
+#msg_examineMsgInfo .fsnr_mh_down_td{
+	width:415px;
+	height:22px;
+	border-top: 0px;
+	border-left: 0px;
+}
+
+#msg_examineMsgInfo .fsnr_mh_down_td_text{
+	width:405px;
+	height:90px;
+	padding:5px;
+	word-break: break-all;
+	resize:none;
+	border:none;
+}
+
+#msg_examineMsgInfo .fsnr_mh_td{
+	width:100px; 
+	height:22px;
+	border-top: 0px;
+}
+
+#msg_examineMsgInfo .fsnr_mh_down_td{
+	width:415px;
+	height:22px;
+	border-top: 0px;
+	border-left: 0px;
+	padding-left: 10px;
+}
+
+#msg_examineMsgInfo .PconfigDiv{
+	padding-left: 18px;
+	width:518px;
+	padding-top:5px;
+}
+
+#msg_examineMsgInfo .tabContainer1{
+	width:518px;
+	display: block;
+	font-size: 13px;
+	font-weight: normal;
+	padding-left: 0px;
+}
+
+#msg_examineMsgInfo .jsp_label{
+	padding-left: 35px;
+}
+
+#msg_examineMsgInfo .img_a{
+	text-decoration: none;
+	margin-left: 390px;
+}
+
+#msg_examineMsgInfo .msgdiv_div{
+	width:520px;
+	margin-left: 18px;
+	margin-top:0px;
+	margin-bottom: 10px;
+}
+
+#msg_examineMsgInfo .msgdiv_table{
+	width:100%;
+}
+
+#msg_examineMsgInfo .UserCode_td{
+	width:97px;
+	height:22px;
+	border-top: 0px;
+}
+
+#msg_examineMsgInfo .RTime_td{
+	width:415px;
+	height:22px;
+	border-top: 0px;
+	border-left: 0px;
+	padding-left: 10px;
+	border-top: 0px;
+}
+
+#msg_examineMsgInfo .Comments_td{
+	height:22px;
+	border-top: 0px;
+	padding-left: 5px;
+	word-break: break-all;
+	padding-left: 30px;
+	padding-right: 20px;
+}
+
+#msg_examineMsgInfo .dqspr_mh_div{
+	width:520px;
+	margin-top: 20px;
+	margin-left: 18px;
+}
+
+#msg_examineMsgInfo .dqspr_mh_table{
+	width:100%;
+	table-layout: fixed;
+}
+
+#msg_examineMsgInfo .dqspr_mh_td{
+	width:97px;
+	height:22px;
+	border-top: 0px;
+	border-left: 0px;
+}
+
+#msg_examineMsgInfo .dqspr_mh_down_td{
+	width:148px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	padding-left: 10px;
+}
+
+#msg_examineMsgInfo .spjb_mh_td{
+	width:97px;
+	height:22px;
+	border-top: 0px;
+}
+
+#msg_examineMsgInfo .spjb_mh_down_td{
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	padding-left: 20px;
+}
+
+#msg_examineMsgInfo .spyj_mh_td{
+	width:97px;
+	height:22px;
+	border-top: 0px;
+	border-left: 0px;
+	border-bottom: 0px;
+}
+
+#msg_examineMsgInfo .spyj_mh_down_td{
+	width:415px;
+	height:50px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+}
+
+#msg_examineMsgInfo .spyj_mh_down_td_text{
+	height: 40px; 
+	width: 410px;
+	padding:5px; 
+	font-size: 12px;
+	resize:none;
+	border:none;
+}
+
+#msg_examineMsgInfo .fssh_mh_td{
+	width:97px; 
+	height:22px;
+	border-top: 0px;
+	border-left: 0px;
+}
+
+#msg_examineMsgInfo .fssh_mh_down_td{
+	height:22px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+#msg_examineMsgInfo .timerTime{
+	cursor: pointer;
+	margin-left:3px;
+	padding:0 0 0 3px; 
+	background-color: white;
+	width: 185px;
+}
+
+#msg_examineMsgInfo .timerStatus_tr{
+	display: none;
+}
+
+#msg_examineMsgInfo .timerStatus_td{
+	width:100px; 
+	height:22px;
+	border-top: 0px;
+	border-left: 0px;
+}
+
+#msg_examineMsgInfo .ty_div{
+	width:520px;
+	margin-left: 22px;
+	padding-left: 210px;
+}
+
+#msg_examineMsgInfo .tempView{
+	display:none;
+	overflow: auto;
+}
+
+#msg_examineMsgInfo .mobile_up_div{
+	float: left;
+	width:250px;
+	margin-left: 30px;
+	display: inline;
+}
+
+#msg_examineMsgInfo .mobile{
+	width:240px;
+	height:470px;
+	position: absolute;
+	background: url('../../../common/img/iphone5.jpg') no-repeat;
+}
+
+#msg_examineMsgInfo .pers{
+	position:relative;
+	margin-top:90px;
+	border:1px #09F solid;
+	text-align:left;
+	display:none;
+	width:180px;
+	height:13px;
+	background-color:#FFFFFF;
+}
+
+#msg_examineMsgInfo .showtime{
+	position:absolute;
+	width:140px;
+	height:13px;
+	text-align: center;
+}
+
+#msg_examineMsgInfo .chart{
+	position:absolute;
+	left:0px; 
+	background-color:#00ffdd;
+	width:0px;
+	height:13px;
+	text-align:right;
+	padding-top:0px;
+}
+
+#msg_examineMsgInfo .screen{
+	position:relative;
+	width:189px;
+	height:240px;
+	background:#ffffff;
+	margin-left:23px;
+	margin-top:95px;
+	overflow: auto;
+	padding:2px;
+	word-break: break-all;
+}
+
+#msg_examineMsgInfo .pointer{
+	vertical-align: bottom;
+}
+
+#msg_examineMsgInfo .nextpage{
+	vertical-align: bottom;
+}
+
+#msg_examineMsgInfo .currentpage{
+	vertical-align: bottom;
+}
+
+#msg_examineMsgInfo .inputParamCnt1{
+	margin-top: 10px;
+	margin-left: 280px;
+}

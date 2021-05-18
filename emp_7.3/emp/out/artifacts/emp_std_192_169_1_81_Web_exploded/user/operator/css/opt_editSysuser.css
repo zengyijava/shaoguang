@@ -1,0 +1,500 @@
+#opt_editSysuser #lyout {
+	width: 840px;
+	padding: 10px;
+	margin-bottom: 15px;
+	display: block;
+}
+
+#opt_editSysuser .tabyys {
+	display: block;
+	width: 130px;
+	height: 20px;
+	line-height: 20px;
+	margin-left: 20px;
+	margin-bottom: -10px;
+	position: relative;
+	background-color: #FFF;
+	font-weight: 800;
+	text-align: left;
+	padding: 0 3px;
+	cursor: pointer;
+}
+
+#opt_editSysuser .mt10 {
+	margin-bottom: 10px;
+}
+
+#opt_editSysuser .rContent2 {
+	padding: 5px;
+}
+
+#opt_editSysuser .xgczuy_table {
+	width: 840px;
+	height: 15px;
+	border: 0px solid red;
+}
+
+#opt_editSysuser .table_input {
+	border: 0px;
+	height:758px;
+	padding-left: 0px;
+}
+
+#opt_editSysuser .czyjbxx_div {
+	width: 95px;
+}
+
+#opt_editSysuser .lyout2 {
+	padding-top: 20px;
+}
+
+#opt_editSysuser .loginId_td {
+	width: 120px;
+}
+
+#opt_editSysuser .userNo_td {
+	width: 300px;
+}
+
+#opt_editSysuser .font_red {
+	color: red;
+}
+
+#opt_editSysuser .czymc_td {
+	width: 120px;
+}
+
+#opt_editSysuser .oldDepId_td {
+	position: relative;
+	z-index: 10;
+}
+
+#opt_editSysuser .depNam_div {
+	width: 300px;
+}
+
+#opt_editSysuser .depNam {
+	width: 201px;
+	height: 20px;
+	cursor: pointer;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+#opt_editSysuser .ssdep {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#opt_editSysuser .dropMenu_udep {
+	position: absolute;
+	left: -1px;
+	top: 28px;
+	display: none;
+	margin-left: 0px;
+	width: 366px;
+	background-color: white;
+	border: 1px solid;
+	z-index: 999;
+}
+
+#opt_editSysuser .dropdownMenu_udep {
+	margin-left: 0px;
+	height: 450px;
+	width: 356px;
+	background-color: white;
+	overflow: auto;
+}
+
+#opt_editSysuser .birthday {
+	cursor: pointer;
+	background-color: white;
+}
+
+#opt_editSysuser .roleName {
+	width: 225px;
+	height: 20px;
+	cursor: pointer;
+}
+
+#opt_editSysuser .allRoleName {
+	display: none;
+	z-index: 4000;
+}
+
+#opt_editSysuser .isNeedSubno {
+	width: 15px;
+}
+
+#opt_editSysuser .addSubno {
+	display: none;
+}
+
+#opt_editSysuser .msgRemind {
+	width: 15px;
+}
+
+#opt_editSysuser .emailRemind {
+	width: 15px;
+}
+
+#opt_editSysuser .isCustome {
+	width: 15px;
+}
+
+#opt_editSysuser .user_div1 {
+	width: 140px;
+}
+
+#opt_editSysuser .user_div2 {
+	width: 100px;
+}
+
+#opt_editSysuser .lyout2 {
+	padding-top: 20px;
+}
+
+#opt_editSysuser .czysjqx_td {
+	width: 120px;
+}
+
+#opt_editSysuser .getDepName_td {
+	width: 300px;
+	position: relative;
+	z-index: 10;
+}
+
+#opt_editSysuser .depPerm {
+	width: 220px;
+	display: none;
+}
+
+#opt_editSysuser .domdepName {
+	width: 225px;
+	height: 20px;
+}
+
+#opt_editSysuser .selectDepBtn_user {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#opt_editSysuser .dropMenu_user {
+	position: absolute;
+	display: none;
+	left: 0;
+	top: 28px;
+	width: 366px;
+	background-color: white;
+	border: 1px solid;
+	z-index: 999;
+}
+
+#opt_editSysuser .dropdownMenu_user {
+	margin-left: 0px;
+	height: 450px;
+	width: 356px;
+	background-color: white;
+	overflow-y: auto;
+	overflow-x: auto;
+	z-index: 999;
+}
+
+#opt_editSysuser .jgshy_td {
+	width: 120px;
+	text-align: left;
+}
+
+#opt_editSysuser .ygtxlqx_td {
+	width: 120px;
+}
+
+#opt_editSysuser .domDepId_employ_td {
+	width: 300px;
+	position: relative;
+	z-index: 9;
+}
+
+#opt_editSysuser .depPerm_employ {
+	width: 220px;
+}
+
+#opt_editSysuser .domdepName_employ {
+	width: 150px;
+	height: 20px;
+	border: 1px solid #7F9DB9;
+}
+
+#opt_editSysuser .selectDepBtn_employ {
+	cursor: pointer;
+	text-decoration: underline;
+	display: none;
+}
+
+#opt_editSysuser .dropMenu_employ {
+	position: absolute;
+	display: none;
+	top: 28px;
+	left: 0px;
+	width: 366px;
+	background-color: white;
+	border: 1px solid;
+	z-index: 999;
+}
+
+#opt_editSysuser .dropMenu_employ_down_div {
+	margin-top: 3px;
+	margin-right: 10px;
+	text-align: right;
+}
+
+#opt_editSysuser .dropdownMenu_employ {
+	margin-left: 0px;
+	height: 450px;
+	width: 356px;
+	background-color: white;
+	overflow-y: auto;
+	overflow-x: auto;
+	z-index: 999;
+}
+
+#opt_editSysuser .khtxlqx_td {
+	width: 120px;
+	text-align: left;
+}
+
+#opt_editSysuser .domDepId_client_td {
+	position: relative;
+}
+
+#opt_editSysuser .depPerm_client {
+	width: 220px;
+	display: none;
+}
+
+#opt_editSysuser .domdepName_client {
+	width: 150px;
+	height: 20px;
+	border: 1px solid #7F9DB9;
+}
+
+#opt_editSysuser .selectDepBtn_client {
+	cursor: pointer;
+	text-decoration: underline;
+	display: none;
+}
+
+#opt_editSysuser .dropMenu_client {
+	position: absolute;
+	display: none;
+	left: 0;
+	top: 27px;
+	width: 366px;
+	background-color: white;
+	border: 1px solid;
+	z-index: 999;
+}
+
+#opt_editSysuser .dropMenu_client_down_div {
+	margin-top: 3px;
+	margin-right: 10px;
+	text-align: right;
+}
+
+#opt_editSysuser .dropdownMenu_client {
+	margin-left: 0px;
+	height: 450px;
+	width: 356px;
+	background-color: white;
+	overflow-y: auto;
+	overflow-x: auto;
+	z-index: 999;
+}
+
+#opt_editSysuser .domDepId_dep_td {
+	position: relative;
+}
+
+#opt_editSysuser .depPerm_dep {
+	width: 220px;
+}
+
+#opt_editSysuser .domdepName_dep {
+	width: 150px;
+	height: 20px;
+	border: 1px solid #7F9DB9;
+}
+
+#opt_editSysuser .selectDepBtn_dep {
+	cursor: pointer;
+	text-decoration: underline;
+	display: none;
+}
+
+#opt_editSysuser .dropMenu_dep {
+	position: absolute;
+	display: none;
+	left: 0;
+	top: 28px;
+	width: 366px;
+	background-color: white;
+	border: 1px solid;
+	z-index: 999;
+}
+
+#opt_editSysuser .dropMenu_dep_down_div {
+	margin-top: 3px;
+	margin-right: 10px;
+	text-align: right;
+}
+
+#opt_editSysuser .dropdownMenu_dep {
+	margin-left: 0px;
+	height: 450px;
+	width: 356px;
+	background-color: white;
+	overflow-y: auto;
+	overflow-x: auto;
+	z-index: 999;
+	"
+}
+
+#opt_editSysuser .qtlxfs_div1 {
+	width: 140px;
+}
+
+#opt_editSysuser .qtlxfs_div2 {
+	width: 100px;
+}
+
+#opt_editSysuser .zj_td {
+	width: 120px;
+}
+
+#opt_editSysuser .oph_td {
+	width: 300px;
+}
+
+#opt_editSysuser .mail_td {
+	width: 120px;
+	text-align: left;
+}
+
+#opt_editSysuser .editEmailCheck {
+	color: red;
+	display: none;
+}
+
+#opt_editSysuser .QQmh_td {
+	width: 120px;
+}
+
+#opt_editSysuser .qq_td {
+	width: 300px;
+}
+
+#opt_editSysuser .MSNmh_td {
+	width: 120px;
+	text-align: left;
+}
+
+#opt_editSysuser .chuanz_td {
+	width: 120px;
+}
+
+#opt_editSysuser .fax_td {
+	width: 300px;
+}
+
+#opt_editSysuser .jrygtxl_div1 {
+	width:200px;
+	
+}
+
+#opt_editSysuser .jrygtxl_div2 {
+	width: 100px;
+}
+
+#opt_editSysuser .isJoinEmploy {
+	display: none;
+}
+
+#opt_editSysuser .gongh_td {
+	width: 120px;
+}
+
+#opt_editSysuser .employeeNo_td {
+	width: 300px;
+}
+
+#opt_editSysuser .employeeNo {
+	width: 180px;
+}
+
+#opt_editSysuser .ygjg_td {
+	width: 120px;
+}
+
+#opt_editSysuser .employDepNam_div {
+	width: 300px;
+}
+
+#opt_editSysuser .employDepNam {
+	width: 203px;
+	height: 20px;
+	cursor: pointer;
+	font-size: 12px;
+}
+
+#opt_editSysuser .ssdep {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#opt_editSysuser .dropMenu_edep {
+	position: absolute;
+	display: none;
+	margin-left: 0px;
+	width: 366px;
+	background-color: white;
+	border: 1px solid;
+	z-index: 999;
+}
+
+#opt_editSysuser .dropdownMenu_edep {
+	margin-left: 0px;
+	height: 450px;
+	width: 356px;
+	background-color: white;
+	overflow-y: auto;
+	overflow-x: auto;
+	z-index: 999;
+}
+
+#opt_editSysuser .bjr_input {
+	padding-left: 130px;
+}
+
+#opt_editSysuser .beiz_tr {
+	display: none;
+}
+
+#opt_editSysuser .hint-tr_table {
+	height: 100%;
+	width: 862px;
+}
+
+#opt_editSysuser .hint-tr_div {
+	padding-left: 30px;
+}
+
+#opt_editSysuser .roDiv {
+	display: none;
+}
+
+#opt_editSysuser .roDiv_down_div {
+	width:300px;
+	height: 200px;
+	padding: 10px 0 10px 10px;
+	overflow: auto;
+}

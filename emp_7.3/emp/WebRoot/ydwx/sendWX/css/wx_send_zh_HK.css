@@ -1,0 +1,55 @@
+@charset "UTF-8";
+.wx_send div#eq_sendDiv{
+    width:700px !important;
+}
+.wx_send input#toDraft{
+    text-indent: 5px;
+    font-size:  12px;
+    text-align: center;
+}
+.wx_send .righttitle{
+    width:100px;
+}
+.wx_send .downlinksWrapper{
+    padding:5px 0 15px 0;
+}
+.wx_send .smsWordCount{
+    line-height:12px;
+    float:left;
+    padding-top:5px;
+    margin-left:110px;
+    color: #656565;
+}
+.wx_send #templatepre{
+    display:none;
+    width: 290px;
+    margin-top: 10px;
+    height:30px;
+    margin-left:105px;
+}
+.wx_send .sendTime{
+    width:100px;
+}
+.wx_send #u_o_c_explain{
+    width: 150px;
+}
+.wx_send .busType{
+    width:130px;
+}
+.wx_send .sendDetail{
+    width: 250px;
+}
+.wx_send #effinfo{
+    width: 250px;
+}
+.wx_send #infomodel{
+    height:450px;
+}
+.wx_send #draftFrame{
+    width: 980px;
+}
+.wx_send .imporInner{width: 529px;}
+.wx_send .bultMark{width:529px;}
+.wx_send #contentFrame{
+    width:680px;
+}

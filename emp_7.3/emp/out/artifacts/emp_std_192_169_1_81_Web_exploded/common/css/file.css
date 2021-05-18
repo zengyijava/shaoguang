@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+.file {
+   position: relative;
+   display: inline-block;
+   background: #dae5f7;
+   border: 1px solid #c9d9f2;
+   padding: 4px 12px;
+   overflow: hidden;
+   color: #000;
+   text-decoration: none;
+   text-indent: 0;
+   line-height: 15px;
+   border-radius: 4px;
+   float:left;
+}
+.file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter:alpha(opacity=0);
+}
+.file:hover {
+	text-decoration: none;	
+}
+#filename {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 1em;
+}

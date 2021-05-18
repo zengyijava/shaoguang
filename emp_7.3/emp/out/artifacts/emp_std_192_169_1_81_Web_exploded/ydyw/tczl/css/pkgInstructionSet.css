@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+/*新建窗口  编辑窗口*/
+#addDiv > table > tbody > tr > td:nth-child(1)，#editDiv > table > tbody > tr > td:nth-child(1){
+	width: 31%;
+}
+#addDiv > table > tbody > tr > td:nth-child(2)，#editDiv > table > tbody > tr > td:nth-child(2){
+	width: 49%;
+}
+#addDiv > table > tbody > tr > td:nth-child(3)，#editDiv > table > tbody > tr > td:nth-child(3){
+	width: 20%;
+}
+/*全局指令设置窗口*/
+#bindDiv > table > tbody > tr > td:nth-child(1){
+	width: 39%;
+}
+#bindDiv > table > tbody > tr > td:nth-child(2){
+	width: 41%;
+}
+#bindDiv > table > tbody > tr > td:nth-child(3){
+	width: 20%;
+}

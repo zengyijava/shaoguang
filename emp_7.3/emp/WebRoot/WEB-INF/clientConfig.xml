@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+
+	
+	<servlet>
+		<description>客户通讯录</description>
+		<display-name>通讯录管理（短信客服）</display-name>
+		<servlet-name>cli_addrBookSvt</servlet-name>
+		<servlet-class>com.montnets.emp.client.servlet.cli_addrBookSvt</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>客户通讯录权限管理</description>
+		<display-name>通讯录管理</display-name>
+		<servlet-name>cli_permissionsSvt</servlet-name>
+		<servlet-class>com.montnets.emp.client.servlet.cli_permissionsSvt</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>客户属性管理</description>
+		<display-name>通讯录管理（短信客服）</display-name>
+		<servlet-name>cli_custFieldMangerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.client.servlet.cli_custFieldMangerSvt</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>This is the description of DownHisPageServlet</description>
+		<display-name>客户通讯录机构树</display-name>
+		<servlet-name>cli_addrbookDepTreeSvt</servlet-name>
+		<servlet-class>com.montnets.emp.client.servlet.cli_addrbookDepTreeSvt</servlet-class>
+	</servlet>
+	
+	
+	<servlet-mapping>
+		<servlet-name>cli_addrbookDepTreeSvt</servlet-name>
+		<url-pattern>/cli_addrbookDepTree.htm</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet-mapping>
+		<servlet-name>cli_custFieldMangerSvt</servlet-name>
+		<url-pattern>/cli_custFieldManger.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>cli_permissionsSvt</servlet-name>
+		<url-pattern>/cli_permissions.htm</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet-mapping>
+		<servlet-name>cli_addrBookSvt</servlet-name>
+		<url-pattern>/cli_addrBook.htm</url-pattern>
+	</servlet-mapping>
+	

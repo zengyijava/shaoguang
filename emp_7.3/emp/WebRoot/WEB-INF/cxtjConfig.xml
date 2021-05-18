@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<servlet>
+		<servlet-name>RptListener</servlet-name>
+		<servlet-class>com.montnets.emp.report.listener.RptListener</servlet-class>
+		<load-on-startup>14</load-on-startup>
+</servlet>
+	
+<servlet>
+	<description>系统上行记录</description>
+	<display-name>查询统计</display-name>
+	<servlet-name>que_sysMoRecordSvt</servlet-name>
+	<servlet-class>com.montnets.emp.query.servlet.que_sysMoRecordSvt
+	</servlet-class>
+</servlet>
+<servlet>
+	<description>系统下行记录</description>
+	<display-name>查询统计</display-name>
+	<servlet-name>que_sysMtRecordSvt</servlet-name>
+	<servlet-class>com.montnets.emp.query.servlet.que_sysMtRecordSvt
+	</servlet-class>
+</servlet>
+<servlet>
+<description>系统下行报表</description>
+<display-name>查询统计</display-name>
+<servlet-name>export_sysMtSvt</servlet-name>
+<servlet-class>com.montnets.emp.query.servlet.export_sysMtServlet
+</servlet-class>
+</servlet>
+<servlet>
+<description>系统下行报表记录</description>
+<display-name>查询统计</display-name>
+<servlet-name>que_mtRptRecordSvt</servlet-name>
+<servlet-class>com.montnets.emp.query.servlet.que_mtRptRecordSvt
+</servlet-class>
+</servlet>
+<servlet>
+	<description>个人收件箱</description>
+	<display-name>个人收件箱</display-name>
+	<servlet-name>inb_reciveBoxSvt</servlet-name>
+	<servlet-class>com.montnets.emp.inbox.servlet.inb_reciveBoxSvt
+	</servlet-class>
+</servlet>
+
+
+<servlet>
+	<description>操作员统计报表</description>
+	<display-name>操作员统计报表</display-name>
+	<servlet-name>rep_sysUserReportSvt</servlet-name>
+    <servlet-class>com.montnets.emp.reportform.servlet.ReportSvt</servlet-class>
+	<!--<servlet-class>com.montnets.emp.report.servlet.rep_sysUserReportSvt</servlet-class>-->
+</servlet>
+
+<servlet>
+	<description>业务类型统计报表</description>
+	<display-name>业务类型统计报表</display-name>
+	<servlet-name>rep_busReportSvt</servlet-name>
+	<!--<servlet-class>com.montnets.emp.report.servlet.rep_busReportSvt</servlet-class>-->
+	<servlet-class>com.montnets.emp.reportform.servlet.ReportSvt</servlet-class>
+</servlet>
+
+<servlet>
+	<description>区域统计报表</description>
+	<display-name>区域统计报表</display-name>
+	<servlet-name>rep_areaReportSvt</servlet-name>
+	<!--<servlet-class>com.montnets.emp.report.servlet.rep_areaReportSvt</servlet-class>-->
+	<servlet-class>com.montnets.emp.reportform.servlet.ReportSvt</servlet-class>
+</servlet>
+
+<servlet>
+	<description>机构统计报表</description>
+	<display-name>机构统计计报表</display-name>
+	<servlet-name>rep_sysDepReportSvt</servlet-name>
+	<!--<servlet-class>com.montnets.emp.report.servlet.rep_sysDepReportSvt</servlet-class>-->
+    <servlet-class>com.montnets.emp.reportform.servlet.ReportSvt</servlet-class>
+</servlet>
+<servlet>
+	<description>动态参数统计报表</description>
+	<display-name>动态参数统计报表</display-name>
+	<servlet-name>rep_dynParamReportSvt</servlet-name>
+	<!--<servlet-class>com.montnets.emp.report.servlet.rep_dynParamReportSvt</servlet-class>-->
+	<servlet-class>com.montnets.emp.reportform.servlet.ReportSvt</servlet-class>
+</servlet>
+<servlet>
+	<description>运营商下行统计报表</description>
+	<display-name>查询统计</display-name>
+	<servlet-name>rep_spisuncmMtReportSvt</servlet-name>
+	<!--<servlet-class>com.montnets.emp.report.servlet.rep_spisuncmMtReportSvt</servlet-class>-->
+	<servlet-class>com.montnets.emp.reportform.servlet.ReportSvt</servlet-class>
+</servlet>
+<servlet>
+	<description>发送账号下行统计报表</description>
+	<display-name>发送账号下行统计报表</display-name>
+	<servlet-name>rep_spMtReportSvt</servlet-name>
+	<!--<servlet-class>com.montnets.emp.report.servlet.rep_spMtReportSvt</servlet-class>-->
+	<servlet-class>com.montnets.emp.reportform.servlet.ReportSvt</servlet-class>
+</servlet>
+
+<servlet>
+	<description>任务查询</description>
+	<display-name>任务短信群发统计报表</display-name>
+	<servlet-name>smt_smsTaskRecordSvt</servlet-name>
+	<servlet-class>com.montnets.emp.smstask.servlet.smt_smsSendedBoxSvt</servlet-class>
+</servlet>
+<servlet>
+	<description>短信滞留记录</description>
+	<display-name>查询统计</display-name>
+	<servlet-name>rep_remainMtRecordSvt</servlet-name>
+	<servlet-class>com.montnets.emp.report.servlet.rep_remainMtRecordSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>rep_remainMtRecordSvt</servlet-name>
+	<url-pattern>/rep_remainMtRecord.htm</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<!-- 群发历史查询 -->
+	<servlet-name>smt_smsTaskRecordSvt</servlet-name>
+	<url-pattern>/smt_smsTaskRecord.htm</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>que_sysMoRecordSvt</servlet-name>
+	<url-pattern>/que_sysMoRecord.htm</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>que_sysMtRecordSvt</servlet-name>
+	<url-pattern>/que_sysMtRecord.htm</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<!-- 个人收件箱 -->
+	<servlet-name>inb_reciveBoxSvt</servlet-name>
+	<url-pattern>/inb_reciveBox.htm</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>rep_sysUserReportSvt</servlet-name>
+	<url-pattern>/rep_sysUserReport.htm</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>rep_busReportSvt</servlet-name>
+	<url-pattern>/rep_busReport.htm</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>rep_areaReportSvt</servlet-name>
+	<url-pattern>/rep_areaReport.htm</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>rep_sysDepReportSvt</servlet-name>
+	<url-pattern>/rep_sysDepReport.htm</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>rep_dynParamReportSvt</servlet-name>
+	<url-pattern>/rep_dynParamReport.htm</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>rep_spisuncmMtReportSvt</servlet-name>
+	<url-pattern>/rep_spisuncmMtReport.htm</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>rep_spMtReportSvt</servlet-name>
+	<url-pattern>/rep_spMtReport.htm</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>export_sysMtSvt</servlet-name>
+	<url-pattern>/export_sysMt.htm</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>que_mtRptRecordSvt</servlet-name>
+<url-pattern>/que_mtRptRecord.htm</url-pattern>
+</servlet-mapping>

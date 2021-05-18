@@ -1,0 +1,99 @@
+
+#updatemethod > div:nth-child(1) > center > table > tbody > tr > td:nth-child(1){
+	text-align: right;
+}
+
+#wg_funList .hiddenValueDiv{
+	display: none;
+}
+
+#wg_funList .rContent2{
+	padding: 5px;
+}
+
+#wg_funList .clientall_label{
+	display: none;
+}
+
+#wg_funList .url_label{
+	display: none;
+}
+
+#wg_funList .updatemethod{
+	padding: 5px; 
+	display: none; 
+	font-size: 12px;
+}
+
+#wg_funList .updatemethod_down_div{
+	height: 170px; 
+	margin-top: 10px;
+}
+
+#wg_funList .updatemethod_table_input{
+	width: 174px;
+}
+
+#wg_funList .updatemethod_table_tr{
+	height:5px;
+}
+
+#wg_funList .req_type{
+	width: 178px;
+}
+
+#wg_funList .resp_type{
+	width: 178px;
+}
+
+#wg_funList .tj_div{
+	height: 50px; 
+	line-height: 50px; 
+	margin-top: 40px;
+}
+
+#wg_funList .modify{
+	padding: 5px; 
+	width: 300px; 
+	height: 160px; 
+	display: none; 
+	word-wrap: break-word; 
+	word-break: break-all; 
+	overflow-y: auto;
+}
+
+#wg_funList .msg{
+	width: 100%; 
+	height: 100%; 
+	overflow-y: auto;
+}
+
+#wg_funList .modifyshow{
+	padding: 5px; 
+	width: 300px; 
+	height: 160px; 
+	display: none; 
+	word-wrap: break-word; 
+	word-break: break-all; 
+	overflow-y: auto;
+}
+
+#wg_funList .msgshow{
+	width: 100%; 
+	height: 100%; 
+	overflow-y: auto;
+}
+
+#wg_funList .mappingDiv{
+	padding: 5px 0 5px 5px; 
+	display: none; 
+	height: 555px;
+}
+
+#wg_funList .mappingFrame{
+	width: 1000px; 
+	height: 555px; 
+	border: 0;
+}
+
+

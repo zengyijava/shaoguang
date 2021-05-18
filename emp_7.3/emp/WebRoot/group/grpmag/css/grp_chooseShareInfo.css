@@ -1,0 +1,120 @@
+#grp_chooseShareInfo center {
+	font-size: 14px;
+}
+#grp_chooseShareInfo select {
+	font-size: 14px;
+}
+#grp_chooseShareInfo .dept {
+    float: left;
+    text-align: left;
+    width: 240px;
+}
+#grp_chooseShareInfo .group_table1 {
+	border:0;
+    width: 523px;
+}
+#grp_chooseShareInfo .div_bg.group_td1{
+	font-size:12px;
+	height: 30px;
+}
+#grp_chooseShareInfo #groupName{
+	color: blue;
+}
+#grp_chooseShareInfo .group_tr1{
+	height: 5px;
+}
+#grp_chooseShareInfo .group_td2{
+	font-size:12px;
+	text-align:left;
+}
+#grp_chooseShareInfo #chooseType{
+	color: black;
+	font-size:12px;
+	float:left;
+	height:22px;
+	margin-right: 2px;
+}
+#grp_chooseShareInfo #epname{
+	width:131px;
+	float: left;
+	height: 21px;
+	boder-right: 0px;
+	vertical-align: middle;
+}
+#grp_chooseShareInfo #btnSearch{
+	cursor: pointer;
+}
+#grp_chooseShareInfo .group_td3{
+	border:1
+}
+#grp_chooseShareInfo #etree,#sonFrame{
+	width:240px;
+	height:240px;
+}
+#grp_chooseShareInfo #egroup{
+	height:175px;
+	border:0;
+}
+#grp_chooseShareInfo .div_bd.group_div1{
+	border-bottom:0;
+	margin-top:10px;
+	height:22px;
+	width:240px;
+	float:left;
+	overflow: hidden;
+	background-color:#e0ebfe;
+}
+#grp_chooseShareInfo #showUserName{
+	height:22px;
+	width:240px;
+	padding-top: 5px; 
+	display: block; 
+	text-align: left;
+	font-size: 12px;
+}
+#grp_chooseShareInfo .dept.div_bd.group_div2{
+	height: 120px; 
+	width: 235px;
+	overflow:hidden;
+	display:block;
+	padding-left:5px;
+}
+#grp_chooseShareInfo #left{
+	height: 132px; 
+	width: 248px; 
+	border: 0;
+	font-size: 12px;
+	padding-left:5px;
+	vertical-align:middle;
+	margin:-5px -10px;
+	padding:4px;	
+}
+#grp_chooseShareInfo .group_td4{
+	height:350px;
+}
+#grp_chooseShareInfo #toRight{
+	margin-top: 5px;
+}
+#grp_chooseShareInfo .dept.div_bd.group_div3{
+	width:204px;
+	height:400px;
+	overflow:hidden;
+	display:block;
+	float: left; 
+	text-align: left;
+}
+#grp_chooseShareInfo #right{
+	width:210px;
+	height:404px;
+	overflow-y:auto;
+	margin:-3px 0 0 -3px;
+	padding:4px 6px; 
+	border:0;
+	float:left;
+	color: black;
+	font-size: 12px;
+	vertical-align:middle;
+}
+.group_display_none{
+	display:none;
+}

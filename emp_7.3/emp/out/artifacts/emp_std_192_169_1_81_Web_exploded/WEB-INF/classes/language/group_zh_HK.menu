@@ -1,0 +1,79 @@
+##群组管理
+##公共标识
+group_common_text_all=All
+group_common_text_norecord=No data
+group_common_text_select=Please choose
+group_common_text_opt=Operation
+group_common_text_org=Organization
+group_common_text_choose=Select
+group_common_text_prepage=Pre
+group_common_text_nextpage=Next
+##公共操作
+group_common_opt_delete=Delete
+group_common_opt_confire=OK
+group_common_opt_cancel=Cancel
+group_common_opt_back=Back
+group_common_opt_modify=Edit
+group_common_opt_shutdown=Close
+group_common_opt_add=Add
+##移动办公-员工通讯轮管理-个人群组
+##我的群组
+group_ydbg_ygtxlgl_text_groupshare=Group sharing
+group_ydbg_ygtxlgl_text_mygroup=My group
+group_ydbg_ygtxlgl_text_name=Name
+group_ydbg_ygtxlgl_text_phonenum=Cellphone number
+group_ydbg_ygtxlgl_text_entername=Please type in name
+group_ydbg_ygtxlgl_text_memberlist=Member list
+##新增群组
+group_ydbg_xzqz_text_name=Name
+group_ydbg_xzqz_text_number=Number
+group_ydbg_xzqz_text_type=Type
+group_ydbg_xzqz_text_sharestatus=Shared state
+group_ydbg_xzqz_text_createtime=Create time
+group_ydbg_xzqz_text_employee=Employee
+group_ydbg_xzqz_text_selfbuilt=Self-built
+group_ydbg_xzqz_text_shared=Share
+group_ydbg_xzqz_text_altogether=There are 
+group_ydbg_xzqz_text_records= records
+group_ydbg_xzqz_text_addgroup=Create new Group
+group_ydbg_xzqz_text_deletegroup=Delete
+group_ydbg_xzqz_text_groupname=Group name
+group_ydbg_xzqz_text_personalgroup=Personal group
+group_ydbg_xzqz_text_notshared=Not shared
+group_ydbg_xzqz_text_hasshared=Shared
+group_ydbg_xzqz_text_sharegroup=Share group
+group_ydbg_xzqz_text_detail=Detail
+group_ydbg_xzqz_text_modifygroup=Edit the group
+group_ydbg_xzqz_text_groupdetail=Group details
+group_ydbg_xzqz_text_addbooktype=Address book type
+group_ydbg_xzqz_text_phone=Phone
+group_ydbg_xzqz_text_affiliatedgroup=Affiliated group
+group_ydbg_xzqz_text_client=Client
+group_ydbg_xzqz_text_customize=Customize
+group_ydbg_xzqz_text_selectsendobj=Select the sending object
+group_ydbg_xzqz_text_entergroupname=Enter the group name
+group_ydbg_xzqz_text_memberaddbook=Address book
+group_ydbg_xzqz_text_memberaddbookCli=Address book
+group_ydbg_xzqz_text_importfile=File import
+group_ydbg_xzqz_text_entername=Enter name
+group_ydbg_xzqz_text_added=Selected person：
+group_ydbg_xzqz_text_uploadfile=Upload files
+group_ydbg_xzqz_text_fileformat=Only support .txt and .xls
+group_ydbg_xzqz_text_formatdes=Format
+group_ydbg_xzqz_text_document=Document
+group_ydbg_xzqz_text_filemaxsize=Valid data maximum in a single file is 2000
+group_ydbg_xzqz_text_phonenumber=Phone
+group_ydbg_xzqz_text_nikename=Name
+group_ydbg_xzqz_text_src=Source
+group_ydbg_xzqz_text_peploe=
+##移动客服-客户通讯录管理-个人群组
+##我的群组
+group_ydkf_ygtxlgl_text_altogether=Total&nbsp;
+group_ydkf_ygtxlgl_text_article=&nbsp;rows
+group_ydkf_ygtxlgl_text_page=&nbsp;pages
+group_ydkf_ygtxlgl_text_rowPerPage=&nbsp;rows per page
+group_ydkf_ygtxlgl_text_first=
+##新增群组
+group_ydkf_xzqz_text_getobj=Get the object
+
+group_common_operator=Operator

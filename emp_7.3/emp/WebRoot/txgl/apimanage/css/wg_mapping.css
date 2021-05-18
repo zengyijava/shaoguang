@@ -1,0 +1,88 @@
+#wg_mapping  *{
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+}
+#wg_mapping ul li{
+	list-style: none;
+	border: 2px solid #a0b2ca;
+	width: 100px;
+	text-align: center;
+	float: left;
+	margin-right: 10px;
+}
+#wg_mapping .top{
+	height: 20px;	
+}
+#wg_mapping .bottom{
+	margin-top: 10px;
+	clear: both;
+	border: 1px solid #a0b2ca;
+	height: 450px;
+	width: 1000px;
+}
+#wg_mapping .same{
+	float: left;
+	height: 250px;
+}
+#wg_mapping .btn{
+	width: 600px;
+	clear: both;
+	text-align: center;
+}
+#wg_mapping textarea{
+	width: 280px;
+	height: 433px;
+}
+#wg_mapping .tablebord{
+	border: 2px solid #a0b2ca; 
+}
+
+
+#wg_mapping .hiddenValueDiv{
+	display:none;
+}
+
+#wg_mapping .rContent2{
+	padding:5px;
+}
+
+#wg_mapping .rContent_down_div{
+	margin-bottom:5px;
+}
+
+#wg_mapping .show_div{
+	background:#dfe9f9;
+}
+
+#wg_mapping .content_div{
+	overflow-y: scroll;
+	width: 430px;
+	height: 447px;
+}
+
+#wg_mapping .content_tale_tr{
+	background:#dfe9f9;
+}
+
+#wg_mapping .content_tale_tr_td1{
+	width: 25%;
+}
+
+#wg_mapping .content_tale_tr_td2{
+	width: 25%;
+}
+
+#wg_mapping .content_tale_tr_td3{
+	width: 15%;
+}
+
+#wg_mapping .content_tale_tr_td4{
+	width: 20%;
+}
+
+#wg_mapping .blok_div{
+	margin-bottom:5px;
+}
+
+

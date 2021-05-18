@@ -1,0 +1,245 @@
+.infotd1 {
+	cursor: pointer;
+	/*background-color: #9ec3fb;
+  border-bottom: 3px #448add solid;*/
+}
+
+.infotd2 {
+	cursor: pointer;
+	/*background-color: #e9f0f9;
+   border-bottom: 3px #e9f0f9 solid;*/
+}
+
+#UpdatePassDiv table {
+	width: 85%;
+}
+
+#updateinfoDiv table tr,#updatePwDiv table tr {
+	height: 40px;
+}
+
+#updateinfoDiv table tr td,#updatePwDiv table tr td {
+	padding-left: 10px;
+	text-align: left;
+}
+
+#updateinfoDiv table tr td label,#updatePwDiv table tr td label {
+	padding-left: 25px;
+}
+
+#updateinfoDiv table tr td input,#updatePwDiv table tr td input {
+	margin-left: 10px;
+	width: 185px;
+}
+
+ul {
+	list-style: none;
+}
+
+iframe {
+	border: 0;
+	width: 100%;
+}
+
+div {
+	padding: 0;
+}
+
+.msg {
+	font-size: 12px;
+	display: none;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: relative;
+	background-color: #cfdef4;
+	bottom: 100% 100%;
+	text-align: left;
+}
+
+.ltd {
+	font-size: 12px;
+	padding-top: 2px;
+	text-align: left;
+	height: 20px;
+	width: 65%;
+	color: #880000;
+}
+
+.rtd {
+	font-size: 12px;
+	padding-top: 1px;
+	text-align: right;
+	height: 20px;
+	width: 35%;
+	color: #0000CC;
+}
+
+.date {
+	font-size: 12px;
+	padding-top: 1px;
+	text-align: right;
+	height: 20px;
+	color: #0000CC;
+}
+
+.link {
+	color: #880000;
+	cursor: pointer;
+}
+
+#t tr td {
+	height: 25px;
+}
+
+.perSkin {
+	display: block;
+	width: 160px;
+	height: 160px;
+	padding: 14px 5px 5px 5px;
+	float: left;
+	cursor: pointer;
+}
+
+.perSkin .skinTitle {
+	display: block;
+	width: 160px;
+	height: 30px;
+	font-weight: 800;
+	font-size: 14px;
+	text-align: left;
+}
+
+.perSkin .skinPic {
+	display: block;
+	width: 160px;
+	height: 100px;
+	padding-top: 5px;
+}
+
+.perSkin .chooseBtn {
+	display: block;
+	width: 160px;
+	padding-top: 10px;
+	height: 30px;
+	text-align: center;
+}
+
+.perSkin .uselb {
+	height: 60px;
+	line-height: 60px;
+	width: 160px;
+	font-size: 14px;
+}
+
+.perSkin.curSkin,.perSkin.curSkin2 {
+	padding: 13px 4px 4px 4px;
+}
+
+.perSkin.curSkin2 .uselb { /*display: block !important;*/
+	font-weight: 800;
+}
+
+.curSkin input {
+	display: none;
+}
+
+#bdbg_left {
+	display: none;
+}
+
+#top_frame_div {
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-top: 103px;
+	position: absolute;
+	z-index: 9;
+	overflow: visible;
+}
+
+#complain table tr {
+	height: 35px;
+}
+
+#complain input {
+	height: 20px;
+}
+
+#cemail_label {
+	color: #BABDC0;
+	cursor: text;
+	display: inline;
+	font-size: 12px;
+	height: 30px;
+	left: 100px;
+	line-height: 30px;
+	position: absolute;
+	top: 297px; 
+	*top: 302px;
+}
+
+#ccontent_label {
+	color: #BABDC0;
+	font-size: 12px;
+	left: 100px;
+	position: absolute;
+	top: 92px;
+	width:400px;
+}
+
+#cphone_label {
+	color: #BABDC0;
+	cursor: text;
+	display: inline;
+	font-size: 12px;
+	height: 30px;
+	left: 100px;
+	line-height: 30px;
+	position: absolute;
+	top: 330px; 
+	*top: 338px;
+}
+
+.curSkin2 {
+	background-image: url('../img/skin_sel.gif');
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+
+#ccontent_label p {
+	line-height: 22px;
+}
+
+.parentInp {
+	position: relative;width:404px;height:22px;
+}
+
+.input_tip {
+	position: absolute;
+	top: 2px;
+	_top:5px;
+	left: 3px;
+	height:15px;
+	color: #BABDC0;
+}
+.utips{text-align:center;width:470px;}
+.feedback {
+	text-align: center;
+	padding-bottom: 15px;
+	overflow: hidden;
+	width: 500px;
+	margin: 0 auto;
+}
+
+.feedback td {
+	color: #444;
+	padding: 8px 0;
+}
+.input_pass {
+	position: absolute;
+	top: 2px;
+	_top:5px;
+	left: 15px;
+	height:15px;
+	color: #BABDC0;
+}

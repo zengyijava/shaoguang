@@ -1,0 +1,220 @@
+/*Ա��ͨѶ¼-����Ա����ʽ*/
+#epl_addEmployee table#sysTable{
+	height:100%;
+	font-size: 12px;
+	width: 820px;
+}
+#epl_addEmployee td#styleTd1,td#styleTd3{
+	width: 110px;
+}
+#epl_addEmployee td#styleTd2,td#styleTd4{
+	width: 300px;
+}
+#epl_addEmployee td#organ{
+	width: 20%;
+}
+.dxkf_display_none{
+	display:none;
+}
+#epl_addEmployee #loginUser{
+	padding:5px;
+	display:none;
+}
+#epl_addEmployee .titletop_table{
+	width: 760px;
+}
+#epl_addEmployee #tab{
+	width: 830px;
+	padding-left: 16px;
+}
+#epl_addEmployee .user_table1{
+	width: 760px;
+	font-size: 13px;
+	height:35px;
+}
+#epl_addEmployee #addoneDiv{
+	width:820px;
+	height:auto;
+	line-height: 35px !important; 
+	line-height: 20px;
+	padding-left: 35px;
+	padding-top: 10px;
+}
+#epl_addEmployee .user_color_red{
+	color: red;
+}
+#epl_addEmployee #birth{
+	cursor: pointer; 
+	background-color: white;
+}
+#epl_addEmployee .user_div1{
+	width:280px;
+}
+#epl_addEmployee #depNam{
+	cursor: pointer;
+	width: 200px;
+}
+#epl_addEmployee #ssdep{
+	cursor: pointer;
+	text-decoration: underline;
+}
+#epl_addEmployee #dropMenu{
+	position: absolute; 
+	display:none;
+	margin-left:0px;
+	height:450px; 
+	width:356px; 
+	background-color:white;
+	border:1px solid;
+	overflow-y:auto;
+	overflow-x:auto;
+	z-index:999;
+}
+#epl_addEmployee .user_label1{
+	font-size: 14px;
+	font-weight: bold;
+}
+#epl_addEmployee .user_table2{
+	width:100%;
+	height:100%;
+	font-size:12px;
+}
+#epl_addEmployee .user_div2{
+	width:282px;
+}
+#epl_addEmployee #userDepName{
+	width:201px;
+	height:20px;
+	cursor: pointer;
+	font-size: 12px;
+}
+#epl_addEmployee #dropMenu_udep{
+	position: absolute; 
+	display:none;
+	margin-left:0px; 
+	width:366px;
+	background-color:white;
+	border:1px solid;
+	z-index:999;
+}
+#epl_addEmployee #dropdownMenu_udep{
+	margin-left:0px;
+	height:450px; 
+	width:356px; 
+	background-color:white;
+	overflow-y:auto;
+	overflow-x:auto;
+	z-index:999;
+}
+#epl_addEmployee #roleName{
+	width:225px;
+	height:20px;
+	cursor: pointer;
+}
+#epl_addEmployee #depPerm,#depPerm_employ{
+	width:220px;
+}
+#epl_addEmployee #domdepName,#domdepName_employ,#domdepName_client{
+	width:150px;
+	height:20px;
+	border: 1px solid #7F9DB9;
+}
+#epl_addEmployee #selectDepBtn_user,#selectDepBtn_employ,#selectDepBtn_client{
+	cursor: pointer;
+	text-decoration: underline;
+	display: none;
+}
+#epl_addEmployee #dropMenu_user,#dropMenu_employ,#dropMenu_client{
+	position: absolute; 
+	display:none;
+	margin-left:0px !important;
+	margin-left:-280px;
+	margin-top:-8px !important;
+	margin-top:20px; 
+	width:366px;
+	background-color:white;
+	border:1px solid;
+	z-index:999;
+}
+#epl_addEmployee #dropdownMenu_user,#dropdownMenu_employ,#dropdownMenu_client{
+	margin-left:0px;
+	height:450px; 
+	width:356px; 
+	background-color:white;
+	overflow-y:auto;
+	overflow-x:auto;
+	z-index:999;
+}
+#epl_addEmployee .user_div3{
+	margin-top: 3px;
+	margin-right:10px;
+	text-align:right;
+}
+#epl_addEmployee #depPerm_client{
+	width:220px;
+	display: nono;
+}
+#epl_addEmployee #domdepName_client{
+	width:220px;
+	display: nono;
+}
+#epl_addEmployee #isNeedSubno{
+	width: 15px;
+}
+#epl_addEmployee #comments{
+	width: 638px;
+	margin-top: 5px;
+}
+#epl_addEmployee .user_font2{
+	color:#7f7f7f;
+	display: block;
+	line-height: 10px;
+}
+#epl_addEmployee .user_div4{
+	width:700px;
+}
+#epl_addEmployee #addallDiv{
+	display: none;
+	line-height: 40px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+#epl_addEmployee .user_div5{
+	width:290px;
+}
+#epl_addEmployee #depNam{
+	width: 230px;
+	cursor: pointer;
+    border: 1px solid #e8ecf0;
+}
+#epl_addEmployee #dropMenu{
+	position: absolute; 
+	display:none;
+	margin-left:0px;
+	height:450px; 
+	width:356px; 
+	background-color:white;
+	border:1px solid;
+	overflow-y:auto;
+	overflow-x:auto;
+	z-index:999;
+}
+#epl_addEmployee #uploadFile{
+	width: 260px;
+}
+#epl_addEmployee .user_td1{
+	height: 20px;
+	line-height: 20px;
+}
+#epl_addEmployee .user_div6{
+	width:660px;
+}
+#epl_addEmployee .user_div7{
+	width:300px;
+	height:200px;
+	padding:10px 0 10px 10px;
+	overflow: auto;
+}
+#epl_addEmployee #roleDiv{
+	width:140px;
+}

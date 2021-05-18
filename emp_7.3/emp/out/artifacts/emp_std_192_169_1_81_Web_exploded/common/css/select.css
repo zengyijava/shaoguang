@@ -1,0 +1,105 @@
+.c_selectimg {
+width: 18px;
+background: url(../img/select_arrows.png);
+height: 20px;
+position:absolute;
+right:0;
+top:0;
+cursor: pointer;
+}
+.c_selectBox {
+
+height: 20px;width: 180px;
+position:relative;
+background:#fff;
+}
+.c_input {
+text-indent: 2px;
+font-size: 1em;
+font-family: sans-serif;
+float: left;
+padding: 1px;
+border: 0 !important;
+height: 16px;
+margin: 1px;width: 178px;
+background:#fff;
+}
+.c_result {
+    text-indent:5px;
+	
+	background-color: white;
+	left:0;
+	top: 20px;
+	list-style: none;
+	position: absolute;
+	z-index: 100;
+	display:none;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 200px;
+	width: 200px; 
+	cursor:default;
+	margin-left: -1px !important; /*all*/
+	_margin-left:-3px !important; /*ie8*/
+	_margin-left:-1px;            /*ie6*/
+	_margin-top: -1px !important; /*ieX*/
+}
+.c_result li{
+line-height:24px;
+text-align:left;
+}
+.selected{cursor:default;}
+#tips{position: fixed;
+z-index: 9999;
+top: 0;
+left: 0;
+width: 100%;
+_position: absolute;
+ _top:expression(documentElement.scrollTop + "px");
+}
+#tips .err{font-size:12px;margin:5px 0 0;background-color: #eaa000;}
+#tips .tipContent {
+  background-color: #68af02;
+  width: 250px;
+  margin: 0 auto;
+  color: #ffffff;
+  color: #ffffff;
+  padding: 5px 30px;
+  border-top-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-bottom-left-radius: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  -moz-border-radius-bottomright: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  text-align: center;
+  text-align: center;
+  text-shadow: 0 -1px -1px #808080;
+  border-top: none;
+}
+.hide{display:none;}
+
+#content td .c_selectBox{
+	text-align:center;
+	margin:0 auto;
+}
+.fx-module-pop{
+    top: 0;
+    left: 0;
+    right: 0;
+    down: 0;
+    margin: 0;
+    width:100%;
+    height: 100%;
+}
+#myTemp.active{
+    border-bottom:2px solid #00aa72;
+}
+#publicTemp.active{
+    border-bottom:2px solid #00aa72;
+}

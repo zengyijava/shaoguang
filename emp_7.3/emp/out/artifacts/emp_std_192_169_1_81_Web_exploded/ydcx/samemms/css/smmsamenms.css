@@ -1,0 +1,397 @@
+/**------静态彩信发送 -------**/
+#ydcx_smm_sameMms .ydcx_batchFileSend{
+	width:685px;
+}
+#ydcx_smm_sameMms .ydcx_form2{
+	margin-top: 10px;
+}
+#ydcx_smm_sameMms #eq_sendDiv  .ydcx_mmstaskname{
+	padding-left:5px;
+	width:577px; 
+	float:left;
+}
+#ydcx_smm_sameMms #eq_sendDiv .ydcx_tmName{
+	padding-left:5px;
+	width:577px; 
+	float:left;
+}
+#ydcx_smm_sameMms .ydcx_infomaTable{
+	border-left: none;
+}
+#ydcx_smm_sameMms .ydcx_infomaTable .ydcx_td1{
+	border-left: none;
+	height: 25px;
+}
+#ydcx_smm_sameMms .ydcx_infomaTable .ydcx_td2{
+	height: 25px;
+}
+#ydcx_smm_sameMms .ydcx_infomaTable .ydcx_td3{
+	border-right:0;
+	height: 25px;
+}
+#ydcx_smm_sameMms .ydcx_emp_btn_dv{
+	width:255px;
+}
+#ydcx_smm_sameMms .ydcx_emp_btn_table{
+	height: 116px;
+}
+#ydcx_smm_sameMms .ydcx_emp_btn_table{
+	height: 116px;
+}
+#ydcx_smm_sameMms .ydcx_emp_btn_table .ydcx_picTab{
+	height:70px !important;
+	height:68px;
+}
+#ydcx_smm_sameMms .ydcx_emp_btn_table .ydcx_employee_dv{
+	width: 81px;
+}
+#ydcx_smm_sameMms  .ydcx_filesdiv{
+	position: absolute;
+	top: -10px;
+	left: -5px;
+}
+#ydcx_smm_sameMms  .ydcx_numFile1{
+	outline:0;
+	height: 70px;
+	width:81px;
+	display:block;
+}
+#ydcx_smm_sameMms  .ydcx_numFile1{
+	position: absolute;
+	top: -10px;
+	left: -5px;
+}
+#ydcx_smm_sameMms #emp_btn_table .ydcx_tph{
+	border: 0;
+	width:185px;
+}
+#ydcx_smm_sameMms  .ydcx_downlinks_dv{
+	padding:5px 14px 15px 0;
+}
+#ydcx_smm_sameMms  .ydcx_downlinks{
+	 padding-bottom: 10px;
+	 position: relative; 
+	 cursor: pointer; 
+	 text-decoration: none;
+}
+#ydcx_smm_sameMms  .ydcx_ljxj{
+	cursor: pointer;
+	font-size: 12px;
+}
+#ydcx_smm_sameMms  .ydcx_smmFile_HK{
+	left: 290px;
+}
+#ydcx_smm_sameMms  .ydcx_smmFil{
+	left: 265px;
+}
+#ydcx_smm_sameMms  .ydcx_fileBtn_HK{
+	left: 290px;
+}
+#ydcx_smm_sameMms  .ydcx_fileBtn{
+	left: 265px;
+}
+#ydcx_smm_sameMms  .ydcx_eq_sendDiv{
+	position:relative;
+}
+#ydcx_smm_sameMms  .ydcx_uploadtmsfile{
+	color: #CCCCCC;
+	margin-left: 90px;
+	font-size: 12px;
+	text-align:center;
+}
+#ydcx_smm_sameMms  .ydcx_templateDiv{
+	width: 400px;
+	margin-left: 80px;
+	height: 35px;
+}
+#ydcx_smm_sameMms  .ydcx_templatepre{
+	display: none;
+	width: 290px;
+	margin-top: 10px;
+	padding-left:0px !important;
+	padding-left:7px;
+	margin-left: 7px;
+	height: 26px;
+}
+#ydcx_smm_sameMms  .ydcx_sendtm{
+	padding:3px 5px 0; 
+	width: 493px;
+	line-height: 26px;
+}
+#ydcx_smm_sameMms  .ydcx_sendType1{
+	margin-left: 10px;
+}
+#ydcx_smm_sameMms  .ydcx_time2{
+	display: none;
+}
+#ydcx_smm_sameMms  .ydcx_eq_sendDiv2{
+	float:left;
+	margin-top:0px;
+	width:680px;
+}
+#ydcx_smm_sameMms  .ydcx_u_o_c_explain{
+	width:150px;
+}
+#ydcx_smm_sameMms #moreSelect{
+	height:80px;
+	width:680px;
+}
+#ydcx_smm_sameMms .ydcx_span1{
+	width:75px;
+}
+#ydcx_smm_sameMms .ydcx_moreselect_tabl{
+	width:100%;
+	height:100%;
+	border:0px;
+}
+#ydcx_smm_sameMms .ydcx_mmsUser{
+	width:240px;
+	vertical-align:middle;
+	height: 22px;
+}
+#ydcx_smm_sameMms .ydcx_b_F_btn{
+	 margin-top: 20px;
+	 width:680px;
+}
+#ydcx_smm_sameMms .ydcx_flowFrame{
+	 width:525px;
+	 height:478px;
+	 border: 0;
+}
+#ydcx_smm_sameMms .ydcx_tempView{
+	 display:none;
+}
+#ydcx_smm_sameMms .ydcx_tempView_sub{
+	 float: left;
+	 width:250px;
+	 margin-left: 30px;
+	 display: inline;
+}
+#ydcx_smm_sameMms .ydcx_mobile{
+	width:240px;
+	height:470px;
+	position: absolute;
+	background: url('../../../common/img/iphone5.jpg') no-repeat;
+}
+#ydcx_smm_sameMms .ydcx_inputParamCnt1{
+	margin-top: 10px;
+	margin-left: 280px; 
+}
+#ydcx_smm_sameMms .ydcx_detail_Info{
+	width: 100%; 
+	padding: 5px; 
+	display: none;
+	height: 100%;
+}
+#ydcx_smm_sameMms .ydcx_tempView1_sub{
+	float: left;
+	width:250px;
+	margin-left: 30px;
+	display: inline;
+	margin-top: -145px;
+}
+#ydcx_smm_sameMms .ydcx_mobile1{
+	width:240px;
+	height:470px;
+	position: absolute;
+	background: url('../../../common/img/iphone5.jpg') no-repeat;
+}
+#ydcx_smm_sameMms .ydcx_sendcount_td{
+	padding-top: 15px;
+	width:150px;
+}
+#ydcx_smm_sameMms .ydcx_b{
+	font-size: 14px;
+}
+#ydcx_smm_sameMms .ydcx_orgbalance{
+	padding-top: 15px;
+}
+#ydcx_smm_sameMms .ydcx_nosendReason{
+ 
+	padding-top: 5px;color: red;
+}
+#ydcx_smm_sameMms .ydcx_effs_td{
+ 
+	padding-top: 7px;
+}
+#ydcx_smm_sameMms .ydcx_counts_td{
+ 
+	padding-top: 7px;
+}
+#ydcx_smm_sameMms .ydcx_explain1_parent{
+ padding-top: 7px;
+ position:relative;
+}
+#ydcx_smm_sameMms .ydcx_u_o_c_explain1{
+   cursor:pointer;
+   height:25px;
+   width:40px;
+   margin-bottom:0px !important;
+}
+#ydcx_smm_sameMms .ydcx_downlinkinfo{
+  padding-right: 2px;
+  position:absolute;
+  right:5px;
+  top:0;
+  color:#2a6fbe;
+}
+#ydcx_smm_sameMms #errerDiv{
+  width:220px;
+  height:100px;
+}
+#ydcx_smm_sameMms #moreSelect1{
+  width:100%;
+  height:100%;
+  border:0px
+}
+#ydcx_smm_sameMms .ydcx_blacks_font{
+  padding-left:5px;
+}
+#ydcx_smm_sameMms .ydcx_sames_font{
+  padding-left:5px;
+}
+#ydcx_smm_sameMms .ydcx_legers_font{
+  padding-left:5px;
+}
+#ydcx_smm_sameMms .ydcx_sendquit_dv{
+  padding-top: 10px;
+}
+#ydcx_smm_sameMms .ydcx_infomodelclass_HK{
+  display: none;
+  position: absolute;
+  z-index: 5000;
+  border: 1px solid #dae1cf;
+  background-color: #f7fff0;
+  width: 250px;
+  height: 460px;
+  padding-bottom: 8px;
+}
+#ydcx_smm_sameMms .ydcx_infomodelclass{
+  display: none;
+  position: absolute;
+  z-index: 5000;
+  border: 1px solid #dae1cf;
+  background-color: #f7fff0;
+  width: 250px;
+  height: 340px;
+  padding-bottom: 8px;
+}
+#ydcx_smm_sameMms .ydcx_tab2{
+  line-height: 30px;
+}
+#ydcx_smm_sameMms .ydcx_tab2 .ydcx_td1{
+  font-weight: bold;
+  font-size: 14px;
+}
+#ydcx_smm_sameMms .ydcx_xlsstyle_HK{
+ width: 155px;
+ height: 80px;
+ background: url('../../../common/img/mmsphone-zh_HK.png') no-repeat 0px -80px;
+}
+#ydcx_smm_sameMms .ydcx_xlsstyle_TW{
+ 	width: 155px;
+ 	height: 80px;
+ 	background: url('../../../common/img/mmsphone-zh_TW.png') no-repeat 0px -80px;
+}
+#ydcx_smm_sameMms .ydcx_probar_p{
+ 	padding-top: 8px;
+}
+#ydcx_smm_sameMms .ydcx_shows_img{
+ 	padding-left: 25px;
+}
+#ydcx_smm_sameMms .ydcx_tmplDiv{
+ 	padding:5px;display:none
+}
+#ydcx_smm_sameMms .ydcx_tempFrame{
+ 	width:635px;
+ 	height:538px;
+ 	border: 0;
+}
+#ydcx_smm_sameMms .ydcx_message{
+ 	padding:5px;
+ 	display:none;
+ 	font-size: 12px;
+}
+#ydcx_smm_sameMms .ydcx_message .ydcx_dv1{
+ 	height:25px;
+}
+#ydcx_smm_sameMms .ydcx_message .ydcx_dv2{
+ 	height:10px;
+}
+#ydcx_smm_sameMms .ydcx_bultMark_dv1{
+ 	height:25px;
+}
+
+#ydwx_sameMmsTmpl .ydcx_rContent{
+	padding:5px;
+}
+#ydwx_sameMmsTmpl .ydcx_tmName{
+	width:157px;
+}
+#ydwx_sameMmsTmpl .ydcx_btns{
+	text-align: center;margin-top: 20px;
+}
+#ydwx_sameMmsTmpl .ydcx_modify{
+	padding:5px;width:300px;height:160px;display:none;word-wrap: break-word;word-break:break-all;overflow-y:auto;
+}
+#ydwx_sameMmsTmpl .ydcx_msg{
+	width:100%;height:100%;overflow-y:auto;
+}
+#ydwx_sameMmsTmpl .ydcx_tempView_sub{
+	float: left;width:250px;margin-left: 30px;display: inline;
+}
+#ydwx_sameMmsTmpl .ydcx_mobile{
+	width:240px;height:470px;position: absolute;background: url('../../../common/img/iphone5.jpg') no-repeat;
+}
+#ydwx_sameMmsTmpl .ydcx_pers{
+	position:relative;margin-top:90px;border:1px #09F solid;text-align:left;display:none;width:180px;height:13px;background-color:#FFFFFF;
+}
+#ydwx_sameMmsTmpl .ydcx_showtime{
+	position:absolute;width:140px;height:13px;text-align: center;
+}
+#ydwx_sameMmsTmpl .ydcx_chart{
+	position:absolute;left:0px; background-color:#00ffdd;width:0px;height:13px;text-align:right;padding-top:0px;
+}
+#ydwx_sameMmsTmpl .ydcx_screen{
+	position:relative;width:189px;height:240px;background:#ffffff;margin-left:23px;margin-top:95px;overflow: auto;padding:2px;word-break: break-all;
+}
+
+#ydwx_sameMmsTmpl .ydcx_inputParamCnt1{
+	margin-top: 10px;margin-left: 280px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+.copyinfo {
+  width: 210px;
+  height: 30px;
+  position: relative;
+}
+.copyinfo p {
+  width: 180px;
+  overflow: hidden;
+  display: block;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+}
+.copyinfo .copy {
+  text-indent: -9999em;
+  background: url(../img/ico_copy.gif) no-repeat 0 0;
+  width: 12px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.avatar {
+  border: 1px solid #d4d4d4;
+  width: 47px;
+  height: 47px;
+}
+
+.loading {
+   background: url(../img/loading.gif) no-repeat 14px 18px;
+}

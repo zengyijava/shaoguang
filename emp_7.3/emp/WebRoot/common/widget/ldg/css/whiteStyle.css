@@ -1,0 +1,42 @@
+/*
+ *@Generator -> LiHuiGang - Email:lhg133@126.com - QQ:463214570 Ver:1.2.2
+ *@Copyright (c) 2009 LiHuiGang Compostion Blog:http://www.cnblogs.com/lhgstudio/
+ */
+*{ margin:0; padding:0;} 
+body
+{
+	overflow: hidden;
+    width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	font: 12px Verdana, Arial, sans-serif;
+}
+.contain
+{
+    position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	border: 1px solid #8F8F8F;
+}
+
+
+#throbber
+{
+    width: 180px;
+    height: 25px;
+	top: 50%;
+	left: 50%;
+	margin-left: -90px;
+    margin-top: -12px;	
+	z-index: 2;
+	text-align: right;
+	font: 12px Verdana, Arial, sans-serif;
+	background-image: url("../images/wait.gif");
+	background-repeat: no-repeat;
+}
+

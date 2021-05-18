@@ -1,0 +1,178 @@
+#clientIntName,#InterfaceName,#req_type,#resp_type,#methodNames{
+	width: 174px;
+}
+
+
+#wg_apiBase .toggleDiv_up_div{
+	margin-top:20px;
+}
+
+#wg_apiBase .toggleDiv{
+	margin-right: 20px;
+}
+
+#wg_apiBase .toggleDiv_down_div{
+	margin-bottom:8px;
+	margin-left: 10px;
+}
+
+#wg_apiBase .addmethod{
+	padding:5px;
+	display:none;
+	font-size: 12px;
+}
+
+#wg_apiBase .ffmc_div{
+	height:140px;
+	margin-top: 10px;
+}
+
+#wg_apiBase .ffmc_td{
+	width:120px;
+}
+
+#wg_apiBase .ffmc_div_table_tr{
+	height:5px;
+	
+}
+
+#wg_apiBase .blok_div{
+	height: 50px;
+	line-height: 50px;
+	margin-top: 10px;
+}
+
+#wg_apiBase .addtype{
+	padding:5px;
+	display:none;
+	font-size: 12px;
+}
+
+#wg_apiBase .addtype_down_div{
+	height:140px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#wg_apiBase .qymcmh_table{
+	border-collapse:separate; 
+	border-spacing:0px 10px;
+}
+
+#wg_apiBase .corp_name{
+	width:174px;
+}
+
+#wg_apiBase .xzqy{
+	margin-bottom:8px;
+}
+
+#wg_apiBase .corp_code{
+	width:174px;
+}
+
+#wg_apiBase .functiontype{
+	width:174px;
+}
+
+#wg_apiBase .typesave_div{
+	height: 50px;
+	line-height: 50px;
+	margin-top: 100px;
+}
+
+#wg_apiBase .etccode{
+	width:154px;
+}
+
+#wg_apiBase .etcname{
+	width:154px;
+}
+
+#wg_apiBase .funtype{
+	width:154px;
+}
+
+#wg_apiBase .reqfmt{
+	width:158px;
+}
+
+#wg_apiBase .respfmt{
+	width:158px;
+}
+
+#wg_apiBase .startdate{
+	cursor: pointer; 
+	width: 152px; 
+	background-color: white;
+}
+
+#wg_apiBase .enddate{
+	cursor: pointer; 
+	width: 152px; 
+	background-color: white;
+}
+
+#wg_apiBase .fflx_th{
+	width: 10%;
+}
+
+#wg_apiBase .ffs_th{
+	width: 5%;
+}
+
+#wg_apiBase .qyzt_th{
+	width: 6%;
+}
+
+#wg_apiBase .cjsj_th{
+	width: 10%;
+}
+
+#wg_apiBase .xgsj_th{
+	width: 10%;
+}
+
+#wg_apiBase .cz_th{
+	width: 12%;
+}
+
+#wg_apiBase .status_td{
+	width:120px;
+}
+
+#wg_apiBase .tmplDiv{
+	padding:5px 0 5px 5px;
+	display:none;
+	height:755px;
+}
+
+#wg_apiBase .tempFrame{
+	width:1180px;
+	height:685px;
+	border: 0;
+}
+
+#wg_apiBase .custDiv{
+	padding:5px 0 5px 5px;
+	display:none;
+	height:460px;
+}
+
+#wg_apiBase .custFrame_1{
+	width:740px;
+	height:460px;
+	border: 0;
+}
+
+#wg_apiBase .custFrame_1{
+	width:635px;
+	height:460px;
+	border: 0;
+}
+#wg_apiBase #custFrame{
+	width: 100%;
+	height: 98%;
+}
+

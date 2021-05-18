@@ -1,0 +1,102 @@
+/*分页样式*/
+.page-bar {
+  width: 100%;
+  margin-top: 20px;
+  text-align: right;
+}
+.page-bar .el-pagination.is-background .el-pager li:not(.disabled):hover {
+  color: #27b768 !important;
+}
+.page-bar .number {
+  font-weight: normal !important;
+  background: #fff !important;
+  border: 1px solid #d9d9d9 !important;
+}
+.page-bar .btn-prev,
+.page-bar .btn-next {
+  background: #fff !important;
+  border: 1px solid #d9d9d9 !important;
+}
+.page-bar .more {
+  font-weight: normal !important;
+  background: #fff !important;
+  border: 1px solid #d9d9d9 !important;
+}
+.page-bar .number:hover {
+  color: #27b768 !important;
+}
+.page-bar .active {
+  background: #fff !important;
+  color: #27b768 !important;
+  border: 1px solid #27b768 !important;
+}
+.page-bar .el-pagination__sizes .el-input .el-input__inner:hover {
+  border-color: #27b768 !important;
+}
+.page-bar .el-select .el-input.is-focus .el-input__inner {
+  border-color: #27b768 !important;
+}
+.page-bar .el-select .el-input__inner:focus {
+  border-color: #27b768 !important;
+}
+.page-bar .el-input.is-active .el-input__inner,
+.page-bar .el-input__inner:focus {
+  border-color: #27b768 !important;
+  outline: 0;
+}
+.el-scrollbar .selected {
+  color: #27b768 !important;
+  font-weight: normal !important;
+}
+.search-option {
+  width: 100%;
+  border: 1px solid #D1DBE5;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+.search-option tr {
+  line-height: 50px;
+}
+.search-content {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.search-content table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.search-content table tr,
+.search-content table td {
+  font-size: 12px;
+  border: 1px solid #D1DBE5;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  text-align: center;
+  padding: 12px 0;
+  line-height: 23px;
+}
+.search-content table tr:hover {
+  background: #fafafa;
+}
+.search-content table .tableHead:hover {
+  background: #ebeef5;
+}
+.search-content table .tableHead {
+  font-size: 14px;
+  background: #ebeef5;
+}
+.search-content table .operate {
+  color: #409EFF;
+  cursor: pointer;
+}
+.endTimeBox {
+  font-size: 12px;
+  padding-left: 72px;
+}
+.endTimeBox .endTime {
+  color: #409EFF;
+}
+.el-dialog__header {
+  border-bottom: 1px solid #cccccc;
+}

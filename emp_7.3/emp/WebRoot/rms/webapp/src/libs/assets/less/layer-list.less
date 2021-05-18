@@ -1,0 +1,149 @@
+@import 'variables';
+
+.layer-admin {
+  .layerBox {
+    position: relative;
+    height: 58px;
+    line-height: 58px;
+    // padding-left: 5px;
+    box-sizing: border-box;
+    border-bottom: solid 1px #e8e8e8;
+    font-size: 0;
+    &:hover {
+      background-color: #eeeeee;
+    }
+    &.active {
+      background-color: #eeeeee;
+    }
+    .rightList {
+      z-index: 2;
+      position: absolute;
+      top: 48px;
+      right: 10px;
+      width: 90px;
+      padding-bottom: 6px;
+      background-color: #ffffff;
+      box-shadow: 0 0 7px 0 rgba(3, 0, 0, 0.1);
+      border-radius: 5px;
+      li {
+        font-size: 12px;
+        line-height: 32px;
+        color: #222222;
+        text-align: center;
+        cursor: pointer;
+        &:hover {
+          color: @h5-blue;
+          background-color: #f5f6fa;
+          &:first-child {
+            background-color: #ffffff;
+          }
+        }
+        &:first-child {
+          line-height: 0;
+          cursor: default;
+        }
+        &:first-child:before {
+          content: " ";
+          font-size: 0;
+          line-height: 0;
+          margin: 0 auto;
+          display: block;
+          background-color: #fff;
+          width: 10px;
+          height: 10px;
+          transform: rotate(45deg);
+          position: relative;
+          top: -5px;
+          transition: all .2s ease-in;
+        }
+      }
+    }
+  }
+
+  .btnClick {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .lockBtn {
+    color: #222222;
+    &:before {
+      display: inline-block;
+      vertical-align: middle;
+      content: '';
+      width: 16px;
+      height: 16px;
+      background: url("../img/layer-list/bnt_lock_default.png") no-repeat center center;
+      background-size: contain;
+    }
+    &.active {
+      color: @h5-blue;
+      &:before {
+        background: url("../img/layer-list/bnt_lock_select.png") no-repeat center center;
+        background-size: contain;
+      }
+    }
+  }
+
+  .hideBtn {
+    color: #222222;
+    &:before {
+      display: inline-block;
+      vertical-align: middle;
+      content: '';
+      width: 16px;
+      height: 16px;
+      margin-right: 2px;
+      background: url("../img/layer-list/bnt_hide_dulaut.png") no-repeat center center;
+      background-size: contain;
+    }
+    &.active {
+      color: @h5-blue;
+      &:before {
+        background: url("../img/layer-list/bnt_hide_select.png") no-repeat center center;
+        background-size: contain;
+      }
+    }
+  }
+
+  .layer {
+    width: 96px;
+    margin-left: 16px;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 12px;
+    color: #222222;
+    cursor: move;
+    &[data-moving] {
+      background-color: #d6d6d6;
+      position: absolute;
+      width: 100%;
+    }
+    .thumb {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      vertical-align: middle;
+      margin-right: 2px;
+      background: white no-repeat center;
+      background-size: cover;
+    }
+  }
+
+  .add {
+    border: none;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    left: 0;
+    background-color: #00459e;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+  }
+}

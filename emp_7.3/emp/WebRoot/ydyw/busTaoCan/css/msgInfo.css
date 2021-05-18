@@ -1,0 +1,7 @@
+@charset "utf-8";
+.colName {width: 14%;}
+.colspace {width: 4%;}
+.colValue {width: 34%;word-wrap: break-word;word-break:break-all;}
+#container{
+    width: 740px;
+}

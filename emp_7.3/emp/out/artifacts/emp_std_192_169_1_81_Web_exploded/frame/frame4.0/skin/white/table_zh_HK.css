@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+/* 添加按钮*/
+.buttons a#add {
+    background: url(images/buttons.jpg) 0px 0px  no-repeat ;
+}
+/* 导出按钮*/
+.buttons a#exportCondition {
+	background: url(images/buttons.jpg) -0px -144px no-repeat;
+}
+/* 删除按钮*/
+.buttons a#delete {
+   background: url(images/buttons.jpg) -74px 0px no-repeat;
+}
+
+/* 导入按钮*/
+.buttons a#upload {
+	background: url(images/buttons.jpg) -74px -144px no-repeat;
+}
+/* 查询按钮*/
+#condition table tr td.tdSer a#search {
+	background: url(images/but-bg.png) -168px 0px no-repeat;
+	width: 70px;
+}
+.buttons a {
+	width : 74px;
+	text-indent : 25px; 
+}
+/* 企业微信按钮调整 */
+.buttons a#addeployee {
+	width: 94px;
+	height: 24px;
+	background: url(images/buttons.jpg) no-repeat -660px 0px;
+}
+/* 企业APP按钮调整 */
+.appmage_appuser_member {
+	background: url(images/but-bg1.jpg) no-repeat 0px -168px;
+    width: 95px;
+}
+ #epl_employeeBook #exportCondition{
+	 background-position:-74px 0;
+ }

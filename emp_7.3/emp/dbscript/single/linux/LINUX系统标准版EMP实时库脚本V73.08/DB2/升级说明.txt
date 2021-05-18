@@ -1,0 +1,7 @@
+特别说明：
+为了使脚本既支持Linux命令行，同时也支持Windows 工具执行。在Windows中，由于用 (如:PL/SQL、Navicat、Data Studio等)工具直
+接打开脚本时默认的字符集可能和LINUX 系统默认不一样，有可能会导致乱码情况。在使用PL/SQL、Navicat工具打开脚本时，请复制SQL语句然后粘
+贴到工具里面执行。不建议用WINDOWS工具直接打开SQL文件。
+
+脚本升级说明：
+    修改web版本号

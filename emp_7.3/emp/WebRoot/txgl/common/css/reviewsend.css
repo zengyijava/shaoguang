@@ -1,0 +1,242 @@
+div#effinfo{
+	/*background-color: #e0ebfd;*/
+	position: absolute;
+	z-index:5000;
+	right: 10px;
+	width: 247px;
+	display: none;
+	margin-bottom: 15px;
+	margin-left: 10px;
+}
+
+#eq_sendDiv span b {
+	font-size: 13px;
+}
+div#effinfo table{	
+	width:230px;		
+	line-height:24px;
+	border: #c9d9f2 0px;	
+	font-size: 12px;
+}
+
+#infos
+{
+  margin-left:1%; 
+  line-height: 30px;
+  font-size: 12px;
+}
+div#showeffinfo
+{
+  position: relative;
+  cursor: pointer;
+  /*background-color: #e0ebfd;*/
+  font-weight: bold;
+  font-size: 14px;
+  height:30px;
+}
+
+.infostd
+{
+  font-size: 12px;
+  font-weight: bold;
+}
+#effinfotable tr td a
+{
+  	cursor: pointer;
+	border:none;
+	color: #0e5ad1;
+	text-decoration: none;
+}
+
+#dtsend font
+{
+  	cursor: pointer;
+	border:none;
+	text-decoration: none;
+	font-size: 15px;	
+	font-weight: bold;	
+	/*color: black;*/
+}
+
+#wjsend font
+{
+  	cursor: pointer;
+	border:none;
+	/*color: #2970c0;*/
+	text-decoration: none;
+	font-size: 15px;	
+	font-weight: bold;		
+}
+
+.dtsendclass
+{
+     width:305px;
+     height: 50px;
+     line-height: 50px;
+     background-image: url(images/bycheck.png);
+}
+.wjsendclss
+{
+    width:305px;
+    height :41px;
+    line-height: 41px;
+}
+
+div#eq_sendDiv2{
+	float: left;
+	margin-bottom: 5px;
+	width:100%;
+	margin-top:10px;
+
+}
+
+div#eq_sendDiv2 span
+{
+	align:center;
+	cursor:pointer;
+	/*background-color:#e9f0f9;*/
+	height:30px;
+	width:90px;
+	margin-bottom:0px !important;
+	border: none;
+	padding-left: 20px;
+}
+#moreSelect
+{
+	float:left;
+	width:610px;
+	height:180px;
+	/*background-color:#e9f0f9;*/
+	display:none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+div#showdtsend,div#showmessage{
+	float:left;
+	margin-left: 20px !important;
+	margin-left: 10px;
+}
+
+div#upfilediv{
+	width:496px;
+	/*background-color: #e9f0f9;*/
+	overflow: hidden;
+	padding-left: 7px;
+}
+
+div#upTip{
+	width: 245px;
+	margin-top:10px;
+	overflow: hidden; 
+	padding-bottom: 0px !important;
+	padding-bottom: 7px;
+	padding-left: 7px;
+	padding-top: 7px;
+}
+
+.afileclass
+{
+  text-decoration: none;
+  color: #2970c0;
+  display: inline;
+  margin-left: -63px !important;
+  margin-left: -75px;
+  border: none;
+  height: 25px; 
+  line-height:25px;
+}
+
+.afileclass1
+{
+  text-decoration: none;
+  /*color: #2970c0;*/
+  display: inline;
+ /* margin-left: -63px !important;
+  margin-left: -75px;*/
+  border: none;
+  height: 25px;  
+
+  line-height:25px;
+}
+
+.numfileclass
+{
+	 height:26px;
+	 width:60px;	
+	 cursor:pointer;
+	 display: inline;	
+	filter:alpha(opacity:0);
+	 opacity:0;
+	 border: none;
+}
+.numfileclass2
+{
+	 height:24px;          
+	 width:50px;	
+	 cursor:pointer;
+	filter:alpha(opacity:0);
+	 opacity:0;
+	 border: none;
+	 position:absolute;
+	 left:0;
+	 top:0;
+	 *left:-5px;
+}
+
+.spandtd
+{
+   font-size: 12px;
+   font-weight: bold;
+}
+
+.optionFirst{
+	color:#cccccc;
+}
+
+
+div#eq_sendDiv,.eq_sendDiv{
+	float: left;
+	margin-bottom: 5px;
+	margin-left: 20px !important;
+	margin-left: 10px;
+}
+#tabletId tr td {
+	font-size:12px;
+	padding:4px;
+	padding:6px 0px 0px 0px;
+	border-color: #ccd5dc;
+	text-align: center;
+	table-layout: fixed;
+	border:1px solid;
+}
+#tabletId tr td input {
+	background: white;
+}
+#sendDivT {
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #c3c3c3;
+	border-left-color: #c3c3c3;
+}
+
+#sendDivT td {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #c3c3c3;
+	border-color: #c3c3c3;
+}
+
+.send_ac1{
+	color: black;
+}
+
+.send_ac2{
+	color: #2970c0;
+}
+
+

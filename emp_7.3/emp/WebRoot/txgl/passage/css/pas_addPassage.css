@@ -1,0 +1,285 @@
+#pas_addPassage .td-tips {
+	line-height: 22px;
+	margin: 0 10px 5px;
+	padding: 2px 5px;
+	border-radius: 5px;
+	text-align: left;
+}
+
+#pas_addPassage .red {
+	color: red;
+}
+
+#pas_addPassage .worldSign,.worldSingle,#pas_addPassage .en#pas_addPassage #pas_addPassage .axwd {
+	display: none;
+}
+
+#pas_addPassage table .maxWidth {
+	float: left;
+	width: 190px;
+	padding-top: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	-o-text-overflow: ellipsis; /* Opera */
+	text-overflow: ellipsis; /* IE, Safari (WebKit) */
+}
+
+#pas_addPassage .td-relative {
+	position: relative;
+}
+
+#pas_addPassage .td-relative label {
+	position: absolute;
+	left: -12px;
+	top: 0;
+}
+
+#pas_addPassage .worldSign td label {
+	display: block;
+}
+
+#pas_addPassage .worldSign td label input,#pas_addPassage .worldSign td label select {
+	vertical-align: middle;
+}
+
+#pas_addPassage .syncBtnClass {
+	width: 70px;
+	height: 25px;
+	border: 1;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 12px;
+	letter-spacing: 0px;
+	text-align: left;
+	text-indent: 12px;
+	line-height: 20px;
+	padding-top: 0px !important;
+	padding-top: 1px;
+}
+
+
+#pas_addPassage .detail_Info{
+	width:1180px;
+	padding-left: 40px;
+}
+
+#pas_addPassage .tdlx_table{
+	width:95%; 
+	height:100%; 
+	font-size: 12px;
+	line-height: 40px !important;
+	line-height: 30px;
+}
+
+#pas_addPassage .dux_td{
+	width:280px;
+}
+
+#pas_addPassage .gatetype{
+	width:265px;
+}
+
+#pas_addPassage .spiscumn{
+	width:265px;
+}
+
+#pas_addPassage .gatename{
+	width:260px;
+}
+
+#pas_addPassage .spageteNum{
+	width:260px;
+}
+
+#pas_addPassage .font_size{
+	font-size: 14px;
+	color: #cccccc;
+}
+
+#pas_addPassage .numlength{
+	color: blue;
+	font-size: 14px;
+}
+
+#pas_addPassage .sublen{
+	width:260px;
+}
+
+#pas_addPassage .tdhmcdkzwsjybcg_span{
+	color: #cccccc;
+	font-size: 14px;
+}
+
+#pas_addPassage .signstr{
+	width:260px;
+}
+
+#pas_addPassage .qmgsbhbjzkhrmwkj_span{
+	color: #cccccc;font-size: 14px;
+}
+
+#pas_addPassage .cnSign{
+	width:260px;
+}
+
+#pas_addPassage .cnsignlen{
+	width:100px;
+	margin-left: 8px;
+	height: 26px;
+}
+
+#pas_addPassage .cnsignlenCount{
+	color: blue;
+	font-size: 14px;
+}
+
+#pas_addPassage .rmwkj_span{
+	color: #cccccc;font-size: 14px;
+}
+
+#pas_addPassage .enSign{
+	width:260px;
+}
+
+#pas_addPassage .ensignlen{
+	width:100px;
+	margin-left: 8px;
+	height: 26px;
+}
+
+#pas_addPassage .ensignlenCount{
+	color: blue;
+	font-size: 14px;
+}
+
+#pas_addPassage .rmont_span{
+	color: #cccccc;
+	font-size: 14px;
+}
+
+#pas_addPassage .signlenname{
+	color: #cccccc;
+	font-size: 14px;
+}
+
+#pas_addPassage .signlen{
+	color: blue;
+	font-size: 14px;
+}
+
+#pas_addPassage .signlen2{
+	width:100px;
+	margin-left: 8px;
+	height: 26px;
+}
+
+#pas_addPassage .singlelen{
+	width:260px;
+}
+
+#pas_addPassage .font_red_size{
+	font-size: 14px;
+	color: red;
+}
+
+#pas_addPassage .cnsinglelen{
+	width:260px;
+}
+
+#pas_addPassage .ensinglelen{
+	width:265px;
+}
+
+#pas_addPassage .esplitmaxwd{
+	width:260px;
+}
+
+#pas_addPassage .esplitenmaxwd{
+	width:260px;
+}
+
+#pas_addPassage .fee{
+	width:260px;
+}
+
+#pas_addPassage .yt_font{
+	font-size: 14px;
+	color: #444;
+}
+
+#pas_addPassage .zhu_tr{
+	line-height: 40px;
+}
+
+#pas_addPassage .zhu{
+	color:red;
+	font-size:14px;
+}
+
+#pas_addPassage .passageOk_tr{
+	line-height: 15px;
+}
+
+#pas_addPassage .gateyl{
+	padding:5px;
+	margin-top:10px;
+	display:none;
+	text-align:center;
+}
+
+#pas_addPassage .tdlxx_table{
+	width:720px;
+	text-align:left;
+	background-color: white;
+	border-color: white;
+	line-height: 30px;
+	margin:0 auto;
+}
+
+#pas_addPassage .span_color{
+	color: #3978D7;
+}
+
+#pas_addPassage .bt1_td{
+	padding-top:10px;
+}
+
+#pas_addPassage .gateylc{
+	padding:5px;
+	margin-top:10px;
+	display:none;
+	text-align:center;
+}
+
+#pas_addPassage .tdgl_tdlx_table{
+	width:660px;
+	background-color: white;
+	border-color: white;
+	line-height: 30px;
+}
+
+#pas_addPassage .bt3_td{
+	padding-top:10px;
+}
+
+#pas_addPassage .syncsigntip{
+	padding:5px;
+	margin-top:10px;
+	display:none;
+	text-align:center;
+}
+
+#pas_addPassage .tdgl_bd_table{
+	width:600px;
+	background-color: white;
+	border-color: white;
+	line-height: 30px;
+}
+
+#pas_addPassage .syncmmssigntip{
+	padding:5px;
+	margin-top:10px;
+	display:none;
+	text-align:center;
+}
+

@@ -1,0 +1,19 @@
+#spUserDiv {
+	padding:5px;
+	display: none;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+#selectDiv {
+	border-collapse: separate;
+	border-spacing:10px 10px;
+	margin-left: 20%;
+	margin-top: 18%;
+}
+#spSelect {
+	width: 180px;
+}
+#confirmDiv {
+	margin-left: 50%;
+	margin-top: 16%;
+}

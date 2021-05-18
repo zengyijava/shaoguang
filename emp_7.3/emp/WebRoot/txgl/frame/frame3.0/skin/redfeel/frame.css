@@ -1,0 +1,93 @@
+﻿@charset "utf-8";
+
+/*通用输入框行高，边框*/
+.input_bd,.Wdate.input_bd ,.emp_currentselected.input_bd{
+	border: 1px solid #bec3d1;
+}
+
+/*通用文字背景色*/
+.div_bg {
+	background-color: #fff0ec;
+}
+/*通用hover背景*/
+.div_hover_bg{
+	background-color: #ffe4e4;
+}
+/*通用边框色*/
+.div_bd,.Wdate.div_bd {
+	border: 1px solid #e4b7b7;
+}
+.tx_line,.bb_line {
+border-bottom: #e4b7b7 1px solid;
+}
+/*通用标题背景色，（凡标题的均是这个颜色）*/
+.title_bg {
+	background-color: #fed6d6;
+}
+/*树hover背景*/
+.tree li a:hover {background-color:#fff0ec;}
+/*树选中背景*/
+.tree li a.curSelectedNode {
+	background-color:#fed6d6; 
+	color:black;
+	border:1px #e4b7b7 solid; 
+	opacity:0.8; filter:alpha(opacity=80);
+	}
+.btnClass1 {
+	background: url(images/but-bg1.jpg) no-repeat 0px -78px;
+}
+
+.btnClass2 {
+	background: url(images/but-bg1.jpg) no-repeat 0px -52px;
+}
+
+.btnClass3 {
+	background: url(images/but-bg1.jpg) no-repeat 0px -26px;
+}
+
+.btnClass4 {
+	background: url(images/but-bg1.jpg) no-repeat 0px -168px;
+}
+
+.btnClass4.btnHover,.btnClass3.btnHover,.btnClass2.btnHover,.btnClass1.btnHover {
+	background-image: url(images/but-bg2.jpg);
+}
+
+.btnClass5 {
+	background: url(images/but-bg.png) no-repeat;
+}
+
+.btnClass6 {
+	background: url(images/but-bg.png) no-repeat -84px 0px;
+}
+
+.infotd1
+{
+  background-color: #ffaba8;
+  border-bottom: 3px #bd0100 solid;
+}
+.infotd2
+{
+   background-color: #fff0ec;
+   border-bottom: 3px #fff0ec solid;
+}
+#file
+{
+	color: #0e5ad1;
+}
+.fold
+{
+	background:url("images/fold.png") no-repeat;
+}
+.unfold
+{	
+	background:url("images/unfold.png") no-repeat;
+}
+.titletop_font {
+	background: url(images/buttons.jpg) no-repeat -754px -72px;
+}
+.hoverColor {
+	background-color: #fff0ec;
+}
+.c_hoverBg{background-color: #fff0ec;}
+.c_selectedBg{background: #ffe4e4;}

@@ -1,0 +1,323 @@
+@charset "UTF-8";
+#ydcx_smm_sameMms .ydcx_xlsstyle{
+ 	width: 155px;
+ 	height: 80px;
+ 	background: url('images/mmsphone.png') no-repeat 0px -80px;
+}
+#ydcx_smm_sameMms .ydcx_eq_sendDiv2 {
+    margin-left: -75px;
+}
+#ydcx_smm_sameMms .ydcx_b_F_btn {
+    margin-left: 420px;
+}
+#ydcx_smm_sameMms .ydwx_btnClass4 {
+    border-radius:3px;
+    color: white;
+	background:url("none");
+    background-color: #00aa72;
+}
+#ydcx_smm_sameMms .ydcx_fileBtn {
+    border-radius:3px;
+    color: white;
+	background:url("none");
+    background-color: #00aa72;
+    line-height: 30px;
+}
+#ydcx_smm_sameMms .ydcx_fileBtn:hover {
+    border-radius:3px;
+    color: white;
+	background:url("none");
+    background-color:#15c58b;
+    line-height: 30px;
+}
+#ydcx_smm_sameMms .ydwx_btnClass4:hover {
+    border-radius:3px;
+    color: white;
+	background:url("none");
+    background-color:#15c58b;
+    line-height: 30px;
+}
+
+
+#ydcx_smm_sameMms  .titleBar{
+    height:40px!important;
+    background-color:#f7fafc;
+    border-bottom:1px solid #ecf1f2;
+}
+#ydcx_smm_sameMms .titleBarTxt{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #ababab;
+    font-weight: bold;
+    line-height: 28px !important;
+}
+
+#ydcx_smm_sameMms .ydcx_flowFrame{
+	width:658px;
+    height:435px;
+    border: 0;
+}
+#ydcx_smm_sameMms .ydwx_borderRadius{
+	 border-radius:3px;
+}
+#ydcx_dmm_senddynamicmms #eq_sendDiv2 {
+    margin-left: -75px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_b_F_btn {
+	padding-top:15px;
+    margin-left: 350px;
+}
+#ydcx_dmm_senddynamicmms .ydwx_borderRadius {
+	border-radius:3px;
+}
+#ydcx_mmsTemplate select {
+	/* padding: 8px 10px; */
+}
+#ydcx_mmsTemplate #add {
+	border-radius:3px;
+	height:30px;
+	line-height: 32px !important;
+	color: white;
+}
+#ydcx_mmsTemplate #upload {
+	border-radius:3px;
+	height:30px;
+	line-height: 32px !important;
+	color: white;
+}
+#ydcx_mmsTemplate #delete {
+	border-radius:3px;
+	height:30px;
+	line-height: 30px !important;
+}
+#ydcx_mmsTemplate #add:hover {
+	border-radius:3px;
+	line-height: 32px !important;
+	color: white;
+}
+#ydcx_mmsTemplate #search {
+	border-radius:3px;
+}
+
+#ydcx_addMmsTemplate .ydcx_mmsFrame_sub {
+	width: 76px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+	background: url('images/toUp.png');
+	border-right: 0;
+}
+#ydcx_editMmsTemplate  .ydcx_mmsFrame_sub {
+	width: 76px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+	background: url('images/toUp.png');
+	border-right: 0;
+}
+
+#ydcx_addMmsTemplate .ydcx_addFrame {
+	width: 58px;
+	height: 52px;
+	margin-top: 8px;
+	visibility: visible;
+	cursor: pointer;
+	display: inline-block;
+	background: url('images/addFrame.png');
+}
+#ydcx_editMmsTemplate .ydcx_addFrame {
+	width: 58px;
+	height: 52px;
+	margin-top: 8px;
+	visibility: visible;
+	cursor: pointer;
+	display: inline-block;
+	background: url('images/addFrame.png');
+}
+
+#ydcx_addMmsTemplate .ydcx_todown {
+	width: 76px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+	background: url('images/toDown.png');
+	margin-bottom: -2px !important;
+	margin-bottom: 0;
+}
+#ydcx_editMmsTemplate  .ydcx_todown {
+	width: 76px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+	background: url('images/toDown.png');
+	margin-bottom: -2px !important;
+	margin-bottom: 0;
+}
+#ydcx_mmsTemplate .ydcx_model {
+	height: 180px !important;
+}
+#ydcx_mmsTemplate .ydcx_addFont,.ydcx_upLoadFont,.ydcx_deleteFont {
+	margin-left: 5px;
+}
+#ydcx_mmsMaterial .ydcx_addFont,.ydcx_deleteFont {
+	margin-left: 5px;
+}
+#ydcx_mmsMaterial #mtalName {
+	height: 31px;
+}
+#ydcx_mmsMaterial .ydcx_part2_tabl .ydcx_sortName2{
+	height: 31px;
+}
+#ydcx_smm_sameMms #eq_sendDiv .ydcx_mmstaskname{
+	height: 33px;
+	width: 575px;
+	outline-style: none;
+}
+#ydcx_smm_sameMms #eq_sendDiv .ydcx_tmName{
+	height: 33px;
+	width: 575px;
+	outline-style: none;
+}
+#ydcx_dmm_senddynamicmms .yddcx_taskname{
+	height: 33px;
+}
+
+#ydcx_mmsMaterial #add {
+	border-radius:3px;
+	height:30px;
+	line-height: 32px !important;
+	color: white;
+}
+ 
+#ydcx_mmsMaterial #delete {
+	border-radius:3px;
+	height:31px;
+	line-height: 31px !important;
+}
+#ydcx_mmsMaterial #add:hover {
+	border-radius:3px;
+	line-height: 32px !important;
+	color: white;
+}
+#ydcx_mmsMaterial .ydcx_numfileclass{
+	cursor: pointer;
+	font-size: 0px;
+}
+#ydcx_mmsMaterial .ydwx_borderRadius{
+	 border-radius:3px;
+}
+#ydcx_mmsTask #search{
+	 border-radius:3px;
+}
+#ydcx_mmsTimerTask #condition table tr td.tdSer a#search{
+	 border-radius:3px;
+}
+#ydcx_mmsTask .c_selectBox{
+	width: 208px !important;
+}
+#ydcx_mmsTask .c_result {
+	width: 208px !important;
+}
+#ydcx_mmsTimerTask .c_selectBox{
+	width: 208px !important;
+}
+#ydcx_mmsTimerTask .c_result {
+	width: 208px !important;
+}
+#ydcx_smm_sameMms #sendtime{
+	width: 185px;
+}
+#ydwx_sameMmsTmpl .ydwx_borderRadius {
+	    border-radius:3px;
+}
+#ydwx_sameMmsTmpl #content thead th  {
+	    height:40px;
+}
+#ydwx_sameMmsTmpl #content tbody td  {
+	    height:40px !important;
+}
+#ydwx_sameMmsTmpl #condition table tr td.tdSer a#search {
+	    border-radius:3px;
+}
+#ydcx_mmsTemplate .c_selectBox {
+	  width: 208px !important;
+}
+#ydcx_smm_sameMms .ydcx_tmplDiv  {
+	    height: 660px !important;
+}
+#ydcx_smm_sameMms .ydcx_tempFrame {
+	    height: 650px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_tmplDiv  {
+	    height: 660px !important;
+}
+#ydcx_dmm_senddynamicmms .ydcx_tempFrame {
+	    height: 650px;
+}
+ 
+#ydcx_smm_sameMms .ydcx_mmsUser  {
+	    height: 33px;
+	    border: 1px solid #e8ecf0;
+}
+#ydcx_dmm_senddynamicmms  .ydcx_mmsUser {
+	    height: 33px;
+	    border: 1px solid #e8ecf0;
+}
+  
+#ydcx_smm_sameMms #condition .ydcx_moreselect_tabl{
+	   background-color:#f5f8fa ;
+}
+#ydcx_smm_sameMms  .c_selectBox {
+	 width: 208px !important;
+}
+#ydcx_smm_sameMms  .c_result  {
+	 width: 208px !important;
+}
+#ydcx_smm_sameMms .c_selectBox .c_input  {
+	 margin-top: 8px !important;
+	 margin-left: 10px !important;
+}
+#ydcx_smm_sameMms #condition .ydcx_moreselect_tabl{
+	   background-color:#f5f8fa ;
+}
+#ydcx_smm_sameMms  .c_selectBox {
+	 width: 208px !important;
+}
+#ydcx_smm_sameMms  .c_result  {
+	 width: 208px !important;
+}
+ 
+
+#ydcx_dmm_senddynamicmms #condition .ydcx_tb1{
+	   background-color:#f5f8fa ;
+}
+#ydcx_dmm_senddynamicmms  .c_selectBox {
+	 width: 208px !important;
+}
+#ydcx_dmm_senddynamicmms .c_selectBox .c_result  {
+	 width: 208px !important;
+}
+#ydcx_dmm_senddynamicmms .c_selectBox .c_input  {
+	 margin-top: 8px !important;
+	 margin-left: 10px !important;
+}
+#ydcx_dmm_senddynamicmms .c_selectBox .c_result {
+    top: 32px !important;
+}
+#ydcx_smm_sameMms .c_selectBox .c_result {
+    top: 32px !important;
+}
+#ydcx_mmsTemplate  .c_result {
+	 width: 208px !important;
+}
+#ydcx_mmsTemplate .c_selectBox .c_result {
+    top: 32px !important;
+}
+#ydcx_mmsTemplate .c_selectBox .c_result {
+    top: 32px !important;
+}
+#ydcx_mmsTemplate .ydcx_flowFrame{
+	 width: 650px;
+	 height: 440px;
+}

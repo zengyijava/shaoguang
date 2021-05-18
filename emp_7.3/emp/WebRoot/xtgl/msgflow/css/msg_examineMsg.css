@@ -1,0 +1,27 @@
+#msg_examineMsg .conrcontent{
+	width: 154px;
+}
+
+#msg_examineMsg .conproname{
+	width: 158px;
+}
+
+#msg_examineMsg .conrstate{
+	width: 154px;
+}
+
+#msg_examineMsg .startSubmitTime{
+	cursor: pointer; 
+	width: 154px;
+	background-color: white;
+}
+
+#msg_examineMsg .endSubmitTime{
+	cursor: pointer; 
+	width: 154px;
+	background-color: white;
+}
+
+#msg_examineMsg .conreviewtype{
+	width: 154px;
+}

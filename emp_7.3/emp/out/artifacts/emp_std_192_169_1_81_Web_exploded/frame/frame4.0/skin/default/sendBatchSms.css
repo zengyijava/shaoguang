@@ -1,0 +1,42 @@
+.formatFont{
+	color:#095AD1;
+}
+#timerTime{
+	background-color: white;
+}
+#infoDiv,.centerBack{
+	background-color:#fff;
+}
+.selectEmp
+{
+	background:url("../../images/choice_icon.png") no-repeat;
+}
+.importFile{
+	background:url("../../images/Import_icon.png") no-repeat;
+	width: 26px;
+    height: 25px;
+}
+.img_hover .selectEmp
+{
+	background:url("../../images/choice_icon.png") no-repeat;
+	opacity: 0.9;
+}
+.img_hover .importFile{
+	background:url("../../images/Import_icon.png") no-repeat;
+	opacity: 0.9;
+}
+.superSearch{
+	background:url("images/superSearch.png") no-repeat;
+}
+.img_hover .superSearch{
+	background:url("images/superSearch_hover.png") no-repeat;
+}
+a.bulkImport{
+	background:url("../../images/input_icon.png") no-repeat;
+}
+.search_tx_choose img{
+	background: #00aa72;
+}
+#ssm_sendBatchSMS .importbigFile{
+	background:url("../../images/bigfile_icon.png") no-repeat;
+}

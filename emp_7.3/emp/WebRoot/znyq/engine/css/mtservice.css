@@ -1,0 +1,233 @@
+@charset "utf-8";
+
+/*步骤表格*/
+#processtable {
+	width: 540px;
+	/*margin:0 1% 0 1%;*/
+	/*border:  #afc7ef 1px solid;*/
+}
+
+#processtable thead tr {
+	font-size: 14px;
+	text-align: left;
+	height: 30px;
+	
+
+	white-space: nowrap;
+	position: relative;
+}
+
+#processtable tbody td {
+/*	background-color: #FFFFFF;*/
+	font-size: 12px;
+	text-align: center;
+	height: 24px;
+	line-height:24px;
+
+	padding: 0 4px;
+	word-break: break-all;
+}
+
+#processtable tbody tr td a {
+	cursor: pointer;
+	border:none;
+	text-decoration: none;
+}
+
+#processtable tbody tr td a:hover {
+	text-decoration: underline;
+}
+
+#arrow
+{
+	height:30px;
+	
+	background-image: url(images/arrow.jpg);
+	background-position: 0px 1px;
+	background-repeat: no-repeat;
+	
+	text-align: left;
+	text-indent: 30px;
+	font-weight: normal
+}
+#ptcontent
+{
+	height:72px;
+
+}
+
+.pronamediv {
+	width: 70%;
+	float: left;
+	text-align: left;
+}
+
+.topcontentdiv {
+	width:540px;
+	
+	z-index:20;
+	position: relative;
+	height:37px;
+	/*border-bottom: 1px solid #f2faef;*/
+}
+
+.topcontentdiv a {
+	cursor: pointer;
+	border:none;
+	text-decoration: none;
+}
+
+.topcontenttitle {
+	float: left;
+	height: 37px;
+	width: 50%;
+	font-size: 14px;
+	font-weight: bold;	
+}
+
+table#proinfotable {
+	width: 600px;
+	text-align: left;
+}
+
+table#proinfotable td {
+	padding:10px;
+}
+
+table#proinfotable td input {
+	
+	width: 355px;
+	border: 0;
+}
+
+
+table#sqltable {
+	width: 600px;
+	text-align: left;
+}
+
+table#sqltable td {
+	padding:10px;
+}
+
+table#sqltable td select {
+	width: 360px;
+	border: 0;
+}
+
+/*业务信息表格*/
+table#serinfotable {
+	width: 570px;
+	text-align: left;
+	/*background-color: #e9f1fa;*/
+}
+
+table#serinfotable td {
+	
+	padding: 8px 6px;
+}
+
+table#serinfotable td input[type="text"] {
+	
+	width: 355px;
+	border: 0;
+}
+
+table#serinfotable td select {
+	
+	width: 350px;
+	border: 0;
+}
+
+/*执行时间信息表格*/
+table#sertimetable {
+	width: 410px;
+	text-align: left;
+	/*background-color: #e9f1fa;*/
+}
+
+table#sertimetable td {
+	padding:8px 6px;
+}
+
+table#sertimetable td input[type="text"] {
+	width: 270px;
+	border: 0;
+}
+
+table#sertimetable td select {
+	width: 268px;
+	border: 0;
+}
+
+/*新建步骤流程*/
+
+.linebgimg1{
+	background-image: url(images/addmt1.png)	
+}
+.linebgimg2{
+	background-image: url(images/addmt2.png)	
+}
+.linebgimg3{
+	background-image: url(images/addmt3.png)	
+}
+.linebgimg4{
+	background-image: url(images/addmt4.png)	
+}
+
+.linediv {
+	margin-left:16px;
+}
+
+.itemMtDiv{
+	align:left;
+	width: 610px;
+	font-size: 12px;
+	text-align: left;
+	margin-top:5px;
+	margin-left:36px;
+	margin-bottom:20px;
+}
+
+.itemMtDiv span {
+	line-height:26px;
+	width: 105px;
+	text-align: left;
+	display: block;
+	float: left;
+	_margin:0px;
+	
+	padding:0px;
+	padding-right: 5px;
+	padding-top: 3px;
+}
+
+table#addseltable {
+	width: 650px;
+	text-align: left;
+	border: 0;
+}
+
+table#addseltable td {
+	padding:10px;
+	border: 0;
+}
+
+table#addseltable td select {
+	height: 25px;
+	width: 470px;
+}
+.spUserTd #spUserDiv{
+	float: left;
+	width:355px;
+}
+.busCodeTd #busCodeDiv{
+	float: left;
+	width:355px;
+}
+#ownerListDiv{
+	width:355px;
+}
+a:visited{
+	color:#00aa72;
+}

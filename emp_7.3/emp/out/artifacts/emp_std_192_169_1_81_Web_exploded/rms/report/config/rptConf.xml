@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menus>
+	<menu menuid="1001" desc="容量套餐统计报表">
+		<column colid="1" display="2">提交总数</column>
+		<column colid="2" display="1">发送成功数</column>
+		<column colid="5" display="1">接收失败数</column>
+	</menu>
+	
+</menus>

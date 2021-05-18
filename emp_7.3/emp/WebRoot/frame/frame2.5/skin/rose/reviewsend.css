@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+#effinfotable tr td a
+{
+	color: #0e5ad1;
+}
+#dtsend a
+{
+	color: black;
+}
+#wjsend a,.afileclass,.afileclass1
+{
+	/*color: #2970c0;*/
+}
+
+div#upTip
+{
+	background-color: #e9f0f9;
+}
+.optionFirst{
+	color:#cccccc;
+}
+#tabletId tr td {
+	border-color: #ccd5dc;
+}
+#tabletId tr td input {
+	background: white;
+}
+
+.dtsendclass
+{
+     width:305px;
+     height: 50px;
+     line-height: 50px;
+     background-image: url(images/bycheck.png);
+}
+.wjsendclss
+{
+    width:305px;
+    height :41px;
+    line-height: 41px;
+}

@@ -1,0 +1,117 @@
+#dat_systemDataSet a,#dat_systemDataSet  a:ACTIVE {
+  	color: #0e5ad1;
+  	text-decoration: none;
+}
+
+#dat_systemDataSet .sjklx_td{
+	width:140px;
+}
+
+#dat_systemDataSet .use_backup_server_table{
+	margin-bottom:0px;
+}
+
+#dat_systemDataSet .bysjkg_td{
+	width:140px;
+}
+
+#dat_systemDataSet .use_backup_server_td{
+	width:360px;
+}
+
+#dat_systemDataSet .use_backup_server{
+	width:345px;
+}
+
+#dat_systemDataSet .backConn{
+	display:none;
+}
+
+#dat_systemDataSet .dbconIp2_up_td{
+	width:140px;
+}
+
+#dat_systemDataSet .port2_up_td{
+	width:140px;
+}
+
+#dat_systemDataSet .dbName2_up_td{
+	width:140px;
+}
+
+#dat_systemDataSet .dbUser2_up_td{
+	width:140px;
+}
+
+#dat_systemDataSet .dbPwd2_up_td{
+	width:140px;
+}
+
+#dat_systemDataSet .jqkg_td{
+	width:150px;
+}
+
+#dat_systemDataSet .isCluster_td{
+	width:360px;
+}
+
+#dat_systemDataSet .isCluster{
+	width:345px;
+}
+
+#dat_systemDataSet .serverNum{
+	display:none;
+}
+
+#dat_systemDataSet .server1{
+	width:150px;
+}
+
+#dat_systemDataSet .server2{
+	width:360px;
+}
+
+#dat_systemDataSet .serverNumber{
+	width:345px;
+}
+
+#dat_systemDataSet .initCols{
+	display:none;
+}
+
+#dat_systemDataSet .listinner1_td{
+	width:150px;
+}
+
+#dat_systemDataSet .tjby_a{
+	float: left;
+	display: block;
+	line-height: 26px;
+	margin-left: 25px;
+	cursor: pointer;
+	margin-top: 6px;
+}
+
+#dat_systemDataSet .empfwdz_td{
+	width:150px;
+}
+
+#dat_systemDataSet .EMPaddress_td{
+	width:360px;
+}
+
+#dat_systemDataSet .sjljc_td{
+	width:140px;
+}
+
+#dat_systemDataSet .maxPoolSize_td{
+	width:360px;
+}
+
+#dat_systemDataSet .mrymdx_td{
+	width:140px;
+}
+
+#dat_systemDataSet .defaultPageSize_td{
+	width:360px;
+}

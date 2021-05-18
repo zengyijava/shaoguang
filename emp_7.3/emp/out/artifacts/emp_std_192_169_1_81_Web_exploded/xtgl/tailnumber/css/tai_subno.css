@@ -1,0 +1,61 @@
+#editDiv table,td,tr{padding:0;margin:0}
+
+
+#tai_subno .editDiv{
+	padding:5px;
+	display:none;
+	margin-top: 5px;
+	margin-left:5px;
+}
+
+#tai_subno .editDiv_table{
+	text-align:left;
+	margin-bottom:10px;
+}
+
+#tai_subno .cmName_td{
+	padding-bottom:10px;
+}
+
+#tai_subno .subnoName_td{
+	text-align:left;
+	padding-bottom:10px;
+}
+
+#tai_subno .subnoName_down_tr_td{
+	height:5px;
+}
+
+#tai_subno .subnoId{
+	width:180px;
+	height:18px;
+	border: 1px solid #7F9DB9;
+}
+
+#tai_subno .subnoId_down_tr_td{
+	height:3px;
+}
+
+#tai_subno .hiddenValueDiv{
+	display:none;
+}
+
+#tai_subno .state{
+	width:182px;
+}
+
+#tai_subno .subnoquery{
+	width: 177px;
+}
+
+#tai_subno .xx{
+	display: none;
+}
+
+#tai_subno .name{
+	width: 177px;
+}
+
+#tai_subno .ww{
+	width:33%;
+}

@@ -1,0 +1,309 @@
+@charset "utf-8";
+.all{
+	background-image: url(../img/20130626_bg01.png);
+	background-repeat: repeat;
+	width: 480px;
+	color: #7e7e7e;
+	background-color: #ddd;
+}
+.map01_msg01 {
+	border: 1px solid #bbb;
+	background-color: #f2f2f2;
+	z-index: 3333;
+	border-radius: 7px;
+	width: 270px;
+	padding: 10px;
+}
+.map01_msg01 p {
+	font-size: 14px;
+	line-height: 22px;
+}
+.map01_msg01 p a {
+	color: #7E7E7E;
+	text-decoration: underline;
+}
+.map01_msg01 table {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.map01_msg01 table tr td {
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.map01_msg01_btn_bus     {
+	background-image: url(../img/20130626_route_icon01.png);
+	background-position: 5px -395px;
+	display: block;
+	height: 35px;
+	width: 70px;
+	background-color: #999;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-left: 30px;
+	font-size: 16px;
+	line-height: 35px;
+	color: #FFF;
+	text-decoration: none;
+	border-radius: 4px;
+}
+.map01_msg01_btn_car     {
+	background-image: url(../img/20130626_route_icon01.png);
+	background-position: 7px -492px;
+	display: block;
+	height: 35px;
+	width: 70px;
+	background-color: #999;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-left: 30px;
+	font-size: 16px;
+	line-height: 35px;
+	color: #FFF;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+.map01_msg01_arrow1 {
+	background-image: url(../img/20130626_arrow03.gif);
+	height: 27px;
+	width: 35px;
+	position: absolute;
+	margin-left: 135px;
+	z-index: 9999;
+	margin-top: 12px;
+}
+.map01_msg01_down {
+	height: 10px;
+}
+
+
+
+
+.route01_titlr01 {
+	background-image: -moz-linear-gradient(top, #fbfbfb, #dadada);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fbfbfb), color-stop(1, #dadada));
+	background-image: linear-gradient(top, #fbfbfb, #d80909);
+	box-shadow: 0px 1px 1px #9f9f9f;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfbfb', endColorstr='#dadada', GradientType='0'); 
+	background-color: #EBEBEB;
+	height: 50px;
+	font-size: 18px;
+	border-top: 1px solid #9f9f9f;
+	border-bottom: 1px solid #eee;
+}
+.route01_titlr01 .bus {
+	float: left;
+	height: 50px;
+	width: 150px;
+	border-left: 1px solid #bbb;
+}
+.route01_titlr01 .bus a {
+	line-height: 50px;
+	width: 78px;
+	display: block;
+	height: 50px;
+	border-left: 1px solid #f7f7f7;
+	border-right: 1px solid #f7f7f7;
+	color: #7E7E7E;
+	text-decoration: none;
+	padding-left: 70px;
+	background-image: url(../img/20130626_route_icon01.png);
+	background-repeat: no-repeat;
+	background-position: 35px 13px;
+}
+
+.route01_titlr01 .car {
+	float: left;
+	height: 50px;
+	width: 150px;
+	border-left: 1px solid #bbb;
+}
+.route01_titlr01 .car a {
+	line-height: 50px;
+	width: 78px;
+	display: block;
+	height: 50px;
+	color: #7E7E7E;
+	text-decoration: none;
+	background-image: url(../img/20130626_route_icon01.png);
+	background-position: 35px -85px;
+	background-repeat: no-repeat;
+	padding-left: 70px;
+}
+
+.route01_titlr01_a01 {
+	background-image: -moz-linear-gradient(top, #ddd, #ccc);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ddd), color-stop(1, #ccc));
+	background-image: linear-gradient(top, #ddd, #ccc);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ddd', endColorstr='#ccc', GradientType='0'); 
+	background-color: #CCC;	
+
+}
+.route01_list01 ul {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+}
+
+.route01_list01_ul_li {
+	font-size: 18px;
+	line-height: 50px;
+	padding-left: 20px;
+	border-bottom: 2px dashed #bbb;
+}
+
+.route01_list01 ul li i {
+	padding-right: 15px;
+	font-style: normal;
+}
+.route01_list02 {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.route01_list02 ul li {
+	border-bottom: 0px dashed #BBBBBB;
+	padding-left: 40px;
+	background-repeat: no-repeat;
+	font-size: 18px;
+}
+
+.route01_list02_op01 {
+	background-image: url(../img/20130626_route_icon01.png);
+	background-position: 10px -182px;
+	height: 60px;
+	line-height: 60px;
+}
+.route01_list02_in01 {
+	background-image: url(../img/20130626_route_icon02.png);
+	background-position: 18px 5px;
+	line-height: 22px;
+	padding-bottom: 8px;
+}
+.route01_list02_in02 {
+	background-image: url(../img/20130626_route_icon02.png);
+	background-position: 18px -132px;
+	line-height: 22px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.route01_list02_in03 {
+	background-image: url(../img/20130626_route_icon02.png);
+	background-position: 18px -275px;
+	line-height: 22px;
+	padding-top: 8px;
+}
+
+.route01_list02_ed01 {
+	background-image: url(../img/20130626_route_icon01.png);
+	background-position: 10px -282px;
+	height: 60px;
+	line-height: 60px;
+}
+.route01_list03 {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.route01_list03_title01 {
+	padding-top: 10px;
+	border-bottom: 2px dashed #bbb;
+	height: 60px;
+}
+
+.route01_list03_title01_btn {
+	background-image: -moz-linear-gradient(top, #fbfbfb, #dadada);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fbfbfb), color-stop(1, #dadada));
+	background-image: linear-gradient(top, #fbfbfb, #d80909);
+
+
+
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfbfb', endColorstr='#dadada', GradientType='0'); 
+	background-color: #F5F5F5;
+	border: 1px solid #bbb;
+	width: 130px;
+	float: left;
+}
+.route01_list03_title01_btn a {
+	height: 40px;
+	width: 115px;
+	display: block;
+	font-size: 16px;
+	line-height: 40px;
+	background-repeat: no-repeat;
+	background-position: 107px -85px;
+	color: #7E7E7E;
+	text-decoration: none;
+	padding-right: 15px;
+	text-align: center;
+}
+.route01_list03_title01 p {
+	font-size: 16px;
+	line-height: 60px;
+	float: left;
+}
+
+.route01_list03 ul {
+	padding-right: 10px;
+	padding-left: 10px;
+	clear: both;
+}
+
+
+
+.route01_list03 ul li {
+	font-size: 16px;
+	line-height: 22px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #bbb;
+}
+
+
+
+
+
+
+.route01 .return-map01 {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px dashed #bbb;
+	letter-spacing: 3px;
+}
+.route01 .return-map01 a {
+	background-color: #888;
+	background-image: url(../img/20130626_route_icon01.png);
+	background-position: 15px -593px;
+	display: block;
+	background-repeat: no-repeat;
+	width: 110px;
+	margin-right: 0px;
+	margin-left: auto;
+	height: 35px;
+	padding-left: 40px;
+	text-align: center;
+	line-height: 35px;
+	font-size: 18px;
+	color: #FFF;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+

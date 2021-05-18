@@ -1,0 +1,253 @@
+.appWrap{
+	width:800px;
+	padding: 10px;
+	color: #333;
+	position: relative;
+}
+.pageEditArea{
+	margin-left: 285px;
+	width: 530px;
+	overflow: hidden;
+}
+.pageEditArea h2{
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+.formArea{
+	margin: 15px 0 0;
+}
+.listArea{
+	width: 100%;
+	overflow: hidden;
+	clear: both;
+	margin-bottom: 10px;
+	position: relative;
+}
+.field_tit{
+	width: 80px;
+	line-height: 26px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.field_bd{
+	margin-left: 80px;
+}
+.subArea{
+	position: absolute;
+	top: 520px;
+	width: 820px;
+}
+#sendTabs{
+	width: 180px;
+	overflow: hidden;
+	margin-bottom: 8px;
+	line-height: 26px;
+}
+#sendTabs li{
+	float: left;
+	margin-right: 10px;
+	list-style: none;
+}
+#sendTabs input{
+	vertical-align: -2px;
+}
+.tabsContent{
+	clear: both;
+}
+.tabsContent dd,#tabsContent dt{
+	margin-bottom: 5px;
+}
+.tabsContent .uploadFile dd{
+	display: inline-block;
+	*display: inline;
+	*zoom:1;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-right:5px;
+}
+.tabsContent .uploadFile dt{
+	margin-bottom: 15px;
+	position:relative;
+}
+
+.tabsContent .hide,.tabsContent .effect_dialog{
+	display: none;
+}
+.tabsContent .cur{
+	display: block;
+}
+.sendContent{
+	width: 416px;
+	background-color: #fff;
+
+}
+#sendSub{
+	width: 416px;
+}
+
+.appTips{
+	padding:6px 8px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #8a6d3b;
+	background-color: #fcf8e3;
+	border-color: #faebcc;
+
+}
+.effectArea{
+	position: absolute;
+	float: left;
+	top: 0;
+	width: 270px;
+}
+.mobileModel{
+	background: url(../img/iphone5.png) no-repeat 50% 0;
+	width: 239px;
+	height: 469px;
+	margin: 0 auto;
+	position: relative;
+}
+.effectBox{
+	position: absolute;
+	left: 22px;
+	top: 85px;
+	width: 197px;
+	height: 295px;
+	background-color: #ebebeb;
+	overflow: auto;
+}
+.effect_hd{
+	background-color: #3794e8;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	color: #fff;
+	overflow: hidden;
+}
+.effect_bd{
+	padding: 10px;
+	height: 222px;
+/*	overflow: auto;*/
+}
+.effect_dialog{
+	width: 100%;
+	overflow: hidden;
+}
+.avitor{
+	float: left;
+	margin-right: 10px;
+}
+.bubbleArea{
+	position: relative;
+	margin-left: 50px;
+
+}
+.triangleContour,.triangle{
+	position: absolute;
+	top: 12px;
+	left: -11px;
+	z-index: 9;
+	display: block;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	line-height: 0;
+	font-size: 0;
+	border-color: transparent #fff transparent transparent;
+	border-style:dashed solid dashed dashed;
+	border-width:6px;
+}
+.triangleContour{
+	left: -12px;
+	z-index: 8;
+	border-color: transparent #bebebe transparent transparent;
+}
+.bubbleArea .bubbleContent {
+	color: #323232;
+	word-break:break-word;
+	line-height: 18px;
+	zoom: 1;
+	padding: 10px 5px;
+	border: 1px solid #b7b7b7;
+	background: #eee;
+	border-radius: 5px;
+	background-color: #ffffff;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#ffffff),to(#f4f2f2));
+	background-image: -webkit-linear-gradient(top,#ffffff,#f4f2f2);
+	background-image: -moz-linear-gradient(center top , #ffffff, #f4f2f2);
+	background-image: linear-gradient(top,#ffffff,#f4f2f2);
+}
+
+.showFile{
+	vertical-align: top;
+}
+.showFile img{
+	margin-right: 3px;
+}
+/***上传**/
+.w_input {
+	border: 1px solid #ccc;
+	height: 24px;
+	line-height: 20px;
+	width: 218px;
+	padding: 0 0 0 5px;
+	border-radius: 2px;
+	color: #000;
+}
+.files {
+	position: absolute;
+	left: 226px;
+	top: 0;
+	height: 28px;
+	cursor: pointer;
+	z-index: 10;
+	filter: Alpha(opacity=0);
+	opacity: 0;
+	width: 65px;
+}
+/**新增或改变样式集合**/
+#selectWorkerButton{
+	position:absolute;
+	left:227px;
+	top:0;
+}
+#bubbleMedia img{
+	width:100%;
+}
+.formatIntro{
+	color:#708090;
+	line-height:22px;
+}
+.chooseWrap{
+	position:absolute;
+	left:0;
+	top:0;
+	width:222px;
+	height:22px;
+	border:1px solid #e9ebea;
+	border-radius:2px;
+	background-color:#f6f7fb;
+	line-height:22px;
+	text-indent:5px;
+}
+#txt_input{
+	border-radius:2px;
+	height:22px;
+}
+.app_placeholder{
+	position:absolute;
+	left:5px;
+	top:5px;
+	z-index:1;
+	color:#999;
+}
+#infos{
+	width:90%;
+	margin:20px auto;
+	border-collapse:collapse;
+}
+#infos td{
+	padding:4px 6px;
+}

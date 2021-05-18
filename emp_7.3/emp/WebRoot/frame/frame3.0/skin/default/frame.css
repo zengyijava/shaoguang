@@ -1,0 +1,496 @@
+﻿@charset "utf-8";
+
+/*通用输入框行高，边框（除查询外的输入框均是此颜色）*/
+.input_bd , .Wdate.input_bd  ,.emp_currentselected.input_bd{
+	border: 1px solid #bec3d1;
+}
+
+/*通用边框色,（通用层边框，设计边框的层）*/
+.div_bd,.Wdate.div_bd {
+	border: 1px solid #c9d9f2;
+}
+/*通用hover背景*/
+.div_hover_bg{
+	background-color: #eaf0fa;
+}
+/*通用文字背景色，（凡文字带背景的均是这个颜色）*/
+.div_bg {
+	background-color: #f1f1f9;
+}
+
+/*通用标题背景色，（凡标题的均是这个颜色）*/
+.title_bg {
+	background-color: #ccdef8;
+}
+.tree li a:hover {background-color:#ecf0f8;}
+.tree li a.curSelectedNode {
+	background-color:#e0ebfd; 
+	color:black;
+	border:1px #c9d9f2 solid; 
+	opacity:0.8; filter:alpha(opacity=80);
+}
+.btnClass1 {
+	background: url(images/but-bg1.jpg) no-repeat 0px -78px;
+}
+
+.btnClass2 {
+	background: url(images/but-bg1.jpg) no-repeat 0px -52px;
+}
+
+.btnClass3 {
+	background: url(images/but-bg1.jpg) no-repeat 0px -26px;
+}
+
+.btnClass4 {
+	background: url(images/but-bg1.jpg) no-repeat 0px -168px;
+}
+.btnClass4.btnHover,.btnClass3.btnHover,.btnClass2.btnHover,.btnClass1.btnHover {
+	background-image: url(images/but-bg2.jpg);
+}
+.btnClass5 {
+	background: url(images/but-bg.png) no-repeat;
+}
+
+.btnClass5Customer {
+	background-color: #ececec;
+	height: 25px;
+	line-height: 0px;
+}
+
+.btnClass6 {
+	background: url(images/but-bg.png) no-repeat -84px 0px;
+}
+.infotd1
+{
+  background-color: #9ec3fb;
+  border-bottom: 3px #448add solid;
+}
+.infotd2
+{
+   background-color: #e9f0f9;
+   border-bottom: 3px #e9f0f9 solid;
+}
+#file
+{
+	color: #0e5ad1;
+}
+
+.fold
+{
+	background:url("images/fold.png") no-repeat;
+}
+.unfold
+{	
+	background:url("images/unfold.png") no-repeat;
+}
+
+.titletop_font {
+	background: url(images/buttons.jpg) no-repeat -754px -72px;
+}
+.hoverColor {background-color: #dfe9f9;}
+.c_hoverBg{background-color: #eaf0fa;}
+.c_selectedBg{background: #dfe9f9;}
+.btx_line, .tx_line {
+border-bottom: #c9d9f2 1px solid;
+}
+/*提示框*/
+.alert-info {
+	color: #31708f;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+}
+
+.alertDiv {
+	border: 1px solid #acbfdd;
+}
+
+.alertDivHead {
+	border-bottom: 1px solid #acbfdd;
+	background-color: #ccdef8;
+}
+
+.alertDivConfirm {
+	background: #ccdef8
+}
+
+.alertDiv {
+	position: absolute;
+	padding: 0em;
+	width: 300px;
+	overflow: hidden;
+	display: block;
+	z-index: 10001;
+	outline: 0px;
+	height: 200px;
+	width: 250px;
+	top: 292px;
+	left: 454px;
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-khtml-border-top-right-radius: 4px;
+	border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-khtml-border-top-left-radius: 4px;
+	border-top-left-radius: 4px;
+	background: #ffffff 50% 50% repeat-x;
+	color: #222222;
+}
+
+.alertDivHead {
+	display: inline-block;
+	color: #222222;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-bottom: 0.4em;
+	position: relative;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1.1em;
+	cursor: move;
+}
+
+.alertDivHead span {
+	width: 228px;
+	float: left;
+	margin: .1em 0px .1em 0;
+	height: 20px;
+	line-height: 25px !important;
+	font-size: 12px;
+	text-indent: 5px;
+	line-height: 20px;
+}
+
+.alertDivHead a {
+	cursor: default;
+}
+
+.alertDivBody {
+	padding: 5px;
+	width: auto;
+	height: 161px;
+	word-wrap: break-word;
+	word-break: break-all;
+	min-height: 0px;
+}
+
+.alertDivConfirm {
+	margin-left: 75px;
+	margin-top: 115px;
+	width: 84px;
+	height: 30px;
+	border: 0;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 14px;
+	letter-spacing: 10px;
+	text-align: left;
+	text-indent: 24px;
+	line-height: 30px;
+	padding-top: 0px !important;
+}
+
+.alertShadow {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 944px;
+	background: rgb(51, 51, 51);
+	text-align: center;
+	z-index: 10000;
+	opacity: 0.5;
+	filter: alpha(opacity = 50)
+}
+/*-------------------------公共场景、我的场景 公共样式------------------------------  */
+.header .search span {
+    display: block;
+    width: 31px;
+    height: 31px;
+    background: url("images/search_icon.png") no-repeat center center;
+    float: left;
+    margin-left: -1px;
+    background-color:#0362bc;
+}
+.header .service {
+    float: left;
+    width: 72px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+    background-color:#0362bc;
+    border-radius: 2px;
+}
+.mysearch{
+	width: 70px;
+	height: 30px;
+	border: 0px;
+	cursor: pointer;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	background-color: #0362bc;
+	border-radius:2px;
+}
+ .append{
+	margin-bottom: 10px;
+	cursor: pointer;
+	display:block;
+    width:38px;
+    height:38px;
+	background: url("images/add_default_icon.jpg");
+	background-repeat: no-repeat;
+}
+.append:hover{
+	 background: url("images/add_selected_icon.jpg");
+	 background-repeat: no-repeat;
+}
+
+.nav-all a:link,a:visited{
+ 	text-decoration:none;  /*超链接无下划线*/
+    color: #0362bc;
+    font-family: "微软雅黑";
+}
+.nav-all a:hover{
+	  color: #0362bc;
+	  font-family: "微软雅黑";
+}
+.myactive{
+	font-size: 14px;
+	color:#0362bc;
+	font-family: "微软雅黑";
+}
+.selected{
+	font-size: 14px;
+	color:#0362bc !important;
+	font-family: "微软雅黑";
+}
+
+
+/* 新建模板页面样式 */
+.mybtnClass5 {
+	background-color: #0362bc;
+	text-indent:15px;
+	width: 72px;
+    height: 30px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: 10px;
+    text-align: left;
+    text-indent: 14px;
+    line-height: 30px;
+    padding-top: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    border-radius:2px;
+    font-family: 微软雅黑;
+}
+.mybtnClass6 {
+		background-color: #e9edf3;
+	    width: 72px;
+	    height: 30px;
+	    display: inline-block;
+	    cursor: pointer;
+	    font-size: 12px;
+	    letter-spacing: 10px;
+	    text-align: left;
+	    text-indent: 24px;
+	    line-height: 30px;
+	    padding-top: 0px !important;
+	    padding-top: 0px;
+    	border-width: 0px;
+   		border-style: initial;
+    	border-color: initial;
+    	border-image: initial;
+    	border-radius:2px;
+	    font-family: 微软雅黑;
+}
+.save-hover{
+	background-color: #0083ff;
+	text-indent:15px;
+	width: 72px;
+    height: 30px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: 10px;
+    text-align: left;
+    text-indent: 14px;
+    line-height: 30px;
+    padding-top: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    border-radius:2px;
+    font-family: 微软雅黑;
+}
+.back-hover{
+		background-color: #f0f3fb;
+	    width: 72px;
+	    height: 30px;
+	    display: inline-block;
+	    cursor: pointer;
+	    font-size: 12px;
+	    letter-spacing: 10px;
+	    text-align: left;
+	    text-indent: 24px;
+	    line-height: 30px;
+	    padding-top: 0px !important;
+	    padding-top: 0px;
+    	border-width: 0px;
+   		border-style: initial;
+    	border-color: initial;
+    	border-image: initial;
+    	border-radius:2px;
+	    font-family: 微软雅黑;
+}
+.mysearch-hover{
+	width: 70px;
+	height: 30px;
+	border: 0px;
+	cursor: pointer;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	background-color: #0083ff !important;
+	border-radius:2px;
+}
+.down-arrow-default{
+	float:right;
+	margin-left:15px;
+	margin-top:-15px;
+	width:20px;
+	height:20px;
+	background: url("images/down_arrow_default.png");
+	background-repeat: no-repeat;	
+}
+.down-arrow-selected{
+	float:right;
+	margin-left:15px;
+	margin-top:-15px;
+	width:20px;
+	height:20px;
+	background: url("images/down_arrow_selected.png");
+	background-repeat: no-repeat;	
+}
+.up-arrow-selected{
+	float:right;
+	margin-left:15px;
+	margin-top:-15px;
+	width:20px;
+	height:20px;
+	background: url("images/up_arrow_selected.png");
+	background-repeat: no-repeat;	
+}
+.up-arrow-default{
+	float:right;
+	margin-left:15px;
+	margin-top:-15px;
+	width:20px;
+	height:20px;
+	background: url("images/up_arrow_default.png");
+	background-repeat: no-repeat;	
+}
+/*-------------------------公共场景、我的场景 公共样式 结束------------------------------  */
+
+/*-------------------------企业富信-富信发送      start---------------------*/
+.rms_tempChoose .fx-module-pop .screen-items li.active span,
+.rms_tempChoose .fx-module-pop .screen-items li span:hover,
+.rms_tempChoose .fx-module-pop .hd-table-li:hover,
+.rms_sameMms .table-link,.rms_sameMms #downlinkinfo {
+	color: #0362bc;
+}
+.rms_tempChoose .fx-module-pop .hd-table-li.active{
+	border-bottom: 2px solid #0362bc;
+	color: #0362bc;
+}
+.rms_tempChoose .green-border-btn{
+	color: #0362bc;
+	border: 1px solid #0362bc;
+}
+.rms_sameMms .choose-btn:hover{
+	border: 1px solid #0362bc;
+}
+.rms_sameMmsSelUser .green-btn{
+	background-color: #0362bc;
+}
+.rms_sameMms .green-btn,.rms_tempChoose .green-btn{
+	background-color: #0362bc;
+	color: #fff;
+}
+.rms_sameMms .green-btn:hover,.rms_tempChoose .green-btn:hover{
+	background-color: #0083ff;
+}
+.rms_sameMms .choose-btn-icon{
+	width: 25px !important;
+}
+.rms_sameMms .user-icon{
+	background: url("images/user_blue_one_icon.png")no-repeat;
+}
+.rms_sameMms .file-icon{
+	background: url("images/import_blue_one_icon.png")no-repeat;
+}
+.rms_sameMms .edit-icon{
+	background: url("images/edit_blue_one_icon.png")no-repeat;
+}
+.rms_sameMms .focus{
+	border-top: 1px solid #0362bc;
+	border-bottom: 1px solid #0362bc;
+	border-left: 1px solid #0362bc;
+}
+/*-------------------------企业富信-富信发送      end---------------------*/
+
+/*-------------------------查询统计 --START------------------------*/
+/*操作员统计报表*/
+.rep_sysUserReport #condition table tr td select{width: 181px;}
+.rep_sysUserReport #condition table tr td.condi_f_l input{width: 181px;}
+/*机构统计报表*/
+.rep_sysDepReport #condition table tr td select{width: 181px;}
+.rep_sysDepReport #condition table tr td.condi_f_l input{width: 181px;}
+/*业务类型统计报表*/
+.rep_busReport #condition table tr td select{width: 181px;}
+/*-------------------------查询统计 --END------------------------*/
+
+/*-------------------------选择人员 --START------------------------*/
+.selectUserInfo .btnClass1 {
+	background: url(images/but-bg1.jpg) no-repeat 0 -135px;
+}
+.selectUserInfo .toLeft,.selectUserInfo .toRight{
+	height: 33px;
+}
+.selectUserInfo .btnHover {
+	background-image: url(images/but-bg2.jpg);
+}
+.selectUserInfo #searchNameButton{
+	background-color: #0362bc;
+}
+.selectUserInfo .focus{
+	border-left:1px solid #0362bc;
+	border-top:1px solid #0362bc;
+	border-bottom:1px solid #0362bc;
+}
+/*-------------------------选择人员 --START------------------------*/
+
+#rms_sendDetail #condition input{
+	width: 146px;
+}
+/*--- 批量导入详情发送 ---*/
+#smt_smsTaskRecord #xzExportCondition{
+	width: 94px;
+	background: url(images/buttons.jpg) no-repeat -754px -72px;
+}
+#smt_smsTaskRecord #plExportCondition{
+	width: 94px;
+	background: url(images/buttons.jpg) no-repeat -660px 0;
+}
+/*--- 批量导入详情发送 ---*/
+
+table tr td .div-panel .panel-title{
+     background-color: #ccdef8;
+ }

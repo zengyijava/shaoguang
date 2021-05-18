@@ -1,0 +1,159 @@
+#wg_pushRsProtocolMulit .toggleDiv_up_div{
+	height: 30px;
+}
+
+#wg_pushRsProtocolMulit .getloginUser{
+	padding:5px;
+	display:none;
+}
+
+#wg_pushRsProtocolMulit .corpName{
+	width:154px;
+}
+
+#wg_pushRsProtocolMulit .crspfmt{
+	width:158px;
+}
+
+#wg_pushRsProtocolMulit .rspStatus{
+	width:158px;
+}
+
+#wg_pushRsProtocolMulit .rspCmd{
+	width:158px;
+}
+
+#wg_pushRsProtocolMulit .cargName{
+	width:154px;
+}
+
+#wg_pushRsProtocolMulit .cargValue{
+	width:154px;
+}
+
+#wg_pushRsProtocolMulit .addDiv{
+	display:none;
+}
+
+#wg_pushRsProtocolMulit .addDiv_table{
+	width:100%;
+	height:100%;
+	font-size: 12px;
+}
+
+#wg_pushRsProtocolMulit .addDiv_table_tr{
+	height: 39px;
+}
+
+#wg_pushRsProtocolMulit .addDiv_table_tr_td1{
+	width:28%; 
+	text-align:right; 
+	padding-right: 15px;
+}
+
+#wg_pushRsProtocolMulit .addDiv_table_tr_td2{
+	width:72%;
+}
+
+#wg_pushRsProtocolMulit .corp_name{
+	width:174px;
+}
+
+#wg_pushRsProtocolMulit .xzqy_input{
+	margin-bottom:8px;
+}
+
+#wg_pushRsProtocolMulit .qybh_tr{
+	height: 39px;
+}
+
+#wg_pushRsProtocolMulit .corp_code{
+	width:174px;
+}
+
+#wg_pushRsProtocolMulit .newRspCmd{
+	width: 270px;
+}
+
+#wg_pushRsProtocolMulit .newCargName{
+	width: 266px;
+}
+
+#wg_pushRsProtocolMulit .addDiv_hyzt_td{
+	padding-right: 15px; 
+	height: 35px;
+}
+
+#wg_pushRsProtocolMulit .newRspStatus{
+	width: 270px;
+}
+
+#wg_pushRsProtocolMulit .newCargValue{
+	width: 266px;
+}
+
+#wg_pushRsProtocolMulit .addsubmit_td{
+	text-align:center;
+}
+
+#wg_pushRsProtocolMulit .editDiv{
+	display:none;
+}
+
+#wg_pushRsProtocolMulit .editDiv_table{
+	width:100%;
+	height:100%;
+	font-size: 12px;
+}
+
+#wg_pushRsProtocolMulit .editDiv_table_tr{
+	height: 39px;
+}
+
+#wg_pushRsProtocolMulit .editDiv_table_tr_td1{
+	width:28%; 
+	text-align:right; 
+	padding-right: 15px;
+}
+
+#wg_pushRsProtocolMulit .editDiv_table_tr_td2{
+	width:72%;
+}
+
+#wg_pushRsProtocolMulit .rspCmdEdit{
+	width: 266px;
+}
+
+#wg_pushRsProtocolMulit .cargNameEdit{
+	width: 266px;
+}
+
+#wg_pushRsProtocolMulit .editDiv_hyzt_td{
+	padding-right: 15px; 
+	height: 35px;
+}
+
+#wg_pushRsProtocolMulit .rspStatusEdit{
+	width: 266px;
+}
+
+#wg_pushRsProtocolMulit .cargValueEdit{
+	width: 266px;
+}
+
+#wg_pushRsProtocolMulit .editsubmit_td{
+	text-align:center;
+}
+
+#wg_pushRsProtocolMulit .custDiv{
+	padding:5px 0 5px 5px;
+	display:none;
+	height:460px;
+}
+
+#wg_pushRsProtocolMulit .custFrame{
+	width:635px;
+	height:460px;
+	border: 0;
+}
+

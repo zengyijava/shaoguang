@@ -1,0 +1,314 @@
+#bla_blacklist .modify{
+    padding:5px;
+    display:none;
+    font-size: 12px;
+}
+
+#bla_blacklist .addmmsBl{
+    padding:5px;
+    display:none;
+    font-size: 12px;
+}
+
+#bla_blacklist .msgNote{
+    line-height: 18px;
+}
+#bla_blacklist .msgNote{
+    width: 206px;
+    height: 240px;
+}
+#bla_blacklist .ywmc_mh_tr{
+    height: 70px;
+}
+#bla_blacklist .busCode{
+    width:184px;
+}
+
+#bla_blacklist .definitionDiv_table_td_ver{
+    vertical-align: middle;
+}
+/*   业务类型搜索     */
+#addmmsBl table tr td .c_selectBox, #addmmsBl table tr td .c_selectBox ul, #addmmsBl table tr td .c_selectBox ul li{
+	width: 208px!important;
+}
+#addmmsBl  table tr td .c_selectBox ul, #addmmsBl  table tr td .c_selectBox ul li{
+	width: 208px!important;
+}
+
+#addmmsBl table tr td .c_selectBox input{
+	width: 196px!important;
+}
+
+#addmmsBl table tr td div .c_input{
+	height:27px  !important;
+}
+#addmmsBl .c_result{
+	top: 29px  !important;
+}
+
+#bla_blacklist .content_th1{
+    width:5%;
+}
+
+#bla_blacklist .content_th2{
+    width:15%;
+}
+
+
+#bla_blacklist .content_th3{
+    width:15%;
+}
+
+#bla_blacklist .content_th4{
+    width:35%;
+}
+
+#bla_blacklist .content_th5{
+    width:15%;
+}
+
+#bla_blacklist .content_th6{
+    width:15%;
+}
+
+
+#bla_blacklist .addmmsBl_down_div{
+    height:150px;
+    margin-top: 10px;
+}
+
+#bla_blacklist .addbusCode{
+    width:179px;
+    height: 26px;
+}
+
+#bla_blacklist .btnClass5Customer{
+    padding:0px 15px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+    border-radius: 3px;
+}
+
+#bla_blacklist .definitionDiv_table_td_ver_msg{
+    vertical-align:top;
+}
+
+#bla_blacklist .mobile1{
+    width:270px;
+}
+
+#bla_blacklist .definitionDiv_table_tr_td{
+    height:20px;
+}
+
+#bla_blacklist .msgNote{
+    width: 206px;
+    height: 250px;
+}
+
+
+#bla_blacklist .sjhm_up_tr{
+    height:5px;
+}
+
+#bla_blacklist .mobile{
+    width: 206px;
+    height: 35px;
+}
+
+#bla_blacklist .blok_div{
+    height: 50px;
+    line-height: 50px;
+    margin-top: 250px;
+}
+
+#bla_blacklist .uploadmmsBl{
+    padding:5px;
+    display:none;
+    font-size: 12px;
+}
+
+#bla_blacklist .blloginparams1_down_div{
+    height: 100px;
+    margin-top: 10px;
+}
+
+#bla_blacklist .blloginparams1_down_div_table{
+    width:95%;
+}
+
+#bla_blacklist .ywmc_span{
+    white-space: nowrap;
+    display: block;
+}
+
+#bla_blacklist .uploadbusCode{
+    width:155px;
+}
+
+#bla_blacklist .xzwj_up_tr{
+    height:5px;
+}
+
+#bla_blacklist .xzwj_span{
+    text-align: left;
+    display: block;
+    white-space: nowrap;
+}
+
+#bla_blacklist .zmh_up_tr{
+    height:5px;
+}
+
+#bla_blacklist .zmh_td1{
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+#bla_blacklist .zmh_td2{
+    text-align: right;
+}
+
+#bla_blacklist .z1zcetwjgssc_td{
+    line-height: 20px;
+}
+
+#bla_blacklist .2xtzdglgsbzq_td{
+                     line-height: 20px;
+                 }
+
+#bla_blacklist .3xtzdglxtywlx_td{
+                     line-height: 20px;
+                 }
+
+#bla_blacklist .impfont_div{
+    height: 60px;
+    line-height: 55px;
+    margin-top: 75px !important;
+    margin-top: 0px;
+}
+
+#bla_blacklist .impfont{
+    display: none;
+    position: absolute;
+    left:140px;
+    top:125px;
+}
+
+#bla_blacklist .exportDiv{
+    padding:5px;
+    display:none;
+    font-size: 12px;
+}
+
+#bla_blacklist .excelBut_span1{
+    position: absolute;
+    left:112px;
+    top:30px;
+}
+
+#bla_blacklist .excelBut_span2{
+    position: absolute;
+    left:60px;
+    top:30px;
+}
+
+#bla_blacklist .outfont1{
+    display: none;
+    position: absolute;
+    left:80px;
+    top:65px;
+    font-size: 15px;
+}
+
+#bla_blacklist .outfont2{
+    display: none;
+    position: absolute;
+    left:130px;
+    top:65px;
+    font-size: 15px;
+}
+
+#bla_blacklist .qxzdcgscg{
+    display: block;
+    position: absolute;
+    left:20px;
+    top:90px;
+}
+
+#bla_blacklist .phone{
+    width:180px;
+}
+
+
+#addmmsBl table tr td input,#addmmsBl table tr td select {
+    height: 24px;
+    line-height: 20px;
+    width: 150px;
+    padding:0 0 0 2px;
+    outline: 0;
+}
+
+
+#addmmsBl table tr td div .c_input{
+    height:27px  !important;
+}
+
+.c_selectBox{
+    height: 33px !important;
+}
+#bla_blacklist  table tr td div .c_input{
+    width: 175px!important;
+}
+
+.c_selectBox {
+
+    height: 20px;
+    width: 180px;
+    position:relative;
+    background:#fff;
+}
+.c_input {
+    text-indent: 2px;
+    font-size: 1em;
+    font-family: sans-serif;
+    float: left;
+    padding: 1px;
+    border: 0 !important;
+    height: 16px;
+    margin: 1px;width: 178px;
+    background:#fff;
+}
+.c_result {
+    text-indent:5px;
+
+    background-color: white;
+    left:0;
+    top: 20px;
+    list-style: none;
+    position: absolute;
+    z-index: 100;
+    display:none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 200px;
+    width: 200px;
+    cursor:default;
+    margin-left: -1px !important; /*all*/
+    _margin-left:-3px !important; /*ie8*/
+    _margin-left:-1px;            /*ie6*/
+    _margin-top: -1px !important; /*ieX*/
+}
+.c_result li{
+    line-height:24px;
+    text-align:left;
+}
+.selected{cursor:default;}
+#tips{position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    _position: absolute;
+    _top:expression(documentElement.scrollTop + "px");
+}

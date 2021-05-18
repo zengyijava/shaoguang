@@ -1,0 +1,110 @@
+.ll_thead{
+	background-color: #ccdef8;
+	height: 36px;
+	line-height: 36px;
+	font-size: 12px;
+	width: 750px;
+	text-indent:10px;
+	letter-spacing:3px;
+}
+table{
+	margin-top:8px; 
+}
+tr td:first-child{
+	height: 40px;
+	line-height: 40px;
+	width: 100px;
+	margin-right: 20px;
+	text-indent:20px;
+	letter-spacing:3px;
+}
+tr td:nth-child(3){
+	text-indent:10px;
+	letter-spacing:1px;
+}
+input{
+	text-indent:5px;
+	height: 24px;
+	width: 320px;
+	line-height: 24px;
+}
+textarea{
+	text-indent:5px;
+}
+span{
+	height:27px;
+	line-height: 27px;
+	margin-left:12px; 
+	text-align: center;
+	margin-right:5px;
+}
+.ipinput_separator {  
+    margin-right : 2px;  
+    margin-left : 2px;  
+    font-weight : bolder;  
+    font-size : 14px;  
+}
+.rContent{
+	margin: 0;
+	padding: 0;
+	width: 1250px;
+	height: 450px;
+}
+.rContent table{
+	margin-left: 25px;
+}
+.rContent table tr{
+	height: 40px;
+	line-height: 40px;
+}
+.rContent table tr td:first-child{
+	text-align: left;
+	font-size: 12px;
+	width: 140px;
+}
+.rContent table tr td:nth-child(2){
+	font-size: 12px;
+	width: 280px;
+}
+.rContent table tr td:nth-child(3){
+	font-size: 14px;
+	color:#cccccc;
+	width: 680px;
+}
+input{
+	text-indent:5px;
+	height: 24px;
+	width: 265px;
+	line-height: 24px;
+}
+.ipinput_div {  
+    border-color : grey;  
+    border-style : solid;  
+    border-width : 1px;  
+    display: table-cell;
+    height: 24px;
+    line-height:24px;
+    width: 267px;
+}
+.ipinput_input {  
+    border-color : #b99d7f;  
+    border-style : solid;  
+    border-width : 0px;  
+    background-color : #ffffff;  
+    width : 43px;  
+}  
+/* .ipinput_div{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+} */
+.mr24{
+    letter-spacing: 0px;
+    text-align: center;
+    text-indent: 0px;
+    margin-right: 23px;
+    margin-left:120px;
+}

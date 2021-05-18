@@ -1,0 +1,39 @@
+#grp_groupManage #getloginUser,#com_add_Dom2{
+	padding:5px;display:none;
+}
+#grp_groupManage .group_div1{
+	clear:right;
+}
+#grp_groupManage #flowFrame,#editFrame{
+	width:626px;height:520px;border: 0;
+}
+#grp_groupManage .group_table1{
+	border:0px;margin-bottom: 30px;
+}
+#grp_groupManage .group_table1 td{
+	border: 0;
+}
+#grp_groupManage .group_td1{
+	width:660px;border:0px;
+}
+#grp_groupManage #shareDiv{
+	padding:5px;display:none;background: #FAFAFF;
+}
+#grp_groupManage #shareflowFrame{
+	width:530px;height:465px;border: 0;
+}
+#grp_groupManage #shareDiv,#editInfoDiv table,tr,td{
+	border:0px;
+}
+#grp_groupManage #editInfoDiv{
+	display:none;position: relative;
+}
+#grp_groupManage #groupDetail{
+	width:98%;
+}
+#grp_groupManage .group_div2{
+	height: 42px;
+}
+.group_display_none{
+	display:none
+}

@@ -1,0 +1,545 @@
+@charset "utf-8";
+.input_out{
+padding:2px 8px 2pt 3px;
+height:20px;
+border:1px solid #CCC;
+background-color:#FFF;
+line-height:28px;
+font-size: 12pt;
+}
+/* CSS Document */
+a {
+	text-decoration: none;
+}
+
+img {
+	border: 0;
+}
+
+.frame {
+	text-align: left;
+}
+
+/*上传按钮样式*/
+body {
+	font-size: 14px;
+}
+
+input {
+	vertical-align: middle;
+	margin: 0;
+	padding: 0
+}
+
+.file-box {
+	position: relative;
+	width: 340px;
+	left: -327px;
+}
+
+.txt {
+	height: 22px;
+	border: 1px solid #cdcdcd;
+	width: 180px;
+}
+
+.btn {
+	background-color: #FFFF;
+	border: 1px solid #CDCDCD;
+	height: 24px;
+	width: 70px;
+	position: relative;
+}
+
+.file {
+	position: absolute;
+	top: 0;
+	right: 80px;
+	height: 24px;
+	filter: alpha(opacity : 0);
+	opacity: 0;
+	width: 260px;
+	left: +0px;
+}
+
+.btn_b {
+	BORDER-RIGHT: #7b9ebd 1px solid;
+	PADDING-RIGHT: 2px;
+	BORDER-TOP: #7b9ebd 1px solid;
+	PADDING-LEFT: 2px;
+	FONT-SIZE: 12px;
+	FILTER: progid : DXImageTransform . Microsoft .
+		Gradient(GradientType = 0, StartColorStr = #ffffff, EndColorStr =
+		#cecfde);
+	BORDER-LEFT: #7b9ebd 1px solid;
+	CURSOR: hand;
+	COLOR: black;
+	PADDING-TOP: 2px;
+	BORDER-BOTTOM: #7b9ebd 1px solid
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+/*编辑网讯预览DIV样式*/
+ .overlay{
+    position:absolute;
+    top:0;left:0;width:100%;height:100%;
+    background:red;
+    opacity:0.5;filter:alpha(opacity=50);display:none;}    
+   .showNetDlg
+    {
+      　 background:#CCCCCC;
+     　  background-color:white;
+        border-width:2px;
+        border-style:solid;
+        border-color:#71B8FF;
+        height:430px;width:234px;
+        position: absolute; 
+        display:block;
+        z-index:5;
+        }
+        /**
+       .showNetbox
+    {
+      　background:#CCCCCC;
+        border-width:2px;
+        border-style:solid;
+        border-color:#71B8FF;
+        height:430px;width:234px;
+        position: absolute; 
+        z-index:5;
+        }
+        **/
+          .showNetbox
+    {
+      　background:#CCCCCC;
+        border-width:1px;
+        border-style:solid;
+        border-color:#71B8FF;
+        height:430px;width:235px;
+        position: absolute; 
+        z-index:7;
+        }
+ .showNet
+    {
+         word-break:break-all;
+         overflow-x:scroll;
+         overflow-y:scroll;
+           
+        
+
+        background-color:white;
+        border-width:2px;
+        border-style:solid;
+        border-color:#000000;
+        height:300px;width:190px;
+        position:relative; 
+        display:block;
+
+    }
+     .showDlgImg
+    {
+        background-color:white;
+        border-width:1px;
+        border-style:none;
+        height:415px;width:234px;
+        position:relative; 
+        display:block;
+    }
+
+    .hideNetDlg
+    {
+        height:450px;width:239px;
+        display:none;
+    }
+/*浮层框样式*/
+.btn_b {
+	BORDER-RIGHT: #7b9ebd 1px solid;
+	PADDING-RIGHT: 2px;
+	BORDER-TOP: #7b9ebd 1px solid;
+	PADDING-LEFT: 2px;
+	FONT-SIZE: 12px;
+	FILTER: progid : DXImageTransform . Microsoft .
+		Gradient(GradientType = 0, StartColorStr = #ffffff, EndColorStr =
+		#cecfde);
+	BORDER-LEFT: #7b9ebd 1px solid;
+	CURSOR: hand;
+	COLOR: black;
+	PADDING-TOP: 2px;
+	BORDER-BOTTOM: #7b9ebd 1px solid
+}
+
+body,div,h2 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 12px/ 1.5 Tahoma;
+}
+
+button {
+	cursor: pointer;
+}
+
+#overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: white;
+	opacity: 0.5;
+	filter: alpha(opacity = 50);
+	display: none;
+}
+
+#win {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	width: 420px;
+	height: 320px;
+	background: white;
+	border: 1px solid #3399FF;
+	margin: -102px 0 0 -202px;
+	display: none;
+}
+
+h2 {
+	font-size: 12px;
+	height: 18px;
+	text-align: right;
+	background-color: #3C9DFF;
+	border-bottom: 1px solid azure;
+	padding: 5px;
+	cursor: move;
+}
+
+h2 span {
+	color: #3C9DFF;
+	cursor: pointer;
+	background: azure;
+	border: 1px solid azure;
+	padding: 0 2px;
+}
+
+/*窗头样式*/
+.container {
+	_height: 430px;
+	width: 100%;
+	min-height: 430px;
+	float: left;
+	/*margin-top: 2px;
+	padding-left: 5px;*/
+	display: inline;
+}
+
+#top_right {
+	height: 26px;
+	font-size: 12px;
+	float: left;
+	width: 100%;
+}
+
+#top_left {
+	height: 26px;
+	float: left;
+	width: 1%;
+}
+
+#top_main {
+	font-size: 14px;
+}
+
+.rContent {
+	width: 100% -2px;
+	padding: 5px 0;
+	font-size: 12px;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*条件按钮查询样式*/
+.buttons #toggleDiv {
+	padding-left: 5px;
+	text-align: left;
+	width: 50px;
+	float: left;
+}
+
+/*网讯查看样式*/
+.hideDlg {
+	height: 430px;
+	width: 234px;
+	display: none;
+}
+
+
+  .showNetboxCheck
+    {
+      　background:#CCCCCC;
+        border-width:1px;
+        border-style:solid;
+        border-color:#71B8FF;
+        height:500px;width:235px;
+        position: absolute; 
+        z-index:5;
+        }
+.checkShowDlg {
+	background-color: white;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #71B8FF;
+	height: 480px;
+	width: 234px;
+	position: relative;
+	display: block;
+	z-index: 5;
+}
+
+.content {
+	width: auto;
+	height: auto;
+	border: 1px solid #333;
+	background: #999;
+}
+
+.showNetDlg {
+	word-break: break-all;
+	/*  overflow-x:scroll;*/ /*overflow-y:scroll;*/
+	margin: 0px auto;
+	margin-right: 30px;
+	margin-left: 20px;
+	margin-top: 50px;
+	background-color: white;
+	border-width: 2px;
+	border-style:hidden;
+	border-color: #000000;
+	height: 300px;
+	width: 190px;
+	position: relative;
+	display: block;
+    overflow-x:scroll;
+    overflow-y:scroll;
+}
+
+.showDlgImg {
+	background-color: white;
+	border-width: 1px;
+	border-style:hidden;
+	height: 415px;
+	width: 234px;
+	position: relative;
+	display: block;
+	border-color: #71B8FF;
+	top: 50px;
+	left: 500px;
+}
+
+.showDeck {
+	display: block;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	z-index: 3;
+	background: white;
+}
+
+.hideDeck {
+	display: none;
+}
+
+.btn_bg {
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	line-height: 24px;
+	color: #333399;
+}
+
+/*表格样式*/
+#content {
+	width: 99%;
+	margin: 0 0.5% 0 0.5%;
+	border: #b5d6e6 1px solid;
+}
+
+#content thead th {
+	background-color: #77bbff;
+	font-size: 12px;
+	color: #ffffff;
+	text-align: center;
+	height: 20px;
+	border: #ddf0f3 1px solid;
+	white-space: nowrap;
+}
+
+#content tbody tr {
+	height: 20px;
+}
+
+#content tbody td {
+	font-size: 12px;
+	text-align: center;
+	height: 19px;
+	border: #ddf0f3 1px solid;
+	word-break: break-all;
+}
+
+#content tbody td xmp {
+	padding: 0;
+	margin: 0;
+}
+
+#content tbody tr td a {
+	cursor: pointer;
+	color: blue;
+	border: none;
+	text-decoration: none;
+}
+
+#content  tfoot tr td {
+	font-size: 12px;
+	text-align: center;
+	color: #03515D;
+	padding: 2px;
+	border: #ddf0f3 1px solid;
+	background-color: #A8CFF6;
+}
+
+/*查询表格样式*/
+#condition table {
+	width: 99%;
+	margin: 0 1% 0.5% 0.5%;
+}
+
+#condition table tr td {
+	border: #b5d6e6 1px solid;
+	font-size: 12px;
+	padding-left: 3px;
+}
+
+#condition table tr td#tip {
+	color: #fff;
+	background-color: #A8CFF6;
+	font-weight: 800;
+}
+
+#condition table tr {
+	height: 16px;
+}
+
+#condition table tr td input,#condition table tr td select {
+	width: 150px;
+}
+
+#condition table tr td button {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.clear {
+	clear: both;
+}
+
+.font_red {
+	color: #FF0000;
+}
+
+.button_box {
+	line-height: 40px;
+	text-align: center;
+	height: 40px;
+}
+
+.but_orange {
+	display: inline-block;
+	background: url(../images/btn_oh.jpg) no-repeat left top;
+	padding-left: 2px;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.but_orange a {
+	float: left;
+	line-height: 32px;
+	height: 32px;
+	padding: 0 24px 0 22px;
+	background: url(../images/btn_oh.jpg) no-repeat right top;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+.but_white {
+	display: inline-block;
+	background: url(../images/btn_oh.jpg) no-repeat left -38px;
+	padding-left: 2px;
+	color: #000000;
+	font-size: 12px;
+	text-decoration: none;
+	margin-left: 40px;
+}
+
+.but_white a {
+	float: left;
+	line-height: 32px;
+	height: 32px;
+	padding: 0 24px 0 22px;
+	background: url(../images/btn_oh.jpg) no-repeat right -38px;
+	font-weight: bold;
+	color: #0099cc;
+	text-decoration: none;
+}
+
+.left{ float:left;}
+
+.clear{ clear:both;}
+
+.btn_1 a{ 
+	background:url(../images/btn_bg1.jpg) repeat-x; 
+	height:18px; padding-left:10px; padding-right:10px; 
+	padding-top:2px; text-align:center; display: inline-block; 
+	border:1px #c3d5e1 solid; color:#073897; text-decoration:none; 
+	float:left; line-height:18px; margin-right:10px; margin-left:4px; 
+	padding-bottom:2px; font-weight:bold; 
+}
+.bttons a{ 
+	background:url(../images/btn_bg1.jpg) repeat-x; 
+	height:18px; padding-left:10px; padding-right:10px; 
+	padding-top:2px; text-align:center; display: inline-block; 
+	border:1px #c3d5e1 solid; color:#073897; text-decoration:none; 
+    line-height:18px; margin-right:10px; margin-left:4px; 
+	padding-bottom:2px; font-weight:bold; 
+}
+.qz_box{ border:1px #cbcbcb solid; margin:10px auto; _height:512px; min-height:512px; *height:auto; height:auto; height:auto!important;}
+
+.qz_ls{ background:url(../images/btn_bg2.jpg) repeat-x; height:30px; border-bottom:1px #cbcbcb solid; color:#5c5c5c;position:relative;}
+.qz_ls ul{ display:block; list-style-type:none; left:14px;position:absolute;width:548px;}
+.qz_ls ul li{  padding-left:12px; padding-right:12px; padding-top:6px;height:20px; margin-top:4px; text-align:center; position:relative; display:block;z-index:100;}
+.qz_ls ul li a{ display:block; text-decoration:none;}
+
+.txb_hover{border-left:1px #cbcbcb solid;border-right:1px #cbcbcb solid;border-top:1px #cbcbcb solid; background:#fff;height:20px; z-index:100;display:block;position:relative; font-weight:bold; }
+.txb_hover a{ color:#5e5e5e;}
+
+.ntxb_hover{border-left:1px #cbcbcb solid;border-right:1px #cbcbcb solid;border-top:1px #cbcbcb solid; height:20px; z-index:100;display:block;position:relative; font-weight:normal; margin-left:10px; margin-right:10px;}
+.ntxb_hover a{color:#c0c0c0;}
+
+
+.all_input {
+	BORDER-BOTTOM: #cad9e1 1px solid; BORDER-LEFT: #cad9e1 1px solid; LINE-HEIGHT: 18px; BACKGROUND-COLOR: #ffffff; TEXT-INDENT: 2px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 0px 0px; FLOAT: left; HEIGHT: 20px; COLOR: #333333; FONT-SIZE: 12px; BORDER-TOP: #cad9e1 1px solid; FONT-WEIGHT: normal; BORDER-RIGHT: #cad9e1 1px solid
+}

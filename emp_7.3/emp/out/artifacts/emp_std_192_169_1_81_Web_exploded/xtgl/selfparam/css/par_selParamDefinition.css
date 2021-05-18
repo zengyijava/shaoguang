@@ -1,0 +1,69 @@
+#par_selParamDefinition .pageForm_div{
+	height: 30px;
+}
+
+#par_selParamDefinition .memo_label{
+	display:none;
+}
+
+#par_selParamDefinition .modify{
+	padding:5px;
+	width:300px;
+	height:160px;
+	display:none;
+	word-wrap: break-word;
+	word-break:break-all;
+	overflow-y:auto;
+}
+
+#par_selParamDefinition .msg{
+	width:100%;
+	height:100%;
+	overflow-y:auto;
+}
+
+#par_selParamDefinition .definitionDiv{
+	padding:5px;
+	display:none;
+	font-size:12px;
+}
+
+#par_selParamDefinition .definitionDiv_table{
+	width:100%;
+}
+
+#par_selParamDefinition .definitionDiv_table_tr_td{
+	height:5px;
+}
+
+#par_selParamDefinition .param{
+	width:135px;
+}
+
+#par_selParamDefinition .definitionDiv_table_td_ver{
+	vertical-align:top;
+}
+
+
+#par_selParamDefinition .ParamSubNum{
+	width:270px;
+}
+
+#par_selParamDefinition .ParamSubSign{
+	width:270px;
+}
+
+#par_selParamDefinition .ParamSubName{
+	width:270px;
+}
+
+#par_selParamDefinition .memo{
+	width:270px; 
+	height:60px;
+}
+
+#par_selParamDefinition .ok_div{
+	height: 50px;
+	line-height: 50px;
+	margin-top: 20px;
+}

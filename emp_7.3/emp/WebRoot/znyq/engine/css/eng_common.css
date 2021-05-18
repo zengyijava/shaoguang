@@ -1,0 +1,2055 @@
+.hiddenValueDiv{
+	display:none;
+}
+.displayisempty{
+	display:inline;
+}
+.defaultBlock{
+	display:block;
+}
+.emptycss{
+	
+}
+
+.commonXmp{
+	word-break:break-all;
+	white-space:normal;
+}
+.tipColor{
+	color: red;
+}
+.slvColor{
+	color:#666666;
+}
+.whiteColor{
+	color:#ffffff;
+}
+.grayColor{
+	color:#7f7f7f;
+}
+.gray1Color{
+	color:#74797D;
+}
+.hoaryColor{
+	color:#bec3d1;
+}
+
+
+.linebgth1{
+	width:110px;
+	border:0;
+}
+.linebgth2{
+	width:145px;
+	border:0;
+}
+.linebgth3{
+	width:137px;
+	border:0;
+}
+.linebgth4{
+	width:137px;
+	border:0;
+}
+.linebgth5{
+	width:70px;
+	border:0;
+}
+/*eng_moService*/
+#eng_moService #hiddenValueDiv{
+	display:none;
+}
+#eng_moService #serName{
+	width:180px;
+}
+#eng_moService #sOpName{
+	width:180px;
+}
+#eng_moService #orderCode{
+	width: 180px;
+}
+#eng_moService #identifyMode{
+	width:185px;
+}
+#eng_moService #firstXmp{
+	word-break:break-all;
+	white-space:normal;
+}
+#eng_moService #MoInfos{
+	padding:5px;
+	display:none;
+}
+#eng_moService #serInfoflowFrame{
+	width:480px;
+	height:370px;
+	border:0;
+}
+#eng_moService #moConfDiv{
+	padding:5px;
+	display:none;
+}
+#eng_moService #moConfFrame{
+	width:490px;
+	height:320px;
+	border:0;
+}
+#eng_moService .thirdTd{
+	padding-left:5px;
+	width:145px;
+}
+
+/*eng_addDBconf*/
+#eng_addDBconf tr{
+	height:35px;
+}
+#eng_addDBconf #detail{
+	padding-left:18px;
+}
+#eng_addDBconf #hiddenValueDiv{
+	display:none;
+}
+#eng_addDBconf #content{
+	border:0;
+}
+#eng_addDBconf .td1{
+	width:80px;
+}
+#eng_addDBconf .tipColor{
+	color:red;
+}
+#eng_addDBconf #dbType{
+	width:153.5px;
+}
+#eng_addDBconf #dbConnType{
+	width:153.5px;
+}
+#eng_addDBconf #dbPwd{
+	width:150px;
+}
+#eng_addDBconf .td2{
+	height:23px;
+}
+#eng_addDBconf #waitTextConnection{
+	color:#808080;
+}
+#eng_addDBconf #rightTextConnection{
+	color:green;
+}
+#eng_addDBconf #errorTextConnection{
+	color:red;
+}
+
+/*eng_addMo1*/
+#eng_addMo1 .itemDiv span{
+   	width: 125px;
+}
+#eng_addMo1 .itemDiv{
+    width: 630px;
+}
+#eng_addMo1 #hiddenValueDiv{
+	display:none;
+}
+#eng_addMo1 .div1{
+	margin-left:25px;
+}
+#eng_addMo1 #item1{
+	margin-top:30px;
+}
+#eng_addMo1 .table1{
+	width:498px;
+	height:25px;
+}
+#eng_addMo1 .td1{
+	width:468px;
+}
+.end_addMo1 .td1 .graytext.input_bd{
+	width:468px;
+}
+#eng_addMo1 .td2{
+	border:0;
+}
+#eng_addMo1 .tipColor{
+	color:red;
+}
+
+#eng_addMo1 #serName{
+	width:468px;
+}
+#eng_addMo1 #comments{
+	width:468px;
+}
+#eng_addMo1 .table2{
+	width:226px;
+	height:25px;
+}
+#eng_addMo1 .table2 .graytext.input_bd{
+	width:226px;
+}
+#eng_addMo1 .tableZH_HK{
+	width:326px;
+	height:25px;
+}
+#eng_addMo1	.tableZH{
+	width:226px;
+	height:25px;
+}
+#eng_addMo1 .table3{
+	width:226px;
+	height:25px;
+}
+#eng_addMo1 .table3 .input_bd{
+	width:230px;
+}
+#eng_addMo1 .itemDiv.div_bg{
+	width:580px;
+	height:170px;
+}
+#eng_addMo1 .itemDiv.div_bg .moreItem{
+	width:500px;
+	border:0;
+	margin-left:15px;
+	margin-top:30px;
+}
+#eng_addMo1 .itemDiv.div_bg .moreItem tr{
+	height:40px;
+}
+#eng_addMo1 .itemDiv.div_bg .moreItem .firsttd{
+	width:110px;
+}
+#eng_addMo1 #busCode{
+	width:230px;
+}
+#eng_addMo1 #spUser{
+	width:230px;
+}
+#eng_addMo1 .itemDiv.div_bg .moreItem .secondtd{
+	width:60px;
+}
+#eng_addMo1 #idfModeClose{
+	margin-left:20px;
+}
+#eng_addMo1 .itemDiv.div_bg .moreItem .thirdtd{
+	width: 150px;
+}
+#eng_addMo1 #spSubno{
+	width:150px;
+	color:#74797D;
+}
+#eng_addMo1 .runState{
+	margin-left:20px;
+}
+#eng_addMo1 .div2{
+	margin-left:400px;
+}
+#eng_addMo1 #tipColorTd{
+	border:0;
+}
+#eng_addMo1 #orderTypeIn{
+	 margin-left: 20px;
+}
+#eng_addMo1 .btnClass5.mr23.indent_none{
+	padding-left:14px;
+}
+/*eng_addMo2*/
+#eng_addMo2 .itemDiv span{
+	width: 125px;
+}
+#eng_addMo2 .itemDiv{
+    width: 660px;
+}
+#eng_addMo2 .firstDiv{
+	margin-left:25px;
+}
+#eng_addMo2 #item1{
+	margin-top:30px;
+}
+#eng_addMo2 .firstTable{
+	width:498px;
+	height:25px;
+}
+#eng_addMo2 .firstTable .firstTd{
+   width:468px;
+}
+#eng_addMo2 .firstTable .firstTd .graytext.input_bd{
+	width:468px;
+}
+#eng_addMo2 .firstTable .secondTd{
+	border:0;
+}
+#eng_addMo2 .tipColor{
+    color:red;
+}
+#eng_addMo2 .secondTable{
+	width:469px;
+	height:25px;
+}
+#eng_addMo2 #comments{
+	width:468px;
+}
+#eng_addMo2 .thirdTable{
+	width:226px;
+	height:25px;
+}
+#eng_addMo2 .thirdTable .input_bd{
+	width:226px;
+}
+#eng_addMo2 #thirdTableTd{
+	border:0;
+}
+#eng_addMo2 .secondDiv{
+	margin-left:400px;
+}
+#eng_addMo2 .secondDiv input{
+	padding-left:14px;
+}
+
+/*eng_addMo3*/
+#eng_addMo3 #hiddenValueDiv{
+	display:none;
+}
+#eng_addMo3 .firstDiv{
+	margin-left:25px;
+}
+#eng_addMo3 .firstDiv .linebgimg3{
+	font-size:14px;
+}
+#eng_addMo3 #item1{
+	margin-top:30px;
+}
+#eng_addMo3 .righttitle{
+	width:125px;
+}
+#eng_addMo3 #item1 table{
+	width:460px;
+	height:25px;
+}
+#eng_addMo3 #item1 .input_bd{
+	width:420px;
+}
+#eng_addMo3 .firstOp{
+	color:#666666;
+}
+#eng_addMo3 .firstTable{
+	width:460px;
+	height:25px;
+}
+#eng_addMo3 #tempSel{
+	width:420px;
+}
+#eng_addMo3 .secondTable{
+	width:451px;
+	height:96px;
+}
+#eng_addMo3 .input_bd.textarea_limit{
+	width:414px;
+	height:96px;
+}
+#eng_addMo3 .thirdTable{
+	margin-top:30px;
+}
+#eng_addMo3 #toAddDB{
+	cursor:pointer;
+}
+#eng_addMo3 #showAddSmsTmp{
+	cursor:pointer;
+}
+#eng_addMo3 .itemDiv.div_bg{
+	width:525px;
+	height:38px;
+}
+#eng_addMo3 #moreItem{
+	width:392px;
+	border:0;
+	margin-left:15px;
+}
+#eng_addMo3 #moreItem tr{
+	height:40px;
+}
+#eng_addMo3 #moreItem .firstTd{
+	width: 145px;
+}
+#eng_addMo3 #moreItem .firstIn{
+	margin-left:60px;
+}
+#eng_addMo3 .secondDiv{
+	margin-left:375px;
+	margin-top:60px;
+}
+#eng_addMo3 #subConfigSqlBackBtn{
+	padding-left:14px;
+}
+#eng_addMo3 .remindMessage{
+	height: auto;
+	width: 425px;
+}
+#eng_addMo3 #addFrame{
+	padding:5px;
+	display:none;
+}
+#eng_addMo3 #addDataSource{
+	width:300px;
+	height:405px;
+	border:0;
+}
+#eng_addMo3 #addSmsTmpDiv{
+	padding:5px;
+	display:none;
+}
+#eng_addMo3 #addSmsTmpFrame{
+	display:none;
+	width:610px;
+	height:460px;
+	border: 0;
+}
+/*eng_addMo4*/
+#eng_addMo4 .firstDiv{
+	margin-left:25px;
+}
+#eng_addMo4 .linebgimg3{
+	font-size:14px;
+}
+#eng_addMo4 .itemDiv.title_bg.div_bd.first{
+	height:30px;
+	padding-left:5px;
+	margin:30px;
+	width:672px;
+}
+#eng_addMo4 .itemDiv.title_bg.div_bd.second{
+	height:30px;
+	padding-left:5px;
+	width:672px;
+}
+#eng_addMo4	#detail_Info table {
+   width: 660px;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+		
+#eng_addMo4 .showParams li{
+	width: 65px;
+}
+		
+#eng_addMo4	.itemDiv span{
+    width: 85px;
+}
+		
+#eng_addMo4 .itemDiv{
+    width:730px;
+}
+#eng_addMo4 #replyMessage{
+	font-size:14px;
+	line-height:30px;
+}
+#eng_addMo4 #firstItem{
+	margin-top:30px;
+}
+#eng_addMo4 #firstItem table{
+	width:482px;
+	height:25px;
+}
+#eng_addMo4 #msgLoopId{
+	width:585px;
+}
+#eng_addMo4 .firstTable{
+	width:620px;
+}
+#eng_addMo4 .firstTable .firstTd{
+	height:35px;
+}
+#eng_addMo4 #selectInfoBody{
+	width:585px;
+}
+#eng_addMo4 .firstTable .firstOp{
+	color:#666666;
+}
+#eng_addMo4 .firstA{
+	cursor:pointer;
+}
+#eng_addMo4 .secondTd{
+	height:80px;
+}
+#eng_addMo4 .paraContent.div_bd{
+	width:585px;
+}
+#eng_addMo4 .secondA{
+	margin-left:10px;
+	cursor:pointer;
+}
+#eng_addMo4 #fontFmTip{
+	display:none;
+	color:#7f7f7f;
+	clear:both;
+}
+#eng_addMo4 .tipColor{
+	color:red;
+}
+#eng_addMo4 #conditionTip{
+	font-size:14px;
+	line-height:30px;
+	float:left;
+}
+#eng_addMo4 .secondDiv{
+	float:right;
+}
+#eng_addMo4 #addCondition{
+	margin-top:3px;
+}
+#eng_addMo4 #firstSE{
+	width:100px;
+}
+#eng_addMo4 #secondTable{
+	margin-top:30px;
+}
+#eng_addMo4 .leftDiv{
+	width: 290px;
+}
+#eng_addMo4 .rightDiv{
+	width: 300px;
+}
+#eng_addMo4 #thirdDiv{
+	width:672px;
+	height:38px;
+}
+#eng_addMo4 #moreItem{
+	width:392px;
+	border:0;
+}
+#eng_addMo4 #moreItem tr{
+	height:40px;
+}
+#eng_addMo4 .fourDiv{
+	margin-left:410px;
+}
+#eng_addMo4 #previous{
+	padding-left:14px;
+}
+#eng_addMo4 #id2{
+	height:auto;
+	max-width:600px;
+	_width:600px;
+	*widht:600px;
+}
+#eng_addMo4 #addSmsTmpDiv{
+	padding:5px;display:none;
+}
+#eng_addMo4 #addSmsTmpFrame{
+	display:none;
+	width:610px;
+	height:460px;
+	border:0;
+}
+#eng_addMo4 #tmplDiv{
+	padding:5px;
+	display:none;
+}
+#eng_addMo4 #tempFrame{
+	width:675px;
+	height:470px;
+	border:0;
+}
+
+/*eng_addMoProcess*/
+#eng_addMoProcess #container{
+	width:300px;
+	height:140px;
+}
+#eng_addMoProcess #detail{
+	width:300px;
+	height:120px;
+}
+#eng_addMoProcess #detail table{
+	width:300px;
+	height:140px;
+}
+#eng_addMoProcess tr{
+	height:30px;
+}
+#eng_addMoProcess #detail table{
+	margin-left:5px;
+}
+#eng_addMoProcess .eleTd{
+	width:100px;
+}
+#eng_addMoProcess #select{
+	width:154px;
+}
+#eng_addMoProcess .finalState{
+	margin-left:20px;
+}
+#eng_addMoProcess #addBasicInfoBtn{
+	margin-left:60px;
+}
+/*eng_addMoService*/
+#eng_addMoService .thirtyTd{
+	width:30%;
+}
+#eng_addMoService .twohunIn{
+	width:200px;
+}
+#eng_addMoService .tafWidth{
+	width:204px;
+}
+/*eng_addMt1*/
+#eng_addMt1	.itemDiv span {
+    width: 125px;
+}
+#eng_addMt1 .itemDiv {
+    width: 660px;
+}
+#eng_addMt1 .linebgimg1{
+	border:0;
+	width:633px;
+	height:32px;
+	font-size:14px;
+	text-indent:10px;
+}
+#eng_addMt1 #item1{
+	margin-top:30px;
+}
+#eng_addMt1 #item1 table{
+	 width:498px;
+	 height:25px;
+}
+#eng_addMt1 #item1 table .input_bd{
+	width:468px;
+}
+#eng_addMt1 #serName{
+	width:100%;
+	border:0;
+}
+#eng_addMt1 #item2 table{
+	 width:469px;
+	 height:25px;
+}
+#eng_addMt1 #item3{
+	display:none;
+}
+#eng_addMt1 #comments{
+	border:0;
+	width:100%;
+}
+#eng_addMt1 .ownerTable{
+	width:226px;
+	height:25px;
+}
+#eng_addMt1 .itemDiv.div_bg{
+	width:580px;
+	height:115px;
+}
+#eng_addMt1 #moreItem{
+	width:450px;
+	border:0;
+	margin-left:15px;
+	margin-top:30px;
+}
+#eng_addMt1 .fourHTr{
+	height:40px;
+}
+#eng_addMt1 #busCodeDiv{
+	float:left;
+	background-color:#ffffff;
+}
+#eng_addMt1 #busCode{
+	width:230px;
+	border:0;
+}
+#eng_addMt1 .lhteTd{
+	line-height:28px;
+}
+#eng_addMt1 #spUserDiv{
+	float:left;
+	background-color:#ffffff;
+}
+#eng_addMt1 #spUser{
+	width:230px;
+	border:0;
+}
+#eng_addMt1 #idfModeOpen{
+	margin-left:20px;
+}
+#eng_addMt1 .fourHNBTr{
+	height:40px;
+	display:none;
+}
+#eng_addMt1 .runState{
+	margin-left:60px;
+}
+#eng_addMt1 .firstDiv{
+	margin-left:410px;
+	margin-top:60px;
+}
+#eng_addMt1 .spSubnoNone{
+	height:10px;
+	color: #74797D;
+	margin-left:30px;
+	float:none;
+	display:none;
+}
+#eng_addMt1 .spSubnoInline{
+	height:10px;
+	color: #74797D;
+	margin-left:30px;
+	float:none;
+	display:inline;
+}
+#eng_addMt1 .zeroBorder{
+	border:0;
+}
+#eng_addMt1 #nextBtn{
+	padding-left:14px;
+}
+/*eng_addMt2*/
+#eng_addMt2 .linebgimg2{
+	border:0;
+	width:633px;
+	height:32px;
+	font-size:14px;
+	text-indent: 10px;
+}
+#eng_addMt2 #item1{
+	margin-top:30px;
+}
+#eng_addMt2 #item1 table{
+	 width:498px;
+	 height:25px;
+}
+#eng_addMt2 #item1 table .input_bd{
+	width:468px;
+}
+#eng_addMt2 #prName{
+	width:100%;
+	border:0;
+}
+#eng_addMt2 #item2 table{
+	 width:469px;
+	 height:25px;
+}
+#eng_addMt2 #comments{
+	border:0;
+	width:100%;
+}
+#eng_addMt2 .ownerTable{
+	width:226px;
+	height:25px;
+}
+#eng_addMt2 .addselDiv{
+	margin-top:5px;
+	margin-left:36px;
+	margin-bottom:20px;
+	text-align:left;
+	width:610px;
+	height:210px;
+}
+#eng_addMt2 .ZH_HKtd{
+	width:133px;
+}
+#eng_addMt2 .defaultTd{
+	width:91px;
+}
+#eng_addMt2 .firstTd{
+	padding-left:0;
+	line-height:25px;
+}
+#eng_addMt2 .firstTd div{
+	float:left;
+}
+#eng_addMt2 .toAddDB{
+	cursor:pointer;
+}
+#eng_addMt2 .leftPad{
+	padding-left:0;
+}
+#eng_addMt2 .leftPad div{
+	 float:left;
+}
+#eng_addMt2 .showAddSMS{
+	cursor:pointer;
+}
+#eng_addMt2 .spanSqlTd{
+	padding-bottom:70px;
+}
+#eng_addMt2 .spanSqlNextTd{
+	padding-left:0;
+	line-height:90px;
+}
+#eng_addMt2 .spanSqlNextTd div{
+	float:left;
+	height:90px;
+}
+#eng_addMt2 .textarea_limit{
+	width:470px;
+	height:90px;
+	border:0;
+}
+#eng_addMt2 .nextStepDiv{
+	margin-left:410px;
+	margin-top:60px;
+}
+#eng_addMt2 .btnClass5.mr23.indent_none{
+	padding-left:14px;
+}
+#eng_addMt2 .btnClass6.indent_none{
+	padding-left:14px;
+}
+#eng_addMt2 #addFrame{
+	padding:5px;
+	display:none;
+}
+#eng_addMt2 #addDataSource{
+	width:300px;
+	height:405px;
+	border:0;
+}
+#eng_addMt2 #addSmsTmpDiv{
+	padding:5px;
+	display:none;
+}
+#eng_addMt2 #addSmsTmpFrame{
+	display:none;
+	width:610px;
+	height:460px;
+	border:0;
+}
+#eng_addMt2 .zeroBorder{
+	border:0;
+}
+/*eng_addMt3*/
+#eng_addMt3	.tailContCss {
+  	width: 470px;
+  	*height: 50px;
+  	*overflow-y :auto;
+	border-top-style: none;
+	text-indent: 1em;
+  	line-height: 25px;
+  	background-color: #f8f8f8;
+ 	word-break: break-all;
+  	color: #8a8a8a;
+  	display: table-cell;
+}
+#eng_addMt3 .linebgimg3{
+	border:0;
+	width:633px;
+	height:32px;
+	font-size:14px;
+	text-indent:10px;
+}
+#eng_addMt3 #item1{
+	margin-top:30px;
+}
+#eng_addMt3 #item1 table{
+	width:498px;
+	height:25px;
+}
+#eng_addMt3 #item1 table .input_bd{
+	width:468px;
+}
+#eng_addMt3 #prName{
+	border:0;
+	width:100%;
+}
+#eng_addMt3 .zeroBorder{
+	border:0;
+}
+#eng_addMt3 #stepDiv table{
+	width:469px;
+	height:25px;
+}
+#eng_addMt3 #comments{
+	border:0;
+	width:100%;
+}
+#eng_addMt3 #spanPrDiv table{
+	width:226px;
+	height:25px;
+}
+#eng_addMt3 .div_bg{
+	margin-top:5px;
+	margin-left:36px;
+	margin-bottom:20px;
+	text-align:left;
+	width:610px;
+	height:235px;
+	display: table;
+}
+#eng_addMt3 .spanDataSourceTd{
+	width: 91px;
+}
+#eng_addMt3 .msgLoopTd{
+	padding-left:0;
+}
+#eng_addMt3 .tempSelTd{
+	padding-left:0;
+}
+#eng_addMt3 .tempSelTd div{
+	float:left;
+}
+#eng_addMt3 #tempSel{
+	border:0;
+}
+
+#eng_addMt3 .showAddSms{
+	cursor:pointer;
+}
+#eng_addMt3 .leftPad{
+	padding-left:0;
+}
+#eng_addMt3 .spanMsgTd{
+	padding-bottom:70px;
+}
+#eng_addMt3 #limitDiv{
+	height:90px;
+	width: 470px;
+}
+#eng_addMt3 .textarea_limit{
+	width:470px;
+	height:90px;
+	border:0;
+}
+#eng_addMt3 .spanPreviewTd{
+	padding-left:0;
+}
+#eng_addMt3 .nextStepDiv{
+	margin-left:410px;
+	margin-top:60px;
+}
+#eng_addMt3 .btnClass5.mr23.indent_none{
+	padding-left:14px;
+}
+#eng_addMt3 .btnClass6.indent_none{
+	padding-left:14px;
+}
+#eng_addMt3 .modify{
+	padding:5px;
+	width:400px;
+	height:160px;
+	display:none;
+	word-wrap:break-word;
+	word-break:break-all;
+	overflow-y:auto;
+}
+#eng_addMt3 .msg{
+	width:100%;
+	height:100%;
+	overflow-y:auto;
+}
+#eng_addMt3 .addSmsTmpDiv{
+	padding:5px;
+	display:none;
+}
+#eng_addMt3 .addSmsTmpFrame{
+	display:none;
+	width:610px;
+	height:460px;
+	border:0;
+}
+/*eng_addMt4*/
+#eng_addMt4 .linebgimg4{
+	border:0;
+	width:633px;
+	height:32px;
+	font-size:14px;
+	text-indent:10px;
+}
+#eng_addMt4 #item1{
+	margin-top:30px;
+}
+#eng_addMt4 #item1 table{
+	width:498px;
+	height:25px;
+}
+#eng_addMt4 #item1 table td{
+	width:468px;
+	border:0;
+}
+#eng_addMt4 .sendtimeTable{
+	width:304px;
+	height:25px;
+}
+#eng_addMt4 #sendtime{
+	border:0;
+	width:304px;
+}
+#eng_addMt4 .zeroBorder{
+	border:0;
+}
+#eng_addMt4 .sendcountTable{
+	width:305px;
+	height:25px;
+}
+#eng_addMt4 .runway{
+	width:304px;
+	border:0;
+}
+#eng_addMt4 #validateDiv{
+	margin-top:30px;
+}
+#eng_addMt4 .validateTable{
+	width:305px;
+	height:25px;
+}
+#eng_addMt4 #hoursTd{
+	width:105px;
+}
+#eng_addMt4 #hours{
+	width:100px;
+	border:0;
+}
+#eng_addMt4 #minitesTd{
+	width:105px;
+}
+#eng_addMt4 #minites{
+	width:100px;
+	border:0;
+}
+#eng_addMt4 #fontZhu{
+	color:red;
+	display:none;
+}
+#eng_addMt4 .sendCountDiv{
+	width:300px;
+	height:25px;
+}
+#eng_addMt4 .nextstepDiv{
+	margin-left:410px;
+	margin-top:60px;
+}
+#eng_addMt4 .btnClass6.indent_none{
+	padding-left:14px;
+}
+/*eng_addMtProcess*/
+#eng_addMtProcess #u_o_c_explain{
+	width:740px;
+}
+#eng_addMtProcess .stepNameTd{
+	width:558px;
+}
+#eng_addMtProcess .stepDesTd{
+	width:30%;
+}
+#eng_addMtProcess #select{
+	width:155px;
+}
+/*eng_addMtService*/
+#eng_addMtService #u_o_c_explain{
+	width:740px;
+}
+#eng_addMtService .ywName{
+	width:30%; 
+}
+#eng_addMtService #serName{
+	width:200px;
+}
+#eng_addMtService #comments{
+	width:200px;
+}
+#eng_addMtService #ownerList{
+	width:203px;
+}
+#eng_addMtService #busCode{
+	width:203px;
+}
+#eng_addMtService #spUser{
+	width:203px;
+}
+/*eng_editMtService*/
+#eng_editMtService .ywNameTd{
+	text-align:right;
+	width:130px;
+}
+#eng_editMtService .ywDiscTd{
+	text-align:right;
+}
+#eng_editMtService #commentsDiv{
+	float: left;
+}
+#eng_editMtService .ownerListTr{
+	display: none;
+}
+#eng_editMtService .ownerListTd{
+	text-align:right;
+}
+#eng_editMtService .ywTypeTd{
+	text-align:right;
+}
+#eng_editMtService .busCodeTd{
+	line-height: 27px;
+}
+#eng_editMtService #busCodeDiv{
+	float: left;
+	width:355px;
+}
+#eng_editMtService .spServiceTd{
+	text-align:right;
+	width:80px;
+}
+#eng_editMtService .spUserTd{
+	line-height: 27px;
+}
+#eng_editMtService #spUserDiv{
+	float: left;
+	width:355px;
+}
+#eng_editMtService .spUser{
+	width: 203px;
+}
+#eng_editMtService .tailNumTd{
+	text-align:right;
+}
+#eng_editMtService #idfModeOpen{
+	margin-left: 20px;
+}
+#eng_editMtService .spSubno1{
+	color: #74797D;
+	margin-left:30px;
+	display:none;
+}
+#eng_editMtService .spSubno2{
+	color: #74797D;
+	margin-left:30px;
+	display:inline;
+}
+#eng_editMtService .runtimeTr{
+	display: none;
+}
+#eng_editMtService .runtimeTd{
+	text-align:right;
+}
+#eng_editMtService #errInfoMsg{
+	text-align: right;
+}
+/*eng_editProCon*/
+#eng_editProCon	#detail_Info input {
+	width: 85px;
+}
+#eng_editProCon	#detail_Info table {
+  	width: 620px;
+}
+#eng_editProCon	#detail_Info {
+ 	width: 630px;
+}
+#eng_editProCon .container{
+	margin-left:5px;
+}
+#eng_editProCon .div_bg{
+	height: 170px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+#eng_editProCon .addConditionDiv{
+	float:right;
+}
+#eng_editProCon .tjbdsTd{
+	padding-left:5px;
+}
+#eng_editProCon .UsedPrId{
+	width:100px;
+}
+#eng_editProCon .btnDiv{
+	text-align:center;
+	width:620px;
+}
+#eng_editProCon .UsedPrId{
+	width:100px;
+}
+#eng_editProCon .tableIndex0Td{
+	padding-left:5px;
+}
+#eng_editProCon .tableIndexTd{
+	padding-left:5px;
+}
+
+/*eng_moConf*/
+#eng_moConf	#detail {
+	width:460px;
+}
+		
+#eng_moConf	#detail table {
+	border: 0;
+	text-align: left;
+	width: 460px;
+	margin-left:5px;
+}
+		
+#eng_moConf	#detail table thead tr td {
+	border: 0;
+	height: 80px;
+	font-size: 12px;
+	padding-right:5px;
+}
+			
+#eng_moConf	#detail select{
+	width:300px;
+	height:20px;
+}
+#eng_moConf	#detail table thead tr #btn {
+	text-align: center;
+	width: auto;
+}	
+#eng_moConf	#detail table thead tr td label select{
+	width: 300px;
+}
+#eng_moConf .explain{
+	text-align:right;
+}
+#eng_moConf .replyTd{
+	text-align:right;
+	width:100px;
+}
+#eng_moConf #repContent{
+	width:315px;
+	height:96px;
+}
+#eng_moConf .stateTd{
+	text-align:right;
+}
+#eng_moConf .stateIn{
+	margin-left: 5px;
+}
+
+/*eng_MoInfos*/
+#eng_MoInfos #detail {
+	width:480px;
+}
+		
+#eng_MoInfos #detail table {
+	border: 0;
+	text-align: left;
+	width: 480px;
+	margin-left:15px;
+}
+		
+#eng_MoInfos #detail table thead tr td {
+	border: 0;
+	height: 35px;
+	font-size: 12px;padding-right:5px;
+}
+		
+		
+#eng_MoInfos #detail select{
+	width:300px;
+	height:20px;
+}
+#eng_MoInfos #detail table thead tr #btn {
+	text-align: center;
+	width: auto;
+}
+		
+#eng_MoInfos #detail table thead tr td label select{
+	width: 300px;
+}
+#eng_MoInfos .ywNameTd{
+	 width:125px;
+	 text-align:right;
+}
+#eng_MoInfos #serName{
+	width:296px;
+}
+#eng_MoInfos .ywDiscTd{
+	text-align:right;
+}
+#eng_MoInfos #comments{
+	width:296px;
+}
+#eng_MoInfos .orderCodeTd{
+	text-align:right;
+}
+#eng_MoInfos #orderCode{
+	width:296px;
+}
+#eng_MoInfos .matchMehodTd{
+	text-align:right;
+}
+#eng_MoInfos .orderTypeIn{
+	margin-left: 20px;
+}
+#eng_MoInfos .splDiv1{
+	display:none;
+}
+#eng_MoInfos .splDiv2{
+	/* display:inline; */
+}
+#eng_MoInfos .divideTd{
+	text-align:right;
+}
+#eng_MoInfos .ywTypeTd{
+	text-align:right;
+}
+#eng_MoInfos .spServiceTd{
+	text-align:right;	
+}
+#eng_MoInfos .spUserOp{
+	color: #bec3d1;
+}
+#eng_MoInfos .tailNumTd{
+	text-align:right;
+}
+#eng_MoInfos #identifyMode{
+	margin-left: 20px;
+}
+#eng_MoInfos .spSubno1{
+	color: #74797D;
+	margin-left:30px;
+	display:none;
+}
+#eng_MoInfos .spSubno2{
+	color: #74797D;
+	margin-left:30px;
+	display:inline;
+}
+#eng_MoInfos .runtimeTd{
+	text-align:right;
+}
+#eng_MoInfos .runStateIn{
+	margin-left: 20px;
+}
+
+/*eng_moProcess*/
+#eng_moProcess .buttons{
+	margin-top:10px;
+}
+#eng_moProcess #content{
+	width:700px;
+	margin-top:10px;
+}
+#eng_moProcess .TemplateInfosTd{
+	text-align: left;
+}
+#eng_moProcess #ProInfos{
+	padding:5px;
+	display:none
+}
+#eng_moProcess #proInfoflowFrame{
+	width:300px;
+	height:150px;
+	border:0;
+}
+#eng_moProcess #excutecCondition{
+	padding:5px;
+	display:none;
+}
+#eng_moProcess #excutecConditionFrame{
+	width:660px;
+	height:250px;
+	border:0;
+}
+#eng_moProcess #databaseSet{
+	padding:5px;
+	display:none
+}
+#eng_moProcess #databaseSetFrame{
+	width:510px;
+	height:230px;
+	border:0;
+}
+#eng_moProcess #templateSet{
+	padding:5px;
+	display:none;
+}
+#eng_moProcess #templateSetFrame{
+	width:540px;
+	height:400px;
+	border:0;
+}
+#eng_moProcess #tmplDiv{
+	padding:5px;
+	display:none;
+}
+#eng_moProcess #tempFrame{
+	width:675px;
+	height:470px;
+	border: 0;
+}
+#eng_moProcess .titletop_table{
+	width:695px;
+}
+#eng_moProcess .titletop_fontTd{
+	text-align: left;
+}
+#eng_moProcess #rContent{
+	width:700px;
+}
+
+/*eng_addSmsTmpl*/
+#eng_addSmsTmpl table#editSmstmpTable tr {
+	height: 42px;
+}
+#eng_addSmsTmpl	table#editSmstmpTable td input[type="text"] {
+	width:365px;
+	border:0;
+}
+#eng_addSmsTmpl	table#editSmstmpTable td select {
+	width:365px;
+	border:0;
+}
+#eng_addSmsTmpl	.temp_style{
+	vertical-align:top;
+}
+#eng_addSmsTmpl	#editSmstmpTable{
+	width: 500px;
+	text-align: left;
+}
+#eng_addSmsTmpl .opTyepTr{
+	display:none;
+}
+#eng_addSmsTmpl .SmsTmpNameTd{
+	width: 120px;
+}
+#eng_addSmsTmpl #modelNameDiv{
+	float: left;
+}
+#eng_addSmsTmpl .tmNameFt{
+	color:red;
+	display:none;
+}
+#eng_addSmsTmpl .SmsTmpCodeTd{
+	width: 120px;
+}
+#eng_addSmsTmpl #tmCodeDiv{
+	float: left;
+}
+#eng_addSmsTmpl #tmCode{
+	border-width:0;
+}
+#eng_addSmsTmpl .tmCodeFt{
+	color:red;
+	display:none;
+}
+#eng_addSmsTmpl .modelTypeDiv{
+	float: left;
+}
+#eng_addSmsTmpl #subModule{
+	float: left;
+	margin-top:5px;
+	margin-bottom: -7px;
+}
+#eng_addSmsTmpl .childModelDiv{
+	padding:5px 0;
+}
+#eng_addSmsTmpl .cwcodeDiv{
+	float: left;
+}
+#eng_addSmsTmpl .SmsTmpContTd{
+	padding:5px 0;
+	vertical-align: top;
+}
+#eng_addSmsTmpl .paraContent.div_bd{
+	width:369px;
+}
+#eng_addSmsTmpl .tit_panel.div_bd{
+	display:none;
+}
+#eng_addSmsTmpl .para_cg{
+	margin-bottom:5px;
+	display:block;
+}
+#eng_addSmsTmpl #fontFmTip{
+	display:none;
+	color:#7f7f7f;
+	clear:both;
+}
+#eng_addSmsTmpl #btn{
+	text-align: center;
+}
+/*eng_addTrigger*/
+#eng_addTrigger .rwNameTd{
+	text-align:right;
+}
+#eng_addTrigger .beginTimeTd{
+	text-align:right;
+}
+#eng_addTrigger .sendTimeTd{
+	line-height: 27px;
+}
+#eng_addTrigger #sendtimeDiv{
+	float: left;
+	width:270px;
+	padding-bottom:1px;
+}
+#eng_addTrigger #sendtime{
+	width:269px;
+	border:0;
+}
+#eng_addTrigger .SendCountTd{
+	text-align:right;
+}
+#eng_addTrigger .runwayDiv{
+	width:271px;
+}
+#eng_addTrigger .ValiddateDiv{
+	text-align:right;
+}
+#eng_addTrigger #hourDiv{
+	float: left;
+	width: 134px;
+}
+#eng_addTrigger #hours{
+	width: 85px;
+	border: 0;
+}
+#eng_addTrigger #minitesDiv{
+	float: left;
+	width: 134px;
+	border-left:0;
+}
+#eng_addTrigger #minites{
+	width: 85px;
+	border: 0;
+}
+#eng_addTrigger .fontZhuTd{
+	text-align: right;
+}
+#eng_addTrigger .fontZhu1{
+	color:red;
+	display:inline;
+}
+#eng_addTrigger .fontZhu2{
+	color:red;
+	display:none;
+}
+/*eng_editMoSql*/
+#eng_editMoSql #container{
+   	width:510px;
+   	height:220px;
+}
+#eng_editMoSql    #detail{
+   	width:100%;
+   	height:100%;
+}
+#eng_editMoSql  table{
+   	width:100%;
+   	height:100%;
+   	border:0px solid #c3c3c3;
+}
+#eng_editMoSql  tr{
+    	height:40px;
+}
+#eng_editMoSql .marginLeft5 .thirtyHeight{
+	height:30px;
+}
+#eng_editMoSql .dbConnectTable{
+	 margin-left: 5px;
+}
+#eng_editMoSql .dbConnectTr{
+	 height:30px;
+}
+#eng_editMoSql #dbId{
+	width:150px
+}
+#eng_editMoSql .tempSelTr{
+	height:30px;
+}
+#eng_editMoSql #tempSel{
+	width:150px;
+}
+#eng_editMoSql #sql{
+	width:360px;
+	height:100px;
+	padding-top:5px;
+	padding-left:5px;
+}
+#eng_editMoSql #btn{
+	height:40px;
+	text-align:center;
+	vertical-align: middle;
+}
+/*eng_editMoTemp*/
+#eng_editMoTemp #container{
+	width:540px;
+	height:220px;
+}
+#eng_editMoTemp #detail{
+ 	width:100%;
+ 	height:100%;
+ }
+#eng_editMoTemp table{
+	width:100%;
+	height:100%;
+	border:0px solid #c3c3c3;
+}
+#eng_editMoTemp tr{
+   	height:40px;
+}
+#eng_editMoTemp .showParams li{
+	width: 65px;
+}
+#eng_editMoTemp #detail{
+	margin-left:5px;
+}
+#eng_editMoTemp .stepNameTr{
+	height:30px;
+}
+#eng_editMoTemp #msgLoopId{
+	width:230px;
+}
+#eng_editMoTemp .sendInfoTr{
+	height:30px;
+}
+#eng_editMoTemp #selectInfoBody{
+	width:230px;
+}
+#eng_editMoTemp .closeParTd{
+	padding-top:5px;
+}
+#eng_editMoTemp .paraContent.div_bd{
+	width:390px;
+}
+#eng_editMoTemp .chooseNetTpl{
+	margin-left:10px;
+	cursor:pointer;
+}
+#eng_editMoTemp #fontFmTip{
+	display:none;
+	color:#7f7f7f;
+	clear:both;
+}
+#eng_editMoTemp #btn{
+	text-align:center;
+}
+/*eng_editMtProcess*/
+#eng_editMtProcess .tailContCss{
+	/*width: 470px;*/
+	width: 360px;
+	border-top-style: none;
+	text-indent: 1em;
+  	line-height: 25px;
+ 	background-color: #f8f8f8;
+	word-break: break-all;
+ 	color: #8a8a8a;
+    display: table-cell;
+}
+#eng_editMtProcess .spanPrNameTd{
+	width: 24%;
+}
+#eng_editMtProcess .prNameTd{
+	line-height: 27px;
+}
+#eng_editMtProcess #prNameDiv{
+	float: left;
+}
+#eng_editMtProcess #commentsDiv{
+	float: left;
+}
+#eng_editMtProcess .finalStepTr{
+	display: none;
+}
+#eng_editMtProcess .spanDBLTd{
+	width: 24%;
+	padding-right:0px;
+}
+#eng_editMtProcess .dbIdTd{
+	line-height: 27px;
+}
+#eng_editMtProcess #dbIdDiv{
+	float: left;
+	background-color: #ffffff;
+}
+#eng_editMtProcess .spanSqlTempTd{
+	padding-right:0px;
+}
+#eng_editMtProcess .spanSqlTempDiv{
+	float: left;
+	background-color: #ffffff;
+}
+#eng_editMtProcess .spanSqlTd{
+	padding-right:0px;
+}
+#eng_editMtProcess .spanSql1Td{
+	line-height: 90px;
+}
+#eng_editMtProcess #spanSqlDiv{
+	float:left;
+	height:90px;
+	background-color: #ffffff;
+}
+#eng_editMtProcess #sql{
+	width:360px;
+	height:90px;
+	border:0;
+}
+#eng_editMtProcess .spanDataSourceTd{
+	width: 21%;
+}
+#eng_editMtProcess #smsModelTd{
+	float: left;
+	background-color: #ffffff;
+}
+#eng_editMtProcess #spanMsgConDiv{
+	float:left;
+	height:90px;
+	background-color:#ffffff;
+}
+#eng_editMtProcess #msgMain{
+	width:360px;
+	height:90px;
+	border: 0;
+}
+#eng_editMtProcess .tailConDivTd{
+	width: 20px;
+}
+#eng_editMtProcess #errInfoMsg{
+	text-align: right;
+	width:505px;
+}
+#eng_editMtProcess #msg{
+	width:100%;
+	height:100%;
+	overflow-y:auto;
+}
+#eng_editMtProcess #modify{
+	padding:5px;
+	width:400px;
+	height:160px;
+	display:none;
+	word-wrap: break-word;
+	word-break:break-all;
+	overflow-y:auto;
+}
+/*eng_mtProcess*/
+#eng_mtProcess .titletop_table{
+	width:535px;
+}
+#eng_mtProcess .astyle{
+	color: #6D6D6D;
+}
+#eng_mtProcess .firstDiv{
+	width:540px;
+	text-align:right;
+	padding-top:20px;
+}
+#eng_mtProcess #infoDiv{
+	padding:5px;
+	display:none;
+}
+#eng_mtProcess #flowFrame{
+	width:600px;
+	height:520px;
+	border:0;
+}
+#eng_mtProcess #infoDiv table{
+	width:600px;
+}
+#eng_mtProcess #infoDiv table td{
+	text-align:center;
+}
+
+/*eng_mtService*/
+#eng_mtService #hiddenValueDiv{
+	display:none;
+}
+#eng_mtService #serName{
+	width:180px;
+}
+#eng_mtService #sOpName{
+	width:180px;
+}
+#eng_mtService #serState{
+	width:183px;
+}
+#eng_mtService #firstXmp{
+	word-break: break-all;
+	white-space:normal;
+}
+#eng_mtService #serInfoDiv{
+	padding:5px;
+	display:none;
+}
+#eng_mtService #serInfoflowFrame{
+	width:590px;
+	height:275px;
+	border: 0;
+}
+#eng_mtService #serInfoDiv table{
+	width:590px;
+}
+#eng_mtService #serInfoDiv table td{
+	text-align:center;
+}
+#eng_mtService #exctimeInfoDiv{
+	padding:5px;
+	display:none;
+}
+#eng_mtService #exctimeInfoFrame{
+	width:490px;
+	height:225px;
+	border: 0;
+}
+#eng_mtService #exctimeInfoDiv table{
+	width:490px;
+}
+#eng_mtService #exctimeInfoDiv table td{
+	text-align:center;
+}
+/*eng_mtSmsTemplate*/
+#eng_mtSmsTemplate .commonWidth{
+	width:230px;
+}
+#eng_mtSmsTemplate #result{
+	width:500px;
+	height:100px;
+}
+#eng_mtSmsTemplate .twenTd{
+	width:20%;
+}
+/*eng_mtSqlConfig*/
+#eng_mtSqlConfig .twenTd{
+	width:20%;
+}
+/*eng_serMotask*/
+#eng_serMotask #exportCondition{
+	 line-height: 2.2em;
+}
+#eng_serMotask #phone{
+	width:180px;
+}
+#eng_serMotask #name{
+	 width:180px;
+}
+#eng_serMotask #msgContent{
+	width:180px;
+}
+#eng_serMotask #replyState{
+	 width:184px;
+}
+#eng_serMotask #serId{
+	width:180px;
+}
+#eng_serMotask .commonType{
+	width:180px;
+}
+#eng_serMotask #spUser{
+	 width: 184px;
+}
+#eng_serMotask #moRecBeginTime{
+	  cursor:pointer;
+	  width:180px;
+}
+#eng_serMotask #moRecEndTime{
+	  cursor:pointer;
+	  width:180px;
+}
+#eng_serMotask #firstXmp{
+	word-break: break-all;
+	white-space:normal;
+}
+/*eng_servicelog*/
+#eng_servicelog .Wdate{
+	  cursor:pointer;
+	  width:180px;
+}
+#eng_servicelog .commonWidth1{
+	width:180px;
+}
+#eng_servicelog .commonWidth2{
+	width:184px;
+}
+/*eng_wxTmpl*/
+#eng_wxTmpl .rContent{
+	padding:5px;
+}
+#eng_wxTmpl #name{
+	 width:157px;
+}
+#eng_wxTmpl .firstDiv{
+	text-align: center;
+	margin-top: 20px;
+}
+#eng_wxTmpl .hideDlg{
+	display:none;
+}
+#eng_wxTmpl .secondDiv{
+	margin-right:10px;
+	margin-top: 3px;
+}
+#eng_wxTmpl .ym{
+	width:170px;
+}
+#eng_wxTmpl #nm_preview_common1Div{
+	width:240px;
+	height:460px;
+	margin-left:30px;
+	margin-top:-3px;
+}
+
+#eng_wxTmpl #nm_preview_common1{
+	background: white;
+	width:198px;
+	height:325px;
+	margin-top: 65px;
+	margin-left: 22px;
+}
+
+/*eng_serMtTaskAllRecord*/
+#eng_serMtTaskAllRecord .titletop{
+	padding-left: 0;
+	padding-top: 0;
+}
+#eng_serMtTaskAllRecord .titletop_table{
+	width: 100%;
+}
+#eng_serMtTaskAllRecord .wordWrap{
+	word-wrap: break-word;
+	word-break:break-all;
+}
+#eng_serMtTaskAllRecord .buttons{
+	padding-top: 10px;
+}
+#eng_serMtTaskAllRecord #phone{
+	width: 177px;
+}
+#eng_serMtTaskAllRecord #probar{
+	display: none;
+	text-align: center;
+}
+#eng_serMtTaskAllRecord .commonWidth1{
+	width:180px;
+}
+	
+/*eng_serMttask*/
+#eng_serMttask div #tooltip{
+	position:absolute;
+	z-index:1000;
+	max-width:435px;
+	/* _width:expression(this.scrollWidth > 435 ? 435px : auto); */
+	width:auto; 
+	background:#A8CFF6;
+	border:#FEFFD4 solid 1px;
+	text-align:left;
+	padding:6px;
+}
+#eng_serMttask div #tooltip p{
+	 margin:0;
+	 padding:6px;
+	 color:#FFFFFE;
+	 font:12px verdana,arial,sans-serif;
+}
+#eng_serMttask div #tooltip p em{
+	display:block;
+	margin-top:3px;
+	color:#f60;
+	font-style:normal;
+	font-weight:bold;
+}
+#eng_serMttask #msgcont{
+    white-space: pre-wrap;
+    *white-space: pre;
+    *word-wrap: break-word;
+    word-break: break-all;
+}
+#eng_serMttask .commomWidth{
+	width: 158px;
+}
+#eng_serMttask #serSendState{
+	width: 162px;
+}
+#eng_serMttask #depNam{
+	width:138px;
+	cursor:pointer;
+}
+#eng_serMttask #dropMenu iframe{
+	position:absolute;
+	z-index:-1;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	/* scrolling:no; */
+}
+#eng_serMttask #dropMenu div{
+	margin-top: 3px;
+	margin-right:10px;
+	text-align:right;
+}
+
+#eng_serMttask #msgcontTd{
+	word-break: break-all;
+}
+
+#eng_serMttask #userName{
+	width:138px;
+	cursor: pointer;
+}
+#eng_serMttask #dropMenu2 iframe{
+	position:absolute;
+	z-index:-1;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	/* scrolling:no; */
+}
+#eng_serMttask #dropMenu2 .firstDiv{
+	margin-top:3px;
+	margin-right:10px;
+	text-align:right;
+}
+#eng_serMttask #dropMenu2 .secondDiv{
+	margin-top:3px;
+	padding-left:4px;
+}
+#eng_serMttask #spUser{
+	width:162px;
+}
+#eng_serMttask .Wdate{
+	cursor:pointer;
+	width:158px;
+	background-color:white;
+}
+#eng_serMttask #detailDialog{
+	padding:0px;
+	display:none;
+	width:550px;
+}
+#eng_serMttask #modify{
+	padding:5px;
+	width:300px;
+	height:160px;
+	display:none;
+}
+#eng_serMttask #modify table{
+	width:100%;
+}
+#eng_serMttask #modify table .firstTr{
+	padding-top:2px;
+	margin-bottom:2px;
+}
+#eng_serMttask #msgcont{
+	width:100%;
+	height:100%
+}
+#eng_serMttask #modify table .secondTr{
+	padding-top:2px;
+}
+#eng_serMttask .sixTh{
+	width:6%;
+}
+#eng_serMttask .fourTh{
+	width:4%;
+}
+#eng_serMttask .fiveTh{
+	width:5.2%;
+}
+#eng_serMttask .eightTh{
+	width:8%;
+}
+#eng_serMttask .sevenTh{
+	width:7%;
+}
+#eng_serMttask .seven1Th{
+	width:7.1%;
+}
+#eng_serMttask .nineTh{
+	width:9%;
+}
+#eng_serMttask .tenTh{
+	width:10%;
+}
+#eng_serMttask .commonWidth1{
+	width:180px;
+}
+.buttons a#add{
+	width: 54px;
+}
+#tailConDiv{
+	clear: both;
+}
+/* 智能引擎end */

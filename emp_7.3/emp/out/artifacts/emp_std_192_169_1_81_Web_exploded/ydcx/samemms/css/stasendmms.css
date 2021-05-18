@@ -1,0 +1,177 @@
+#eq_sendDiv table {
+	/*border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;*/
+}
+		
+#eq_sendDiv td {
+/*	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;*/
+}
+div#eq_sendDiv{
+	float: left;
+	margin-bottom: 5px;
+	width:583px;
+}
+
+
+div #eq_sendDiv .graytext{
+	padding-left:5px;
+	width:490px;
+}
+
+div #emp_btn_table .graytext{
+	line-height:25px;
+	width: 125px; 
+	height: 26px;
+}
+
+#getObject{
+	width:328px;
+	border-right:0px;
+	float:left;
+	overflow-y: auto;
+	overflow-x: hidden; 
+	height: 115px;
+}
+
+#first{
+	border-left:0;
+	border-right:0;
+}
+
+.emp_btn_table{
+	width:170px;
+	float:left;
+}
+
+#picTab td{
+	cursor:pointer;
+}
+
+
+
+.divMmsTable{
+	padding-top: 5px;
+	font-size: 14px;
+	
+
+}
+
+#chioceMmsDiv{
+	width:242px;
+	height:156px;
+	border: 1px;
+	overflow-y:auto;
+	overflow-x: hidden;
+}
+
+#modelTable{
+	width:225px;
+	font-size:12px;
+}
+
+.modelmmsDiv{
+	height:30px;
+	width: 45px;
+	border-right: 0;
+}
+
+#mmsFileDiv{
+	padding-left:200px !important;
+	padding-left:220px;
+	padding-top:5px;
+	font-size:12px;
+}
+
+
+
+
+
+#infoDiv{
+	background-color:#FAFAFF;
+	padding:5px;
+	display:none;
+}
+
+
+.mmsPersDiv{
+	position:relative;
+	margin-top:90px;
+	border:1px #09F solid;
+	text-align:left;
+	display:none;
+	width:180px;
+	height:13px;
+	background-color:#FFFFFF;
+}
+
+.mmsShowtimeDiv{
+	position:absolute;
+	width:140px;
+	height:13px;
+	text-align: center;
+}
+
+.mmsChartDiv{
+	position:absolute;
+	left:0px; 
+	background-color:#00ffdd;
+	width:0px;
+	height:13px;
+	text-align:right;
+	padding-top:0px;
+}
+
+.mmsScreenDiv{
+	position:relative;
+	width:189px;
+	height:240px;
+	background:#ffffff;
+	margin-left:23px;
+	margin-top:95px;
+	overflow: auto;
+	padding:2px;
+	word-break: break-all;
+}
+
+
+#smmFile {
+	top:5px;
+	left:232px;
+	height: 25px;
+	width: 95px;
+	
+	display: inline;
+	filter: alpha(opacity :0);
+	position: absolute;
+	z-index: 3;
+	border: none;
+	opacity: 0;
+	cursor:pointer;
+}
+#fileBtn {
+	top:5px;
+	left:232px;
+	display: inline;
+	position: absolute;
+	z-index: 2;
+	cursor: pointer;
+	line-height: 24px;
+	text-align:center;
+}
+			
+
+
+
+
+
+
+
+
+
+
+

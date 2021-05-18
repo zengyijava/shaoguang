@@ -1,0 +1,49 @@
+.clearfix:after,.clearfix:before {
+    display:block;clear:both;content:"";visibility:hidden;height:0
+}
+.clearfix {
+    zoom: 1;
+}
+.channel_manage{
+	padding:15px 0 15px 15px;
+	position:relative;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+.channel_manage .no-unique{
+	border-color:#ff0000;
+}
+.channel_item{
+	width:480px;
+	margin-bottom:10px;
+}
+	
+.sim_detail{
+	
+}
+.channel_item label.mod_t1{
+	display:block;
+	float:left;
+	width:80px;
+	height:26px;
+	line-height:26px;
+	margin-left:8px;
+}
+
+.channel_item .handle{
+	position:relative;
+	float:right;
+	margin-top:6px;
+	margin-right:25px;
+	z-index:999;
+	display:block;
+	width:73px;
+	height:16px;
+}
+.handle a{
+	color:#0e5ad1;
+}
+.fr{overflow:hidden;}
+#show table td{
+	padding:5px 0;
+}

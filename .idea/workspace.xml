@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a7b2ae9-1135-40ca-a7d5-1f1aad5aa399" name="Default Changelist" comment="自测bug修改">
+      <change beforePath="$PROJECT_DIR$/emp_7.3/emp/properties/SystemGlobals.properties" beforeDir="false" afterPath="$PROJECT_DIR$/emp_7.3/emp/properties/SystemGlobals.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shaoguanga/shaoguanga.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shaoguanga/shaoguanga.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shaoguanga/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shaoguanga/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shaoguanga/src/test/java/com/montnets/shaoguanga/ShaoguangaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/shaoguanga/src/test/java/com/montnets/shaoguanga/ShaoguangaApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1r62ewadhisrCnzTeLhN6yJ1voq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Remove" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rptsfile/bak" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.28794643" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MWProject\shaoguan\rptsfile\real\20200419" />
+      <recent name="D:\MWProject\shaoguan\rptsfile\real\20210419" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.montnets.shaoguanga.scheduled" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MWProject\shaoguan\rptsfile\bak" />
+      <recent name="D:\MWProject\shaoguan\rptsfile\bak\20210319\SG1001" />
+      <recent name="D:\MWProject\shaoguan\rptsfile\bak\20210319\TEST02" />
+      <recent name="D:\MWProject\shaoguan\rptsfile\bak\20210419\TEST02" />
+      <recent name="D:\MWProject\shaoguan\rptsfile\bak\20210419\SG1001" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.test08">
+    <configuration name="test02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test02" />
+      <module name="shaoguanga" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test06" />
+      <module name="shaoguanga" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test07" />
+      <module name="shaoguanga" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test08" />
+      <module name="shaoguanga" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShaoguangaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shaoguanga" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.montnets.shaoguanga.ShaoguangaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test08" />
+        <item itemvalue="Spring Boot.ShaoguangaApplication" />
+        <item itemvalue="Application.test07" />
+        <item itemvalue="Application.test06" />
+        <item itemvalue="Application.test02" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\dell\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\MWProject\shaoguan" />
+          <option name="myCopyRoot" value="D:\MWProject\shaoguan" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\MWProject\shaoguan" />
+          <option name="myCopyRoot" value="D:\MWProject\shaoguan" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a7b2ae9-1135-40ca-a7d5-1f1aad5aa399" name="Default Changelist" comment="" />
+      <created>1618282317897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618282317897</updated>
+      <workItem from="1618282320556" duration="28200000" />
+      <workItem from="1618359167307" duration="34190000" />
+      <workItem from="1618397648947" duration="2592000" />
+      <workItem from="1618446164706" duration="24257000" />
+      <workItem from="1618532516869" duration="28336000" />
+      <workItem from="1618723511624" duration="1987000" />
+      <workItem from="1618791364725" duration="38998000" />
+      <workItem from="1618878437043" duration="17029000" />
+      <workItem from="1618963955918" duration="19727000" />
+      <workItem from="1619050689450" duration="28527000" />
+      <workItem from="1619137232789" duration="13913000" />
+      <workItem from="1619168303607" duration="4164000" />
+      <workItem from="1619310119981" duration="8960000" />
+      <workItem from="1619395962862" duration="1474000" />
+      <workItem from="1619406641241" duration="64000" />
+      <workItem from="1619407382965" duration="2064000" />
+    </task>
+    <task id="LOCAL-00001" summary="定时获取状态报告并推送">
+      <created>1618400044029</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618400044029</updated>
+    </task>
+    <task id="LOCAL-00002" summary="pom.xml文件提交">
+      <created>1618446324301</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618446324302</updated>
+    </task>
+    <task id="LOCAL-00003" summary="代码修改调整">
+      <created>1618468368871</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618468368871</updated>
+    </task>
+    <task id="LOCAL-00004" summary="代码修改调整">
+      <created>1618468647463</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618468647463</updated>
+    </task>
+    <task id="LOCAL-00005" summary="请求边界带上用户名和密码">
+      <created>1618482256462</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618482256462</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修改代码规范">
+      <created>1618534073580</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618534073580</updated>
+    </task>
+    <task id="LOCAL-00007" summary="代码规范调整">
+      <created>1618536106801</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1618536106801</updated>
+    </task>
+    <task id="LOCAL-00008" summary="评审后代码修改">
+      <created>1618562313229</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1618562313229</updated>
+    </task>
+    <task id="LOCAL-00009" summary="全局常量类">
+      <created>1618799829110</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1618799829110</updated>
+    </task>
+    <task id="LOCAL-00010" summary="评审代码修改">
+      <created>1618829009010</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1618829009010</updated>
+    </task>
+    <task id="LOCAL-00011" summary="评审后代码修改">
+      <created>1618830281040</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1618830281040</updated>
+    </task>
+    <task id="LOCAL-00012" summary="评审代码修改">
+      <created>1618836057449</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1618836057449</updated>
+    </task>
+    <task id="LOCAL-00013" summary="删除文件改为递归删除">
+      <created>1618885225645</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1618885225645</updated>
+    </task>
+    <task id="LOCAL-00014" summary="配置文件添加注解">
+      <created>1618886403197</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1618886403197</updated>
+    </task>
+    <task id="LOCAL-00015" summary="常量添加注解">
+      <created>1618888047867</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1618888047867</updated>
+    </task>
+    <task id="LOCAL-00016" summary="代码修改调整">
+      <created>1618889645719</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1618889645719</updated>
+    </task>
+    <task id="LOCAL-00017" summary="自测bug修改">
+      <created>1618972263227</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1618972263227</updated>
+    </task>
+    <task id="LOCAL-00018" summary="请求边界参数urlencode加密">
+      <created>1618995064726</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1618995064726</updated>
+    </task>
+    <task id="LOCAL-00019" summary="加非空判断">
+      <created>1619072340355</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1619072340355</updated>
+    </task>
+    <task id="LOCAL-00020" summary="定时任务配置文件参数加校验">
+      <created>1619079228681</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1619079228681</updated>
+    </task>
+    <task id="LOCAL-00021" summary="获取状态报告bug修改">
+      <created>1619086948232</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1619086948233</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="定时获取状态报告并推送" />
+    <MESSAGE value="pom.xml文件提交" />
+    <MESSAGE value="代码修改" />
+    <MESSAGE value="请求边界带上用户名和密码" />
+    <MESSAGE value="修改代码规范" />
+    <MESSAGE value="代码规范调整" />
+    <MESSAGE value="全局常量类" />
+    <MESSAGE value="评审后代码修改" />
+    <MESSAGE value="评审代码修改" />
+    <MESSAGE value="删除文件改为递归删除" />
+    <MESSAGE value="配置文件添加注解" />
+    <MESSAGE value="常量添加注解" />
+    <MESSAGE value="代码修改调整" />
+    <MESSAGE value="bug修改" />
+    <MESSAGE value="自测bug修改" />
+    <MESSAGE value="请求边界参数urlencode加密" />
+    <MESSAGE value="加非空判断" />
+    <MESSAGE value="定时任务配置文件参数加校验" />
+    <MESSAGE value="获取状态报告bug修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="获取状态报告bug修改" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/shaoguanga/src/test/java/test04.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/shaoguanga/src/main/java/com/montnets/shaoguanga/controller/SendController.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/shaoguanga/src/test/java/test03.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/shaoguanga/src/test/java/test05.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/shaoguanga/src/main/java/com/montnets/shaoguanga/scheduled/DelRptBakFileScheduled.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/shaoguanga/src/test/java/test06.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/shaoguanga/src/test/java/test06.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/shaoguanga/src/test/java/test06.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/shaoguanga/src/main/java/com/montnets/shaoguanga/scheduled/DelRptBakFileScheduled.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/shaoguanga/src/main/java/com/montnets/shaoguanga/scheduled/DelRptBakFileScheduled.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/shaoguanga/src/main/java/com/montnets/shaoguanga/scheduled/RptPushScheduled.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/shaoguanga/src/main/java/com/montnets/shaoguanga/scheduled/RptRePushScheduled.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shaoguanga/src/main/java/com/montnets/shaoguanga/scheduled/RptPushScheduled.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shaoguanga/src/main/java/com/montnets/shaoguanga/scheduled/RptPushScheduled.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shaoguanga/src/main/java/com/montnets/shaoguanga/service/HttpService.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shaoguanga/src/main/java/com/montnets/shaoguanga/service/SendService.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shaoguanga/src/main/java/com/montnets/shaoguanga/service/SendService.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

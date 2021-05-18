@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script>
+		function showwww()
+		{
+			var paddd=window.parent;
+			var docUrl = window.location.href;
+			var index=0;
+			while(paddd.location.href!=docUrl && index<6)
+			{
+				docUrl=paddd.location.href;
+				paddd=paddd.parent;
+				index++;
+			}
+			if(paddd.document.getElementById("logoutalert")!=null)
+			{
+				paddd.document.getElementById("logoutalert").value = 1;
+			}
+			docUrl = paddd.location.href;
+			var urls = docUrl.split("/");
+			if(urls.length == 5)
+			{
+				if(urls[4]!="systemManage.htm?method=toSkip")
+				{
+					urls[3] = "";
+				}
+			}
+			docUrl = urls[0] + "//" + urls[2] + "/" + urls[3];
+			var langName = EMP_Cookie.get("emp_lang")||"zh_CN";
+			if("zh_TW"==langName){
+			alert("請重新登錄！");
+			}else if("zh_HK"==langName){
+			alert("please login!");
+			}else{
+			alert("请重新登录！");
+			}
+			paddd.location.href=docUrl;
+		}
+		(EMP_Cookie = {
+ 			add:function(key,value){document.cookie = key + "="+ escape (value) + ";expires=Tue, 19 Jan 2038 00:01:11 GMT";},
+  			del:function(key){document.cookie=key+"= ; expires=Sat, 01 Sep 2001 00:00:00 GMT";},
+  			get:function(key){var arr,reg=new RegExp("(^| )"+key+"=([^;]*)(;|$)");if(arr=document.cookie.match(reg))return unescape(arr[2]);else return null;}
+   		});
+		</script>
+	</head>
+	<body onload='showwww()'>
+	</body>
+</html>

@@ -1,0 +1,9 @@
+#aud_installtree .aud_installtree_body{
+	margin:0;
+	padding:0;
+	border: 1;
+}
+
+#aud_installtree .tree2{
+	width:200px;
+}

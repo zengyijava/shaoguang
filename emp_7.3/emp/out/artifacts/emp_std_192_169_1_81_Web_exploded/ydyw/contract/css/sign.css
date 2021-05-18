@@ -1,0 +1,39 @@
+#taocan{
+	float:left;
+	padding:8px 2px 10px;
+	background: #f1f1f9;
+	position:relative;
+	z-index:1;
+}
+#condition table tr .tdw{width:230px;}
+#taocan .btnClass1,#dropMenu .btnClass1{width:48px;border:none;height:24px;}
+#condition table tr td #cli-dep{width:186px;padding-right: 24px;}
+#taocan .serach-box{float: left;margin-left:0;width:212px;}
+#taocan .serach-box #serach-sel{float: left;width:70px;}
+#taocan .serach-box input{width:75px;/*margin-right: 6px;*/float:right;}
+#taocan .serach-box a{float:right;width:54px;height:22px;background: url('images/but-bg.png') no-repeat -168px 0%}
+.btn-submit{width:790px;text-align: center;}
+#condition table{width:100%;border:none;background: none;}
+#condition table .c_selectBox{float:left;}
+#condition table .caption{font-weight:bold;text-align: right;padding-right:0;}
+#condition table .hr-wrap{padding-left:0;}
+#condition table .hr{border-bottom:none;margin-top:6px;}
+#condition .label-td{width:100px;text-align: right;}
+#condition table tr td input,#condition table tr td select{width:210px;}
+#condition table tr td .no-blank{margin-left:2px;font-size: 16px;color:red;}
+#condition .radio-input{width:auto;vertical-align: middle;border: none;}
+#condition table tr td label{float:left;height:100%;line-height:100%;margin-right: 20px;}
+#phone-list{
+	position: absolute;
+	list-style: none;
+	border: 1px solid;
+	width:178px;
+	padding:0 2px;
+	line-height: 24px;
+	height:72px;
+	background: white;
+	display: none;
+	overflow-y:auto;
+	overflow-x:hidden;  
+}
+.zs-right .state{color:red;}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="uploadify.css">
+</head>
+<body>
+	<div id="file_upload_1" class="uploadify" style="height: 30px; width: 120px;">
+		<div id="file_upload_1-button" class="uploadify-button " style="height: 30px; line-height: 30px; width: 120px;"><span class="uploadify-button-text">SELECT FILES</span></div></div>
+	<script src="myjquery-k.js"></script>
+	<script src="jquery.uploadify.min.js"></script>
+	<script>
+		$(function() {
+		    $("#file_upload_1").uploadify({
+		        height        : 30,
+		        swf           : 'uploadify.swf',
+		        uploader      : 'uploadify.php',
+		        width         : 120
+		    });
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+@charset "utf-8";
+body
+{
+	background-image: url(images/wood_bg.png);
+	background-repeat: repeat-y;
+}
+table {
+	/*background-color: #f1f1f9 ;
+	background-image: url(images/bg_left.png);
+	background-repeat: no-repeat;*/
+	background:none;
+}
+
+/*通用边框色*/
+.div_bd {
+	border-color: #b3caee;
+}
+
+.menu_top {
+	color: #FFFFFF;
+	/*background: url(images/menu_top_bg.png) no-repeat #FFF;*/
+}
+
+.mune_show {
+	color: #5c4213;
+	font-size: 14px;
+	background-image: url(images/line.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+.mune_show.open {
+	background: url(images/menu_2_bg.png) 0px 0px no-repeat;
+	color: #FFFFFF;
+}
+
+.mune_show span
+{
+	line-height: 40px;
+	height: 40px;
+	font-size: 14px;
+	width:100%;
+	display:block;
+	background: url(images/icon_right.gif) 24px 12px no-repeat;
+}
+.mune_show.open span {
+	background: url(images/icon_down_sel.gif) 24px 12px no-repeat;
+}
+#modIndex .mune_show span
+{
+	 background: none;
+}
+#userDiv
+{
+	background-image: url(images/line.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+#sider .mune_hidden li a.li_a_hover {
+	/*background-color:#c6e5ff;*/
+	
+	
+	background : none;
+}
+#sider .mune_hidden li.lihover{
+background-color:#e8c898;
+}
+.mune_show.li_a_hover {
+	background-color:#e8c898;
+}
+
+.higehLisght {
+	/*color: #ffa200 !important;*/
+	background-color: #F9F4E4 !important;
+	text-decoration: none;
+}
+#sider .mune_hidden li a.li_a_hover.higehLisght {
+	/*color: #2c2c2c !important;*/
+	background-color: #F9F4E4 !important;
+	text-decoration: none;
+}
+.mune_hidden 
+{
+	color : #2c2c2c;
+	background-color: #F2DAB6;
+	background-image: url(images/line.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+#userInfo
+{
+	background-image: url(images/user_info.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+#photo
+{
+	display:block;
+	width:62px;
+	height:62px;
+	background: url(images/photo.png) no-repeat;
+}

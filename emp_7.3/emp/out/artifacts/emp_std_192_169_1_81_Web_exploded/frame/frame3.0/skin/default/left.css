@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+table {
+	background-color: #f1f1f9 ;
+}
+
+/*通用边框色*/
+.div_bd {
+	border-color: #b3caee;
+}
+
+.menu_top {
+	color: #FFFFFF;
+	background: url(images/menu_top_bg.png) no-repeat #FFF;
+}
+
+.mune_show {
+	color: #333;
+	background: url(images/menu_2_left.gif) 15px 8px no-repeat;
+}
+.mune_show.open {
+	background: url(images/menu_2_down.gif) 15px 8px no-repeat;
+}
+
+#sider .mune_hidden li a.li_a_hover {
+	background-color:#eaf0fa;
+}
+
+.mune_show.li_a_hover {
+	background-color:#eaf0fa;
+}
+
+.higehLisght {
+	color: #124ea0 !important;
+	background-color: #dfe9f9 !important;
+}
+#sider .mune_hidden li a.li_a_hover.higehLisght {
+	color: #124ea0 !important;
+	background-color: #dfe9f9 !important;
+}

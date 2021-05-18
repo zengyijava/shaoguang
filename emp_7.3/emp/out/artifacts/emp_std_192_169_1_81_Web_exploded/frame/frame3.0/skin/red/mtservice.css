@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+#arrow
+{
+	background-image: url(images/arrow.jpg);
+}
+
+.linebgimg1{
+	background-image: url(images/addmt1.png)	
+}
+.linebgimg2{
+	background-image: url(images/addmt2.png)	
+}
+.linebgimg3{
+	background-image: url(images/addmt3.png)	
+}
+.linebgimg4{
+	background-image: url(images/addmt4.png)	
+}

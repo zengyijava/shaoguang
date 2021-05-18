@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<statisticals>
+    <statisticalList>      
+		<statistical zwName="/不" enName="/no" src="f001.png"></statistical>
+		<statistical zwName="/好" enName="/ok" src="f002.png"></statistical>
+		<statistical zwName="/喇叭" enName="/lb" src="f003.png"></statistical>
+		<statistical zwName="/拜拜" enName="/bb" src="f004.png"></statistical>
+		<statistical zwName="/拜托" enName="/bt" src="f005.png"></statistical>
+		<statistical zwName="/悲伤" enName="/bshang" src="f006.png"></statistical>
+		<statistical zwName="/鄙视" enName="/bshi" src="f007.png"></statistical>
+		<statistical zwName="/闭嘴" enName="/bz" src="f008.png"></statistical>		
+		<statistical zwName="/擦汗" enName="/ch" src="f009.png"></statistical>
+		<statistical zwName="/感动" enName="/gd" src="f010.png"></statistical>
+		
+		<statistical zwName="/呲牙" enName="/zy" src="f011.png"></statistical>
+		<statistical zwName="/大哭" enName="/dk" src="f012.png"></statistical>
+		<statistical zwName="/大笑" enName="/dx" src="f013.png"></statistical>
+		<statistical zwName="/疑惑" enName="/yh" src="f014.png"></statistical>
+		<statistical zwName="/蛋糕" enName="/dg" src="f015.png"></statistical>
+		<statistical zwName="/得意" enName="/dy" src="f016.png"></statistical>
+		<statistical zwName="/度假" enName="/dj" src="f017.png"></statistical>
+		<statistical zwName="/发呆" enName="/fd" src="f018.png"></statistical>
+		<statistical zwName="/发怒" enName="/fn" src="f019.png"></statistical>		
+		<statistical zwName="/飞吻" enName="/fw" src="f020.png"></statistical>
+		
+		<statistical zwName="/鼓掌" enName="/gz" src="f021.png"></statistical>
+		<statistical zwName="/害羞" enName="/hx" src="f022.png"></statistical>
+		<statistical zwName="/憨笑" enName="/hanx" src="f023.png"></statistical>
+		<statistical zwName="/喝茶" enName="/hch" src="f024.png"></statistical>
+		<statistical zwName="/坏笑" enName="/huaix" src="f025.png"></statistical>
+		<statistical zwName="/饥饿" enName="/jie" src="f026.png"></statistical>
+		<statistical zwName="/惊恐" enName="/jk" src="f027.png"></statistical>
+		<statistical zwName="/瞌睡" enName="/ksh" src="f028.png"></statistical>
+		<statistical zwName="/可怜" enName="/kl" src="f029.png"></statistical>		
+		<statistical zwName="/菜刀" enName="/cd" src="f030.png"></statistical>
+		
+		
+		<statistical zwName="/流汗" enName="/lh" src="f031.png"></statistical>
+		<statistical zwName="/没办法" enName="/mbf" src="f032.png"></statistical>
+		<statistical zwName="/呕吐" enName="/outu" src="f033.png"></statistical>
+		<statistical zwName="/抛媚眼" enName="/pmy" src="f034.png"></statistical>	
+		<statistical zwName="/干杯" enName="/gb" src="f035.png"></statistical>
+		<statistical zwName="/强" enName="/qiang" src="f036.png"></statistical>
+		<statistical zwName="/打哈欠" enName="/dhq" src="f037.png"></statistical>
+		<statistical zwName="/亲吻" enName="/qw" src="f038.png"></statistical>		
+		<statistical zwName="/弱" enName="/ruo" src="f039.png"></statistical>
+		<statistical zwName="/色" enName="/se" src="f040.png"></statistical>
+		
+		<statistical zwName="/吐舌" enName="/tsh" src="f041.png"></statistical>
+		<statistical zwName="/胜利" enName="/shl" src="f042.png"></statistical>
+		<statistical zwName="/听音乐" enName="/tyy" src="f043.png"></statistical>
+		<statistical zwName="/偷笑" enName="/tx" src="f044.png"></statistical>	
+		<statistical zwName="/微笑" enName="/wx" src="f045.png"></statistical>
+		<statistical zwName="/为难" enName="/wn" src="f046.png"></statistical>
+		<statistical zwName="/委屈" enName="/wq" src="f047.png"></statistical>
+		<statistical zwName="/握手" enName="/wsh" src="f048.png"></statistical>		
+		<statistical zwName="/无聊" enName="/wl" src="f049.png"></statistical>
+		<statistical zwName="/无奈" enName="/wun" src="f050.png"></statistical>	
+	
+		<statistical zwName="/吓唬" enName="/xh" src="f051.png"></statistical>
+		<statistical zwName="/想到了" enName="/xdl" src="f052.png"></statistical>
+		<statistical zwName="/思考" enName="/sk" src="f053.png"></statistical>
+		<statistical zwName="/小声" enName="/xsh" src="f054.png"></statistical>	
+		<statistical zwName="/咬牙" enName="/yy" src="f055.png"></statistical>
+		<statistical zwName="/疑问" enName="/yw" src="f056.png"></statistical>
+		<statistical zwName="/郁闷" enName="/ym" src="f057.png"></statistical>
+		<statistical zwName="/晕" enName="/yun" src="f058.png"></statistical>		
+		<statistical zwName="/折磨" enName="/zhm" src="f059.png"></statistical>
+		<statistical zwName="/大骂" enName="/dm" src="f060.png"></statistical>	
+    </statisticalList>
+</statisticals>
+
+

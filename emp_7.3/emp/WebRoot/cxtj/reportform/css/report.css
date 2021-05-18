@@ -1,0 +1,46 @@
+[v-cloak] {
+    display: none;
+}
+
+.reportForm {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.top_btn {
+    margin-bottom: 40px;
+}
+
+.top_left_btn {
+    margin-left: 5px;
+    float: left;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.top_right_btn {
+    margin-right: 5px;
+    float: right;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.bottom {
+    margin-top: 25px;
+    float: right;
+}
+
+.popBox {
+    float: left;
+    width: 100%;
+}
+
+.defaultWidth {
+    width: 150px;
+}
+
+.focus {
+    border: 1px solid #409EFF;
+}
+
+

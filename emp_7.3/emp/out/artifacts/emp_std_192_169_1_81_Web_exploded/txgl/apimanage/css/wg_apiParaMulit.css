@@ -1,0 +1,41 @@
+#wg_apiParaMulit .toggleDiv_up_div{
+	height: 30px;
+}
+
+#wg_apiParaMulit .getloginUser{
+	padding:5px;
+	display:none;
+}
+
+#wg_apiParaMulit .funName{
+	width:158px;
+}
+
+#wg_apiParaMulit .argName{
+	width:154px;
+}
+
+#wg_apiParaMulit .cmdType{
+	width:158px;
+}
+
+#wg_apiParaMulit .startdate{
+	cursor: pointer; 
+	width: 152px; 
+	background-color: white;
+}
+
+#wg_apiParaMulit .enddate{
+	cursor: pointer; 
+	width: 152px; 
+	background-color: white;
+}
+
+#wg_apiParaMulit .cjsj_th{
+	width: 10%;
+}
+
+#wg_apiParaMulit .xgsj_th{
+	width: 10%;
+}
+

@@ -1,0 +1,32 @@
+/deep/ *{
+  font-size: 12px;
+  color: #222;
+}
+@lightGray: #888;
+img{
+  vertical-align: bottom;
+}
+.clear-fix{
+  &:before, &:after{
+    display: table;
+    content: '';
+    clear: both;
+  }
+}
+.tip-box{
+  padding: 12px 20px;
+  background-color: #f4f4f5;
+  border-radius: 2px;
+  .title{
+    font-size: 14px;
+    color: #666;
+  }
+  ol{
+    padding-left: 12px;
+    margin: 5px 0 0;
+    li{
+      line-height: 20px;
+      color: @lightGray;
+    }
+  }
+}

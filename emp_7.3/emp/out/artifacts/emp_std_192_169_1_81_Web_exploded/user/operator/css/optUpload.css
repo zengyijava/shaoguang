@@ -1,0 +1,96 @@
+.shuoming {
+	margin-top: 10px;
+	width: 796px;
+	height: 204px;
+	/* background-color: rgba(247, 251, 255, 1); */
+	border: 1px solid rgba(204, 204, 204, 1);
+	width: 796px;
+}
+
+.shuoming .shuoming_content {
+	border-width: 0px;
+	margin-left: 30px;
+	margin-top: 30px;
+	width: 376px;
+	word-wrap: break-word;
+}
+
+.shuoming .shuoming_content p {
+	font-family: 'Arial Normal', 'Arial';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+	color: #333333;
+	text-align: left;
+	line-height: normal;
+}
+
+.dr_jl .dr_jilu_con {
+	margin-top: 20px;
+}
+
+.daoru_text {
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	color: #333333;
+	text-align: left;
+	line-height: normal;
+}
+
+.ywmc_mh_td {
+	width: 100px;
+}
+
+.addDiv_table {
+	margin-top: 10px;
+}
+
+.addsubmit_td {
+	height: 60px;
+	text-align: center;
+}
+
+#erroDataTab {
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-right: 20px;
+	text-align: center;
+	border: 1px solid #bbb8b8;
+	font-family: 'Arial Normal', 'Arial';
+	font-weight: normal;
+}
+
+#erroDataTab tr th {
+	padding: 5px;
+}
+
+#erroDataTab tr td {
+	padding: 5px;
+	align：center
+}
+
+.tr1 {
+	background-color: #efefef;
+}
+
+/* .ths1 {
+	width: 80px;
+} */
+
+.ths2 {
+	width: 300px;
+}
+.btnDiv{
+	float: right;
+}
+.erroDisplay{
+	color: #0e5ad1;
+}
+/*
+.erroHidden{
+	display: none;
+}  */
+

@@ -1,0 +1,24 @@
+#spb_setAlarm .inpstyle {
+	width: 280px;
+}
+
+#spb_setAlarm .inpstyle1 {
+	width: 136px;
+}
+
+#spb_setAlarm .a3 {
+	width: 35px;
+	height: 21px;
+	border: 0;
+	text-align: center;
+	background: white;
+}
+
+#spb_setAlarm .channel_item {
+	width: 480px;
+}
+
+#spb_setAlarm .templates{
+	display:none;
+}
+

@@ -1,0 +1,97 @@
+@import "variables";
+
+.el-form-item {
+  margin-bottom: 10px;
+  .form-item-title {
+    display: block;
+    line-height: 28px;
+  }
+  .description {
+    margin-top: 10px;
+    font-size: 12px;
+    color: @grey;
+    line-height: normal;
+  }
+}
+
+.el-input-number {
+  .el-input__inner {
+    text-align: left !important;
+  }
+}
+
+.el-color-picker {
+  .el-color-picker__trigger {
+    border: none;
+    width: 60px;
+    height: 40px;
+    padding-left: 0;
+    .el-color-picker__color {
+      border-color: @border;
+    }
+    .el-icon-arrow-down {
+      display: none;
+    }
+  }
+}
+
+.el-tabs--border-card {
+  box-shadow: none;
+  > .el-tabs__content {
+    padding: 8px 0;
+  }
+}
+
+.input-group {
+  .el-input-number {
+    width: 100px;
+    margin-left: 4px;
+  }
+}
+
+.in-line {
+  margin: 0;
+  .el-dropdown {
+    .el-button--medium {
+      padding: 8px 12px;
+      .el-icon--right {
+        margin-left: 12px;
+      }
+    }
+  }
+  .el-button--small {
+    width: 32px;
+    height: 32px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 6px;
+    & + .el-button--small {
+      margin: 2px;
+    }
+  }
+}
+.el-slider__bar {
+  height: 4px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.el-slider__runway {
+  height: 4px;
+  border-radius: 2px;
+}
+.el-slider__button-wrapper {
+  top: -16px;
+  .el-slider__button {
+    width: 10px;
+    height: 10px
+  }
+}
+
+.el-dropdown-menu {
+  &.font-size-menu {
+    .el-dropdown-menu__item {
+      padding-left: 28px;
+      padding-right: 28px;
+    }
+  }
+}

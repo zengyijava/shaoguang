@@ -1,0 +1,23 @@
+#cli_unbindCliSysusers .client_td1{
+	text-align:left;
+}
+#cli_unbindCliSysusers #depName{
+	cursor: pointer;
+}
+#cli_unbindCliSysusers .client_iframe{
+	position: absolute; 
+	z-index: -1; 
+	width: 100%; 
+	height: 100%; 
+	top: 0; 
+	left: 0; 
+	scrolling: no;
+}
+#cli_unbindCliSysusers .client_div1{
+	margin-top: 3px;
+	margin-right:10px;
+	text-align:right;
+}
+.display_none,#cli_unbindCliSysusers .buttons{
+	display: none;
+}

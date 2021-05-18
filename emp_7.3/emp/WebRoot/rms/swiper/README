@@ -1,0 +1,6 @@
+1. 安装nodejs: https://nodejs.org/en/
+2. 打开命令行程序，切换到当前工程的根路径
+3. > npm install安装gulp及插件
+4. > gulp将app中的文件合并压缩后打包到dist文件夹中
+
+最终分发dist文件夹的文件

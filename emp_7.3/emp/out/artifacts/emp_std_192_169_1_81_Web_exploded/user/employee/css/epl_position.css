@@ -1,0 +1,13 @@
+#epl_position .buttons{
+	height: 30px;
+}
+#epl_position #getloginUser,#addPres,#updPres{
+	padding:5px;
+	display:none;
+}
+#epl_position .user_div1{
+	clear:right;
+}
+#epl_position #addN,#updN{
+	width: 150px;
+}

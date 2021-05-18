@@ -1,0 +1,23 @@
+按顺序进行下面5步操作:
+1.创建数据库(字符集必须为GBK，页面大小至少为16K)
+2.创建用户,并赋予DBADM,CREATETAB,BINDADD,CONNECT,CREATE_NOT_FENCED_ROUTINE,IMPLICIT_SCHEMA,LOAD,CREATE_EXTERNAL_ROUTINE,QUIESCE_CONNECT,SECADM权限
+3.创建表空间(执行"000-创建表空间.txt"),注意表空间文件的路径("D:\DB2\NODE0000\EMPJH"这个路径是DB2数据库，库名EMPJH所在的路径）
+4.按从小到大的顺序执行脚本。
+
+注意:
+执行表空间创建脚本时需要注意什么？
+答：
+1.注意创建的数据库的字符集必须为GBK,缓冲池和表空间页大小至少为16K,存储模式为自动存储（让DB2管理存储器）.
+2.创建数据库则执行“000-创建表空间.sql”
+3.注意执行用户是否具有创建和修改表空间的权限
+
+
+根据业务需求以及数据量需要更改事务日志大小  
+修改例句：
+update db cfg for EMPJH  using    LOGFILSIZ 80960;
+update db cfg for EMPJH  using    LOGPRIMARY 156 ;
+update db cfg for EMPJH  using    LOGSECOND 100 ;
+
+"EMPJH"为数据库名
+
+

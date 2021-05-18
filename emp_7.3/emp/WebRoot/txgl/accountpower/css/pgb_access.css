@@ -1,0 +1,84 @@
+#pgb_access .rContent{
+	padding:5p 0x;
+}
+
+#pgb_access .binddiv{
+	display:none;
+}
+
+#pgb_access .binddiv_table{
+	width:100%px; 
+	text-align: left;
+	margin-top: 10px;
+}
+
+#pgb_access .binddiv_table_tr{
+	width:50%; 
+	height:30px;
+}
+
+#pgb_access .binddiv_table_tr_div{
+	width:220px;
+	padding-bottom:2px; 
+}
+
+#pgb_access .binddiv_table_tr_div_h3{
+	font-size:12px;
+	height: 26px;
+	line-height: 26px;
+}
+
+#pgb_access .czy_td{
+	width:50%;
+	height:30px;
+	padding-left: 10px;
+}
+
+#pgb_access .czy_div{
+	width:220px; 
+	padding-bottom:2px;
+}
+
+#pgb_access .czy_div_h3{
+	font-size:12px;
+	height: 26px;
+	line-height: 26px;
+}
+
+#pgb_access .SpUser_td{
+	width:50%; 
+	vertical-align: top;
+	word-break: break-all;
+	padding-right: 10px;
+}
+
+#pgb_access .SpUser_div{
+	height:350px;
+	padding-top: 10px;
+	padding-left: 10px;
+	overflow-y:auto;
+}
+
+#pgb_access .userName_td{
+	width:50%; 
+	vertical-align: top;
+	word-break: break-all; 
+	padding-left: 10px;
+}
+
+#pgb_access .userDiv{
+	width:220px;
+	height:350px; 
+	padding: 5px;
+	overflow-y: auto;
+}
+
+#pgb_access .dropdownMenu2_down_tr_td{
+	height: 10px;
+}
+
+#pgb_access .bind{
+	padding-left: 8px;
+	letter-spacing: 5px;
+}
+

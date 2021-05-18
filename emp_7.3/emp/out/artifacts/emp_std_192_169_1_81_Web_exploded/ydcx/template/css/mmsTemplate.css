@@ -1,0 +1,417 @@
+.btnMatel {
+	background: url(images/matel.png) no-repeat;
+	width: 74px;
+	height: 24px;
+	text-align: right;
+	border: 0;
+	display: inline;
+	cursor: pointer;
+	font-size: 12px;
+	padding-right: 4px;
+}
+
+.btnImage {
+	background: url(images/addImage.png) no-repeat;
+	width: 74px;
+	height: 24px;
+	text-align: right;
+	border: 0;
+	display: inline;
+	cursor: pointer;
+	font-size: 12px;
+	padding-right: 4px;
+}
+
+.btnMusic {
+	background: url(images/addMusic.png) no-repeat;
+	width: 74px;
+	height: 24px;
+	text-align: right;
+	border: 0;
+	display: inline;
+	cursor: pointer;
+	font-size: 12px;
+	padding-right: 4px;
+}
+
+.btnMatel.btnHover {
+	background: url(images/matel_hover.png) no-repeat;
+}
+
+.btnImage.btnHover {
+	background: url(images/addImage_hover.png) no-repeat;
+}
+
+.btnMusic.btnHover {
+	background: url(images/addMusic_hover.png) no-repeat;
+}
+
+.hasImage {
+	background: url(images/hasImage.png) no-repeat;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+}
+
+.hasMusic {
+	background: url(images/hasMusic.png) no-repeat;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+}
+
+.moveUp {
+	background: url(images/moveUp.png) #7e8081;
+	width: 12px;
+	height: 10px;
+	text-align: right;
+	border: 0;
+	display: inline;
+	cursor: pointer;
+}
+
+.moveDown {
+	background: url(images/moveDown.png) #7e8081;
+	width: 12px;
+	height: 10px;
+	margin-left: 15px;
+	text-align: center;
+	border: 0;
+	display: inline;
+	cursor: pointer;
+}
+
+.deleteFrame {
+	background: url(images/deleteFrame.png);
+	width: 15px;
+	height: 15px;
+	text-align: right;
+	top: -10px;
+	right: -10px;
+	border: 0;
+	display: inline;
+	cursor: pointer;
+}
+
+.floatFrame {
+	background: #7e8081;
+	width: 58px;
+	height: 16px;
+	position: absolute;
+	z-index: 3;
+	filter: Alpha(Opacity =80);
+	left: 0px;
+	bottom: 0px;
+	border: 0px;
+	display: none;
+}
+
+.floatDel {
+	background: #eff1f3;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	z-index: 3;
+	filter: Alpha(Opacity =80);
+	right: -6px;
+	top: -6px;
+	border: 0px;
+	display: none;
+}
+
+.textFrame {
+	font-size: 14px;
+	text-align: left;
+	position: absolute;
+	z-index: 1;
+	width: 58px;
+	height: 50px;
+	bottom: 0px;
+	left: 0px;
+	filter: Alpha(Opacity =80);
+	border: 0px;
+}
+
+#ydcx_mmsTemplate #mmsFrame{
+	padding: 5px;
+	width: 300px;
+	height: 160px;
+	display: none;
+	word-wrap: break-word;
+	word-break: break-all;
+	overflow-y: auto;
+}
+#ydcx_mmsTemplate .ydcx_modify {
+	padding: 5px;
+	width: 300px;
+	height: 160px;
+	display: none;
+	word-wrap: break-word;
+	word-break: break-all;
+	overflow-y: auto;
+}
+
+#ydcx_mmsTemplate .ydcx_msg {
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+}
+
+#ydcx_mmsTemplate   .ydcx_tempView_sub {
+	float: left;
+	width: 250px;
+	margin-left: 30px;
+	display: inline;
+}
+
+#ydcx_mmsTemplate .ydcx_mobile {
+	width: 240px;
+	height: 470px;
+	position: absolute;
+	background: url('../../../common/img/iphone5.jpg') no-repeat;
+}
+
+#ydcx_mmsTemplate .ydcx_pers {
+	position: relative;
+	margin-top: 90px;
+	border: 1px #09F solid;
+	text-align: left;
+	display: none;
+	width: 180px;
+	height: 13px;
+	background-color: #FFFFFF;
+}
+
+#ydcx_mmsTemplate .ydcx_showtime {
+	position: absolute;
+	width: 140px;
+	height: 13px;
+	text-align: center;
+}
+
+#ydcx_mmsTemplate   .ydcx_chart {
+	position: absolute;
+	left: 0px;
+	background-color: #00ffdd;
+	width: 0px;
+	height: 13px;
+	text-align: right;
+	padding-top: 0px;
+}
+
+#ydcx_mmsTemplate .ydcx_screen {
+	position: relative;
+	width: 189px;
+	height: 240px;
+	background: #ffffff;
+	margin-left: 23px;
+	margin-top: 95px;
+	overflow: auto;
+	padding: 2px;
+	word-break: break-all;
+}
+
+#ydcx_mmsTemplate .ydcx_pointer {
+	vertical-align: bottom;
+}
+
+#ydcx_mmsTemplate .ydcx_nextpage {
+	vertical-align: bottom;
+}
+
+#ydcx_mmsTemplate .ydcx_currentpage {
+	vertical-align: bottom;
+}
+
+#ydcx_mmsTemplate .ydcx_inputParamCnt1 {
+	margin-top: 10px;
+	margin-left: 280px;
+}
+
+#ydcx_mmsTemplate .ydcx_getloginUser {
+	padding: 5px;
+	display: none;
+}
+
+#ydcx_mmsTemplate   #tmCode {
+	width: 178px;
+}
+
+#ydcx_mmsTemplate .ydcx_theme {
+	width: 178px;
+}
+
+#ydcx_mmsTemplate #dsFlag {
+	width: 178px;
+}
+
+#ydcx_mmsTemplate #state {
+	width: 178px;
+}
+
+#ydcx_mmsTemplate #rState {
+	width: 178px;
+}
+
+#ydcx_mmsTemplate #auditStatus {
+	width: 178px;
+}
+
+#ydcx_mmsTemplate #submitstatus {
+	width: 178px;
+}
+
+#ydcx_mmsTemplate #userName {
+	width: 178px;
+}
+
+#ydcx_mmsTemplate .ydcx_flowId {
+	width: 178px;
+}
+
+#ydcx_mmsTemplate #modelTms {
+	display: none;
+	width: 395px;
+}
+
+#ydcx_mmsTemplate .ydcx_main {
+	width: 395px;
+}
+
+#ydcx_mmsTemplate .ydcx_main_sub {
+	padding: 6px;
+	width: 370px;
+}
+
+#ydcx_mmsTemplate .ydcx_upTms_p {
+	width: 120px;
+	float: left;
+}
+
+#ydcx_mmsTemplate   .ydcx_importCode {
+	width: 138px;
+}
+
+#ydcx_mmsTemplate .ydcx_importCode_font {
+	color: red;
+}
+
+#ydcx_mmsTemplate .ydcx_choosefile {
+	width: 120px;
+	float: left;
+}
+
+#ydcx_mmsTemplate .ydcx_filepath {
+	width: 138px;
+	float: left;
+}
+
+#ydcx_mmsTemplate .ydcx_filepath_span {
+	width: 10px;
+	float: left;
+}
+
+#ydcx_mmsTemplate .ydcx_uploadfile {
+	position: relative;
+	float: left;
+	display: block;
+	width: 80px;
+	height: 18px;
+	border: 1px solid #999;
+	background: #eee;
+	text-align: center;
+	line-height: 18px;
+}
+
+#ydcx_mmsTemplate .ydcx_chooseTms {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 82px;
+	height: 20px;
+	opacity: 0;
+	filter: alpha(opacity =           0);
+}
+
+#ydcx_mmsTemplate .ydcx_p1 {
+	margin-top: 5px;
+	color: blue;
+}
+
+#ydcx_mmsTemplate .ydcx_p2 {
+	margin-top: 5px;
+	color: blue;
+}
+
+#ydcx_mmsTemplate .ydcx_p3 {
+	margin-top: 5px;
+	color: blue;
+}
+
+#ydcx_mmsTemplate .ydcx_p4 {
+	float: right;
+	padding-top: 10px;
+}
+
+#ydcx_mmsTemplate .ydcx_detail {
+	padding: 5px;
+	width: 300px;
+	height: 160px;
+	display: none;
+}
+
+#ydcx_mmsTemplate .ydcx_detail_tr1 {
+	padding-top: 2px;
+	margin-bottom: 2px;
+}
+
+#ydcx_mmsTemplate .ydcx_detail_tr2 {
+	padding-top: 2px;
+}
+
+#ydcx_mmsTemplate .ydcx_flowFrame {
+	width: 510px;
+	height: 410px;
+	border: 0;
+}
+
+#ydcx_mmsTemplate .ydcx_flowFrame_tabl_td1 {
+	width: 510px;
+}
+
+#ydcx_mmsTemplate .ydcx_recordTableDiv {
+	width: 100%;
+	padding: 15px 0;
+	display: none;
+}
+
+#ydcx_mmsTemplate .ydcx_recordTable {
+	text-align: center;
+}
+
+#ydcx_mmsTemplate   .ydcx_mmsdetailinfo_sub2 {
+	width: 95%;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	display: none;
+	font-size: 12px;
+	color: blue;
+	padding-left: 25px;
+}
+
+#ydcx_mmsTemplate .ydcx_reviewTableDiv {
+	width: 100%;
+	padding: 15px 0;
+	display: none;
+}
+
+#ydcx_mmsTemplate .ydcx_reviewTable {
+	text-align: center; } #ydcx_mmsTemplate   .ydcx_nextreviewmgs {
+	width: 95%;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	display: none;
+	font-size: 12px;
+	color: blue;
+	padding-left: 25px;
+}

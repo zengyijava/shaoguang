@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<servlet>
+	<description>长连接报备</description>
+	<display-name>短地址</display-name>
+	<servlet-name>keep_recordSvt</servlet-name>
+	<servlet-class>com.montnets.emp.shorturl.surlmanage.servlet.Surl_managerSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>keep_recordSvt</servlet-name>
+	<url-pattern>/keep_record.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>长连接审核</description>
+	<display-name>短地址</display-name>
+	<servlet-name>surl_auditSvt</servlet-name>
+	<servlet-class>com.montnets.emp.shorturl.surlmanage.servlet.Surl_operUrlAuditSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>surl_auditSvt</servlet-name>
+	<url-pattern>/surl_audit.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>StopUrlInitServlet</servlet-name>
+	<servlet-class>com.montnets.emp.shorturl.surlmanage.servlet.StopUrlInitServlet</servlet-class>
+	<load-on-startup>10</load-on-startup>
+</servlet>
+
+<servlet>
+	<description>短连接群发任务查看</description>
+	<display-name>短地址</display-name>
+	<servlet-name>surlTaskRecordSvt</servlet-name>
+	<servlet-class>com.montnets.emp.shorturl.task.servlet.Surl_taskRecordSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>surlTaskRecordSvt</servlet-name>
+	<url-pattern>/surlTaskRecord.htm</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+<description>相同内容短链接发送</description>
+<display-name>短信客服</display-name>
+<servlet-name>url_ssendBatchSMSSvt</servlet-name>
+<servlet-class>com.montnets.emp.shorturl.samesms.servlet.Surl_sendBatchSMSSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>url_ssendBatchSMSSvt</servlet-name>
+<url-pattern>/url_urlSendBatchSMS.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<description>不同内容链接群发</description>
+<display-name>短信客户</display-name>
+<servlet-name>url_ssendDiffSMSSvt</servlet-name>
+<servlet-class>com.montnets.emp.shorturl.diffsms.servlet.Durl_sendDiffSMSSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+
+<servlet-name>url_ssendDiffSMSSvt</servlet-name>
+<url-pattern>/url_urlSendDiffSMS.htm</url-pattern>
+</servlet-mapping>
+<servlet>
+<description>相同内容链接发送预览</description>
+<display-name>短信助手</display-name>
+<servlet-name>urls_previewSMSSvt</servlet-name>
+<servlet-class>com.montnets.emp.shorturl.samesms.servlet.Surl_previewSMSSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>urls_previewSMSSvt</servlet-name>
+<url-pattern>/urls_previewSMS.htm</url-pattern>
+</servlet-mapping>
+<servlet>
+<description>不同内容链接群发预览</description>
+<display-name>短信助手</display-name>
+<servlet-name>urld_previewSMSSvt</servlet-name>
+<servlet-class>com.montnets.emp.shorturl.diffsms.servlet.Durl_previewSMSSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>urld_previewSMSSvt</servlet-name>
+<url-pattern>/urld_previewSMS.htm</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>initurlServlet</servlet-name>
+<servlet-class>com.montnets.emp.shorturl.samesms.servlet.UrlInitServlet</servlet-class>
+<load-on-startup>15</load-on-startup>
+</servlet>
+
+<servlet>
+<description>批次发送统计</description>
+<display-name>短地址报表查询</display-name>
+<servlet-name>Surl_batchSendReportSvt</servlet-name>
+<servlet-class>com.montnets.emp.shorturl.report.servlet.Surl_batchSendReportSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Surl_batchSendReportSvt</servlet-name>
+<url-pattern>/surlBatchRecord.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<description>发送明细查询</description>
+<display-name>短地址报表查询</display-name>
+<servlet-name>Surl_sendDetailReportSvt</servlet-name>
+<servlet-class>com.montnets.emp.shorturl.report.servlet.Surl_sendDetailReportSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Surl_sendDetailReportSvt</servlet-name>
+<url-pattern>/surlSendDetail.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<description>批次访问统计</description>
+<display-name>短地址报表查询</display-name>
+<servlet-name>Surl_batchViewReportSvt</servlet-name>
+<servlet-class>com.montnets.emp.shorturl.report.servlet.Surl_batchViewReportSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Surl_batchViewReportSvt</servlet-name>
+<url-pattern>/surlBatchVisit.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<description>短链发送公共方法</description>
+<display-name>短链应用</display-name>
+<servlet-name>urlcommonSMSSvt</servlet-name>
+<servlet-class>com.montnets.emp.shorturl.samesms.servlet.Surl_commSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>urlcommonSMSSvt</servlet-name>
+<url-pattern>/urlcommonSMS.htm</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+<description>短域名管理</description>
+<display-name>短域名</display-name>
+<servlet-name>url_domainSvt</servlet-name>
+<servlet-class>com.montnets.emp.shorturl.surlmanage.servlet.Surl_domainSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>url_domainSvt</servlet-name>
+<url-pattern>/surl_manage.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<description>短域名绑定管理</description>
+<display-name>短域名绑定管理</display-name>
+<servlet-name>Surl_domainBindSvt</servlet-name>
+<servlet-class>com.montnets.emp.shorturl.surlmanage.servlet.Surl_domainBindSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Surl_domainBindSvt</servlet-name>
+<url-pattern>/surl_bind.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<description>链接访问统计</description>
+<display-name>链接访问统计报表查询</display-name>
+<servlet-name>surlLinkVisitSvt</servlet-name>
+<servlet-class>com.montnets.emp.shorturl.report.servlet.Surl_LinkReportSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>surlLinkVisitSvt</servlet-name>
+<url-pattern>/surlLinkVisit.htm</url-pattern>
+</servlet-mapping>
+<servlet>
+<description>链接访问统计</description>
+<display-name>链接访问统计报表查询</display-name>
+<servlet-name>surlLinkDetailSvt</servlet-name>
+<servlet-class>com.montnets.emp.shorturl.report.servlet.Surl_LinkDetailSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>surlLinkDetailSvt</servlet-name>
+<url-pattern>/surlLinkDetail.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<description>访问明细详情</description>
+<display-name>访问明细详情报表查询</display-name>
+<servlet-name>surlVisitDetailSvt</servlet-name>
+<servlet-class>com.montnets.emp.shorturl.report.servlet.Surl_VisitReportSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>surlVisitDetailSvt</servlet-name>
+<url-pattern>/surlVisitDetail.htm</url-pattern>
+</servlet-mapping>
+<servlet>
+<description>访问明细详情</description>
+<display-name>访问明细详情报表查询</display-name>
+<servlet-name>visitDetailSvt</servlet-name>
+<servlet-class>com.montnets.emp.shorturl.report.servlet.Surl_VisitDetailSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>visitDetailSvt</servlet-name>
+<url-pattern>/visitDetailSvt.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <description>定时转移服务</description>
+   <display-name>定时转移服务</display-name>
+   <servlet-name>SurlTransferSvt</servlet-name>
+   <servlet-class>com.montnets.emp.shorturl.report.servlet.SurlTransferSvt</servlet-class>
+   <load-on-startup>20</load-on-startup>
+</servlet>
+
+
+<servlet>
+<description>短链群发任务查看</description>
+<display-name>短链群发任务查看</display-name>
+<servlet-name>Surl_surlSendedBoxSvt</servlet-name>
+<servlet-class>com.montnets.emp.shorturl.task.servlet.Surl_surlSendedBoxSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Surl_surlSendedBoxSvt</servlet-name>
+<url-pattern>/surl_surlSendedBox.htm</url-pattern>
+</servlet-mapping>

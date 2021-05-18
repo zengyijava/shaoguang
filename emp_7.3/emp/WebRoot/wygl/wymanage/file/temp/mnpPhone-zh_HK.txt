@@ -1,0 +1,4 @@
+cellphoneNumber	NumberPortabilityNetworkType
+13699999999	0001
+18588888888	0121
+18999996666	2101

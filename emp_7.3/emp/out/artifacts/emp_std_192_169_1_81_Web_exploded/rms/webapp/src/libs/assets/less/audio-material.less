@@ -1,0 +1,65 @@
+@import 'variables';
+.audio-add {
+  margin-right: 20px;
+  margin-top: 16px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  background: url('../img/btn_add_one.png') no-repeat;
+}
+.infinite-scroll {
+  width: 100%;
+  ul {
+    background-color: #fafafa;
+    li {
+      height: 50px;
+      line-height: 50px;
+      width: 100%;
+      color: #7f7f7f;
+
+      .audio-index {
+        margin-left: 18px;
+        margin-right: 8px;
+      }
+
+      .audio-name {
+        margin-left: 32px;
+        width: 200px;
+      }
+
+      .audio-duration {
+        margin-right: 14px;
+      }
+
+      &:hover {
+        border-top: solid 1px #f1f1f1;
+        border-bottom: solid 1px #f1f1f1;
+        // box-shadow: 5px 0 5px 5px #f1f1f1;
+        background-color: #fff;
+        color: #3b9cff;
+        height: 48px;
+        line-height: 48px;
+      }
+
+      &:first-child:hover {
+        height: 49px;
+        line-height: 49px;
+        border-top: none;
+      }
+    }
+  }
+  .blank-result {
+    width: 180px;
+    height: 152px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}

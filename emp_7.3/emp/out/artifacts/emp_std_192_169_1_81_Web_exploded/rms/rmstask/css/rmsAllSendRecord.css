@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.showInfo td{
+    padding: 5px;
+}
+
+.showInfo .titleTd{
+    width: 100px;
+}
+#spisuncm,#sendType,#downType{
+    width: 209px!important;
+}

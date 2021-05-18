@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+
+<listener>
+	<listener-class>com.montnets.emp.qyll.servlet.FlowSynchronizeTaskListener</listener-class>
+</listener>
+
+<servlet>
+	<servlet-name>ll_flowOrderSvt</servlet-name>
+	<servlet-class>com.montnets.emp.qyll.servlet.ll_flowOrderSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ll_flowOrderSvt</servlet-name>
+	<url-pattern>/ll_flowOrder.htm </url-pattern>
+	
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>OrderReportServlet</servlet-name>
+	<servlet-class>com.montnets.emp.qyll.servlet.OrderReportServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>OrderReportServlet</servlet-name>
+	<url-pattern>/ll_orderReport.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>OrderHistorySVT</servlet-name>
+	<servlet-class>com.montnets.emp.qyll.servlet.OrderHistorySVT</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>OrderHistorySVT</servlet-name>
+	<url-pattern>/ll_orderHistoryQuest.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>OrderTaskSVT</servlet-name>
+	<servlet-class>com.montnets.emp.qyll.servlet.OrderTaskSVT</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>OrderTaskSVT</servlet-name>
+	<url-pattern>/ll_packageOrderQuest.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>OrderDetailSVT</servlet-name>
+	<servlet-class>com.montnets.emp.qyll.servlet.OrderDetailSVT</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>OrderDetailSVT</servlet-name>
+	<url-pattern>/ll_orderDetails.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>OperatorReportServlet</servlet-name>
+	<servlet-class>com.montnets.emp.qyll.servlet.OperatorReportServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>OperatorReportServlet</servlet-name>
+	<url-pattern>/ll_operatorReport.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>MechanismReportServlet</servlet-name>
+	<servlet-class>com.montnets.emp.qyll.servlet.MechanismReportServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>MechanismReportServlet</servlet-name>
+	<url-pattern>/ll_mechanismReport.htm</url-pattern>
+</servlet-mapping>
+  
+ <servlet>
+	<servlet-name>AccountManageServlet</servlet-name>
+	<servlet-class>com.montnets.emp.qyll.servlet.AccountManageServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>AccountManageServlet</servlet-name>
+	<url-pattern>/ll_accountManage.htm</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<description>流量接口中转</description>
+	<display-name>流量接口中转</display-name>
+	<servlet-name>EntFlowDataServlet</servlet-name>
+	<servlet-class>com.montnets.emp.qyll.servlet.EntFlowDataServlet
+	</servlet-class>
+</servlet>
+
+ 
+<servlet>
+    <description>短信提醒下行记录</description>
+    <display-name>短信提醒下行记录</display-name>
+    <servlet-name>LlDownRecordServlet</servlet-name>
+    <servlet-class>com.montnets.emp.qyll.servlet.LlDownRecordServlet</servlet-class>
+</servlet>
+<servlet> 
+    <description>状态报告接收</description>
+    <display-name>状态报告接收</display-name>
+    <servlet-name>ll_RptReceiveSvt</servlet-name>
+    <servlet-class>com.montnets.emp.qyll.servlet.ll_RptReceiveSvt</servlet-class>
+</servlet>
+<servlet> 
+    <description>模拟客户状态报告接收</description>
+    <display-name>模拟客户状态报告接收</display-name>
+    <servlet-name>LLClientRptReceiveSvt</servlet-name>
+    <servlet-class>com.montnets.emp.qyll.servlet.ll_ClientRptReceiveSvt</servlet-class>
+</servlet>
+ 
+<servlet-mapping>
+    <servlet-name>LlDownRecordServlet</servlet-name>
+    <url-pattern>/ll_downRecord.htm</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>EntFlowDataServlet</servlet-name>
+	<url-pattern>/entFlowDataServlet</url-pattern>
+</servlet-mapping>
+ 
+<servlet-mapping>
+	<servlet-name>ll_RptReceiveSvt</servlet-name>
+	<url-pattern>/ll_rptReceiveSvt</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>FlowSynchronizeServlet</servlet-name>
+	<servlet-class>com.montnets.emp.qyll.servlet.FlowSynchronizeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>FlowSynchronizeServlet</servlet-name>
+	<url-pattern>/ll_flowSynchronize.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>ll_commSvt</servlet-name>
+	<servlet-class>com.montnets.emp.qyll.servlet.ll_commSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ll_commSvt</servlet-name>
+	<url-pattern>/ll_comm.htm</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>LLClientRptReceiveSvt</servlet-name>
+	<url-pattern>/ll_ClientRptReceivevt</url-pattern>
+</servlet-mapping>

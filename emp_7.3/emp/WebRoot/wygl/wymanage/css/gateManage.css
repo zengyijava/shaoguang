@@ -1,0 +1,87 @@
+.clearfix:after,.clearfix:before {
+    display:block;clear:both;content:"";visibility:hidden;height:0
+}
+.clearfix {
+    zoom: 1;
+}
+.channel_manage{
+	padding:15px 0 15px 15px;
+	position:relative;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+.channel_manage .no-unique{
+	border-color:#ff0000;
+}
+.channel_item{
+	width:555px;
+	margin-bottom:10px;
+}
+.sim_detail{
+	
+}
+.channel_item label.mod_t1{
+	display:block;
+	float:left;
+	width:131px;
+	height:26px;
+	line-height:26px;
+	margin-right:5px;
+}
+
+.channel_item .handle{
+	position:absolute;
+	right:5px;
+	top:2px;
+	display:block;
+	width:70px;
+	height:16px;
+}
+.choose_operators{
+	position:absolute;
+	right:78px;
+	top:0;
+}
+.channel_item .input_bd{
+	height:20px;
+}
+.handle a{
+	color:#0e5ad1;
+}
+.channel_item .input_bd{
+	width:170px;
+}
+.choose_country .input_bd{
+	width:60px;
+}
+.channelTip em{color:#ff0000;padding-right:3px;}
+.fieldBod{
+	padding:10px 0;
+	border:1px solid #ccc;
+	width:450px;
+}
+.channelTip
+{
+	font-size: 12px; 
+}
+.sim_pos{
+	position:absolute;
+	top:-10px;
+	left:15px;
+	background:#fff;
+	padding:0 5px;
+}
+.mb20{
+	margin-bottom:20px;
+}
+.bz .input_bd{
+	height:70px;
+	width:410px;
+}
+.fr{overflow:hidden;}
+.operators{
+	position:relative;float:right;margin-top:-22px;/*z-index:999;*/height:26px;width:150px;
+}
+#show table td{
+	padding:5px 0;
+}

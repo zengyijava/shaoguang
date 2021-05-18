@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+	
+	<servlet>
+		<servlet-name>LogJobSvt</servlet-name>
+		<servlet-class>com.montnets.emp.log.servlet.LogJobSvt</servlet-class>
+		<load-on-startup>3</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<description>登录安全设置</description>
+		<display-name>用户管理</display-name>
+		<servlet-name>ctr_securectrlSvt</servlet-name>
+		<servlet-class>com.montnets.emp.securectrl.servlet.ctr_securectrlSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>彩信模板审核</description>
+		<display-name>模板管理</display-name>
+		<servlet-name>tef_mmsTemInfoReviewSvt</servlet-name>
+		<servlet-class>com.montnets.emp.tempflow.servlet.tef_mmsTemInfoReviewSvt</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>企业管理</description>
+		<display-name>企业管理</display-name>
+		<servlet-name>cor_managerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.corpmanage.servlet.cor_managerSvt</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>企业账户绑定</description>
+		<display-name>企业账户绑定</display-name>
+		<servlet-name>cor_appSvt</servlet-name>
+		<servlet-class>com.montnets.emp.corpmanage.servlet.cor_appSvt</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>业务类型</description>
+		<display-name>参数维护</display-name>
+		<servlet-name>bit_busTypeSvt</servlet-name>
+		<servlet-class>com.montnets.emp.biztype.servlet.bit_busTypeSvt</servlet-class>
+	</servlet>
+	
+	<servlet>
+	    <description>彩信帐户绑定</description>
+	    <display-name>彩信帐户绑定</display-name>
+	    <servlet-name>cor_mmsBindSpSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.corpmanage.servlet.cor_mmsBindSpSvt</servlet-class>
+    </servlet>
+    
+
+	
+	<servlet>
+		<description>数据源配置</description>
+		<display-name>参数维护</display-name>
+		<servlet-name>dat_datasourceConfSvt</servlet-name>
+		<servlet-class>com.montnets.emp.datasource.servlet.dat_datasourceConfSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>短信模板</description>
+		<display-name>模板管理</display-name>
+		<servlet-name>tem_smsTemplateSvt</servlet-name>
+		<servlet-class>com.montnets.emp.template.servlet.tem_smsTemplateSvt</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>彩信审批</description>
+		<display-name>信息审批</display-name>
+		<servlet-name>msg_mmsInfoReviewSvt</servlet-name>
+		<servlet-class>com.montnets.emp.msgflow.servlet.msg_mmsInfoReviewSvt</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>子号管理</description>
+		<display-name>参数维护</display-name>
+		<servlet-name>tai_subnoSvt</servlet-name>
+		<servlet-class>com.montnets.emp.tailnumber.servlet.tai_subnoSvt</servlet-class>
+	</servlet>
+	
+	  <servlet>
+	    <description>公告列表</description>
+	    <display-name>公告</display-name>
+	    <servlet-name>not_noticeSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.notice.servlet.not_noticeSvt</servlet-class>
+	  </servlet>
+	  <servlet>
+	    <description>自定义参数</description>
+	    <display-name>自定义参数</display-name>
+	    <servlet-name>par_selParamSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.selfparam.servlet.par_selParamSvt</servlet-class>
+	  </servlet>
+	  <servlet>
+	    <description>个性化界面设置</description>
+	    <display-name>个性化界面设置</display-name>
+	    <servlet-name>par_indexCfgSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.specfg.servlet.par_indexCfgSvt</servlet-class>
+	  </servlet>
+	  
+	  
+	  <!-- EMP6.1 标准版 新需求 新增 pengj -->
+	  <servlet>
+		<description>状态码</description>
+		<display-name>状态码</display-name>
+		<servlet-name>sta_stateCodeSvt</servlet-name>
+		<servlet-class>com.montnets.emp.statecode.servlet.sta_stateCodeSvt</servlet-class>
+	</servlet>
+	  <!-- end -->
+	  
+	
+	<servlet-mapping>
+		<servlet-name>tai_subnoSvt</servlet-name>
+		<url-pattern>/tai_subno.htm</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet-mapping>
+		<servlet-name>bit_busTypeSvt</servlet-name>
+		<url-pattern>/bit_busType.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>dat_datasourceConfSvt</servlet-name>
+		<url-pattern>/dat_datasourceConf.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>cor_managerSvt</servlet-name>
+		<url-pattern>/cor_manager.htm</url-pattern>
+	</servlet-mapping>
+		
+	<servlet-mapping>
+		<servlet-name>cor_appSvt</servlet-name>
+		<url-pattern>/cor_corpSp.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+    <servlet-name>cor_mmsBindSpSvt</servlet-name>
+    <url-pattern>/cor_mmsBindSp.htm</url-pattern>
+  </servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>msg_mmsInfoReviewSvt</servlet-name>
+		<url-pattern>/msg_mmsInfoReview.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>tem_smsTemplateSvt</servlet-name>
+		<url-pattern>/tem_smsTemplate.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ctr_securectrlSvt</servlet-name>
+		<url-pattern>/ctr_securectrl.htm</url-pattern>
+	</servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>not_noticeSvt</servlet-name>
+    <url-pattern>/not_notice.htm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>par_selParamSvt</servlet-name>
+    <url-pattern>/par_selParam.htm</url-pattern>
+  </servlet-mapping>
+	
+	<servlet>
+		<description>短信模板审核</description>
+		<display-name>信息审核</display-name>
+		<servlet-name>tef_smsTemInfoReviewSvt</servlet-name>
+		<servlet-class>com.montnets.emp.tempflow.servlet.tef_smsTemInfoReviewSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>tef_smsTemInfoReviewSvt</servlet-name>
+		<url-pattern>/tef_smsTemInfoReview.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>tef_mmsTemInfoReviewSvt</servlet-name>
+		<url-pattern>/tef_mmsTemInfoReview.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>信息审核</description>
+		<display-name>短信审核</display-name>
+		<servlet-name>msg_smsInfoReviewSvt</servlet-name>
+		<servlet-class>com.montnets.emp.msgflow.servlet.msg_smsInfoReviewSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>msg_smsInfoReviewSvt</servlet-name>
+		<url-pattern>/msg_smsInfoReview.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <description>模块参数配置</description>
+	    <display-name>模块参数配置</display-name>
+	    <servlet-name>mep_menuParamConfigSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.menuParam.servlet.mep_menuParamConfigSvt</servlet-class>
+	</servlet>
+	  <servlet-mapping>
+	    <servlet-name>mep_menuParamConfigSvt</servlet-name>
+	    <url-pattern>/mep_menuParamConfig.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>操作日志</description>
+		<display-name>系统管理</display-name>
+		<servlet-name>opl_OprateMonitorSvt</servlet-name>
+		<servlet-class>com.montnets.emp.optlog.servlet.opl_OprateMonitorSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>opl_OprateMonitorSvt</servlet-name>
+		<url-pattern>/opl_OprateMonitor.htm</url-pattern>
+	</servlet-mapping>
+  
+	
+	<servlet>
+		<description>机构充值/回收管理</description>
+		<display-name>机构充值/回收管理</display-name>
+		<servlet-name>cha_balanceMgrSvt</servlet-name>
+		<servlet-class>com.montnets.emp.charging.servlet.cha_balanceMgrSvt</servlet-class>
+	</servlet>
+	<servlet>
+    <description>充值/回收日志</description>
+    <display-name>充值/回收日志</display-name>
+    <servlet-name>cha_balanceLogSvr</servlet-name>
+    <servlet-class>com.montnets.emp.charging.servlet.cha_balanceLogSvr</servlet-class>
+  </servlet>
+  
+	<servlet-mapping>
+		<servlet-name>cha_balanceMgrSvt</servlet-name>
+		<url-pattern>/cha_balanceMgr.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+    <servlet-name>cha_balanceLogSvr</servlet-name>
+    <url-pattern>/cha_balanceLog.htm</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <description>审核流程管理</description>
+    <display-name>审核流程管理</display-name>
+    <servlet-name>aud_auditproSvt</servlet-name>
+    <servlet-class>com.montnets.emp.auditpro.servlet.aud_auditproSvt</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>aud_auditproSvt</servlet-name>
+    <url-pattern>/aud_auditpro.htm</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>par_indexCfgSvt</servlet-name>
+    <url-pattern>/par_indexCfg.htm</url-pattern>
+  </servlet-mapping>
+
+	
+  
+  
+  <!-- EMP6.1 标准版 新需求 新增 pengj -->
+  <servlet-mapping>
+		<servlet-name>sta_stateCodeSvt</servlet-name>
+		<url-pattern>/sta_stateCode.htm</url-pattern>
+	</servlet-mapping>
+  <!-- end -->
+  
+  
+  
+  <!-- EMP6.1 标准版 新需求 新增 pengj -->
+  <servlet>
+		<description>业务贴尾管理</description>
+		<display-name>业务管理</display-name>
+		<servlet-name>tai_msgTailMgrSvt</servlet-name>
+		<servlet-class>com.montnets.emp.tailmanage.servlet.tai_msgTailMgrSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>tai_msgTailMgrSvt</servlet-name>
+		<url-pattern>/tai_msgTailMgr.htm</url-pattern>
+	</servlet-mapping>
+  <!-- end -->
+
+    <!-- EMP7.2托管版 新增企业富信权限模块管理 -->
+    <servlet-mapping>
+        <servlet-name>cor_managerSvt</servlet-name>
+        <url-pattern>/rms_authManage.htm</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+	    <description>汇总转移日志</description>
+        <display-name>系统管理</display-name>
+        <servlet-name>transLogSvt</servlet-name>
+        <servlet-class>com.montnets.emp.translog.servlet.TransLogSvt</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>transLogSvt</servlet-name>
+        <url-pattern>/transLog.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>Web运行参数配置</description>
+		<display-name>系统管理</display-name>
+		<servlet-name>SystemConfServlet</servlet-name>
+		<servlet-class>com.montnets.emp.sysconf.servlet.SystemConfServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SystemConfServlet</servlet-name>
+		<url-pattern>/webParamConfig.htm</url-pattern>
+	</servlet-mapping>

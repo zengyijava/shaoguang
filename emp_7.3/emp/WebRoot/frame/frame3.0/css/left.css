@@ -1,0 +1,144 @@
+@charset "utf-8";
+* {
+	padding: 0;
+	margin: 0;
+}
+
+table {
+	width: 170px !important;
+	width: 172px;
+	height: 100%;
+	border: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	display: none;
+	border-bottom-width:1px;
+	border-bottom-style: solid;
+}
+
+.div_bd {
+	border-color: #b3caee;
+}
+
+.menu_top {
+	width: 172px !important;
+	font-size: 16px;
+	font-weight: 800;
+	color: #FFFFFF;
+	text-align: center;
+	background: url(img/menu_top_bg.png) no-repeat #FFF;
+	display: block;
+	width: 100%;
+	height: 31px;
+	line-height: 31px;
+}
+
+.sider_round_content { /*padding-right: 6px;*/
+	width: 170px !important;
+	width: 100%;
+	height: 100%;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-bottom-width:1px;
+	border-style:solid;
+	border-top: none;
+}
+
+
+#sider ul {
+	padding: 0;
+	width: 100%;
+}
+
+.mune_show {
+	list-style: none;
+	width: 100%;
+	cursor: pointer;
+	font-size: 14px;
+	margin-bottom: 3px;
+	line-height: 36px;
+	color: #333;
+	text-indent: 36px;
+	font-weight: bolder;
+	background: url(img/menu_2_left.gif) 15px 12px no-repeat;
+}
+.mune_show.open {
+	background: url(img/menu_2_down.gif) 15px 14px no-repeat;
+}
+#sider .mune_hidden {
+	display: none;
+	postion: absolute;
+	left: 0px;
+	padding: 0px;
+	margin: 0px;
+	/*	margin-bottom: 3px;*/
+	width: 100%;
+	padding: 0;
+	/*background-color: #FFFFFF;*/
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	/*border-bottom: 1px solid #9fbded;*/
+}
+
+#sider .mune_hidden li {
+	line-height: 30px;
+	font-size: 12px;
+	width: 100%;
+	white-space: nowrap;
+	overflow: visible;
+	list-style: none;
+}
+
+#sider .mune_hidden li a {
+	
+	text-decoration: none;
+	width: 100%;
+	display: block;
+	/*background: url(img/menu_3_left.gif) no-repeat 35px center;*/
+	text-indent: 51px;
+	color: black;
+	font-weight: normal;
+	font-size:13px;
+	/*border-bottom: 1px dashed #CCC;
+	margin-left: 1px;
+		border-left-color: #000000;
+		border-right-color: #000000;*/
+}
+
+.higehLisght {
+	color: #124ea0 !important;
+	background-color: #b5d2ff !important;
+}
+
+.hidden {
+	display: none;
+}
+
+.block {
+	display: block;
+}
+#sider .mune_hidden li a.li_a_hover {
+	background-color:#dce8fb;
+}
+
+.mune_show.li_a_hover {
+	background-color:#dce8fb;
+}
+#sider .mune_hidden li a.li_a_hover.higehLisght {
+	color: #124ea0 !important;
+	background-color: #b5d2ff !important;
+}
+
+#tmdiv
+{
+	position: absolute;
+	left:0px;
+	top:0px;
+	opacity: 0.4;
+	width:172px;
+	height:100%;
+	filter: alpha(opacity=40);
+	background-color: #FFF;
+	z-index:-20;
+	display: none;
+}

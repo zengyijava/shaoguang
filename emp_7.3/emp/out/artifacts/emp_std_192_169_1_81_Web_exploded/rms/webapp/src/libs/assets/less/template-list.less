@@ -1,0 +1,108 @@
+@import "variables";
+@import "pagenation";
+
+@media screen and (max-width: 1500px) {
+  .template-list {
+    width: 1100px;
+    .scene-li {
+      margin-right: 50px;
+      margin-bottom: 24px;
+      &:nth-child(4n) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .template-list {
+    width: 1560px;
+    .scene-li {
+      margin-right: 28px;
+      margin-bottom: 24px;
+      &:nth-child(6n) {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .list-search-bar {
+    .el-form--inline {
+      .el-form-item {
+        &:nth-child(5) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+.template-list {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 90px;
+  .scene-li {
+    position: relative;
+    float: left;
+    &.scene-border-li,
+    .scene-add-btn {
+      width: 234px;
+      height: 326px;
+      border: 1px solid @border;
+      box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, .08);
+      -o-box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, .08);
+      -ms-box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, .08);
+      -moz-box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, .08);
+      -webkit-box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, .08);
+    }
+  }
+  .el-form-item {
+    &.is-success {
+      .el-input__inner {
+        border-color: @border;
+        &:focus {
+          border-color: @old-green;
+        }
+      }
+    }
+  }
+}
+
+.list-search-bar {
+  margin-top: 24px;
+  .scene-search-form {
+    display: table;
+  }
+  .el-form-item__label,
+  .el-input__inner {
+    font-size: 12px;
+    color: @grey-dark;
+  }
+  .el-form-item__label {
+    width: 80px;
+    text-align: left;
+  }
+  .el-input--small {
+    .el-input__inner {
+      width: 186px;
+    }
+  }
+  .el-form--inline {
+    .el-form-item {
+      margin-right: 53px;
+      margin-bottom: 18px;
+    }
+  }
+  .el-button {
+    margin-left: -26px;
+  }
+}
+
+.el-select-dropdown__item {
+  font-size: 12px;
+  color: @grey-dark;
+}
+
+.scene-list {
+  margin-top: 20px;
+}

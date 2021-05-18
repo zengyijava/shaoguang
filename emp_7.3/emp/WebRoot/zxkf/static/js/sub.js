@@ -1,0 +1,10 @@
+define(function(){
+	return{
+		createStudent:function(name,age){
+			return{
+				name:name,
+				age:age
+			}
+		}
+	}
+});

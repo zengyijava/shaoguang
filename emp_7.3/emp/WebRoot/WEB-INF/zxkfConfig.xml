@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 基础管理servlet群 -->
+<servlet>
+	<description>在线客服列表</description>
+	<display-name>在线客服列表</display-name>
+	<servlet-name>custManagerSvt</servlet-name>
+	<servlet-class>com.montnets.emp.zxkf.svt.zxkf_custManagerSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>custManagerSvt</servlet-name>
+	<url-pattern>/zxkf_custList.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>在线客服列表</description>
+	<display-name>在线客服列表</display-name>
+	<servlet-name>customChatSvt</servlet-name>
+	<servlet-class>com.montnets.emp.zxkf.svt.zxkf_customChatSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>customChatSvt</servlet-name>
+	<url-pattern>/customChat.htm</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>customChatSvt</servlet-name>
+	<url-pattern>/customChat.hts</url-pattern>
+</servlet-mapping>
+<listener>
+	<listener-class>com.montnets.emp.zxkf.biz.OttLoaderListener</listener-class>
+</listener>

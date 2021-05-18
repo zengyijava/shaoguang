@@ -1,0 +1,79 @@
+@charset "utf-8";
+body {
+	background-color: #f1f1f9;
+}
+
+.mid_bd {
+	border-color: #b3caee;
+}
+.topMenu {
+	height:31px;
+	background: url('images/tab_menu.png') no-repeat;
+}
+.curhover {
+	background-position: 0px -31px;
+}
+.cursel {
+	margin-top:1px;
+	height:30px;
+	color: #FFF;
+	background-position: 0px -62px;
+}
+
+.closeA {
+	font-family: "宋体";
+	color:rgb(243, 245, 247);
+}
+
+.closeA:hover {
+	color: #448add;
+}
+
+.cursel .closeA:hover {
+	color: #ccdef9;
+}
+
+#topLink {
+	border-bottom: 2px #0E4DA0 solid;
+}
+
+.putdown {
+	background-image:url('images/tab_menu.png');
+	background-position: -112px 0px;
+}
+.putdown.downhover {
+	background-position: -112px -31px;
+}
+
+#tb_child {
+	border-width: 1px;
+	border-style: solid;
+}
+
+#tb_child #cloall {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+#tb_child li a {
+	background: #eff4ff;
+	color: #333;
+}
+
+#tb_child li a:hover {
+	color: #124ea0 ;
+	background-color: #b5d2ff ;
+}
+
+#menuFrame {
+	border: 1px #b3caee solid;
+	border-top: none;
+}
+
+#menuFrame iframe {
+	background-color: #FFF;
+}
+
+.middle_toggle {
+	background:url(images/mid_toggle.jpg) no-repeat center center;
+}

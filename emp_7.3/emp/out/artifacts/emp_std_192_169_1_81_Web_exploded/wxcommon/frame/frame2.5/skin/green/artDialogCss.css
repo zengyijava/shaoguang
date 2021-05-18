@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+.aui_nw, .aui_n, .aui_ne, .aui_w, .aui_e, .aui_sw, .aui_s, .aui_se{
+	border-color: #BEC3D1;
+}
+.aui_titleBar{
+	border-bottom:1px solid #BEC3D1;
+	background-color:#9ae185;
+}
+.aui_state_drag .aui_title{
+	background: #9ae185;
+}
+.aui_state_focus .aui_title{
+	color:#222222;
+}
+.aui_buttons{
+	background-color:#fff;
+}
+.aui_buttons button{
+	height : 33px;
+	width: 86px;	
+	background: url(images/but-bg-green.png) no-repeat -89px 0px;
+}
+.aui_buttons button:hover{
+	background: url(images/but-bg-green.png) no-repeat -89px -33px;	
+}
+button.aui_state_highlight{
+	height : 33px;
+	width: 86px;
+	color:#FFF;	
+	background: url(images/but-bg-green.png) no-repeat 0px 0px ;
+}
+button.aui_state_highlight:hover{
+	background-position:0px -33px;
+	color:#FFF;	
+}
+.aui_close{
+	background: none;
+	background-image: url(images/close.png);
+	background-repeat: no-repeat;
+	background-position:1px 2px;
+	
+}
+.aui_close:hover {
+	background:none;
+	background-image: url(images/close.png);
+	background-repeat: no-repeat;
+	background-position:2px 1px;
+	border: 1px solid #999999;
+}

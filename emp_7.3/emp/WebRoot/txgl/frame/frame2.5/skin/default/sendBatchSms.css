@@ -1,0 +1,29 @@
+.formatFont{
+	color:#095AD1;
+}
+#timerTime{
+	background-color: white;
+}
+#infoDiv,.centerBack{
+	background-color:#fff;
+}
+.selectEmp
+{
+	background:url("images/selectEmp.png") no-repeat;
+}
+.importFile{
+	background:url("images/importFile.png") no-repeat;
+}
+.img_hover .selectEmp
+{
+	background:url("images/selectEmp_hover.png") no-repeat;
+}
+.img_hover .importFile{
+	background:url("images/importFile_hover.png") no-repeat;
+}
+.superSearch{
+	background:url("images/superSearch.png") no-repeat;
+}
+.img_hover .superSearch{
+	background:url("images/superSearch_hover.png") no-repeat;
+}

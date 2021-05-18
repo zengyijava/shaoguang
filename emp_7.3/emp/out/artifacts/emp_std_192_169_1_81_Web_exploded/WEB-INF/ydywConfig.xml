@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+	<servlet>
+		<servlet-name>MobileBusInitSvt</servlet-name>
+		<servlet-class>com.montnets.emp.mobilebus.servlet.MobileBusInitSvt</servlet-class>
+		<load-on-startup>14</load-on-startup>
+	</servlet>
+	
+	<servlet>
+    	<description>客户计费查询</description>
+    	<display-name>客户计费查询</display-name>
+    	<servlet-name>crmBillQuerySvt</servlet-name>
+   		<servlet-class>com.montnets.emp.jfcx.servlet.ydyw_crmBillQuerySvt</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>crmBillQuerySvt</servlet-name>
+    	<url-pattern>/ydyw_crmBillQuery.htm</url-pattern>
+  	</servlet-mapping>
+	
+	<servlet>
+	    <description>签约业务</description>
+	    <display-name>客户退费管理</display-name>
+	    <servlet-name>crmRfMgrSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.jfcx.servlet.ydyw_crmRfMgrSvt</servlet-class>
+	  </servlet>
+	
+	<servlet-mapping>
+		<servlet-name>crmRfMgrSvt</servlet-name>
+		<url-pattern>/ydyw_crmRfMgr.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+    	<description>客户签约查询</description>
+    	<display-name>客户签约查询</display-name>
+    	<servlet-name>ydyw_crmSign</servlet-name>
+   		<servlet-class>com.montnets.emp.contract.servlet.ydyw_crmSignSvt</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>ydyw_crmSign</servlet-name>
+    	<url-pattern>/ydyw_crmSignQuery.htm</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+    	<description>业务套餐计费统计</description>
+    	<display-name>业务套餐计费统计</display-name>
+    	<servlet-name>ydyw_chargeStatsRpt</servlet-name>
+   		<servlet-class>com.montnets.emp.report.servlet.ydyw_chargeStatsRptSvt</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>ydyw_chargeStatsRpt</servlet-name>
+    	<url-pattern>/ydyw_chargeStatsRpt.htm</url-pattern>
+  	</servlet-mapping>
+	<servlet>
+		<description>机构计费统计</description>
+		<display-name>机构计费统计</display-name>
+		<servlet-name>ydyw_depBillQuerySvt</servlet-name>
+		<servlet-class>com.montnets.emp.report.servlet.ydyw_depBillQuerySvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ydyw_depBillQuerySvt</servlet-name>
+		<url-pattern>/ydyw_depBillQuery.htm</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>
+		<description>业务模板配置</description>
+		<display-name>业务模板配置</display-name>
+		<servlet-name>ydyw_busTempConfSvt</servlet-name>
+		<servlet-class>com.montnets.emp.ydyw.ywpz.servlet.ydyw_busTempConfSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ydyw_busTempConfSvt</servlet-name>
+		<url-pattern>/ydyw_busTempConf.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>业务包管理</description>
+		<display-name>业务包管理</display-name>
+		<servlet-name>ydyw_busPkgMgrSvt</servlet-name>
+		<servlet-class>com.montnets.emp.ywgl.servlet.ydyw_busPkgMgrSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>ydyw_busPkgMgrSvt</servlet-name>
+	<url-pattern>/ydyw_busPkgMgr.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>业务贴尾管理</description>
+		<display-name>业务管理</display-name>
+		<servlet-name>ydyw_postTailMgrSvt</servlet-name>
+		<servlet-class>com.montnets.emp.tailmanage.servlet.ydyw_postTailMgrSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ydyw_postTailMgrSvt</servlet-name>
+		<url-pattern>/ydyw_postTailMgr.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>业务套餐管理</description>
+		<display-name>业务套餐管理</display-name>
+		<servlet-name>ydyw_busTaocanMgrSvt</servlet-name>
+		<servlet-class>com.montnets.emp.bustaocan.servlet.ydyw_busTaocanMgrSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ydyw_busTaocanMgrSvt</servlet-name>
+		<url-pattern>/ydyw_busTaocanMgr.htm</url-pattern>
+	</servlet-mapping>
+	<!-- 套餐指令设置 -->
+	<servlet>
+		<description>套餐指令设置</description>
+		<display-name>业务管理</display-name>
+		<servlet-name>ydyw_pkgInstructionSetSvt</servlet-name>
+		<servlet-class>com.montnets.emp.tczl.servlet.ydyw_pkgInstructionSetSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ydyw_pkgInstructionSetSvt</servlet-name>
+		<url-pattern>/ydyw_pkgInstructionSet.htm</url-pattern>
+	</servlet-mapping>

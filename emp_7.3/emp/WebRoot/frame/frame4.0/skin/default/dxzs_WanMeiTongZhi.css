@@ -1,0 +1,51 @@
+/**
+*移动办公-完美通知
+*/
+
+/*完美通知发送开始*/
+#sendPreNot #spUser,#sendPreNot #busCode{
+	height: 35px;
+}
+#sendPreNot #eq_sendDiv{
+	margin-top: 6px;
+}
+#sendPreNot #eq_sendDiv span{
+	margin-top: 6px;
+}
+#sendPreNot #sdInterval{
+	height: 40px;
+	line-height: 40px;
+}
+#sendPreNot	#sdCount{
+	height: 40px;
+	line-height: 40px;
+}
+#sendPreNot	#eq_sendDiv2{
+	padding-left: 0px;
+}
+#sendPreNot .titleBar{
+    height:40px !important;
+    background-color:#f7fafc;
+    border-bottom:1px solid #ecf1f2;
+}
+#sendPreNot .titleBarTxt,#ui-dialog-title-bulkImport_box{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #ababab;
+    font-weight: bold;
+}
+#sendPreNot .ui-dialog .ui-dialog-title {
+    font-size: 14px;
+    margin: 0.2em 0px .2em 0;
+    line-height: 45px !important;
+}
+#sendPreNot .dxzsFlowFrame{
+	width:658px;
+	height:435px;
+	border: 0;
+}
+#sendPreNot .dxzs_td1{
+	width:700px;
+}
+/*完美通知发送结束*/

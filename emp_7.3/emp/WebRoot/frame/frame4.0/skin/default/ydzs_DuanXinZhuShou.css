@@ -1,0 +1,186 @@
+/**
+*移动办公-短信助手
+*/
+/*相同内容群发样式开始*/
+#ssm_sendBatchSMS #content thead th{
+	height: 50px !important;
+}
+#ssm_sendBatchSMS .dxzs_addSmsTmpFrame {
+    width: 635px;
+    height: 520px;
+}
+#ssm_sendBatchSMS #tempFrame{
+	width: 840px;
+}
+#ssm_sendBatchSMS #tempFrame #container{
+	width: 840px;
+}
+#ssm_sendBatchSMS #tempFrame body{
+	width: 840px;
+}
+#ssm_sendBatchSMS #tempFrame #pageForm{
+	width: 840px;
+}
+#ssm_sendBatchSMS #draftFrame{
+	width: 890px;
+}
+#ssm_sendBatchSMS #draftFrame #container{
+	width: 890px;
+}
+#ssm_sendBatchSMS #draftFrame body{
+	width: 890px;
+}
+#ssm_sendBatchSMS #draftFrame #pageForm{
+	width: 890px;
+}
+#content thead th{
+	height: 50px !important;
+}
+#ssm_sendBatchSMS #content thead th {
+    height: 50px !important;
+}
+#ssm_sendBatchSMS #busCode, #priority, #spUser{
+	height: 35px;
+}
+#ssm_sendBatchSMS .dxzs_td6{
+	vertical-align: middle;
+}
+#ssm_sendBatchSMS .dxzs_eq_sendDiv{
+	margin-top: 8px;
+}
+#ssm_sendBatchSMS #taskname{
+	height: 40px;
+	line-height: 40px;
+}
+#ssm_sendBatchSMS .righttitle{
+	margin-top: 6px;
+}
+#ssm_sendBatchSMS #dds,.selectFileTable{
+	margin-top: 8px;
+}
+#ssm_sendBatchSMS .dxzs_div3{
+	padding: 6px 15px 6px 0;
+}
+#ssm_sendBatchSMS #descriptInfo{
+	position: absolute;
+	left: 720px;
+	top:42px;
+	display: none;
+}
+#ssm_sendBatchSMS .dxzs_flowFrame {
+	width:658px;
+	height:435px;
+	border: 0;
+}
+#ssm_sendBatchSMS .b_F_btn {
+	margin-top: 20px;
+}
+/*-------------------------jquery-ui的dialog的样样式----------------*/
+#ssm_sendBatchSMS .titleBar{
+    height:40px!important;
+    background-color:#f7fafc;
+    border-bottom:1px solid #ecf1f2;
+}
+#ssm_sendBatchSMS .titleBarTxt,#ui-dialog-title-bulkImport_box{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #ababab;
+    font-weight: bold;
+}
+#ssm_sendBatchSMS .ui-dialog .ui-dialog-title{
+    line-height: 28px !important;
+}
+#ssm_sendBatchSMS a.bulkImport {
+    margin-top: 4px;
+}
+#ssm_sendBatchSMS .dxzs_td8 {
+	width:658px;
+	border:0px;
+}
+#ssm_sendBatchSMS #eq_sendDiv2{
+	margin-top: 0px;
+	padding-left:0px;
+}
+/*相同内容群发样式结束*/
+
+
+/*不同内容群发样式开始*/
+#sendDiffSMS #addSmsTmpFrame {
+    width: 635px;
+    height: 520px;
+}
+#sendDiffSMS #tempFrame{
+	width: 840px;
+}
+#sendDiffSMS #tempFrame #container{
+	width: 840px;
+}
+#sendDiffSMS #tempFrame body{
+	width: 840px;
+}
+#sendDiffSMS #tempFrame #pageForm{
+	width: 840px;
+}
+#sendDiffSMS #draftFrame{
+	width: 890px;
+}
+#sendDiffSMS #draftFrame #container{
+	width: 890px;
+}
+#sendDiffSMS #draftFrame body{
+	width: 890px;
+}
+#sendDiffSMS #draftFrame #pageForm{
+	width: 890px;
+}
+#sendDiffSMS div#moreSelect{
+	margin-top: 35px;
+	 height: 230px;
+}
+#sendDiffSMS .dxzs_table {
+    width: 580px;
+    height: 220px;
+}
+#sendDiffSMS #content thead th {
+    height: 50px !important;
+}
+#sendDiffSMS #busCode, #priority, #spUser{
+	height: 35px;
+}
+#sendDiffSMS .wjsendclss{
+	height:38px;	
+    line-height: 38px;
+}
+#sendDiffSMS .dxzs_showdtsend{
+	margin-top:14px; 
+}
+#sendDiffSMS #taskname{
+	height: 40px;
+}
+#sendDiffSMS .righttitle{
+	height: 40px;
+	line-height: 40px;
+}
+#sendDiffSMS .x-fileUpload.div_bd{
+	margin-top: 4px;
+}
+#sendDiffSMS div#eq_sendDiv2{
+	margin-top: 0px;
+	padding-left:0px;
+}
+#sendDiffSMS .b_F_btn{
+	margin-top: 0px;
+	padding-top: 20px;
+}
+/*不同内容群发样式结束*/
+/*群发任务查看开始*/
+.smt_smsSendedBox .c_selectBox.div_bd{
+	width: 209px;
+}
+.smt_smsSendedBox #condition table tr td > input,
+.smt_smsSendedBox #condition table tr td > div > input,
+.smt_smsSendedBox #condition table tr td > label > input {
+    width: 197px !important;
+}
+/*群发任务查看结束*/

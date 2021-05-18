@@ -1,0 +1,521 @@
+@charset "utf-8"; 
+
+.l_m_c_list {
+	height: 110px;
+	overflow: hidden;
+	font-size: 12px;
+	color: #000000;
+	font-weight: 550;
+	margin-top:2px;
+	cursor: pointer;
+}
+.l_m_c_left {
+	background-color: #FFF;
+	width:80px;
+	float: left;
+	height:71px;
+	margin-top:6px;
+}
+.l_m_c_right {
+	background-color: #FFF;
+	width:480px;
+	float: right;
+	height:78px;
+	padding-top:13px;
+}
+.l_m_c_right p {
+	width: 100%;
+	height:30px;
+	line-height:20px;
+}
+
+#roleNameHideenDiv
+{
+	width: 144px;
+	position: relative;
+}
+#roleNameHideenDiv input
+{
+	width: 124px;
+	margin-top: 10px;
+	border: 0px;
+	border-bottom: 1px solid #cad9f1;
+	margin-left: 2px;
+	float: left;
+}
+#roleNameHideenSpan
+{
+	width: 15px;
+	height: 15px;
+	background: url(images/deleteFrame.png) no-repeat;
+	display: block;
+	float: left;
+	margin-top: 10px;
+	cursor: pointer;
+}
+#textfield
+{
+	width: 118px;
+}
+.chan_manag_son {
+	margin: 0 0px 5px 0px;
+	background: #EEEEEE;
+	font-size: 12px;
+	display: none;
+	height: auto;
+}
+
+.l_mana_son {
+	line-height: 24px;
+	border-top:none;
+	white-space: nowrap;
+	background: #ffffff;
+	width: 100%;
+	float: left;
+}
+
+#remark {
+	margin-left: 10px;
+	margin-top: 6px;
+}
+
+#remark textarea {
+	width: 80%;
+	height: 40px;
+	vertical-align: middle;
+	border: 1px solid #cad9f1;
+}
+
+.l_pRight {
+	float: right;
+	height: 24px;
+	line-height: 24px;
+	text-align: right;
+	margin-right: 4px;
+}
+
+.l_pRightCon {
+	height: 24px;
+	line-height: 24px;
+	text-align: left;
+	margin-right: 4px;
+}
+
+.l_pRightCon label
+{
+	margin-left: 10px;
+	height: 21px;
+	display: block;
+	float: left;
+	padding: 0 5px;
+	cursor: pointer;
+	color:#2368D7;
+	margin-top: 4px;
+}
+
+.l_pRightCon .roleNameClass 
+{
+	background: #eeeeee;
+	height: 21px;
+}
+
+.packCheckHover
+{
+		background: #eeeeee;
+}
+
+.l_pRightCon .packCheck
+{
+	background: #E0E0E0;
+}
+
+.l_pRightCon label span
+{
+	display: block;
+	float: left;
+}
+.l_pRightCon .packCheck .fackCheckbox
+{
+	width: 15px;
+	height: 21px;
+	background : url(images/selectChecbox.png);
+}
+
+.fackCheckbox
+{
+	width: 15px;
+	height: 21px;
+}
+
+.l_pRight a {
+	margin: 0 15px;
+	color: #000000;
+}
+
+.l_pLeft {
+	float: left;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 5px;
+	text-align: right;
+}
+
+.l_pLeft2 {
+	float: left;
+	width: 80%;
+	height: 24px;
+	line-height: 24px;
+	text-indent: 5px;
+	padding-left:33px;
+}
+
+.l_pLeft2 a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.butto {
+	width: 45px;
+	height: 24px;
+	background: #50CEDE;
+	border: 1px solid #000000;
+}
+
+.Channel_Settings {
+	color: #00F;
+	text-decoration: none;
+}
+
+.Channel_Settings:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+	cursor: hand
+}
+
+.list {
+	overflow: auto;
+	width:100%;
+	overflow-y:auto;
+	overflow-x:auto;	
+	padding-left: 5px;
+	white-space: nowrap;
+}
+
+#roleSetup {
+	width:auto;
+	height: auto;
+	/*min-height: 400px
+	height: auto !important;
+	height: 400px;*/
+	/*border: black;
+	border: 1px solid #c1edff;
+	border: 1px solid #edc1ff;
+	border: 1px solid #c1edff;
+	border: 1px;*/
+}
+
+#roleSetup #r_s_sider {
+	float: left;
+	width: 144px;
+}
+
+#roleSetup #r_s_sider h5 {
+	/*margin-left: 5px;*/
+	width:100%;
+	_width: 100%;
+	display: block;
+	font-size: 14px;
+	height: 24px;
+	/*text-align:center;*/
+	line-height: 24px;
+	/*background: url(../images/jt.gif) no-repeat left 0;*/
+	color: #000000;
+}
+#siderList
+{
+	width: 139px;
+	padding-top: 10px;
+	color: black;
+	line-height: 18px;
+}	
+
+#siderList p {
+	cursor: pointer;
+	padding:4px 0;
+	text-indent: 15px;
+}
+
+.roleNameColor {
+	background: url(images/packUp.png) no-repeat left;
+	/*color: #2E5F98;*/
+	font-weight: bold;
+}
+
+#roleSetup #r_s_sider #siderList_con {
+	width: 144px;
+	/*min-height: 406px;
+	height: auto !important;
+	height: 406px;*/
+	font-size: 12px;
+	
+	
+}
+
+#siderList_con div {
+	padding: 2 5px 5px 5px;
+}
+
+#roleSetup #r_s_manager {
+	padding:6px;
+	padding-top : 0;
+	padding-left: 15px;
+	margin-left: 146px;
+	height: 400px;
+	width: auto;
+}
+
+#r_s_manager h5 {
+	margin-top: 4px;
+	width: 100%;
+	border-bottom: 1px solid #00ADEE;
+	font-size: 16px;
+	height: 24px;
+	text-indent: 20px;
+	background-repeat:  no-repeat ;
+	background-image:url(../images/jt.gif);
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+#r_s_manager #m_container {
+	width: 100%;
+	height: 440px;
+	overflow: auto;
+}
+
+#m_container input[type="button"] {
+	width: 40px !important;
+	height: 20px !important;
+	background: #FFF;
+}
+
+#btn_input {
+	margin: 10px 0 10px 25px;
+}
+
+#btn_input input {
+	line-height: 14px;
+	margin-right: 10px;
+	padding: 2px 5px;
+	font-size: 14px;
+	display: inline;
+	cursor: pointer;
+}
+
+#m_c_roleName {
+	position: relative;
+	left: 100px;
+	top: 45px;
+	z-index: 100;
+}
+
+#m_c_roleName input {
+	width: 250px;
+	height: 17px;
+	border: 1px solid #000000;
+}
+
+.m_c_role {
+	width: 100%;
+	height: 0px;
+	overflow: hidden;
+	margin: 10px 0 5px 0;
+	line-height: 24px;
+	font-size: 14px;
+	float: left
+}
+
+#m_c_list {
+	width: 98%;
+	*width: 98%;
+	overflow: hidden;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #52a6e7;
+	cursor: pointer
+}
+
+
+#m_c_list p {
+	
+}
+.depOperate
+{
+	border: 0;
+	float: right;
+}
+.depOperate span
+{
+	width: 34px;
+	height: 21px;
+	display: block;
+	float: right;
+	border: 0px;
+	margin: 0;
+	cursor: pointer;
+}
+.depOperateButton1
+{
+	background: url(images/dep_Button.png) no-repeat 0 0px;
+}
+.depOperateButton2
+{
+	
+	background: url(images/dep_Button.png) no-repeat -70px 0px;
+}
+.depOperateButton3
+{
+	
+	background: url(images/dep_Button.png) no-repeat -35px 0px;
+}
+.depOperateButton1On
+{
+	background: url(images/dep_Button.png) no-repeat 0 -21px;
+}
+.depOperateButton2On
+{
+	
+	background: url(images/dep_Button.png) no-repeat -70px -21px;
+}
+.depOperateButton3On
+{
+	
+	background: url(images/dep_Button.png) no-repeat -35px -21px;
+}
+.bindCon
+{
+	width: 58px;
+	height: 21px;
+	background: url(images/bindCon.png) no-repeat;
+}
+.depOperate .bindCon
+{
+	width: 58px;
+	height: 21px;
+	background: url(images/bindCon.png) no-repeat;
+}
+#buttonDiv
+{
+	width: auto;
+	height: 45px;
+	text-align: right;
+}
+
+#buttonDiv input
+{
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.placeholder {
+	color: #AAA;
+	font-size: 12px;
+	position: absolute;
+	background: none;
+	text-align: left;
+	left: 5px;
+	visibility: visible;
+	cursor: text;
+	top: 32px;
+	_top:12px;
+}
+.juli
+{
+	overflow: hidden;
+	height: 8px;
+}
+
+
+.open{
+	background: #52a6e7;
+	border-bottom: 1px solid #1c84db;
+}
+#siderList p:hover{
+	background: #52a6e7;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+#pageInfo {
+  color: #666666;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background: #f6f6f6;
+  text-align: right;
+  line-height:24px;
+  height:24px;
+  vertical-align: bottom;
+}
+#pageInfo span {
+  border: 1px solid #999;
+  margin:0 3px;
+  cursor: pointer;
+  padding: 4px;
+}
+#pageInfo span.input {
+  padding:0px;
+  border: none;
+  margin:0 3px;
+  cursor: auto;
+}
+#pageInfo span input {
+  width:40px;
+  height:22px;
+  border: 1px solid #999;
+  vertical-align: middle;
+}
+#pageInfo p {
+  line-height: 22px;
+}
+#pageInfo p .gotoPage {
+  width: 40px;
+  margin: 0 5px;
+  padding: 2px 4px;
+}
+#pageInfo span.current {
+  background: #0193cc;
+  color: #fff;
+  border: 1px solid #0879b7;
+}
+
+#pageInfo .pagination {
+  float: right;
+}
+#pageInfo .pagination .current.prev {
+  color: #999999;
+  border-color: #999999;
+  background: #fff;
+}
+#pageInfo .pagination .current {
+  background: #0193cc;
+  color: #fff;
+  border: 1px solid #0879b7;
+}
+#pageInfo .pagination a,
+#pageInfo .pagination span {
+  display: inline-block;
+  padding: 3px 8px;
+  margin-right: 3px;
+}
+#pageInfo .pagination a {
+  text-decoration: none;
+  border: 1px solid #AAE;
+  color: #15B;
+}
+
+
+
+
+
+

@@ -1,0 +1,317 @@
+﻿@charset "utf-8";
+*{
+	font-family: 微软雅黑;
+    font-size: 12px;
+}
+.input_bd, .Wdate.input_bd, .emp_currentselected.input_bd{
+	height: 40px !important;
+}
+/*链接文字颜色*/
+a, a:active,a:hover{color:#00aa72}
+/*通用输入框行高，边框（除查询外的输入框均是此颜色）*/
+.input_bd , .Wdate.input_bd  ,.emp_currentselected.input_bd{
+	border: 1px solid #e8ecf0;
+}
+
+/*通用边框色,（通用层边框，设计边框的层）*/
+.div_bd,.Wdate.div_bd {
+	border: 1px solid #e8ecf0;
+}
+/*通用hover背景*/
+.div_hover_bg{
+	background-color: #f5f8fa;
+	opacity: 0.9;
+}
+/*通用文字背景色，（凡文字带背景的均是这个颜色）*/
+.div_bg,#emp_btn_table .div_bg {
+	background-color: #f5f8fa;
+}
+
+/*通用标题背景色，（凡标题的均是这个颜色）*/
+.title_bg {
+	background-color: #d5ecff;
+}
+#eq_sendDiv .title_bg{background-color: #f5f8fa;}
+.tree li a:hover {background-color:#ecf0f8;}
+.tree li a.curSelectedNode {
+	background-color:#e0ebfd; 
+	color:black;
+	border:1px #e8ecf0 solid; 
+	opacity:0.8; filter:alpha(opacity=80);
+}
+.btnClass1 {
+	/* background: url(images/but-bg1.jpg) no-repeat 0px -78px; */
+    background: #f5f8fa;
+    border: 1px solid #e8ecf0;
+}
+.btnClass2 {
+	/* background: url(images/but-bg1.jpg) no-repeat 0px -52px; */
+	background: #e8ecf0;
+}
+
+.btnClass3 {
+	/* background: url(images/but-bg1.jpg) no-repeat 0px -26px; */
+	background: #e8ecf0;
+}
+
+.btnClass4 {
+	/* background: url(images/but-bg1.jpg) no-repeat 0px -168px; */
+	background: url(../../images/botton_two_icon.png) no-repeat 0px 0px;
+	background-size: 200%;
+	height: 30px;
+}
+.btnClass4.btnHover,.btnClass3.btnHover,.btnClass2.btnHover,.btnClass1.btnHover {
+	background: url(../../images/botton_two_icon.png) no-repeat 0px -30px;
+	/* background: #e8ecf0; */
+}
+
+.btnClass4.btnHover{
+	background-size: 200%;
+}
+
+.btnClass5 {
+	height:30px;
+	width: 84px;
+	line-height:30px;
+	text-indent: 23px;
+	color: #FFFFFF;
+	background: url(../../images/botton_two_icon.png) no-repeat 0px 0px;
+}
+
+.btnClass6 {
+	height:30px;
+	width: 84px;
+	line-height:30px;
+	text-indent: 23px;
+	background: url(../../images/botton_two_icon.png) no-repeat -84px 0px;
+}
+.btn-hover{background-position-y:-66px;}
+.infotd1
+{
+  background-color: #9ec3fb;
+  border-bottom: 3px #e8ecf0 solid;
+}
+.infotd2
+{
+   background-color: #e9f0f9;
+   border-bottom: 3px #e8ecf0 solid;
+}
+#file
+{
+	color: #0e5ad1;
+}
+
+.fold
+{
+	background:url(images/pull_icon.png) no-repeat 0px 2px;
+}
+.unfold
+{	
+	background:url("images/pull_icon.png") no-repeat 0px 2px;
+}
+
+.titletop_font {
+	display: none;
+	background: url(images/buttons.jpg) no-repeat -754px -72px;
+}
+
+.top {
+	display : block;	
+	color : #000;
+	font-size : 12px;
+	line-height: 48px;
+    height: 48px;
+	/* border-bottom: #e8ecf0 1px solid; */
+}
+#top_main {
+	/* background-color:#edf4ff; */
+	font-size: 14px;
+	font-family: '微软雅黑';
+	color: #666666;
+	line-height: 48px;
+}
+#top_right{
+    height: 48px;
+    border-bottom: #e8ecf0 1px solid;
+}
+.zhu
+{
+	color: #adadad;
+}
+
+.titletop 
+{
+	padding-top:5px;
+}
+.abs_right .titletop_font,.goback{
+background: url(images/buttons.jpg) no-repeat -606px -72px;
+}
+
+
+
+
+
+.c_hoverBg{background-color: #eff5fb;}
+
+
+/*查询条件背景色----查询条件背景边框色（与表格边框色一致）*/
+#condition table {
+	display: block;
+	background-color: #f7fbff;
+    border-top: #e8ecf0 1px solid;
+}
+/*选项卡文字normal颜色*/
+#wjsend .send_ac2,#dtsend .send_ac2{
+	color: #000;
+	font-weight:normal;
+}
+
+/*表头背景*/
+#content thead th {
+	background-color: #f5f8fa;
+	border-bottom: #e8ecf0 1px solid;
+    height: 50px;
+}
+/*表格行鼠标经过色*/
+#content .hoverColor td,.hoverColor{background-color: #f7fbff;}
+/*表格选中色*/
+#content .c_selectedBg td,.c_selectedBg{background: #deeef6;}
+/*表格边框*/
+#content tbody td {
+	border-bottom: #e8ecf0 1px solid;
+	height: 50px !important;
+}
+.btx_line,.tx_line{border-bottom: #e8ecf0 1px solid;}
+/*表格搜索中控件边框*/
+#condition table tr td input,#condition table tr td select {
+	border: #e8ecf0 1px solid;
+}
+/*工作路径背景色值*/
+/* #top_main {background:url(images/title_bg.png) repeat-x 0 0;color : #3e77ac;} */
+/*添加员工背景色---单个添加---批量导入*/
+
+/*弹出层边框--机构*/
+#condition table tr td #dropMenu,#condition table tr td #dropMenu2 {
+	border: #e8ecf0 1px solid;
+}
+
+/*背景设置*/
+#dds,#getObject,.left_dep,#eq_sendDiv table,#showmessage table,#lyout,#mesContent{background:#fff;}
+#content tbody td{background:#fff;}
+a.bulkImport{
+background-position:0 0px;
+height: 25px;
+}
+/*提示框*/
+.alert-info {
+	color: #333;
+	background-color: #DAE5F7;
+	border-color: #e8ecf0;
+}
+.alertDiv {
+	border: 1px solid #e8ecf0;
+	color: #222222;
+}
+
+.alertDivHead {
+	border-bottom: 1px solid #e8ecf0;
+	background-color: #ecf7ff;
+}
+
+.alertDivConfirm {
+	background: #ecf7ff;
+}
+
+.alertDiv {
+	position: absolute;
+	padding: 0em;
+	width: 300px;
+	overflow: hidden;
+	display: block;
+	z-index: 10001;
+	outline: 0px;
+	height: 200px;
+	width: 250px;
+	top: 292px;
+	left: 454px;
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-khtml-border-top-right-radius: 4px;
+	border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-khtml-border-top-left-radius: 4px;
+	border-top-left-radius: 4px;
+	background: #ffffff 50% 50% repeat-x;
+}
+
+.alertDivHead {
+	display: inline-block;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-bottom: 0.4em;
+	position: relative;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1.1em;
+	cursor: move;
+	color: #222222;
+}
+
+.alertDivHead span {
+	width: 228px;
+	float: left;
+	margin: .1em 0px .1em 0;
+	height: 20px;
+	line-height: 25px !important;
+	font-size: 12px;
+	text-indent: 5px;
+	line-height: 20px;
+}
+
+.alertDivHead a {
+	cursor: default;
+}
+
+.alertDivBody {
+	padding: 5px;
+	width: auto;
+	height: 161px;
+	word-wrap: break-word;
+	word-break: break-all;
+	min-height: 0px;
+}
+
+.alertDivConfirm {
+	margin-left: 75px;
+	margin-top: 115px;
+	width: 84px;
+	height: 30px;
+	border: 0;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 14px;
+	letter-spacing: 10px;
+	text-align: left;
+	text-indent: 24px;
+	line-height: 30px;
+	padding-top: 0px !important;
+}
+
+.alertShadow {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 944px;
+	background: rgb(51, 51, 51);
+	text-align: center;
+	z-index: 10000;
+	opacity: 0.5;
+	filter: alpha(opacity = 50)
+}
+
+.second-nav-menu {font-size: 14px;}
+.mr23 {
+    margin-right: 12px;
+}
+.indent_none{text-indent:0;}

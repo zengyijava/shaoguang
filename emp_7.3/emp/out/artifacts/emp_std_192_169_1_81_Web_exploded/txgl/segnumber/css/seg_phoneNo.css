@@ -1,0 +1,32 @@
+#seg_phoneNo .editNo {
+	padding: 5px;
+	margin-top: 10px;
+	display: none;
+	text-align: center;
+}
+
+#seg_phoneNo .spisuncm {
+	width: 200px;
+}
+
+#seg_phoneNo .hd_label {
+	vertical-align: top;
+}
+
+#seg_phoneNo .phoneNo {
+	font-size: 12px;
+	width: 200px;
+	height: 80px;
+	margin-top: 10px;
+}
+
+#seg_phoneNo .bt1_td {
+	padding-top: 10px;
+	text-align: center;
+}
+
+#seg_phoneNo .rContent_down_div {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}

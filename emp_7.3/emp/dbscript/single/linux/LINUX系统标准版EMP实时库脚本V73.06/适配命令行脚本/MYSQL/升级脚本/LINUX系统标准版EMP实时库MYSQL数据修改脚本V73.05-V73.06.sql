@@ -1,0 +1,8 @@
+/*WEB升级脚本 START*/
+DELIMITER  $
+DELETE FROM LF_VERSION_HIS WHERE VERSION='8.11.4.389' $
+DELIMITER  ;
+/*WEB升级脚本 END*/
+
+/*网关升级脚本 START*/
+/*网关升级脚本   END*/

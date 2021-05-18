@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+#addsubmit,#addCancel,#editsubmit,#editcancel,#allCancelsubmit,#allCancel{
+	text-indent: 0px;
+	text-align: center;
+}
+body > div:nth-child(17){
+	width: 800px;
+}
+/*新建窗口*/
+#addDiv > table > tbody > tr > td:nth-child(1){
+	width: 50%;
+}
+#addDiv > table > tbody > tr > td:nth-child(2){
+	width: 40%;
+}
+#addDiv > table > tbody > tr > td:nth-child(3){
+	width: 10%;
+}
+/*全局指令设置窗口 编辑窗口*/
+#bindDiv > table > tbody > tr > td:nth-child(1),#editDiv > table > tbody > tr > td:nth-child(1){
+	width: 45%;
+}
+#bindDiv > table > tbody > tr > td:nth-child(2),#editDiv > table > tbody > tr > td:nth-child(2){
+	width: 45%;
+}
+#bindDiv > table > tbody > tr > td:nth-child(3),#editDiv > table > tbody > tr > td:nth-child(3){
+	width: 10%;
+}
+

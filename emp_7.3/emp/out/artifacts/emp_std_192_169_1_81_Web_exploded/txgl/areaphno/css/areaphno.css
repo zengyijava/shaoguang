@@ -1,0 +1,58 @@
+#areaphno .hiddenValueDiv{
+	display:none;
+}
+
+#areaphno .areaCode{
+	width:116px;
+}
+
+#areaphno .province{
+	width:120px;
+}
+
+#areaphno .city{
+	width:120px;
+}
+
+#areaphno .servePro{
+	width:120px;
+}
+
+#areaphno .mobile{
+	width:116px;
+}
+
+#areaphno .content_td1{
+	width:80px;
+}
+
+#areaphno .content_td2{
+	width:100px;
+}
+
+#areaphno .content_td3{
+	width:100px;
+}
+
+#areaphno .content_td4{
+	width:80px;
+}
+
+#areaphno .content_td5{
+	width:80px;
+}
+
+#areaphno .content_td6{
+	width:80px;
+}
+
+#areaphno .addAreaPhNoDiv{
+	padding:5px;
+	display:none;
+}
+
+#areaphno .addAreaPhNoDivFrame{
+	width:529px;
+	height:245px;
+	border: 0;
+}

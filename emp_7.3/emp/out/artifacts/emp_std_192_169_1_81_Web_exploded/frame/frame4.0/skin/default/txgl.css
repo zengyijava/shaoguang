@@ -1,0 +1,174 @@
+/* areaphno */
+#areaphno #condition table tr td > input{
+    /* width: 188px !important;*/
+    width: 198px !important;
+}
+
+#areaphno #condition table tr td > div > input{
+     width: 180px !important;
+}
+
+/* addAreaPhNo */
+#addAreaPhNo .province {
+    width: 156px;
+    height: 26px;
+}
+#addAreaPhNo .city {
+    width: 156px;
+    height: 26px;
+}
+
+/* pag_userData */
+#pag_userData #condition table tr td > label > input{
+     /*width: 188px !important;*/
+    width: 198px !important;
+}
+
+#pag_userData #condition table tr td > div > input{
+     width: 170px !important;
+}
+
+/* par_route */
+#par_route #condition table tr td > input{
+     width: 198px !important;
+}
+
+#par_route #condition table tr td > div > input{
+     width: 170px !important;
+}
+
+
+/* pag_proxyMage */
+#pag_proxyMage #condition table tr td > label > input{
+     width: 198px !important;
+}
+
+/* pag_addorderBind */
+
+#pag_addorderBind select#Spid {
+    width: 179px;
+    height: 26px;
+}
+
+/* wg_apiParaMulit */
+#wg_apiParaMulit #condition table tr td select {
+    width: 209px;
+    height: 35px;
+}
+
+/* wg_apiBaseMulit */
+#wg_apiBaseMulit #condition table tr td select {
+    width: 209px;
+    height: 35px;
+}
+
+/* wg_customersListMulit */
+#wg_customersListMulit #condition table tr td:first-child {
+    padding-left: 12px;
+}
+
+#wg_customersListMulit #condition table tr td {
+    padding: 8px 10px 8px 0;
+} 
+
+#wg_customersListMulit #condition table tr td:nth-child(even) {
+    padding-right: 22px;
+}
+#wg_customersListMulit #condition table tr td > input{
+     width: 140px !important;
+}
+
+/* wg_pushRsProtocolMulit */
+#wg_pushRsProtocolMulit #condition table tr td select {
+    width: 209px;
+    height: 35px;
+}
+
+/* mwp_userData1 */
+#mwp_userData1 #condition table tr td > label > input{
+    width: 188px !important;
+}
+
+/* pas_passage */
+#pas_passage #condition table tr td > input{
+    width: 198px !important;
+}
+
+#pas_passage #condition table tr td > div > input{
+     width: 170px !important;
+}
+
+/* gat_userdata */
+#gat_userdata #condition table tr td > input{
+    width: 198px !important;
+}
+
+#gat_userdata #condition table tr td > div > input{
+    width: 170px !important;
+}
+
+/* mwg_userdata1 */
+#mwg_userdata1 #condition table tr td > input{
+    width: 198px !important;
+}
+
+
+#mwg_userdata1 #condition table tr td > div > input{
+     width: 180px !important;
+}
+
+/* key_keyword */
+#key_keyword #condition table tr td > label > input{
+    width: 188px !important;
+}
+
+/* spb_spBalanceMgr */
+#spb_spBalanceMgr #condition table tr td > label > input{
+    width: 188px !important;
+}
+
+#spb_spBalanceMgr #condition table tr td > div > input{
+     width: 170px !important;
+}
+
+/* sp_balanceLog */
+#sp_balanceLog #condition table tr td select{
+    width: 220px;
+    height: 35px;
+}
+
+/* pgb_spBind */
+#pgb_spBind #condition table tr td select{
+    width: 209px;
+    height: 35px;
+}
+
+/* bla_blacklist */
+#bla_blacklist #condition table tr td select{
+    width: 209px;
+    height: 35px;
+}
+
+/* gat_spgate */
+#gat_spgate .gwNo{
+	width:340px;
+}
+
+#gat_spgate .container_down_div {
+    padding: 10px 25px 190px 25px;
+}
+
+/* wg_corpListMulit */
+#wg_corpListMulit #condition table tr td > input{
+     width: 140px !important;
+}
+
+#wg_corpListMulit #condition table tr td:nth-child(even){
+	padding-right: 12px;
+}
+
+/* gat_webgate */
+#gat_webgate .container_down_div {
+    padding: 10px 25px 190px 25px;
+}
+

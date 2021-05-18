@@ -1,0 +1,145 @@
+#cha_depBalanceAll #resultSet{
+	  overflow-x:hidden;
+	  overflow-y: auto;
+}
+
+#cha_depBalanceAll .supDepId_table{
+	width:444px;
+}
+
+#cha_depBalanceAll .bmmc_td{
+	font-size:12px; 
+	line-height:22px;
+	height:24px;
+}
+
+#cha_depBalanceAll .jgye_up_tr_td{
+	height:10px;
+}
+
+
+#cha_depBalanceAll .jgye_tr{
+	font-size:12px; 
+	line-height:22px;
+	height:24px;
+}
+
+#cha_depBalanceAll .jgye_tr_td1{
+	width: 90px;
+}
+
+#cha_depBalanceAll .jgye_tr_td2{
+	width: 150px;
+}
+
+#cha_depBalanceAll .jgye_tr_td3{
+	width: 90px;
+}
+
+#cha_depBalanceAll .jgye_tr_td4{
+	width: 150px;
+}
+
+#cha_depBalanceAll .jgye_down_tr_td{
+	height:10px;
+}
+
+#cha_depBalanceAll .plc_tr{
+	font-size:12px; 
+	line-height:22px;
+	height:24px;
+}
+
+#cha_depBalanceAll .addsmsCountAll{
+	width: 75px;
+}
+
+#cha_depBalanceAll .addmmsCountAll{
+	width: 75px;
+}
+
+#cha_depBalanceAll .plc_down_tr_td{
+	height:10px;
+}
+
+#cha_depBalanceAll .jgmc_table{
+	width: 444px;
+	background-color:#ccdef8;
+}
+
+#cha_depBalanceAll .jgmc_thead{
+	line-height: 26px;
+}
+
+#cha_depBalanceAll .jgmc_tr{
+	border-top: #bdc7d7 1px solid;
+	border-bottom: #bdc7d7 1px solid;
+}
+
+#cha_depBalanceAll .jgmc_dxcz{
+	border-left: #bdc7d7 1px solid;
+	width: 30%;
+}
+
+#cha_depBalanceAll .jgmc_cxcz{
+	border-left: #bdc7d7 1px solid;
+	width: 30%;
+}
+
+#cha_depBalanceAll .content{
+	width: 444px;
+}
+
+#cha_depBalanceAll .smsCount_td{
+	width: 30%;
+}
+
+#cha_depBalanceAll .smsCount{
+	width: 75px;
+}
+
+#cha_depBalanceAll .mmsCount_td{
+	width: 30%;
+}
+
+#cha_depBalanceAll .mmsCount{
+	width: 75px;
+}
+
+#cha_depBalanceAll .zj_table{
+	width: 444px;
+}
+
+#cha_depBalanceAll .zj_tr{
+	height: 26px;
+	border-bottom: #bdc7d7 1px solid;
+}
+
+#cha_depBalanceAll .zj_td{
+	border-right: #bdc7d7 1px solid;
+}
+
+#cha_depBalanceAll .smsSum{
+	width:30%;
+}
+
+#cha_depBalanceAll .mmsSum{
+	width: 30%;
+	border-left: #bdc7d7 1px solid;
+}
+
+#cha_depBalanceAll .isDefault_up_tr_td{
+	height:10px;
+}
+
+#cha_depBalanceAll .isDefault{
+	vertical-align: middle;
+}
+
+#cha_depBalanceAll .chongz_td{
+	margin-top: 10px;
+}
+
+#cha_depBalanceAll .chongz_up_tr_td{
+	height:30px;
+}

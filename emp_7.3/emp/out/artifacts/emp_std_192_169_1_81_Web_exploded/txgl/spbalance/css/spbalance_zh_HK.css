@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+.btnClass4 {
+    background: url(../images/but-bg1.jpg) no-repeat 0px -168px;
+    width:110px;
+}
+
+.btnClass4:hover {
+    background: url(../images/but-bg2.jpg) no-repeat 0px -168px;
+    width:110px;
+}

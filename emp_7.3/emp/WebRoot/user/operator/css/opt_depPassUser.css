@@ -1,0 +1,41 @@
+#opt_depPassUser .getloginUser{
+	padding:5px;display:none;
+}
+
+#opt_depPassUser .add_div{
+	height:30px;
+}
+
+#opt_depPassUser .content_table{
+	width:100%;
+}
+
+#opt_depPassUser .content_table_th1{
+	width:10%;
+}
+
+#opt_depPassUser .content_table_th2{
+	width:35%;
+}
+
+#opt_depPassUser .content_table_th3{
+	width:35%;
+}
+
+#opt_depPassUser .content_table_th4{
+	width:20%;
+}
+
+#opt_depPassUser .infoDiv{
+	text-align:center;
+	display: none;
+}
+
+#opt_depPassUser .flowFrame{
+	width:340px;height:360px;border: 0;
+}
+
+#opt_depPassUser .sureBtn_td{
+	text-align:center;
+	width:340px;
+}

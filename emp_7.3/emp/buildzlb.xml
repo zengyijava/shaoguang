@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--指定运行<target>标签的 warFile目标-->
+<project default="foreach_test">
+	<!-- 使用循环引入jar包 -->
+	<property name="ant-contrib.jar" location="C:\mytomcat\apache-ant-1.8.2/lib/ant-contrib-1.0b3.jar" />
+	<taskdef resource="net/sf/antcontrib/antcontrib.properties" classpath="${ant-contrib.jar}" />
+
+	<!-- 使用for循环引入jar包 -->
+	<taskdef resource="net/sf/antcontrib/antlib.xml">
+		<classpath>
+			<pathelement location="C:\mytomcat\apache-ant-1.8.2/lib/ant-contrib-1.0b3.jar" />
+		</classpath>
+	</taskdef>
+	
+	<!--生成项目包的文件路径-->
+	<property name="build" location="../package/EMPPJ_emp_7.3.0.515_linux/标准版EMP_LINUX/WEB程序/增量包">
+	</property>
+
+	<!-- 增量包名称-->
+	<property name="webzip.name" value="emp增量包.zip">
+	</property>
+	<!-- 增量包名称-->
+	<property name="webzlb.name" value="emp_sta">
+	</property>
+	<!-- 整包路径 -->
+	<property name="zbfile" location="WebRoot">
+	</property>
+	<!-- 初始化-->
+	<target name="init">
+		<echo>进行项目的清理工作</echo>
+
+		<!-- 创建目录-->
+		<delete dir="${build}">
+		</delete>
+		<mkdir dir="${build}" />
+		<mkdir dir="src" />
+		<mkdir dir="${build}\${webzlb.name}" />
+	</target>
+
+
+
+	<target name="test" depends="init">
+		<loadfile property="test" srcFile="build\copylist.txt" encoding="GBK" />
+		<echo>${test}</echo>
+
+	</target>
+
+	<target name="foreach_test" depends="test">
+		<foreach list="${test}" target="screen_number" param="filedirs" delimiter="${line.separator}">
+
+		</foreach>
+
+
+	</target>
+
+	<target name="screen_number">
+		<echo>获取文件中的路径: ${filedirs}</echo>
+		<!-- 获取WebRoot下文件路径加文件名 -->
+		<propertyregex property="filenamedir" input="${filedirs}" regexp="\\(.*)" select="\1" />
+		<!--<echo>WebRoot下文件路径加文件名: ${filenamedir}</echo> -->
+		<!-- 获取WebRoot下文件路径 -->
+		<propertyregex property="filedir" input="${filenamedir}" regexp="([^\\]+$)" replace="" />
+		<!--<echo>WebRoot下文件路径: ${filedir}</echo> -->
+		<!-- 获取文件名 -->
+		<propertyregex property="filename" input="${filedirs}" regexp="([^\\]+$)" select="\0" />
+		<!--<echo>文件名 : ${filename}</echo> -->
+		<!-- 获取增量包文件路径 -->
+		<propertyregex property="tofiledir" input="${filedirs}" regexp="([^\\]+$)" replace="" />
+		<!--<echo>增量包文件路径: ${tofiledir}</echo> -->
+
+		<available file="${zbfile}\${filedir}\${filename}" property="archiva.exist" />
+
+		<if>
+			<isset property="archiva.exist" />
+			<then>
+				<echo>文件名 : ${zbfile}\${filedir}\${filename}</echo>
+				<mkdir dir="${build}\${tofiledir}" />
+				<copy encoding="utf-8" todir="${build}/${tofiledir}">
+					<fileset dir="${zbfile}\${filedir}">
+						<include name="${filename}" />
+
+					</fileset>
+				</copy>
+			</then>
+			<else>
+				<if>
+					<equals arg1="${filename}" arg2="*.*" />
+					<then>
+						<echo>是文件夹 ${filename}</echo>
+						<!-- <echo>文件名 : ${zbfile}\${filedir}\${filename}</echo>-->
+						<mkdir dir="${build}\${tofiledir}" />
+						<copy encoding="utf-8" todir="${build}/${tofiledir}">
+							<fileset dir="${zbfile}\${filedir}">
+							</fileset>
+						</copy>
+					</then>
+					<else>
+						<echo>文件不存在 : ${filedirs}</echo>
+						<echo>请确定文件路径是否正确</echo>
+					</else>
+				</if>
+			</else>
+		</if>
+
+	</target>
+</project>
+
+

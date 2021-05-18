@@ -1,0 +1,9 @@
+#aud_sysdeptree .aud_sysdeptree_body{
+	margin:0;
+	padding:0;
+	border: 1;
+}
+
+#aud_sysdeptree .tree2{
+	width:200px;
+}

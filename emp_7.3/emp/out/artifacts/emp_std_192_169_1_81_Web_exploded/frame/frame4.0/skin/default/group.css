@@ -1,0 +1,293 @@
+#efile .remindMsg{
+	margin-top:20px;
+}
+#efile .remindMsg p{
+    font-size: 12px;
+    margin-left: 15px;
+    color: #999999;
+    float:left;
+    text-align: left;
+}
+
+
+
+#gpName_div {
+	display: block;
+	height: 43px;
+	border-bottom: 1px #d9e5f8 solid;
+	text-align: center;
+}
+
+#addGpName {
+	border: 1px solid #acbfdd;
+	height: 24px;
+	line-height: 24px;
+	width: 600px;
+	display: inline;
+	text-indent: 4px;
+	margin-top: 8px;
+}
+
+#gpName_label {
+	display: inline;
+	color: #CCC;
+	text-indent: 32px;
+	position: absolute;
+	left: 0;
+	height: 43px;
+	line-height: 43px;
+	cursor: text;
+	top: 0;
+}
+
+.ld {
+	display: block;
+	width: 69px;
+	_width: 68px;
+	text-align: center;
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	overflow: hidden;
+}
+
+.rd {
+	display: block;
+	width: 30px;
+	text-align: center;
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	overflow: hidden;
+	color: #CCC;
+}
+
+.md {
+	display: block;
+	width: 168px;
+	text-align: center;
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	border-top:none;
+	overflow: hidden;
+}
+
+#right p {
+	cursor: pointer;
+	height: 20px;
+}
+
+.placeholder {
+	color: #CCC;
+	font-size: 12px;
+	position: absolute;
+	background: none;
+	display: inline;
+	left: 100px;
+	height: 20px;
+	line-height: 28px;
+	cursor: text;
+}
+
+#epname {
+	height: 21px;
+	line-height: 21px;
+	width: 136px;
+	background-color: #F3FAEE;
+}
+
+#numcount {
+	color: #e4831c;
+}
+
+#div_sel {
+	height: 25px;
+	overflow: hidden;
+	line-height: 25px;
+	margin-top: 18px;
+	display: block;
+	width: 257px;
+	text-align: left;
+	border-bottom: none;
+}
+
+#right {
+	display: block;
+	width: 286px;
+	overflow-y: scroll;
+}
+
+#left_div {
+	width: 257px;
+	hieght: 140px;
+	overflow: hidden;
+	display: block
+}
+
+#btnSearch {
+	float: left;
+	width: 28px;
+	height: 23px;
+	display: block;
+	background-image: url(images/query.png)
+}
+
+a#btnSearch:hover {
+	background-image: url(images/query2.png)
+}
+
+#right_search {
+	height: 24px;
+	line-height: 24px;
+	width: 280px;
+	display: block;
+	padding: 2px 4px 2px 2px;
+}
+
+#right_search input {
+	float: left;
+}
+
+#btnAdd {
+	float: right;
+	width: 29px;
+	height: 21px;
+	display: block;
+	background-image: url(images/gp_add.png)
+}
+
+.placeholder.adName_la {
+	left: 335px;
+	width: 30px;
+}
+
+.placeholder.adPhone_la {
+	left: 400px;
+	width: 50px;
+}
+
+.epname_la {
+	width: 80px;
+}
+
+#drfile {
+	height: 25px;
+	width: 70px;
+	cursor: pointer;
+	display: inline;
+	filter: alpha(opacity :         0);
+	opacity: 0;
+	border: none;
+	float: left;
+	margin-left: 10px;
+}
+
+#sileSpan {
+	color: #CCCCCC;
+	line-height: 24px;
+	height: 24px;
+	float: right;
+	width: 155px;
+	text-align: left;
+}
+
+#fileBtn {
+	display: block;
+	position: absolute;
+	left: 15px;
+	z-index: -2;
+	cursor: pointer;
+	line-height: 24px;
+}
+
+#efile {
+	height: 408px; *
+	-height: 406px;
+	width: 257px;
+	display: none;
+	line-height: 20px;
+}
+
+.hoverColor {
+	background-color: #ECF0F8;
+}
+
+.gp_filelist {
+	background: url(images/fileimg.png) 4px center no-repeat #E9F0F9;
+	text-indent: 30px;
+	width: 240px;
+	margin-left: 4px;
+	height: 24px;
+	line-height: 24px;
+	display: block;
+	margin-bottom: 4px;
+	text-align: left;
+}
+
+.gp_filelist a {
+	float: right;
+	margin-right: 5px;
+	height: 24px;
+	line-height: 24px;
+	color: blue;
+	text-decoration: none;
+}
+
+.gp_filelist span{
+	float: left;
+	height: 24px;
+	line-height: 24px;
+	width: 170px;
+}
+
+.gp_filelist a:hover {
+	text-decoration: underline;
+}
+
+.formatText {
+	position: absolute;
+	top: 310px;
+	left: 4px;
+	height: 20px;
+	text-indent: 10px;
+	line-height: 20px;
+	color: blue;
+	text-align: left;
+	width: 248px;
+}
+
+.formatInfo .pic_div {
+	width: 50%;
+	height: 110px;
+	float: left;
+	text-align: center
+}
+
+.formatInfo {
+	text-align: left;
+	width: 240px;
+	border: 1px solid #DAE1CF;
+	padding: 4px;
+	top: 330px;
+	position: absolute;
+	left: 8px;
+	background-color: #F7FFF0;
+	height: 130px;
+	/*_height: 130px;*/
+}
+
+#upts {
+	heigh: 20px;
+	line-height: 20px;
+	display: block;
+	width: 99%;
+	color: blue;
+	margin-top: 30px;
+}

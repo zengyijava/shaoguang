@@ -1,0 +1,5 @@
+/* opt_sysuser */
+#opt_sysuser #condition table tr td > input,#condition table tr td > div > input{
+     width: 188px !important;
+}
+

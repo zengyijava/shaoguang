@@ -1,0 +1,177 @@
+#ctr_macipTable .ipsDiv{
+	padding:5px;
+	display:none;
+	word-wrap: break-word;
+	word-break:break-all;
+	overflow-y:auto;
+}
+
+#ctr_macipTable .ipMsg{
+	width:100%;
+	height:100%;
+	overflow-y:auto;
+}
+
+#ctr_macipTable .macsDiv{
+	padding:5px;
+	display:none;
+	word-wrap: break-word;
+	word-break:break-all;
+	overflow-y:auto;
+}
+
+#ctr_macipTable .macMsg{
+	width:100%;
+	height:100%;
+	overflow-y:auto;
+}
+
+#ctr_macipTable .getDtpwd_td{
+	width:5%;
+}
+
+#ctr_macipTable .getDepName_td{
+	width:180px;
+}
+
+#ctr_macipTable .getUserName_td{
+	width:11%;
+}
+
+#ctr_macipTable .getName_td{
+	width:11%;
+}
+
+#ctr_macipTable .getIpaddr_td{
+	width:15%;
+}
+
+#ctr_macipTable .getDtpwd_td{
+	width:10%;
+}
+
+#ctr_macipTable .shlcgl_xg_td{
+	width:10%;
+}
+
+
+
+#ctr_macipTable .ipaddr_label{
+	display:none;
+}
+
+#ctr_macipTable .macaddr_td{
+	width:15%;
+}
+
+#ctr_macipTable .macaddr_label{
+	display:none;
+}
+
+#ctr_macipTable .binddiv{
+	display:none;
+}
+
+#ctr_macipTable .binddiv_table{
+	width:100%; 
+	text-align: left;
+	margin-top: 10px;
+}
+
+#ctr_macipTable .ipDiv{
+	width:50%; 
+	height:30px;
+	display: none;
+}
+
+#ctr_macipTable .ipDiv_div{
+	width:220px;
+	border-bottom:1px solid #00ADEE; 
+	padding-bottom:2px;
+}
+
+#ctr_macipTable .ipDiv_div_h3{
+	font-size:14px;
+	height: 26px;
+	line-height: 26px;
+}
+
+#ctr_macipTable .ipdz_img{
+	vertical-align:middle;
+}
+
+#ctr_macipTable .macDiv{
+	width:50%;
+	height:30px;
+	padding-left: 10px;
+	display: none;
+}
+
+#ctr_macipTable .macDiv_div{
+	width:220px;
+	border-bottom:1px solid #00ADEE; 
+}
+
+#ctr_macipTable .macDiv_div_h3{
+	font-size:14px;
+	height: 26px;
+	line-height: 26px;
+}
+
+#ctr_macipTable .macdz_img{
+	vertical-align:middle;
+}
+
+#ctr_macipTable .macdz_down_tr_td{
+	height: 10px;
+}
+
+#ctr_macipTable .ipDiv2{
+	width:50%;
+	vertical-align: top;
+	word-break: break-all;
+	padding-left:20px; 
+	display:none;
+}
+
+#ctr_macipTable .ip{
+	height:200px; 
+	border: 1px solid #00ADEE;
+	padding-top: 10px;
+	padding-left: 10px;
+	background: #E8F0F8;
+	overflow-y:scroll;
+}
+
+#ctr_macipTable .macDiv2{
+	width:50%; 
+	vertical-align: top;
+	word-break: break-all; 
+	padding-left: 10px;
+	display:none;
+}
+
+#ctr_macipTable .mac{
+	height:200px; 
+	border: 1px solid #00ADEE;
+	padding-top: 10px;
+	padding-left: 10px;
+	background: #E8F0F8;
+	overflow-y:scroll; 
+}
+
+#ctr_macipTable .mac_down_tr_td{
+	height: 10px;
+}
+
+#ctr_macipTable .bineSure_up_tr_td{
+	border-bottom:1px solid #00ADEE;
+}
+
+#ctr_macipTable .bineSure_a{
+	width:90px; 
+	height:25px; 
+	background: url() no-repeat -178px 0;
+	cursor:pointer;
+	display:block;
+}

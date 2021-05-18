@@ -1,0 +1,301 @@
+﻿﻿@charset "UTF-8";
+#rContent > form > div.div_all > table > tbody > tr > td:nth-child(5){
+    width: 60px;
+}
+#rContent > form > div.div_all > table > tbody > tr > td:nth-child(4){
+    width: 150px;
+}
+#rContent > form > div.div_all > table > tbody > tr > td:nth-child(6){
+    width: 185px;
+}
+td#pageSetting{width: 200px;!important;}
+td#ueditorContent{width: 400px;!important;}
+td#tempPreview{width: 260px;}
+table#eContent{width: 860px;}
+div#pageSetting_title{width: 200px;}
+div#tempSelect{width: 250px;}
+div#currentTemp{float: left;width: 120px;}
+
+#ydwx_editor .ydwx_titletop_table{
+	width:846px;
+}
+#ydwx_editor .ydwx_showdivBox{
+	width: 290px;height: 550px;background-image: url('images/a.png');border: 2px solid #D2E8FD;
+}
+#ydwx_editor .ydwx_divBoxtop{
+	height: 30px;
+	cursor:move;
+}
+#ydwx_editor .ydwx_divBoxtop_b1{
+	margin-left: 10px;font-size: 14px;height: 28px;margin-top: 10px;position: absolute;color: cornflowerblue;
+}
+#ydwx_editor .ydwx_divBoxtop_b2{
+	background: url('ueditor/themes/default/images/icons-all.gif') repeat-x 6px -82px;
+	width: 22px;
+	height: 25px;
+	margin-left: 265px;
+	position: absolute;
+	cursor: pointer;
+}
+#ydwx_editor .ydwx_img{
+	height:430px;
+	background:url('images/phone3.png');
+	margin-left: 20px;
+	width: 248px;
+}
+#ydwx_editor .ydwx_netInfoDiv{
+	width:204px;height: 363px;margin-top: 30px;
+}
+#ydwx_editor .ydwx_wx_name{
+	width:305px;
+}
+#ydwx_editor .ydwx_wx_timeOut{
+	cursor: pointer; width: 180px; background-color: white;
+}
+#ydwx_editor .ydwx_p{
+	display:none;margin:15px;
+}
+
+#ydwx_editor .ydwx_eContent{
+	margin-left: 10px;
+}
+#ydwx_editor .ydwx_pageSetting_title{
+	border-bottom:none;height:36px; position: absolute;
+}
+#ydwx_editor .ydwx_pageSetting_title_sub{
+	margin-top: 10px;margin-left: 25px;position: absolute;height:402px;
+}
+#ydwx_editor .ydwx_add{
+	cursor:pointer;text-decoration:none;color:#4367A8;font-weight:bold;
+}
+#ydwx_editor .ydwx_rename{
+	margin-left: 15px;cursor:pointer;text-decoration:none;color:#4367A8;font-weight:bold;
+}
+#ydwx_editor .ydwx_delete{
+	margin-left: 15px;cursor:pointer;text-decoration:none;color:#4367A8;font-weight:bold;
+}
+#ydwx_editor .ydwx_doctree_box{
+	margin-top: 36px;position: absolute;height:402px;
+}
+#ydwx_editor .ydwx_cname{
+	position: absolute; background-color: #FBFBF8; border: 2px solid #0155EB; width: 170px;height: 130px; display: none; z-index: 0; margin-top: 50px;
+}
+#ydwx_editor .ydwx_cname_sub{
+	padding-left: 20px;
+}
+#ydwx_editor .ydwx_pageName{
+	width: 80%;
+}
+#ydwx_editor .ydwx_cOK{
+	width: 60px; height: 25px;
+}
+#ydwx_editor .ydwx_cNO{
+	margin-left: 20px;width: 60px; height: 25px;
+}
+#ydwx_editor .ydydwx_editor_table{
+	width:400px;
+}
+#ydwx_editor .ydwx_tempSelect{
+	height:448px;border-left: 0;padding-left: 0;padding-top: 0;
+}
+#ydwx_editor .ydwx_tempSelect_sub{
+	padding-left: 5px;padding-top: 5px;padding-bottom: 5px;border-right: 0;border-left: 0;border-top: 1px;border-top: 0;
+}
+
+#ydwx_editor .ydwx_sortId{
+	width: 120px;height: 21px;
+}
+#ydwx_editor .ydwx_changeTemplateDiv{
+	padding-left: 15px;padding-top: 5px;
+}
+#ydwx_editor .ydwx_changeTemplateDiv_sub{
+	 width: 100px;float: left;  padding-left: 5px;
+}
+#ydwx_editor .ydwx_templateShow_img{
+	 width: 100px;height: 100px;cursor: pointer;
+}
+#ydwx_editor .ydwx_changeTemplateDiv_sub_sub{
+	width: 100px;text-align: center;
+}
+#ydwx_editor .ydwx_span{
+	width: 10px;
+}
+#ydwx_editor .ydwx_changePage{
+	padding-top: 12px;text-align: center;
+}
+#ydwx_editor .ydwx_divBox1_sub{
+	width:240px;height:460px;margin-left:30px; margin-top:-3px; background:url('../../../common/img/iphone5.jpg');
+}
+#ydwx_editor .ydwx_nm_preview_common{
+	background: white;width:198px;height:325px;margin-top: 65px;margin-left: 22px;
+}
+#ydwx_editor .ydwx_templateDiv_sub{
+	overflow: auto;height: 415px;text-align: center;
+}
+#ydwx_editor .ydwx_divBox_sub{
+	margin-right:10px;margin-top: 3px;
+}
+#ydwx_editor .ydwx_ym{
+	width:170px;
+}
+#ydwx_editor .ydwx_preview_shows_dv{
+	width:240px;height:460px;margin-left:30px; margin-top:-3px; background:url('../../../common/img/iphone5.jpg');
+}
+#ydwx_editor .ydwx_preview_shows{
+	background: white;width:198px;height:325px;margin-top: 65px;margin-left: 22px;
+}
+#ydwx_editor .ydwx_muchose{
+	display:none;padding-top: 20px ;
+}
+#ydwx_editor .ydwx_payorback{
+	font-size: 14px;
+}
+#ydwx_editor .ydwx_add_xinxi2{
+	text-align:left;padding-left: 3px;
+}
+#ydwx_editor .ydwx_btn_fugai{
+	height:25px;
+	text-align: left;
+}
+#ydwx_editor .ydwx_add_xinxi3{
+	text-align:left;padding-left: 3px;
+}
+#ydwx_editor .wx_timeOut{
+	cursor: pointer; width: 180px; background-color: white;
+}
+#ydwx_editor .ydwx_wx_sms{
+	display:none;margin:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

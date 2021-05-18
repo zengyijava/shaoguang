@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>params.html</title>
+
+<meta name="keywords" content="keyword1,keyword2,keyword3">
+<meta name="description" content="this is my page">
+<meta name="content-type" content="text/html; charset=UTF-8">
+
+<!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+<style>
+#addParam {
+	margin-top: 20px;
+	font-size: 14px;
+	/* background: url(themes/default/images/button_bg.png); */
+	font-weight: bold;
+}
+
+#paramDiv {
+	height: 130px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+/* blue */
+.blue {
+	color: #d9eef7;
+	border: solid 1px #0076a3;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+}
+.blue:hover {
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+}
+.blue:active {
+	color: #80bed6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+	background: -moz-linear-gradient(top,  #0078a5,  #00adee);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+}.button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 1em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+</style>
+</head>
+
+<body>
+	<div id="paramDiv">
+		<table>
+			<tr id="paramId1" class="paramIdClass">
+				<td><input type="checkbox" name="params" value="#P_1#" />参数1</td>
+				<td><input type="checkbox" name="params" value="#P_2#" />参数2</td>
+				<td><input type="checkbox" name="params" value="#P_3#" />参数3</td>
+				<td><input type="checkbox" name="params" value="#P_4#" />参数4</td>
+				<td><input type="checkbox" name="params" value="#P_5#" />参数5</td>
+			</tr>
+			<tr id="paramId2" class="paramIdClass">
+				<td><input type="checkbox" name="params" value="#P_6#" />参数6</td>
+				<td><input type="checkbox" name="params" value="#P_7#" />参数7</td>
+				<td><input type="checkbox" name="params" value="#P_8#" />参数8</td>
+				<td><input type="checkbox" name="params" value="#P_9#" />参数9</td>
+				<td><input type="checkbox" name="params" value="#P_10#" />参数10</td>
+			</tr>
+		</table>
+	</div>
+		<a id="addParam" class="button blue" value="新增参数" onclick="addParam()">新增参数</a>
+	<script src="third-party/myjquery-k.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	function aaa(){ //jquery获取复选框值 
+		var chk_value =[]; 
+		$('input[name="params"]:checked').each(function(){ 
+		chk_value.push($(this).val()); 
+		}); 
+		alert(chk_value.length==0 ?'你还没有选择任何内容！':chk_value); 
+		} 
+	function addParam(){
+		var paramIdClassObj = $('.paramIdClass');
+		var len = paramIdClassObj.length;
+		var html='<tr id="paramId"'+(len+1)+' class="paramIdClass">'
+		for (var i = 1; i <= 5; i++) {
+			html+='<td><input type="checkbox" name="params" value="#P_'+(5*len+i)+'#" />参数'+(5*len+i)+'</td>';
+		}
+		html+='</tr>'
+		$(paramIdClassObj[paramIdClassObj.length-1]).after(html);
+	}
+	</script>
+</body>
+</html>

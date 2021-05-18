@@ -1,0 +1,17 @@
+@charset "UTF-8";
+#sysTable > tbody > tr  {
+    width: 500px;
+}
+#sysTable{
+    width: 480px;
+}
+td#left{
+    width: 300px;
+}
+#sysTable > tbody > tr > td:nth-child(1){
+    width: 50px;
+    text-align: left;
+}
+#trustForm{
+    margin-left: 30px;
+}

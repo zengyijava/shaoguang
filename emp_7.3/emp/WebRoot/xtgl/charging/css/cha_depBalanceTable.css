@@ -1,0 +1,140 @@
+#cha_depBalanceTable .inpstyle{width:163px;float:left;}
+
+#cha_depBalanceTable .addBalance{
+	padding-left:10px;
+}
+
+#cha_depBalanceTable .xxlx_up_tr_td{
+	height:10px;
+}
+
+#cha_depBalanceTable .xxlx_td{
+	width:91px;
+}
+
+#cha_depBalanceTable .czts_up_tr_td{
+	height:5px;
+}
+
+#cha_depBalanceTable .bz_up_tr_td{
+	height:5px;
+}
+
+#cha_depBalanceTable .addMark{
+	border: 1px solid #BEC3D1;
+}
+
+#cha_depBalanceTable .cz_up_tr_td{
+	height:10px;
+}
+
+#cha_depBalanceTable .cz_td{
+	margin-top: 10px;
+}
+
+#cha_depBalanceTable .delBalance{
+	padding-left:10px;
+}
+
+#cha_depBalanceTable .xxlx2_up_tr_td{
+	height:10px;
+}
+
+#cha_depBalanceTable .hsts2_up_tr_td{
+	height:5px;
+}
+
+#cha_depBalanceTable .bz2_up_tr_td{
+	height:5px;
+}
+
+#cha_depBalanceTable .recMark{
+	border: 1px solid #BEC3D1;
+}
+
+#cha_depBalanceTable .hs2_up_tr_td{
+	height:10px;
+}
+
+#cha_depBalanceTable .hs2_td{
+	margin-top: 10px;
+}
+
+#cha_depBalanceTable .setAlarm{
+	padding-left:10px;
+}
+
+#cha_depBalanceTable .setAlarm_table{
+	width:90%;
+}
+
+#cha_depBalanceTable .smsAlarm_up_tr_td{
+	height:10px;
+}
+
+#cha_depBalanceTable .mmsAlarm_up_tr_td{
+	height:10px;
+}
+
+#cha_depBalanceTable .alarmName_up_tr_td{
+	height:10px;
+}
+
+#cha_depBalanceTable .alarmPhone_up_tr_td{
+	height:10px;
+}
+
+#cha_depBalanceTable .alarmButton_up_tr_td{
+	height:20px;
+}
+
+#cha_depBalanceTable .alarmButton_td{
+	margin-top: 10px;
+}
+
+#cha_depBalanceTable .addBalanceAllDiv{
+	padding:5px;display:none;
+}
+
+#cha_depBalanceTable .addBalanceAllFrame{
+	display:none;
+	width:470px;
+	height:460px;
+}
+
+#cha_depBalanceTable .singledetail{
+	padding:5px;
+	display:none;
+	word-wrap: break-word;
+	word-break:break-all;
+	overflow-y:auto;
+}
+
+#cha_depBalanceTable .msg{
+	width:100%;
+	height:100%;
+	overflow-y:auto;
+}
+
+#cha_depBalanceTable .rzck_table{
+	width:100%;
+}
+
+#cha_depBalanceTable .rzck_td{
+	text-align: left;
+	padding-bottom: 6px;
+}
+
+#cha_depBalanceTable .search_td{
+	text-align: right;
+	padding-bottom: 5px;
+}
+
+#cha_depBalanceTable .depName{
+	float:right;
+	height: 21px;
+	line-height: 23px;
+	border-right: 0px;
+}
+
+

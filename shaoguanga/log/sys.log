@@ -1,0 +1,11 @@
+2021-04-13 08:36:15,687 INFO (StartupInfoLogger.java:50)- Starting ShaoguangaApplication on DESKTOP-CSOQ78N with PID 9824 (D:\MWProject\shaoguan\shaoguanga\target\classes started by dell in D:\MWProject\shaoguan\shaoguanga)
+2021-04-13 08:36:15,689 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-04-13 08:36:15,690 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2021-04-13 08:36:16,573 INFO (StartupInfoLogger.java:59)- Started ShaoguangaApplication in 1.125 seconds (JVM running for 2.414)
+2021-04-13 09:41:24,484 INFO (StartupInfoLogger.java:50)- Starting ShaoguangaApplication on DESKTOP-CSOQ78N with PID 14628 (D:\MWProject\shaoguan\shaoguanga\target\classes started by dell in D:\MWProject\shaoguan\shaoguanga)
+2021-04-13 09:41:24,486 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-04-13 09:41:24,487 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2021-04-13 09:41:25,427 INFO (StartupInfoLogger.java:59)- Started ShaoguangaApplication in 1.225 seconds (JVM running for 1.646)
+2021-04-13 09:44:29,605 INFO (StartupInfoLogger.java:50)- Starting ShaoguangaApplication on DESKTOP-CSOQ78N with PID 14908 (D:\MWProject\shaoguan\shaoguanga\target\classes started by dell in D:\MWProject\shaoguan\shaoguanga)
+2021-04-13 09:44:29,607 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-04-13 09:44:29,608 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

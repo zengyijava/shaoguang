@@ -1,0 +1,31 @@
+/*移动办公-员工通讯录管理-通讯录权限管理*/
+#epl_permissions #ifra{
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	width: 100%;
+}
+#epl_permissions .user_td1{
+	width: 135px;
+}
+#epl_permissions .user_td2{
+	width: 200px;
+}
+#epl_permissions .user_div1{
+	clear: right;
+}
+#epl_permissions #bindUserFrame{
+	width:689px;
+	padding:0 0 0 10px;
+	height:420px;
+	border: 0;
+}
+#epl_permissions .user_table1{
+	width:690px;
+}
+#epl_permissions .user_td3{
+	text-align:center;
+}
+.user_display_none{
+	display:none;
+}

@@ -1,0 +1,222 @@
+@import '../../libs/assets/less/variables';
+
+.editor {
+  position: absolute;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  right: 20px;
+  overflow-x: hidden;
+}
+
+.nav-bar {
+  display: table;
+  width: calc(~'100% - 36px');
+  padding: 0 18px;
+  height: 56px;
+  background-color: #2b2f38;
+  ul {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    li {
+      display: inline-block;
+      & + li {
+        margin-left: 16px;
+      }
+      button {
+        width: 56px;
+        height: 32px;
+      }
+    }
+  }
+}
+
+.editor-footer {
+  text-align: center;
+  margin: 0 auto;
+  .el-radio-group {
+    .el-radio-button__inner {
+      min-width: 160px;
+    }
+  }
+}
+
+.property {
+  position: absolute;
+  top: 0;
+  bottom: 20px;
+  width: 325px;
+  right: -325px;
+  overflow-y: auto;
+  border: solid 1px @border;
+  border-radius: 2px;
+  box-sizing: border-box;
+  background-color: @white-light;
+  z-index: 2;
+  transition: right 0.5s ease-in-out;
+  &.show {
+    right: 0;
+  }
+}
+
+.canvas {
+  height: 522px;
+  width: 260px;
+  max-height: 528px;
+  position: relative;
+  padding: 48px 28px 42px 28px;
+  margin: 50px auto 32px;
+  background: url('../../libs/assets/img/phone.png') no-repeat;
+  header {
+    margin-left: 40px;
+  }
+  button {
+    height: 100%;
+    width: 100%;
+  }
+  .timer {
+    position: absolute;
+    font-size: 12px;
+    top: 24px;
+    color: #8c8c8c;
+    left: 26px;
+  }
+  .icon-my-logo {
+    position: absolute;
+    top: 42px;
+    left: 12px;
+    height: 30px;
+    width: 30px;
+    background: url(../../libs/assets/img/qylogo.png) no-repeat;
+  }
+  .editor-container {
+    margin-top: -4px;
+    width: 260px;
+    min-height: 254px;
+    overflow: hidden;
+    border: solid 1px #d6d6d6;
+    border-radius: 16px;
+    outline: none;
+    font-size: 14px;
+    resize: none;
+  }
+  iframe > html > body:empty:before {
+    content: '请在此处输入文本...';
+    color: #000;
+  }
+  .pd8 {
+    width: 262px;
+    padding: 8px 6px;
+    overflow: scroll;
+    min-height: 256px;
+    max-height: 534px;
+    box-sizing: border-box;
+    word-break: break-word;
+  }
+}
+.save-param {
+  padding-top: 8px;
+  padding-bottom: 16px;
+  margin-left: 80px;
+}
+.nav-rich-title {
+  font-size: 18px;
+  color: #fefefe;
+  line-height: 56px;
+}
+
+.editor-base-color {
+  color: #00aa72;
+}
+
+.nav-botton > ul > li {
+  float: left;
+  line-height: 60px;
+  span {
+    display: inline-block;
+    height: 32px;
+    width: 60px;
+    line-height: 32px;
+    font-size: 14px;
+    background: #59606f;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    &:hover {
+      background: #6c7586;
+    }
+  }
+  .button-submit-audit {
+    width: 120px;
+  }
+  .botton-primary {
+    background-color: #2e95ff;
+    &:hover {
+      background: #66b1ff;
+    }
+  }
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  top: 614px;
+  right: 18px;
+  text-align: right;
+  .info {
+    margin-right: -16px;
+    font-size: 12px;
+    color: #888;
+  }
+}
+
+.icon-editor-logo {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 4px;
+  background: url(../../libs/assets/img/logo_icon.png) no-repeat;
+}
+.preview-dialog {
+  .el-dialog {
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  .el-dialog__header {
+    padding: 17px 20px;
+    border-bottom: 1px solid #dcdcdc;
+    background: #f7f9fc;
+    p {
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+    }
+    .el-dialog__headerbtn {
+      top: 13px;
+      right: 16px;
+    }
+  }
+  .el-dialog__body {
+    padding-top: 0;
+    padding-bottom: 0;
+    background: #f4f4f4;
+    .preview-page {
+      border-right: 1px solid #dcdcdc;
+      padding-bottom: 16px;
+    }
+  }
+  .el-form{
+    .el-form-item.is-success .el-input__inner,
+    .el-form-item.is-success .el-input__inner:focus,
+    .el-form-item.is-success .el-textarea__inner,
+    .el-form-item.is-success .el-textarea__inner:focus{
+      border-color: @border;
+    }
+    .el-button{
+      margin-top: 10px;
+    }
+  }
+}

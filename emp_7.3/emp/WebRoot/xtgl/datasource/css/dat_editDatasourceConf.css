@@ -1,0 +1,35 @@
+#dat_editDatasourceConf tr{
+	height:35px;
+}
+#dat_editDatasourceConf #detail
+{
+	padding-left:23px;
+}
+
+#dat_editDatasourceConf .hiddenValueDiv{
+	display:none;
+}
+
+#dat_editDatasourceConf .content{
+	width:350px;
+}
+
+#dat_editDatasourceConf .dbType{
+	width:172px;
+}
+
+#dat_editDatasourceConf .dbConnType{
+	width:172px;
+}
+
+#dat_editDatasourceConf .dbPwd{
+	width:169px;
+}
+
+#dat_editDatasourceConf .testDBConnBtn_div_1{
+	padding-left: 25px;
+}
+
+#dat_editDatasourceConf .testDBConnBtn_div_1{
+	padding-left: 15px;
+}

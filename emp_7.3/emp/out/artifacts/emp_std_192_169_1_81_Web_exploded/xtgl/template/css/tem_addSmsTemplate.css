@@ -1,0 +1,160 @@
+table#editSmstmpTable tr {
+	height: 42px;
+}
+table#editSmstmpTable td input[type="text"] {
+	width: 365px;
+	border: 0;
+}
+
+table#editSmstmpTable td select {
+    width: 370px;
+    border: #e8ecf0 1px solid;
+    height: 28px;
+}
+#tem_addSmsTemplate .temp_style
+{
+	vertical-align: top;
+}
+
+
+#tem_addSmsTemplate .hiddenValueDiv{
+	display:none;
+}
+
+#tem_addSmsTemplate .editSmstmpTable{
+	width: 610px;
+	text-align: left;
+}
+
+#tem_addSmsTemplate .rglrdtmb_tr{
+	display:none;
+}
+
+#tem_addSmsTemplate .spanSmsTmpName_td1{
+	width: 130px;
+}
+
+#tem_addSmsTemplate .spanSmsTmpName_td2{
+	width: 90px;
+}
+
+#tem_addSmsTemplate .tmName_td{
+	width: 380px;
+}
+
+#tem_addSmsTemplate .tmName_div{
+	float: left;
+	width:365px;
+}
+
+#tem_addSmsTemplate .tmName{
+	border-width:0;
+}
+
+#tem_addSmsTemplate .cdbndy_font{
+	display:none;
+	color: red;
+}
+
+#tem_addSmsTemplate .font_red{
+	color: red;
+}
+
+#tem_addSmsTemplate .spanSmsTmpCode_td{
+	width: 90px;
+}
+
+#tem_addSmsTemplate .tmCode_td{
+	width: 380px;
+}
+
+#tem_addSmsTemplate .tmCode_div{
+	float: left;
+	width:365px;
+}
+
+#tem_addSmsTemplate .tmCode{
+	border-width:0;
+}
+
+#tem_addSmsTemplate .tmCode_down_font{
+	display:none;
+	color: red;
+}
+
+#tem_addSmsTemplate .mbcodems{
+	color:#7f7f7f;
+}
+
+#tem_addSmsTemplate .dsflag_td{
+	width:200px;
+}
+
+#tem_addSmsTemplate .dsflag_div{
+	float: left;
+}
+
+#tem_addSmsTemplate .subModule{
+	float: left;
+	margin-top:5px;
+	margin-bottom: -7px;
+}
+
+#tem_addSmsTemplate .zmk_div{
+	padding:5px 0;
+}
+
+#tem_addSmsTemplate .cwcode_div{
+	float: left;
+}
+
+#tem_addSmsTemplate .gbcs_td{
+	padding:9px 0;
+	vertical-align:top;
+}
+
+#tem_addSmsTemplate .gbcs_div{
+	width:367px;
+}
+
+#tem_addSmsTemplate .gbcs_div_div{
+	display:none;
+	height: 15px;
+}
+
+#tem_addSmsTemplate .tmMsg{
+	width:367px;
+	height:90px;
+}
+
+#tem_addSmsTemplate .fontFmTip{
+	display: none;
+	color:#7f7f7f;
+	clear:both;
+	margin-left:120px;
+	float:left;
+}
+
+#tem_addSmsTemplate .mbzt_mh_tr{
+	height:26px!important;
+}
+
+#tem_addSmsTemplate .btn{
+	text-align: center;
+}
+/*��ͬ����Ⱥ��-�����½���ʼ*/
+#tem_addSmsTemplate .tmName_div,.tmCode_div {
+    height: 33px;
+}
+#tem_addSmsTemplate table#editSmstmpTable td select {
+    width: 369px;
+    border: 1px solid #e8ecf0;
+    height: 35px;
+}
+#tem_addSmsTemplate table#editSmstmpTable tr {
+    height: 46px;
+}
+#tem_addSmsTemplate .btn {
+    padding-left: 90px;
+}
+/*��ͬ����Ⱥ��-�����½�����*/

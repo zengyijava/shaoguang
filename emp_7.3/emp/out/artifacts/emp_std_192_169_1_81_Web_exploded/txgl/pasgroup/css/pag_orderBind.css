@@ -1,0 +1,37 @@
+#pag_orderBind .hiddenValueDiv {
+	display: none;
+}
+
+#pag_orderBind .editMoServiceBindDiv {
+	padding: 5px;
+	display: none;
+}
+
+#pag_orderBind .editMoServiceFrame1 {
+	width: 620px;
+	height: 250px;
+	border: 0;
+}
+
+#pag_orderBind .editMoServiceFrame2 {
+	width: 580px;
+	height: 250px;
+	border: 0;
+}
+
+#pag_orderBind .addMoServiceBindDiv {
+	padding: 5px;
+	display: none;
+}
+
+#pag_orderBind .addMoServiceBindFrame1 {
+	width: 620px;
+	height: 230px;
+	border: 0;
+}
+
+#pag_orderBind .addMoServiceBindFrame2 {
+	width: 580px;
+	height: 230px;
+	border: 0;
+}

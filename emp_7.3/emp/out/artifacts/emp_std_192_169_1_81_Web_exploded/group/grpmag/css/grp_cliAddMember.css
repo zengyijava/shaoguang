@@ -1,0 +1,121 @@
+#grp_cliAddMember #div_sel,.group_font_size{
+	font-size: 12px;
+}
+#grp_cliAddMember  #right p{
+	height:21px;
+}
+#grp_cliAddMember  div#gpName_div{
+	text-align: left;
+}
+#grp_cliAddMember  input#addGpName{
+	width: 400px;
+}
+#grp_cliAddMember  #right{
+	overflow-y: auto;
+}
+#grp_cliAddMember  .md{
+	width: 40%;
+}
+#grp_cliAddMember  .ld{
+	width: 30%;
+}
+#grp_cliAddMember  .rd{
+	width: 29%;
+}
+#grp_cliAddMember  .formatInfo{
+	width: 39%;
+}
+#grp_cliAddMember label#enterName{
+	display: inline;
+	color: #CCC;
+	position: absolute;
+	left: 125px;
+	height: 43px;
+	line-height: 43px;
+	cursor: text;
+	top: 36px;
+}
+
+#efile .remindMsg p {
+     font-size: 12px;
+     margin-left: 15px;
+     color: #999999;
+     float: left;
+     text-align: left;
+     line-height: 25px;
+}
+
+
+#grp_cliAddMember .group_span1 {
+	margin-left: 10px;
+}
+#grp_cliAddMember #gpName_label {
+	margin-left: 70px;display: none;
+}
+#grp_cliAddMember .group_table1 {
+	margin:0 auto;border:0;
+}
+#grp_cliAddMember .group_td1 {
+	font-size:12px; line-height:22px;height:24px;text-align: left;
+}
+#grp_cliAddMember #chooseType {
+	float:left;margin-left:5px;height:23px;margin-right: 2px;
+}
+#grp_cliAddMember #epname {
+	float:left;width:120px;height:21px;
+}
+#grp_cliAddMember #btnSearch {
+	margin-left: -1px;
+}
+#grp_cliAddMember #etree {
+	height: 224px;width:257px;display:block;
+}
+#grp_cliAddMember #sonFrame {
+	width: 257px; height: 224px;
+}
+#grp_cliAddMember #egroup {
+	display:none;height: 224px;width:257px;overflow:hidden;
+}
+#grp_cliAddMember .group_div1 {
+	height:10px;
+}
+#grp_cliAddMember .group_div2 {
+	float: left;text-align:center;width:99%;
+}
+#grp_cliAddMember #left {
+	width: 263px; font-size: 12px;padding:2px;vertical-align:middle;margin:-4px -6px;
+}
+#grp_cliAddMember .group_div3 {
+	padding-top: 5px;
+}
+#grp_cliAddMember #prepage,#nextpage {
+	visibility:hidden;
+}
+#grp_cliAddMember #pagecode {
+	color: blue;font-size: 12px;
+}
+#grp_cliAddMember .group_div4 {
+	height:15px;
+}
+#grp_cliAddMember #adName {
+	height:20px;line-height:20px;width:60px;border-right: 0px;
+}
+#grp_cliAddMember #adPhone {
+	height:20px;line-height:20px;width:165px;
+}
+#grp_cliAddMember .div_bd.group_div5 {
+	height: 25px;line-height: 25px;width:286px;display:block;border-bottom: none;border-top:none;
+}
+#grp_cliAddMember .ld.div_bd,.md.div_bd,.rd.div_bd {
+	height: 25px;line-height: 25px;font-size: 12px;
+}
+#grp_cliAddMember .div_bd.group_div6 {
+	height: 25px;line-height: 25px;width:356px;display:block;
+}
+#grp_cliAddMember .group_div7 {
+	height:5px;
+}
+
+.group_display_none{
+	display:none;
+}

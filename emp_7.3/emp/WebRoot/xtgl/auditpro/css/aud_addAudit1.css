@@ -1,0 +1,280 @@
+#aud_addAudit1 .des{
+    float: right;
+    margin-right: 80px;
+    padding: 6px 12px;
+}
+#aud_addAudit1 #des-info{
+    position: absolute;
+    z-index: 5000;
+    border: 1px solid rgb(218, 225, 207);
+    width: 300px;
+    padding: 12px;
+    background-color: rgb(247, 255, 240);
+    display: none;
+    font-size: 13px;
+    line-height: 1.5em;
+}
+
+#aud_addAudit1 .getloginUser{
+	padding:5px;
+	display:none;
+}
+
+#aud_addAudit1 .serForm_div{
+	margin-left:25px;
+}
+
+#aud_addAudit1 .serForm_div_table{
+	font-size:14px;
+	width:585px;
+	line-height:32px;
+}
+
+#aud_addAudit1 .serForm_div_table_td1{
+	width:14%;
+}
+
+#aud_addAudit1 .serForm_div_table_td2{
+	width:26%;
+	line-height:1em;
+}
+
+#aud_addAudit1 .serForm_div_table_td3{
+	width:31%;
+}
+
+#aud_addAudit1 .serForm_div_table_td4{
+	width:29%;
+}
+
+#aud_addAudit1 .serForm_div_2{
+	margin-top:30px;
+}
+
+#aud_addAudit1 .serForm_div_2_table{
+	height:23px;
+	width: 566px;
+}
+
+#aud_addAudit1 .serForm_div_2_table_td{
+	width:468px;
+}
+
+#aud_addAudit1 .flowtask{
+	width:468px;
+	border-top: 0;
+	border-bottom: 0;
+	border-right: 0;
+}
+
+#aud_addAudit1 .serForm_div_3{
+	height: 70px;
+}
+
+#aud_addAudit1 .serForm_div_3_table{
+	height: 70px;
+	width: 566px;
+	border: 1;
+}
+
+#aud_addAudit1 .serForm_div_3_table_td{
+	width:93px;
+}
+
+#aud_addAudit1 .xtgl_label{
+	padding-left:15px;
+}
+
+#aud_addAudit1 .addFlowDiv1{
+	height:120px;
+}
+
+#aud_addAudit1 .addFlowDiv1_table{
+	height:120px;
+	width:566px;
+}
+
+#aud_addAudit1 .addFlowDiv1_table_td1{
+	width:90px;
+}
+
+#aud_addAudit1 .addFlowDiv1_table_td2{
+	height:35px;
+}
+
+#aud_addAudit1 .type1{
+	width: 120px;
+	margin-left:15px;
+	height: 22px;
+}
+
+#aud_addAudit1 .add1{
+	visibility: hidden;
+}
+
+#aud_addAudit1 .auditcount1{
+	padding-left: 20px;
+}
+
+#aud_addAudit1 .flowobj1{
+	width: 470px;
+	padding-left:5px;
+}
+
+
+#aud_addAudit1 .addFlowDiv1_table_td3{
+	height:50px;
+}
+
+#aud_addAudit1 .addFlowDiv1_table_td4{
+	padding-left:10px;
+	 height:35px;
+}
+
+#aud_addAudit1 .sysuserDiv1{
+	display: none;
+}
+
+#aud_addAudit1 .flowuserFrame1{
+	width:320px;
+	height:400px;
+	border:0;
+}
+
+#aud_addAudit1 .flowuserFrame1_td{
+	width:300px;
+}
+
+#aud_addAudit1 .sysdepDiv1{
+	display: none;
+}
+
+#aud_addAudit1 .flowdepFrame1{
+	width:320px;
+	height:400px;
+	border:0;
+}
+
+#aud_addAudit1 .flowdepFrame1_tb{
+	width:300px;
+}
+
+#aud_addAudit1 .auditLevel_div{
+	height:120px;
+}
+
+#aud_addAudit1 .auditLevel_div_table{
+	height:120px;
+	width:566px;
+}
+
+#aud_addAudit1 .auditLevel_div_table_td1{
+	width:90px;
+}
+
+#aud_addAudit1 .auditLevel_div_table_td2{
+	height:35px;
+}
+
+#aud_addAudit1 .auditLevel_div_table_td2_select{
+	width: 100px;
+	margin-left:15px;
+	height: 22px;
+}
+
+#aud_addAudit1 .auditLevel_div_table_td2_label{
+	padding-left: 20px;
+}
+
+#aud_addAudit1 .flowobj_td{
+	height:50px;
+}
+
+#aud_addAudit1 .flowobj_span{
+	width: 470px;
+	padding-left:5px;
+}
+
+
+#aud_addAudit1 .auditLevel_div_table_tr3_td{
+	padding-left:10px; 
+	height:35px;
+}
+
+#aud_addAudit1 .sysuserDiv{
+	display: none;
+}
+
+#aud_addAudit1 .flowuserFrame{
+	width:320px;
+	height:400px;
+	border:0;
+}
+
+#aud_addAudit1 .flowuserFrame_td{
+	width:300px;
+}
+
+#aud_addAudit1 .sysdepDiv{
+	display: none;
+}
+
+#aud_addAudit1 .flowdepFrame{
+	width:320px;
+	height:400px;
+	border:0;
+}
+
+#aud_addAudit1 .flowdepFrame_td{
+	width:300px;
+}
+
+#aud_addAudit1 .adddiv{
+	height: 30px;
+	padding-top: 15px;
+}
+
+#aud_addAudit1 .adddiv_table{
+	width: 566px;
+	height: 45px;
+	line-height:45px;
+}
+
+#aud_addAudit1 .adddiv_table_td{
+	text-indent:10px;
+	background:url(../../../common/img/jiahao.png) no-repeat 210px center;
+}
+
+#aud_addAudit1 .biaoj_div{
+	margin-top:30px;
+}
+
+#aud_addAudit1 .biaoj_div_table{
+	height:23px;
+	width: 566px;
+}
+
+#aud_addAudit1 .biaoj_div_table_td1{
+	padding-left: 40px;
+}
+
+#aud_addAudit1 .biaoj_div_table_td2{
+	width:468px;
+}
+
+#aud_addAudit1 .comment{
+	width:468px;
+	border-top: 0;
+	border-bottom: 0;
+	border-right: 0;
+}
+
+#aud_addAudit1 .biaoj_div2{
+	height: 60px;
+}
+
+#aud_addAudit1 .biaoj_div2_table{
+	width: 566px;
+	height: 35px;
+}
+

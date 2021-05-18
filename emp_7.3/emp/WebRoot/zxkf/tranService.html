@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./static/css/base.css">
+	<link rel="stylesheet" href="./static/css/tranService.css">
+	<link rel="stylesheet" href="./static/css/nanoscroller2.css">
+</head>
+<body>
+	<div id="tranService">
+		<div id="selectService" class="nano">
+			<div class="content">
+				<ul>
+					<li>
+						<dl>
+							<dt><input type="radio" name="service" value="1"></dt>
+							<dd><img src="/ott/online/static/images/kf.png" alt=""></dd>
+							<dd>阿訇</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><input type="radio" name="service" value="2"></dt>
+							<dd><img src="/ott/online/static/images/kf.png" alt=""></dd>
+							<dd>阿訇</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><input type="radio" name="service" value="3"></dt>
+							<dd><img src="/ott/online/static/images/kf.png" alt=""></dd>
+							<dd>阿訇</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><input type="radio" name="service" value="4"></dt>
+							<dd><img src="/ott/online/static/images/kf.png" alt=""></dd>
+							<dd>阿訇</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><input type="radio" name="service" value="5"></dt>
+							<dd><img src="/ott/online/static/images/kf.png" alt=""></dd>
+							<dd>阿訇</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><input type="radio" name="service" value="6"></dt>
+							<dd><img src="/ott/online/static/images/kf.png" alt=""></dd>
+							<dd>阿訇</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><input type="radio" name="service" value="5"></dt>
+							<dd><img src="/ott/online/static/images/kf.png" alt=""></dd>
+							<dd>阿訇</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><input type="radio" name="service" value="6"></dt>
+							<dd><img src="/ott/online/static/images/kf.png" alt=""></dd>
+							<dd>阿訇</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><input type="radio" name="service" value="5"></dt>
+							<dd><img src="/ott/online/static/images/kf.png" alt=""></dd>
+							<dd>阿訇</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><input type="radio" name="service" value="6"></dt>
+							<dd><img src="/ott/online/static/images/kf.png" alt=""></dd>
+							<dd>阿訇</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><input type="radio" name="service" value="5"></dt>
+							<dd><img src="/ott/online/static/images/kf.png" alt=""></dd>
+							<dd>阿訇</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><input type="radio" name="service" value="6"></dt>
+							<dd><img src="/ott/online/static/images/kf.png" alt=""></dd>
+							<dd>阿訇</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><input type="radio" name="service" value="5"></dt>
+							<dd><img src="/ott/online/static/images/kf.png" alt=""></dd>
+							<dd>阿訇</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><input type="radio" name="service" value="6"></dt>
+							<dd><img src="/ott/online/static/images/kf.png" alt=""></dd>
+							<dd>阿訇</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="dest">
+			<p>转接客服说明：</p>
+			<textarea name=""  cols="30" rows="10" id="tranService_dest"></textarea>
+		</div>
+	</div>
+	<script src="./static/js/myjquery-k.js"></script>
+	<script src="./static/js/lib/artDialog/artDialog.js?skin=default"></script>
+	<script src="./static/js/lib/artDialog/iframeTools.js"></script>
+	<script src="./static/js/jquery.nanoscroller.js"></script>
+	<script>
+		$(function(){
+			$('#selectService').delegate('li',{
+				mouseenter:function(){
+						$(this).addClass('hover');
+				},
+				mouseleave:function(){
+					
+						$(this).removeClass('hover');
+				},
+				click:function(){
+					var oRadio=$(this).find('input[type=radio]');
+					oRadio.trigger('click');
+				}
+			});	
+			$('#selectService').delegate('input[type="radio"]','click',function(e){
+				e.stopPropagation();
+				art.dialog.data('service',$(this).val());
+			})
+			$('#tranService_dest').keyup(function(){
+				art.dialog.data('dest',$(this).val());
+			})
+
+			$(".nano").nanoScroller({
+				sliderMaxHeight:60
+			});
+
+		})
+	</script>
+</body>
+</html>

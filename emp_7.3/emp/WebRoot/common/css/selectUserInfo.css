@@ -1,0 +1,432 @@
+center {
+    font-size: 14px;
+}
+.dept {
+    float: left;
+    margin-left: 32px;
+    margin-top: 6px;
+    text-align: left;
+    width:312px;
+    height:186px;
+    overflow: auto;
+    border: 1px solid #e3e3e3;
+}
+
+#egroup {
+    display:none;
+    width:240px;
+    overflow: hidden;
+}
+
+.shownameDiv {
+    height:32px;
+    width:312px;
+    float:left;
+    border-bottom: 1px solid #e4dada!important;
+    border-left: 0!important;
+    border-top: 0!important;
+    border-right: 0!important;
+}
+#showUserName {
+   height:27px;
+   padding-top: 5px;
+   padding-left:10px;
+   display: block;
+   font-size: 12px;
+}
+.showchoiceDiv {
+    width:232px;
+    height:340px;
+    overflow:auto;
+    display: inline-block;
+    border: 1px solid #e2e2e2;
+    position: relative;
+    left: 35px;
+    bottom: 190px;
+}
+
+#right {
+   width:220px; 
+   /*height: 415px;*/ 
+   border:0;
+   float:left;
+   color: black;
+   font-size: 12px;
+   padding:4px;
+   vertical-align:middle;
+   margin:-4px -9px;
+}
+
+.chooseBox{
+    width: 626px;
+    height: 32px;
+    margin-left: 32px;
+}
+#chooseSelect{
+    float: left;
+}
+
+#nameInput{
+    display: inline-block;
+    float: left;
+}
+
+#manCountOuter{
+    display: inline-block;
+    width: 150px;
+}
+
+#showName{
+    margin-top: 20px;
+    height: 128px;
+    width: 312px;
+    display:block;
+}
+
+#choose_Type{
+    float: left;
+    height:32px;
+    width:145px;
+    font-size: 12px;
+    border: 1px solid #e2e2e2;
+    vertical-align: bottom;
+}
+
+#searchNameButton{
+    cursor: pointer;
+    float: left;
+    height: 32px;
+    width: 32px;
+    margin-left: -1px;
+}
+
+#searchName{
+    float: left;
+    margin-left: 10px;
+    width: 120px;
+    height: 16px;
+    padding: 7px 2px;
+    vertical-align: bottom;
+}
+.lostFocus{
+    border-left: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+}
+/*滚动条整体样式*/
+.rollBak::-webkit-scrollbar {
+    /*高宽分别对应横竖滚动条的尺寸*/
+    width: 5px;
+    height: 5px;
+}
+/*滚动条里面小方块*/
+.rollBak::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px #e3e3e3;
+    background: #0F3A56;
+}
+/*滚动条里面轨道*/
+.rollBak::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+}
+
+#button{
+    margin-top: 100px;
+    margin-left: 108px;
+}
+
+.toLeft,.toRight{
+    font-size: 14px;
+    width: 60px;
+    height: 35px;
+    background-color: #e7eeef;
+    cursor: pointer;
+    border-radius:10px;
+}
+#button span{
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 2px;
+    letter-spacing: 5px;
+}
+input:-webkit-autofill{
+    -webkit-box-shadow: 0 0 0px 10000px rgba(255,255,255,0.5) inset !important;
+}
+
+.showUserName{
+    float: left;
+    margin-left: 32px;
+    text-align: left;
+    border: 1px solid #e3e3e3;
+}
+#left{
+    height: 96px;
+    width: 312px;
+    border: 0;
+}
+/*右边选择框*/
+.chooseMan,.memberList,.groupList{
+    font-size: 12px;
+    color: #222222;
+    line-height: 31px;
+    text-align: left;
+    text-indent: 10px;
+    border-bottom: 1px solid #e4dada;
+}
+.temp-selected,.selectedNode,.selectedGroup{
+    background-color: #ebf2ff;
+}
+.select-box-dashed {
+    position: absolute;
+    display: none;
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    border: 1px dashed #0099ff;
+    background-color: #c3d5ed;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    font-size: 0;
+    z-index: 99999;
+}
+.left_select_choose{
+    margin-top: 32px;
+    overflow-y: auto;
+}
+/*全选<a>标签*/
+#selectAllMem{
+    cursor: pointer;
+    text-decoration: none;
+    color:blue;
+    margin-right: 20px;
+    float: right
+ }
+#pageInfo{
+    margin-top: 5px;
+    float: right;
+}
+#pageInfo input{
+    background-color: #e7eeef;
+    border-radius: 5px;
+    border: 1px solid #e2e2e2
+}
+#sonFrame{
+    height:182px;
+    width:310px;
+}
+#pagecode{
+    color: blue;
+    font-size: 12px;
+}
+.chooseBox{
+    margin-top: 32px;
+}
+.search_img{
+    margin-top: 8px;
+}
+.selectContent{
+    height:450px;
+}
+.groupList{
+    padding-left:5px;
+}
+#tempInfo{
+    display: none;
+    line-height: 35px;
+}
+#tempInfo input{
+    border: 1px solid #e2e2e2;
+    line-height: 23px;
+    width: 150px;
+    padding: 5px;
+}
+#tempInfo span{
+    font-size: 15px;
+}
+#tempInfo #tempName{
+    margin-right: 130px;
+}
+.phoneAndNameInputWrapper{
+    display: none;
+    width: 232px;
+    height: 74px;
+    border-top: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    position: relative;
+    left: 208px;
+    bottom: 200px;
+}
+.phoneAndNameInputWrapper table{
+    width: 234px;
+    position: relative;
+    bottom: 105px;
+}
+.border_right{
+    border-right: 1px solid #e2e2e2;
+}
+.phoneAndNameInputWrapper table td{
+    text-align: center;
+    line-height: 25px;
+}
+.phoneAndNameInputOutter{
+    background-color: #f5f6fa;
+    border-bottom:1px solid #e2e2e2;
+    height: 44px;
+}
+.phoneAndNameInput{
+    position: relative;
+    top: 7px;
+    right: 18px;
+    border:1px solid #e2e2e2;
+    background-color: #ffffff;
+    height: 30px;
+    width: 185px;
+}
+.phoneAndNameTable{
+    height: 40px;
+}
+.addName{
+    top: 1px;
+    line-height: 26px;
+    border: 0;
+    position: relative;
+    right: 106px;
+    width: 73px;
+}
+.addPhone{
+    line-height: 26px;
+    border: 0;
+    position: relative;
+    bottom: 148px;
+    left: 42px;
+    width: 96px;
+}
+.addIcon{
+    cursor: pointer;
+    position: relative;
+    bottom: 24px;
+    left: 28px;
+}
+input,button,select{outline:none}
+.separate_icon{
+    position: relative;
+    right: 68px;
+    bottom: 30px;
+}
+.addGpName{
+    margin-right: 180px;
+    width: 300px;
+    line-height: 18px;
+    padding: 5px;
+    border: 1px solid #e2e2e2;
+}
+.groupNameInput span{
+    font-size: 15px;
+}
+.groupNameInput {
+    margin-left: 32px;
+    display: none;
+    line-height: 45px;
+}
+.selectedName,.selectedMobile,.selectedType{
+    display: inline-block;
+    line-height: 31px;
+    font-size: 12px;
+    
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+}
+.selectedName{
+    width: 35%;
+}
+.selectedMobile{
+    width: 45%;
+}
+.selectedType{
+    width: 20%;
+ }
+.groupEdit{
+    border-bottom: 1px solid #e4dada;
+}
+.fileUploadInput{
+    display: none;
+    padding: 4px 12px;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    -webkit-border-radius:3px
+}
+.file-icon{
+    width: 22px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../frame/frame4.0/skin/default/images/file_icon.png")no-repeat;
+}
+#fileInput{
+    vertical-align: middle;
+}
+.a-upload {
+    right: 57px;
+    width: 100px;
+    height: 22px;
+    line-height: 20px;
+    position: relative;
+    *display: inline;
+    *zoom: 1;
+}
+
+.a-upload  input {
+    width: 126px;
+    height: 30px;
+    position: absolute;
+    font-size: 20px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.a-upload:hover{
+    border: 1px solid #06a972;
+}
+.showFile{
+    line-height: 36px;
+    border-bottom: 1px solid #e4dada;
+}
+.showFile:hover{
+    background-color: #ebf2ff;
+}
+.fileFlag,.fileName,.delete_icon{
+    display: inline-block;
+    text-align: center;
+}
+.fileFlag{
+    width: 62px;
+}
+.fileName{
+    color: #06a972;
+    width: 200px;
+}
+.delete_icon{
+    vertical-align: middle;
+    background: url("../../common/img/delete_icon.png")no-repeat;
+    width: 50px;
+    cursor: pointer;
+    height: 30px;
+}
+.remindMsg{
+    display: none;
+}
+.remindMsg p{
+    font-size: 12px;
+    margin-left: 15px;
+    color: #999999;
+}
+#left img{
+    margin-top: 5px;
+    padding: 0 18px;
+}

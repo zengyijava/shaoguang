@@ -1,0 +1,40 @@
+#wg_apiPara .rContent_down_div{
+	height: 30px;
+}
+
+#wg_apiPara .getloginUser{
+	padding:5px;
+	display:none;
+}
+
+#wg_apiPara .funName{
+	width:158px;
+}
+
+#wg_apiPara .argName{
+	width:154px;
+}
+
+#wg_apiPara .cmdType{
+	width:158px;
+}
+
+#wg_apiPara .startdate{
+	cursor: pointer; 
+	width: 152px; 
+	background-color: white;
+}
+
+#wg_apiPara .enddate{
+	cursor: pointer; 
+	width: 152px; 
+	background-color: white;
+}
+
+#wg_apiPara .cjsj_th{
+	width: 15%;
+}
+
+#wg_apiPara .xgsj_th{
+	width: 20%;
+}

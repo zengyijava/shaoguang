@@ -1,0 +1,34 @@
+package com.montnets.emp.shorturl.report.vo.view;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+import com.montnets.emp.shorturl.surlmanage.table.TableLfUrlTask;
+import com.montnets.emp.table.sms.TableMtTask;
+
+
+public class ViewLinkDetailVo {
+	
+	protected static final Map<String, String> columns = new LinkedHashMap<String, String>();
+	
+	static{
+		columns.put("phone", TableMtTask.PHONE);
+		columns.put("visitCount", "vstCount");
+		columns.put("lastVisitTime", "lastVstTime");
+		columns.put("lastIP", "lastVstIP");
+		columns.put("taskId", TableMtTask.TASK_ID);
+		columns.put("title", TableLfUrlTask.TITLE);
+		columns.put("sendTime", TableMtTask.SEND_TIME);
+	}
+	
+	/**
+	 * 返回实体类字段与数据库字段实体类映射的map集合
+	 * 
+	 * @return
+	 */
+	public static Map<String, String> getORM()
+	{
+		return columns;
+	}
+
+}

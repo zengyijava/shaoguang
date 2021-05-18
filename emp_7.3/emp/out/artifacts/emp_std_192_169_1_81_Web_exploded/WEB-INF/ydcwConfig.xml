@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+
+
+	
+	<servlet>
+		<description>电子工资单</description>
+		<display-name>电子工资单</display-name>
+		<servlet-name>ycw_electronicPayrollSvt</servlet-name>
+		<servlet-class>com.montnets.emp.finance.servlet.ycw_finaceSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>报销报醒</description>
+		<display-name>报销报醒</display-name>
+		<servlet-name>ycw_reimbursementRemindSvt</servlet-name>
+		<servlet-class>com.montnets.emp.finance.servlet.ycw_finaceSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>回款通知</description>
+		<display-name>回款通知</display-name>
+		<servlet-name>ycw_backFundsNoticeSvt</servlet-name>
+		<servlet-class>com.montnets.emp.finance.servlet.ycw_finaceSvt</servlet-class>
+	</servlet>
+	
+	<servlet>
+	<description>任务查询</description>
+	<display-name>任务短信群发统计报表</display-name>
+	<servlet-name>ycw_sendTaskSvt</servlet-name>
+	<servlet-class>com.montnets.emp.smstask.servlet.smt_smsSendedBoxSvt
+	</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ycw_sendTaskSvt</servlet-name>
+		<url-pattern>/ycw_sendTask.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ycw_sendTaskSvt</servlet-name>
+		<url-pattern>/ycw_sendTaskHis.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ycw_reimbursementRemindSvt</servlet-name>
+		<url-pattern>/ycw_reimbursementRemind.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ycw_backFundsNoticeSvt</servlet-name>
+		<url-pattern>/ycw_backFundsNotice.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ycw_electronicPayrollSvt</servlet-name>
+		<url-pattern>/ycw_electronicPayroll.htm</url-pattern>
+	</servlet-mapping>
+

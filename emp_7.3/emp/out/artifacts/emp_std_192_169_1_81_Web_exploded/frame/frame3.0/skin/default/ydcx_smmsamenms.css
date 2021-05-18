@@ -1,0 +1,14 @@
+#ydcx_smm_sameMms .ydcx_mmsFrame_sub {
+	width: 76px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+	background: url('images/toUp.png');
+	border-right: 0;
+}
+
+#ydcx_smm_sameMms .ydcx_xlsstyle {
+	width: 155px;
+	height: 80px;
+	background: url('images/mmsphone.png') no-repeat 0px -80px;
+}

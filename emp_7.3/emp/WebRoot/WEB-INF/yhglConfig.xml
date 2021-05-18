@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+
+
+	<servlet>
+	    <servlet-name>YhglMenuSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.common.servlet.YhglMenuSvt</servlet-class>
+	    <load-on-startup>11</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<description>组织机构管理</description>
+		<display-name>用户管理</display-name>
+		<servlet-name>opt_departmentSvt</servlet-name>
+		<servlet-class>com.montnets.emp.sysuser.servlet.opt_departmentSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>角色管理</description>
+		<display-name>用户管理</display-name>
+		<servlet-name>opt_roleSvt</servlet-name>
+		<servlet-class>com.montnets.emp.sysuser.servlet.opt_roleSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>操作员管理</description>
+		<display-name>用户管理</display-name>
+		<servlet-name>opt_sysuserSvt</servlet-name>
+		<servlet-class>com.montnets.emp.sysuser.servlet.opt_sysuserSvt</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>客户通讯录</description>
+		<display-name>通讯录管理（短信客服）</display-name>
+		<servlet-name>cli_addrBookSvt</servlet-name>
+		<servlet-class>com.montnets.emp.client.servlet.cli_addrBookSvt</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>客户通讯录权限管理</description>
+		<display-name>通讯录管理</display-name>
+		<servlet-name>cli_permissionsSvt</servlet-name>
+		<servlet-class>com.montnets.emp.client.servlet.cli_permissionsSvt</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>客户属性管理</description>
+		<display-name>通讯录管理（短信客服）</display-name>
+		<servlet-name>cli_custFieldMangerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.client.servlet.cli_custFieldMangerSvt</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>This is the description of DownHisPageServlet</description>
+		<display-name>客户通讯录机构树</display-name>
+		<servlet-name>cli_addrbookDepTreeSvt</servlet-name>
+		<servlet-class>com.montnets.emp.client.servlet.cli_addrbookDepTreeSvt</servlet-class>
+	</servlet>
+	
+	 <servlet>
+	    <description>员工个人群组</description>
+	    <display-name>个人群组</display-name>
+	    <servlet-name>grp_groupManagerSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.group.servlet.grp_groupManagerSvt</servlet-class>
+	  </servlet>
+	  
+	  <servlet>
+	    <description>客户个人群组</description>
+	    <display-name>个人群组</display-name>
+	    <servlet-name>grp_cliGroupManagerSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.group.servlet.grp_cliGroupManagerSvt</servlet-class>
+	  </servlet>
+	
+	<servlet-mapping>
+		<servlet-name>cli_addrbookDepTreeSvt</servlet-name>
+		<url-pattern>/cli_addrbookDepTree.htm</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet-mapping>
+		<servlet-name>cli_custFieldMangerSvt</servlet-name>
+		<url-pattern>/cli_custFieldManger.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>cli_permissionsSvt</servlet-name>
+		<url-pattern>/cli_permissions.htm</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet-mapping>
+		<servlet-name>cli_addrBookSvt</servlet-name>
+		<url-pattern>/cli_addrBook.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>opt_departmentSvt</servlet-name>
+		<url-pattern>/opt_department.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>opt_roleSvt</servlet-name>
+		<url-pattern>/opt_role.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>opt_sysuserSvt</servlet-name>
+		<url-pattern>/opt_sysuser.htm</url-pattern>
+	</servlet-mapping>
+	  <servlet-mapping>
+    <servlet-name>grp_groupManagerSvt</servlet-name>
+    <url-pattern>/grp_groupManage.htm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>grp_cliGroupManagerSvt</servlet-name>
+    <url-pattern>/grp_cliGroupManage.htm</url-pattern>
+  </servlet-mapping>
+	
+	
+	
+	
+	
+	<servlet>
+		<description>员工通讯录</description>
+		<display-name>员工通讯录管理</display-name>
+		<servlet-name>epl_employeeBookSvt</servlet-name>
+		<servlet-class>com.montnets.emp.employee.servlet.epl_employeeBookSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>epl_employeeBookSvt</servlet-name>
+		<url-pattern>/epl_employeeBook.htm</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<description>员工权限绑定</description>
+		<display-name>员工通讯录管理</display-name>
+		<servlet-name>epl_permissionsSvt</servlet-name>
+		<servlet-class>com.montnets.emp.employee.servlet.epl_permissionsSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>epl_permissionsSvt</servlet-name>
+		<url-pattern>/epl_permissions.htm</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<description>职位管理</description>
+		<display-name>员工通讯录管理</display-name>
+		<servlet-name>epl_positionSvt</servlet-name>
+		<servlet-class>com.montnets.emp.employee.servlet.epl_positionSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>epl_positionSvt</servlet-name>
+		<url-pattern>/epl_position.htm</url-pattern>
+	</servlet-mapping>
+	

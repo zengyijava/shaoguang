@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/j2ee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-jsptaglibrary_2_0.xsd">
+ <tlib-version>1.0</tlib-version>
+ <short-name>emp</short-name>
+ <uri>http://www.montnets.com/emp/i18n/tags/simple</uri>
+ <tag>
+		<name>message</name>
+		<tag-class>com.montnets.emp.i18n.tags.MessageTag</tag-class>
+		<body-content>scriptless</body-content>
+		<attribute>
+			<name>key</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>fileName</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>defVal</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+	<tag>
+		<name>foreach</name>
+		<tag-class>com.montnets.emp.i18n.tags.ForEachTag</tag-class>
+		<body-content>scriptless</body-content>
+		<attribute>
+			<name>items</name>
+			<required>true</required>
+			<fragment>true</fragment>
+		</attribute>
+		<attribute>
+			<name>var</name>
+			<required>true</required>
+			<fragment>true</fragment>
+		</attribute>
+	</tag>
+</taglib>

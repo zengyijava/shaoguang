@@ -1,0 +1,40 @@
+#ydwx_replyPageCount a{
+	text-decoration: none;
+}
+#ydwx_replyPageCount .ydwx_backgo{
+	display:inline;margin-right:10px;
+}
+#ydwx_replyPageCount .ydwx_phone{
+	width: 178px;
+}
+#ydwx_replyPageCount .ydwx_name{
+	width: 178px;
+}
+#ydwx_replyPageCount .ydwx_colname{
+	width: 178px;
+}
+#ydwx_replyPageCount .ydwx_sendtime{
+	cursor: pointer; width: 178px; background-color: white;
+}
+#ydwx_replyPageCount .ydwx_recvtime{
+	cursor: pointer; width: 178px; background-color: white;
+}
+#ydwx_replyPageCount .ydwx_font{
+	font-weight: bold;
+}
+/*----------网讯回复统计：统计结果查看界面-----------*/
+#ydwx_netReplyDetailCount .ydwx_rContent {
+	padding: 5px;
+}
+#ydwx_netReplyDetailCount .ydwx_table_flow_dv {
+	padding:5px 0;
+}
+#ydwx_netReplyDetailCount .ydwx_buttons {
+	float:left;margin-left:5px;margin-top:5px;margin-bottom: 10px;
+}
+#ydwx_netReplyDetailCount .ydwx_content {
+	margin:5px;
+}
+
+
+/*----------网讯回复统计：统计结果查看界面结束-----------*/

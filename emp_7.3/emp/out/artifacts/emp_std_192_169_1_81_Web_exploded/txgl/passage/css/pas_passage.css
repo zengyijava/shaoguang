@@ -1,0 +1,27 @@
+#pas_passage .maxWidth {
+	display: block;
+	width: 150px;
+	padding-top: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	-o-text-overflow: ellipsis; /* Opera */
+	text-overflow: ellipsis; /* IE, Safari (WebKit) */
+	margin: auto;
+}
+
+#pas_passage .rContent_div{
+	height: 30px;
+}
+
+#pas_passage .select_wid{
+	width:158px;
+}
+
+#pas_passage .cardname_input{
+	width:150px;
+}
+
+#pas_passage .getename_input{
+	width:150px;
+}
+

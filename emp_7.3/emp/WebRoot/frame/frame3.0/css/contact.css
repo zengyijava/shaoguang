@@ -1,0 +1,99 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1.5tahoma, arial} 
+h1, h2, h3, h4, h5, h6{ font-size:100%; } 
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family:couriernew, courier,monospace; } 
+small{ font-size:12px; } 
+ul, ol { list-style:none; } 
+a { text-decoration:none; cursor: pointer} 
+a:hover { text-decoration:none; color:#FB633D} 
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+legend { color:#000; } 
+fieldset, img { border:0; } 
+button, input, select, textarea { font-size:100%; } 
+table { border-collapse:collapse; border-spacing:0; }
+
+.top{
+  background-image: url(../img/map_zhong.png);
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  width:100%;
+  height:243px;
+
+}
+.text{
+  float: left;
+  padding-top: 15px;
+  padding-left: 18%;
+  color:#FB633D;
+  font-size: 30px;
+}
+.login{
+  float: right;
+  padding-top: 25px;
+  margin-right: 324px;
+  
+}
+.login li{
+  display: inline;
+  
+  color: white; 
+}
+.login li a{
+	color:#d7d7d9;
+	padding: 8px 24px;
+}
+.login .l_con{
+	background: #ff6537;
+	padding: 8px 0;
+	border-radius: 30px;
+	color: #fff;
+	
+}
+.login .l_ico{
+  padding: 6px 0;
+  border: white solid 1px;
+  border-radius: 30px
+}
+.login a:hover{
+  background-color: #FB633D;
+  border-color: #FB633D;
+  cursor: pointer;
+  color:#fff;
+  border-radius: 30px;
+}
+.bottom{
+  margin-top: 35px;
+  text-align: center
+}
+.one{
+  color: #333333;
+  font-size: 30px;
+  font-weight: lighter
+}
+.two{
+  color: #737373;
+  font-size: 17px;
+}
+.information{
+  margin-top: 50px;
+}
+.information li{
+  width: 500px;
+  padding-top: 5px;
+  text-align: left;
+  margin: 0 auto;
+  color: #333333
+}
+.map{
+  width: 868px;
+  height: 296px;
+  border: red 2px solid;
+  margin: 30px auto;
+  background-image:url(../img/map.png);
+}
+footer p{
+  font-weight: lighter;
+  margin-bottom:50px
+}

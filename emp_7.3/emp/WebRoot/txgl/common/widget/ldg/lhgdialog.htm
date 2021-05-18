@@ -1,0 +1,351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="text/javascript">
+var W = frameElement._dlgargs.win, dlgcover = W.lhgdialog.gcover();
+function A(){ return frameElement._dlgargs; }
+
+window.focus(); W.tool.regdoll(window);
+//document.write( W.tool.getlink('css/default.css') );
+document.write( W.tool.getcss(A().para)); //改写获取CSS样式方法 kedee 2009年4月12日23:47:08
+
+/* 增加弹窗窗体阴影设置 kedee 2009年5月19日14:02:15 */
+var setborderbar = function()
+{
+	var top = frameElement.offsetTop+5;
+	var left = frameElement.offsetLeft+5;
+	var width = parseInt(frameElement.style.width);
+	var height = parseInt(frameElement.style.height);
+	var barset = A().topw.document.createElement('div');
+	W.tool.ststyle(barset,
+	{
+		'position' : 'absolute', 'top' : top + 'px', 'left' : left + 'px',
+		'width' : width + 'px', 'height' : height + 'px', 'zIndex' : W.config.bzi - 1, 'backgroundColor' : '#333'
+	});
+	W.tool.stopac( barset, 0.30 ); A().topw.document.body.appendChild(barset);return barset;		
+}
+
+//注册随滚动条滚动事件
+var schdl = function()
+{
+	var rel = W.tool.getspos(A().topw);
+	W.tool.ststyle( frameElement, { 'top' : rel.Y + W.config.it + 'px', 'left' : rel.X + W.config.il + 'px' } );
+	//setborderbar(); //设置窗体阴影
+};
+
+if(A().sc)
+{ 
+	var spos = W.tool.getspos(A().topw);
+	var clsize = W.tool.getclsize(A().topw);
+	var it = ( A().para && A().para.top ) ? spos.Y + A().para.top : Math.max( spos.Y + ( clsize.h - A().height - 20 ) / 2, 0 );
+	var il = ( A().para && A().para.left ) ? spos.X + A().para.left : Math.max( spos.X + ( clsize.w - A().width - 20 ) / 2, 0 );
+	W.config.it = it - spos.Y; W.config.il = il - spos.X; W.tool.addevt( A().topw, 'scroll', schdl )
+}
+
+
+if(W.binfo.ie)
+{
+    try{ document.execCommand('BackgroundImageCache', false, true); }catch(e){}
+}
+var recontze = function()
+{
+    if( W.binfo.ie && !W.binfo.i7 )
+	{
+	    $('contain').style.height = document.body.offsetHeight - 2; //298
+		$('contain').style.width = document.body.offsetWidth - 2; //398
+	}
+    var h = $('contain').offsetHeight; h -= $('dtit').offsetHeight;
+	h -= $('dfoot').offsetHeight; $('dinner').style.height = Math.max( h - 9, 0 ) + 'px';
+};
+
+var crtel = function( t, l, w, h )
+{
+	var o = A().topw.document.createElement('div');
+	W.tool.ststyle(o,
+	{
+		'position' : 'absolute', 'top' : t + 'px', 'left' : l + 'px', border : '1px solid #000',
+		'width' : w + 'px', 'height' : h + 'px', 'zIndex' : W.config.bzi + 1, 'backgroundColor' : '#000'
+	});
+	W.tool.stopac( o, 0.30 ); A().topw.document.body.appendChild(o); return o;
+};
+
+var drag = function()
+{
+    var regwin = [], lacoor, curpos, tdark;
+	
+	var cluphdl = function()
+	{
+	    for( var i = 0; i < regwin.length; i++ )
+		{
+		    W.tool.remevt( regwin[i].document, 'mousemove', dragmovehdl );
+			W.tool.remevt( regwin[i].document, 'mouseup', draguphdl );
+		}
+	};
+	
+	var dragmovehdl = function(evt)
+	{
+	    if(!lacoor) return;
+		if(!evt) evt = W.tool.getedoc(this).parentWindow.event;
+		
+		var curcoor = { x : evt.screenX, y : evt.screenY };
+		curpos =
+		{
+		    x : curpos.x + ( curcoor.x - lacoor.x ),
+			y : curpos.y + ( curcoor.y - lacoor.y )
+		};
+		lacoor = curcoor;
+		
+		tdark.style.left = curpos.x + 'px'; tdark.style.top = curpos.y + 'px';
+	};
+	
+	var draguphdl = function(evt)
+	{
+	    if(!lacoor) return;
+		if(!evt) evt = W.tool.getedoc(this).parentWindow.event; cluphdl();
+		W.tool.remnode(tdark); lacoor = null; tdark = null;
+		W.tool.ststyle( frameElement, { top : curpos.y + 'px', left : curpos.x + 'px' } );
+		if(A().sc){ var tp = W.tool.getspos(A().topw); W.config.it = curpos.y - tp.Y; W.config.il = curpos.x - tp.X; };
+	};
+	
+	
+
+	return {
+	    downhdl : function(evt)
+		{
+		    var view = null;
+			if(!evt){ view = W.tool.getedoc(this).parentWindow; evt = view.event; } else view = evt.view;
+			var tget = evt.srcElement || evt.target; if( tget.id == 'xbtn' ) return;
+			
+			var fw = frameElement.offsetWidth, fh = frameElement.offsetHeight;
+			curpos = { x : frameElement.offsetLeft, y : frameElement.offsetTop };
+			lacoor = { x : evt.screenX, y : evt.screenY }; tdark = crtel( curpos.y, curpos.x, fw, fh );
+			
+			for( var i = 0; i < regwin.length; i++ )
+			{
+			    W.tool.addevt( regwin[i].document, 'mousemove', dragmovehdl );
+				W.tool.addevt( regwin[i].document, 'mouseup', draguphdl );
+			}
+			
+			if(evt.preventDefault) evt.preventDefault(); else evt.returnValue = false;
+		},
+		
+		reghdl : function(w){ regwin.push(w); }
+	};
+}();	
+
+var resize = function()
+{
+    var regwin = [], lacoor, curpos, tdark, frsize;
+		
+	var movehdl = function(evt)
+	{
+	    if(!lacoor) return;
+		if(!evt) evt = W.tool.getedoc(this).parentWindow.event;
+		
+		var curcoor = { x : evt.screenX, y : evt.screenY };
+		frsize = { w : curcoor.x - lacoor.x, h : curcoor.y - lacoor.y };
+		if( frsize.w < 200 || frsize.h < 100 ){ frsize.w = 200; frsize.h = 100 };
+		
+		W.tool.ststyle( tdark, { width : frsize.w + 'px', height: frsize.h + 'px', top : curpos.y + 'px', left : curpos.x + 'px' } );
+	};
+	
+	//缩放尺寸 
+	var uphdl = function(evt)
+	{
+	    if(!lacoor) return;
+		if(!evt) evt = W.tool.getedoc(this).parentWindow.event;
+	    
+		for( var i = 0; i < regwin.length; i++ )
+		{
+		    W.tool.remevt( regwin[i].document, 'mousemove', movehdl );
+			W.tool.remevt( regwin[i].document, 'mouseup', uphdl );
+		}
+		
+		W.tool.ststyle( frameElement, { width : frsize.w + 'px', height : frsize.h + 'px' } );
+		recontze(); W.tool.remnode(tdark); lacoor = null; tdark = null;
+		if( W.binfo.ie && !W.binfo.i7 && $('frmain') ) $('frmain').height = $('dinner').style.height;
+		//setborderbar(); //设置窗体阴影
+	};
+	
+	return {
+	    downhdl : function(evt)
+		{
+		    var view = null;
+			if(!evt){ view = W.tool.getedoc(this).parentWindow; evt = view.event; } else view = evt.view;
+			
+			var fw = frameElement.offsetWidth, fh = frameElement.offsetHeight;
+			curpos = { x : frameElement.offsetLeft, y : frameElement.offsetTop }; frsize = { w : fw, h : fh };
+			lacoor = { x : evt.screenX - fw, y : evt.screenY - fh }; tdark = crtel( curpos.y, curpos.x, fw, fh );
+			
+			for( var i = 0; i < regwin.length; i++ )
+			{
+			    W.tool.addevt( regwin[i].document, 'mousemove', movehdl );
+				W.tool.addevt( regwin[i].document, 'mouseup', uphdl );
+			}
+			
+			if(evt.preventDefault) evt.preventDefault(); else evt.returnValue = false;
+		},
+		
+		reghdl : function(w){ regwin.push(w); }
+	};
+}();
+
+(function()
+{
+	window.onload = function()
+	{	    
+		recontze(); 
+		loadbtnevt(); 
+		$('throbber').style.visibility = ''; 
+		loadinnfrm();
+		if(W.binfo.ie) window.document.onmousedown = setop; else window.onmousedown = setop;
+	    $('dtit').onmousedown = drag.downhdl; 
+		drag.reghdl(window); 
+		drag.reghdl(A().topw); 
+		drag.reghdl(W);
+	    $('dark').onmousedown = resize.downhdl; 
+		resize.reghdl(window); 
+		resize.reghdl(A().topw); 
+		resize.reghdl(W);
+		if(A().link) $('throbber').style.visibility = 'hidden'; 
+		W.tool.disctmenu(document);
+		autoClose(A().para); //自动关闭
+	};
+	
+	var setop = function(evt)
+	{
+	    if(!evt) evt = event || this.parentWindow.event;
+		W.tool.ststyle( frameElement, {'zIndex':parseInt(W.config.bzi,10) + 1} );
+		W.config.bzi = frameElement.style.zIndex; evt.cancelBubble = true;
+	};
+	
+	var loadinnfrm = function()
+	{	
+		if( A().link == 'hcode' ){ $('dinner').innerHTML = A().page; }
+		else
+		{
+			var sy = A().link ? '' : 'style="visibility:hidden;" ';
+			$('dinner').innerHTML = '<iframe id="frmain" src="' + A().page + '" name="frmain" frameborder="0" ' +
+									'width="100%" height="100%" scrolling="auto" ' + sy + 'allowtransparency="true"><\/iframe>';
+		}
+		//setborderbar(); //设置窗体阴影
+	};
+	
+	window.loadinndlg = function()
+	{
+	    
+		if( !frameElement.parentNode ) return null;
+		var frmain = $('frmain'), innwin = frmain.contentWindow, inndoc = innwin.document;
+		$('throbber').style.visibility = 'hidden'; frmain.style.visibility = '';
+		if(W.binfo.ie) inndoc.onmousedown = setop; else innwin.onmousedown = setop;
+		drag.reghdl(innwin); resize.reghdl(innwin); innwin.focus(); return W;
+	};
+	
+	window.cancel = function(){ return closedlg(); };
+	window.closedlg = function()
+	{
+	    if( $('frmain') ) $('frmain').src = W.tool.getvoid();
+		$('throbber').style.visibility = 'hidden'; W.lhgdialog.closdlg( window, dlgcover );
+	};
+	window.cancelreload = function(){ return closedlgReload(); };
+	window.closedlgReload = function()
+	{
+	    if( $('frmain') ) $('frmain').src = W.tool.getvoid();
+		$('throbber').style.visibility = 'hidden'; W.lhgdialog.closdlg( window, dlgcover );
+		W.window.location.reload();
+	};
+	//自动关闭调用
+	autoClose = function(closePara)
+	{
+		if(closePara && closePara.autoclose)
+		{
+			window.setTimeout("returnUrl(A().para)", closePara.autoclose*1000); //延时closePara.autoclose*1000执行
+		}
+	};
+	//打开连接的方式
+	returnUrl = function(ret)
+	{
+		if(ret.returnurl && ret.returnurl =="true")
+		{ W.window.location.reload();}
+		else if(ret.returnurl !="" && ret.returnurl != "true" && !ret.blank )
+		{ W.window.location.href=ret.returnurl; }
+		else if(ret.returnurl !="" && ret.returnurl != "true" && ret.blank)
+		{ openblankUrl(ret.returnurl); }
+		cancel(); //关闭弹窗
+	};
+	//js新窗口打开链接
+	openblankUrl = function(url)
+	{
+		var formObj = W.document.createElement("form"); 
+		formObj.action=url; 
+		formObj.target='_blank'; 
+		W.document.documentElement.appendChild(formObj); 
+		formObj.submit(); 
+		//以下代码不兼容FF
+		//var vra=W.document.createElement('a'); 
+        //vra.target='_blank'; 
+        //vra.href=url; 
+        //W.document.body.appendChild(vra);	
+        //vra.click(); //ff 不支持click模拟点击
+		//W.document.body.removeChild(vra);
+	};
+
+
+	var loadbtnevt = function()
+	{
+	    if(A().tit!=null)
+		{
+			if(W.binfo.ie){ var img = new Image(); img.src="images/btn_bg.gif"; }; 
+			crebtn( 'cbtn', '取 消', cancel );
+			loadtitle(20);
+			$('xbtn').className = 'xbtn';
+			$('xbtn').onmouseover = function(){ this.className = 'xbtn_onmouseover'; };
+			$('xbtn').onmouseout = function(){ this.className = 'xbtn'; }; 
+			$('xbtn').onclick = cancel;
+		}
+	};
+
+	
+
+	/* 加载窗体内容页的title  kedee 2009年4月3日14:05:23 */
+	var loadtitle = function(n)
+	{
+		if (A().tit != "" && A().tit != null ) 
+		{
+			$('txt').innerHTML = A().tit;
+		} 
+		else if(A().tit == "" )
+		{
+			$('txt').innerHTML = "标题读取中...";
+			window.setTimeout("$('txt').innerHTML = W.tool.sub(window.frames['frmain'].document.title,"+n+")", 3000); //需要延时执行
+		}
+	};
+
+	window.crebtn = function( i, t, f )
+	{
+	    if($(i)){ $(i).innerHTML = '<span>' + t + '</span>'; $(i).onclick = f; }
+		else
+		{
+		    var li = document.createElement('li'), span = document.createElement('span');
+			li.id = i; span.innerHTML = t; li.appendChild(span);
+			li.onmouseover = function(){ this.style.backgroundPosition = '0 -42px'; };
+			li.onmouseout = function(){ this.style.backgroundPosition = '0 -21px'; };
+			li.onclick = f; $('btns').appendChild(li); li = span = null;
+		}
+	};
+	
+	window.rembtn = function(id){ if($(id)) $('btns').removeChild($(id)); };
+})();
+	</script>
+</head>
+
+<body>
+    <div id="contain" class="contain">
+		<div id="dtit" class="dlgtit"><span id="txt"></span><div id="xbtn"></div></div>
+		<div id="dinner" class="dlginner"></div>
+		<div id="dfoot" class="dlgfoot"><ul id="btns"><li id="dark" title="缩放尺寸"></li></ul></div>
+	</div>
+	<div id="throbber" style="position:absolute;visibility:hidden;">正在加载窗口内容，请稍等....</div>
+</body>
+</html>

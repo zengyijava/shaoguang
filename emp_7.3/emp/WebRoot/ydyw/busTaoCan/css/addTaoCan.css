@@ -1,0 +1,26 @@
+@charset "utf-8";
+#showTC,#tabBody3,#tabBody3 > span{
+    width: 102px;
+}
+#tabBody3 > span{
+    left:20px;
+}
+#sysTable{
+    width: 825px;
+    margin:5px 20px;
+}
+#sysTable > tbody > tr:nth-child(1) > td:nth-child(2){
+    width: 290px;
+}
+#sysTable > tbody > tr:nth-child(1) > td:nth-child(1){
+    width: 93px;
+}
+#taocan_type{
+    width: 158px;
+}
+#sysTable > tbody > tr:nth-child(1) > td:nth-child(4){
+    width: 330px;
+}
+#sysTable > tbody > tr:nth-child(1) > td:nth-child(3){
+    width: 87px;
+}

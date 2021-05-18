@@ -1,0 +1,30 @@
+#mwp_editHttps .hiddenValueDiv{
+	display:none;
+}
+
+#mwp_editHttps .editHttpsTable{
+	width: 510px;
+	text-align: left;
+}
+
+#mwp_editHttps .verifypeer{
+	width:270px;
+}
+
+#mwp_editHttps .gstype{
+	width:270px;
+}
+
+#mwp_editHttps .cacertname{
+	width:270px;
+}
+
+#mwp_editHttps .verifyhost{
+	width:270px;
+}
+
+#mwp_editHttps .btn{
+	text-align: center;
+}
+
+

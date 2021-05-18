@@ -1,0 +1,25 @@
+#pag_userData .ips-td div {
+	display: none;
+}
+
+#pag_userData #ips {
+	padding-left: 20px;
+	line-height: 16px;
+}
+
+#pag_userData .userId{
+	width:154px;
+}
+
+#pag_userData .loginId{
+	width: 158px;
+}
+
+#pag_userData .accountType{
+	width: 154px;
+}
+
+#pag_userData .feeflag{
+	width: 158px;
+}
+

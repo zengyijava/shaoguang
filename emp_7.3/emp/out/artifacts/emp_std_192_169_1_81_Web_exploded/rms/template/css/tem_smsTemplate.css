@@ -1,0 +1,172 @@
+#tem_smsTemplate .hiddenValueDiv{
+	display:none;
+}
+
+#tem_smsTemplate .tmCode{
+	width:177px;
+}
+
+#tem_smsTemplate .tmName{
+	width:177px;
+}
+
+#tem_smsTemplate .tmMsg{
+	width:177px;
+}
+
+#tem_smsTemplate .dsflag{
+	width:180px;
+}
+
+#tem_smsTemplate .username{
+	width:177px;
+}
+
+#tem_smsTemplate .state{
+	width:180px;
+}
+
+#tem_smsTemplate .tmState{
+	width:180px;
+}
+
+#tem_smsTemplate .flowId_input{
+	width: 177px;
+}
+
+#tem_smsTemplate .temp_label{
+	display:none;
+}
+
+#tem_smsTemplate .temp_xmp{
+	white-space: pre-wrap;
+	*white-space: pre;
+	*word-wrap: break-word;
+	word-break: break-all;
+}
+
+#tem_smsTemplate .st_xmp{
+	white-space: pre-wrap;
+	*white-space: pre;
+	*word-wrap: break-word;
+	word-break: break-all;
+}
+
+#tem_smsTemplate .modify{
+	padding:5px;
+	width:300px;
+	height:160px;
+	display:none;
+	word-wrap: break-word;
+	word-break:break-all;
+	overflow-y:auto;
+}
+
+#tem_smsTemplate .msg{
+	width:100%;
+	height:100%;
+	overflow-y:auto;
+}
+
+#tem_smsTemplate .msg_xmp{
+	white-space: pre-wrap;
+	*white-space: pre;
+	*word-wrap: break-word;
+	word-break: break-all;
+}
+
+#tem_smsTemplate .editSmsTmpDiv{
+	padding:5px;
+	display:none;
+}
+
+#tem_smsTemplate .editSmsTmpFrame{
+	display:none;
+	width:690px;
+	height:500px;
+	border: 0;
+	overflow-y: auto;
+}
+
+#tem_smsTemplate .addSmsTmpDiv{
+	padding:5px;
+	display:none;
+	height:auto;
+}
+
+#tem_smsTemplate .addSmsTmpFrame{
+	display:none;
+	width:690px;
+	height:520px;
+	border: 0;
+	overflow-y:auto;
+}
+
+#tem_smsTemplate .shareTmpDiv{
+	display: none;
+}
+
+#tem_smsTemplate .flowFrame{
+	width:510px;
+	height:410px;
+	border: 0;
+}
+
+#tem_smsTemplate .shlcgl_qd_td{
+	width:510px;
+}
+
+#tem_smsTemplate .smsdetailinfo{
+	display:none;
+	overflow: auto;
+}
+
+#tem_smsTemplate .recordTableDiv{
+	width: 100%;
+	padding:15px 0;
+	display:none;
+}
+
+#tem_smsTemplate .recordTable{
+	text-align:center;
+	width:95%;
+}
+
+#tem_smsTemplate .nextrecordmgs{
+	width: 95%;
+	padding-bottom:15px;
+	padding-top:10px;
+	display:none;
+	font-size: 12px;
+	color: blue;
+	padding-left: 25px;
+}
+
+#tem_smsTemplate .reviewflowinfo{
+	display:none;
+	overflow: auto;
+}
+
+#tem_smsTemplate .reviewTableDiv{
+	width: 100%;
+	padding:15px 0;
+	display:none;
+}
+
+#tem_smsTemplate .reviewTable{
+	text-align:center;
+	width:95%;
+}
+
+#tem_smsTemplate .nextreviewmgs{
+	width: 95%;
+	padding-bottom:15px;
+	padding-top:10px;
+	display:none;
+	font-size: 12px;
+	color: blue;
+	padding-left: 25px;
+}
+#tem_smsTemplate #addSmsTmpFrame{
+	/*height: 365px;*/
+}

@@ -1,0 +1,16 @@
+#cor_editCorp .rContent2{
+	padding:5px;
+}
+
+#cor_editCorp .table_input{
+	border:0px;
+}
+
+#cor_editCorp .sysTable{
+	width:100%;
+	height:100%;
+}
+
+#cor_editCorp .font_red{
+	color: red;
+}

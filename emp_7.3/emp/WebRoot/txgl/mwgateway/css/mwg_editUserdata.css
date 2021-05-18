@@ -1,0 +1,288 @@
+#mwg_editUserdata .tabCont {
+	width: 90%;
+	height: 26px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 10px;
+	line-height: 26px;
+	margin-bottom: 10px;
+	text-align: center;
+	padding-right: 10px;
+}
+
+#mwg_editUserdata .tabContent,#mwg_editUserdata .accountType_table {
+	margin-left: 20px;
+}
+
+#mwg_editUserdata .tabContent table,#mwg_editUserdata .accountType_table {
+	margin-bottom: 10px;
+}
+
+#mwg_editUserdata .tabContent table td {
+	padding: 4px 0;
+}
+
+#mwg_editUserdata .tabCont a {
+	padding-right: 10px;
+	margin-top: 5px;
+	text-decoration: none;
+}
+
+#mwg_editUserdata .a3 {
+	width: 35px;
+	height: 17px;
+	border: 0;
+	text-align: center;
+	background: white;
+	padding: 4px 0;
+}
+
+#ptIp,#mwg_editUserdata .backup1 {
+	border: 1px solid #bec3d1;
+	width: 177px;
+	background: white;
+	font-size: 8pt;
+	float: left;
+}
+
+#spip,#mwg_editUserdata .backup {
+	border: 1px solid #bec3d1;
+	width: 177px;
+	background: white;
+	font-size: 8pt;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#linklevel,#mwg_editUserdata .bklevel {
+	width: 80px;
+	float: left;
+}
+
+#mwg_editUserdata .tabyys {
+	display: block;
+	width: 130px;
+	height: 20px;
+	line-height: 20px;
+	margin-left: 20px;
+	margin-bottom: -10px;
+	position: relative;
+	background-color: #FFF;
+	font-weight: 800;
+	text-align: left;
+	padding: 0 3px;
+}
+
+#mwg_editUserdata .tips {
+	color: #999;
+}
+
+#mwg_editUserdata .div_label {
+	float: left;
+}
+
+a#mwg_editUserdata .unfold,a#mwg_editUserdata .fold {
+	margin-left: 600px;
+}
+
+#mwg_editUserdata .cluster-add,#mwg_editUserdata .cluster-del {
+	cursor: pointer;
+}
+
+
+#mwg_editUserdata .detail_Info{
+	width: 1060px; 
+	padding-left: 20px;
+}
+
+#mwg_editUserdata .speedLimit{
+	width: 264px;
+}
+
+#mwg_editUserdata .zhlx_td{
+	width:140px;
+}
+
+#mwg_editUserdata .bbcc{
+	width: 262px;
+}
+
+#mwg_editUserdata .staffname{
+	width: 260px;
+}
+
+#mwg_editUserdata .tdzhmh_td{
+	width:140px;
+}
+
+#mwg_editUserdata .userpassword{
+	width: 260px;
+}
+
+#mwg_editUserdata .status{
+	width: 264px;
+}
+
+#mwg_editUserdata .ptPort{
+	width: 60px;
+}
+
+#mwg_editUserdata .xing_font{
+	vertical-align: middle;
+}
+
+#mwg_editUserdata .yyszhid_td{
+	width:140px;
+}
+
+#mwg_editUserdata .SPACCID{
+	width: 260px;
+}
+
+#mwg_editUserdata .SPACCPWD{
+	width: 260px;
+}
+
+#mwg_editUserdata .spPort{
+	width: 63px;
+}
+
+#mwg_editUserdata .yysipdzydk_td{
+	width:140px;
+}
+
+#mwg_editUserdata .port_input{
+	width: 63px;
+}
+
+#mwg_editUserdata .ywlx_td{
+	width:140px;
+}
+
+#mwg_editUserdata .serviceType{
+	width: 260px;
+}
+
+#mwg_editUserdata .spid{
+	width: 260px;
+}
+
+#mwg_editUserdata .feeUserType{
+	width: 264px;
+}
+
+#mwg_editUserdata .spType{
+	width: 264px;
+}
+
+#mwg_editUserdata .protocolCode{
+	width: 264px;
+}
+
+#mwg_editUserdata .protocolParam{
+	width: 260px;
+}
+
+#mwg_editUserdata .spFeeFlag{
+	width: 264px;
+}
+
+#mwg_editUserdata .feeUrl{
+	width: 500px;
+}
+
+#mwg_editUserdata .urlljdz_input{
+	width: 500px;
+}
+
+#mwg_editUserdata .passgaeInfo_table{
+	width:90%; 
+	font-size: 12px; 
+	line-height: 40px !important;
+}
+
+#mwg_editUserdata .template{
+	display: none;
+}
+
+#mwg_editUserdata .yysidjdk1_td{
+	width:140px;
+}
+
+#mwg_editUserdata .dkh_input{
+	width: 63px;
+}
+
+#mwg_editUserdata .advanceconf{
+	padding: 5px; 
+	display: none; 
+	font-size: 12px;
+}
+
+#mwg_editUserdata .ljfs_div{
+	height: 80px; 
+	margin-top: 10px; 
+	margin-left: 20px;
+}
+
+#mwg_editUserdata .ljfs_table{
+	line-height: 35px;
+}
+
+#mwg_editUserdata .ljfs_td{
+	text-align: center;
+	width: 130px;
+}
+
+#mwg_editUserdata .ljs_td{
+	text-align: center;
+}
+
+#mwg_editUserdata .trmemostart{
+	display: none;
+}
+
+#mwg_editUserdata .trmemostart_td{
+	text-align: center; 
+	color: #888888;
+}
+
+#mwg_editUserdata .trreconncnt{
+	display: none;
+}
+
+#mwg_editUserdata .trreconncnt_td{
+	text-align: center;
+}
+
+#mwg_editUserdata .trrelogincnt{
+	display: none;
+}
+
+#mwg_editUserdata .relogincntbak_td{
+	text-align: center;
+}
+
+#mwg_editUserdata .trmemoend{
+	display: none;
+}
+
+#mwg_editUserdata .trmemoend_td{
+	text-align: center; 
+	color: #888888;
+}
+
+#mwg_editUserdata .trswitchmainip{
+	display: none;
+}
+
+#mwg_editUserdata .switchmainipbak_td{
+	text-align: center;
+}
+
+#mwg_editUserdata .qd_div{
+	height: 50px; 
+	line-height: 50px; 
+	margin-top: 200px;
+}

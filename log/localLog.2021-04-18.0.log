@@ -1,0 +1,57 @@
+2021-04-18 13:32:51,330 INFO (StartupInfoLogger.java:50)- Starting ShaoguangaApplication on DESKTOP-CSOQ78N with PID 5788 (D:\MWProject\shaoguan\shaoguanga\target\classes started by dell in D:\MWProject\shaoguan)
+2021-04-18 13:32:51,345 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-04-18 13:32:51,346 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2021-04-18 13:32:53,797 INFO (StartupInfoLogger.java:59)- Started ShaoguangaApplication in 3.341 seconds (JVM running for 5.671)
+2021-04-18 13:32:55,110 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:33:00,031 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:33:05,027 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:33:10,024 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:33:15,035 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:33:20,034 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:33:25,026 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:33:30,028 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:33:35,023 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:33:40,023 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:33:45,035 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:33:50,031 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:33:55,029 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:34:00,029 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:34:05,025 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:34:10,026 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:34:15,031 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:34:20,025 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:34:25,027 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:34:30,032 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:34:35,028 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:34:40,026 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:34:45,029 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:34:50,030 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:34:55,027 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:35:00,026 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:35:05,023 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:35:19,281 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:36:20,033 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:36:25,031 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:36:30,035 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:36:35,034 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:36:40,029 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:36:45,028 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:36:50,035 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:36:55,031 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:37:00,036 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:37:05,030 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:37:10,024 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:37:15,026 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:37:20,034 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:37:25,035 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:37:30,609 INFO (StartupInfoLogger.java:50)- Starting ShaoguangaApplication on DESKTOP-CSOQ78N with PID 13920 (D:\MWProject\shaoguan\shaoguanga\target\classes started by dell in D:\MWProject\shaoguan)
+2021-04-18 13:37:30,611 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-04-18 13:37:30,611 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2021-04-18 13:37:31,783 INFO (StartupInfoLogger.java:59)- Started ShaoguangaApplication in 1.449 seconds (JVM running for 1.942)
+2021-04-18 13:37:45,259 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:39:31,754 INFO (StartupInfoLogger.java:50)- Starting ShaoguangaApplication on DESKTOP-CSOQ78N with PID 10296 (D:\MWProject\shaoguan\shaoguanga\target\classes started by dell in D:\MWProject\shaoguan)
+2021-04-18 13:39:31,757 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-04-18 13:39:31,757 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2021-04-18 13:39:32,976 INFO (StartupInfoLogger.java:59)- Started ShaoguangaApplication in 1.502 seconds (JVM running for 1.997)
+2021-04-18 13:45:07,310 INFO (RptPushScheduled.java:65)- 状态报告： 
+2021-04-18 13:45:14,061 INFO (RptPushScheduled.java:65)- 状态报告： 

@@ -1,0 +1,130 @@
+﻿@charset "utf-8";
+
+/*通用输入框行高，边框（除查询外的输入框均是此颜色）*/
+.input_bd , .Wdate.input_bd  ,.emp_currentselected.input_bd{
+	border: 1px solid #bec3d1;
+}
+
+/*通用边框色,（通用层边框，设计边框的层）*/
+.div_bd,.Wdate.div_bd {
+	border: 1px solid #c5d9c5;
+}
+/*通用hover背景*/
+.div_hover_bg{
+	background-color: #dfffd7;
+}
+/*通用文字背景色，（凡文字带背景的均是这个颜色）*/
+.div_bg {
+	background-color: #dbf5d5;
+}
+
+/*通用标题背景色，（凡标题的均是这个颜色）*/
+.title_bg {
+	background-color: #dbf5d5;
+}
+.tree li a:hover {background-color:#ecf0f8;}
+.tree li a.curSelectedNode {
+	background-color:#e0ebfd; 
+	color:black;
+	border:1px #c9d9f2 solid; 
+	opacity:0.8; filter:alpha(opacity=80);
+}
+.btnClass1 {
+	background: url(images/but-bg1.jpg) no-repeat 0px -78px;
+}
+
+.btnClass2 {
+	background: url(images/but-bg1.jpg) no-repeat 0px -52px;
+}
+
+.btnClass3 {
+	background: url(images/but-bg1.jpg) no-repeat 0px -26px;
+}
+
+.btnClass4 {
+	background: url(images/but-bg1.jpg) no-repeat 0px -168px;
+}
+.btnClass4.btnHover,.btnClass3.btnHover,.btnClass2.btnHover,.btnClass1.btnHover {
+	background-image: url(images/but-bg2.jpg);
+}
+.btnClass5 {
+	height : 33px;
+	width: 86px;
+	color:#FFF;
+	background: url(images/but-bg-green.png) no-repeat 0px 0px;
+}
+
+.btnClass6 {
+	height : 33px;
+	width: 86px;
+	background: url(images/but-bg-green.png) no-repeat -89px 0px;
+}
+.btn-hover{background-position-y:-66px;}
+.infotd1
+{
+  background-color: #adeb9c;
+  border-bottom: 3px #2c9d34 solid;
+}
+.infotd2
+{
+   background-color: #eef9e9;
+   border-bottom: 3px #eef9e9 solid;
+}
+#file
+{
+	color: #0e5ad1;
+}
+
+.fold
+{
+	background:url("images/fold.gif") no-repeat 0px 2px;
+}
+.unfold
+{	
+	background:url("images/unfold.gif") no-repeat 0px 2px;
+}
+
+.titletop_font {
+	display: none;
+	background: url(images/buttons.jpg) no-repeat -754px -72px;
+}
+
+.top {
+	display : block;	
+	color : #000000;
+	font-size : 12px;
+	background-color:#FFFFFF;
+	padding-right: 10px;
+}
+#top_main {
+	background-color:#dbf5d5;
+}
+a,a:ACTIVE {
+	color: #159800;
+	text-decoration: none;
+}
+a:hover {
+	color: #159800;
+	text-decoration: underline;
+}
+.zhu
+{
+	color:#adadad;
+}
+
+.titletop 
+{
+	padding-top:5px;
+}
+.abs_right .titletop_font,.goback{
+background: url(images/buttons.jpg) no-repeat -606px -72px;
+}
+.hoverColor {background-color: #ecf4c5;}
+.c_hoverBg{background-color: #DCF3DC;}
+.c_selectedBg{background: #a9ee98;}
+a.bulkImport{
+background-position:0 -47px;
+}
+.x-fileBtn{
+	background-position: 0 -48px;
+}

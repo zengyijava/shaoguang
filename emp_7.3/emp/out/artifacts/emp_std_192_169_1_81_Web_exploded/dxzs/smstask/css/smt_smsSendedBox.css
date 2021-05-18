@@ -1,0 +1,187 @@
+.div0{
+	position:relative;
+	width:40px;
+	height:17px;
+	border:1px solid darkgray;
+	margin:0 auto;
+	border-radius:5px;
+}
+.div1{
+	position:absolute;
+	z-index:1;
+	background-color:#6caf00;
+	height:17px;
+}
+.div2{
+	position:absolute;
+	z-index:2;
+	font-size:1px;
+	line-height: 18px;
+	width:40px;
+	text-align:center
+}
+
+.wrapper{
+	width:40px;
+	height:17px;
+	border:1px solid darkgray;
+	margin-left:20px;
+}
+/*.progressbar{
+	width:40px;
+	height:15px;
+}*/
+/*在进度条元素上调用动画 border:1px solid darkgray;*/
+.fill{
+	animation: move 2s;
+	text-align: center;
+	background-color: #6caf00;
+	width:40px;
+	height:18px;
+	line-height: 18px;
+}
+/*实现元素宽度的过渡动画效果*/
+/*@keyframes move {
+	0%{
+		width:0;
+	}
+	100%{
+		width:100%;
+	}
+}*/
+.smt_smsSendedBox div#tooltip p {
+	margin:0;
+	padding:6;
+	color:#FFFFFE;
+	font:12px verdana,arial,sans-serif;
+}
+.smt_smsSendedBox div#tooltip p em { 
+	display:block;
+	margin-top:3px; 
+	color:#f60;
+	font-style:normal; 
+	font-weight:bold;
+}
+.smt_smsSendedBox #content tr.peachpuff,#content tr.peachpuff td{
+	background:#FFDAB9;
+}
+.smt_smsSendedBox .dxzs_div{
+	width:220px;
+}
+.smt_smsSendedBox .treeInput.dxzs_depNam,.treeInput.dxzs_input{
+	cursor: pointer;
+}
+.smt_smsSendedBox #condition table tr td.condi_f_l input[type='text']{
+	width:159px;
+}
+.smt_smsSendedBox .dxzs_iframe{
+	position: absolute; 
+	z-index: -1; 
+	width: 100%; 
+	height: 100%; 
+	top: 0; 
+	left: 0; 
+	scrolling: no;
+}
+.smt_smsSendedBox .dxzs_div1{
+	margin-top: 3px;
+	margin-right:10px;
+	text-align:right;
+}
+.smt_smsSendedBox .dxzs_isContainsSun{
+	width:15px !important;
+	height:15px !important;
+	vertical-align:middle;
+	margin-right:3px;
+}
+.smt_smsSendedBox .dxzs_div2{
+	width:220px;
+}
+.smt_smsSendedBox .dxzs_iframe1{
+	position: absolute; 
+	z-index: -1; 
+	width: 100%; 
+	height: 100%; 
+	top: 0; 
+	left: 0; 
+	scrolling: no;
+}
+.smt_smsSendedBox .dxzs_div3{
+	margin-top: 3px;
+	margin-right:10px;
+	text-align:right;
+}
+.smt_smsSendedBox .dxzs_div4{
+	margin-top:3px;
+	padding-left:4px;
+}
+.smt_smsSendedBox .dxzs_spUser{
+	width: 180px;
+}
+.smt_smsSendedBox #condition table tr td input[type='text'], #condition table tr td select{
+	width: 180px;
+}
+.smt_smsSendedBox .dxzs_input.Wdate{
+	cursor: pointer; 
+	width: 178px; 
+	background-color: white;
+}
+.smt_smsSendedBox .dxzs_td{
+	text-align:left;
+}
+.smt_smsSendedBox .dxzs_shenhe{
+	padding:5px;
+	width:300px;
+	height:160px;
+	display:none;
+}
+.smt_smsSendedBox .dxzs_tr{
+	padding-top:2px;
+	margin-bottom: 2px;
+}
+.smt_smsSendedBox .dxzs_word_break{
+	word-break: break-all;
+}
+.smt_smsSendedBox .dxzs_msgcont{
+	width:100%;
+	height:100%;
+	border:0px;
+}
+.smt_smsSendedBox .dxzs_smsdetailinfo{
+	display:none;
+	overflow: auto;
+}
+.smt_smsSendedBox .dxzs_recordTableDiv{
+	width: 100%;
+	padding:15px 0;
+	display:none;
+}
+.smt_smsSendedBox .dxzs_recordTable{
+	width: 95%;
+	text-align:center;
+}
+.smt_smsSendedBox .dxzs_nextrecordmgs{
+	width: 95%;
+	padding-bottom:15px;
+	padding-top:10px;
+	display:none;
+	font-size: 12px;
+	color: blue;
+	padding-left: 25px;
+}
+.smt_smsSendedBox #condition table tr td.condi_f_l .btnClass1{
+	width: 48px !important;
+    height: 24px;
+    border: 0;
+    font-size: 12px;
+    display: inline;
+    cursor: pointer
+}
+#changeTimingDiv .dxzs_changeTimingDiv {
+	padding:5px;
+	display:none;
+}
+.align-left{
+    text-align: left!important;
+    padding-left: 10px;
+}

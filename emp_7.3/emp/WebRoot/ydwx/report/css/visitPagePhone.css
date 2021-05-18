@@ -1,0 +1,37 @@
+#ydwx_visitPagePhone a{
+	text-decoration: none;
+}
+#ydwx_visitPagePhone .ydwx_backgo{
+	display:inline;margin-right:10px;
+}
+#ydwx_visitPagePhone #condition .ydwx_phone{
+	width: 178px;
+}
+#ydwx_visitPagePhone #condition .ydwx_name{
+	width: 178px;
+}
+#ydwx_visitPagePhone #condition .ydwx_pagename{
+	width: 178px;
+}
+#ydwx_visitPagePhone #condition .ydwx_sendtime{
+	cursor: pointer; width: 178px; background-color: white;
+}
+#ydwx_visitPagePhone #condition .ydwx_recvtime{
+	cursor: pointer; width: 178px; background-color: white;
+}
+
+/*--------页面详情-------*/
+#ydwx_visitPageCount a{
+	text-decoration: none;
+}
+#ydwx_visitPageCount  .ydwx_hiddenValueDiv_sub{
+	width:100%;overflow:hidden;padding:5px 0 0;
+}
+#ydwx_visitPageCount  .ydwx_buttons{
+	float:left;margin-left:10px;display:inline;
+}
+#ydwx_visitPageCount  .ydwx_rContent{
+	padding:5px 10px 5px 0;
+}
+
+/*--------页面详情结束-------*/

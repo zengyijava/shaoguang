@@ -1,0 +1,39 @@
+#busNameAdd,#busCode,#busNameEdit,#busCodeEdit  {
+	border: 1px solid #00ADEE;
+	width: 170px;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+#busDescriptionAdd,#busDescriptionEdit {
+	width: 170px;
+	border: 1px solid #00ADEE;
+	font-size: 13px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+#btn {
+	margin-top: 15px;
+	width: 240px !important;
+	text-align: right;
+}
+
+#btn input {
+	padding: 2px 5px;
+	font-size: 14px;
+	display: inline;
+	cursor: pointer;
+	width: 55px !important;
+	height: 23px !important;
+}
+
+#cor_mmsBindSp .cropNum{
+	width:180px;
+}
+
+#cor_mmsBindSp .mmsUser{
+	width:180px;
+}

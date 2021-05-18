@@ -1,0 +1,186 @@
+@charset "UTF-8";
+#wx_send .b_F_btn{
+    padding-left: 0;
+    margin-left: 402px;
+    width: 283px;
+    margin-top: 0;
+}
+#wx_send .advancedSettings{
+    padding-left: 0!important;
+}
+#wx_send .unfold,#wx_send .fold{
+    position: relative;
+    left: 56px;
+    bottom: 25px;
+}
+#wx_send .changeFold{
+    border-bottom: 0 !important;
+    background-color: #f5f8fa !important;
+}
+#wx_send .chooseNetTpl{
+    color: #FFFFFF;
+    border-radius: 3px;
+    height: 30px;
+}
+#wx_send .tmplDivHeight{
+    height: auto!important;
+}
+#wx_send #tmplDiv{
+    height: 655px!important;
+}
+/*-------------------------jquery-ui的dialog的样样式----------------*/
+#wx_send .titleBar{
+    height:40px!important;
+    background-color:#f7fafc;
+    border-bottom:1px solid #ecf1f2;
+}
+#wx_send .titleBarTxt{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #ababab;
+    font-weight: bold;
+}
+#wx_send #contentFrame{
+    height: 465px;
+    width: 625px !important;
+}
+#wx_send #draftFrame{
+    height: 495px;
+}
+#wx_send #flowFrame{
+    width:658px;
+    height:435px;
+    border: 0;
+}
+#wx_send #taskname{
+    height:33px;
+}
+#wx_send #moreSelect table tr {
+    height: 40px;
+}
+
+#wx_send .c_selectBox .c_input  {
+	 margin-top: 8px !important;
+	 margin-left: 10px !important;
+}
+#wx_send .c_selectBox .c_result  {
+	 top: 33px !important;
+}
+#wx_send  #toDraft  {
+	border-radius:3px;
+}
+#wx_send  #subSend  {
+	border-radius:3px;
+}
+#wx_send  #qingkong  {
+	border-radius:3px;
+}
+
+#ydwx_netTemplate #search{
+	border-radius:3px;
+}
+#ydwx_netTemplate .ydwx_borderradius{
+	border-radius:3px;
+}
+
+#ydwx_netTemplate #content thead tr th{
+	height: 40px !important;
+}
+
+#wx_draftlist #content thead tr th{
+	height: 40px !important;
+}
+#wx_draftlist #search{
+	border-radius:3px;
+}
+#wx_draftlist .ydwx_borderradius{
+	border-radius:3px;
+}
+#wx_send .ydwx_borderradius{
+	border-radius:3px;
+}
+#wx_send .ydwx_downlinks{
+	padding:3px 0px 0; width: 498px;float:left;line-height: 26px;
+}
+/*----------移动网讯——网讯发送——动态网讯发送----------------*/
+#ydwx_senddsm #taskname{
+	height: 33px;
+}
+#ydwx_senddsm .eq_sendDiv2{
+	padding:3px 0px 0; width: 498px;float:left;line-height: 26px;
+}
+#ydwx_senddsm #eq_sendDiv2{
+	padding-left: 0px !important;
+}
+#ydwx_senddsm .b_F_btn{
+	padding-left: 0;
+    margin-left: 348px !important;
+    width: 283px;
+    margin-top: 0;
+}
+#ydwx_senddsm .ydwx_moreSelect{
+	height: 120px;
+}
+#ydwx_senddsm #eq_sendDiv2{
+	margin-left: 20px !important;
+}
+#ydwx_senddsm .ydwx_borderradius{
+	border-radius:3px;
+}
+
+#ydwx_senddsm #moreSelect table tr {
+    height: 40px;
+}
+#ydwx_senddsm .c_selectBox .c_input  {
+	 margin-top: 8px !important;
+	 margin-left: 10px !important;
+}
+#ydwx_senddsm .c_selectBox .c_result  {
+	 top: 33px !important;
+}
+
+#ydwx_senddsm #tempDiv{
+	height: 700px !important;
+}
+#ydwx_senddsm #tempFrame{
+	height: 696px !important;
+}
+#ydwx_dynamicTemplate #search{
+	border-radius:3px;
+}
+#ydwx_senddsm .ydwx_contentFrame{
+	height: 450px !important;
+}
+#wx_contentTemplate #search{
+	border-radius:3px;
+}
+/*----------移动网讯——网讯发送——动态网讯发送结束----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

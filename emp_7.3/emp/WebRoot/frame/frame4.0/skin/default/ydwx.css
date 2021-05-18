@@ -1,0 +1,8 @@
+/* wx_operApp */
+#wx_operApp #condition table tr td > input{
+     width: 188px !important;
+}
+
+#wx_operApp #condition table tr td > div > input{
+     width: 180px !important;
+}

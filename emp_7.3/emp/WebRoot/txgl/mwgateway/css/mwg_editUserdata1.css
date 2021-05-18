@@ -1,0 +1,272 @@
+#mwg_editUserdata1 .tabCont {
+	width: 90%;
+	height: 26px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 10px;
+	line-height: 26px;
+	margin-bottom: 10px;
+	text-align: center;
+	padding-right: 10px;
+}
+
+#mwg_editUserdata1 .tabContent,#mwg_editUserdata1 .accountType_table {
+	margin-left: 20px;
+}
+
+#mwg_editUserdata1 .tabContent table,#mwg_editUserdata1 .accountType_table {
+	margin-bottom: 10px;
+}
+
+#mwg_editUserdata1 .tabContent table td {
+	padding: 4px 0;
+}
+
+#mwg_editUserdata1 .tabCont a {
+	padding-right: 10px;
+	margin-top: 5px;
+	text-decoration: none;
+}
+
+#mwg_editUserdata1 .a3 {
+	width: 35px;
+	height: 17px;
+	border: 0;
+	text-align: center;
+	background: white;
+	padding: 4px 0;
+}
+
+#ptIp,#mwg_editUserdata1 .backup1 {
+	border: 1px solid #bec3d1;
+	width: 177px;
+	background: white;
+	font-size: 8pt;
+	float: left;
+}
+
+#spip,#mwg_editUserdata1 .backup {
+	border: 1px solid #bec3d1;
+	width: 177px;
+	background: white;
+	font-size: 8pt;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#linklevel,#mwg_editUserdata1 .bklevel {
+	width: 80px;
+	float: left;
+}
+
+#mwg_editUserdata1 .tabyys {
+	display: block;
+	width: 130px;
+	height: 20px;
+	line-height: 20px;
+	margin-left: 20px;
+	margin-bottom: -10px;
+	position: relative;
+	background-color: #FFF;
+	font-weight: 800;
+	text-align: left;
+	padding: 0 3px;
+}
+
+#mwg_editUserdata1 .tips {
+	color: #999;
+}
+
+#mwg_editUserdata1 .div_label {
+	float: left;
+}
+
+a#mwg_editUserdata1 .unfold,a#mwg_editUserdata1 .fold {
+	margin-left: 600px;
+}
+
+#mwg_editUserdata1 .cluster-add,#mwg_editUserdata1 .cluster-del {
+	cursor: pointer;
+}
+
+#mwg_editUserdata1 .detail_Info{
+	width: 1060px; 
+	padding-left: 20px;
+}
+
+#mwg_editUserdata1 .speedLimit{
+	width: 264px;
+}
+
+#mwg_editUserdata1 .detail_Info_table_td{
+	width:140px;
+}
+
+#mwg_editUserdata1 .bbcc{
+	width: 262px;
+}
+
+#mwg_editUserdata1 .staffname{
+	width: 260px;
+}
+
+#mwg_editUserdata1 .userpassword{
+	width: 260px;
+}
+
+#mwg_editUserdata1 .status{
+	width: 264px;
+}
+
+#mwg_editUserdata1 .ptPort{
+	width: 60px;
+}
+
+#mwg_editUserdata1 .xing_font{
+	vertical-align: middle;
+}
+
+#mwg_editUserdata1 .SPACCID{
+	width: 260px;
+}
+
+#mwg_editUserdata1 .SPACCPWD{
+	width: 260px;
+}
+
+#mwg_editUserdata1 .spPort{
+	width: 63px;
+}
+
+#mwg_editUserdata1 .port_input{
+	width: 63px;
+}
+
+#mwg_editUserdata1 .serviceType{
+	width: 260px;
+}
+
+#mwg_editUserdata1 .spid{
+	width: 260px;
+}
+
+#mwg_editUserdata1 .feeUserType{
+	width: 264px;
+}
+
+#mwg_editUserdata1 .spType{
+	width: 264px;
+}
+
+#mwg_editUserdata1 .protocolCode{
+	width: 264px;
+}
+
+#mwg_editUserdata1 .protocolParam{
+	width: 260px;
+}
+
+#mwg_editUserdata1 .spFeeFlag{
+	width: 264px;
+}
+
+#mwg_editUserdata1 .feeUrl{
+	width: 500px;
+}
+
+#mwg_editUserdata1 .id_input{
+	width: 500px;
+}
+
+#mwg_editUserdata1 .passgaeInfo_table{
+	width:90%; 
+	font-size: 12px; 
+	line-height: 40px !important;
+}
+
+#mwg_editUserdata1 .template{
+	display: none;
+}
+
+#mwg_editUserdata1 .yysipdz_td{
+	width:140px;
+}
+
+#mwg_editUserdata1 .spPort0_input{
+	width: 63px;
+}
+
+#mwg_editUserdata1 .advanceconf{
+	padding: 5px; 
+	display: none; 
+	font-size: 12px;
+}
+
+#mwg_editUserdata1 .advanceconf_down_div{
+	height: 80px; 
+	margin-top: 10px; 
+	margin-left: 20px;
+}
+
+#mwg_editUserdata1 .ljfs_table{
+	line-height: 35px;
+}
+
+#mwg_editUserdata1 .ljfs_td{
+	text-align: center;
+	width: 130px;
+}
+
+#mwg_editUserdata1 .linkcntbak_td{
+	text-align: center;
+}
+
+#mwg_editUserdata1 .trmemostart{
+	display: none;
+}
+
+#mwg_editUserdata1 .trmemostart_td{
+	text-align: center; 
+	color: #888888;
+}
+
+#mwg_editUserdata1 .trreconncnt{
+	display: none;
+}
+
+#mwg_editUserdata1 .reconncntbak_td{
+	text-align: center;
+}
+
+#mwg_editUserdata1 .trrelogincnt{
+	display: none;
+}
+
+#mwg_editUserdata1 .relogincntbak_td{
+	text-align: center;
+}
+
+#mwg_editUserdata1 .trmemoend{
+	display: none;
+}
+
+#mwg_editUserdata1 .trmemoend_td{
+	text-align: center; 
+	color: #888888;
+}
+
+#mwg_editUserdata1 .trswitchmainip{
+	display: none;
+}
+
+#mwg_editUserdata1 .switchmainipbak_td{
+	text-align: center;
+}
+
+#mwg_editUserdata1 .qd_div{
+	height: 50px; 
+	line-height: 50px; 
+	margin-top: 200px;
+}
+

@@ -1,0 +1,64 @@
+#cor_addMmsBindSp #totable {
+    padding:2px 5px;
+	background: #e8f0f8;
+	border: 1px #82baf1 solid;
+	text-align: left;
+	width: 755px;
+}
+
+#cor_addMmsBindSp #totable tr td {
+    padding:2px 5px;
+	border: 1px #82baf1 solid;
+}
+
+#cor_addMmsBindSp #btn {
+	margin-top: 15px;
+	width: 240px !important;
+	text-align: right;
+}
+
+#cor_addMmsBindSp .rContent2{
+	padding:5px 0;
+}
+
+#cor_addMmsBindSp .fhsyj_span{
+	margin-right: 35px;
+}
+
+#cor_addMmsBindSp .table_input{
+	border:0px
+}
+
+#cor_addMmsBindSp .sysTable{
+	width:556px;
+	height:100%;
+}
+
+#cor_addMmsBindSp .corpCode{
+	width:250px;
+}
+
+#cor_addMmsBindSp .fengebj{
+	width:458px;
+}
+
+#cor_addMmsBindSp .t1_div{
+	display:block;
+	width:250px;
+	height:150px;
+	overflow: auto;
+}
+
+#cor_addMmsBindSp .t1{
+	margin-left:3px;
+	width:227px;
+	border:none;
+}
+
+#cor_addMmsBindSp .GtPortUsed_td{
+	height:20px;
+}
+
+#cor_addMmsBindSp .btnOK_td{
+	padding-right:96px
+}

@@ -1,0 +1,205 @@
+#gat_addUserdata .tabCont {
+width: 90%;
+height: 26px;
+cursor: pointer;
+font-size: 14px;
+font-weight: bold;
+padding-left: 10px;
+line-height: 26px;
+margin-bottom: 10px;
+text-align: right;
+padding-right:10px;
+}
+
+#gat_addUserdata .tabContent,#gat_addUserdata .accountType_table {
+margin-left: 20px;
+}
+
+#gat_addUserdata .tabContent table,#gat_addUserdata .accountType_table {
+margin-bottom: 10px;
+}
+
+#yysCont table {
+margin-bottom: 0px;
+}
+
+#gat_addUserdata .tabContent table td {
+padding: 4px 0;
+}
+
+#gat_addUserdata .tabCont a {
+padding-right: 10px;
+margin-top: 5px;
+text-decoration: none;
+}
+
+#gat_addUserdata .a3 {
+width: 35px;
+height: 17px;
+border: 0;
+text-align: center;
+background: white;
+padding: 4px 0;
+}
+
+#gat_addUserdata .aip {
+width: 177px;
+height: 17px;
+border: 0;
+text-align: left;
+background: white;
+padding: 4px 0;
+}
+
+#ptIp,#gat_addUserdata .backup1{
+border: 1px solid #bec3d1;
+width: 177px;
+background: white;
+font-size: 8pt;
+float: left;
+}
+#spip,#gat_addUserdata .backup{
+border: 1px solid #bec3d1;
+width: 177px;
+background: white;
+font-size: 8pt;
+display: inline-block;
+margin-left: 10px;
+}
+#linklevel,#gat_addUserdata .bklevel{
+width: 80px;
+float: left;
+}
+
+#gat_addUserdata .tips {
+color: #999;
+}
+#gat_addUserdata .div_label
+{
+float:left;
+}
+
+#gat_addUserdata .cluster-add,#gat_addUserdata .cluster-del
+{
+cursor: pointer;
+}
+
+
+#gat_addUserdata .detail_Info{
+	padding-left: 20px; 
+	width: 1000px;
+}
+
+#gat_addUserdata .speedLimit{
+	width: 260px;
+}
+
+#gat_addUserdata .zhlx_td{
+	width:140px;
+}
+
+#gat_addUserdata .accouttype{
+	width: 265px;
+}
+
+#gat_addUserdata .staffname{
+	width: 260px;
+}
+
+#gat_addUserdata .userid{
+	width: 260px;
+}
+
+#gat_addUserdata .userpassword{
+	width: 260px;
+}
+
+#gat_addUserdata .ptPort{
+	width: 60px;
+}
+
+#gat_addUserdata .ptPort_down_font{
+	vertical-align: middle;
+}
+
+#gat_addUserdata .yyszhid_td{
+	width:140px;
+}
+
+#gat_addUserdata .SPACCID{
+	width: 260px;
+}
+
+#gat_addUserdata .SPACCPWD{
+	width: 260px;
+}
+
+#gat_addUserdata .spType{
+	width: 265px;
+}
+
+#gat_addUserdata .spPort{
+	width: 63px;
+}
+
+#gat_addUserdata .tj_up_font{
+	vertical-align: middle;
+}
+
+#gat_addUserdata .ywlx_td{
+	width:140px;
+}
+
+#gat_addUserdata .serviceType{
+	width: 260px;
+}
+
+#gat_addUserdata .spid{
+	width: 260px;
+}
+
+#gat_addUserdata .feeUserType{
+	width: 265px;
+}
+
+#gat_addUserdata .protocolCode{
+	width: 265px;
+}
+
+#gat_addUserdata .protocolParam{
+	width: 260px;
+}
+
+#gat_addUserdata .spFeeFlag{
+	width: 265px;
+}
+
+#gat_addUserdata .feeUrl{
+	width: 260px;
+}
+
+#gat_addUserdata .passgaeInfo_table{
+	width:90%;
+	font-size: 12px; 
+	line-height: 40px !important;
+}
+
+#gat_addUserdata .template{
+	display: none;
+}
+
+#gat_addUserdata .yysipdzjdk1_td{
+	width:140px;
+}
+
+#gat_addUserdata .dkh_input{
+	width: 63px;
+}
+
+#gat_addUserdata .xing_font{
+	vertical-align: middle;
+}
+
+.c_selectBox{
+	display: none!important;
+}

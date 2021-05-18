@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+		<tree id="0">
+			<item id="dhtmlxtree" text="dhtmlxTree"  >
+				<userdata name="url">
+					../dhtmlxTree/doc
+				</userdata>
+				<userdata name="thisurl">
+					../dhtmlxTree/doc/guide.html
+				</userdata>
+				
+			</item>
+			
+
+		</tree>

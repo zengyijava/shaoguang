@@ -1,0 +1,107 @@
+#cli_addClient #cli_addClient #dropdownMenu span {  
+	float:none !important;  
+}
+#cli_addClient div#tab{
+	width: 610px;
+	padding-left: 16px;
+}
+#cli_addClient .client_display_none{
+	display:none;
+}
+#cli_addClient .client_table1{
+	font-size: 13px;
+	text-align: center;
+	height: 35px;
+	width: 610px;
+}
+#cli_addClient #addoneDiv{
+	height: 520px;
+	line-height: 35px !important;
+	margin-top:15px; 
+	line-height: 25px;
+}
+#cli_addClient #sysTable{
+	font-size: 12px;
+	width: 90%;
+	height: 100%;
+}
+#cli_addClient .client_color_red{
+	color:red;
+}
+#cli_addClient .client_div1{
+	width:280px;
+}
+#cli_addClient #depNam{
+	width:236px;
+}
+#cli_addClient #ssdep{
+	cursor: pointer;
+	text-decoration: underline;
+}
+#cli_addClient #dropMenu{
+	position: absolute; 
+	display:none;
+	margin-left:0px;
+	height:450px; 
+	width:356px;
+	background-color:white;
+	border:1px solid;
+	overflow-y:auto;
+	overflow-x:auto;
+	z-index:999;
+}
+#cli_addClient .client_div2{
+	margin-top: 3px;
+	margin-right:10px;
+	text-align:right;
+}
+#cli_addClient #sex{
+	width:266px;	
+}
+#cli_addClient #birth{
+	cursor: pointer; 
+	background-color: white;
+	width: 260px;
+}
+#cli_addClient .input_bd.client_select{
+	width:266px;
+}
+#cli_addClient .client_div3{
+	width:610px;
+}
+#cli_addClient .input_book1.input_bd.treeInput{
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #BEC3D1;
+	width: 240px;
+	cursor: pointer;
+}
+#cli_addClient .input_bd.treeInput{
+	height: 26px;
+	line-height: 26px;
+	border: 1px solid #b3caee;
+	width: 240px;
+	cursor: pointer;
+}
+#cli_addClient #uploadFile{
+	width: 260px;
+}
+#cli_addClient .client_div4{
+	width:600px;
+	clear:both;
+}
+#cli_addClient #exportDiv{
+	padding:5px;
+	display:none;
+	font-size: 12px;
+}
+#cli_addClient .client_span1{
+	position: absolute;
+	left:60px;
+	top:30px;
+}
+#cli_addClient #addallDiv{
+	display: none;
+	line-height: 40px;
+	margin-top:15px;
+}

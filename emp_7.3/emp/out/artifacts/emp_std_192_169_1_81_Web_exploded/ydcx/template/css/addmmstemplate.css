@@ -1,0 +1,385 @@
+#ydcx_addMmsTemplate .ydcx_container_sub2 {
+	float: left;
+	width: 250px;
+	margin-left: 30px;
+	display: inline;
+}
+
+#ydcx_addMmsTemplate .ydcx_mobile {
+	width: 240px;
+	height: 470px;
+	position: absolute;
+	background: url('../../../common/img/iphone5.jpg') no-repeat;
+}
+
+#ydcx_addMmsTemplate .ydcx_pers {
+	position: relative;
+	margin-top: 90px;
+	border: 1px #09F solid;
+	text-align: left;
+	display: none;
+	width: 180px;
+	height: 13px;
+	background-color: #FFFFFF;
+}
+
+#ydcx_addMmsTemplate .ydcx_showtime {
+	position: absolute;
+	width: 140px;
+	height: 13px;
+	text-align: center;
+}
+
+#ydcx_addMmsTemplate .ydcx_chart {
+	position: absolute;
+	left: 0px;
+	background-color: #00ffdd;
+	width: 0px;
+	height: 13px;
+	text-align: right;
+	padding-top: 0px;
+}
+
+#ydcx_addMmsTemplate .ydcx_screen {
+	position: relative;
+	width: 189px;
+	height: 240px;
+	background: #ffffff;
+	margin-left: 23px;
+	margin-top: 95px;
+	overflow: auto;
+	padding: 2px;
+	word-break: break-all;
+}
+
+#ydcx_addMmsTemplate .ydcx_inputParamCnt1 {
+	margin-top: 10px;
+	margin-left: 280px;
+}
+
+#ydcx_addMmsTemplate .ydcx_getloginUser {
+	padding: 5px;
+	display: none;
+}
+
+#ydcx_addMmsTemplate .ydcx_dv1 {
+	height: 80%;
+	margin-left: 6px;
+	margin-top: 3px;
+}
+
+#ydcx_addMmsTemplate .ydcx_dropMenu {
+	height: 330px;
+	width: 200px;
+	background-color: white;
+	border: 1px solid;
+	border-color: #eff1f3;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+
+#ydcx_addMmsTemplate .ydcx_tabl1 {
+	width: 100%;
+	height: 330px;
+}
+
+#ydcx_addMmsTemplate .ydcx_tabl1_td1 {
+	vertical-align: top;
+}
+
+#ydcx_addMmsTemplate .ydcx_tabl1_td2 {
+	vertical-align: bottom;
+}
+
+#ydcx_addMmsTemplate .ydcx_matList {
+	height: 150px;
+	width: 200px;
+	margin-top: 0px;
+	margin-right: 5px;
+	border: 1px solid;
+	border-color: #eff1f3;
+	background: #d5d6d7;
+}
+
+#ydcx_addMmsTemplate .ydcx_table01_td1 {
+	width: 220px;
+}
+
+#ydcx_addMmsTemplate .ydcx_filepath {
+	width: 100px;
+	float: left;
+}
+
+#ydcx_addMmsTemplate .ydcx_span1 {
+	width: 2px;
+	float: left;
+}
+
+#ydcx_addMmsTemplate .ydcx_uploadtms {
+	position: relative;
+	float: left;
+	display: block;
+	width: 80px;
+	height: 18px;
+	border: 1px solid #999;
+	background: #eee;
+	text-align: center;
+	line-height: 18px;
+}
+
+#ydcx_addMmsTemplate .ydcx_chooseImg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 82px;
+	height: 20px;
+	opacity: 0;
+	filter: alpha(opacity =                             0);
+}
+
+#ydcx_addMmsTemplate .ydcx_imgtype_labe1 {
+	color: #2970c0;
+}
+
+#ydcx_addMmsTemplate .ydcx_filepath2 {
+	width: 100px;
+	float: left;
+}
+
+#ydcx_addMmsTemplate .ydcx_uploadmusic {
+	position: relative;
+	float: left;
+	display: block;
+	width: 80px;
+	height: 18px;
+	border: 1px solid #999;
+	background: #eee;
+	text-align: center;
+	line-height: 18px;
+}
+
+#ydcx_addMmsTemplate .ydcx_chooseMusic {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 82px;
+	height: 20px;
+	opacity: 0;
+	filter: alpha(opacity =                         0);
+}
+
+#ydcx_addMmsTemplate .ydcx_music_label {
+	color: #2970c0;
+}
+
+#ydcx_addMmsTemplate   .ydcx_rContent {
+	margin-left: 16px;
+}
+
+#ydcx_addMmsTemplate .ydcx_titletop {
+	padding-left: 0;
+}
+
+#ydcx_addMmsTemplate .ydcx_titletop_table {
+	width: 655px;
+}
+
+#ydcx_addMmsTemplate .ydcx_table1 {
+	text-align: left;
+	width: 740px;
+	height: 420px;
+	border: 0;
+}
+
+#ydcx_addMmsTemplate .ydcx_table1 .ydcx_table1_tr1 {
+	width: 80px;
+}
+
+#ydcx_addMmsTemplate .ydcx_table1 .ydcx_templateType_static {
+	margin-left: 5px;
+}
+
+#ydcx_addMmsTemplate .ydcx_table1 .ydcx_templateType_dynamic {
+	margin-left: 5px;
+}
+
+#ydcx_addMmsTemplate .ydcx_table1 .ydcx_table1_tr2_td2 {
+	padding-top: 20px;
+}
+
+#ydcx_addMmsTemplate .ydcx_table1 .ydcx_mmsTitle {
+	width: 593px;
+}
+
+#ydcx_addMmsTemplate .ydcx_table1 .ydcx_mmsCode {
+	width: 593px;
+}
+
+#ydcx_addMmsTemplate .ydcx_table1 .ydcx_mmsFrame_td {
+	height: 295px;
+	padding-top: 20px;
+}
+
+#ydcx_addMmsTemplate #mmsFrame {
+	float: left;
+	background-color: #ededed;
+	text-align: center;
+	border: 1px solid #c5c5c5;
+	border-bottom: 0;
+	border-top: 0;
+	
+}
+
+#ydcx_addMmsTemplate .ydcx_mframes {
+	width: 76px;
+	overflow: auto;
+	height: 261px;
+}
+
+#ydcx_addMmsTemplate .ydcx_rightFrame {
+	width: 492px;
+	padding-left: 8px;
+}
+
+#ydcx_addMmsTemplate .ydcx_frame_1_tabl {
+	border: 1px solid #e1e1e1;
+}
+
+#ydcx_addMmsTemplate .ydcx_lasttime_td {
+	height: 30px;
+	background: #eff1f3;
+	padding-left: 5px;
+}
+
+#ydcx_addMmsTemplate .ydcx_addMat {
+	padding-left: 10px;
+	width: 75px;
+}
+
+#ydcx_addMmsTemplate .ydcx_btnMatel {
+	color: blue;
+}
+
+#ydcx_addMmsTemplate .ydcx_btnImage {
+	color: blue;
+}
+
+#ydcx_addMmsTemplate .ydcx_btnMusic {
+	color: blue;
+}
+
+#ydcx_addMmsTemplate .ydcx_addImg {
+	width: 75px;
+}
+
+#ydcx_addMmsTemplate .ydcx_addMusic {
+	width: 75px;
+}
+
+#ydcx_addMmsTemplate .ydcx_preview_td {
+	padding-left: 10px;
+	padding-top: 4px;
+	width: 150px;
+	height: 150px;
+}
+
+#ydcx_addMmsTemplate .ydcx_preview {
+	width: 170px;
+	height: 150px;
+	background: #d5d6d7;
+	margin-right: -45px;
+	display: inline-block;
+	overflow: hidden;
+}
+
+#ydcx_addMmsTemplate .ydcx_delImg_td {
+	padding-left: 5px;
+	height: 33px;
+}
+
+#ydcx_addMmsTemplate .ydcx_delatt {
+	cursor: pointer;
+	margin-left: 60px;
+	margin-top: 10px;
+	color: #2970c0;
+}
+
+#ydcx_addMmsTemplate .ydcx_delMus_td {
+	padding-left: 5px;
+	height: 33px;
+}
+
+#ydcx_addMmsTemplate .ydcx_delMus_a {
+	cursor: pointer;
+	margin-left: 60px;
+	margin-bottom: 10px;
+	color: #2970c0;
+}
+
+#ydcx_addMmsTemplate .ydcx_paramTxt_td {
+	height: 15px;
+}
+
+#ydcx_addMmsTemplate .ydcx_paramTxt {
+	width: 310px;
+	margin-left: 5px;
+	display: none;
+}
+
+#ydcx_addMmsTemplate .ydcx_textContent_td {
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-right: 8px;
+}
+
+#ydcx_addMmsTemplate .ydcx_textContent {
+	background: white;
+	width: 486px;
+	height: 100px;
+	word-break: break-all;
+	border: 1.5px solid #e1e1e1;
+}
+#ydcx_addMmsTemplate .ydcx_templstate_td {
+	padding-top: 20px;
+}
+#ydcx_addMmsTemplate .ydcx_state_td {
+	padding-top: 20px;
+}
+#ydcx_addMmsTemplate .ydcx_state_draft {
+	margin-left: 10px;
+}
+#ydcx_addMmsTemplate .ydcx_footer {
+	margin-top: 10px;
+	padding-left: 342px;
+	width:350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

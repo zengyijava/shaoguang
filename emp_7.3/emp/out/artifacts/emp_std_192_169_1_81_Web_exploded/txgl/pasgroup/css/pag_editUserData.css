@@ -1,0 +1,185 @@
+#pag_editUserData #td-ips ul li input {
+	text-align: center;
+	width: 60px;
+	border: 0;
+	border: none;
+}
+
+#pag_editUserData #td-ips ul li {
+	width: 260px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	background: #fff;
+}
+
+#pag_editUserData #td-ips ul {
+	list-style: none;
+	float: left;
+}
+
+#pag_editUserData #td-ips .ip-btn {
+	float: left;
+	display: block;
+	line-height: 26px;
+	margin-left: 25px;
+	cursor: pointer;
+	margin-top: 6px;
+}
+
+#pag_editUserData .clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: ".";
+	clear: both;
+	height: 0;
+}
+
+#pag_editUserData #showexplain {
+	height: 195px;
+	width: 880px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: absolute;
+	top: 100px;
+	left: 500px;
+	background-color: #ADD8E6;
+	line-height: 22px;
+	display: none;
+	border-radius: 10px;
+}
+
+#pag_editUserData * html .clearfix {
+	zoom: 1;
+}
+
+#pag_editUserData *:first-child+html .clearfix {
+	zoom: 1;
+}
+
+#pag_editUserData .detail_Info{
+	width: 680px;
+	padding-left: 40px;
+	padding-top: 25px;
+}
+
+#pag_editUserData .corpCode_table{
+	width:100%; 
+	height:100%;  
+	font-size: 12px;
+	line-height: 40px !important; 
+	line-height: 30px;
+}
+
+#pag_editUserData .bbddd{
+	width:265px;
+}
+
+#pag_editUserData .userid2{
+	width:260px;
+}
+
+#pag_editUserData .xiugai{
+	width:260px;
+}
+
+#pag_editUserData .font_red{
+	color: red;
+}
+
+#pag_editUserData .font_color{
+	color: #cccccc;
+}
+
+#pag_editUserData .select_width{
+	width:265px;
+}
+
+#pag_editUserData .trmorpoption_ver{
+	vertical-align:middle;
+}
+
+#pag_editUserData .szbghqfs_td{
+	width: 150px;
+}
+
+#pag_editUserData .explain{
+	margin-left:25px;
+}
+
+#pag_editUserData .spbindurl{
+	width: 260px;
+}
+
+#pag_editUserData .jssxztbgdy_span{
+	color: #cccccc;
+	display: block;
+	line-height: 12px;
+}
+
+#pag_editUserData .sx{
+	width:260px;
+}
+
+#pag_editUserData .jssxd_span{
+	color: #cccccc;
+	display: block;
+	line-height: 12px;
+}
+
+#pag_editUserData .rptUrl{
+	width:260px;
+}
+
+#pag_editUserData .jsxxztbg_span{
+	color: #cccccc;
+	display: block;
+	line-height: 12px;
+}
+
+#pag_editUserData .starttime{
+	cursor: pointer; 
+	width: 120px;
+	height:25px;
+	line-height:25px;
+	background-color: white;
+}
+
+#pag_editUserData .endtime{
+	cursor: pointer; 
+	width: 120px;
+	line-height:25px;
+	height:25px; 
+	background-color: white;
+}
+
+#pag_editUserData .xxrxfsdsjd_span{
+	color: #cccccc;
+	display: block;
+	line-height: 12px;
+}
+
+#pag_editUserData .zspzipdz_span{
+	color: #cccccc;
+	display: block;
+	line-height: 18px;
+}
+
+#pag_editUserData .btnSsu_div{
+	width:363px;
+	text-align:right;
+}
+
+#pag_editUserData .sxztbg_td{
+	font-weight: bold;
+	font-size: 14px;
+	height: 40px;
+}
+
+#pag_editUserData .showexplain_ul{
+	height: 25px;
+}
+
+#pag_editUserData .UserId_up_td{
+	width:140px;
+}

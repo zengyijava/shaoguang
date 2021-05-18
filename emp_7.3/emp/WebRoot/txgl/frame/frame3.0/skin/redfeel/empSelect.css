@@ -1,0 +1,45 @@
+
+.emp_currentselected
+{
+	background: white;
+	border: 1px solid white;
+}
+
+.emp_selectoption
+{
+	background: white;
+	border: 1px solid #e4b7b7;
+	
+}
+
+.emp_selectoption dt
+{
+	background: black;
+}
+.emp_selectoption table tr td,#condition .emp_selectoption table tr td,#content .emp_selectoption table tr td
+{
+	background: white;
+	border-bottom:1px  solid #e4b7b7;
+	background-color: white;
+}
+
+
+#condition .emp_selectoption  .emp_selected,#content .emp_selectoption  .emp_selected,.emp_selectoption  .emp_selected
+{
+	background:#ffaba8;
+	color: white;
+}
+#condition .emp_selectoption .emp_selectOption_hover ,#content .emp_selectoption .emp_selectOption_hover , .emp_selectoption .emp_selectOption_hover
+{
+	background: #fff0ec;
+}
+
+.emp_currentselected_arrows
+{
+	background: url(images/select_arrows.png) no-repeat center;
+}
+.emp_currentselected_hover
+{
+	background: url(images/select_arrowsShow.png) no-repeat center;
+}
+

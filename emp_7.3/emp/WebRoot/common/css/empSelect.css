@@ -1,0 +1,97 @@
+.emp_selectbox
+{
+	position: relative;
+	text-align: left;
+	line-height: 25px;
+	text-indent: 10px;
+}
+
+.emp_currentselected
+{
+	width : 120px;
+	height : 120px;
+	height: 25px;
+	background: white;
+	white-space:nowrap; 
+	cursor: pointer;
+	overflow:hidden;
+	border: 1px solid white;
+}
+.emp_currentselected div
+{
+	float: left;
+	white-space:nowrap; 
+	overflow:hidden;
+}
+.emp_selectoption
+{
+	background: #ccc;
+	left:0px;
+	top :26px;
+	overflow-x: auto;
+	overflow-y: auto;
+	cursor: pointer;
+	position: absolute;
+	border: 1px solid #9ea1a6;
+}
+.emp_selectoption dl
+{
+	display : table;
+	width: auto;
+}
+.emp_selectoption dt
+{
+	height: 25px;
+	width:100%;
+	background: black;
+	white-space: nowrap;
+	display: block;
+}
+.emp_selectoption table tr td,#condition .emp_selectoption table tr td,#content .emp_selectoption table tr td
+{
+	height: 25px;
+	width:100%;
+	white-space: nowrap;
+	text-align: left;
+	padding: 0px;
+	background: white;
+	border-bottom:1px  solid #ccc;
+	background: #F0F1F8;
+	_padding-left: 10px;
+	margin: 0;
+}
+.emp_selectoption dd
+{
+	height: 25px;
+	width:100%;
+	cursor: pointer;
+	display: block;
+	white-space: nowrap;
+	
+}
+
+#condition .emp_selectoption  .emp_selected,#content .emp_selectoption  .emp_selected,.emp_selectoption  .emp_selected
+{
+	background: #2B619F;
+	color: white;
+}
+#condition .emp_selectoption .emp_selectOption_hover ,#content .emp_selectoption .emp_selectOption_hover , .emp_selectoption .emp_selectOption_hover
+{
+	background: #bad4fa;
+}
+
+.emp_currentselected_arrows
+{
+	height: 21px;
+	width: 20px;
+	float: right;
+	background: url(images/select_arrows.png) no-repeat center;
+}
+.emp_currentselected_hover
+{
+	height: 21px;
+	width: 20px;
+	float: right;
+	background: url(images/select_arrowsShow.png) no-repeat center;
+}
+

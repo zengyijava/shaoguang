@@ -1,0 +1,46 @@
+#translog .container{
+	float:left;
+	min-width:1200px;
+	_width:1200px;
+}
+
+#translog .sendtime{
+	cursor: pointer; 
+	width: 178px;
+	background-color: white;
+}
+
+#translog .recvtime{
+	cursor: pointer; 
+	width: 178px;
+	background-color: white;
+}
+#translog #content td{
+	text-align: center;
+}
+#translog .usetype{
+	width: 182px;
+}
+
+#translog .tsContent{
+	width: 178px;
+}
+
+#translog .content_th1{
+	width:160px;
+}
+
+#translog .content_th2{
+	width:100px;
+}
+
+#translog .content_th3{
+	width:60px;
+}
+
+#translog .content_th4{
+	width:60px;
+	
+}
+
+

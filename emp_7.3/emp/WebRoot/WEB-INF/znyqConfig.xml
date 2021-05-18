@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+	
+
+	<servlet>
+		<description>下行业务项目管理</description>
+		<display-name>智能引擎</display-name>
+		<servlet-name>eng_mtServiceServlet</servlet-name>
+		<servlet-class>com.montnets.emp.engine.servlet.eng_mtServiceSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>eng_mtServiceServlet</servlet-name>
+		<url-pattern>/eng_mtService.htm</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<description>下行业务定时监控</description>
+		<display-name>智能引擎</display-name>
+		<servlet-name>eng_timerControlServlet</servlet-name>
+		<servlet-class>com.montnets.emp.engine.servlet.eng_timerControlSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eng_timerControlServlet</servlet-name>
+		<url-pattern>/eng_timerControl.htm</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<description>下行业务项目步骤管理</description>
+		<display-name>智能引擎</display-name>
+		<servlet-name>eng_mtProcessServlet</servlet-name>
+		<servlet-class>com.montnets.emp.engine.servlet.eng_mtProcessSvt</servlet-class>
+	</servlet>
+		<servlet-mapping>
+		<servlet-name>eng_mtProcessServlet</servlet-name>
+		<url-pattern>/eng_mtProcess.htm</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<description>智能引擎</description>
+		<display-name>上行业务管理</display-name>
+		<servlet-name>eng_moService</servlet-name>
+		<servlet-class>com.montnets.emp.engine.servlet.eng_moServiceSvt</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>eng_moService</servlet-name>
+		<url-pattern>/eng_moService.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>智能引擎</description>
+		<display-name>业务服务日志</display-name>
+		<servlet-name>eng_serviceLog</servlet-name>
+		<servlet-class>com.montnets.emp.engine.servlet.eng_servicelogSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eng_serviceLog</servlet-name>
+		<url-pattern>/eng_servicelog.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>智能引擎</description>
+		<display-name>上行业务记录</display-name>
+		<servlet-name>eng_serMoTaskSvt</servlet-name>
+		<servlet-class>com.montnets.emp.engine.servlet.eng_serMoTaskSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eng_serMoTaskSvt</servlet-name>
+		<url-pattern>/eng_serMoTask.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>智能引擎</description>
+		<display-name>下行业务记录</display-name>
+		<servlet-name>eng_serMtTaskSvt</servlet-name>
+		<servlet-class>com.montnets.emp.engine.servlet.eng_serMtTaskSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eng_serMtTaskSvt</servlet-name>
+		<url-pattern>/eng_serMtTask.htm</url-pattern>
+	</servlet-mapping>
+	
+
+	

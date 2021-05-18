@@ -1,0 +1,21 @@
+#detail{
+	height:260px;
+	width:265px;
+	
+}
+table{
+	border:1px solid #c3c3c3;
+}
+td{
+	border:1px solid #c3c3c3;
+}
+#content
+{
+	height:260px;
+	width:265px;
+	border:0px solid #c3c3c3;
+	align:center;
+}
+#content td{
+	border:0px solid #c3c3c3;
+}

@@ -1,0 +1,20 @@
+﻿
+执行步骤：
+
+连接数据库:
+IP：192.169.7.232，用户：root  ,密码：123456：
+mysql -h192.169.7.232 -uroot -p123456 -P3306
+
+新建数据库，数据库名称：empf ：
+create database empf DEFAULT CHARACTER SET gbk COLLATE gbk_chinese_ci;
+
+指定编码为gbk：
+set names gbk;
+
+选择数据库：
+use empf;
+
+执行顺序按001..003脚本依次执行：
+source /usr/local/sql/7300/001-EMP网关实时库MYSQL初始化表结构全新脚本V73.00.sql
+source /usr/local/sql/7300/002-EMP网关实时库MYSQL初始化数据全新脚本V73.00.sql
+source /usr/local/sql/7300/003-EMP-WEB实时库MYSQL初始化全新脚本V73.00.sql

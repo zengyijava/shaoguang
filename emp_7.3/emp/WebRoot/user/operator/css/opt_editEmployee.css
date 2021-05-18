@@ -1,0 +1,61 @@
+#opt_editEmployee #dropdownMenu span {
+	float: none !important;
+}
+
+#opt_editEmployee .detail_Info {
+	width: 610px;
+	padding-left: 36px;
+	height: 520px;
+	line-height: 35px !important;
+	line-height: 25px;
+}
+
+#opt_editEmployee .font_red {
+	color: red;
+}
+
+#opt_editEmployee .birth {
+	cursor: pointer;
+	background-color: white;
+	width: 263px;
+}
+
+#opt_editEmployee .sex {
+	width: 265px;
+}
+
+#opt_editEmployee .depNam_div {
+	width: 280px;
+}
+
+#opt_editEmployee .depNam {
+	width: 238px;
+}
+
+#opt_editEmployee .ssdep {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#opt_editEmployee .dropMenu {
+	position: absolute;
+	display: none;
+	margin-left: 0px;
+	height: 450px;
+	width: 356px;
+	background-color: white;
+	border: 1px solid;
+	overflow-y: auto;
+	overflow-x: auto;
+	z-index: 999;
+}
+
+#opt_editEmployee .job {
+	width: 265px;
+}
+
+#opt_editEmployee .birth {
+	cursor: pointer;
+	background-color: white;
+	width: 263px;
+}

@@ -1,0 +1,53 @@
+
+		td {
+			border-top-color: #c3c3c3;
+			border-left-color: #c3c3c3;
+			border-right-color: #c3c3c3;
+			border-color: #c3c3c3;
+		}
+
+		#detail_Info{
+			background-color:#E9F1FA;
+		}
+		
+		.fengexian div
+		{
+			color: #AAA;
+		}
+		
+		.leftDiv
+		{
+			border-bottom: 1px solid #AAA;
+
+		}
+		.rightDiv
+		{
+			border-bottom: 1px solid #AAA;
+		}
+		
+		.linebgimg1{
+			background-image: url(images/addmo1.png)	
+		}
+		.linebgimg2{
+			background-image: url(images/addmo2.png)	
+		}
+		.linebgimg3{
+			background-image: url(images/addmo3.png)	
+		}
+	
+		.audLinebgimg1{
+			background-image: url(images/addAud1.png);
+			background-position: center center;
+			background-repeat: no-repeat;
+		}
+		.audLinebgimg2{
+			background-image: url(images/addAud2.png);
+			
+			background-position: center center;
+			background-repeat: no-repeat;
+		}
+		.audLinebgimg3{
+			background-image: url(images/addAud3.png);
+			background-position: center center;
+			background-repeat: no-repeat;
+		}

@@ -1,0 +1,990 @@
+﻿﻿﻿﻿@charset "utf-8";
+body{
+	font-family: 微软雅黑;
+    font-size: 12px;
+}
+.input_bd, .Wdate.input_bd, .emp_currentselected.input_bd{
+	/* height: 24px !important; */
+}
+/*链接文字颜色*/
+a, a:active,a:hover{color:#00aa72}
+/*通用输入框行高，边框（除查询外的输入框均是此颜色）*/
+.input_bd , .Wdate.input_bd  ,.emp_currentselected.input_bd{
+	border: 1px solid #e8ecf0;
+}
+
+/*通用边框色,（通用层边框，设计边框的层）*/
+.div_bd,.Wdate.div_bd {
+	border: 1px solid #e8ecf0;
+}
+/*通用hover背景*/
+.div_hover_bg{
+	background-color: #f5f8fa;
+	opacity: 0.9;
+}
+/*通用文字背景色，（凡文字带背景的均是这个颜色）*/
+.div_bg,#emp_btn_table .div_bg {
+	background-color: #f5f8fa;
+}
+
+/*通用标题背景色，（凡标题的均是这个颜色）*/
+.title_bg {
+	background-color: #f5f6fa;
+}
+#eq_sendDiv .title_bg{background-color: #f5f8fa;}
+.tree li a:hover {background-color:#ecf0f8;}
+.tree li a.curSelectedNode {
+	background-color:#e0ebfd; 
+	color:black;
+	border:1px #e8ecf0 solid; 
+	opacity:0.8; filter:alpha(opacity=80);
+}
+.btnClass1 {
+	/* background: url(images/but-bg1.jpg) no-repeat 0px -78px; */
+    background: #f5f8fa;
+    border: 1px solid #e8ecf0;
+}
+.btnClass2 {
+	/* background: url(images/but-bg1.jpg) no-repeat 0px -52px; */
+	background: #e8ecf0;
+	width: 70px;
+	height: 30px;
+}
+
+.btnClass3 {
+	/* background: url(images/but-bg1.jpg) no-repeat 0px -26px; */
+	background: #e8ecf0;
+}
+
+.btnClass4 {
+	/* background: url(images/but-bg1.jpg) no-repeat 0px -168px; */
+	background: url(../../images/btn-bg-green.png) no-repeat 0px 0px;
+	background-size: 200%;
+	height: 30px;
+	color: white;
+	border-radius:3px;
+}
+.btnClass4.btnHover,.btnClass3.btnHover,.btnClass2.btnHover,.btnClass1.btnHover {
+	background: url(../../images/btn-bg-gree-hover.png) no-repeat 0px -30px;
+	color: white;
+	border-radius:3px;
+	/* background: #e8ecf0; */
+}
+
+.btnClass4.btnHover{
+	background-size: 200%;
+}
+
+.btnClass5 {
+	height:30px;
+	width: 84px;
+	line-height:30px;
+	text-indent: 23px;
+	color: #FFFFFF;
+	background: url(../../images/botton_two_icon.png) no-repeat 0px 0px;
+}
+.btnClass5Customer {
+	height:30px;
+	width: 84px;
+	line-height:30px;
+	text-indent: 23px;
+	color: #FFFFFF;
+	background: url(../../images/botton_two_icon.png) no-repeat 0px 0px;
+}
+
+.btnClass6 {
+	height:30px;
+	width: 84px;
+	line-height:30px;
+	text-indent: 23px;
+	background: url(../../images/botton_two_icon.png) no-repeat -200px 0px;
+}
+.btn-hover{background-position-y:-66px;}
+.infotd1
+{
+  background-color: #00ab72;
+  border-bottom: none;
+}
+.infotd2
+{
+   background-color: #e0f7ef;
+   border-bottom: none;
+}
+#file
+{
+	color: #0e5ad1;
+}
+
+.fold
+{
+	background:url("images/push_icon.png") no-repeat 0px 2px;
+}
+.unfold
+{	
+	background:url("images/pull_icon.png") no-repeat 0px 2px;
+}
+
+.titletop_font {
+	display: none;
+	background: url(images/buttons.jpg) no-repeat -754px -72px;
+}
+
+.top {
+	display : block;	
+	color : #000;
+	font-size : 12px;
+	line-height: 48px;
+    height: 48px;
+    min-width: 1200px;
+	/* border-bottom: #e8ecf0 1px solid; */
+}
+#top_main {
+	/* background-color:#edf4ff; */
+	font-size: 14px;
+	font-family: '微软雅黑';
+	color: #666666;
+	line-height: 48px;
+}
+#top_right{
+    height: 48px;
+    border-bottom: #e8ecf0 1px solid;
+    padding-left: 15px;
+}
+.zhu
+{
+	color: #adadad;
+}
+
+.titletop 
+{
+	padding-top:5px;
+}
+.abs_right .titletop_font,.goback{
+background: url(images/buttons.jpg) no-repeat -606px -72px;
+}
+
+
+
+
+
+.c_hoverBg{background-color: #eff5fb;}
+
+
+/*查询条件背景色----查询条件背景边框色（与表格边框色一致）*/
+#condition table {
+	display: block;
+	background-color: #f7fbff;
+    border-top: #e8ecf0 1px solid;
+}
+/*选项卡文字normal颜色*/
+#wjsend .send_ac2,#dtsend .send_ac2{
+	color: #000;
+	font-weight:normal;
+}
+
+/*表头背景*/
+#content thead th {
+	background-color: #f5f8fa;
+	border-bottom: #e8ecf0 1px solid;
+    height: 50px;
+}
+/*表格行鼠标经过色*/
+#content .hoverColor td,.hoverColor{background-color: #f7fbff;}
+/*表格选中色*/
+#content .c_selectedBg td,.c_selectedBg{background: #deeef6;}
+/*表格边框*/
+#content tbody td {
+	border-bottom: #e8ecf0 1px solid;
+	height: 45px !important;
+}
+.btx_line,.tx_line{border-bottom: #e8ecf0 1px solid;}
+/*表格搜索中控件边框*/
+#condition table tr td input,#condition table tr td select {
+	border: #e8ecf0 1px solid;
+	height: 33px;
+}
+/*工作路径背景色值*/
+/* #top_main {background:url(images/title_bg.png) repeat-x 0 0;color : #3e77ac;} */
+/*添加员工背景色---单个添加---批量导入*/
+
+/*弹出层边框--机构*/
+#condition table tr td #dropMenu,#condition table tr td #dropMenu2 {
+	border: #e8ecf0 1px solid;
+}
+
+/*背景设置*/
+#dds,#getObject,.left_dep,#eq_sendDiv table,#showmessage table,#lyout,#mesContent{background:#fff;}
+#content tbody td{background:#fff;}
+a.bulkImport{
+background-position:0 0px;
+height: 25px;
+}
+/*提示框*/
+.alert-info {
+	color: #333;
+	background-color: #DAE5F7;
+	border-color: #e8ecf0;
+}
+.alertDiv {
+	border: 1px solid #e8ecf0;
+	color: #222222;
+}
+
+.alertDivHead {
+	border-bottom: 1px solid #e8ecf0;
+	background-color: #ecf7ff;
+}
+
+.alertDivConfirm {
+	background: #ecf7ff;
+}
+
+.alertDiv {
+	position: absolute;
+	padding: 0em;
+	width: 300px;
+	overflow: hidden;
+	display: block;
+	z-index: 10001;
+	outline: 0px;
+	height: 200px;
+	width: 250px;
+	top: 292px;
+	left: 454px;
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-khtml-border-top-right-radius: 4px;
+	border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-khtml-border-top-left-radius: 4px;
+	border-top-left-radius: 4px;
+	background: #ffffff 50% 50% repeat-x;
+}
+
+.alertDivHead {
+	display: inline-block;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-bottom: 0.4em;
+	position: relative;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1.1em;
+	cursor: move;
+	color: #222222;
+}
+
+.alertDivHead span {
+	width: 228px;
+	float: left;
+	margin: .1em 0px .1em 0;
+	height: 20px;
+	line-height: 25px !important;
+	font-size: 12px;
+	text-indent: 5px;
+	line-height: 20px;
+}
+
+.alertDivHead a {
+	cursor: default;
+}
+
+.alertDivBody {
+	padding: 5px;
+	width: auto;
+	height: 161px;
+	word-wrap: break-word;
+	word-break: break-all;
+	min-height: 0px;
+}
+
+.alertDivConfirm {
+	margin-left: 75px;
+	margin-top: 115px;
+	width: 84px;
+	height: 30px;
+	border: 0;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 14px;
+	letter-spacing: 10px;
+	text-align: left;
+	text-indent: 24px;
+	line-height: 30px;
+	padding-top: 0px !important;
+}
+
+.alertShadow {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 944px;
+	background: rgb(51, 51, 51);
+	text-align: center;
+	z-index: 10000;
+	opacity: 0.5;
+	filter: alpha(opacity = 50)
+}
+
+.second-nav-menu {font-size: 14px;}
+.mr23 {
+    margin-right: 12px;
+}
+.indent_none{text-indent:0;}
+
+.bC2marginleft{
+	margin-left:12px;
+}
+
+.inner-margin{
+	margin-top:0px;
+}
+
+.logo_top{
+	margin-top:62px;
+}
+
+.yl_top{
+	margin-top:10px;
+}
+
+.rContent{
+	padding: 10px 25px 190px 25px;
+}
+
+
+
+.fold-a{
+	background-color: #f5f6fa;
+	margin-right:10px;
+}
+
+.type_input{
+    height: 16px;
+    padding: 4px 0 4px 5px;
+    border: 1px solid #ccc;
+    width: 188px;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+
+
+.buttons a#add {
+    width: 74px;
+    height: 30px;
+    line-height: 30px;
+    color: #212121;
+}
+
+.bcStyle{
+    background: url(images/but-bg1.jpg) no-repeat 0px -52px;
+    height: 24px;
+    border: 0;
+    display: inline;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+textarea:disabled {
+    background-color: #f8faff;
+}
+
+#complain textarea#ccontent {
+	height: 105px !important;
+}
+
+#complain input#ctitle,#complain input#cemail,#complain input#cphone {
+	height: 38px !important;
+}
+
+#complain .parentInp {
+	height: auto;
+}
+
+#complain textarea#ccontent {
+	height: 105px !important;
+}
+
+#complainTab td {
+	padding-bottom: 5px;
+	position: relative;
+	padding-top: 5px;
+}
+
+#complainTab #ccontent_label {
+	left: 0;
+	top: 5px;
+}
+
+#complainTab .input_tip {
+	top: 12px;
+	left: 10px;
+}
+
+#complain #ctype {
+	width: 70px;
+	height: 40px !important;
+}
+
+#condition td span {
+	min-width: 60px;
+}
+
+/*-------------------------公共场景、我的场景 公共样式开始------------------------------  */
+.header .search span {
+    display: block;
+    width: 31px;
+    height: 31px;
+    background: url("images/search_icon.png") no-repeat center center;
+    float: left;
+    margin-left: -1px;
+    background-color:#00aa72;
+}
+.header .service {
+    float: left;
+    width: 72px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+    background-color:#00aa72;
+    border-radius: 2px;
+}
+.mysearch{
+	width: 70px;
+	height: 30px;
+	border: 0px;
+	cursor: pointer;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	background-color: #00aa72;
+	border-radius:2px;
+}
+.mysearch-hover{
+	width: 70px;
+	height: 30px;
+	border: 0px;
+	cursor: pointer;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	background-color: #15c58b !important;
+	border-radius:2px;
+}
+.append{
+	margin-bottom: 10px;
+	cursor: pointer;
+	display:block;
+    width:38px;
+    height:38px;
+	background: url("images/add_default_icon.jpg");
+	background-repeat: no-repeat;
+}
+.append:hover{
+	 background: url("images/add_selected_icon.jpg");
+	 background-repeat: no-repeat;
+}
+.nav-all a:link,a:visited{
+ 	text-decoration:none;  /*超链接无下划线*/
+    color: #00aa72;
+    font-family: "微软雅黑";
+}
+.nav-all a:hover{
+	  color: #00aa72;
+	  font-family: "微软雅黑";
+}
+.myactive{
+	font-size: 14px;
+	color:#00aa70;
+	font-family: "微软雅黑";
+}
+.selected{
+	font-size: 14px;
+	color:#00aa70 !important;
+	font-family: "微软雅黑";
+}
+
+
+/* 新建模板页面样式 */
+.mybtnClass5 {
+	background-color: #00aa72;
+	text-indent:15px;
+	width: 72px;
+    height: 30px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: 10px;
+    text-align: left;
+    text-indent: 14px;
+    line-height: 30px;
+    padding-top: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    border-radius:2px;
+    font-family: 微软雅黑;
+}
+.mybtnClass6 {
+		background-color: #e9edf3;
+	    width: 72px;
+	    height: 30px;
+	    display: inline-block;
+	    cursor: pointer;
+	    font-size: 12px;
+	    letter-spacing: 10px;
+	    text-align: left;
+	    text-indent: 24px;
+	    line-height: 30px;
+	    padding-top: 0px !important;
+	    padding-top: 0px;
+    	border-width: 0px;
+   		border-style: initial;
+    	border-color: initial;
+    	border-image: initial;
+    	border-radius:2px;
+	    font-family: 微软雅黑;
+}
+.save-hover{
+	background-color: #15c58b;
+	text-indent:15px;
+	width: 72px;
+    height: 30px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: 10px;
+    text-align: left;
+    text-indent: 14px;
+    line-height: 30px;
+    padding-top: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    border-radius:2px;
+    font-family: 微软雅黑;
+}
+.back-hover{
+		background-color: #f0f3fb;
+	    width: 72px;
+	    height: 30px;
+	    display: inline-block;
+	    cursor: pointer;
+	    font-size: 12px;
+	    letter-spacing: 10px;
+	    text-align: left;
+	    text-indent: 24px;
+	    line-height: 30px;
+	    padding-top: 0px !important;
+	    padding-top: 0px;
+    	border-width: 0px;
+   		border-style: initial;
+    	border-color: initial;
+    	border-image: initial;
+    	border-radius:2px;
+	    font-family: 微软雅黑;
+}
+.mysearch-hover{
+	width: 70px;
+	height: 30px;
+	border: 0px;
+	cursor: pointer;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	background-color: #15c58b !important;
+	border-radius:2px;
+}
+.down-arrow-default{
+	float:right;
+	margin-left:15px;
+	margin-top:-15px;
+	width:20px;
+	height:20px;
+	background: url("images/down_arrow_default.png");
+	background-repeat: no-repeat;	
+}
+.down-arrow-selected{
+	float:right;
+	margin-left:15px;
+	margin-top:-15px;
+	width:20px;
+	height:20px;
+	background: url("images/down_arrow_selected.png");
+	background-repeat: no-repeat;	
+}
+.up-arrow-default{
+	float:right;
+	margin-left:15px;
+	margin-top:-15px;
+	width:20px;
+	height:20px;
+	background: url("images/up_arrow_default.png");
+	background-repeat: no-repeat;	
+}
+.up-arrow-selected{
+	float:right;
+	margin-left:15px;
+	margin-top:-15px;
+	width:20px;
+	height:20px;
+	background: url("images/up_arrow_selected.png");
+	background-repeat: no-repeat;	
+}
+.indu-use:link,.indu-use:visited {
+	text-decoration:none;
+	font-size: 12px;
+	color:#00aa70;
+	font-family: "微软雅黑";
+}
+.indu-use:hover {
+	text-decoration:none;
+	font-size: 12px;
+	color:#00aa70;
+	font-family: "微软雅黑";
+}
+/* 新建模板页面样式 结束*/
+/*-------------------------公共场景、我的场景 公共样式 结束------------------------------  */
+#eq_sendDiv select{
+    height: 35px;
+}
+.infomodelclass{
+	background-color: #e0f7ef !important;
+	left: 618px !important;
+}
+
+/*-------------------------企业富信-富信发送      start---------------------*/
+.rms_tempChoose .fx-module-pop .screen-items li.active span,
+.rms_tempChoose .fx-module-pop .screen-items li span:hover,
+.rms_tempChoose .fx-module-pop .hd-table-li:hover,
+.rms_sameMms .table-link,.rms_sameMms #downlinkinfo {
+	color: #00aa72;
+}
+.rms_tempChoose .fx-module-pop .hd-table-li.active{
+	border-bottom: 2px solid #00aa72;
+	color: #00aa72;
+}
+.rms_tempChoose .green-border-btn{
+	color: #00aa72;
+	border: 1px solid #00aa72;
+}
+.rms_sameMms .choose-btn:hover{
+	border: 1px solid #00aa72;
+}
+.rms_sameMmsSelUser .green-btn{
+	background-color: #00aa72;
+}
+.rms_sameMms .green-btn,.rms_tempChoose .green-btn{
+	background-color: #00aa72;
+	color: #fff;
+}
+.rms_sameMms .green-btn:hover,.rms_tempChoose .green-btn:hover{
+	background-color: #15c58b;
+}
+.rms_sameMms .choose-btn:hover{
+	border: 1px solid #00aa72;
+}
+.rms_sameMms .user-icon{
+	background: url("../default/images/user_icon.png")no-repeat;
+}
+.rms_sameMms .file-icon{
+	background: url("../default/images/file_icon.png")no-repeat;
+}
+.rms_sameMms .edit-icon{
+	background: url("../default/images/edit_icon.png")no-repeat;
+}
+.rms_sameMms .lostFocus{
+	border-top: 1px solid #d3d3d3;
+	border-bottom: 1px solid #d3d3d3;
+	border-left: 1px solid #d3d3d3;
+}
+
+.rms_sameMms .focus{
+	border-top: 1px solid #06a972;
+	border-bottom: 1px solid #06a972;
+	border-left: 1px solid #06a972;
+}
+/*-------------------------企业富信-富信发送      end---------------------*/
+
+#bla_blacklist .c_selectBox{width: 178px!important;}
+#bla_blacklist  table tr td div .c_input{width: 175px!important;}
+/*-------------------------查询统计 --START------------------------*/
+/*操作员统计报表*/
+.rep_sysUserReport #condition table tr td select{width: 210px;}
+/*机构统计报表*/
+.rep_sysDepReport #condition table tr td select{width: 210px;}
+/*业务类型统计报表*/
+.rep_busReport #condition table tr td select{width: 210px;}
+
+.que_sysMoRecord .c_selectBox{width: 195px!important;}
+.que_sysMoRecord #condition table tr td div .c_input{width: 190px!important;}
+
+.que_sysMtRecord .c_selectBox{width: 195px!important;}
+.que_sysMtRecord #condition table tr td div .c_input{width: 190px!important;}
+
+.inb_reciveBox .c_selectBox{width: 195px!important;}
+.inb_reciveBox #condition table tr td div .c_input{width: 190px!important;}
+
+.rep_remainMtRecord  .c_selectBox{width: 195px!important;}
+.rep_remainMtRecord  #condition table tr td div .c_input{width: 190px!important;}
+
+.rep_spMtReport  .c_selectBox{width: 195px!important;}
+.rep_spMtReport  #condition table tr td div .c_input{width: 190px!important;}
+
+.rep_areaReport  .c_selectBox{width: 195px!important;}
+.rep_areaReport  #condition table tr td div .c_input{width: 190px!important;}
+
+#rmsHistoryRecord .c_selectBox{width: 207px!important;}
+#rmsHistoryRecord .c_result{width: 207px!important;}
+/*-------------------------查询统计 --END------------------------*/
+
+/*-------------------------移动网讯 --START------------------------*/
+#wx_contentTemplate .condition_td2,#wx_contentTemplate .condition_td4{
+	padding-right: 10px!important;
+}
+#wx_contentTemplate .condition_td1,#wx_contentTemplate .condition_td3{
+	padding-right: 0!important;
+	padding-left: 15px!important;
+}
+#wx_contentTemplate .tdSer{
+	padding-left: 10px;
+}
+/*-------------------------移动网讯 --END------------------------*/
+
+/*-------------------------jquery-ui的dialog的标题样式----------------*/
+.titleBar{
+	height:40px!important;
+	background-color:#f7fafc;
+	border-bottom:1px solid #ecf1f2;
+}
+.titleBarTxt{
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 15px;
+	color: #ababab;
+	font-weight: bold;
+}
+
+/*----------企业富信-数据查询-发送明细查询 --START-------------*/
+#rms_sendDetail #condition table tr td > input{
+	width: 198px!important;
+}
+#rmsTaskRecord #condition .c_selectBox,#rmsHistoryRecord #condition .c_selectBox{
+	width: 220px!important;
+}
+/*----------企业富信-数据查询-发送明细查询 --END---------------*/
+
+/*----------企业富信-数据查询-统计报表查询 --START-------------*/
+#rep_degreeReport #condition table tr td input{
+	width: 198px!important;
+}
+#rep_degreeReport #condition .c_input{
+	width: 187px!important;
+}
+#rmsTaskRecord .c_selectBox{
+	width: 207px!important;
+}
+#rmsTaskRecord #sendstate {
+	width: 207px!important;
+}
+#rmsTaskRecord #sendstate+.c_selectBox .c_input{
+	width: 180px!important;
+}
+	/*----------企业富信-数据查询-发送明细查询 --END---------------*/
+
+/*----------企业富信-富信应用-富信发送 --START-------------*/
+.rms_sameMms .c_selectBox .c_result {
+	top: 33px !important;
+}
+/*----------企业富信-富信应用-富信发送 --END---------------*/
+
+#comm_ssm_smsTemplate #pageForm{
+	overflow-y: auto;
+    height: 500px;
+}
+
+#comm_ssm_smsTemplate .rContent{
+	padding: 10px 25px 190px 25px;
+}
+
+#grp_cliManage #pageForm3 #p_next{
+    background: url(images/right_arr_light_icon.png) no-repeat center;
+    list-style: none;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e8e9ea;
+    border-radius: 5px;
+    margin-right: 7px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    padding: 1px;
+}
+#grp_cliManage #pageForm3 #p_back{
+    background: url(images/left_arr_light_icon.png) no-repeat center;
+    list-style: none;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e8e9ea;
+    border-radius: 5px;
+    margin-right: 7px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    padding: 1px;
+}
+#grp_cliManage #pageForm3 #p_info{
+    background: url(images/left_arr_light_icon.png) no-repeat center;
+    list-style: none;
+    float: left;
+    width: 85px;
+    height: 30px;
+    border: 1px solid #e8e9ea;
+    border-radius: 5px;
+    margin-right: 7px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    padding: 1px;
+}
+#grp_cliManage #pageForm3 .new-page{
+	margin-right: 10px;
+    float: right;
+    position: relative;
+}
+#grp_cliManage #pageForm3 .new-page li{
+    list-style: none;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e8e9ea;
+    border-radius: 5px;
+    margin-right: 7px;
+    line-height: 30px;
+    text-align: center;
+    padding: 1px;
+}
+#grp_groupManage #pageForm3 #p_next{
+    background: url(images/right_arr_light_icon.png) no-repeat center;
+    list-style: none;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e8e9ea;
+    border-radius: 5px;
+    margin-right: 7px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    padding: 1px;
+}
+#grp_groupManage #pageForm3 #p_back{
+    background: url(images/left_arr_light_icon.png) no-repeat center;
+    list-style: none;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e8e9ea;
+    border-radius: 5px;
+    margin-right: 7px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    padding: 1px;
+}
+#grp_groupManage #pageForm3 #p_info{
+    background: url(images/left_arr_light_icon.png) no-repeat center;
+    list-style: none;
+    float: left;
+    width: 85px;
+    height: 30px;
+    border: 1px solid #e8e9ea;
+    border-radius: 5px;
+    margin-right: 7px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    padding: 1px;
+}
+#grp_groupManage #pageForm3 .new-page{
+	margin-right: 10px;
+    float: right;
+    position: relative;
+}
+#grp_groupManage #pageForm3 .new-page li{
+    list-style: none;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e8e9ea;
+    border-radius: 5px;
+    margin-right: 7px;
+    line-height: 30px;
+    text-align: center;
+    padding: 1px;
+}
+
+/*-------------------------选择人员 --START------------------------*/
+.selectUserInfo .btnHover {
+	border-radius: 10px;
+}
+.selectUserInfo #searchNameButton{
+	background-color: #06a972;
+}
+.selectUserInfo .focus{
+	border-left:1px solid #06a972;
+	border-top:1px solid #06a972;
+	border-bottom:1px solid #06a972;
+}
+/*-------------------------选择人员 --END------------------------*/
+
+/*-------------------------通信管理 > 网关后端配置 > 通道账户管理 --START------------------------*/
+#gat_userdata #condition table tr td div .c_input{
+	width: 180px!important;
+}
+/*-------------------------通信管理 > 网关后端配置 > 通道账户管理 --END------------------------*/
+
+/*----- 智能引擎 ----*/
+#eng_moService .buttons a#add,#eng_mtService .buttons a#add{
+	width: 65px;
+}
+/*----- 智能引擎 ----*/
+
+/*--- 企业短链 ---*/
+#smt_smsSendedBox #condition .c_selectBox, #smt_smsSendedBox #condition .c_result{
+	width: 220px !important;
+}
+#smt_smsSendedBox #condition #dropMenu2{
+    top: 155px;
+}
+#surl_sendDetailReport #condition .c_selectBox,
+#surl_sendDetailReport #condition .c_result,
+#surl_sendDetailReport #condition .c_result li,
+#surl_VisitReport #condition .c_selectBox
+{
+	width: 220px !important;
+}
+/*--- 企业短链 ---*/
+
+/*--- 批量导入详情发送 ---*/
+#smt_smsTaskRecord #xzExportCondition{
+	width: 120px;
+	background: url(images/botton_one_long_icon.png) no-repeat -201px 0;
+}
+#smt_smsTaskRecord #plExportCondition{
+	width: 120px;
+	background: url(images/botton_one_long_icon.png) no-repeat -4px 0;
+}
+/*--- 批量导入详情发送 ---*/
+
+table tr td .div-panel .panel-title{
+    background-color: #f5f8fa;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE web-app PUBLIC "
+-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+"http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+<servlet>
+<servlet-name>HttpClusterServlet</servlet-name>
+<servlet-class>
+                        weblogic.servlet.proxy.HttpClusterServlet
+</servlet-class>
+<init-param>
+<param-name>WebLogicCluster</param-name>
+<param-value>
+            192.169.2.216:7101|192.169.2.216:7102|192.169.2.212:7104
+</param-value>
+</init-param>
+<init-param>
+<param-name>DebugConfigInfo</param-name>
+<param-value>ON</param-value>
+</init-param>
+<init-param>
+<param-name>verbose</param-name>
+<param-value>true</param-value>
+</init-param>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>HttpClusterServlet</servlet-name>
+<url-pattern>/</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>HttpClusterServlet</servlet-name>
+<url-pattern>*.jsp</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>HttpClusterServlet</servlet-name>
+<url-pattern>*.htm</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>HttpClusterServlet</servlet-name>
+<url-pattern>*.html</url-pattern>
+</servlet-mapping>
+</web-app>

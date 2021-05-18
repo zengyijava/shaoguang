@@ -1,0 +1,213 @@
+{
+	"JSChart" : {
+		"datasets" : [
+			{
+				"type" : "line",
+				"data" : [
+					{
+						"unit" : "1",
+						"value" : "2"
+					},
+					{
+						"unit" : "2",
+						"value" : "0"
+					},
+					{
+						"unit" : "3",
+						"value" : "3"
+					},
+					{
+						"unit" : "4",
+						"value" : "6"
+					},
+					{
+						"unit" : "5",
+						"value" : "8.5"
+					},
+					{
+						"unit" : "6",
+						"value" : "10"
+					},
+					{
+						"unit" : "7",
+						"value" : "9"
+					},
+					{
+						"unit" : "8",
+						"value" : "8"
+					},
+					{
+						"unit" : "9",
+						"value" : "5"
+					},
+					{
+						"unit" : "10",
+						"value" : "6"
+					},
+					{
+						"unit" : "11",
+						"value" : "2.5"
+					},
+					{
+						"unit" : "12",
+						"value" : "2.5"
+					},
+					{
+						"unit" : "13",
+						"value" : "2"
+					},
+					{
+						"unit" : "14",
+						"value" : "0"
+					},
+					{
+						"unit" : "15",
+						"value" : "3"
+					},
+					{
+						"unit" : "16",
+						"value" : "6"
+					},
+					{
+						"unit" : "17",
+						"value" : "8.5"
+					},
+					{
+						"unit" : "18",
+						"value" : "10"
+					},
+					{
+						"unit" : "19",
+						"value" : "9"
+					},
+					{
+						"unit" : "20",
+						"value" : "8"
+					},
+					{
+						"unit" : "21",
+						"value" : "5"
+					},
+					{
+						"unit" : "22",
+						"value" : "6"
+					},
+					{
+						"unit" : "23",
+						"value" : "2.5"
+					},
+					{
+						"unit" : "24",
+						"value" : "2.5"
+					},
+					{
+						"unit" : "25",
+						"value" : "5"
+					},
+					{
+						"unit" : "26",
+						"value" : "6"
+					},
+					{
+						"unit" : "27",
+						"value" : "2.5"
+					},
+					{
+						"unit" : "28",
+						"value" : "2.5"
+					},
+					{
+						"unit" : "29",
+						"value" : "5"
+					},
+					{
+						"unit" : "30",
+						"value" : "6"
+					},
+					{
+						"unit" : "31",
+						"value" : "2.5"
+					}
+				]
+			}
+		],
+		"optionset" : [
+			{
+				"set" : "setAxisColor",
+				"value" : "'#b5b5b5'"
+			},
+			{
+				"set" : "setAxisNameColor",
+				"value" : "'#4A4A4A'"
+			},
+			{
+				"set" : "setAxisNameFontSize",
+				"value" : "12"
+			},
+			{
+				"set" : "setAxisNameX",
+				"value" : "'时间(日)'"
+			},
+			{
+				"set" : "setAxisNameY",
+				"value" : "'发送条数单位万'"
+			},
+			{
+				"set" : "setAxisPaddingLeft",
+				"value" : "60"
+			},
+			{
+				"set" : "setAxisPaddingRight",
+				"value" : "30"
+			},
+			{
+				"set" : "setAxisPaddingTop",
+				"value" : "50"
+			},
+			{
+				"set" : "setAxisPaddingBottom",
+				"value" : "50"
+			},
+			{
+				"set" : "setTextPaddingBottom",
+				"value" : "15"
+			},
+			{
+				"set" : "setTextPaddingLeft",
+				"value" : "15"
+			},
+			{
+				"set" : "setAxisValuesColor",
+				"value" : "'#949494'"
+			},
+			{
+				"set" : "setLineColor",
+				"value" : "'#509ACD'"
+			},
+			{
+				"set" : "setTitle",
+				"value" : "'系统发送趋势图'"
+			},
+			{
+				"set" : "setTitleColor",
+				"value" : "'#000'"
+			},
+			{
+				"set" : "setSize",
+				"value" : "616, 321"
+			},
+			{
+				"set" : "setFlagRadius",
+				"value" : "6"
+			},
+			{
+				"set" : "setBackgroundImage",
+				"value" : "'chart_bg.jpg'"
+			},
+			{
+				"set" : "setAxisValuesNumberX",
+				"value" : "31"
+			}
+		]
+	}
+}

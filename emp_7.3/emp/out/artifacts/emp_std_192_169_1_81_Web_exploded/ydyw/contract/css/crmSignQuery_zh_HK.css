@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+.op{margin-left: 6px;}
+#more-info ul{width:90%;margin: 10px auto;list-style: none;}
+#more-info ul li{line-height: 24px;padding-top: 8px;}
+#more-info ul li.data{
+    float:left;
+    width:50%;
+    padding-top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;    /* Opera */
+    text-overflow:    ellipsis;    /* IE, Safari (WebKit) */
+}
+#more-info ul li.taocan{height:50px;}
+#more-info ul li.taocan font{
+    width:400px;
+    border:1px solid #eee;
+    display:block;
+    position: absolute;
+    white-space: normal;
+    top:0;
+    left:8em;
+    height:48px;
+    overflow:auto;
+}
+#more-info,#more-info h3{font-size:1.0em;}
+#more-info ul li font{color:#515761;font-size:1.0em;}
+.maxwidth span{
+    margin:0 auto;
+    width:120px;
+    display:block;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;    /* Opera */
+    text-overflow:    ellipsis;    /* IE, Safari (WebKit) */
+}
+.maxwidth8 span{
+    margin:0 auto;
+    width:80px;
+    display:block;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;    /* Opera */
+    text-overflow:    ellipsis;    /* IE, Safari (WebKit) */
+}
+td span b,li.taocan font b{font-weight: normal;}
+td span b.line,li.taocan font b.line{color:red;}
+.op{width:150px;}
+.container{float:left;min-width:1200px;_width:1200px;}
+
+#more-info > div > input{
+    text-indent: 0px;
+    text-align: center;
+}

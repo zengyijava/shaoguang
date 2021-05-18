@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+body {
+	background-color:transparent;
+}
+
+.halving_line
+{
+	background-image:url(images/halving_line.jpg);
+}
+
+#tbBody
+{
+	background: none;
+}
+
+.top_info {
+	color: #004393;
+}
+.top_info a {
+	color: #004393;
+}
+
+#companyName {
+	padding-top:26px !important;
+	*padding-top:28px !important;
+	padding-top:28px;
+	color: #004393;
+	font-weight: normal;
+}
+.top_logo {
+	width: 135px;
+}
+
+#top_home 
+{
+}
+.onSys #top_home {
+	background-image: url('images/home_hover.gif');
+}
+.onSys {
+	background: #0B3E75;
+	opacity: 0.9;
+}
+.onSys a {
+	color: #FFF;
+}
+#secondPageDiv .onSys
+{
+	color: #FFF;
+}

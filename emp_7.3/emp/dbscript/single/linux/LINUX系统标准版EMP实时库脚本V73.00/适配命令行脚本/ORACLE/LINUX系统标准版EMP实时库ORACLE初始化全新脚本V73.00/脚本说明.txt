@@ -1,0 +1,35 @@
+按顺序进行下面6步操作:
+1.创建数据库
+2.创建用户,并赋予DBA,RESOURCE,CONNECT,CREATE TABLESPACE,UNLIMITED TABLESPACE,ALTER TABLESPACE权限
+3.创建表空间(根据系统环境执行"000-V2.00网关数据库表空间(Linux)V73.00.sql或000-V2.00网关数据库表空间(windows)V73.00.sql")
+4.撤销DBA权限（部分客户不予以DBA权限,下面以user为用户名示例）执行：revoke dba from user;
+5.sqlplus命令行执行脚本需要先执行5.1~5.6步骤(非sqlplus命令行执行请忽略，直接执行第6步)：
+	5.1.切换到ORACLE用户(以oracle用户名示例), 执行：su - oracle
+	5.2.切换实例set ORACLE_SID=数据库实例名
+	5.3.查询操作系统字符集(默认LANG="zh_CN.UTF-8")，执行：locale
+	5.4.设置NLS_LANG临时字符集(一定要设置成与操作系统字符集一致才不会出现中文乱码或者显示的问题, 以操作系统字符集LANG="zh_CN.UTF-8"为示例)，
+	     执行：export NLS_LANG='SIMPLIFIED 	CHINESE_CHINA.AL32UTF8'
+	5.5.切换到sqlplus，依次执行SET SQLBLANKLINES ON和SET DEFINE OFF命令
+	5.6.用户连接到数据库(以用户名:emp 密码:123456为例)执行：conn emp/123456
+6.执行顺序按001..006脚本依次执行(sqlplus命令行执行可以用@+文件绝对路径的方式执行脚本文件)
+
+注意:
+第3步尽量用第2步所创建用户执行,若所创建的用户没有创建表空间权限,可以用sys或system用户创建；
+第6必须用第2步所创建用户执行；
+若对"000-V2.00网关数据库表空间(Linux)V73.00.sql或000-V2.00网关数据库表空间(windows)V73.00.sql"脚本中表空间默认大小不满意，可自行修改数据文件大小。
+
+如何升级数据库脚本？
+答：根据数据库版本号升级.
+首先，查询当前数据库版本号.
+执行
+select version from (select * from version_cmpp order by  cast(replace(version,'.','') as int) desc )WHERE ROWNUM<=1;
+返回值version即是当前数据库的版本.
+
+然后，根据当前数据库的版本选择对应的升级脚本.
+假如version为3.00.12,当前最新的数据库版本为3.00.13,那么选择v3.00.12-v3.00.13的升级脚本.
+
+执行表空间创建脚本时需要注意什么？
+答：
+1.注意"000-V2.00网关数据库表空间(Linux)V73.00.sql"或"000-V2.00网关数据库表空间(windows)V73.00.sql"中对数据库所在操作系统的定义是否符合实际
+2.注意执行用户是否具有创建和修改表空间的权限
+3.如果表空间不是自增的，需人工管理表空间的大小，其增长规律为：每1000w条记录，需要表空间4G,索引空间是1.5G

@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+td.caption{
+    width: 180px;
+}
+#condition > table > tbody > tr:nth-child(2) > td:nth-child(3){
+    width: 160px;
+}
+#taocan .serach-box{float: left;margin-left:0;width:242px!important;}
+#taocan .serach-box #search{
+	margin-left: 5px;
+	text-decoration: none;
+}
+#taocan .serach-box a{
+	height: 24px!important;
+}
+#taocan .serach-box input{width:110px;/*margin-right: 6px;*/float:right;}

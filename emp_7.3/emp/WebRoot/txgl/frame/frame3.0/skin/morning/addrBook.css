@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+.roleNameColor {
+	background: url(images/packUp.png) no-repeat left;
+}
+
+#changeDep #depDiv {
+	border: 1 px solid #00ADEE;
+}
+.depOperateButton1
+{
+	background: url(images/dep_Button.png) no-repeat 0 0px;
+}
+.depOperateButton2
+{
+	
+	background: url(images/dep_Button.png) no-repeat -70px 0px;
+}
+.depOperateButton3
+{
+	
+	background: url(images/dep_Button.png) no-repeat -35px 0px;
+}
+.depOperateButton1On
+{
+	background: url(images/dep_Button.png) no-repeat 0 -21px;
+}
+.depOperateButton2On
+{
+	
+	background: url(images/dep_Button.png) no-repeat -70px -21px;
+}
+.depOperateButton3On
+{
+	
+	background: url(images/dep_Button.png) no-repeat -35px -21px;
+}
+.bindCon
+{
+	background: url(images/bindCon.png) no-repeat;
+}
+.depOperate .bindCon
+{
+	background: url(images/bindCon.png) no-repeat;
+}
+.depBalanceMgrSearchBtn
+{
+	background: url(images/query.png) no-repeat;
+}
+.depBalanceMgrLogBtn
+{
+	//background: url(images/tab_menu_bg.png) no-repeat;
+	border: 1px solid #b3caee;
+}

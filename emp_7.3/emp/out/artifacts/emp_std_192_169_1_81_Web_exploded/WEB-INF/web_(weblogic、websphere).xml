@@ -1,0 +1,3896 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<!--appmageConfig.xml start-->
+	<servlet>
+		<servlet-name>AppWgListener</servlet-name>
+		<servlet-class>com.montnets.emp.appmage.listener.AppWgListener</servlet-class>
+		<load-on-startup>13</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<description>APP信息发送</description>
+		<display-name>APP管理</display-name>
+		<servlet-name>app_msgsendSvt</servlet-name>
+		<servlet-class>com.montnets.emp.appmage.svt.app_msgSendSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>app_msgsendSvt</servlet-name>
+		<url-pattern>/app_msgsend.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>APP上行记录</description>
+		<display-name>APP上行记录</display-name>
+		<servlet-name>app_morecordselectSvt</servlet-name>
+		<servlet-class>com.montnets.emp.appmage.svt.app_morecordselectSvt</servlet-class>
+	</servlet>
+
+	<filter>
+		<description>APP首页编辑中图片资源加载过滤器</description>
+		<display-name>APP首页编辑中图片资源加载过滤器（对于本地不存在的图片 先从文件服务器下载 ）</display-name>
+		<filter-name>apphomeImgLoad</filter-name>
+		<filter-class>com.montnets.emp.appmage.filter.AppHomeImgLoaderFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>apphomeImgLoad</filter-name>
+		<url-pattern>/file/apphome/*</url-pattern>
+	</filter-mapping>
+
+	<servlet>
+		<description>APP首页编辑</description>
+		<display-name>APP首页编辑</display-name>
+		<servlet-name>app_homeeditSvt</servlet-name>
+		<servlet-class>com.montnets.emp.appmage.svt.app_homeeditSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>app_morecordselectSvt</servlet-name>
+		<url-pattern>/app_morecordselect.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>app_homeeditSvt</servlet-name>
+		<url-pattern>/app_homeedit.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>APP发送任务查询</description>
+		<display-name>APP发送任务查询</display-name>
+		<servlet-name>app_mttaskselect</servlet-name>
+		<servlet-class>com.montnets.emp.appmage.svt.app_mttaskselectSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>app_mttaskselect</servlet-name>
+		<url-pattern>/app_mttaskselect.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>APP公众帐号管理</description>
+		<display-name>APP公众帐号管理</display-name>
+		<servlet-name>acctManagerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.appmage.svt.app_acctManagerSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>acctManagerSvt</servlet-name>
+		<url-pattern>/app_acctmanager.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>APP客户管理</description>
+		<display-name>APP客户管理</display-name>
+		<servlet-name>app_climanagerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.appmage.svt.app_climanagerSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>app_climanagerSvt</servlet-name>
+		<url-pattern>/app_climanager.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>APP客户端下载</description>
+		<display-name>APP客户端下载</display-name>
+		<servlet-name>clidownloadSvt</servlet-name>
+		<servlet-class>com.montnets.emp.appmage.svt.app_clidownloadSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>clidownloadSvt</servlet-name>
+		<url-pattern>/app_clidownload.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description>APP客户群组</description>
+		<display-name>APP客户群组</display-name>
+		<servlet-name>app_cligroupmanagerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.appmage.svt.app_cligroupmanagerSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>app_cligroupmanagerSvt</servlet-name>
+		<url-pattern>/app_cligroupmanager.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description>APP发送记录查询</description>
+		<display-name>APP发送记录查询</display-name>
+		<servlet-name>mtRecordSelectSvt</servlet-name>
+		<servlet-class>com.montnets.emp.appmage.svt.app_mtrecordselectSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mtRecordSelectSvt</servlet-name>
+		<url-pattern>/app_mtrecordselect.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>接收AppHttp请求</description>
+		<servlet-name>app_httpReqSvt</servlet-name>
+		<servlet-class>com.montnets.emp.appmage.httpinterface.app_httpReqSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>app_httpReqSvt</servlet-name>
+		<url-pattern>/appreq.hts</url-pattern>
+	</servlet-mapping>
+
+	<!-- APP短信群发历史查看 -->
+	<servlet>
+		<description>群发历史查询</description>
+		<display-name>群发历史查询</display-name>
+		<servlet-name>app_smsTaskRecordSvt</servlet-name>
+		<servlet-class>com.montnets.emp.appmage.svt.app_smsSendedBoxSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>app_smsTaskRecordSvt</servlet-name>
+		<url-pattern>/app_appsmsTaskRecord.htm</url-pattern>
+	</servlet-mapping>
+	<!--appmageConfig.xml end-->
+
+	<!--appwgConfig.xml start-->
+	<!--appwgConfig.xml end-->
+
+	<!--clientConfig.xml start-->
+	<servlet>
+		<description>客户通讯录</description>
+		<display-name>通讯录管理（短信客服）</display-name>
+		<servlet-name>cli_addrBookSvt</servlet-name>
+		<servlet-class>com.montnets.emp.client.servlet.cli_addrBookSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cli_addrBookSvt</servlet-name>
+		<url-pattern>/cli_addrBook.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>客户通讯录权限管理</description>
+		<display-name>通讯录管理</display-name>
+		<servlet-name>cli_permissionsSvt</servlet-name>
+		<servlet-class>com.montnets.emp.client.servlet.cli_permissionsSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cli_permissionsSvt</servlet-name>
+		<url-pattern>/cli_permissions.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>客户属性管理</description>
+		<display-name>通讯录管理（短信客服）</display-name>
+		<servlet-name>cli_custFieldMangerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.client.servlet.cli_custFieldMangerSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cli_custFieldMangerSvt</servlet-name>
+		<url-pattern>/cli_custFieldManger.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>This is the description of DownHisPageServlet</description>
+		<display-name>客户通讯录机构树</display-name>
+		<servlet-name>cli_addrbookDepTreeSvt</servlet-name>
+		<servlet-class>com.montnets.emp.client.servlet.cli_addrbookDepTreeSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cli_addrbookDepTreeSvt</servlet-name>
+		<url-pattern>/cli_addrbookDepTree.htm</url-pattern>
+	</servlet-mapping>
+	<!--clientConfig.xml end-->
+
+	<!--cxtjConfig.xml start-->
+	<servlet>
+		<servlet-name>RptListener</servlet-name>
+		<servlet-class>com.montnets.emp.report.listener.RptListener</servlet-class>
+		<load-on-startup>14</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<description>系统上行记录</description>
+		<display-name>查询统计</display-name>
+		<servlet-name>que_sysMoRecordSvt</servlet-name>
+		<servlet-class>com.montnets.emp.query.servlet.que_sysMoRecordSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>系统下行记录</description>
+		<display-name>查询统计</display-name>
+		<servlet-name>que_sysMtRecordSvt</servlet-name>
+		<servlet-class>com.montnets.emp.query.servlet.que_sysMtRecordSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>系统下行报表</description>
+		<display-name>查询统计</display-name>
+		<servlet-name>export_sysMtSvt</servlet-name>
+		<servlet-class>com.montnets.emp.query.servlet.export_sysMtServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>系统下行报表记录</description>
+		<display-name>查询统计</display-name>
+		<servlet-name>que_mtRptRecordSvt</servlet-name>
+		<servlet-class>com.montnets.emp.query.servlet.que_mtRptRecordSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>个人收件箱</description>
+		<display-name>个人收件箱</display-name>
+		<servlet-name>inb_reciveBoxSvt</servlet-name>
+		<servlet-class>com.montnets.emp.inbox.servlet.inb_reciveBoxSvt</servlet-class>
+	</servlet>
+
+
+	<servlet>
+		<description>操作员统计报表</description>
+		<display-name>操作员统计报表</display-name>
+		<servlet-name>rep_sysUserReportSvt</servlet-name>
+		<servlet-class>com.montnets.emp.reportform.servlet.ReportSvt</servlet-class>
+		<!--<servlet-class>com.montnets.emp.report.servlet.rep_sysUserReportSvt</servlet-class>-->
+	</servlet>
+
+	<servlet>
+		<description>业务类型统计报表</description>
+		<display-name>业务类型统计报表</display-name>
+		<servlet-name>rep_busReportSvt</servlet-name>
+		<!--<servlet-class>com.montnets.emp.report.servlet.rep_busReportSvt</servlet-class>-->
+		<servlet-class>com.montnets.emp.reportform.servlet.ReportSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>区域统计报表</description>
+		<display-name>区域统计报表</display-name>
+		<servlet-name>rep_areaReportSvt</servlet-name>
+		<!--<servlet-class>com.montnets.emp.report.servlet.rep_areaReportSvt</servlet-class>-->
+		<servlet-class>com.montnets.emp.reportform.servlet.ReportSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>机构统计报表</description>
+		<display-name>机构统计计报表</display-name>
+		<servlet-name>rep_sysDepReportSvt</servlet-name>
+		<!--<servlet-class>com.montnets.emp.report.servlet.rep_sysDepReportSvt</servlet-class>-->
+		<servlet-class>com.montnets.emp.reportform.servlet.ReportSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>动态参数统计报表</description>
+		<display-name>动态参数统计报表</display-name>
+		<servlet-name>rep_dynParamReportSvt</servlet-name>
+		<!--<servlet-class>com.montnets.emp.report.servlet.rep_dynParamReportSvt</servlet-class>-->
+		<servlet-class>com.montnets.emp.reportform.servlet.ReportSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>运营商下行统计报表</description>
+		<display-name>查询统计</display-name>
+		<servlet-name>rep_spisuncmMtReportSvt</servlet-name>
+		<!--<servlet-class>com.montnets.emp.report.servlet.rep_spisuncmMtReportSvt</servlet-class>-->
+		<servlet-class>com.montnets.emp.reportform.servlet.ReportSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>发送账号下行统计报表</description>
+		<display-name>发送账号下行统计报表</display-name>
+		<servlet-name>rep_spMtReportSvt</servlet-name>
+		<!--<servlet-class>com.montnets.emp.report.servlet.rep_spMtReportSvt</servlet-class>-->
+		<servlet-class>com.montnets.emp.reportform.servlet.ReportSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>任务查询</description>
+		<display-name>任务短信群发统计报表</display-name>
+		<servlet-name>smt_smsTaskRecordSvt</servlet-name>
+		<servlet-class>com.montnets.emp.smstask.servlet.smt_smsSendedBoxSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>短信滞留记录</description>
+		<display-name>查询统计</display-name>
+		<servlet-name>rep_remainMtRecordSvt</servlet-name>
+		<servlet-class>com.montnets.emp.report.servlet.rep_remainMtRecordSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>rep_remainMtRecordSvt</servlet-name>
+		<url-pattern>/rep_remainMtRecord.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<!-- 群发历史查询 -->
+		<servlet-name>smt_smsTaskRecordSvt</servlet-name>
+		<url-pattern>/smt_smsTaskRecord.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>que_sysMoRecordSvt</servlet-name>
+		<url-pattern>/que_sysMoRecord.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>que_sysMtRecordSvt</servlet-name>
+		<url-pattern>/que_sysMtRecord.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<!-- 个人收件箱 -->
+		<servlet-name>inb_reciveBoxSvt</servlet-name>
+		<url-pattern>/inb_reciveBox.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>rep_sysUserReportSvt</servlet-name>
+		<url-pattern>/rep_sysUserReport.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>rep_busReportSvt</servlet-name>
+		<url-pattern>/rep_busReport.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>rep_areaReportSvt</servlet-name>
+		<url-pattern>/rep_areaReport.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>rep_sysDepReportSvt</servlet-name>
+		<url-pattern>/rep_sysDepReport.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>rep_dynParamReportSvt</servlet-name>
+		<url-pattern>/rep_dynParamReport.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>rep_spisuncmMtReportSvt</servlet-name>
+		<url-pattern>/rep_spisuncmMtReport.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>rep_spMtReportSvt</servlet-name>
+		<url-pattern>/rep_spMtReport.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>export_sysMtSvt</servlet-name>
+		<url-pattern>/export_sysMt.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>que_mtRptRecordSvt</servlet-name>
+		<url-pattern>/que_mtRptRecord.htm</url-pattern>
+	</servlet-mapping>
+	<!--cxtjConfig.xml end-->
+
+	<!--dxzsConfig.xml start-->
+	<servlet>
+		<description>任务查询</description>
+		<display-name>任务短信群发统计报表</display-name>
+		<servlet-name>smt_smsSendedBoxSvt</servlet-name>
+		<servlet-class>com.montnets.emp.smstask.servlet.smt_smsSendedBoxSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>员工生日祝福短信发送</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>bir_birthdaySendEMPSvt</servlet-name>
+		<servlet-class>com.montnets.emp.birthwish.servlet.bir_birthdaySendEMPSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>bir_birthdaySendEMPSvt</servlet-name>
+		<url-pattern>/bir_birthdaySendEMP.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<!-- 短信助手-群发任务查看 -->
+		<servlet-name>smt_smsSendedBoxSvt</servlet-name>
+		<url-pattern>/smt_smsSendedBox.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<!-- 短信助手-员工生日祝福群发历史查询 -->
+		<servlet-name>smt_smsSendedBoxSvt</servlet-name>
+		<url-pattern>/bir_empSendTask.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>完美通知发送</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>per_sendNotSvt</servlet-name>
+		<servlet-class>com.montnets.emp.perfect.servlet.per_sendNotSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>per_sendNotSvt</servlet-name>
+		<url-pattern>/per_sendNot.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>完美通知发送预览</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>per_previewSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.perfect.servlet.per_previewSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>per_previewSMSSvt</servlet-name>
+		<url-pattern>/per_previewSMS.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>完美通知发送</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>per_sendNoticeSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.perfect.servlet.per_sendNoticeSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>per_sendNoticeSMSSvt</servlet-name>
+		<url-pattern>/per_sendNoticeSMS.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>完美通知历史记录</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>per_queryNotHisSvt</servlet-name>
+		<servlet-class>com.montnets.emp.perfect.servlet.per_queryNotHisSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>per_queryNotHisSvt</servlet-name>
+		<url-pattern>/per_queryNotHis.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>相同内容短信批量发送</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>ssm_sendBatchSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.samesms.servlet.ssm_sendBatchSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ssm_sendBatchSMSSvt</servlet-name>
+		<url-pattern>/ssm_sendBatchSMS.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>相同内容发送预览</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>ssm_previewSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.samesms.servlet.ssm_previewSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ssm_previewSMSSvt</servlet-name>
+		<url-pattern>/ssm_previewSMS.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>不同内容群发</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>dsm_sendDiffSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.diffsms.servlet.dsm_sendDiffSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<!-- 不同内容群发 -->
+		<servlet-name>dsm_sendDiffSMSSvt</servlet-name>
+		<url-pattern>/dsm_sendDiffSMS.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>不同内容群发预览</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>dsm_previewSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.diffsms.servlet.dsm_previewSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<!-- 不同内容群发 -->
+		<servlet-name>dsm_previewSMSSvt</servlet-name>
+		<url-pattern>/dsm_previewSMS.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>相同内容短信批量发送</description>
+		<display-name>短信客服</display-name>
+		<servlet-name>ssm_ssendBatchSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.samesms.servlet.ssm_sendBatchSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ssm_ssendBatchSMSSvt</servlet-name>
+		<url-pattern>/ssm_ssendBatchSMS.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>不同内容群发</description>
+		<display-name>短信客户</display-name>
+		<servlet-name>dsm_ssendDiffSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.diffsms.servlet.dsm_sendDiffSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<!-- 不同内容群发 -->
+		<servlet-name>dsm_ssendDiffSMSSvt</servlet-name>
+		<url-pattern>/dsm_ssendDiffSMS.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>相同内容群发commonServlet</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>ssm_commSvt</servlet-name>
+		<servlet-class>com.montnets.emp.samesms.servlet.ssm_commSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ssm_commSvt</servlet-name>
+		<url-pattern>/ssm_comm.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>超大文件导入</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>ssm_dxzsBigFileExportSvt</servlet-name>
+		<servlet-class>com.montnets.emp.samesms.servlet.ssm_bigFileExportSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ssm_dxzsBigFileExportSvt</servlet-name>
+		<url-pattern>/ssm_dxzsBigFileExport.htm</url-pattern>
+	</servlet-mapping>
+	<!--dxzsConfig.xml end-->
+
+	<!--dxkfConfig.xml start-->
+	<servlet>
+		<description>客户群组群发预览</description>
+		<display-name>短信客服</display-name>
+		<servlet-name>kfs_previewSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.clientsms.servlet.kfs_previewSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<!-- 不同内容群发 -->
+		<servlet-name>kfs_previewSMSSvt</servlet-name>
+		<url-pattern>/kfs_previewSMS.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>客户群组短信</description>
+		<display-name>短信客服</display-name>
+		<servlet-name>kfs_sendClientSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.clientsms.servlet.kfs_sendClientSMSSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>客户生日祝福短信发送</description>
+		<display-name>短信客服</display-name>
+		<servlet-name>bir_birthdaySendSvt</servlet-name>
+		<servlet-class>com.montnets.emp.birthwish.servlet.bir_birthdaySendSvt</servlet-class>
+	</servlet>
+
+
+	<servlet>
+		<description>任务查询</description>
+		<display-name>任务短信群发统计报表(短信客服)</display-name>
+		<servlet-name>smt_ssmsSendedBoxSvt</servlet-name>
+		<servlet-class>com.montnets.emp.smstask.servlet.smt_smsSendedBoxSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<!-- 短信客服-群发任务查看 -->
+		<servlet-name>smt_ssmsSendedBoxSvt</servlet-name>
+		<url-pattern>/smt_smsSendedBox2.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<!-- 短信客服-客户生日祝福群发历史查询 -->
+		<servlet-name>smt_ssmsSendedBoxSvt</servlet-name>
+		<url-pattern>/bir_cliSendTask.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>bir_birthdaySendSvt</servlet-name>
+		<url-pattern>/bir_birthdaySendClient.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>kfs_sendClientSMSSvt</servlet-name>
+		<url-pattern>/kfs_sendClientSMS.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>超大文件导入</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>ssm_dxkfBigFileExportSvt</servlet-name>
+		<servlet-class>com.montnets.emp.samesms.servlet.ssm_bigFileExportSvt</servlet-class></servlet>
+	<servlet-mapping>
+		<servlet-name>ssm_dxkfBigFileExportSvt</servlet-name>
+		<url-pattern>/ssm_dxkfBigFileExport.htm</url-pattern>
+	</servlet-mapping>
+	<!--dxkfConfig.xml end-->
+
+	<!--emailConfig.xml start-->
+	<!--emailConfig.xml end-->
+
+	<!--frameConfig.xml start-->
+	<!--frameConfig.xml end-->
+
+	<!--globConfig.xml start-->
+	<listener>
+		<listener-class>com.montnets.emp.common.listener.WebContextLoaderListener</listener-class>
+	</listener>
+	<listener>
+		<listener-class>com.montnets.emp.common.listener.SessionListener</listener-class>
+	</listener>
+	<servlet>
+		<servlet-name>SystemInitServlet</servlet-name>
+		<servlet-class>com.montnets.emp.common.servlet.SystemInitServlet</servlet-class>
+		<load-on-startup>10</load-on-startup>
+	</servlet>
+	<filter>
+		<filter-name>characterEncodingFilter</filter-name>
+		<filter-class>com.montnets.emp.common.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+	</filter>
+
+	<!-- 安全漏洞过滤器，合并下面三个注入过滤器 -->
+	<!-- xss 攻击，sql 注入过滤器 -->
+	<!--向所有会话cookie中添加“HttpOnly”属性-->
+	<!--对请求输入HOST头信息进行信息安全性校验，防止HOST头信息被恶意篡改利用。
+        使用一个HTTP头“X-Frame-Options”值为SAMEORIGIN-同源策略 -->
+	<filter>
+		<filter-name>empSecurityFilter</filter-name>
+		<filter-class>com.montnets.emp.common.security.filter.EmpSecurityFilter</filter-class>
+		<init-param>
+			<param-name>illegalChars</param-name>
+			<!-- 符号为 <, >, ", ', %, ;, (, ), + -->
+			<param-value>&lt;,&gt;,&quot;,&#39;,&#37;,&#59;,&#40;,&#41;,&#43;</param-value>
+			<!-- <param-value>|,$,@,',&quot;,\',\&quot;,&lt;,>,(,),+,CR,LF,\&quot;,&quot;,\</param-value> -->
+		</init-param>
+		<init-param>
+			<!-- UrlEncode解码次数 -->
+			<param-name>count</param-name>
+			<param-value>5</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>empSecurityFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<!-- 登录过滤器 -->
+	<filter>
+		<filter-name>checkLogin</filter-name>
+		<filter-class>com.montnets.emp.common.filter.CheckLoginFilter</filter-class>
+		<init-param>
+			<param-name>sessionKey</param-name>
+			<param-value>loginSysuser</param-value>
+		</init-param>
+	</filter>
+	<!--频繁请求过滤器-->
+	<filter>
+		<filter-name>frequentReq</filter-name>
+		<filter-class>com.montnets.emp.common.filter.FrequentReqFilter</filter-class>
+	</filter>
+	<!--频繁请求过滤器-->
+
+
+	<filter-mapping>
+		<filter-name>characterEncodingFilter</filter-name>
+		<url-pattern>*.htm</url-pattern>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>characterEncodingFilter</filter-name>
+		<url-pattern>*.html</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>characterEncodingFilter</filter-name>
+		<url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>characterEncodingFilter</filter-name>
+		<url-pattern>/meditor/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>checkLogin</filter-name>
+		<url-pattern>*.htm</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>checkLogin</filter-name>
+		<url-pattern>*.html</url-pattern>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>checkLogin</filter-name>
+		<url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>checkLogin</filter-name>
+		<url-pattern>/meditor/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>checkLogin</filter-name>
+		<url-pattern>*.meditorPage</url-pattern>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>frequentReq</filter-name>
+		<url-pattern>*.htm</url-pattern>
+	</filter-mapping>
+
+
+	<servlet>
+		<servlet-name>initServlet</servlet-name>
+		<servlet-class>com.montnets.emp.common.servlet.InitServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<description>请求处理WEB文件的svt</description>
+		<display-name>请求处理WEB文件的svt</display-name>
+		<servlet-name>glo_operWebSvt</servlet-name>
+		<servlet-class>com.montnets.emp.global.servlet.glo_operWebSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>glo_operWebSvt</servlet-name>
+		<url-pattern>/glo_operWebSvt.hts</url-pattern>
+	</servlet-mapping>
+
+	<!-- add by chentingsheng 20130823 begin -->
+	<servlet>
+		<description>请求页面控件的svt</description>
+		<display-name>请求页面控件的svt</display-name>
+		<servlet-name>glo_operPageFieldSvt</servlet-name>
+		<servlet-class>com.montnets.emp.global.servlet.glo_operPageFieldSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>glo_operPageFieldSvt</servlet-name>
+		<url-pattern>/glo_operPageFieldSvt.hts</url-pattern>
+	</servlet-mapping>
+	<!-- end -->
+
+	<servlet>
+		<description>关于平台</description>
+		<display-name>关于平台</display-name>
+		<servlet-name>FindAproInfoServlet</servlet-name>
+		<servlet-class>com.montnets.emp.common.servlet.FindAproInfoServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>登录时调用</description>
+		<display-name>操作员登录</display-name>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.montnets.emp.authen.servlet.LoginServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>初始化加载模块</description>
+		<display-name>系统启动</display-name>
+		<servlet-name>InitMenuSvt</servlet-name>
+		<servlet-class>com.montnets.emp.common.servlet.InitMenuSvt</servlet-class>
+		<load-on-startup>11</load-on-startup>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>FindAproInfoServlet</servlet-name>
+		<url-pattern>/findAproInfo</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/sglcorp</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>验证码</description>
+		<display-name>验证码</display-name>
+		<servlet-name>YanzhengmaServlet</servlet-name>
+		<servlet-class>com.montnets.emp.authen.servlet.YanzhengmaServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>手机动态口令</description>
+		<display-name>手机动态口令</display-name>
+		<servlet-name>DynGetPhoneWord</servlet-name>
+		<servlet-class>com.montnets.emp.authen.servlet.DynGetPhoneWord</servlet-class>
+	</servlet>
+	<servlet>
+		<description>mo接收</description>
+		<display-name>mo接收</display-name>
+		<servlet-name>MoReceiveServlet</servlet-name>
+		<servlet-class>com.montnets.emp.common.servlet.MoReceiveServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>登录页个性化设置信息加载</description>
+		<servlet-name>loginImgSvt</servlet-name>
+		<servlet-class>com.montnets.emp.common.servlet.LoginImgSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MoReceiveServlet</servlet-name>
+		<url-pattern>/moreceive.hts</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>接收状态报告</description>
+		<display-name>接收状态报告</display-name>
+		<servlet-name>RptReceiveServlet</servlet-name>
+		<servlet-class>com.montnets.emp.common.servlet.RptReceiveServlet</servlet-class>
+	</servlet>
+
+
+	<servlet>
+		<description>公共servetl处理方法</description>
+		<display-name>公共servetl处理方法</display-name>
+		<servlet-name>CommonSvt</servlet-name>
+		<servlet-class>com.montnets.emp.common.servlet.CommonSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>审批流程查看及催办</description>
+		<display-name>审批流程查看及催办</display-name>
+		<servlet-name>ReviewFlowSvt</servlet-name>
+		<servlet-class>com.montnets.emp.common.servlet.ReviewFlowSvt</servlet-class>
+	</servlet>
+
+
+	<servlet>
+		<description>短信群发时检测服务器是否异常</description>
+		<display-name>短信群发时检测服务器是否异常</display-name>
+		<servlet-name>LoadingServlet</servlet-name>
+		<servlet-class>com.montnets.emp.common.servlet.LoadingServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoadingServlet</servlet-name>
+		<url-pattern>/LoadingServlet.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>导出模板</description>
+		<display-name>导出模板</display-name>
+		<servlet-name>ExportUtilServlet</servlet-name>
+		<servlet-class>com.montnets.emp.common.servlet.ExportUtilServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>导出Excel</description>
+		<display-name>导出Excel</display-name>
+		<servlet-name>Export</servlet-name>
+		<servlet-class>com.montnets.emp.util.Export</servlet-class>
+		<init-param>
+			<param-name>fileRoot</param-name>
+			<param-value/>
+		</init-param>
+		<init-param>
+			<param-name>enc</param-name>
+			<param-value>utf-8</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExportUtilServlet</servlet-name>
+		<url-pattern>/doExport.hts</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Export</servlet-name>
+		<url-pattern>/down.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>投诉管理</description>
+		<display-name>投诉管理</display-name>
+		<servlet-name>ComplainSvt</servlet-name>
+		<servlet-class>com.montnets.emp.common.servlet.ComplainSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ComplainSvt</servlet-name>
+		<url-pattern>/complain.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>投诉管理</description>
+		<display-name>投诉管理</display-name>
+		<servlet-name>UploadLogoSvt</servlet-name>
+		<servlet-class>com.montnets.emp.common.servlet.UploadLogoSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UploadLogoSvt</servlet-name>
+		<url-pattern>/uploadLogo.hts</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>RptReceiveServlet</servlet-name>
+		<url-pattern>/rptreceive.hts</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>YanzhengmaServlet</servlet-name>
+		<url-pattern>/changeyzm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DynGetPhoneWord</servlet-name>
+		<url-pattern>/getphoneword</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>CommonSvt</servlet-name>
+		<url-pattern>/common.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ReviewFlowSvt</servlet-name>
+		<url-pattern>/reviewflow.htm</url-pattern>
+	</servlet-mapping>
+	<error-page>
+		<error-code>404</error-code>
+		<location>/error404</location>
+	</error-page>
+	<welcome-file-list>
+		<welcome-file>emp_tz.hts</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<description>三级菜单管理</description>
+		<display-name>三级菜单管理</display-name>
+		<servlet-name>ThirdMenuServlet</servlet-name>
+		<servlet-class>com.montnets.emp.common.servlet.ThirdMenuSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>框架相关功能管理</description>
+		<display-name>框架相关功能管理</display-name>
+		<servlet-name>FrameControlServlet</servlet-name>
+		<servlet-class>com.montnets.emp.common.servlet.FrameControlSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ThirdMenuServlet</servlet-name>
+		<url-pattern>/thirdMenu.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FrameControlServlet</servlet-name>
+		<url-pattern>/emp_tz.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FrameControlServlet</servlet-name>
+		<url-pattern>/emp_tz.hts</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>FrameControlServlet</servlet-name>
+		<url-pattern>/error404</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FrameControlServlet</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SummJobSvt</servlet-name>
+		<servlet-class>com.montnets.emp.common.servlet.SummJobSvt</servlet-class>
+		<load-on-startup>28000</load-on-startup>
+	</servlet>
+	<servlet>
+		<servlet-name>JobSvt</servlet-name>
+		<servlet-class>com.montnets.emp.common.servlet.JobSvt</servlet-class>
+		<load-on-startup>20000</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>CheckFee</servlet-name>
+		<servlet-class>com.montnets.emp.common.servlet.CheckFeeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CheckFee</servlet-name>
+		<url-pattern>/checkFee.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>loginImgSvt</servlet-name>
+		<url-pattern>/loginImg.login</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>管理数据库连接</description>
+		<display-name>管理数据库连接</display-name>
+		<servlet-name>systemManageSvt</servlet-name>
+		<servlet-class>com.montnets.emp.datasource.servlet.systemManageSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>systemManageSvt</servlet-name>
+		<url-pattern>/systemManage.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>单点登录</description>
+		<display-name>单点登录</display-name>
+		<servlet-name>SingleSignOnSvt</servlet-name>
+		<servlet-class>com.montnets.emp.datasource.servlet.singleSignOnSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SingleSignOnSvt</servlet-name>
+		<url-pattern>/singleSign.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CheckRespSvt</servlet-name>
+		<servlet-class>com.montnets.emp.common.servlet.CheckRespSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CheckRespSvt</servlet-name>
+		<url-pattern>/checkresp.hts</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>发送界面的选择人员</description>
+		<display-name>发送界面的选择人员</display-name>
+		<servlet-name>SelectUserInfoServlet</servlet-name>
+		<servlet-class>com.montnets.emp.common.servlet.SelectUserInfoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SelectUserInfoServlet</servlet-name>
+		<url-pattern>/selectUserInfo.htm</url-pattern>
+	</servlet-mapping>
+
+	<jsp-config>
+		<taglib>
+			<taglib-uri>
+				http://www.montnets.com/emp/i18n/tags/simple
+			</taglib-uri>
+			<taglib-location>
+				/WEB-INF/i18n.tld
+			</taglib-location>
+		</taglib>
+	</jsp-config>
+
+	<!-- cors解决跨域访问问题 -->
+	<filter>
+		<filter-name>cors</filter-name>
+		<filter-class>com.montnets.emp.SimpleCORSFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>cors</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<!--globConfig.xml end-->
+
+	<!--greportConfig.xml start-->
+	<servlet>
+		<description>总体发送趋势</description>
+		<display-name>总体发送趋势</display-name>
+		<servlet-name>grpt_totalGreportSvt</servlet-name>
+		<servlet-class>com.montnets.emp.greport.servlet.grpt_totalGreportSvt
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>grpt_totalGreportSvt</servlet-name>
+		<url-pattern>/grpt_totalGreport.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>区域发送对比</description>
+		<display-name>区域发送对比</display-name>
+		<servlet-name>grpt_areaGreportSvt</servlet-name>
+		<servlet-class>com.montnets.emp.greport.servlet.grpt_areaGreportSvt
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>grpt_areaGreportSvt</servlet-name>
+		<url-pattern>/grpt_areaGreport.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>SP账号发送对比</description>
+		<display-name>SP账号发送对比</display-name>
+		<servlet-name>grpt_spuserGreportSvt</servlet-name>
+		<servlet-class>com.montnets.emp.greport.servlet.grpt_spuserGreportSvt
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>grpt_spuserGreportSvt</servlet-name>
+		<url-pattern>/grpt_spuserGreport.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>业务类型发送对比</description>
+		<display-name>业务类型发送对比</display-name>
+		<servlet-name>grpt_busGreportSvt</servlet-name>
+		<servlet-class>com.montnets.emp.greport.servlet.grpt_busGreportSvt
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>grpt_busGreportSvt</servlet-name>
+		<url-pattern>/grpt_busGreport.htm</url-pattern>
+	</servlet-mapping>
+	<!--greportConfig.xml end-->
+
+	<!--groupConfig.xml start-->
+	<servlet>
+		<description>员工个人群组</description>
+		<display-name>个人群组</display-name>
+		<servlet-name>grp_groupManagerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.group.servlet.grp_groupManagerSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>客户个人群组</description>
+		<display-name>个人群组</display-name>
+		<servlet-name>grp_cliGroupManagerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.group.servlet.grp_cliGroupManagerSvt</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>grp_groupManagerSvt</servlet-name>
+		<url-pattern>/grp_groupManage.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>grp_cliGroupManagerSvt</servlet-name>
+		<url-pattern>/grp_cliGroupManage.htm</url-pattern>
+	</servlet-mapping>
+	<!--groupConfig.xml end-->
+
+	<!--ptjkConfig.xml start-->
+	<servlet>
+		<servlet-name>MonitorInitServlet</servlet-name>
+		<servlet-class>com.montnets.emp.monitor.servlet.MonitorInitServlet</servlet-class>
+		<load-on-startup>12</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<description>通道账户监控</description>
+		<display-name>通道账户监控</display-name>
+		<servlet-name>mon_gateAcctMonSvt</servlet-name>
+		<servlet-class>com.montnets.emp.mondetails.servlet.mon_gateAcctMonSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mon_gateAcctMonSvt</servlet-name>
+		<url-pattern>/mon_gateAcctMon.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>sp账户监控</description>
+		<display-name>sp账户监控</display-name>
+		<servlet-name>mon_spAcctMonSvt</servlet-name>
+		<servlet-class>com.montnets.emp.mondetails.servlet.mon_spAcctMonSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mon_spAcctMonSvt</servlet-name>
+		<url-pattern>/mon_spAcctMon.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>主机监控详情</description>
+		<display-name>主机监控详情</display-name>
+		<servlet-name>mon_hostMonSvt</servlet-name>
+		<servlet-class>com.montnets.emp.mondetails.servlet.mon_hostMonSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mon_hostMonSvt</servlet-name>
+		<url-pattern>/mon_hostMon.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>程序监控详情</description>
+		<display-name>程序监控详情</display-name>
+		<servlet-name>mon_prcMonSvt</servlet-name>
+		<servlet-class>com.montnets.emp.mondetails.servlet.mon_prcMonSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mon_prcMonSvt</servlet-name>
+		<url-pattern>/mon_prcMon.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>历史告警详情</description>
+		<display-name>历史告警详情</display-name>
+		<servlet-name>mon_hisMonSvt</servlet-name>
+		<servlet-class>com.montnets.emp.mondetails.servlet.mon_hisMonSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mon_hisMonSvt</servlet-name>
+		<url-pattern>/mon_hisMon.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>实时告警详情</description>
+		<display-name>实时告警详情</display-name>
+		<servlet-name>mon_realTimeAlarmSvt</servlet-name>
+		<servlet-class>com.montnets.emp.mondetails.servlet.mon_realTimeAlarmSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mon_realTimeAlarmSvt</servlet-name>
+		<url-pattern>/mon_realTimeAlarm.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>WEB主机网络监控</description>
+		<display-name>WEB主机网络监控</display-name>
+		<servlet-name>mon_webHostMonNetSvt</servlet-name>
+		<servlet-class>com.montnets.emp.monnet.servlet.mon_webHostMonNetSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mon_webHostMonNetSvt</servlet-name>
+		<url-pattern>/mon_webHostMonNet.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>主机监控设置</description>
+		<display-name>主机监控设置</display-name>
+		<servlet-name>mon_hostMonCfgSvt</servlet-name>
+		<servlet-class>com.montnets.emp.monmanage.servlet.mon_hostMonCfgSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mon_hostMonCfgSvt</servlet-name>
+		<url-pattern>/mon_hostMonCfg.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>程序监控设置</description>
+		<display-name>程勋监控设置</display-name>
+		<servlet-name>mon_prcMonCfgSvt</servlet-name>
+		<servlet-class>com.montnets.emp.monmanage.servlet.mon_prcMonCfgSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mon_prcMonCfgSvt</servlet-name>
+		<url-pattern>/mon_prcMonCfg.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>在线用户数</description>
+		<display-name>在线用户数</display-name>
+		<servlet-name>mon_onlineUserNumSvt</servlet-name>
+		<servlet-class>com.montnets.emp.monitoruser.servlet.mon_onlineUserNumSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mon_onlineUserNumSvt</servlet-name>
+		<url-pattern>/mon_onlineUserNum.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>在线用户数监控设置</description>
+		<display-name>在线用户数监控设置</display-name>
+		<servlet-name>mon_onlUserNumCfgSvt</servlet-name>
+		<servlet-class>com.montnets.emp.monmanage.servlet.mon_onlUserNumCfgSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mon_onlUserNumCfgSvt</servlet-name>
+		<url-pattern>/mon_onlUserNumCfg.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>sp账号监控设置</description>
+		<display-name>sp账号监控设置</display-name>
+		<servlet-name>mon_spAcctMonCfgSvt</servlet-name>
+		<servlet-class>com.montnets.emp.monmanage.servlet.mon_spAcctMonCfgSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mon_spAcctMonCfgSvt</servlet-name>
+		<url-pattern>/mon_spAcctMonCfg.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>通道账号监控设置</description>
+		<display-name>通道账号监控设置</display-name>
+		<servlet-name>mon_gateAcctMonCfgSvt</servlet-name>
+		<servlet-class>com.montnets.emp.monmanage.servlet.mon_gateAcctMonCfgSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mon_gateAcctMonCfgSvt</servlet-name>
+		<url-pattern>/mon_gateAcctMonCfg.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>监控视图</description>
+		<display-name>监控视图</display-name>
+		<servlet-name>mon_mainMonSvt</servlet-name>
+		<servlet-class>com.montnets.emp.monview.servlet.mon_mainMonSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mon_mainMonSvt</servlet-name>
+		<url-pattern>/mon_mainMon.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>监控消息接口</description>
+		<display-name>监控消息接口</display-name>
+		<servlet-name>monMsgReceive</servlet-name>
+		<servlet-class>com.montnets.emp.monitor.servlet.monMsgReceiveSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>monMsgReceive</servlet-name>
+		<url-pattern>/monMsgReceive.hts</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>业务监控设置</description>
+		<display-name>业务监控设置</display-name>
+		<servlet-name>monBusTypeCfg</servlet-name>
+		<servlet-class>com.montnets.emp.bustype.servlet.mon_busTypeCfgSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>monBusTypeCfg</servlet-name>
+		<url-pattern>/mon_busCfg.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>业务监控详情</description>
+		<display-name>业务监控详情</display-name>
+		<servlet-name>monBusDeatil</servlet-name>
+		<servlet-class>com.montnets.emp.bustype.servlet.mon_busDeatilSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>monBusDeatil</servlet-name>
+		<url-pattern>/mon_busDeatil.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>数据库监控详情</description>
+		<display-name>数据库监控详情</display-name>
+		<servlet-name>mon_dataBaseMonSvt</servlet-name>
+		<servlet-class>com.montnets.emp.mondetails.servlet.mon_dataBaseMonSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mon_dataBaseMonSvt</servlet-name>
+		<url-pattern>/mon_dataBaseMon.htm</url-pattern>
+	</servlet-mapping>
+	<!--ptjkConfig.xml end-->
+
+	<!--qyllConfig.xml start-->
+	<!--<listener>
+		<listener-class>com.montnets.emp.qyll.servlet.FlowSynchronizeTaskListener</listener-class>
+	</listener>
+
+	<servlet>
+		<servlet-name>ll_flowOrderSvt</servlet-name>
+		<servlet-class>com.montnets.emp.qyll.servlet.ll_flowOrderSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ll_flowOrderSvt</servlet-name>
+		<url-pattern>/ll_flowOrder.htm </url-pattern>
+
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>OrderReportServlet</servlet-name>
+		<servlet-class>com.montnets.emp.qyll.servlet.OrderReportServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OrderReportServlet</servlet-name>
+		<url-pattern>/ll_orderReport.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>OrderHistorySVT</servlet-name>
+		<servlet-class>com.montnets.emp.qyll.servlet.OrderHistorySVT</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OrderHistorySVT</servlet-name>
+		<url-pattern>/ll_orderHistoryQuest.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>OrderTaskSVT</servlet-name>
+		<servlet-class>com.montnets.emp.qyll.servlet.OrderTaskSVT</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OrderTaskSVT</servlet-name>
+		<url-pattern>/ll_packageOrderQuest.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>OrderDetailSVT</servlet-name>
+		<servlet-class>com.montnets.emp.qyll.servlet.OrderDetailSVT</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OrderDetailSVT</servlet-name>
+		<url-pattern>/ll_orderDetails.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>OperatorReportServlet</servlet-name>
+		<servlet-class>com.montnets.emp.qyll.servlet.OperatorReportServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OperatorReportServlet</servlet-name>
+		<url-pattern>/ll_operatorReport.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MechanismReportServlet</servlet-name>
+		<servlet-class>com.montnets.emp.qyll.servlet.MechanismReportServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MechanismReportServlet</servlet-name>
+		<url-pattern>/ll_mechanismReport.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AccountManageServlet</servlet-name>
+		<servlet-class>com.montnets.emp.qyll.servlet.AccountManageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AccountManageServlet</servlet-name>
+		<url-pattern>/ll_accountManage.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description>流量接口中转</description>
+		<display-name>流量接口中转</display-name>
+		<servlet-name>EntFlowDataServlet</servlet-name>
+		<servlet-class>com.montnets.emp.qyll.servlet.EntFlowDataServlet
+		</servlet-class>
+	</servlet>
+
+
+	<servlet>
+		<description>短信提醒下行记录</description>
+		<display-name>短信提醒下行记录</display-name>
+		<servlet-name>LlDownRecordServlet</servlet-name>
+		<servlet-class>com.montnets.emp.qyll.servlet.LlDownRecordServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>状态报告接收</description>
+		<display-name>状态报告接收</display-name>
+		<servlet-name>ll_RptReceiveSvt</servlet-name>
+		<servlet-class>com.montnets.emp.qyll.servlet.ll_RptReceiveSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>模拟客户状态报告接收</description>
+		<display-name>模拟客户状态报告接收</display-name>
+		<servlet-name>LLClientRptReceiveSvt</servlet-name>
+		<servlet-class>com.montnets.emp.qyll.servlet.ll_ClientRptReceiveSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LlDownRecordServlet</servlet-name>
+		<url-pattern>/ll_downRecord.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>EntFlowDataServlet</servlet-name>
+		<url-pattern>/entFlowDataServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ll_RptReceiveSvt</servlet-name>
+		<url-pattern>/ll_rptReceiveSvt</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>FlowSynchronizeServlet</servlet-name>
+		<servlet-class>com.montnets.emp.qyll.servlet.FlowSynchronizeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FlowSynchronizeServlet</servlet-name>
+		<url-pattern>/ll_flowSynchronize.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ll_commSvt</servlet-name>
+		<servlet-class>com.montnets.emp.qyll.servlet.ll_commSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ll_commSvt</servlet-name>
+		<url-pattern>/ll_comm.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LLClientRptReceiveSvt</servlet-name>
+		<url-pattern>/ll_ClientRptReceivevt</url-pattern>
+	</servlet-mapping>-->
+	<!--qyllConfig.xml end-->
+
+	<!--rmsConfig.xml start-->
+	<servlet>
+		<description>测试路径待删除</description>
+		<display-name>测试路径待删除</display-name>
+		<servlet-name>testSvt</servlet-name>
+		<servlet-class>com.montnets.emp.rms.test.TestSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>testSvt</servlet-name>
+		<url-pattern>/testSvt</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>测试路径待删除</description>
+		<display-name>测试路径待删除</display-name>
+		<servlet-name>fx_img</servlet-name>
+		<servlet-class>com.montnets.emp.rms.test.ImgSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fx_img</servlet-name>
+		<url-pattern>/fx_img</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>富信相同内容发送</description>
+		<display-name>富信平台</display-name>
+		<servlet-name>rms_sameMmsSvt</servlet-name>
+		<!--<servlet-class>com.montnets.emp.rms.samesend.servlet.SameMmsSvt</servlet-class>-->
+		<servlet-class>com.montnets.emp.rms.meditor.servlet.SameMmsSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>rms_sameMmsSvt</servlet-name>
+		<url-pattern>/rms_rmsSameMms.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description>富信不同内容发送</description>
+		<display-name>富信平台</display-name>
+		<servlet-name>rms_diffMmsSvt</servlet-name>
+		<!--<servlet-class>com.montnets.emp.rms.diffsend.servlet.DiffMmsSvt</servlet-class>-->
+		<servlet-class>com.montnets.emp.rms.meditor.servlet.DiffMmsSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>rms_diffMmsSvt</servlet-name>
+		<url-pattern>/rms_diffMms.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description>富信平台数据同步发布接口</description>
+		<display-name>富信平台数据同步发布接口</display-name>
+		<servlet-name>RMSDataSyncServicePushServlet</servlet-name>
+		<servlet-class>com.montnets.emp.rms.wbs.servlet.RMSDataSyncServicePushServlet</servlet-class>
+		<load-on-startup>2000</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<description>模板管理</description>
+		<display-name>模板管理</display-name>
+		<servlet-name>mbgl_templateSvt</servlet-name>
+		<servlet-class>com.montnets.emp.rms.templmanage.servlet.Mbgl_templateSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mbgl_templateSvt</servlet-name>
+		<url-pattern>/mbgl_mytemplate.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>模板管理</description>
+		<display-name>模板管理</display-name>
+		<servlet-name>HttpTest</servlet-name>
+		<servlet-class>com.montnets.emp.rms.test.HttpTest</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HttpTest</servlet-name>
+		<url-pattern>/httpTest.hts</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>档位套餐统计报表</description>
+		<display-name>富信平台</display-name>
+		<servlet-name>rep_degreeReportSvt</servlet-name>
+		<servlet-class>com.montnets.emp.rms.report.servlet.rep_degreeReportSvt
+		</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>rep_degreeReportSvt</servlet-name>
+		<url-pattern>/rep_degreeReport.htm</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<description>富信平台</description>
+		<display-name>容量套餐统计报表监听</display-name>
+		<servlet-name>rltcRptListener</servlet-name>
+		<servlet-class>com.montnets.emp.rms.report.listener.RptListener</servlet-class>
+		<load-on-startup>14</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<description>富信平台</description>
+		<display-name>发送明细查询</display-name>
+		<servlet-name>rms_sendDetailSvt</servlet-name>
+		<servlet-class>com.montnets.emp.rms.detailsend.servlet.rms_sendDetailSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>rms_sendDetailSvt</servlet-name>
+		<url-pattern>/rms_sendDetail.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>TmplateTaskListner</servlet-name>
+		<servlet-class>com.montnets.emp.rms.templmanage.listener.TmplateTaskListner</servlet-class>
+		<load-on-startup>100</load-on-startup>
+	</servlet>
+
+
+	<servlet>
+		<description>富信平台</description>
+		<display-name>发送任务查询</display-name>
+		<servlet-name>rmsTaskRecordSvt</servlet-name>
+		<servlet-class>com.montnets.emp.rms.rmstask.servlet.RmsTaskSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>rmsTaskRecordSvt</servlet-name>
+		<url-pattern>/rmsTaskRecord.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description>富信平台</description>
+		<display-name>群发历史查询</display-name>
+		<servlet-name>rmsTaskHistorySvt</servlet-name>
+		<servlet-class>com.montnets.emp.rms.rmstask.servlet.RmsTaskSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>rmsTaskHistorySvt</servlet-name>
+		<url-pattern>/rms_rmsTaskHistory.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>富信平台</description>
+		<display-name>群发历史查询与群发任务查询的选择操作员与选择机构</display-name>
+		<servlet-name>rmsTaskUserAndDepSvt</servlet-name>
+		<servlet-class>com.montnets.emp.rms.rmstask.servlet.RmsTaskUserAndDepSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>rmsTaskUserAndDepSvt</servlet-name>
+		<url-pattern>/rmsTaskUserAndDep.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>视频裁剪工具类</description>
+		<display-name>视频裁剪工具类</display-name>
+		<servlet-name>fx_videoCropperUploader</servlet-name>
+		<servlet-class>com.montnets.emp.rms.upload.VideoCropperUploader</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fx_videoCropperUploader</servlet-name>
+		<url-pattern>/fx_videoCropperUploader</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>图片裁剪工具类</description>
+		<display-name>图片裁剪工具类</display-name>
+		<servlet-name>fx_imgCropperUploder</servlet-name>
+		<servlet-class>com.montnets.emp.rms.upload.ImgCropperUploader</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fx_imgCropperUploder</servlet-name>
+		<url-pattern>/fx_imgCropperUploder</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>快捷模板管理</description>
+		<display-name>快捷模板管理</display-name>
+		<servlet-name>rms_templateMana</servlet-name>
+		<servlet-class>com.montnets.emp.rms.templmanage.servlet.RmsShortTemplate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>rms_templateMana</servlet-name>
+		<url-pattern>/rms_templateMana.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>公共模板</description>
+		<display-name>公共模板</display-name>
+		<servlet-name>common_templateSvt</servlet-name>
+		<!--<servlet-class>com.montnets.emp.rms.commontempl.servlet.CommonTemplateSvt</servlet-class>-->
+		<servlet-class>com.montnets.emp.rms.meditor.servlet.CommonTemplateSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>common_templateSvt</servlet-name>
+		<url-pattern>/rms_commTpl.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>编辑器</description>
+		<display-name>编辑器</display-name>
+		<servlet-name>meditor</servlet-name>
+		<servlet-class>com.montnets.emp.rms.meditor.servlet.MeditorServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>meditor</servlet-name>
+		<url-pattern>/meditor/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>模板</description>
+		<display-name>模板</display-name>
+		<servlet-name>mbgl</servlet-name>
+		<servlet-class>com.montnets.emp.rms.meditor.servlet.TempalteManageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mbgl</servlet-name>
+		<url-pattern>/mbgl/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>模板</description>
+		<display-name>模板</display-name>
+		<servlet-name>userInfo</servlet-name>
+		<servlet-class>com.montnets.emp.rms.meditor.servlet.UserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>userInfo</servlet-name>
+		<url-pattern>/meditor/user/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>模板</description>
+		<display-name>模板</display-name>
+		<servlet-name>page</servlet-name>
+		<servlet-class>com.montnets.emp.rms.meditor.servlet.PageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>page</servlet-name>
+		<url-pattern>*.meditorPage</url-pattern>
+	</servlet-mapping>
+
+	<filter>
+		<filter-name>versionFilter</filter-name>
+		<filter-class>com.montnets.emp.common.filter.VersionFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>versionFilter</filter-name>
+		<url-pattern>*.meditorPage</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>versionFilter</filter-name>
+		<url-pattern>/meditor/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>versionFilter</filter-name>
+		<url-pattern>/meditor/user/*</url-pattern>
+	</filter-mapping>
+
+	<!-- xss过滤器 -->
+	<filter>
+		<filter-name>XssSqlFilter</filter-name>
+		<filter-class>com.montnets.emp.rms.meditor.filter.XssFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>XssSqlFilter</filter-name>
+		<url-pattern>*.meditorPage</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>XssSqlFilter</filter-name>
+		<url-pattern>/meditor/*</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+	</filter-mapping>
+
+	<servlet>
+		<description>富信平台</description>
+		<display-name>计费档位管理</display-name>
+		<servlet-name>rms_degreeManagerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.rms.degree.servlet.rms_degreeManagerSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>rms_degreeManagerSvt</servlet-name>
+		<url-pattern>/rms_degreeManager.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ConvertRmsThread</servlet-name>
+		<servlet-class>com.montnets.emp.rms.meditor.servlet.ConvertRmsSvt</servlet-class>
+		<load-on-startup>101</load-on-startup>
+	</servlet>
+
+	<!-- 批量模板导入-->
+	<servlet>
+		<description>批量模板导入</description>
+		<display-name>富信平台</display-name>
+		<servlet-name>importTemSvt</servlet-name>
+		<servlet-class>com.montnets.emp.rms.meditor.servlet.ImportTemSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>importTemSvt</servlet-name>
+		<url-pattern>/importTemplate.htm</url-pattern>
+	</servlet-mapping>
+
+	<!-- 批量导入详情-->
+	<servlet>
+		<description>批量导入详情</description>
+		<display-name>富信平台</display-name>
+		<servlet-name>importTemDetailsSvt</servlet-name>
+		<servlet-class>com.montnets.emp.rms.meditor.servlet.ImportTemDetailsSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>importTemDetailsSvt</servlet-name>
+		<url-pattern>/importTemplateDetails.htm</url-pattern>
+	</servlet-mapping>
+
+	<!--RCOS模板同步类-->
+	<servlet>
+		<servlet-name>SyncRcosSVT</servlet-name>
+		<servlet-class>com.montnets.emp.rms.meditor.servlet.SyncRcosSVT</servlet-class>
+		<load-on-startup>102</load-on-startup>
+	</servlet>
+	<!--rmsConfig.xml end-->
+
+	<!--shorturlConfig.xml start-->
+	<!--<servlet>
+		<description>长连接报备</description>
+		<display-name>短地址</display-name>
+		<servlet-name>keep_recordSvt</servlet-name>
+		<servlet-class>com.montnets.emp.shorturl.surlmanage.servlet.Surl_managerSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>keep_recordSvt</servlet-name>
+		<url-pattern>/keep_record.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>长连接审核</description>
+		<display-name>短地址</display-name>
+		<servlet-name>surl_auditSvt</servlet-name>
+		<servlet-class>com.montnets.emp.shorturl.surlmanage.servlet.Surl_operUrlAuditSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>surl_auditSvt</servlet-name>
+		<url-pattern>/surl_audit.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>StopUrlInitServlet</servlet-name>
+		<servlet-class>com.montnets.emp.shorturl.surlmanage.servlet.StopUrlInitServlet</servlet-class>
+		<load-on-startup>10</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<description>短连接群发任务查看</description>
+		<display-name>短地址</display-name>
+		<servlet-name>surlTaskRecordSvt</servlet-name>
+		<servlet-class>com.montnets.emp.shorturl.task.servlet.Surl_taskRecordSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>surlTaskRecordSvt</servlet-name>
+		<url-pattern>/surlTaskRecord.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description>相同内容短链接发送</description>
+		<display-name>短信客服</display-name>
+		<servlet-name>url_ssendBatchSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.shorturl.samesms.servlet.Surl_sendBatchSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>url_ssendBatchSMSSvt</servlet-name>
+		<url-pattern>/url_urlSendBatchSMS.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>不同内容链接群发</description>
+		<display-name>短信客户</display-name>
+		<servlet-name>url_ssendDiffSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.shorturl.diffsms.servlet.Durl_sendDiffSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+
+		<servlet-name>url_ssendDiffSMSSvt</servlet-name>
+		<url-pattern>/url_urlSendDiffSMS.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>相同内容链接发送预览</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>urls_previewSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.shorturl.samesms.servlet.Surl_previewSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>urls_previewSMSSvt</servlet-name>
+		<url-pattern>/urls_previewSMS.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>不同内容链接群发预览</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>urld_previewSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.shorturl.diffsms.servlet.Durl_previewSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>urld_previewSMSSvt</servlet-name>
+		<url-pattern>/urld_previewSMS.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>initurlServlet</servlet-name>
+		<servlet-class>com.montnets.emp.shorturl.samesms.servlet.UrlInitServlet</servlet-class>
+		<load-on-startup>15</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<description>批次发送统计</description>
+		<display-name>短地址报表查询</display-name>
+		<servlet-name>Surl_batchSendReportSvt</servlet-name>
+		<servlet-class>com.montnets.emp.shorturl.report.servlet.Surl_batchSendReportSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Surl_batchSendReportSvt</servlet-name>
+		<url-pattern>/surlBatchRecord.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>发送明细查询</description>
+		<display-name>短地址报表查询</display-name>
+		<servlet-name>Surl_sendDetailReportSvt</servlet-name>
+		<servlet-class>com.montnets.emp.shorturl.report.servlet.Surl_sendDetailReportSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Surl_sendDetailReportSvt</servlet-name>
+		<url-pattern>/surlSendDetail.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>批次访问统计</description>
+		<display-name>短地址报表查询</display-name>
+		<servlet-name>Surl_batchViewReportSvt</servlet-name>
+		<servlet-class>com.montnets.emp.shorturl.report.servlet.Surl_batchViewReportSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Surl_batchViewReportSvt</servlet-name>
+		<url-pattern>/surlBatchVisit.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>短链发送公共方法</description>
+		<display-name>短链应用</display-name>
+		<servlet-name>urlcommonSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.shorturl.samesms.servlet.Surl_commSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>urlcommonSMSSvt</servlet-name>
+		<url-pattern>/urlcommonSMS.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description>短域名管理</description>
+		<display-name>短域名</display-name>
+		<servlet-name>url_domainSvt</servlet-name>
+		<servlet-class>com.montnets.emp.shorturl.surlmanage.servlet.Surl_domainSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>url_domainSvt</servlet-name>
+		<url-pattern>/surl_manage.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>短域名绑定管理</description>
+		<display-name>短域名绑定管理</display-name>
+		<servlet-name>Surl_domainBindSvt</servlet-name>
+		<servlet-class>com.montnets.emp.shorturl.surlmanage.servlet.Surl_domainBindSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Surl_domainBindSvt</servlet-name>
+		<url-pattern>/surl_bind.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>链接访问统计</description>
+		<display-name>链接访问统计报表查询</display-name>
+		<servlet-name>surlLinkVisitSvt</servlet-name>
+		<servlet-class>com.montnets.emp.shorturl.report.servlet.Surl_LinkReportSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>surlLinkVisitSvt</servlet-name>
+		<url-pattern>/surlLinkVisit.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>链接访问统计</description>
+		<display-name>链接访问统计报表查询</display-name>
+		<servlet-name>surlLinkDetailSvt</servlet-name>
+		<servlet-class>com.montnets.emp.shorturl.report.servlet.Surl_LinkDetailSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>surlLinkDetailSvt</servlet-name>
+		<url-pattern>/surlLinkDetail.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>访问明细详情</description>
+		<display-name>访问明细详情报表查询</display-name>
+		<servlet-name>surlVisitDetailSvt</servlet-name>
+		<servlet-class>com.montnets.emp.shorturl.report.servlet.Surl_VisitReportSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>surlVisitDetailSvt</servlet-name>
+		<url-pattern>/surlVisitDetail.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>访问明细详情</description>
+		<display-name>访问明细详情报表查询</display-name>
+		<servlet-name>visitDetailSvt</servlet-name>
+		<servlet-class>com.montnets.emp.shorturl.report.servlet.Surl_VisitDetailSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>visitDetailSvt</servlet-name>
+		<url-pattern>/visitDetailSvt.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>定时转移服务</description>
+		<display-name>定时转移服务</display-name>
+		<servlet-name>SurlTransferSvt</servlet-name>
+		<servlet-class>com.montnets.emp.shorturl.report.servlet.SurlTransferSvt</servlet-class>
+		<load-on-startup>20</load-on-startup>
+	</servlet>
+
+
+	<servlet>
+		<description>短链群发任务查看</description>
+		<display-name>短链群发任务查看</display-name>
+		<servlet-name>Surl_surlSendedBoxSvt</servlet-name>
+		<servlet-class>com.montnets.emp.shorturl.task.servlet.Surl_surlSendedBoxSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Surl_surlSendedBoxSvt</servlet-name>
+		<url-pattern>/surl_surlSendedBox.htm</url-pattern>
+	</servlet-mapping>-->
+	<!--shorturlConfig.xml end-->
+
+	<!--txglConfig.xml start-->
+	<servlet>
+		<description>通道运行参数配置</description>
+		<display-name>网关后端配置</display-name>
+		<servlet-name>gat_spgateSvt</servlet-name>
+		<servlet-class>com.montnets.emp.gateway.servlet.gat_spgateSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>网关运行参数配置</description>
+		<display-name>网关后端配置</display-name>
+		<servlet-name>gat_webgateSvt</servlet-name>
+		<servlet-class>com.montnets.emp.gateway.servlet.gat_webgateSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>通道管理</description>
+		<display-name>网关后端配置</display-name>
+		<servlet-name>pas_passageSvt</servlet-name>
+		<servlet-class>com.montnets.emp.passage.servlet.pas_passageSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>网关后端配置</description>
+		<display-name>通道账户管理</display-name>
+		<servlet-name>gat_userdataSvt</servlet-name>
+		<servlet-class>com.montnets.emp.gateway.servlet.gat_userdataSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>通道账号监控</description>
+		<display-name>通道账号监控</display-name>
+		<servlet-name>mon_accountGateMonitorSvt</servlet-name>
+		<servlet-class>com.montnets.emp.monitorpas.servlet.mon_accountGateMonitorSvt</servlet-class>
+	</servlet>
+
+	<!--
+	 <servlet>
+		<description>发送账号监控</description>
+		<display-name>发送账号监控</display-name>
+		<servlet-name>mon_accountAccessMonitorSvt</servlet-name>
+		<servlet-class>com.montnets.emp.monitorsp.servlet.mon_accountAccessMonitorSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>系统运行监控</description>
+		<display-name>系统运行监控</display-name>
+		<servlet-name>mon_systemRuntimerMonitorSvt</servlet-name>
+		<servlet-class>com.montnets.emp.monitorsys.servlet.mon_systemRuntimerMonitorSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mon_accountGateMonitorSvt</servlet-name>
+		<url-pattern>/mon_accountGateMonitor.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>mon_accountAccessMonitorSvt</servlet-name>
+		<url-pattern>/mon_accountAccessMonitor.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>mon_systemRuntimerMonitorSvt</servlet-name>
+		<url-pattern>/mon_systemRuntimerMonitor.htm</url-pattern>
+	</servlet-mapping>
+	 -->
+
+	<servlet-mapping>
+		<servlet-name>gat_spgateSvt</servlet-name>
+		<url-pattern>/gat_spgate.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>pas_passageSvt</servlet-name>
+		<url-pattern>/pas_passage.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>gat_webgateSvt</servlet-name>
+		<url-pattern>/gat_webgate.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>gat_userdataSvt</servlet-name>
+		<url-pattern>/gat_userdata.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description>短彩SP账户</description>
+		<display-name>网关前端配置</display-name>
+		<servlet-name>pag_userDataSvt</servlet-name>
+		<servlet-class>com.montnets.emp.pasgroup.servlet.pag_userDataSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>pag_userDataSvt</servlet-name>
+		<url-pattern>/pag_userData.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>代理账号管理</description>
+		<display-name>网关前端配置</display-name>
+		<servlet-name>pag_proxyMageSvt</servlet-name>
+		<servlet-class>com.montnets.emp.pasgroup.servlet.pag_proxyMageSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>pag_proxyMageSvt</servlet-name>
+		<url-pattern>/pag_proxyMage.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>账户通道配置</description>
+		<display-name>网关前端配置</display-name>
+		<servlet-name>par_routeSvt</servlet-name>
+		<servlet-class>com.montnets.emp.pasroute.servlet.par_routeSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>par_routeSvt</servlet-name>
+		<url-pattern>/par_route.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>SP账号充值/回收</description>
+		<display-name>网关前端配置</display-name>
+		<servlet-name>spb_spBalanceMgrSvt</servlet-name>
+		<servlet-class>com.montnets.emp.spbalance.servlet.spb_spBalanceMgrSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>spb_spBalanceMgrSvt</servlet-name>
+		<url-pattern>/spb_spBalanceMgr.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>SP账户绑定</description>
+		<display-name>网关前端配置</display-name>
+		<servlet-name>pgb_spBindSvt</servlet-name>
+		<servlet-class>com.montnets.emp.pasgrpbind.servlet.pgb_spBindSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>pgb_spBindSvt</servlet-name>
+		<url-pattern>/pgb_spBind.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>号段管理</description>
+		<display-name>网关前端配置</display-name>
+		<servlet-name>seg_phoneNoSvt</servlet-name>
+		<servlet-class>com.montnets.emp.segnumber.servlet.seg_phoneNoSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>seg_phoneNoSvt</servlet-name>
+		<url-pattern>/seg_phoneNo.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description>上行指令绑定</description>
+		<display-name>上行指令绑定</display-name>
+		<servlet-name>pag_orderBindSvt</servlet-name>
+		<servlet-class>com.montnets.emp.pasgroup.servlet.pag_orderBindSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>pag_orderBindSvt</servlet-name>
+		<url-pattern>/pag_orderBind.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>黑名单</description>
+		<display-name>参数维护</display-name>
+		<servlet-name>bla_blacklistSvt</servlet-name>
+		<servlet-class>com.montnets.emp.servmodule.txgl.blacklist.servlet.bla_blacklistSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>bla_blacklistSvt</servlet-name>
+		<url-pattern>/bla_blacklistSvt.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>彩信黑名单</description>
+		<display-name>参数维护</display-name>
+		<servlet-name>bla_mmsblacklistSvt</servlet-name>
+		<servlet-class>com.montnets.emp.servmodule.txgl.blacklist.servlet.bla_mmsblacklistSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>bla_mmsblacklistSvt</servlet-name>
+		<url-pattern>/bla_mmsblacklistSvt.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>关键字管理</description>
+		<display-name>关键字管理</display-name>
+		<servlet-name>key_keywordServlet</servlet-name>
+		<servlet-class>com.montnets.emp.servmodule.txgl.keywords.servlet.key_keywordSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>key_keywordServlet</servlet-name>
+		<url-pattern>/key_keywordSvt.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>运营商号段管理</description>
+		<display-name>网关前端配置</display-name>
+		<servlet-name>seg_areaPhoneNoSvt</servlet-name>
+		<servlet-class>com.montnets.emp.areaphno.servlet.seg_areaPhoneNoSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>seg_areaPhoneNoSvt</servlet-name>
+		<url-pattern>/seg_areaPhoneNo.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>SP账号充值日志查看</description>
+		<display-name>SP账号充值日志查看</display-name>
+		<servlet-name>SPBalanceLogSvt</servlet-name>
+		<servlet-class>com.montnets.emp.spbalance.servlet.SPBalanceLogSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SPBalanceLogSvt</servlet-name>
+		<url-pattern>/sp_balanceLog.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>mwadmin登录</description>
+		<display-name>通道账号参数设置</display-name>
+		<servlet-name>mwg_userdataSvt</servlet-name>
+		<servlet-class>com.montnets.emp.gateway.servlet.mwg_userdataSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mwg_userdataSvt</servlet-name>
+		<url-pattern>/mwg_userdata.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>mwadmin登录接入SP账号参数设置</description>
+		<display-name>接入SP账号参数设置</display-name>
+		<servlet-name>mwp_userDataSvt</servlet-name>
+		<servlet-class>com.montnets.emp.pasgroup.servlet.mwp_userDataSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mwp_userDataSvt</servlet-name>
+		<url-pattern>/mwp_userData.htm</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<description>API接口参数管理</description>
+		<display-name>API接口参数管理</display-name>
+		<servlet-name>ApiParaSvt</servlet-name>
+		<servlet-class>com.montnets.emp.apimanage.servlet.wg_apiParaSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ApiParaSvt</servlet-name>
+		<url-pattern>/wg_apiPara.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>API个性化配置</description>
+		<display-name>API个性化配置</display-name>
+		<servlet-name>wg_apiBaseSvt</servlet-name>
+		<servlet-class>com.montnets.emp.apimanage.servlet.wg_apiBaseSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wg_apiBaseSvt</servlet-name>
+		<url-pattern>/wg_apiBaseMage.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>API推送用户回应管理</description>
+		<display-name>API推送用户回应管理</display-name>
+		<servlet-name>wg_pushRsProtocolSvt</servlet-name>
+		<servlet-class>com.montnets.emp.apimanage.servlet.wg_pushRsProtocolSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wg_pushRsProtocolSvt</servlet-name>
+		<url-pattern>/wg_pushRsProtocol.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>接入账号查看权限</description>
+		<display-name>接入账号查看权限</display-name>
+		<servlet-name>pgb_accessPriSvt</servlet-name>
+		<servlet-class>com.montnets.emp.accountpower.servlet.pgb_accessPriSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>pgb_accessPriSvt</servlet-name>
+		<url-pattern>/pgb_accessPri.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>富信平台</description>
+		<display-name>计费档位管理</display-name>
+		<servlet-name>tx_degreeManagerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.degree.servlet.rms_degreeManagerSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>tx_degreeManagerSvt</servlet-name>
+		<url-pattern>/tx_degreeManager.htm</url-pattern>
+	</servlet-mapping>
+
+	<!-- 新增企业富信权限模块管理 -->
+	<servlet>
+		<description>企业富信权限管理</description>
+		<servlet-name>tx_corManagerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.txgl.corpmanage.servlet.cor_managerSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>tx_corManagerSvt</servlet-name>
+		<url-pattern>/tx_corManager.htm</url-pattern>
+	</servlet-mapping>
+	<!--txglConfig.xml end-->
+
+	<!--userConfig.xml start-->
+	<servlet>
+		<description>组织机构管理</description>
+		<display-name>用户管理</display-name>
+		<servlet-name>opt_departmentSvt</servlet-name>
+		<servlet-class>com.montnets.emp.sysuser.servlet.opt_departmentSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>角色管理</description>
+		<display-name>用户管理</display-name>
+		<servlet-name>opt_roleSvt</servlet-name>
+		<servlet-class>com.montnets.emp.sysuser.servlet.opt_roleSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>操作员管理</description>
+		<display-name>用户管理</display-name>
+		<servlet-name>opt_sysuserSvt</servlet-name>
+		<servlet-class>com.montnets.emp.sysuser.servlet.opt_sysuserSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>opt_departmentSvt</servlet-name>
+		<url-pattern>/opt_department.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>opt_roleSvt</servlet-name>
+		<url-pattern>/opt_role.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>opt_sysuserSvt</servlet-name>
+		<url-pattern>/opt_sysuser.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>员工通讯录</description>
+		<display-name>员工通讯录管理</display-name>
+		<servlet-name>epl_employeeBookSvt</servlet-name>
+		<servlet-class>com.montnets.emp.employee.servlet.epl_employeeBookSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>epl_employeeBookSvt</servlet-name>
+		<url-pattern>/epl_employeeBook.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<display-name>员工机构管理</display-name>
+		<servlet-name>epl_empDepSvt</servlet-name>
+		<servlet-class>com.montnets.emp.employee.servlet.epl_empDepSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>epl_empDepSvt</servlet-name>
+		<url-pattern>/epl_empDep.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>员工权限绑定</description>
+		<display-name>员工通讯录管理</display-name>
+		<servlet-name>epl_permissionsSvt</servlet-name>
+		<servlet-class>com.montnets.emp.employee.servlet.epl_permissionsSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>epl_permissionsSvt</servlet-name>
+		<url-pattern>/epl_permissions.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>职位管理</description>
+		<display-name>员工通讯录管理</display-name>
+		<servlet-name>epl_positionSvt</servlet-name>
+		<servlet-class>com.montnets.emp.employee.servlet.epl_positionSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>epl_positionSvt</servlet-name>
+		<url-pattern>/epl_position.htm</url-pattern>
+	</servlet-mapping>
+	<!--userConfig.xml end-->
+
+	<!--weixConfig.xml start-->
+    <!-- 微信项目servlet群 -->
+    <servlet>
+        <description>公众账号管理</description>
+        <display-name>公众账号管理</display-name>
+        <servlet-name>acctmanagerSvt</servlet-name>
+        <servlet-class>com.montnets.emp.weix.servlet.AcctManagerSvt</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>acctmanagerSvt</servlet-name>
+        <url-pattern>/cwc_acctmanager.htm</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description>回复管理</description>
+        <servlet-name>replymangerSvt</servlet-name>
+        <servlet-class>com.montnets.emp.weix.servlet.ReplyMangerSvt</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>replymangerSvt</servlet-name>
+        <url-pattern>/cwc_replymanger.htm</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description>用户中心</description>
+        <servlet-name>usermangerSvt</servlet-name>
+        <servlet-class>com.montnets.emp.weix.servlet.UserMangerSvt</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>usermangerSvt</servlet-name>
+        <url-pattern>/cwc_usermanger.htm</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description>图文详情</description>
+        <servlet-name>imgdetailSvt</servlet-name>
+        <servlet-class>com.montnets.emp.weix.servlet.ImgDetailSvt</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>imgdetailSvt</servlet-name>
+        <url-pattern>/cwc_imgdetail.hts</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <description>默认回复</description>
+        <display-name>默认回复</display-name>
+        <servlet-name>defaultrepSvt</servlet-name>
+        <servlet-class>com.montnets.emp.weix.servlet.DefaultrepSvt</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>defaultrepSvt</servlet-name>
+        <url-pattern>/cwc_defaultrep.htm</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <description>关注时回复</description>
+        <display-name>关注时回复</display-name>
+        <servlet-name>focusrepSvt</servlet-name>
+        <servlet-class>com.montnets.emp.weix.servlet.FocusrepSvt</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>focusrepSvt</servlet-name>
+        <url-pattern>/cwc_focusrep.htm</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description>微信接口</description>
+        <display-name>微信接口</display-name>
+        <servlet-name>weixCommSvt</servlet-name>
+        <servlet-class>com.montnets.emp.weix.servlet.WeixCommSvt</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>weixCommSvt</servlet-name>
+        <url-pattern>/api/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description>历史消息管理</description>
+        <display-name>历史消息管理</display-name>
+        <servlet-name>msgManagerSvt</servlet-name>
+        <servlet-class>com.montnets.emp.weix.servlet.MsgManagerSvt</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>msgManagerSvt</servlet-name>
+        <url-pattern>/cwc_msgrep.htm</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description>微信账号与emp信息关联</description>
+        <display-name>微信账号与emp信息关联</display-name>
+        <servlet-name>InfoRelatedSvt</servlet-name>
+        <servlet-class>com.montnets.emp.weix.servlet.InfoRelatedSvt</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InfoRelatedSvt</servlet-name>
+        <url-pattern>/cwc_infoRelated.hts</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description>自定义菜单</description>
+        <display-name>微信</display-name>
+        <servlet-name>dfm_definemenuSvt</servlet-name>
+        <servlet-class>com.montnets.emp.weix.servlet.DefineMenuSvt</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>dfm_definemenuSvt</servlet-name>
+        <url-pattern>/dfm_definemenu.htm</url-pattern>
+    </servlet-mapping>
+	<!--weixConfig.xml end-->
+
+	<!--wxglConfig.xml start-->
+	<servlet>
+		<description>关注时回复</description>
+		<display-name>关注时回复</display-name>
+		<servlet-name>focusReplySvt</servlet-name>
+		<servlet-class>com.montnets.emp.wxgl.svt.weix_focusReplySvt
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>focusReplySvt</servlet-name>
+		<url-pattern>/weix_focusReply.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>默认回复</description>
+		<display-name>默认回复</display-name>
+		<servlet-name>defaultReplySvt</servlet-name>
+		<servlet-class>com.montnets.emp.wxgl.svt.weix_defaultReplySvt
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>defaultReplySvt</servlet-name>
+		<url-pattern>/weix_defaultReply.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description>用户增长统计管理</description>
+		<display-name>用户增长统计管理</display-name>
+		<servlet-name>tjgl_subscriberGrowthSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wxgl.user.svt.tjgl_userGrowReportSvt
+		</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>tjgl_subscriberGrowthSvt</servlet-name>
+		<url-pattern>/yhzz_growReport.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>用户属性统计管理</description>
+		<display-name>用户属性统计管理</display-name>
+		<servlet-name>tjgl_userStatisticsSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wxgl.user.svt.tjgl_userStatisticsSvt
+		</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>tjgl_userStatisticsSvt</servlet-name>
+		<url-pattern>/yhsx_userAttrReport.htm</url-pattern>
+	</servlet-mapping>
+
+	<!-- end 微信项目servlet群 -->
+
+	<servlet>
+		<description>自定义菜单</description>
+		<display-name>自定义菜单</display-name>
+		<servlet-name>defineMenuSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wxgl.svt.weix_defineMenuSvt
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>defineMenuSvt</servlet-name>
+		<url-pattern>/weix_defineMenu.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description>关键字回复</description>
+		<display-name>关键字回复</display-name>
+		<servlet-name>keywordReply</servlet-name>
+		<servlet-class>com.montnets.emp.wxgl.svt.weix_keywordReplySvt
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>keywordReply</servlet-name>
+		<url-pattern>/weix_keywordReply.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>图文详情</description>
+		<servlet-name>imgDetailSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wxgl.svt.weix_imgDetailSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>imgDetailSvt</servlet-name>
+		<url-pattern>/weix_imgDetail.hts</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>公众帐号管理</description>
+		<display-name>公众帐号管理</display-name>
+		<servlet-name>weix_acctManagerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wxgl.svt.weix_acctManagerSvt
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>weix_acctManagerSvt</servlet-name>
+		<url-pattern>/weix_acctManager.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>lbs管理</description>
+		<display-name>lbs管理</display-name>
+		<servlet-name>weix_lbsManagerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wxgl.svt.weix_lbsManagerSvt
+		</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>weix_lbsManagerSvt</servlet-name>
+		<url-pattern>/weix_lbsManager.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>weix_lbsManagerSvt</servlet-name>
+		<url-pattern>/weix_lbsManager.hts</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>用户列表</description>
+		<display-name>用户列表</display-name>
+		<servlet-name>user_contactManagerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wxgl.svt.weix_contactManagerSvt
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>user_contactManagerSvt</servlet-name>
+		<url-pattern>/user_contactManager.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>群组管理</description>
+		<display-name>群组管理</display-name>
+		<servlet-name>user_groupManagerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wxgl.svt.weix_groupManagerSvt
+		</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>user_groupManagerSvt</servlet-name>
+		<url-pattern>/user_groupManager.htm</url-pattern>
+	</servlet-mapping>
+
+	<!-- 群发管理开始  -->
+	<servlet>
+		<description>分组群发</description>
+		<display-name>分组群发</display-name>
+		<servlet-name>yxgl_qunfaMgrSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wxgl.svt.weix_qunfaMgrSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>yxgl_qunfaMgrSvt</servlet-name>
+		<url-pattern>/yxgl_fzqfManager.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>微信群发历史</description>
+		<display-name>微信群发历史</display-name>
+		<servlet-name>yxgl_sendHistorySvt</servlet-name>
+		<servlet-class>com.montnets.emp.wxgl.svt.weix_qunfaHistorySvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>yxgl_sendHistorySvt</servlet-name>
+		<url-pattern>/yxgl_sendHistory.htm</url-pattern>
+	</servlet-mapping>
+	<!-- 群发管理结束  -->
+
+	<servlet>
+		<description>微信平台接入地址</description>
+		<display-name>微信平台接入地址</display-name>
+		<servlet-name>wxCommSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wxgl.svt.weix_wxCommonSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wxCommSvt</servlet-name>
+		<url-pattern>/api/*</url-pattern>
+	</servlet-mapping>
+	<!--wxglConfig.xml end-->
+
+	<!--wyglConfig.xml start-->
+	<servlet>
+		<servlet-name>RptWyListener</servlet-name>
+		<servlet-class>com.montnets.emp.wyquery.listener.RptWyListener</servlet-class>
+		<load-on-startup>14</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<description>网优路由绑定</description>
+		<display-name>网优路由绑定</display-name>
+		<servlet-name>wy_routeManageSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wymanage.servlet.wy_routeManageSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>wy_routeManageSvt</servlet-name>
+		<url-pattern>/wy_routeManage.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>国家代码管理</description>
+		<servlet-name>wy_areaCodeManageSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wymanage.servlet.wy_areaCodeManageSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wy_areaCodeManageSvt</servlet-name>
+		<url-pattern>/wy_areaCodeManage.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>特殊号码管理</description>
+		<display-name>特殊号码管理</display-name>
+		<servlet-name>wy_spePhoneManageSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wymanage.servlet.wy_spePhoneManageSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>wy_spePhoneManageSvt</servlet-name>
+		<url-pattern>/wy_spePhoneManage.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>网讯群发历史</description>
+		<servlet-name>wy_gateManageSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wymanage.servlet.wy_gateManageSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wy_gateManageSvt</servlet-name>
+		<url-pattern>/wy_gateManage.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>网优历史记录</description>
+		<servlet-name>wyq_historyRecordSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wyquery.servlet.wyq_historyRecordSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wyq_historyRecordSvt</servlet-name>
+		<url-pattern>/wyq_historyRecord.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>携号号码管理</description>
+		<servlet-name>wy_mnpManageSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wymanage.servlet.wy_mnpManageSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>wy_mnpManageSvt</servlet-name>
+		<url-pattern>/wy_mnpManage.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>携号错误码管理 </description>
+		<servlet-name>wy_mnpErrCodeManageSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wymanage.servlet.wy_mnpErrCodeManageSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>wy_mnpErrCodeManageSvt</servlet-name>
+		<url-pattern>/wy_mnpErrCodeManage.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>网优下行记录</description>
+		<display-name>网优下行记录</display-name>
+		<servlet-name>wy_mtRecordSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wymanage.servlet.wy_mtRecordSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>wy_mtRecordSvt</servlet-name>
+		<url-pattern>/wyq_mtRecord.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>网优统计报表</description>
+		<display-name>网优统计报表</display-name>
+		<servlet-name>wyq_reportSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wyquery.servlet.wyq_reportSvt
+		</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>wyq_reportSvt</servlet-name>
+		<url-pattern>/wyq_statisticalReport.htm</url-pattern>
+	</servlet-mapping>
+	<!--wyglConfig.xml end-->
+
+	<!--wzglConfig.xml start-->
+	<!-- 微站管理servlet群 -->
+	<servlet>
+		<description>微站管理列表</description>
+		<display-name>微站管理列表</display-name>
+		<servlet-name>siteManagerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wzgl.site.svt.wzgl_siteManagerSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>siteManagerSvt</servlet-name>
+		<url-pattern>/wzgl_siteManager.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>siteManagerSvt</servlet-name>
+		<url-pattern>/wzgl_siteManager.hts</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>微站预览</description>
+		<display-name>微站预览</display-name>
+		<servlet-name>sitePreviewSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wzgl.site.svt.wzgl_sitePreviewSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sitePreviewSvt</servlet-name>
+		<url-pattern>/wzgl_sitePreview.hts</url-pattern>
+	</servlet-mapping>
+	<!-- end 微站管理servlet群 -->
+
+	<!-- 表单设计servlet群 -->
+	<servlet>
+		<description>表单设计</description>
+		<display-name>表单设计</display-name>
+		<servlet-name>wzgl_formManagerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wzgl.form.svt.wzgl_formManagerSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>wzgl_formManagerSvt</servlet-name>
+		<url-pattern>/wzgl_formManager.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>wzgl_formManagerSvt</servlet-name>
+		<url-pattern>/wzgl_formManager.hts</url-pattern>
+	</servlet-mapping>
+	<!-- end 表单设计servlet群 -->
+	<!--wzglConfig.xml end-->
+
+	<!--xtglConfig.xml start-->
+	<servlet>
+		<servlet-name>LogJobSvt</servlet-name>
+		<servlet-class>com.montnets.emp.log.servlet.LogJobSvt</servlet-class>
+		<load-on-startup>3</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<description>登录安全设置</description>
+		<display-name>用户管理</display-name>
+		<servlet-name>ctr_securectrlSvt</servlet-name>
+		<servlet-class>com.montnets.emp.securectrl.servlet.ctr_securectrlSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>彩信模板审核</description>
+		<display-name>模板管理</display-name>
+		<servlet-name>tef_mmsTemInfoReviewSvt</servlet-name>
+		<servlet-class>com.montnets.emp.tempflow.servlet.tef_mmsTemInfoReviewSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>企业管理</description>
+		<display-name>企业管理</display-name>
+		<servlet-name>cor_managerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.corpmanage.servlet.cor_managerSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>企业账户绑定</description>
+		<display-name>企业账户绑定</display-name>
+		<servlet-name>cor_appSvt</servlet-name>
+		<servlet-class>com.montnets.emp.corpmanage.servlet.cor_appSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>业务类型</description>
+		<display-name>参数维护</display-name>
+		<servlet-name>bit_busTypeSvt</servlet-name>
+		<servlet-class>com.montnets.emp.biztype.servlet.bit_busTypeSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>彩信帐户绑定</description>
+		<display-name>彩信帐户绑定</display-name>
+		<servlet-name>cor_mmsBindSpSvt</servlet-name>
+		<servlet-class>com.montnets.emp.corpmanage.servlet.cor_mmsBindSpSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>数据源配置</description>
+		<display-name>参数维护</display-name>
+		<servlet-name>dat_datasourceConfSvt</servlet-name>
+		<servlet-class>com.montnets.emp.datasource.servlet.dat_datasourceConfSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>短信模板</description>
+		<display-name>模板管理</display-name>
+		<servlet-name>tem_smsTemplateSvt</servlet-name>
+		<servlet-class>com.montnets.emp.template.servlet.tem_smsTemplateSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>彩信审批</description>
+		<display-name>信息审批</display-name>
+		<servlet-name>msg_mmsInfoReviewSvt</servlet-name>
+		<servlet-class>com.montnets.emp.msgflow.servlet.msg_mmsInfoReviewSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>子号管理</description>
+		<display-name>参数维护</display-name>
+		<servlet-name>tai_subnoSvt</servlet-name>
+		<servlet-class>com.montnets.emp.tailnumber.servlet.tai_subnoSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>公告列表</description>
+		<display-name>公告</display-name>
+		<servlet-name>not_noticeSvt</servlet-name>
+		<servlet-class>com.montnets.emp.notice.servlet.not_noticeSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>自定义参数</description>
+		<display-name>自定义参数</display-name>
+		<servlet-name>par_selParamSvt</servlet-name>
+		<servlet-class>com.montnets.emp.selfparam.servlet.par_selParamSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>个性化界面设置</description>
+		<display-name>个性化界面设置</display-name>
+		<servlet-name>par_indexCfgSvt</servlet-name>
+		<servlet-class>com.montnets.emp.specfg.servlet.par_indexCfgSvt</servlet-class>
+	</servlet>
+
+	<!-- EMP6.1 标准版 新需求 新增 pengj -->
+	<servlet>
+		<description>状态码</description>
+		<display-name>状态码</display-name>
+		<servlet-name>sta_stateCodeSvt</servlet-name>
+		<servlet-class>com.montnets.emp.statecode.servlet.sta_stateCodeSvt</servlet-class>
+	</servlet>
+	<!-- end -->
+
+	<servlet-mapping>
+		<servlet-name>tai_subnoSvt</servlet-name>
+		<url-pattern>/tai_subno.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>bit_busTypeSvt</servlet-name>
+		<url-pattern>/bit_busType.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>dat_datasourceConfSvt</servlet-name>
+		<url-pattern>/dat_datasourceConf.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>cor_managerSvt</servlet-name>
+		<url-pattern>/cor_manager.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>cor_appSvt</servlet-name>
+		<url-pattern>/cor_corpSp.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>cor_mmsBindSpSvt</servlet-name>
+		<url-pattern>/cor_mmsBindSp.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>msg_mmsInfoReviewSvt</servlet-name>
+		<url-pattern>/msg_mmsInfoReview.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>tem_smsTemplateSvt</servlet-name>
+		<url-pattern>/tem_smsTemplate.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ctr_securectrlSvt</servlet-name>
+		<url-pattern>/ctr_securectrl.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>not_noticeSvt</servlet-name>
+		<url-pattern>/not_notice.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>par_selParamSvt</servlet-name>
+		<url-pattern>/par_selParam.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>短信模板审核</description>
+		<display-name>信息审核</display-name>
+		<servlet-name>tef_smsTemInfoReviewSvt</servlet-name>
+		<servlet-class>com.montnets.emp.tempflow.servlet.tef_smsTemInfoReviewSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>tef_smsTemInfoReviewSvt</servlet-name>
+		<url-pattern>/tef_smsTemInfoReview.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>tef_mmsTemInfoReviewSvt</servlet-name>
+		<url-pattern>/tef_mmsTemInfoReview.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>信息审核</description>
+		<display-name>短信审核</display-name>
+		<servlet-name>msg_smsInfoReviewSvt</servlet-name>
+		<servlet-class>com.montnets.emp.msgflow.servlet.msg_smsInfoReviewSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>msg_smsInfoReviewSvt</servlet-name>
+		<url-pattern>/msg_smsInfoReview.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>模块参数配置</description>
+		<display-name>模块参数配置</display-name>
+		<servlet-name>mep_menuParamConfigSvt</servlet-name>
+		<servlet-class>com.montnets.emp.menuParam.servlet.mep_menuParamConfigSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mep_menuParamConfigSvt</servlet-name>
+		<url-pattern>/mep_menuParamConfig.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>操作日志</description>
+		<display-name>系统管理</display-name>
+		<servlet-name>opl_OprateMonitorSvt</servlet-name>
+		<servlet-class>com.montnets.emp.optlog.servlet.opl_OprateMonitorSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>opl_OprateMonitorSvt</servlet-name>
+		<url-pattern>/opl_OprateMonitor.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description>机构充值/回收管理</description>
+		<display-name>机构充值/回收管理</display-name>
+		<servlet-name>cha_balanceMgrSvt</servlet-name>
+		<servlet-class>com.montnets.emp.charging.servlet.cha_balanceMgrSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>充值/回收日志</description>
+		<display-name>充值/回收日志</display-name>
+		<servlet-name>cha_balanceLogSvr</servlet-name>
+		<servlet-class>com.montnets.emp.charging.servlet.cha_balanceLogSvr</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>cha_balanceMgrSvt</servlet-name>
+		<url-pattern>/cha_balanceMgr.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>cha_balanceLogSvr</servlet-name>
+		<url-pattern>/cha_balanceLog.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description>审核流程管理</description>
+		<display-name>审核流程管理</display-name>
+		<servlet-name>aud_auditproSvt</servlet-name>
+		<servlet-class>com.montnets.emp.auditpro.servlet.aud_auditproSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>aud_auditproSvt</servlet-name>
+		<url-pattern>/aud_auditpro.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>par_indexCfgSvt</servlet-name>
+		<url-pattern>/par_indexCfg.htm</url-pattern>
+	</servlet-mapping>
+
+	<!-- EMP6.1 标准版 新需求 新增 pengj -->
+	<servlet-mapping>
+		<servlet-name>sta_stateCodeSvt</servlet-name>
+		<url-pattern>/sta_stateCode.htm</url-pattern>
+	</servlet-mapping>
+	<!-- end -->
+
+	<!-- EMP6.1 标准版 新需求 新增 pengj -->
+	<servlet>
+		<description>业务贴尾管理</description>
+		<display-name>业务管理</display-name>
+		<servlet-name>tai_msgTailMgrSvt</servlet-name>
+		<servlet-class>com.montnets.emp.tailmanage.servlet.tai_msgTailMgrSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>tai_msgTailMgrSvt</servlet-name>
+		<url-pattern>/tai_msgTailMgr.htm</url-pattern>
+	</servlet-mapping>
+	<!-- end -->
+	<!--xtglConfig.xml end-->
+
+	<!--ydcwConfig.xml start-->
+	<servlet>
+		<description>电子工资单</description>
+		<display-name>电子工资单</display-name>
+		<servlet-name>ycw_electronicPayrollSvt</servlet-name>
+		<servlet-class>com.montnets.emp.finance.servlet.ycw_finaceSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>报销报醒</description>
+		<display-name>报销报醒</display-name>
+		<servlet-name>ycw_reimbursementRemindSvt</servlet-name>
+		<servlet-class>com.montnets.emp.finance.servlet.ycw_finaceSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>回款通知</description>
+		<display-name>回款通知</display-name>
+		<servlet-name>ycw_backFundsNoticeSvt</servlet-name>
+		<servlet-class>com.montnets.emp.finance.servlet.ycw_finaceSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>任务查询</description>
+		<display-name>任务短信群发统计报表</display-name>
+		<servlet-name>ycw_sendTaskSvt</servlet-name>
+		<servlet-class>com.montnets.emp.smstask.servlet.smt_smsSendedBoxSvt
+		</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ycw_sendTaskSvt</servlet-name>
+		<url-pattern>/ycw_sendTask.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ycw_sendTaskSvt</servlet-name>
+		<url-pattern>/ycw_sendTaskHis.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ycw_reimbursementRemindSvt</servlet-name>
+		<url-pattern>/ycw_reimbursementRemind.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ycw_backFundsNoticeSvt</servlet-name>
+		<url-pattern>/ycw_backFundsNotice.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ycw_electronicPayrollSvt</servlet-name>
+		<url-pattern>/ycw_electronicPayroll.htm</url-pattern>
+	</servlet-mapping>
+	<!--ydcwConfig.xml end-->
+
+	<!--ydcxConfig.xml start-->
+	<servlet>
+		<description>动态彩信</description>
+		<display-name>移动彩讯</display-name>
+		<servlet-name>dmm_sendDynMMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.diffmms.servlet.dmm_sendDynMMSSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>dmm_sendDynMMSSvt</servlet-name>
+		<url-pattern>/dmm_sendDynMMS.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>静态彩信发送</description>
+		<display-name>移动彩讯</display-name>
+		<servlet-name>smm_sameMmsSvt</servlet-name>
+		<servlet-class>com.montnets.emp.samemms.servlet.smm_sameMmsSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>smm_sameMmsSvt</servlet-name>
+		<url-pattern>/smm_sameMms.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>彩信任务信息查看</description>
+		<display-name>移动彩讯</display-name>
+		<servlet-name>mmt_mmsTaskSvt</servlet-name>
+		<servlet-class>com.montnets.emp.mmstask.servlet.mmt_mmsTaskSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mmt_mmsTaskSvt</servlet-name>
+		<url-pattern>/mmt_mmsTask.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>彩信模板</description>
+		<display-name>模板管理</display-name>
+		<servlet-name>tem_mmsTemplateSvt</servlet-name>
+		<servlet-class>com.montnets.emp.mmstemplate.servlet.tem_mmsTemplateSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>tem_mmsTemplateSvt</servlet-name>
+		<url-pattern>/tem_mmsTemplate.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>彩信定时任务信息查看</description>
+		<display-name>移动彩讯</display-name>
+		<servlet-name>mmt_mmsTimerTaskSvt</servlet-name>
+		<servlet-class>com.montnets.emp.mmstask.servlet.mmt_mmsTimerTaskSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mmt_mmsTimerTaskSvt</servlet-name>
+		<url-pattern>/mmt_mmsTimerTask.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>彩信素材</description>
+		<display-name>移动彩讯</display-name>
+		<servlet-name>mat_mmsMaterialSvt</servlet-name>
+		<servlet-class>com.montnets.emp.mmsmate.servlet.mat_mmsMaterialSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mat_mmsMaterialSvt</servlet-name>
+		<url-pattern>/mat_mmsMaterial.htm</url-pattern>
+	</servlet-mapping>
+	<!--ydcxConfig.xml end-->
+
+	<!--ydwxConfig.xml start-->
+	<listener>
+		<listener-class>com.montnets.emp.netnews.listener.TimerListener</listener-class>
+	</listener>
+	<filter>
+		<description>动态地址静态化过滤器</description>
+		<display-name>动态地址静态化过滤器</display-name>
+		<filter-name>UrlRewriteFilter</filter-name>
+		<filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
+		<init-param>
+			<param-name>logLevel</param-name>
+			<param-value>WARN</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>UrlRewriteFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<description>网讯文件判断</description>
+		<display-name>网讯文件判断</display-name>
+		<filter-name>FileExitFilter</filter-name>
+		<filter-class>com.montnets.emp.common.filter.FileExitFilter</filter-class>
+		<init-param>
+			<param-name>logLevel</param-name>
+			<param-value>WARN</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>FileExitFilter</filter-name>
+		<url-pattern>/file/wx/mater/*</url-pattern>
+	</filter-mapping>
+
+	<servlet>
+		<description>移动网讯</description>
+		<display-name>业务数据</display-name>
+		<servlet-name>wx_trustdataSvt</servlet-name>
+		<servlet-class>com.montnets.emp.netnews.servlet.wx_trustDataSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>wx_trustdataSvt</servlet-name>
+		<url-pattern>/wx_trustdata.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>创建网讯</description>
+		<display-name>创建网讯</display-name>
+		<servlet-name>wx_ueditorServlet</servlet-name>
+		<servlet-class>com.montnets.emp.netnews.servlet.wx_ueditorServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wx_ueditorServlet</servlet-name>
+		<url-pattern>/wx_ueditor.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>互动数据交互</description>
+		<display-name>互动数据交互</display-name>
+		<servlet-name>wx_interSvt</servlet-name>
+		<servlet-class>com.montnets.emp.netnews.common.servlet.wx_interSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wx_interSvt</servlet-name>
+		<url-pattern>/wx_inter.hts</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description>管理网讯</description>
+		<display-name>管理网讯</display-name>
+		<servlet-name>wx_netMangerServlet</servlet-name>
+		<servlet-class>com.montnets.emp.netnews.servlet.wx_netMangerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wx_netMangerServlet</servlet-name>
+		<url-pattern>/wx_manger.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>生成网讯Wap页面</description>
+		<display-name>生成网讯Wap页面</display-name>
+		<servlet-name>wx_getNetServlet</servlet-name>
+		<servlet-class>com.montnets.emp.netnews.common.servlet.wx_getNetServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wx_getNetServlet</servlet-name>
+		<url-pattern>/wx.nms</url-pattern>
+	</servlet-mapping>
+
+	<!-- chensj 网讯素材 -->
+	<servlet>
+		<servlet-name>wx_netAttachedServlet</servlet-name>
+		<servlet-class>com.montnets.emp.netnews.servlet.wx_netAttachedServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wx_netAttachedServlet</servlet-name>
+		<url-pattern>/wx_attached.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>文件上传</description>
+		<servlet-name>FileUploadServlet</servlet-name>
+		<servlet-class>com.montnets.emp.netnews.servlet.FileUploadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FileUploadServlet</servlet-name>
+		<url-pattern>/FileUpload.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>视频上传</description>
+		<servlet-name>VedFileUploadServlet</servlet-name>
+		<servlet-class>com.montnets.emp.netnews.servlet.VedFileUploadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VedFileUploadServlet</servlet-name>
+		<url-pattern>/VedFileUpload.htm</url-pattern>
+	</servlet-mapping>
+	<!-- 结束 -->
+
+	<!--问卷管理 -->
+	<servlet>
+		<servlet-name>wx_surveySvt</servlet-name>
+		<servlet-class>com.montnets.emp.netnews.servlet.wx_surveySvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wx_surveySvt</servlet-name>
+		<url-pattern>/wx_survey.htm</url-pattern>
+	</servlet-mapping>
+	<!-- 问卷管理结束 -->
+
+	<servlet>
+		<description>移动网讯</description>
+		<display-name>网讯模板</display-name>
+		<servlet-name>wx_templateSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wxmanager.servlet.wx_templateSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>wx_templateSvt</servlet-name>
+		<url-pattern>/wx_template.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>网讯审核</description>
+		<display-name>网讯审核</display-name>
+		<servlet-name>wx_checkSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wxmanager.servlet.wx_checkSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wx_checkSvt</servlet-name>
+		<url-pattern>/wx_check.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>运营商审核</description>
+		<display-name>运营商审核</display-name>
+		<servlet-name>wx_operAppSvt</servlet-name>
+		<servlet-class>com.montnets.emp.wxmanager.servlet.wx_operAppSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wx_operAppSvt</servlet-name>
+		<url-pattern>/wx_operApp.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>发送网讯</description>
+		<display-name>发送网讯</display-name>
+		<servlet-name>wx_sendrSvt</servlet-name>
+		<servlet-class>com.montnets.emp.netnews.servlet.wx_sendrSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wx_sendrSvt</servlet-name>
+		<url-pattern>/wx_send.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>个性网讯</description>
+		<display-name>个性网讯</display-name>
+		<servlet-name>wx_sendDSMSvt</servlet-name>
+		<servlet-class>com.montnets.emp.netnews.servlet.wx_sendDSMSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wx_sendDSMSvt</servlet-name>
+		<url-pattern>/wx_senddsm.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>网讯统计</description>
+		<display-name>网讯统计</display-name>
+		<servlet-name>wx_netCountServlet</servlet-name>
+		<servlet-class>com.montnets.emp.netnews.servlet.wx_netCountServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wx_netCountServlet</servlet-name>
+		<url-pattern>/wx_count.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>网讯访问统计</description>
+		<display-name>网讯访问统计</display-name>
+		<servlet-name>wx_netVisitServlet</servlet-name>
+		<servlet-class>com.montnets.emp.netnews.servlet.wx_netVisitServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wx_netVisitServlet</servlet-name>
+		<url-pattern>/wx_visitreport.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>网讯发送查询</description>
+		<servlet-name>wx_taskReportServlet</servlet-name>
+		<servlet-class>com.montnets.emp.netnews.servlet.wx_taskReportServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wx_taskReportServlet</servlet-name>
+		<url-pattern>/wx_taskreport.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>网讯群发历史</description>
+		<servlet-name>wx_wmsSendedBoxSvt</servlet-name>
+		<servlet-class>com.montnets.emp.netnews.servlet.wx_smsSendedBoxSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wx_wmsSendedBoxSvt</servlet-name>
+		<url-pattern>/wx_wmsTaskRecord.htm</url-pattern>
+	</servlet-mapping>
+	<!--ydwxConfig.xml end-->
+
+	<!--ydywConfig.xml start-->
+	<servlet>
+		<servlet-name>MobileBusInitSvt</servlet-name>
+		<servlet-class>com.montnets.emp.mobilebus.servlet.MobileBusInitSvt</servlet-class>
+		<load-on-startup>14</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<description>客户计费查询</description>
+		<display-name>客户计费查询</display-name>
+		<servlet-name>crmBillQuerySvt</servlet-name>
+		<servlet-class>com.montnets.emp.jfcx.servlet.ydyw_crmBillQuerySvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>crmBillQuerySvt</servlet-name>
+		<url-pattern>/ydyw_crmBillQuery.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>签约业务</description>
+		<display-name>客户退费管理</display-name>
+		<servlet-name>crmRfMgrSvt</servlet-name>
+		<servlet-class>com.montnets.emp.jfcx.servlet.ydyw_crmRfMgrSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>crmRfMgrSvt</servlet-name>
+		<url-pattern>/ydyw_crmRfMgr.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>客户签约查询</description>
+		<display-name>客户签约查询</display-name>
+		<servlet-name>ydyw_crmSign</servlet-name>
+		<servlet-class>com.montnets.emp.contract.servlet.ydyw_crmSignSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ydyw_crmSign</servlet-name>
+		<url-pattern>/ydyw_crmSignQuery.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>业务套餐计费统计</description>
+		<display-name>业务套餐计费统计</display-name>
+		<servlet-name>ydyw_chargeStatsRpt</servlet-name>
+		<servlet-class>com.montnets.emp.report.servlet.ydyw_chargeStatsRptSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ydyw_chargeStatsRpt</servlet-name>
+		<url-pattern>/ydyw_chargeStatsRpt.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>机构计费统计</description>
+		<display-name>机构计费统计</display-name>
+		<servlet-name>ydyw_depBillQuerySvt</servlet-name>
+		<servlet-class>com.montnets.emp.report.servlet.ydyw_depBillQuerySvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ydyw_depBillQuerySvt</servlet-name>
+		<url-pattern>/ydyw_depBillQuery.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>业务模板配置</description>
+		<display-name>业务模板配置</display-name>
+		<servlet-name>ydyw_busTempConfSvt</servlet-name>
+		<servlet-class>com.montnets.emp.ydyw.ywpz.servlet.ydyw_busTempConfSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ydyw_busTempConfSvt</servlet-name>
+		<url-pattern>/ydyw_busTempConf.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>业务包管理</description>
+		<display-name>业务包管理</display-name>
+		<servlet-name>ydyw_busPkgMgrSvt</servlet-name>
+		<servlet-class>com.montnets.emp.ywgl.servlet.ydyw_busPkgMgrSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ydyw_busPkgMgrSvt</servlet-name>
+		<url-pattern>/ydyw_busPkgMgr.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>业务贴尾管理</description>
+		<display-name>业务管理</display-name>
+		<servlet-name>ydyw_postTailMgrSvt</servlet-name>
+		<servlet-class>com.montnets.emp.tailmanage.servlet.ydyw_postTailMgrSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ydyw_postTailMgrSvt</servlet-name>
+		<url-pattern>/ydyw_postTailMgr.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>业务套餐管理</description>
+		<display-name>业务套餐管理</display-name>
+		<servlet-name>ydyw_busTaocanMgrSvt</servlet-name>
+		<servlet-class>com.montnets.emp.bustaocan.servlet.ydyw_busTaocanMgrSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ydyw_busTaocanMgrSvt</servlet-name>
+		<url-pattern>/ydyw_busTaocanMgr.htm</url-pattern>
+	</servlet-mapping>
+	<!-- 套餐指令设置 -->
+	<servlet>
+		<description>套餐指令设置</description>
+		<display-name>业务管理</display-name>
+		<servlet-name>ydyw_pkgInstructionSetSvt</servlet-name>
+		<servlet-class>com.montnets.emp.tczl.servlet.ydyw_pkgInstructionSetSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ydyw_pkgInstructionSetSvt</servlet-name>
+		<url-pattern>/ydyw_pkgInstructionSet.htm</url-pattern>
+	</servlet-mapping>
+	<!--ydywConfig.xml end-->
+
+	<!--yhglConfig.xml start-->
+	<!--<servlet>
+		<servlet-name>YhglMenuSvt</servlet-name>
+		<servlet-class>com.montnets.emp.common.servlet.YhglMenuSvt</servlet-class>
+		<load-on-startup>11</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<description>组织机构管理</description>
+		<display-name>用户管理</display-name>
+		<servlet-name>opt_departmentSvt</servlet-name>
+		<servlet-class>com.montnets.emp.sysuser.servlet.opt_departmentSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>角色管理</description>
+		<display-name>用户管理</display-name>
+		<servlet-name>opt_roleSvt</servlet-name>
+		<servlet-class>com.montnets.emp.sysuser.servlet.opt_roleSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>操作员管理</description>
+		<display-name>用户管理</display-name>
+		<servlet-name>opt_sysuserSvt</servlet-name>
+		<servlet-class>com.montnets.emp.sysuser.servlet.opt_sysuserSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>客户通讯录</description>
+		<display-name>通讯录管理（短信客服）</display-name>
+		<servlet-name>cli_addrBookSvt</servlet-name>
+		<servlet-class>com.montnets.emp.client.servlet.cli_addrBookSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>客户通讯录权限管理</description>
+		<display-name>通讯录管理</display-name>
+		<servlet-name>cli_permissionsSvt</servlet-name>
+		<servlet-class>com.montnets.emp.client.servlet.cli_permissionsSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>客户属性管理</description>
+		<display-name>通讯录管理（短信客服）</display-name>
+		<servlet-name>cli_custFieldMangerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.client.servlet.cli_custFieldMangerSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>This is the description of DownHisPageServlet</description>
+		<display-name>客户通讯录机构树</display-name>
+		<servlet-name>cli_addrbookDepTreeSvt</servlet-name>
+		<servlet-class>com.montnets.emp.client.servlet.cli_addrbookDepTreeSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>员工个人群组</description>
+		<display-name>个人群组</display-name>
+		<servlet-name>grp_groupManagerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.group.servlet.grp_groupManagerSvt</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>客户个人群组</description>
+		<display-name>个人群组</display-name>
+		<servlet-name>grp_cliGroupManagerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.group.servlet.grp_cliGroupManagerSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>cli_addrbookDepTreeSvt</servlet-name>
+		<url-pattern>/cli_addrbookDepTree.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>cli_custFieldMangerSvt</servlet-name>
+		<url-pattern>/cli_custFieldManger.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>cli_permissionsSvt</servlet-name>
+		<url-pattern>/cli_permissions.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>cli_addrBookSvt</servlet-name>
+		<url-pattern>/cli_addrBook.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>opt_departmentSvt</servlet-name>
+		<url-pattern>/opt_department.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>opt_roleSvt</servlet-name>
+		<url-pattern>/opt_role.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>opt_sysuserSvt</servlet-name>
+		<url-pattern>/opt_sysuser.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>grp_groupManagerSvt</servlet-name>
+		<url-pattern>/grp_groupManage.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>grp_cliGroupManagerSvt</servlet-name>
+		<url-pattern>/grp_cliGroupManage.htm</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+	<servlet>
+		<description>员工通讯录</description>
+		<display-name>员工通讯录管理</display-name>
+		<servlet-name>epl_employeeBookSvt</servlet-name>
+		<servlet-class>com.montnets.emp.employee.servlet.epl_employeeBookSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>epl_employeeBookSvt</servlet-name>
+		<url-pattern>/epl_employeeBook.htm</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<description>员工权限绑定</description>
+		<display-name>员工通讯录管理</display-name>
+		<servlet-name>epl_permissionsSvt</servlet-name>
+		<servlet-class>com.montnets.emp.employee.servlet.epl_permissionsSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>epl_permissionsSvt</servlet-name>
+		<url-pattern>/epl_permissions.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>职位管理</description>
+		<display-name>员工通讯录管理</display-name>
+		<servlet-name>epl_positionSvt</servlet-name>
+		<servlet-class>com.montnets.emp.employee.servlet.epl_positionSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>epl_positionSvt</servlet-name>
+		<url-pattern>/epl_position.htm</url-pattern>
+	</servlet-mapping>-->
+	<!--yhglConfig.xml end-->
+
+	<!--znlyConfig.xml start-->
+	<!--znlyConfig.xml end-->
+
+	<!--znyqConfig.xml start-->
+	<servlet>
+		<description>下行业务项目管理</description>
+		<display-name>智能引擎</display-name>
+		<servlet-name>eng_mtServiceServlet</servlet-name>
+		<servlet-class>com.montnets.emp.engine.servlet.eng_mtServiceSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>eng_mtServiceServlet</servlet-name>
+		<url-pattern>/eng_mtService.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description>下行业务定时监控</description>
+		<display-name>智能引擎</display-name>
+		<servlet-name>eng_timerControlServlet</servlet-name>
+		<servlet-class>com.montnets.emp.engine.servlet.eng_timerControlSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eng_timerControlServlet</servlet-name>
+		<url-pattern>/eng_timerControl.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description>下行业务项目步骤管理</description>
+		<display-name>智能引擎</display-name>
+		<servlet-name>eng_mtProcessServlet</servlet-name>
+		<servlet-class>com.montnets.emp.engine.servlet.eng_mtProcessSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eng_mtProcessServlet</servlet-name>
+		<url-pattern>/eng_mtProcess.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description>智能引擎</description>
+		<display-name>上行业务管理</display-name>
+		<servlet-name>eng_moService</servlet-name>
+		<servlet-class>com.montnets.emp.engine.servlet.eng_moServiceSvt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>eng_moService</servlet-name>
+		<url-pattern>/eng_moService.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>智能引擎</description>
+		<display-name>业务服务日志</display-name>
+		<servlet-name>eng_serviceLog</servlet-name>
+		<servlet-class>com.montnets.emp.engine.servlet.eng_servicelogSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eng_serviceLog</servlet-name>
+		<url-pattern>/eng_servicelog.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>智能引擎</description>
+		<display-name>上行业务记录</display-name>
+		<servlet-name>eng_serMoTaskSvt</servlet-name>
+		<servlet-class>com.montnets.emp.engine.servlet.eng_serMoTaskSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eng_serMoTaskSvt</servlet-name>
+		<url-pattern>/eng_serMoTask.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>智能引擎</description>
+		<display-name>下行业务记录</display-name>
+		<servlet-name>eng_serMtTaskSvt</servlet-name>
+		<servlet-class>com.montnets.emp.engine.servlet.eng_serMtTaskSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eng_serMtTaskSvt</servlet-name>
+		<url-pattern>/eng_serMtTask.htm</url-pattern>
+	</servlet-mapping>
+	<!--znyqConfig.xml end-->
+
+	<!--zxkfConfig.xml start-->
+	<!-- 基础管理servlet群 -->
+	<servlet>
+		<description>在线客服列表</description>
+		<display-name>在线客服列表</display-name>
+		<servlet-name>custManagerSvt</servlet-name>
+		<servlet-class>com.montnets.emp.zxkf.svt.zxkf_custManagerSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>custManagerSvt</servlet-name>
+		<url-pattern>/zxkf_custList.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>在线客服列表</description>
+		<display-name>在线客服列表</display-name>
+		<servlet-name>customChatSvt</servlet-name>
+		<servlet-class>com.montnets.emp.zxkf.svt.zxkf_customChatSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>customChatSvt</servlet-name>
+		<url-pattern>/customChat.htm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>customChatSvt</servlet-name>
+		<url-pattern>/customChat.hts</url-pattern>
+	</servlet-mapping>
+
+	<listener>
+		<listener-class>com.montnets.emp.zxkf.biz.OttLoaderListener</listener-class>
+	</listener>
+	<!--zxkfConfig.xml end-->
+
+	<servlet>
+		<description>操作员导入</description>
+		<display-name>操作员管理</display-name>
+		<servlet-name>opt_uploadSvt</servlet-name>
+		<servlet-class>com.montnets.emp.sysuser.servlet.opt_uploadSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>opt_uploadSvt</servlet-name>
+		<url-pattern>/opt_upload.htm</url-pattern>
+	</servlet-mapping>
+</web-app>

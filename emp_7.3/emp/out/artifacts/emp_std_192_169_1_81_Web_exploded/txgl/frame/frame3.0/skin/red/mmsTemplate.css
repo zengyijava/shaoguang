@@ -1,0 +1,39 @@
+.btnMatel {
+	background: url(images/matel.png) no-repeat;
+}
+.btnImage {
+	background: url(images/addImage.png) no-repeat;
+}
+.btnMusic {
+	background: url(images/addMusic.png) no-repeat;
+}
+.btnMatel.btnHover {
+	background: url(images/matel_hover.png) no-repeat;
+}
+.btnImage.btnHover {
+	background: url(images/addImage_hover.png) no-repeat;
+}
+.btnMusic.btnHover {
+	background: url(images/addMusic_hover.png) no-repeat;
+}
+.hasImage {
+	background: url(images/hasImage.png) no-repeat;
+}
+.hasMusic {
+	background: url(images/hasMusic.png) no-repeat;
+}
+.moveUp {
+	background: url(images/moveUp.png) #7e8081 ;
+}
+.moveDown {
+	background: url(images/moveDown.png) #7e8081  ;
+}
+.deleteFrame {
+	background: url(images/deleteFrame.png) ;
+}
+.floatFrame{
+	background:#7e8081;
+}
+.floatDel{
+	background:#eff1f3;
+}

@@ -1,0 +1,113 @@
+#ydwx_netVisitCount  .ydwx_batchFileSend {
+	height: 50px;
+	width: 610px;
+	font-size: 12px;
+	text-align: left;
+	margin-top: 0px;
+}
+
+#ydwx_netVisitCount .ydwx_dtsend {
+	float: left;
+	cursor: pointer;
+}
+
+#ydwx_netVisitCount  .ydwx_dtsend_sub {
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	padding-top: 5px;
+}
+
+#ydwx_netVisitCount .ydwx_wjsend {
+	float: right;
+	cursor: pointer;
+}
+
+#ydwx_netVisitCount  .ydwx_wjsend_sub {
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	padding-top: 5px;
+}
+
+#ydwx_netVisitCount .ydwx_send_ac2 {
+	font-weight: normal;
+	color: black;
+}
+
+#ydwx_netVisitCount #condition .ydwx_wxno {
+	width: 178px; 
+}
+ #ydwx_netVisitCount #condition  .ydwx_busname {
+	width: 178px;
+}
+
+#ydwx_netVisitCount #condition .ydwx_sendtime {
+	cursor: pointer;
+	width: 178px;
+	background-color: white;
+}
+
+#ydwx_netVisitCount #condition .ydwx_recvtime {
+	cursor: pointer;
+	width: 178px;
+	background-color: white;
+}
+#ydwx_netVisitCount #condition .ydwx_douserd {
+	width: 182px;
+	height: 22px;
+	line-height:22px;
+	border: #c9d9f2 1px solid;
+}
+
+#ydwx_netVisitCount #condition .ydwx_content {
+	margin-top: -15px; 
+}
+#ydwx_netVisitCount .ydwx_divBox_sub {
+	margin-right: 10px;
+	margin-top: 3px;
+}
+
+#ydwx_netVisitCount .ydwx_ym {
+	width: 170px;
+}
+
+#ydwx_netVisitCount .ydwx_iframe_dv {
+	width: 240px;
+	height: 460px;
+	margin-left: 30px;
+	margin-top: -3px;
+	background: url('../../../common/img/iphone5.jpg');
+}
+
+#ydwx_netVisitCount .ydwx_preview_common {
+	background: white;
+	width: 198px;
+	height: 325px;
+	margin-top: 65px;
+	margin-left: 22px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

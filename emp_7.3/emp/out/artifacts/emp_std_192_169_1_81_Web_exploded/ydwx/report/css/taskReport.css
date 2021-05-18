@@ -1,0 +1,194 @@
+#ydwx_taskReport #condition  .ydwx_netid {
+	width: 180px;
+}
+
+#ydwx_taskReport #condition .ydwx_netname {
+	width: 180px;
+}
+
+#ydwx_taskReport #condition .ydwx_title {
+	width: 180px;
+}
+
+#ydwx_taskReport #condition .ydwx_operator_dv {
+	width: 220px;
+}
+
+#ydwx_taskReport #condition .ydwx_userName {
+	width: 159px;
+	cursor: pointer;
+}
+
+#ydwx_taskReport #condition .ydwx_userName {
+	width: 159px;
+	cursor: pointer;
+}
+
+#ydwx_taskReport #condition .ydwx_dropMenu2_iframe {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	scrolling: no;
+}
+
+#ydwx_taskReport #condition .ydwx_btns {
+	margin-top: 3px;
+	margin-right: 10px;
+	text-align: right;
+}
+
+#ydwx_taskReport #condition .ydwx_note_dv {
+	margin-top: 3px;
+	padding-left: 4px;
+}
+
+#ydwx_taskReport   #condition   .ydwx_conrstate {
+	width: 184px;
+}
+
+#ydwx_taskReport #condition .ydwx_taskstate {
+	width: 184px;
+}
+
+#ydwx_taskReport #condition .ydwx_spUser {
+	width: 184px;
+}
+
+#ydwx_taskReport #condition .ydwx_sendtime {
+	cursor: pointer;
+	width: 180px;
+	background-color: white;
+}
+
+#ydwx_taskReport #condition .ydwx_recvtime {
+	cursor: pointer;
+	width: 180px;
+	background-color: white;
+}
+
+#ydwx_taskReport #condition .ydwx_flowId {
+	width: 180px;
+}
+
+#ydwx_taskReport   #content   .ydwx_name {
+	width: 12%;
+}
+
+#ydwx_taskReport #content .ydwx_createtm {
+	width: 12%;
+}
+
+#ydwx_taskReport #content .ydwx_sendtm {
+	width: 12%;
+}
+
+#ydwx_taskReport #content .ydwx_sendfile {
+	width: 10%;
+}
+
+#ydwx_taskReport  .ydwx_shenhe {
+	padding: 5px;
+	width: 300px;
+	height: 160px;
+	display: none;
+}
+
+#ydwx_taskReport  .ydwx_modify {
+	padding: 5px;
+	width: 300px;
+	height: 160px;
+	display: none;
+}
+
+#ydwx_taskReport  .ydwx_modify_table_tr1 {
+	padding-top: 2px;
+	margin-bottom: 2px;
+}
+
+#ydwx_taskReport  .ydwx_modify_table_tr2 {
+	padding-top: 2px;
+}
+
+#ydwx_taskReport  .ydwx_modify_table_tr1 .ydwx_td1 {
+	word-break: break-all;
+}
+
+#ydwx_taskReport  .ydwx_modify_table_tr1 .ydwx_td1 .ydwx_msgcont {
+	width: 100%;
+	height: 100%;
+}
+
+#ydwx_taskReport  .ydwx_recordTableDiv {
+	width: 100%;
+	padding: 15px 0;
+	display: none;
+}
+
+#ydwx_taskReport  .ydwx_recordTable {
+	width: 95%;
+	text-align: center;
+}
+
+#ydwx_taskReport .ydwx_nextrecordmgs {
+	width: 95%;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	display: none;
+	font-size: 12px;
+	color: blue;
+	padding-left: 25px;
+}
+
+#ydwx_taskReport .ydwx_reviewTableDiv {
+	width: 100%;
+	padding: 15px 0;
+	display: none;
+}
+
+#ydwx_taskReport .ydwx_reviewTable {
+	width: 95%;
+	text-align: center;
+}
+
+#ydwx_taskReport .nextreviewmgs {
+	width: 95%;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	display: none;
+	font-size: 12px;
+	color: blue;
+	padding-left: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

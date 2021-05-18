@@ -1,0 +1,133 @@
+#birthdaySendEMP #hiddenValueDiv{
+	display:none;
+}
+#birthdaySendEMP .titletop{
+	width: 610px;
+}
+#birthdaySendEMP .titletop .titletop_table{
+	width: 95%;
+}
+#birthdaySendEMP .ydbg_detail_Info{
+	width: 610px;
+	padding-left: 36px;
+	margin-bottom: 20px !important;
+	margin-bottom: 3px;
+}
+#birthdaySendEMP .input_bd.div_bd{
+	width:492px;
+}
+#birthdaySendEMP .Wdate.div_bd{
+	cursor: pointer; 
+	width: 256px;
+	height:25px; 
+	background-color: white;
+}
+#birthdaySendEMP .dxzs_td1{
+	height:180px; 
+	vertical-align: top;
+	padding-top:14px;
+}
+#birthdaySendEMP .dxzs_td2{
+	vertical-align: top;
+	padding-top:7px;
+}
+#birthdaySendEMP .dxzs_td3{
+	height:25px;
+	line-height:25px;
+}
+#birthdaySendEMP .dxzs_td3 .dxzs_div1{
+	float:left;
+	width:50%;
+	height:25px;
+	line-height:25px;
+}
+#birthdaySendEMP .dxzs_span1,.dxzs_span2,.dxzs_span3{
+	margin-bottom:5px;
+	display:block;
+	float:left;
+}
+#birthdaySendEMP .dxzs_span1{
+	width: 85px;
+}
+#birthdaySendEMP .dxzs_span2{
+	width: 70px;
+}
+#birthdaySendEMP .dxzs_span3{
+	width: 120px;
+}
+#birthdaySendEMP .dxzs_input{
+	vertical-align: text-bottom;
+}
+
+#birthdaySendEMP .dxzs_td3 .dxzs_div2{
+	float:left;
+	width:49%;
+	height:100%;
+	border-right:0px;
+	border-top:0px;
+	border-bottom:0px;
+	border-left: 1px solid #c9d9f2;
+}
+#birthdaySendEMP .input_bd1,.input_bd2{
+	*_vertical-align: middle;
+	height:16px;
+	line-height:15px;
+	width:60px;
+}
+#birthdaySendEMP .input_bd1{
+	display: inline;
+}
+#birthdaySendEMP .input_bd2{
+	display: none;
+}
+#birthdaySendEMP #contents{
+	padding:5px;
+	margin-top:5px;
+	outline:none;
+}
+#birthdaySendEMP .dxzs_font{
+	color:#ccc;
+	margin-left:30px;
+}
+#birthdaySendEMP .moreItem.div_bg{
+	width:581px;
+}
+#birthdaySendEMP .moreItem.div_bg .table{
+	height: 100%;
+	margin-left: 19px;
+	width: 480px;
+}
+#birthdaySendEMP #spUser{
+	width:233px;
+	height:25px;
+}
+#birthdaySendEMP #isUse{
+	margin-left: 4px;
+}
+#birthdaySendEMP #isUse2{
+	margin-left: 20px;
+}
+#birthdaySendEMP .dxzs_div3{
+	text-align: right;
+	width: 581px;
+	margin-left: 16px;
+}
+#birthdaySendEMP .dxzs_div3 input{
+	font-size: 14px;
+}
+#birthdaySendEMP #infoDiv{
+	padding:5px;
+	display:none;
+}
+#birthdaySendEMP #infoDiv table,tr,td{
+	border:0;
+}
+#birthdaySendEMP #infoDiv table tr td{
+	width:550px;
+	height:30px;
+}
+#birthdaySendEMP #flowFrame{
+	width:525px;
+	height:470px;
+	border: 0;
+}

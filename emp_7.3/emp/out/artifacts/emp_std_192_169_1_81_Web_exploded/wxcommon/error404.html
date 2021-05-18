@@ -1,0 +1,38 @@
+<html>
+
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script>
+		function showwww()
+		{
+			var paddd=window.parent;
+			var docUrl = window.location.href;
+			var index=0;
+			while(paddd.location.href!=docUrl && index<6)
+			{
+				docUrl=paddd.location.href;
+				paddd=paddd.parent;
+				index++;
+			}
+			if(index==0)
+			{
+				var urls = docUrl.split("/"); 
+				if(urls.length == 4)
+				{
+					urls[3] = "";
+				}
+				docUrl = urls[0] + "//" + urls[2] + "/" + urls[3];
+				location.href=docUrl;
+			}else
+			{
+				window.parent.showDqwz();
+			    window.parent.reinitHeight();
+			    window.parent.document.getElementById("loading").style.display="none";
+			}
+		}
+		</script>
+	</head>
+	<body onload='showwww()' style="background:url(img/404.jpg) center center #FFFFFF no-repeat;">
+		
+	</body>
+</html>

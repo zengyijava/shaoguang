@@ -1,0 +1,122 @@
+#mwp_editData .sign {
+	width: 260px;
+}
+
+#mwp_editData .rContent2 {
+	padding: 5px;
+}
+
+#mwp_editData .detail_Info {
+	padding-left: 40px;
+	width: 610px;
+}
+
+#mwp_editData .mmjm_table {
+	width: 90%;
+	height: 100%;
+	font-size: 12px;
+	line-height: 40px !important;
+	line-height: 30px;
+}
+
+#mwp_editData .pwdencode {
+	width: 265px;
+}
+
+#mwp_editData .pwdEncodetr {
+	display: none;
+}
+
+#mwp_editData .pwdEncodeStr {
+	background-color: #E8E8E8;
+	width: 260px;
+}
+
+#mwp_editData .msgCode {
+	width: 265px;
+}
+
+#mwp_editData .msgEnCode {
+	width: 265px;
+}
+
+#mwp_editData .pushPwdEncode {
+	width: 265px;
+}
+
+#mwp_editData .pushtr {
+	display: none;
+}
+
+#mwp_editData .pushPwdEncodeStr {
+	background-color: #E8E8E8;
+	width: 260px;
+}
+
+#mwp_editData .pushMsgCode {
+	width: 265px;
+}
+
+#mwp_editData .pushMsgEnCode {
+	width: 265px;
+}
+
+#mwp_editData .pushMoFmt {
+	width: 265px;
+}
+
+#mwp_editData .pushRptFmt {
+	width: 265px;
+}
+
+#mwp_editData .pushMoTime {
+	width: 105px;
+}
+
+#mwp_editData .pushFailcnt {
+	background-color: #E8E8E8;
+	width: 40px;
+}
+
+#mwp_editData .numbers{
+	color: #ccc;
+	display:none;
+}
+
+#mwp_editData .pushSlideWnd{
+	background-color: #E8E8E8;
+	width:260px;
+}
+
+#mwp_editData .pushMomaxCnt{
+	background-color: #E8E8E8;
+	width:260px;
+}
+
+#mwp_editData .pushrptmaxcnt{
+	background-color: #E8E8E8;
+	width:260px;
+}
+
+#mwp_editData .getmomaxcnt{
+	background-color: #E8E8E8;
+	width:260px;
+}
+
+#mwp_editData .getrptmaxcnt{
+	background-color: #E8E8E8;
+	width:260px;
+}
+
+#mwp_editData .qd_div{
+	width:410px;
+}
+
+#mwp_editData .mmjmfs_td1{
+	width:200px;
+}
+
+#mwp_editData .mmjmfs_td2{
+	width:150px;
+}
+

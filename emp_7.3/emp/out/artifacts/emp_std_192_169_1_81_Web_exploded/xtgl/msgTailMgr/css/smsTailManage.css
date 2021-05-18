@@ -1,0 +1,47 @@
+
+.formatFont{
+	margin-right:10px;
+	line-height:12px;
+	color:#095AD1;
+	float:right;
+	cursor:pointer
+}
+
+.selectEmp
+{
+	display:block;
+	width:21px;
+	height:25px;
+	background:url("../img/selectEmp.gif") no-repeat;
+}
+.importFile{
+	display:block;
+	width:21px;
+	height:25px;
+	background:url("../img/importFile.gif") no-repeat;
+}
+
+/*=======UL模拟select===========*/
+#getChooseMan{width:auto;overflow-y:auto;text-align:left;height:215px;word-wrap: break-word;word-break:break-all;}
+#getChooseMan li{line-height:22px;cursor:pointer;font-size:12px;padding:0 4px;list-style:none;}
+#getChooseMan li.cur{background-color:#6D6D6D;color:#fff;}
+#getChooseManSp{width:auto;overflow-y:auto;text-align:left;height:215px;word-wrap: break-word;word-break:break-all;}
+#getChooseManSp li{line-height:22px;cursor:pointer;font-size:12px;padding:0 4px;list-style:none;}
+#getChooseManSp li.cur{background-color:#6D6D6D;color:#fff;}
+.chooseBox{width:510px;margin: 0 auto;}
+.left_select_choose{
+
+width: 215px;
+border: 0;
+font-size:12px;
+vertical-align:middle;
+padding:4px 0 0 8px;
+
+height:220px;
+}
+.left_select_choose option{
+padding:0 6px;
+}
+
+.search_tx_choose{margin-left:6px;width:153px;height:22px;background-color:#F3FAEE;float:left;overflow:hidden;}
+#rightDiv{margin-top:3px;background-color:white;width:204px;overflow-x:hidden;overflow-y:hidden;display:block;float: left; padding-top: 1px;}

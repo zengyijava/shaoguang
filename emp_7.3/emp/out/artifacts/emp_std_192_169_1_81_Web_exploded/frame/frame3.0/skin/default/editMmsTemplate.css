@@ -1,0 +1,28 @@
+#ydcx_editMmsTemplate .ydcx_mmsFrame_sub {
+	width: 76px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+	background: url('images/toUp.png');
+	border-right: 0;
+}
+
+#ydcx_editMmsTemplate .ydcx_addFrame {
+	width: 58px;
+	height: 52px;
+	margin-top: 8px;
+	visibility: visible;
+	cursor: pointer;
+	display: inline-block;
+	background: url('images/addFrame.png');
+}
+
+#ydcx_editMmsTemplate .ydcx_todown {
+	width: 76px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+	background: url('images/toDown.png');
+	margin-bottom: -2px !important;
+	margin-bottom: 0;
+}

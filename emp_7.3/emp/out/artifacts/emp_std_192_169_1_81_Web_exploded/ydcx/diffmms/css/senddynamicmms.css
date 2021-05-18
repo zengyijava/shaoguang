@@ -1,0 +1,296 @@
+/**------动态彩信发送-------**/
+#ydcx_dmm_senddynamicmms .ydcx_dynmmssend{
+	margin_top: 10px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_hidden_iframe{
+	display: none;
+	
+}
+#ydcx_dmm_senddynamicmms .ydcx_td{
+	height:26px; 
+	
+}
+#ydcx_dmm_senddynamicmms .yddcx_taskname{
+	padding-left:5px;
+	width:490px;
+	
+}
+#ydcx_dmm_senddynamicmms .ydcx_eq_senddiv{
+	position:relative;
+	
+}
+#ydcx_dmm_senddynamicmms .ydcx_cursor_pointer{
+	cursor: pointer;
+	
+}
+#ydcx_dmm_senddynamicmms .ydcx_mmsfilediv{
+	padding-top:5px;
+	font-size:12px;
+	width:574px; 
+	/* float:left; */
+	margin-bottom: 5px;
+	
+}
+
+
+#ydcx_dmm_senddynamicmms .ydcx_lable1 {
+    color: #ACACAC;
+}
+
+#ydcx_dmm_senddynamicmms .ydcx_lable2 {
+   /*  position: absolute; */
+    float:right;
+    right: 0;
+}
+
+#ydcx_dmm_senddynamicmms .ydcx_downlinks {
+    cursor: pointer;
+    position: relative;
+}
+
+#ydcx_dmm_senddynamicmms .ydcx_filesdiv {
+    width: 50px;
+    position: absolute;
+    height: 15px;
+    margin-bottom: 0px;
+    left: 75px !important;
+    top: 10px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_numfile {
+   height:15px;
+   cursor: pointer;
+   font-size: 0px;
+}
+
+#ydcx_dmm_senddynamicmms .ydcx_uptipdiv {
+   display: none;
+   height:35px;
+   width:245px;
+   margin-top: 20px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_eq_senddiv {
+  width:350px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_dv1 {
+  width: 450px !important 500px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_dv2 {
+  margin-top: 5px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_templatepre {
+  display:none;
+  width: 290px;
+  margin-top: 10px;
+  height:30px;
+  margin-left: 80px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_mmsContent {
+  width:242px;
+  height: 30px;
+  margin-top: 10px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_sendtmdv {
+  padding:3px 5px 0;
+  width: 493px;
+  line-height: 26px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_sendType {
+ margin-left: 10px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_time2 {
+ margin-left: 10px;
+ display: none;
+}
+#ydcx_dmm_senddynamicmms .ydcx_eq_senddiv2 {
+ float:left;
+}
+#ydcx_dmm_senddynamicmms .ydcx_u_o_c_explain {
+	width:150px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_foldIcon {
+	text-decoration: none;
+}
+ 
+#ydcx_dmm_senddynamicmms .ydcx_moreSelect {
+	height: 80px !important;
+}
+#ydcx_dmm_senddynamicmms .ydcx_tb1 {
+	width:100%;
+	height:100%;
+	border:0px
+}
+#ydcx_dmm_senddynamicmms .ydcx_tb1_td1 {
+	width:115px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_tb1_td1 .ydcx_tb1_font {
+	padding-left:35px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_mmsUser {
+	width:240px;
+	vertical-align:middle;
+}
+#ydcx_dmm_senddynamicmms .ydcx_detail_Info {
+	width:240px;
+	vertical-align:middle;
+}
+#ydcx_dmm_senddynamicmms .ydcx_detail_Info {
+	width: 100%;
+	padding: 5px;
+	display: none;
+	font-size: 12px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_showeffinfo-font {
+	padding-top: 5px;
+	font-size: 12px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_alleff {
+	color: red;
+}
+#ydcx_dmm_senddynamicmms .ydcx_bfyldv {
+	height: 20px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_bfyldv_p {
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 1%;
+}
+#ydcx_dmm_senddynamicmms .ydcx_content {
+	width: 472px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_footer {
+	margin-top: 20px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_infomodel1_dv1 {
+	display: none;
+	position: absolute;
+	z-index: 5000;
+	border: 1px solid #dae1cf;
+	background-color: #f7fff0;
+	width: 280px;
+	height: 400px;
+	padding-bottom: 8px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_infomodel1_dv2 {
+	display: none;
+	position: absolute;
+	z-index: 5000;
+	border: 1px solid #dae1cf;
+	background-color: #f7fff0;
+	width: 280px;
+	height: 320px;
+	padding-bottom: 8px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_infomodel1_dv3 {
+	display: none;
+	position: absolute;
+	z-index: 5000;
+	border: 1px solid #dae1cf;
+	background-color: #f7fff0;
+	width: 280px;
+	height: 310px;
+	padding-bottom: 8px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_tb2 {
+	line-height: 30px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_tb2_td1 {
+	font-weight: bold;
+	font-size: 14px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_tempView {
+	display:none;
+}
+#ydcx_dmm_senddynamicmms .ydcx_mobile_parent {
+	float: left;
+	width:250px;
+	margin-left: 30px;
+	display: inline;
+}
+#ydcx_dmm_senddynamicmms .ydcx_mobile_parent .ydcx_mobile {
+	width:240px;
+	height:470px;
+	position: absolute;
+	background: url('../../../common/img/iphone5.jpg') no-repeat;
+}
+#ydcx_dmm_senddynamicmms .ydcx_pers {
+	position:relative;
+	margin-top:90px;
+	border:1px #09F solid;
+	text-align:left;
+	display:none;
+	width:180px;
+	height:13px;
+	background-color:#FFFFFF;
+}
+#ydcx_dmm_senddynamicmms .ydcx_showtime {
+	position:absolute;
+	width:140px;
+	height:13px;
+	text-align: center;
+}
+#ydcx_dmm_senddynamicmms .ydcx_chart {
+	position:absolute;
+	left:0px;
+	background-color:#00ffdd;
+	width:0px;
+	height:13px;
+	text-align:right;
+	padding-top:0px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_screen {
+	position:relative;
+	width:189px;
+	height:240px;
+	background:#ffffff;
+	margin-left:23px;
+	margin-top:95px;
+	overflow: auto;
+	padding:2px;
+	word-break: break-all;
+}
+#ydcx_dmm_senddynamicmms .ydcx_pointer {
+	 vertical-align: bottom;
+}
+#ydcx_dmm_senddynamicmms .ydcx_nextpage {
+	 vertical-align: bottom;
+}
+#ydcx_dmm_senddynamicmms .ydcx_currentpage {
+	 vertical-align: bottom;
+}
+#ydcx_dmm_senddynamicmms .ydcx_inputParamCnt1 {
+	margin-top: 10px;
+	margin-left: 280px; 
+}
+#ydcx_dmm_senddynamicmms .ydcx_probar {
+	display: none;
+}
+#ydcx_dmm_senddynamicmms .ydcx_probar_p {
+	padding-top: 8px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_shows_img {
+	padding-left: 25px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_tmplDiv {
+	padding:5px;
+	display:none;
+}
+#ydcx_dmm_senddynamicmms .ydcx_tempFrame {
+	width:635px;
+	height:538px;
+	border: 0;
+}
+#ydcx_dmm_senddynamicmms .ydcx_message {
+	padding:5px;
+	display:none;
+	font-size: 12px;
+}
+#ydcx_dmm_senddynamicmms .ydcx_message_dv1 {
+	height:25px
+}
+#ydcx_dmm_senddynamicmms .ydcx_message_dv2 {
+	height:10px
+}
+#ydcx_dmm_senddynamicmms .ydcx_cursor_pointer {
+	cursor: pointer;
+}
+/**------动态彩信发送 结束-------**/

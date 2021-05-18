@@ -1,0 +1,87 @@
+#tem_shareTemplate .selectForm_div{
+	height:410px;
+}
+
+#tem_shareTemplate .mbbh_mh_table{
+	width:510px;
+	height:410px;
+}
+
+#tem_shareTemplate .mbbh_mh_tr{
+	height:22px;
+}
+
+#tem_shareTemplate .mbbh_mh_td{
+	font-size:12px;
+	height:18px;
+	vertical-align:bottom;
+}
+
+#tem_shareTemplate .mbmc_mh_td{
+	font-size:12px;
+	height:18px;
+	vertical-align:bottom;
+}
+
+#tem_shareTemplate .searchname_tr{
+	height:30px;
+}
+
+#tem_shareTemplate .searchname_td{
+	font-size:12px;
+	height:22px;
+	vertical-align:top;
+}
+
+#tem_shareTemplate .etree_td{
+	vertical-align:top;
+}
+
+#tem_shareTemplate .sonFrame{
+	height:190px;
+	width:220px;
+}
+
+#tem_shareTemplate .showUserName_div{
+	border-bottom: 0;
+}
+
+#tem_shareTemplate .showUserName{
+	margin-left: -5px;
+}
+
+#tem_shareTemplate .left_div{
+	height: 106px; 
+	width: 215px;
+	overflow:hidden;
+	display:block;
+	padding-left:5px;
+}
+
+#tem_shareTemplate .left{
+	height: 114px; 
+	width: 228px; 
+	border: 0;
+	font-size: 12px;
+	color: black;
+	padding-left:5px;
+	vertical-align:middle;
+	margin:-4px -10px;
+	padding:4px;
+}
+
+#tem_shareTemplate .shlcgl_xz_td{
+	height:190px; 
+	width:60px;
+}
+
+#tem_shareTemplate .right_td{
+	vertical-align:top;
+}
+
+#tem_shareTemplate .right{
+	height:339px;
+}
+#tempIdView {
+	padding-left: 10%;
+}

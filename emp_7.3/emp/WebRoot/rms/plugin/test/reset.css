@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+/* reset */
+
+html,
+body,
+div,
+header,
+main,
+article,
+footer,
+section,
+aside,
+nav,
+hgroup,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+dl,
+dt,
+dd,
+p,
+a,
+span,
+i,
+em,
+img,
+input,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+main,
+article,
+footer,
+section,
+aside,
+nav {
+    display: block;
+}
+
+html,
+body {
+    font: 14px/1.5 "Microsoft YaHei", "微软雅黑", arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: normal;
+}
+
+
+/*初始化标题加粗*/
+
+a,
+img,
+input {
+    border: none 0;
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus,
+input:focus {
+    outline: 0 none;
+}
+
+
+/*获取焦点时，不显示外框*/
+
+li {
+    list-style: none;
+}
+
+i,
+em,
+cite {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a.css-cursor-auto {
+    cursor: auto;
+}
+
+span {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+input,
+textarea,
+li {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+/*消除点击高光*/
+
+textarea {
+    resize: none;
+    font-size: 12px;
+    outline: none 0;
+    border: none 0;
+}
+
+
+/*去掉火狐和谷歌浏览器的Textarea改变尺寸大小功能*/
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+
+/** 表单样式处理(不兼容) **/
+
+xmp {
+    margin: 0;
+    font-family: "Microsoft YaHei", "微软雅黑", arial, sans-serif;
+    display: inline-block;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #ddd;
+    font-size: 12px;
+}

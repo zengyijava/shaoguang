@@ -1,0 +1,132 @@
+/*移动客服-客服短信-客户群组群发开始*/
+#kfs_sendClientSMS #addSmsTmpFrame {
+    width: 635px;
+    height: 520px;
+}
+#kfs_sendClientSMS #eq_sendDiv{
+	margin-top:10px; 
+}
+#kfs_sendClientSMS #eq_sendDiv span{
+	height: 35px;
+	line-height: 35px;
+    margin-bottom: 0px !important;
+}
+#kfs_sendClientSMS #taskname{
+	height: 35px;
+}
+#kfs_sendClientSMS #busCode, #priority, #spUser {
+	height: 35px;
+}
+#kfs_sendClientSMS .dxkf_div3 {
+	line-height: 35px;
+}
+#kfs_sendClientSMS #advSearchFrame{
+	width:1024px;
+	height:610px;
+	border: 0px;
+}
+#kfs_sendClientSMS #tempFrame{
+	width: 840px;
+}
+#kfs_sendClientSMS #tempFrame #container{
+	width: 840px;
+}
+#kfs_sendClientSMS #tempFrame body{
+	width: 840px;
+}
+#kfs_sendClientSMS #tempFrame #pageForm{
+	width: 840px;
+}
+#kfs_sendClientSMS #draftFrame{
+	width: 890px;
+}
+#kfs_sendClientSMS #draftFrame #container{
+	width: 890px;
+}
+#kfs_sendClientSMS #draftFrame body{
+	width: 890px;
+}
+#kfs_sendClientSMS #draftFrame #pageForm{
+	width: 890px;
+}
+/*-------------------------jquery-ui的dialog的样样式----------------*/
+#kfs_sendClientSMS .titleBar{
+    height:40px!important;
+    background-color:#f7fafc;
+    border-bottom:1px solid #ecf1f2;
+}
+#kfs_sendClientSMS .titleBarTxt,#ui-dialog-title-bulkImport_box{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #ababab;
+    font-weight: bold;
+}
+#kfs_sendClientSMS .ui-dialog .ui-dialog-title{
+    line-height: 28px !important;
+}
+#kfs_sendClientSMS #flowFrame {
+    width: 658px;
+    height: 440px;
+}
+#kfs_sendClientSMS .dxkf_td7 {
+    width: 680px;
+}
+/*移动客服-客服短信-客户群组群发结束*/
+#searchPage #condition table {
+    width: 962px;
+}
+#searchPage #pageForm {
+    margin-left: 10px;
+}
+#searchPage #resultSet {
+    width: 980px;
+    height: 320px;
+}
+#condition table tr td:nth-child(even) {
+    padding-right: 0px;
+}
+#searchPage #condition table tr td {
+    padding: 5px 10px 5px 0;
+}
+#searchPage #condition table tr td:first-child {
+    padding-left: 22px;
+}
+#searchPage #condition table tr td > select,
+#searchPage #condition table tr td > input, 
+#searchPage #condition table tr td > div > input, 
+#searchPage #condition table tr td > label > input {
+	height: 35px;
+	width: 138px !important;
+}
+#searchPage #condition table tr td #reset{
+    background-color: #00aa72;
+    width: 72px !important;
+    height: 31px !important;
+    color: #EEEEEE;
+}
+#searchPage #condition table tr td #reset:hover{
+    background-color: #06a972;
+}
+#searchPage #depNam{
+	width: 138px !important;
+}
+#searchPage .dzkf_td_1{
+	width: 125px !important;
+}
+#searchPage .dzkf_td_2{
+	width: 65px;
+}
+#searchPage #condition table tr td.tdSer a#search {
+    width: 72px;
+}
+#searchPage #check_div .dxkf_input{
+	width: 13px !important;
+    height: 13px !important;
+}
+#searchPage #rContent table tr input[type='checkbox']{
+    border: 1px solid #c9c9c9 !important;
+}
+#searchPage .dxkf_span1{
+	height: 40px;
+}

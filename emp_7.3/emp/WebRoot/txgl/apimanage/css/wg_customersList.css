@@ -1,0 +1,21 @@
+#wg_customersList .hiddenValueDiv{
+	display:none;
+}
+
+#wg_customersList .rContent2{
+	padding:5px;
+}
+
+#wg_customersList .code{
+	width:157px;
+}
+
+#wg_customersList .condcorpname{
+	width:157px;
+}
+
+#wg_customersList .xz_div{
+	text-align: center;
+	margin-top: 20px;
+}
+

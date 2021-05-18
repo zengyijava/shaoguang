@@ -1,0 +1,55 @@
+.sb_bg_div {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	filter: alpha(opacity = 50);
+	background-color: #DDD;
+	z-index: 555;
+	top: 0;
+	left: 0;
+}
+
+.sb_box_div {
+	position: absolute;
+	/*left: 50%;
+	margin-left: -200px;
+	width:400px;*/
+	padding: 74px 22px 76px;
+	/*height:400px;*/
+	z-index: 556;
+	top: 50px;
+	/*margin-top:-13%;*/
+	background-image: url(../img/iphone5.png);
+	background-repeat: no-repeat;
+	cursor: move;
+}
+.sb_box_div #sb_frame {
+	background-color: #fff;
+	width: 198px;
+	height: 325px;
+}
+
+.sb_close {
+	width: 40px;
+	height: 32px;
+	position: absolute;
+	right: -5px;
+	top: 0px;
+	background-image: url(../img/sb_close.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.sb_box_div.mode1 {
+	background-image:url(../img/phone.png);
+	padding:80px 26px 50px 26px;
+}
+
+.sb_box_div.mode1 #sb_frame {
+	height:445px;
+	width:320px;
+}
+.sb_box_div.mode1 .sb_close {
+	/*right:20px;*/
+}

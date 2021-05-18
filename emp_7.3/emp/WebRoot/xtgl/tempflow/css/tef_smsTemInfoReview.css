@@ -1,0 +1,129 @@
+#tef_smsTemInfoReview .smsExamine{
+	display:none;
+	font-size: 12px;
+}
+
+#tef_smsTemInfoReview .mmsExamine{
+	display:none;
+}
+
+#tef_smsTemInfoReview .mobileDiv{
+	width:250px;
+	margin-left: 20px;
+	display: inline;
+}
+
+#tef_smsTemInfoReview .mobile{
+	width:240px;
+	height:470px;
+	position: absolute;
+	background: url('../../../common/img/iphone5.jpg') no-repeat;
+}
+
+#tef_smsTemInfoReview .pers{
+	position:relative;
+	margin-top:90px;
+	border:1px #09F solid;
+	text-align:left;
+	display:none;
+	width:180px;
+	height:13px;
+	background-color:#FFFFFF;
+}
+
+#tef_smsTemInfoReview .showtime{
+	position:absolute;
+	width:140px;
+	height:13px;
+	text-align: center;
+}
+
+#tef_smsTemInfoReview .chart{
+	position:absolute;
+	left:0px; 
+	background-color:#00ffdd;
+	width:0px;
+	height:13px;
+	text-align:right;
+	padding-top:0px;
+}
+
+#tef_smsTemInfoReview .screen{
+	position:relative;
+	width:189px;
+	height:240px;
+	background:#ffffff;
+	margin-left:23px;
+	margin-top:95px;
+	overflow: auto;
+	padding:2px;
+	word-break: break-all;
+}
+
+#tef_smsTemInfoReview .align_bottom{
+	vertical-align: bottom
+}
+
+#tef_smsTemInfoReview .shenpi{
+	float:left;
+	width:180px;
+	margin-left: 10px;
+	margin-top:15px;
+}
+
+#tef_smsTemInfoReview .cont{
+	border:1px solid;
+	width:169px;
+	height:70px;
+}
+
+#tef_smsTemInfoReview .showParam{
+	height: 20px;
+}
+
+#tef_smsTemInfoReview .tmName{
+	width:180px;
+}
+
+#tef_smsTemInfoReview .dsflag{
+	width:185px;
+}
+
+#tef_smsTemInfoReview .infoType{
+	width: 185px;
+}
+
+#tef_smsTemInfoReview .mbysc_div{
+	word-break : break-all;
+}
+
+#tef_smsTemInfoReview .msg_label{
+	display:none;
+}
+
+#tef_smsTemInfoReview .modify{
+	padding:5px;
+	width:300px;
+	height:160px;
+	display:none;
+	word-wrap: break-word;
+	word-break:break-all;
+}
+
+#tef_smsTemInfoReview .modify_table{
+	width:100%;
+}
+
+#tef_smsTemInfoReview .msg_tr{
+	padding-top:2px;
+	margin-bottom: 2px;
+}
+
+#tef_smsTemInfoReview .msg{
+	width:100%;
+	height:100%
+}
+
+#tef_smsTemInfoReview .msg_down_tr{
+	padding-top:2px;
+}

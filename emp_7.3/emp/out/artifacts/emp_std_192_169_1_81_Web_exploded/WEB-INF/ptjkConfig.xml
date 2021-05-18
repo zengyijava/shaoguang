@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+
+	<servlet>
+		<servlet-name>MonitorInitServlet</servlet-name>
+		<servlet-class>com.montnets.emp.monitor.servlet.MonitorInitServlet</servlet-class>
+		<load-on-startup>12</load-on-startup>
+	</servlet>
+	
+	
+	
+	
+	<servlet>
+	    <description>通道账户监控</description>
+	    <display-name>通道账户监控</display-name>
+	    <servlet-name>mon_gateAcctMonSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.mondetails.servlet.mon_gateAcctMonSvt</servlet-class>
+  	</servlet>
+
+	<servlet-mapping>
+	    <servlet-name>mon_gateAcctMonSvt</servlet-name>
+	    <url-pattern>/mon_gateAcctMon.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <description>sp账户监控</description>
+	    <display-name>sp账户监控</display-name>
+	    <servlet-name>mon_spAcctMonSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.mondetails.servlet.mon_spAcctMonSvt</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	  <servlet-name>mon_spAcctMonSvt</servlet-name>
+	  <url-pattern>/mon_spAcctMon.htm</url-pattern>
+	</servlet-mapping>
+    
+	<servlet>
+	    <description>主机监控详情</description>
+	    <display-name>主机监控详情</display-name>
+	    <servlet-name>mon_hostMonSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.mondetails.servlet.mon_hostMonSvt</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+	    <servlet-name>mon_hostMonSvt</servlet-name>
+	    <url-pattern>/mon_hostMon.htm</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+	    <description>程序监控详情</description>
+	    <display-name>程序监控详情</display-name>
+	    <servlet-name>mon_prcMonSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.mondetails.servlet.mon_prcMonSvt</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+	    <servlet-name>mon_prcMonSvt</servlet-name>
+	    <url-pattern>/mon_prcMon.htm</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+	    <description>历史告警详情</description>
+	    <display-name>历史告警详情</display-name>
+	    <servlet-name>mon_hisMonSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.mondetails.servlet.mon_hisMonSvt</servlet-class>
+    </servlet>
+
+	<servlet-mapping>
+	    <servlet-name>mon_hisMonSvt</servlet-name>
+	    <url-pattern>/mon_hisMon.htm</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+	    <description>实时告警详情</description>
+	    <display-name>实时告警详情</display-name>
+	    <servlet-name>mon_realTimeAlarmSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.mondetails.servlet.mon_realTimeAlarmSvt</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+	    <servlet-name>mon_realTimeAlarmSvt</servlet-name>
+	    <url-pattern>/mon_realTimeAlarm.htm</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+	    <description>WEB主机网络监控</description>
+	    <display-name>WEB主机网络监控</display-name>
+	    <servlet-name>mon_webHostMonNetSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.monnet.servlet.mon_webHostMonNetSvt</servlet-class>
+    </servlet>
+    
+	<servlet-mapping>
+	    <servlet-name>mon_webHostMonNetSvt</servlet-name>
+	    <url-pattern>/mon_webHostMonNet.htm</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+    <description>主机监控设置</description>
+    <display-name>主机监控设置</display-name>
+    <servlet-name>mon_hostMonCfgSvt</servlet-name>
+    <servlet-class>com.montnets.emp.monmanage.servlet.mon_hostMonCfgSvt</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	    <servlet-name>mon_hostMonCfgSvt</servlet-name>
+	    <url-pattern>/mon_hostMonCfg.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <description>程序监控设置</description>
+	    <display-name>程勋监控设置</display-name>
+	    <servlet-name>mon_prcMonCfgSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.monmanage.servlet.mon_prcMonCfgSvt</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+	    <servlet-name>mon_prcMonCfgSvt</servlet-name>
+	    <url-pattern>/mon_prcMonCfg.htm</url-pattern>
+    </servlet-mapping>
+    
+  <servlet>
+    <description>在线用户数</description>
+    <display-name>在线用户数</display-name>
+    <servlet-name>mon_onlineUserNumSvt</servlet-name>
+    <servlet-class>com.montnets.emp.monitoruser.servlet.mon_onlineUserNumSvt</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>mon_onlineUserNumSvt</servlet-name>
+    <url-pattern>/mon_onlineUserNum.htm</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description>在线用户数监控设置</description>
+    <display-name>在线用户数监控设置</display-name>
+    <servlet-name>mon_onlUserNumCfgSvt</servlet-name>
+    <servlet-class>com.montnets.emp.monmanage.servlet.mon_onlUserNumCfgSvt</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>mon_onlUserNumCfgSvt</servlet-name>
+    <url-pattern>/mon_onlUserNumCfg.htm</url-pattern>
+  </servlet-mapping>
+    
+    <servlet>
+	    <description>sp账号监控设置</description>
+	    <display-name>sp账号监控设置</display-name>
+	    <servlet-name>mon_spAcctMonCfgSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.monmanage.servlet.mon_spAcctMonCfgSvt</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+	    <servlet-name>mon_spAcctMonCfgSvt</servlet-name>
+	    <url-pattern>/mon_spAcctMonCfg.htm</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+	    <description>通道账号监控设置</description>
+	    <display-name>通道账号监控设置</display-name>
+	    <servlet-name>mon_gateAcctMonCfgSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.monmanage.servlet.mon_gateAcctMonCfgSvt</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+	    <servlet-name>mon_gateAcctMonCfgSvt</servlet-name>
+	    <url-pattern>/mon_gateAcctMonCfg.htm</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+    <description>监控视图</description>
+    <display-name>监控视图</display-name>
+    <servlet-name>mon_mainMonSvt</servlet-name>
+    <servlet-class>com.montnets.emp.monview.servlet.mon_mainMonSvt</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>mon_mainMonSvt</servlet-name>
+    <url-pattern>/mon_mainMon.htm</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>监控消息接口</description>
+    <display-name>监控消息接口</display-name>
+  	<servlet-name>monMsgReceive</servlet-name>
+  	<servlet-class>com.montnets.emp.monitor.servlet.monMsgReceiveSvt</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>monMsgReceive</servlet-name>
+  	<url-pattern>/monMsgReceive.hts</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description>业务监控设置</description>
+    <display-name>业务监控设置</display-name>
+  	<servlet-name>monBusTypeCfg</servlet-name>
+  	<servlet-class>com.montnets.emp.bustype.servlet.mon_busTypeCfgSvt</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>monBusTypeCfg</servlet-name>
+  	<url-pattern>/mon_busCfg.htm</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description>业务监控详情</description>
+    <display-name>业务监控详情</display-name>
+  	<servlet-name>monBusDeatil</servlet-name>
+  	<servlet-class>com.montnets.emp.bustype.servlet.mon_busDeatilSvt</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>monBusDeatil</servlet-name>
+  	<url-pattern>/mon_busDeatil.htm</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+        <description>数据库监控详情</description>
+        <display-name>数据库监控详情</display-name>
+        <servlet-name>mon_dataBaseMonSvt</servlet-name>
+        <servlet-class>com.montnets.emp.mondetails.servlet.mon_dataBaseMonSvt</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>mon_dataBaseMonSvt</servlet-name>
+        <url-pattern>/mon_dataBaseMon.htm</url-pattern>
+    </servlet-mapping>

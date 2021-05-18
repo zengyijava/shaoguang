@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+	
+		<servlet>
+		<description>客户群组群发预览</description>
+		<display-name>短信客服</display-name>
+		<servlet-name>kfs_previewSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.clientsms.servlet.kfs_previewSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<!-- 不同内容群发 -->
+		<servlet-name>kfs_previewSMSSvt</servlet-name>
+		<url-pattern>/kfs_previewSMS.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>客户群组短信</description>
+		<display-name>短信客服</display-name>
+		<servlet-name>kfs_sendClientSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.clientsms.servlet.kfs_sendClientSMSSvt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>客户生日祝福短信发送</description>
+		<display-name>短信客服</display-name>
+		<servlet-name>bir_birthdaySendSvt</servlet-name>
+		<servlet-class>com.montnets.emp.birthwish.servlet.bir_birthdaySendSvt</servlet-class>
+	</servlet>
+	
+	
+	<servlet>
+		<description>任务查询</description>
+		<display-name>任务短信群发统计报表(短信客服)</display-name>
+		<servlet-name>smt_ssmsSendedBoxSvt</servlet-name>
+		<servlet-class>com.montnets.emp.smstask.servlet.smt_smsSendedBoxSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<!-- 短信客服-群发任务查看 -->
+		<servlet-name>smt_ssmsSendedBoxSvt</servlet-name>
+		<url-pattern>/smt_smsSendedBox2.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<!-- 短信客服-客户生日祝福群发历史查询 -->
+		<servlet-name>smt_ssmsSendedBoxSvt</servlet-name>
+		<url-pattern>/bir_cliSendTask.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>bir_birthdaySendSvt</servlet-name>
+		<url-pattern>/bir_birthdaySendClient.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>kfs_sendClientSMSSvt</servlet-name>
+		<url-pattern>/kfs_sendClientSMS.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>超大文件导入</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>ssm_dxkfBigFileExportSvt</servlet-name>
+		<servlet-class>com.montnets.emp.samesms.servlet.ssm_bigFileExportSvt</servlet-class></servlet>
+	<servlet-mapping>
+		<servlet-name>ssm_dxkfBigFileExportSvt</servlet-name>
+		<url-pattern>/ssm_dxkfBigFileExport.htm</url-pattern>
+	</servlet-mapping>

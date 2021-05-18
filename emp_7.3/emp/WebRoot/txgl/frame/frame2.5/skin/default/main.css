@@ -1,0 +1,41 @@
+
+
+.msg {
+	background-color: #cfdef4;
+}
+
+.ltd {
+	color: #880000;
+}
+
+.rtd {
+	color: #0000CC;
+}
+
+.date {
+	color: #0000CC;
+}
+
+.link {
+	color: #880000;
+}
+/*====换肤弹出框======*/
+.classsic_change,.tradition_change{
+	display:inline;
+	float:left;
+	background:url(images/normal_hf.gif) no-repeat 0 0;
+	line-height:26px;
+	text-align:center;
+	cursor:pointer;
+	}
+.classsic_change span,.tradition_change span{
+	width:60px;
+padding-left:20px;
+height:26px;
+	display:block;
+}		
+.classsic_change span{
+	margin-right:13px;
+}
+
+

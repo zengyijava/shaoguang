@@ -1,0 +1,67 @@
+#opt_department .depTree_up_div {
+	height: 425px;
+	WIDTH: 97%;
+	OVERFLOW-Y: YES;
+	OVERFLOW: auto;
+}
+
+#opt_department .tableInfo_up_div {
+	display: none;
+}
+
+#opt_department .addDiv {
+	padding-left: 10px;
+}
+
+#opt_department .jgmc_table {
+	width: 350px;
+}
+
+#opt_department .jgmc_up_tr_td {
+	height: 5px;
+}
+
+#opt_department .jgmc_td {
+	width: 70px;
+}
+
+#opt_department .addDepName_td {
+	width: 280px;
+}
+
+#opt_department .addDepName {
+	width: 250px;
+}
+
+#opt_department .font_red {
+	color: red;
+}
+
+#opt_department .jgbm_up_tr_td {
+	height: 5px;
+}
+
+#opt_department .depCodeThird_td {
+	width: 280px;
+}
+
+#opt_department .depCodeThird {
+	width: 250px;
+}
+
+#opt_department .jgzz_up_tr_td {
+	height: 5px;
+}
+
+#opt_department .jgzz_td {
+	vertical-align: top;
+}
+
+#opt_department .addDepResp {
+	width: 250px;
+	height: 100px;
+}
+
+#opt_department .qd_up_tr_td {
+	height: 5px;
+}

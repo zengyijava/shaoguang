@@ -1,0 +1,54 @@
+
+/*-------动态网讯发送——网讯内容选择---------*/
+#ydwx_dynamicTemplate .ydwx_rContent{
+	padding:5px;
+}
+#ydwx_dynamicTemplate .ydwx_tmName{
+	width:157px;
+}
+#ydwx_dynamicTemplate .ydwx_btns{
+	text-align: center;margin-top:20px;
+}
+#ydwx_dynamicTemplate .ydwx_preview_dv{
+	float: left;width:250px;margin-left: 30px;display: inline;
+}
+#ydwx_dynamicTemplate .ydwx_mobile{
+	width:240px;height:470px;position: absolute;background: url('../../../images/iphone5.jpg') no-repeat;
+}
+#ydwx_dynamicTemplate .ydwx_pers{
+	position:relative;margin-top:90px;border:1px #09F solid;text-align:left;display:none;width:180px;height:13px;background-color:#FFFFFF;
+}
+#ydwx_dynamicTemplate .ydwx_showtime{
+	position:absolute;width:140px;height:13px;text-align: center;
+}
+#ydwx_dynamicTemplate .ydwx_chart{
+	position:absolute;left:0px; background-color:#00ffdd;width:0px;height:13px;text-align:right;padding-top:0px;
+}
+#ydwx_dynamicTemplate .ydwx_screen{
+	position:relative;width:189px;height:240px;background:#ffffff;margin-left:23px;margin-top:95px;overflow: auto;padding:2px;word-break: break-all;
+}
+#ydwx_dynamicTemplate .ydwx_inputParamCnt1{
+	margin-top: 10px;margin-left: 280px; 
+}
+#ydwx_dynamicTemplate .ydwx_modify{
+	padding:5px;width:300px;height:160px;display:none;word-wrap: break-word;word-break:break-all;overflow-y:auto; 
+}
+#ydwx_dynamicTemplate .ydwx_msg{
+	width:100%;height:100%;overflow-y:auto; 
+}
+#ydwx_dynamicTemplate .ydwx_nav{
+	margin-right:10px;margin-top: 3px; 
+}
+#ydwx_dynamicTemplate .ydwx_ym{
+	width:170px;
+}
+#ydwx_dynamicTemplate .ydwx_iphone_dv{
+	width:240px;height:460px;margin-left:30px; margin-top:-3px; background:url('../../../common/img/iphone5.jpg');
+}
+#ydwx_dynamicTemplate .ydwx_preview_common1{
+	background: white;width:198px;height:325px;margin-top: 65px;margin-left: 22px;
+}
+#ydwx_dynamicTemplate .ydwx_preview_common1{
+	background: white;width:198px;height:325px;margin-top: 65px;margin-left: 22px;
+}
+

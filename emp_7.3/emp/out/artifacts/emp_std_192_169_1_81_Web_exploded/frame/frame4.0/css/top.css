@@ -1,0 +1,215 @@
+@charset "utf-8"; 
+* {
+	padding:0;
+	margin:0;
+	font-family: 宋体;
+}
+.top 
+{
+	overflow: hidden;
+	height: 60px;
+	background-color: #fff;
+}
+.top_info {
+	line-height: 14px;
+	height: 14px;
+	margin-right: 10px;
+	_margin-right: 10px;
+	background: none;
+	color: #FFF;
+	float: right;
+	font-size: 0;
+	text-align: right;
+	vertical-align: top;
+	padding-top: 23px;
+}
+
+.top_logo {
+	width: 500px;
+}
+.top_info a,
+.top_info span{
+	font-size: 14px;
+	display: block;
+}
+.top_info a {
+	color: #666;
+	text-decoration: none;
+	line-height:12px;
+	height:12px;
+	float:left;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+.top_info a:hover{
+	color: #00ab72;
+}
+.top_info a .top-info-icons{
+	width: 16px;
+	height: 16px;
+	display: block;
+	margin-top: -1px;
+	margin-right: 4px;
+	float:left;
+}
+.top_info a xmp{	
+	float:left;
+}
+.top_info a .feedback-icon{
+	background: url("../images/fc_unSelected_icon.png")no-repeat center center;
+}
+.top_info a:hover .feedback-icon{
+	background: url("../images/fc_Selected_icon.png")no-repeat center center;
+}
+.top_info a .about-icon{
+	background: url("../images/gg_unSelected_icon.png")no-repeat center center;
+}
+.top_info a:hover .about-icon{
+	background: url("../images/gg_Selected_icon.png")no-repeat center center;
+}
+.top_info a .balance-icon{
+	background: url("../images/ye_unSelected_icon.png")no-repeat center center;
+}
+.top_info a:hover .balance-icon{
+	background: url("../images/ye_Selected_icon.png")no-repeat center center;
+}
+.top_info a .user-icon{
+	background: url("../images/gl_unSelected_icon.png")no-repeat center center;
+}
+.top_info a:hover .user-icon{
+	background: url("../images/gl_Selected_icon.png")no-repeat center center;
+}
+.top_info a .logout-icon{
+	background: url("../images/tc_unSelected_icon.png")no-repeat center center;
+}
+.top_info a:hover .logout-icon{
+	background: url("../images/tc_Selected_icon.png")no-repeat center center;
+}
+.top_info span
+{
+	height:12px;
+	float:left;
+	border-right:1px solid #d6dadd;
+}
+#firstPage
+{
+	float:left;
+	width:34px;
+	height: 20px;
+	display: block;
+	text-align: center;
+}
+.onSys
+{
+	/**background: url(img/header_putdown_bg.png) repeat-x;*/
+	background: #0B3E75;
+}
+#firstPage img
+{
+	margin-top: 6px;
+}
+#loginMes
+{
+	font-size: 16px;
+	height:20px;
+	width; auto;
+	padding: 0px 9px 0 9px;
+	text-align: center;
+	float: left;
+	font-size: 13px !important;
+	font-size: 12px;
+}
+#sysmenudiv
+{
+	font-size: 16px;
+	height:20px;
+	width; auto;
+	padding: 0 10px;
+	text-align: center;
+	float: left;
+}
+.halving_line
+{
+	height: 20px;
+	width: 2px;
+	display:block;
+	float: left;
+	background-repeat:no-repeat;
+	background-image:url(img/halving_line.gif);
+}
+#remainingNum
+{
+	font-size: 16px;
+	height:20px;
+	width:40px;
+	float:left;
+	text-align: center;
+	padding:0px 3px 0 4px;
+	font-size: 13px !important;
+	font-size: 12px;
+}
+#secondPageDiv
+{
+	font-size: 16px;
+	height:20px;
+	width:28px;
+	float:left;
+	text-align: center;
+	cursor: pointer;
+	padding:0px 6px 0 7px;
+	font-size: 13px !important;
+	font-size: 12px;
+}
+#secondPageDiv a:HOVER
+{
+	text-decoration: underline;
+}
+#tbBody
+{
+	height:100%;
+	width:100%;
+	table-layout:fixed;
+	background: url(img/header.png);
+}
+#sysmenu{
+	display: block;
+	height: 40px;
+}
+#companyName
+{
+}
+span.halving_distance
+{
+}
+
+#top_home 
+{
+	width:100%;
+	height:31px;
+	display: block;
+	background-position: center 11px;
+	background-repeat: no-repeat;
+	background-image: url('img/home.gif') ;
+	cursor: pointer;
+}
+
+#quit 
+{
+	font-size: 13px !important;
+	font-size: 12px;
+}
+
+.topMenu {
+	width: 82px;
+	height: 21px;
+	padding-top:10px;
+	padding-left: 1px;
+	padding-right: 1px;
+	float: left;
+	display: block;
+	font-size: 14px;
+	cursor: pointer;
+	overflow: hidden;
+	text-align: center;
+	color: #FFFFFF;
+}

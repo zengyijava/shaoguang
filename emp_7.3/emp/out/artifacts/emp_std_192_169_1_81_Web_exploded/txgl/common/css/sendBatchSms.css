@@ -1,0 +1,119 @@
+.infomodelclass ul li {
+	margin-left: 15px;
+}
+div#eq_sendDiv{
+	float: left;
+	margin-bottom: 5px;
+	width:660px;
+}
+div#eq_sendDiv2{
+	float: left;
+	margin-bottom: 5px;
+	width:660px;
+}
+
+.clear2{clear:both;}
+.selectFileTable{
+	width:170px;
+	float:left;
+}
+a.bulkImport{background-image:url(../img/import.png);
+display: block;
+width: 28px;
+height: 20px;
+overflow:hidden;
+}
+.formatFont{
+	margin-right:10px;
+	line-height:12px;
+	color:#095AD1;
+	float:right;
+	cursor:pointer
+}
+#u_o_c_explain{
+	height:26px;
+	width:105px;
+	align:center;
+	cursor:pointer;
+	/*background-color:#F1F6FD;*/
+	margin-bottom:0px !important
+}
+
+#timerTime,#sendtime{
+	width: 180px;
+	height:20px; 
+	cursor: pointer; 
+	background-color: white;
+	margin-top:-2px;
+	*margin-top:-4px;
+}
+#infoDiv{
+	background-color:#FAFAFF;
+	padding:5px;
+	display:none;
+}
+#dds{
+	width:328px;
+	height:120px !important;
+	height: 122px;
+	float:left;
+	overflow-y: auto; 
+	overflow-x: hidden; 
+	border-right:0px;
+}
+#vss{
+	width:328px;
+	text-align:center;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+}
+#vss tr{
+	height:25px;
+	width:328px;
+	text-align:center;
+}
+#first td{
+	border-top:0px;
+}
+.selectEmp
+{
+	display:block;
+	width:21px;
+	height:25px;
+	background:url("../img/selectEmp.gif") no-repeat;
+}
+.importFile{
+	display:block;
+	width:21px;
+	height:25px;
+	background:url("../img/importFile.gif") no-repeat;
+}
+.superSearch {
+	display: block;
+	width: 21px;
+	height: 25px;
+	background:url("../img/superSearch.gif") no-repeat;
+}
+/*=======UL模拟select===========*/
+#getChooseMan{width:100%;overflow-y:auto;text-align:left;height:397px;}
+#getChooseMan li{line-height:22px;cursor:pointer;font-size:12px;padding:0 4px;list-style:none;}
+#getChooseMan li.cur{background-color:#6D6D6D;color:#fff;}
+.chooseBox{width:510px;margin: 0 auto;}
+.left_select_choose{
+
+width: 246px;
+border: 0;
+font-size:12px;
+vertical-align:middle;
+margin:-4px 0 0 -8px;
+padding:4px 0 0 8px;
+
+height:130px;
+}
+.left_select_choose option{
+padding:0 6px;
+}
+.search_tx_choose{margin-left:6px;width:153px;height:22px;background-color:#F3FAEE;float:left;overflow:hidden;}
+#rightDiv{margin-top:3px;background-color:white;width:204px;height:394px;overflow-x:hidden;overflow-y:hidden;display:block;float: left; padding-top: 1px;}
+#etree{margin-top:3px;}

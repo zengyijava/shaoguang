@@ -1,0 +1,103 @@
+#ydwx_webexbook .ydwx_etree{
+	height:285px;width: 200px;overflow:auto;
+}
+#ydwx_webexbook #condition .ydwx_serahname{
+	width:180px;
+}
+#ydwx_webexbook #condition .ydwx_submitSartTime{
+	cursor: pointer; width: 180px;background-color: white;
+}
+#ydwx_webexbook #condition .ydwx_submitEndTime{
+	cursor: pointer; width: 180px;background-color: white;
+}
+#ydwx_webexbook .ydwx_changeDep{
+	padding:5px;display:none;
+}
+#ydwx_webexbook .ydwx_changeDep_sub2{
+	height: 20px;
+}
+#ydwx_webexbook .ydwx_createSucai{
+	padding-left:10px;
+}
+#ydwx_webexbook .ydwx_AttachmentName{
+	width: 255px;height: 20px;
+}
+#ydwx_webexbook .ydwx_AttachmentName2{
+	width: 255px;height: 20px;
+}
+#ydwx_webexbook .ydwx_AttachmentDescribe{
+	width: 255px;
+}
+#ydwx_webexbook .ydwx_AttachType{
+	width: 255px;height: 20px;line-height:20px;
+}
+#ydwx_webexbook .ydwx_progressBar{
+	display: none;position: absolute;padding-left:30px;
+}
+#ydwx_webexbook .ydwx_createVed{
+	padding-left:10px;
+}
+#ydwx_webexbook .ydwx_vedName{
+	width: 255px;height: 20px;
+}
+#ydwx_webexbook .ydwx_veddec{
+	width: 255px;
+}
+
+#ydwx_webexbook .ydwx_VedioType{
+	width: 255px;height: 20px;
+}
+#ydwx_webexbook .ydwx_videoType_select{
+	width: 52px;
+}
+#ydwx_webexbook .ydwx_VedprogressBar{
+	display: none;position: absolute;padding-left:30px
+}
+/**------编辑素材------**/
+#ydwx_webexbook .ydwx_editSucai{
+	padding-left:10px;
+}
+#ydwx_webexbook .ydwx_fileName{
+	width: 255px;height: 20px;
+}
+#ydwx_webexbook .ydwx_fileDes{
+	width: 255px;
+}
+#ydwx_webexbook .ydwx_progressBar{
+	display: none;position: absolute;padding-left:30px
+}
+
+/**------编辑素材结束------**/
+
+
+/**------新增类型------**/
+#ydwx_webexbook #ydwx_webexlist{
+	margin:0;padding:0;
+}
+#ydwx_webexbook .ydwx_addDep{
+	padding:5px;display:none;
+}
+#ydwx_webexbook .ydwx_addDep_table{
+	margin:15px auto 0;
+}
+#ydwx_webexbook .ydwx_updateDep{
+	padding:10px;display:none;
+}
+#ydwx_webexbook .ydwx_tree{
+	width:auto;
+}
+
+/**------新增类型结束------**/
+
+
+
+
+
+
+
+
+
+
+
+
+

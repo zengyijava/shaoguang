@@ -1,0 +1,95 @@
+#ydwx_templateManger .ydwx_list{
+	height:440px;width: 97%;overflow-y:yes;overflow:auto;
+}
+#ydwx_templateManger #condition .ydwx_mbid{
+	width:178px;
+}
+#ydwx_templateManger #condition .ydwx_mbname{
+	width:178px;
+}
+#ydwx_templateManger  .ydwx_tempName{
+	width: 180px;
+}
+#ydwx_templateManger  .ydwx_addDiv_sub{
+	padding-left: 20px;
+}
+#ydwx_templateManger  .ydwx_name{
+	width: 180px;
+}
+#ydwx_templateManger  .ydwx_btns{
+	margin-left:-20px;
+}
+#ydwx_templateManger  .ydwx_tree{
+	width: inherit;
+}
+#ydwx_templateManger  .ydwx_rMenu{
+	position: absolute; 
+	top: 160px; 
+	left: 102px;
+	border:1px solid #999999;
+	visibility: visible;
+	display:none;
+	background-color: #EDEDED; 
+}
+
+#ydwx_templateManger  .tree li button.ico_close{ background:url('../../../common/widget/zTreeStyle/img/sorts.gif') no-repeat;}
+#ydwx_templateManger  .tree li button.ico_docu{ background:url('../../../common/widget/zTreeStyle/img/sorts.gif') no-repeat;}
+#ydwx_templateManger  .tree li button.ico_open{ background:url('../../../common/widget/zTreeStyle/img/sorts.gif') no-repeat;}
+#ydwx_templateManger #content  .ydwx_no{
+	width: 12%;
+}
+#ydwx_templateManger #content .ydwx_name_th{
+	width:25%;
+	max-width: 25%;
+}
+#ydwx_templateManger #content .ydwx_content{
+	width:10%;
+}
+#ydwx_templateManger #content .ydwx_content{
+	width:10%;
+}
+#ydwx_templateManger #content .ydwx_validtm{
+	width:18%;
+}
+#ydwx_templateManger #content .ydwx_type{
+	width:15%;
+}
+#ydwx_templateManger #content .ydwx_operate{
+	width:20%;
+}
+#ydwx_templateManger  .ydwx_divBox_sub{
+	margin-right:10px;margin-top: 3px;
+}
+#ydwx_templateManger  .ydwx_ym{
+	width:170px;
+}
+	 
+#ydwx_templateManger  .ydwx_preview_common_dv{
+	width:240px;
+	height:460px;
+	margin-left:30px;
+	margin-top:-3px; 
+	background:url('../../../common/img/iphone5.jpg');
+}
+#ydwx_templateManger  .ydwx_preview_common{
+background: white;width:198px;height:325px;margin-top: 65px;margin-left: 22px;
+}
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 

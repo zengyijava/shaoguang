@@ -1,0 +1,65 @@
+#cli_editClient #dropdownMenu span {
+	float:none !important;
+}
+#cli_editClient #rContent{
+	padding:5px;
+}
+#cli_editClient .titletop_table{
+	width:380px;
+}
+#cli_editClient #detail_Info{
+	width: 610px;
+	padding-left: 35px;
+	height: 520px;
+	line-height: 35px !important;
+	line-height: 25px;
+}
+#cli_editClient #clientCode,#cName,#cNameTemp,#mobile,#job,#pro,#eName,#qq,#EMail,#msn,#oph,#area,#comm{
+	width:261px;
+}
+#cli_editClient .client_td1{
+	width:110px;
+}
+#cli_editClient .client_color_red{
+	color: red;
+}
+#cli_editClient .client_div1{
+	width:280px;
+}
+#cli_editClient #depNam{
+	width:236px;
+}
+#cli_editClient #dropMenu{
+	position: absolute; 
+	display:none;
+	margin-left:0px;
+	height:450px; 
+	width:356px;
+	background-color:white;
+	border:1px solid;
+	overflow-y:auto;
+	overflow-x:auto;
+	z-index:999;
+}
+#cli_editClient .client_div2{
+	margin-top: 3px;
+	margin-right:10px;
+	text-align:right;
+}
+#cli_editClient #sex{
+	width:267px;
+}
+#cli_editClient #birth{
+	cursor: pointer; 
+	background-color: white;
+	width: 265px;
+}
+#cli_editClient .input_bd.client_select{
+	width:268px;
+}
+#cli_editClient .client_tr1{
+	padding-top:15px;
+}
+.client_display_none{
+	display: none;
+}

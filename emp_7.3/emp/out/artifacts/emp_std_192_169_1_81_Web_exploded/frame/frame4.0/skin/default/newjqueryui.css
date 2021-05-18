@@ -1,0 +1,23 @@
+.ui-widget-content { 
+	border: 1px solid #BEC3D1/*{borderColorContent}*/; 
+ }
+ 
+.ui-widget-header { 
+	border-bottom: 1px solid #eceff1 !important/*{borderColorHeader}*/;
+	background-color:#f7fafc; 
+	height: 40px;
+	color: #222222/*{fcHeader}*/; /*font-weight: bold;*/ 
+ }
+
+.ui-widget-header .ui-icon-closethick {background-image: url(images/close.gif) }
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+	    border: 1px solid #d7e8ff/*{borderColorHover}*/;
+	    background-color: #e9f0f9;
+}
+
+.ui-dialog .ui-dialog-title{
+	font-size: 14px;
+	margin: 0.2em 0px .2em 0;
+	line-height: 40px !important;
+}

@@ -1,0 +1,62 @@
+			.zs-wrap .zs-left{
+				float: left;
+				margin-left: 0;
+				overflow:hidden;
+			}
+			.tip{
+				display:block;
+				position: absolute;
+				top: 40px;
+				_top:243px;
+				left: 0;
+				width: 40%;
+				text-align: center;
+				line-height: 24px;
+				height: 100%;
+			}
+			.zs-wrap select{
+				width: 100%;
+				height: 100%;
+				overflow-x: hidden;
+				overflow-y: scroll;
+			}
+			.zs-wrap select option:hover{
+				background: #eee;
+			}
+			.zs-wrap select option{
+				display:block;
+				width:100%;
+				height:12px;
+				padding:3px 2px 1px;
+				white-space: nowrap;
+				overflow: hidden;             
+				-o-text-overflow: ellipsis;    /* Opera */
+				text-overflow:    ellipsis;    /* IE, Safari (WebKit) */
+			}
+			.zs-wrap .zs-right{
+				float: right;
+				margin-right: 0;
+				overflow:hidden;
+			}
+			.zs-wrap .zs-button{
+				width: 60px;
+				height: 100%;
+				margin: 0 auto;
+				text-align: center;
+				vertical-align: middle;
+			}
+			.zs-button input{
+				margin-top: 20px;
+			}
+			.clearfix:after{
+		        visibility: hidden;
+		        display: block;
+		        font-size: 0;
+		        content: ".";
+		        clear: both;
+		        height: 0;
+			}
+			
+			* html .clearfix{zoom: 1;}
+			
+			*:first-child + html .clearfix{zoom: 1;}

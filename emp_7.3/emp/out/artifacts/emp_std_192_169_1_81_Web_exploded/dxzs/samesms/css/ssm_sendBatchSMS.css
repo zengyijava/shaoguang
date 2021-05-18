@@ -1,0 +1,372 @@
+.dxzs_display_none{
+	display: none;
+}
+#ssm_sendBatchSMS #dds {
+	width: 288px;
+	height: 120px !important;
+	height: 122px;
+	float: left;
+	overflow-y: auto;
+	overflow-x: hidden;
+	border-right: 0px;
+}
+#ssm_sendBatchSMS #tail-area{
+	text-indent: 1em;
+	display: none;
+}
+#ssm_sendBatchSMS #tail-text{
+	padding: 4px;
+	line-height: 16px;
+	background-color: #f8f8f8;
+	word-break:break-all;
+	color: #8a8a8a
+}
+#ssm_sendBatchSMS #toDraft{
+	text-align: center;
+	letter-spacing: 2px;
+	text-indent: 0;
+}
+#ssm_sendBatchSMS div#effinfo table{
+	width: 95%;
+}
+#ssm_sendBatchSMS div#effinfo table tr td:nth-child(1){
+	width: 90px;
+}
+#ssm_sendBatchSMS .rContent.dxzs_div{
+	position:relative;
+}
+#ssm_sendBatchSMS .block{
+	width:685px;
+}
+#ssm_sendBatchSMS .graytext.input_bd.div_bd.dxzs_taskname{
+	padding-left:5px;
+	width:577px;
+	float:left;
+}
+#ssm_sendBatchSMS .div_bd.title_bg.dxzs_td1{
+	border-left:0px;
+	width: 80px;
+}
+#ssm_sendBatchSMS .div_bd.title_bg.dxzs_td2{
+	border-right: 0px;
+	width: 62px;
+}
+#ssm_sendBatchSMS .selectFileTable{
+	width:295px;
+}
+#ssm_sendBatchSMS .dxzs_table{
+	width:100%;
+	height: 122px ! important;
+	height: 124px;
+}
+#ssm_sendBatchSMS .dxzs_picTab{
+	height:122px;
+}
+#ssm_sendBatchSMS .dxzs_picTab1{
+	height:72px;
+}
+#ssm_sendBatchSMS .dxzs_div1{
+	width: 48px;
+}
+#ssm_sendBatchSMS .div_bd.div_bg.dxzs_cursor{
+	cursor:pointer;
+}
+#ssm_sendBatchSMS .dxzs_div2{
+	position:relative;
+	width:48px;
+}
+#ssm_sendBatchSMS .dxzs_filesdiv{
+	margin-bottom: 0px;
+	position: absolute;
+	left:0;
+	top:-7px;
+}
+#ssm_sendBatchSMS .numfileclass{
+	display:block;
+	height: 64px;
+	width:64px;
+}
+#ssm_sendBatchSMS .dxzs_td1.div_bd.div_bg{
+	cursor:pointer;
+	width:85px;
+}
+#ssm_sendBatchSMS .dxzs_td1.div_bd.div_hover_bg.img_hover{
+	cursor:pointer;
+	width:85px;
+}
+#ssm_sendBatchSMS .graytext.dxzs_input{
+	line-height:23px;
+	width: 230px; 
+	height: 26px;
+	border:0;
+}
+#ssm_sendBatchSMS .div_bd.dxzs_cursor{
+	cursor:pointer;
+}
+#ssm_sendBatchSMS .dxzs_both{
+	clear:both;
+}
+#ssm_sendBatchSMS .dxzs_div3{
+	padding:5px 15px 15px 0;
+	width:670px;
+}
+#ssm_sendBatchSMS .dxzs_downlinks{
+	padding-bottom:10px;
+	position: relative;
+}
+#ssm_sendBatchSMS .dxzs_eq_sendDiv{
+	margin-top:-5px;
+}
+#ssm_sendBatchSMS .dxzs_table.div_bd{
+	width:584px;
+	float:left;
+}
+#ssm_sendBatchSMS .dxzs_tr{
+	height:25px;
+}
+#ssm_sendBatchSMS .dxzs_td.div_bd{
+	height:25px;
+	line-height: 25px;
+	width:270px;
+}
+#ssm_sendBatchSMS .dxzs_ctem.div_bg.div_bd {
+	width:140px;
+	border-top:0;
+	border-left:0;
+	float:left;
+	text-align:center;
+	border-bottom:0;
+	height:25px;
+	line-height: 25px;
+	display: block;
+}
+#ssm_sendBatchSMS .dxzs_qtem.div_bg.div_bd {
+	width:140px;
+	border-top:0;
+	border-left:0;
+	float:left;
+	text-align:center;
+	border-bottom:0;
+	height:25px;
+	line-height: 25px;
+	display: none;
+}
+#ssm_sendBatchSMS .dxzs_a {
+	margin-left: 20px;
+}
+#ssm_sendBatchSMS .div_bd.dxzs_td1 {
+	width:200px;
+	padding-left:5px;
+}
+#ssm_sendBatchSMS .div_bd.dxzs_td2 {
+	width:176px;
+	padding-left:5px;
+}
+#ssm_sendBatchSMS .dxzs_vertical_align {
+	vertical-align: text-bottom;
+}
+#ssm_sendBatchSMS .dxzs_tr1 {
+	height:124px;
+}
+#ssm_sendBatchSMS .dxzs_msg {
+	width:570px;
+	height:124px;
+	border:0px;
+	overflow:auto;
+}
+#ssm_sendBatchSMS .dxzs_font1 {
+	line-height:12px;
+	float:left;
+	padding-top:5px;
+	margin-left:75px;
+	color: #656565;
+}
+#ssm_sendBatchSMS .dxzs_font2 {
+	line-height:12px;
+	float:right;
+	padding-top:5px;
+	margin-right:5px;
+	color: #656565;
+}
+#ssm_sendBatchSMS .dxzs_div4 {
+	padding:10px 0 0; 
+	width: 498px;
+	height:13px;
+}
+#ssm_sendBatchSMS .dxzs_timerStatus {
+	margin-left: 10px;
+}
+#ssm_sendBatchSMS .dxzs_eq_sendDiv2 {
+	float:left;
+	margin-top:0px;
+}
+#ssm_sendBatchSMS .dxzs_text_decoration.unfold {
+	text-decoration:none
+}
+#ssm_sendBatchSMS #moreSelect {
+	width:680px;
+}
+#ssm_sendBatchSMS .dxzs_div5 {
+	width:630px;
+}
+#ssm_sendBatchSMS .dxzs_table1 {
+	width:100%;
+	height:100%;
+	border:0px;
+}
+#ssm_sendBatchSMS .input_bd.dxzs_busCode {
+	width:225px;
+}
+#ssm_sendBatchSMS .dxzs_tr2 {
+	height:20%;
+}
+#ssm_sendBatchSMS .dxzs_td6 {
+	padding-left:35px;
+}
+#ssm_sendBatchSMS .input_bd.dxzs_priority,.input_bd.dxzs_spUser {
+	width:225px;
+}
+#ssm_sendBatchSMS .dxzs_td3 {
+	width:108px;
+	padding-left:35px;
+}
+#ssm_sendBatchSMS .dxzs_td4 {
+	padding-left:35px;
+}
+#ssm_sendBatchSMS .b_F_btn {
+	float:left;
+	width:680px;
+}
+#ssm_sendBatchSMS .dxzs_flowFrame {
+	width:525px;
+	height:460px;
+	border: 0;
+}
+#ssm_sendBatchSMS .dxzs_detail_Info {
+	width: 100%; 
+	padding: 5px; 
+	display: none;
+}
+#ssm_sendBatchSMS .infos {
+	width: 98%; 
+	border:0;
+}
+#ssm_sendBatchSMS .dxzs_font3 {
+	color: red;
+}
+#ssm_sendBatchSMS .dxzs_div6 {
+	height: 15px;
+}
+#ssm_sendBatchSMS .dxzs_p2 {
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 1%;
+}
+#ssm_sendBatchSMS .dxzs_maindiv {
+	overflow: auto;
+	height: 280px;
+}
+#ssm_sendBatchSMS .dxzs_content {
+	width: 472px;
+}
+#ssm_sendBatchSMS .dxzs_footer {
+	margin-top: 20px;
+}
+#ssm_sendBatchSMS .dxzs_infomodel {
+	display: none;
+	position: absolute;
+	z-index: 5000;
+	border: 1px solid #dae1cf;
+	background-color: #f7fff0;
+	width: 300px;
+	height: 405px;
+	padding-left: 20px;
+}
+#ssm_sendBatchSMS .dxzs_table3 {
+	line-height: 30px;
+}
+#ssm_sendBatchSMS .dxzs_td5 {
+	font-weight: bold;
+	font-size: 14px;
+}
+#ssm_sendBatchSMS .dxzs_td6 {
+	text-align:left;
+	vertical-align: top;
+}
+#ssm_sendBatchSMS .dxzs_td7 {
+	line-height:20px;
+}
+#ssm_sendBatchSMS .dxzs_p3 {
+	padding-top: 8px;
+}
+#ssm_sendBatchSMS .dxzs_img {
+	padding-left: 25px;
+}
+#ssm_sendBatchSMS .dxzs_tempDiv {
+	background-color:#FFFFFF;
+	padding:5px;
+	display:none;
+}
+#ssm_sendBatchSMS .dxzs_tempFrame {
+	width:610px;
+	height:370px;
+	border: 0;
+}
+#ssm_sendBatchSMS .dxzs_div7 {
+	text-align: center;
+}
+#ssm_sendBatchSMS .dxzs_addSmsTmpDiv {
+	padding:5px;
+	display:none;
+}
+#ssm_sendBatchSMS .dxzs_addSmsTmpFrame {
+	display:none;
+	width:610px;
+	height:530px;
+	border: 0;
+}
+#ssm_sendBatchSMS .dxzs_draftFrame {
+	width:880px;
+	height:400px;
+	border: 0;
+}
+#ssm_sendBatchSMS .dxzs_message {
+	padding:5px;
+	display:none;
+	font-size: 12px;
+}
+#ssm_sendBatchSMS .dxzs_div8 {
+	height:10px;
+}
+#ssm_sendBatchSMS .dxzs_curSubNo {
+	margin-left: 20px;
+	color:#000000;
+	display: none;
+}
+#ssm_sendBatchSMS .dxzs_td8 {
+	width:530px;
+	border:0px;
+}
+.ssm-send-import-btn{
+	display: block;
+	float: left;
+	width: 70px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+.ssm-send-import-btn2{
+	display: block;
+	float: left;
+	width: 72px !important;
+	padding-top: 13px;
+	padding-bottom: 12px;
+
+}
+.ssm-send-import-btn3{
+	display: block;
+	float: left;
+	width: 72px !important;
+	padding-top: 10px;
+	padding-bottom: 11px;
+
+}

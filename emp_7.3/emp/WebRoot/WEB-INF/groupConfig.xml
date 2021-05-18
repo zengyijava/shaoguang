@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+
+
+	
+	
+	
+	 <servlet>
+	    <description>员工个人群组</description>
+	    <display-name>个人群组</display-name>
+	    <servlet-name>grp_groupManagerSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.group.servlet.grp_groupManagerSvt</servlet-class>
+	  </servlet>
+	  
+	  <servlet>
+	    <description>客户个人群组</description>
+	    <display-name>个人群组</display-name>
+	    <servlet-name>grp_cliGroupManagerSvt</servlet-name>
+	    <servlet-class>com.montnets.emp.group.servlet.grp_cliGroupManagerSvt</servlet-class>
+	  </servlet>
+	
+	
+	  <servlet-mapping>
+    <servlet-name>grp_groupManagerSvt</servlet-name>
+    <url-pattern>/grp_groupManage.htm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>grp_cliGroupManagerSvt</servlet-name>
+    <url-pattern>/grp_cliGroupManage.htm</url-pattern>
+  </servlet-mapping>
+	
+	

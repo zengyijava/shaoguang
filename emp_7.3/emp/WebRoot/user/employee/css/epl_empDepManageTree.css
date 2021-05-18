@@ -1,0 +1,28 @@
+/*员工机构管理-新增修改机构*/
+#epl_empDep{
+	margin:0;
+	padding:0px;
+}
+#epl_empDep #addDep,#updateDep{
+	padding:5px;
+	display:none;
+}
+#epl_empDep .user_table{
+	margin-left:auto;
+	margin-right: auto;
+}
+#epl_empDep .user_td_1{
+	height: 5px;
+}
+#epl_empDep .user_td_2{
+	width: 135px;
+}
+#epl_empDep .user_td_3{
+	width: 90px;
+}
+#epl_empDep .user_td_4{
+	height:20px;
+}
+#epl_empDep #tree{
+	width:auto;
+}

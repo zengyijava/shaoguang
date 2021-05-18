@@ -1,0 +1,144 @@
+@charset "utf-8";
+* {
+	padding: 0;
+	margin: 0;
+}
+
+table {
+	width: 190px !important;
+	width: 192px;
+	height: 100%;
+	border: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	display: none;
+}
+
+#userInfo
+{
+	background-image: url(../img/user_info.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.div_bd {
+	border-color: #b3caee;
+}
+
+.menu_top {
+	width: 190px !important;
+	font-size: 14px;
+	font-weight: 800;
+	color: #000000;
+	text-align: center;
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+
+.sider_round_content {
+	width: 190px !important;
+	width: 100%;
+	height: 100%;
+	border-top: none;
+}
+
+
+#sider ul {
+	padding: 0;
+	width: 100%;
+}
+
+.mune_show {
+	list-style: none;
+	width: 100%;
+	cursor: pointer;
+	
+	/*margin-bottom: 3px;*/
+	color: #395d91;
+	font-weight: bold;
+	line-height: 32px;
+}
+.mune_show span
+{
+	text-indent: 40px;
+	
+}
+.mune_show.open {
+	background: url(img/menu_2_down.gif) 15px 14px no-repeat;
+}
+#sider .mune_hidden {
+	display: none;
+	postion: absolute;
+	left: 0px;
+	padding-bottom:2px;
+	margin: 0px;
+	width: 190px;
+}
+
+#sider .mune_hidden li {
+	font-size: 12px;
+	width: 100%;
+	white-space: nowrap;
+}
+
+#sider .mune_hidden li a {
+	
+	text-decoration: none;
+	width: 100%;
+	display: block;
+	text-indent: 40px;
+	color: #2c2c2c;
+	font-weight: normal;
+	font-size:12px;
+	line-htight: 32px;
+	height : 32px;
+	/*border-bottom: 1px dashed #CCC;
+	margin-left: 1px;
+		border-left-color: #000000;
+		border-right-color: #000000;*/
+}
+
+.higehLisght {
+	/* background-color: #b5d2ff !important; */
+}
+
+.hidden {
+	display: none;
+}
+
+.block {
+	display: block;
+}
+#sider .mune_hidden li a.li_a_hover {
+	background-color:#dce8fb;
+}
+
+.mune_show.li_a_hover {
+	background-color:#ACDAFF;
+}
+#sider .mune_hidden li a.li_a_hover.higehLisght {
+	background-color: #b5d2ff !important;
+}
+
+#tmdiv
+{
+	position: absolute;
+	left:0px;
+	top:0px;
+	opacity: 0.4;
+	width:192px;
+	height:100%;
+	filter: alpha(opacity=40);
+	background-color: #FFF;
+	z-index:-20;
+	display: none;
+}
+#photo
+{
+	display:block;
+	width:62px;
+	height:62px;
+	background: url(../img/photo.png) no-repeat;
+}
+	

@@ -1,0 +1,170 @@
+@import "variables";
+
+body {
+  min-width: 1280px;
+  font-family: Microsoft YaHei, WenQuanYi Micro Hei, PingFang SC, -apple-system, BlinkMacSystemFont, Helvetica Neue, Source Han Sans SC, Noto Sans CJK SC, sans-seri;
+  font-size: 14px;
+}
+
+.clearfix:after, .clearfix:before {
+  display: table;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: rgba(0, 0, 0, 0);
+  border-left: 1px solid rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 13px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  background-clip: padding-box;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  min-height: 28px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.fs18 {
+  font-size: 18px;
+}
+
+.fs20 {
+  font-size: 20px;
+}
+
+ml16 {
+  margin-left: 16px;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  background-size: contain;
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.affix {
+  position: fixed;
+}
+
+.bdb {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.bdt {
+  border-top: 1px solid @border;
+}
+
+.el-message {
+  top: 60px;
+}
+
+.el-form--label-top {
+  .el-form-item__label {
+    padding-bottom: 0;
+    line-height: 32px;
+  }
+
+  .el-form-item__content {
+    line-height: 32px;
+  }
+}
+
+.param-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-align: center;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+  vertical-align: text-bottom;
+  display: inline;
+  user-select: none;
+  border: none;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.el-input--small .el-input__inner {
+  height: 32px;
+  color: #222;
+  line-height: 32px;
+}
+
+.el-button.is-disabled {
+  cursor: initial;
+  &:hover, &:focus {
+    cursor: initial;
+  }
+}
+
+.j-btn {
+  margin-right: 8px;
+  padding: 0;
+  outline: none;
+  border: none;
+  background: transparent;
+}

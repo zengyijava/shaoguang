@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+
+	
+	<servlet>
+		<description>动态彩信</description>
+		<display-name>移动彩讯</display-name>
+		<servlet-name>dmm_sendDynMMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.diffmms.servlet.dmm_sendDynMMSSvt</servlet-class>
+	</servlet>
+	
+	
+	<servlet-mapping>
+		<servlet-name>dmm_sendDynMMSSvt</servlet-name>
+		<url-pattern>/dmm_sendDynMMS.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>静态彩信发送</description>
+		<display-name>移动彩讯</display-name>
+		<servlet-name>smm_sameMmsSvt</servlet-name>
+		<servlet-class>com.montnets.emp.samemms.servlet.smm_sameMmsSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>smm_sameMmsSvt</servlet-name>
+		<url-pattern>/smm_sameMms.htm</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<description>彩信任务信息查看</description>
+		<display-name>移动彩讯</display-name>
+		<servlet-name>mmt_mmsTaskSvt</servlet-name>
+		<servlet-class>com.montnets.emp.mmstask.servlet.mmt_mmsTaskSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mmt_mmsTaskSvt</servlet-name>
+		<url-pattern>/mmt_mmsTask.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>彩信模板</description>
+		<display-name>模板管理</display-name>
+		<servlet-name>tem_mmsTemplateSvt</servlet-name>
+		<servlet-class>com.montnets.emp.mmstemplate.servlet.tem_mmsTemplateSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>tem_mmsTemplateSvt</servlet-name>
+		<url-pattern>/tem_mmsTemplate.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>彩信定时任务信息查看</description>
+		<display-name>移动彩讯</display-name>
+		<servlet-name>mmt_mmsTimerTaskSvt</servlet-name>
+		<servlet-class>com.montnets.emp.mmstask.servlet.mmt_mmsTimerTaskSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mmt_mmsTimerTaskSvt</servlet-name>
+		<url-pattern>/mmt_mmsTimerTask.htm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description>彩信素材</description>
+		<display-name>移动彩讯</display-name>
+		<servlet-name>mat_mmsMaterialSvt</servlet-name>
+		<servlet-class>com.montnets.emp.mmsmate.servlet.mat_mmsMaterialSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mat_mmsMaterialSvt</servlet-name>
+		<url-pattern>/mat_mmsMaterial.htm</url-pattern>
+	</servlet-mapping>

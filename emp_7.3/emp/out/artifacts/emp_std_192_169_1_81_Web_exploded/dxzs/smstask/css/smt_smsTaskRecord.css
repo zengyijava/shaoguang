@@ -1,0 +1,122 @@
+#smt_smsTaskRecord div#tooltip p { 
+	margin:0;
+	padding:6; 
+	color:#FFFFFE;
+	font:12px verdana,arial,sans-serif;
+}
+#smt_smsTaskRecord div#tooltip p em { 
+	display:block;
+	margin-top:3px; 
+	color:#f60;
+	font-style:normal; 
+	font-weight:bold;
+}
+#smt_smsTaskRecord .container {
+	float: left;
+	min-width: 1220px;
+	_width: 1220px;
+}
+#smt_smsTaskRecord .maxwidth{
+	margin: 0 auto;
+	width: 80px;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+#smt_smsTaskRecord .dxzs_div{
+	width:180px;
+	max-height: 43px;
+}
+#smt_smsTaskRecord .treeInput.dxzs_depNam{
+	width:138px ;
+	cursor: pointer;
+}
+#smt_smsTaskRecord .dxzs_iframe{
+	position: absolute; 
+	z-index: -1; 
+	width: 100%; 
+	height: 100%; 
+	top: 0; 
+	left: 0; 
+	scrolling: no;
+}
+#smt_smsTaskRecord .dxzs_div1{
+	margin-top: 3px;
+	margin-right:10px;
+	text-align:center;
+}
+#smt_smsTaskRecord .dxzs_isContainsSun{
+	width:15px;
+	height:15px;
+}
+#smt_smsTaskRecord .dxzs_div2{
+	margin-top:3px;
+	padding-left:4px;
+}
+#smt_smsTaskRecord #spUser,#taskType,#sendstate{
+	width: 162px;
+}
+#smt_smsTaskRecord #taskID,#title,#msg{
+	width: 158px;
+}
+#smt_smsTaskRecord .Wdate{
+	cursor: pointer; 
+	width: 158px; 
+	background-color: white;
+}
+#smt_smsTaskRecord .dxzs_th{
+	width: 5%;
+}
+#smt_smsTaskRecord .dxzs_th1{
+	width: 10%;
+}
+#smt_smsTaskRecord .dxzs_th2{
+	width: 8%;
+}
+#smt_smsTaskRecord .dxzs_th3{
+	width: 4%;
+}
+#smt_smsTaskRecord #detailDialog{
+	padding: 0px; 
+	display: none; 
+	width: 600px;
+}
+#smt_smsTaskRecord #modify{
+	padding:5px;
+	width:300px;
+	height:160px;
+	display:none;
+}
+#smt_smsTaskRecord .dxzs_tr{
+	padding-top:2px;
+	margin-bottom: 2px;
+}
+#smt_smsTaskRecord #msgcont{
+	width:100%;
+	height:100%;
+	border:0px;	
+}
+#smt_smsTaskRecord #condition table tr td select,
+#smt_smsTaskRecord #condition table tr td input[type='text']{
+	width:159px;
+}
+#smt_smsTaskRecord #condition table tr td.condi_f_l .treeInput{
+	width:138px;
+}
+#smt_smsTaskRecord .dxzs_div1 {
+    margin-top: 3px;
+    margin-right: 10px;
+    text-align: right;
+}
+#smt_smsTaskRecord .dxzs_isContainsSun {
+    width: 15px !important;
+    height: 15px !important;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+.align-left{
+    text-align: left!important;
+    padding-left: 10px;
+}

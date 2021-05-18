@@ -1,0 +1,128 @@
+#ctlIcon{
+    width: 40px;
+    cursor: pointer;
+    padding: 2px 4px;
+    background-color: white;
+}
+
+.pull-icon{
+    background: url("../img/drop_down_icon.png");
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+.pull-icon-fold{
+    background: url("../img/drop_up_icon.png");
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+.div-panel{
+    width: 380px;
+    border: #bec3c5 solid 1px;
+    z-index: 1000;
+    position: absolute;
+    display: none;
+    background-color: white;
+}
+
+table tr td .div-panel .panel-title{
+    height: 30px;
+    line-height: 30px;
+    /*background-color: #4b88c0;*/
+    text-align: center;
+}
+table tr td .div-panel .panel-title span{
+    color: #656565;
+}
+
+.btn-group{
+    text-align: right;
+    margin: 12px;
+}
+
+.btn-group .btn-sure{
+    padding: 6px 14px;
+   /* background-color: #4b88c0;*/
+    color: #ffffff;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn-group .btn-sure:hover{
+    padding: 6px 14px;
+    /*background-color: #4a9cdf;*/
+    color: #ffffff;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn-group .btn-cancel{
+    padding: 6px 14px;
+    background-color: lightgrey;
+    color: #ffffff;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.btn-group .btn-cancel:hover{
+    padding: 6px 14px;
+    background-color: darkgray;
+    color: #ffffff;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.div-panel-content{
+    padding: 10px;
+}
+
+.div-panel #field-div input[type='checkbox']{
+    width: 15px;
+    height: 15px;
+}
+
+.div-panel #field-div input[type='checkbox']:disabled{
+    width: 15px;
+    height: 15px;
+    background-color: lightgrey!important;
+    border: #9e9e9e solid 1px!important;
+}
+
+.div-panel .div-panel-content input[type='checkbox']{
+    width: 15px!important;
+    height: 15px!important;
+    position: relative;
+    bottom: -4px;
+}
+
+.div-panel-content .m4{
+    margin-left: 4px;
+}
+
+.div-panel #field-div span{
+    margin-left: 4px;
+    position: relative;
+    top: -2px;
+}
+
+.chk-module{
+    width: 90px;
+    display: inline-block;
+    padding: 2px 0px;
+}
+
+#field-div{
+    margin-top: 14px;
+}
+
+.warm-tip{
+    margin: 0px 0px 4px 10px;
+}
+.warm-tip p{
+    color: #a2a2a2;
+}

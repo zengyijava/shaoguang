@@ -1,0 +1,56 @@
+input {
+	outline: none;
+}
+
+.ac_img,.ac_img2 {
+	width: 18px;
+	background: url(select_arrows.png) no-repeat center;
+	height: 20px;
+	float: right;
+	cursor: pointer;
+}
+
+.ac_conteiner {
+	height: 20px;
+	width: 156px;
+	position: relative;
+}
+
+.ac_input,ac_input2 {
+	text-indent: 2px;
+	font-size: 1em;
+	font-family: sans-serif;
+	float: left;
+	padding: 1px;
+	border: 0 !important;
+	height: 16px;
+	width: 160px;
+}
+
+.ac_results,.ac_results2 ,#hidFr{
+	z-index: 100;
+	background-color: white;
+	left: 0;
+	top: 20px;
+	list-style: none;
+	position: absolute;
+	z-index: 100;
+	display: none;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 200px;
+	width: 200px;
+	margin-left: -1px !important; /*all*/
+	_margin-left: -3px !important; /*ie8*/
+	_margin-left: -1px; /*ie6*/
+	_margin-top: -1px !important; /*ieX*/
+}
+ul li 
+{
+	cursor: pointer;
+}
+
+.selected {
+	background: rgb(219, 229, 241);
+	cursor: default;
+}

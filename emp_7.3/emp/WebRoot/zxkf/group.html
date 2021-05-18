@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./static/css/base.css">
+	<link rel="stylesheet" href="./static/css/group_info.css">
+	<link rel="stylesheet" href="./static/css/nanoscroller2.css">
+</head>
+<body>
+	<div id="groupWrapper">
+		<div id="group_info">
+			<div class="group_head">
+				<input type="text" name="group_name" id="group_name" class="g_inp" placeholder="请输入群组名称">
+			</div>
+			<div class="group_wrapper">
+				<div class="select_panel pos_left" id="selectPanel">
+					<div class="mod_h">成员列表：<span>16</span></div>
+					<div class="mod_b ">
+						<div class="inner nano">
+							<div class="content">
+								<ul>
+									<li>
+										<dl>
+											<dt><input type="checkbox" name="" id="demo1"></dt>
+											<dd><img src="static/images/icon-group.gif" alt=""></dd>
+											<dd>唐伯虎1</dd>
+										</dl>
+									</li>
+									<li>
+										<dl>
+											<dt><input type="checkbox" name="" id="demo2"></dt>
+											<dd><img src="static/images/icon-group.gif" alt=""></dd>
+											<dd>唐伯虎2</dd>
+										</dl>
+									</li>
+									<li>
+										<dl>
+											<dt><input type="checkbox" name="" id="demo3"></dt>
+											<dd><img src="static/images/icon-group.gif" alt=""></dd>
+											<dd>唐伯虎3</dd>
+										</dl>
+									</li>
+									<li>
+										<dl>
+											<dt><input type="checkbox" name="" id="demo4"></dt>
+											<dd><img src="static/images/icon-group.gif" alt=""></dd>
+											<dd>唐伯虎4</dd>
+										</dl>
+									</li>
+									<li>
+										<dl>
+											<dt><input type="checkbox" name="" id="demo5"></dt>
+											<dd><img src="static/images/icon-group.gif" alt=""></dd>
+											<dd>唐伯虎5</dd>
+										</dl>
+									</li>
+									<li>
+										<dl>
+											<dt><input type="checkbox" name="" id="demo6"></dt>
+											<dd><img src="static/images/icon-group.gif" alt=""></dd>
+											<dd>唐伯虎6</dd>
+										</dl>
+									</li>
+									<li>
+										<dl>
+											<dt><input type="checkbox" name="" id="demo7"></dt>
+											<dd><img src="static/images/icon-group.gif" alt=""></dd>
+											<dd>唐伯虎7</dd>
+										</dl>
+									</li>
+									<li>
+										<dl>
+											<dt><input type="checkbox" name="" id="demo8"></dt>
+											<dd><img src="static/images/icon-group.gif" alt=""></dd>
+											<dd>唐伯虎8</dd>
+										</dl>
+									</li>
+									<li>
+										<dl>
+											<dt><input type="checkbox" name="" id="demo8"></dt>
+											<dd><img src="static/images/icon-group.gif" alt=""></dd>
+											<dd>唐伯虎9</dd>
+										</dl>
+									</li>
+									<li>
+										<dl>
+											<dt><input type="checkbox" name="" id="demo9"></dt>
+											<dd><img src="static/images/icon-group.gif" alt=""></dd>
+											<dd>唐伯虎10</dd>
+										</dl>
+									</li>
+									<li>
+										<dl>
+											<dt><input type="checkbox" name="" id="demo10"></dt>
+											<dd><img src="static/images/icon-group.gif" alt=""></dd>
+											<dd>唐伯虎11</dd>
+										</dl>
+									</li>
+									<li>
+										<dl>
+											<dt><input type="checkbox" name="" id="demo11"></dt>
+											<dd><img src="static/images/icon-group.gif" alt=""></dd>
+											<dd>唐伯虎12</dd>
+										</dl>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="btn_panel">
+					<button id="btn_add" class="btn_g">添加</button><br /><br />
+					<button id="btn_delete" class="btn_g">删除</button>
+				</div>
+				<div class="select_panel pos_right " id="showPanel">
+					<div class="mod_h">成员列表：<span>0</span></div>
+					<div class="mod_b ">
+						<div class="inner nano">
+						   <div class="content">
+							<ul>
+								
+							</ul>
+						   </div>	
+						</div>
+					</div>
+				</div>
+		
+				
+			</div>
+		</div>
+	</div>
+<input type="hidden" id="saveData" name="saveData">	
+<script src="./static/js/myjquery-k.js"></script>
+<script src="./static/js/lib/artDialog/artDialog.js?skin=default"></script>
+<script src="./static/js/lib/artDialog/iframeTools.js"></script>
+<script src="./static/js/jquery.nanoscroller.js"></script>
+<script>
+	$(document).ready(function(){
+		scrollinit();
+		var oSaveData=$('#saveData'),
+			oSelectPanel=$('#selectPanel'),
+			oShowPanel=$('#showPanel'),
+			oShowUl=oShowPanel.find('.content ul'),
+			oSelUl=oSelectPanel.find('.content ul'),
+			oSelLi=oSelUl.find('li'),
+			oShowLi=oShowUl.find('li');
+		oSelectPanel.find('.mod_h span').html(oSelUl.find('li').size());
+		$('.mod_b').delegate('li',{
+			mouseenter:function(){
+					$(this).addClass('hover');
+			},
+			mouseleave:function(){
+				
+					$(this).removeClass('hover');
+			},
+			click:function(){
+				var oCheckbox=$(this).find('input[type=checkbox]');
+				oCheckbox.trigger('click');
+				/*if(oCheckbox.is(':checked')){
+					oCheckbox.prop('checked',false);
+				}else{
+					oCheckbox.prop('checked',true);
+				}*/
+			}		
+		})
+		/*$('.mod_b').delegate('input[type="checkbox"]','click',function(e){
+			e.stopPropagation();
+			$(this).attr
+		})*/
+		$('#btn_add').click(function(){
+			var aArray=[],data=[];
+				oShowUl.html('');
+			oSelUl.find('li').each(function(){
+				var oCheckbox=$(this).find('dt>input[type=checkbox]');
+				if(oCheckbox.is(':checked')){
+					oShowUl.append($(this).clone());
+					oShowUl.find('dt>input[type=checkbox]').prop('checked',false);
+					data.push(oCheckbox.attr('id'));
+				}
+			})
+			if(!data.length){
+				alert('请选择要添加的成员');
+			}else{
+				oSaveData.val(data);
+				oShowPanel.find('.mod_h span').html(oShowUl.find('li').size());
+				alert('您选中了'+oSaveData.val());
+				scrollinit();
+				art.dialog.data('group_list', document.getElementById('saveData').value);
+			}
+		})
+		$('#btn_delete').click(function(){
+			var data=[],
+				oSaveData=$('#saveData');
+			$('#showPanel .content li').each(function(){
+				var oCheckbox=$(this).find('dt>input[type=checkbox]');
+				if(oCheckbox.is(':checked')){
+					$(this).remove();
+				}else{
+					data.push(oCheckbox.attr('id'));
+				}
+				
+			})
+			oShowPanel.find('.mod_h span').html(oShowUl.find('li').size());
+			oSaveData.val(data);
+			art.dialog.data('group_list', document.getElementById('saveData').value);
+			scrollinit();
+		})
+		$('#group_name').keyup(function(){
+			var group_name = document.getElementById('group_name').value;
+			art.dialog.data('group_name', group_name);
+		})
+		function scrollinit(){
+			$(".nano").nanoScroller({
+				sliderMaxHeight:60
+			});
+		}
+	})
+</script>
+
+</body>
+</html>

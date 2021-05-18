@@ -1,0 +1,87 @@
+.dxkf_display_none{
+    display:none;
+}
+#birthdaySend .titletop{
+	width: 610px;
+}
+#birthdaySend .titletop_table{
+	width: 95%;
+}
+#birthdaySend #detail_Info{
+	width: 610px;padding-left: 36px;margin-bottom: 20px !important; margin-bottom: 3px;
+}
+#birthdaySend #title{
+	width:492px;
+}
+#birthdaySend .Wdate.div_bd{
+	cursor: pointer; width: 256px;height:25px; background-color: white;
+}
+#birthdaySend .dxkf_td1{
+	vertical-align: top;padding-top:14px;height:180px;
+}
+#birthdaySend .dxkf_td2{
+	vertical-align: top;padding-top:7px;
+}
+#birthdaySend .div_bd.dxkf_td3{
+	height:25px;line-height:25px;
+}
+#birthdaySend .dxkf_div1{
+	float:left;width:50%;height:100%;
+}
+#birthdaySend .dxkf_span{
+	margin-bottom:5px;display:block;width:90px;float:left;
+}
+#birthdaySend .dxkf_isAddName{
+	vertical-align: text-bottom;
+}
+#birthdaySend .input_bd.dxkf_signStr1{
+	*_vertical-align: middle;height:16px;line-height:15px;width:92px;display:inline;
+}
+#birthdaySend .input_bd.dxkf_signStr2{
+	*_vertical-align: middle;height:16px;line-height:15px;width:92px;display:none;
+}
+#birthdaySend .div_bd.dxkf_div2{
+	float:left;width:49%;height:100%;border-right:0px;border-top:0px;border-bottom:0px;
+}
+#birthdaySend .dxkf_span1{
+	margin-bottom:5px;display:block;width:100px;float:left;
+}
+#birthdaySend #isSignName{
+	vertical-align: text-bottom;
+}
+#birthdaySend #contents{
+	padding:5px;margin-top:5px;outline:none;
+}
+#birthdaySend .dxkf_font2{
+	color:#ccc;margin-left:30px;
+}
+#birthdaySend .dxkf_table{
+	height: 100%;margin-left: 19px;width: 490px;
+}
+#birthdaySend #spUser{
+	width:233px;height:25px;
+}
+#birthdaySend #isUse{
+	margin-left: 4px;
+}
+#birthdaySend #isUse2{
+	margin-left: 20px;
+}
+#birthdaySend .dxkf_div3{
+	text-align: right;width: 610px;margin-left: 16px;`
+}
+#birthdaySend .dxkf_font_size{
+	font-size: 14px;
+}
+#birthdaySend #infoDiv{
+	padding:5px;display:none;
+}
+#birthdaySend #flowFrame{
+	width:525px;height:460px;border: 0;
+}
+#birthdaySend #infoDiv table,tr{
+	border:0;
+}
+#birthdaySend .dxfk_td1{
+	width:550px;border:0px;height:30px;
+}

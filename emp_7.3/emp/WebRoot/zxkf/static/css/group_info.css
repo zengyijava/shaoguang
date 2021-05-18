@@ -1,0 +1,122 @@
+body{background: #fff;}
+input[type="checkbox"]{
+	height: 15px;
+	vertical-align: top;
+	width: 15px;
+	background: #fff;
+	position: relative;
+}
+input[type='checkbox']:checked::before {
+		position: absolute;
+		left: 3px;
+		top: 6px;
+		content: '';
+		height: 2px;
+		background-color: #666;
+		width: 72%;
+		-webkit-transform: rotate(120deg);
+	}
+	input[type='checkbox']:checked::after {
+		position: absolute;
+		left: 2px;
+		top: 8px;
+		content: '';
+		height: 2px;
+		width: 4px;
+		background-color: #666;
+		-webkit-transform: rotate(-150deg);
+	}
+input[type="checkbox"], select, input[type="radio"]{
+	-webkit-appearance:none;
+	border: 1px solid rgba(0,0,0,0.25);
+	border-radius: 2px;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08), inset 0 1px 2px rgba(255, 255, 255, 0.75);
+}
+#groupWrapper{
+	padding: 0 20px 10px;
+	width: 516px;
+}
+#group_info{
+	width: 516px;
+	margin: 10px auto 0;
+	position: relative;
+}
+.group_wrapper{
+	height: 352px;
+}
+.group_head{
+	margin-bottom: 10px;
+}
+.group_head .g_inp{
+	width: 191px;
+	border: 1px solid #ccc;
+	height: 16px;
+	padding: 4px 6px;
+}
+.select_panel{
+	width: 203px;
+	height: 350px;
+	display: inline-block;
+	border: 1px solid #bbcbdf;
+}
+.mod_h{
+	border-bottom: 1px solid #bbcbdf;
+	height: 24px;
+	line-height: 24px;
+	text-indent: 10px;
+	background: url(../images/group_h_bg.gif) repeat-x 0 0;
+	margin-bottom: 10px;
+}
+.mod_b{
+	height: 310px;
+}
+
+.mod_b .inner li{
+	margin-bottom: 10px;
+	padding: 2px 10px;
+}
+.mod_b .inner li.hover{
+	background: #f5c455;
+	cursor: default;
+}
+.mod_b .inner dl dt{
+	float: left;
+	margin-top: 6px;
+	margin-right: 10px;
+}
+.mod_b .inner dl dd{
+	display: inline-block;
+	margin-right: 5px;
+}
+
+/*btn_panel*/
+.btn_panel{
+	width: 100px;
+	margin: 0 205px;
+	margin-top: 140px;
+	overflow: hidden;
+	display: inline-block;
+	text-align: center;
+}
+.btn_g{
+	width: 57px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	background: url(../images/btn2.gif) no-repeat 0 0;
+	border: none;
+	cursor: pointer;
+}
+
+.pos_left,.pos_right{
+	position: absolute;
+	top: 34px;
+
+}
+.pos_left{
+	left: 0;
+}
+.pos_right{
+	right: 0;
+}
+/*.show_panel*/

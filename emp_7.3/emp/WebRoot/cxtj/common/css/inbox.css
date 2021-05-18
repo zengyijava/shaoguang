@@ -1,0 +1,155 @@
+/*时间选择*/
+#sendtime{width: 181px!important;}
+#recvtime{width: 181px!important;}
+
+#tempSelect{
+    width:141px;
+}
+.queryData{
+    text-align: center;
+}
+.msgContentTd{
+    text-align: left;
+}
+.rep_busReportNation #nationName{width: 181px;}
+.rep_busReportNation #nationCode{width: 181px;}
+
+#depName{cursor: pointer;}
+#userName{cursor: pointer;}
+
+#modify{
+    padding:5px;
+    width:300px;
+    height:160px;
+    display:none;
+    word-wrap: break-word;
+    word-break:break-all;
+}
+#modify .modify_tr1{
+    padding-top:2px;
+    margin-bottom: 2px;
+}
+#modify .modify_tr2{
+    padding-top:2px;
+}
+#modify table{
+    width: 240px;
+}
+#msgss {
+    white-space: pre-wrap;
+    *white-space: pre;
+    *word-wrap: break-word;
+    word-break: break-all;
+    width:100%;
+    height:100%;
+}
+/*统计年月*/
+#countTime{
+    cursor: pointer;
+    width: 181px!important;
+}
+.novisible{visibility: hidden;}
+.visible{visibility: visible;}
+
+.que_sysMtRecord #condition table tr td input{width: 181px;}
+.que_sysMtRecord #condition table tr td select{width: 181px;}
+
+
+.que_sysMoRecord #condition table tr td input{width: 181px;}
+.que_sysMoRecord #condition table tr td select{width: 181px;}
+
+
+.inb_reciveBox #condition table tr td input{width: 181px;}
+.inb_reciveBox #replayCon{padding:5px;display:none}
+.inb_reciveBox #isSign{width:18px;height:16px;vertical-align: text-bottom;}
+.inb_reciveBox #signStr{width:106px;display:none;}
+.inb_reciveBox #msg{width: 360px;}
+.inb_reciveBox .zhu{font-size: 11px;}
+.inb_reciveBox .boldFont{font-weight: bold;}
+.inb_reciveBox .doOkDiv{margin-top: 20px;}
+
+
+.rep_areaReport .enddate{width: 181px!important;}
+.rep_areaReport #content{margin-top:6px;}
+
+
+.rep_busReport .detailTh{width: 120px}
+
+.rep_busDetailReport #content{margin-top: 5px;}
+.rep_busDetailReport #tempDiv,.rep_busDetailReport #sendInfoDiv{padding:5px;display:none}
+.rep_busDetailReport #contentFrame,.rep_busDetailReport #sendInfoFrame{width:810px;height:370px;border: 0;}
+.rep_busDetailReport #content{margin-top: 5px;}
+
+
+.rep_dynParamReport #paramName{width: 183px}
+
+
+.rep_remainMtRecord #condition table tr td input{width: 181px;}
+.rep_remainMtRecord #condition table tr td select{width: 197px;}
+
+.rep_spisuncmMtReport .yinc{display: none;}
+.rep_spisuncmMtReport #staffId{width: 181px;}
+.rep_spisuncmMtReport #spisuncm{width: 181px;}
+.rep_spisuncmMtReport #reportType{width: 181px;}
+.rep_spisuncmMtReport #msType{width: 181px;}
+.rep_spisuncmMtReport #content{margin-top: 5px;}
+
+
+.rep_spisuncmMtReportArea #areacode{width: 181px;}
+.rep_spisuncmMtReportArea #areaname{width: 181px;}
+
+
+.rep_spMtDetal #content{margin-top: 5px;}
+
+
+.rep_spMtDetalNation #nationCode{width: 181px;}
+.rep_spMtDetalNation #nationName{width: 181px;}
+
+
+.rep_spMtReport #condition table tr td input{width: 181px;}
+.rep_spMtReport #condition table tr td select{width: 181px;}
+.rep_spMtReport #tempDiv,.rep_spMtReport #sendInfoDiv{padding:5px;display:none;}
+.rep_spMtReport #contentFrame,.rep_spMtReport #sendInfoFrame{width:810px;height:370px;border: 0;}
+.rep_spMtReport .moreDimension{font-size: 15px;text-decoration: none;cursor: pointer;}
+.rep_spMtReport .moreDimensionDiv table{background-color:#ffffff!important;width: 100%;height: 80%;font-family: "Microsoft YaHei", "微软雅黑", arial, sans-serif;font-size: 12px;color: #666666}
+.rep_spMtReport #moreDimensionDiv table tr td:nth-child(1){padding-left: 30px}
+.rep_spMtReport #moreDimensionDiv .buttonDiv{margin: 25px 112px;width: 70%}
+.rep_spMtReport #moreDimensionDiv select{width: 193px}
+.rep_spMtReport #selectUser,.rep_spMtReport #selectDep{width: 415px;height:375px;}
+.rep_spMtReport .showUserTree,.rep_spMtReport .showDepTree{height:315px;margin-left: 20px}
+.rep_spMtReport .selectUserConfirm{margin-left:28%;}
+.rep_spMtReport .dropMenu2_div2,.rep_spMtReport .isContainsSun{margin-left:10%;margin-top: 3%}
+
+.rep_sysDepAreaDetail #condition{margin-top: 4px;}
+.rep_sysDepAreaDetail #backgo{display:inline;margin-right:10px;}
+.rep_sysDepAreaDetail #areacode{width: 181px;}
+.rep_sysDepAreaDetail #areaname{width: 181px;}
+.rep_sysDepAreaDetail #content{margin-top: 4px;}
+
+.rep_sysDepDetail #content{margin-top: 4px;}
+.rep_sysDepDetail #backgo{display:inline;margin-right:10px;}
+
+
+.rep_sysDepReport .depNamWrapper{width: 220px;}
+.rep_sysDepReport #dropMenu div{margin-top: 3px; margin-right: 10px; text-align: right;}
+.rep_sysDepReport .dropMenu_btn{}
+
+
+.rep_sysDetailsReport #content{margin-top: 4px;}
+.rep_sysDetailsReport #backgo{display:inline;margin-right:10px;}
+
+
+.rep_sysUserAreaDetail #backgo{display:inline;margin-right:10px;}
+.rep_sysUserAreaDetail #condition{margin-top: 4px;}
+.rep_sysUserAreaDetail #areacode{width: 181px;}
+.rep_sysUserAreaDetail #areaname{width: 181px;}
+.rep_sysUserAreaDetail #content{margin-top: 4px;}
+
+
+.rep_sysUserReport .depNamWrapper{width: 220px;}
+.rep_sysUserReport #dropMenu div{margin-top: 3px; margin-right: 10px; text-align: right;}
+.rep_sysUserReport .dropMenu_btn{width: 50px;}
+.rep_sysUserReport .userNameWrapper{width: 220px;}
+.rep_sysUserReport #dropMenu2 div{margin-top: 3px; margin-right: 10px; text-align: right;}
+.rep_sysUserReport .attentionDiv{margin-top:3px;padding-left:4px;}
+

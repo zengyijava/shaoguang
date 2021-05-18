@@ -1,0 +1,190 @@
+#cancelipmacDiv label{
+  		margin-top: 10px;
+  		display: block;
+  		margin-left: 15px;
+}
+#cancelipmacDiv {
+	padding-top: 20px; 
+}
+#ctr_securectrl .trVisible{
+	 display: none;
+}
+#ipmacTable tr td{
+	padding-top: 5px;
+	height: 35px;
+	width:  expression((this.sectionRowIndex%2==0) ? "200px" : "20px")
+
+}
+
+#ctr_securectrl .a-upload {
+    padding: 4px 10px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    cursor: pointer;
+    color: #888;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+#ctr_securectrl .a-upload  input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+
+#ctr_securectrl .a-upload:hover {
+    color: #444;
+    background: #eee;
+    border-color: #ccc;
+    text-decoration: none
+}
+
+
+
+
+#ctr_securectrl .toggleDiv_up_div{
+	width: auto;
+}
+
+#ctr_securectrl .isBindIp{
+	width: 158px;
+}
+
+#ctr_securectrl .isBindMac{
+	width: 158px;
+}
+
+#ctr_securectrl .isBindPwd{
+	width: 158px;
+}
+
+#ctr_securectrl .tableInfo_up_div{
+	clear:right;
+}
+
+#ctr_securectrl .ipBindDiv{
+	display: none;
+}
+
+#ctr_securectrl .pwd_up_div{
+	height: 340px;
+	margin-top:10px;
+	overflow-y: scroll;
+}
+
+#ctr_securectrl .pwd{
+	display: none;
+}
+
+#ctr_securectrl .dtkl_mh{
+	vertical-align:right; 
+	margin-left: 270px;
+}
+
+#ctr_securectrl .ipdz_div{
+	margin-top: 10px;
+}
+
+#ctr_securectrl .ipdz_label_1{
+	margin-left:-20px;
+}
+
+#ctr_securectrl .ipdz_label_2{
+	margin-left:-30px;
+}
+
+#ctr_securectrl .macdz_label_1{
+	margin-left:130px;
+}
+
+#ctr_securectrl .macdz_label_2{
+	margin-left:170px;
+}
+
+#ctr_securectrl .ipmacTable_div{
+	margin-left: 10px;
+	float:left;
+	width:230px;
+}
+
+#ctr_securectrl .ipmacTable{
+	width:100%;
+}
+
+#ctr_securectrl .ip1tr_td{
+	width:30px;
+}
+
+#ctr_securectrl .qd_div{
+	height: 30px;
+	margin-top: 10px;
+}
+
+#ctr_securectrl .fileBindDiv{
+	display:none;
+}
+
+#ctr_securectrl .xzwj_mh_table{
+	width:350px;
+	border: blue;
+}
+
+#ctr_securectrl .filepath_span{
+	position:relative;
+	float:left;
+	display:block;
+	width:140px;
+	height:18px;
+	border:1px solid #999;
+	background: #eee;
+	text-align:center;
+}
+
+#ctr_securectrl .filepath{
+	width:138px;
+	border:0px;
+}
+
+#ctr_securectrl .uploadFile{
+	position:absolute;
+	left:0;
+	top:0;
+	width:138px;
+	height:18px;
+	border:0px;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+#ctr_securectrl .uploadFile_down_tr{
+	height:10px;
+}
+
+#ctr_securectrl .kwComments_up_tr{
+	height:10px;
+}
+
+#ctr_securectrl .zzcxlslx_a{
+	color: #2970c0;
+}
+
+#ctr_securectrl .cancelipmacDiv{
+	display:none;
+	padding-left: 15px;
+}
+
+#ctr_securectrl .qveding_div{
+	margin-top: 20px;
+}
+
+

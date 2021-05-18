@@ -1,0 +1,69 @@
+@charset "utf-8";
+#topLink{
+height:31px;position: absolute;top:68px;left:125px;
+}
+
+body
+{
+	/*background: url(images/header.png);*/
+	background: url(images/wood_bg.png) repeat-x;
+}
+.top
+{
+	/*background: url(images/top_bg_left.png) no-repeat left;*/
+	background: none;
+}
+.top_info span {
+	border-right: 1px solid #623d10;
+}
+.top_info ,#companyName{
+	color: #623d10;
+}
+.top_info a {
+	color: #623d10;
+}
+.topMenu
+{
+	color: #623d10;
+}
+#top_home 
+{
+	background-image: url('images/home.png') ;
+}
+
+.onSys {
+	background: #0B3E75;
+}
+
+.curhover {
+	color: #FFFFFF;
+	background: url('images/top_btn_hover.png') no-repeat center;
+}
+.cursel{
+	color: #FFFFFF;
+	background: url('images/top_btn_sel.png') no-repeat center;
+}
+#top_menu_left
+{
+	display: block;
+	height:15px;
+	width:9px;
+	background: url(images/top_menu_left.png) no-repeat center center;
+	cursor: pointer;
+}
+#top_menu_left:hover
+{
+	background: url(images/top_menu_left_hover.png) no-repeat center center;
+}
+#top_menu_right
+{
+	display: block;
+	height:15px;
+	width:9px;
+	background: url(images/top_menu_right.png) no-repeat center center;
+	cursor: pointer;
+}
+#top_menu_right:hover
+{
+	background: url(images/top_menu_right_hover.png) no-repeat center center;
+}

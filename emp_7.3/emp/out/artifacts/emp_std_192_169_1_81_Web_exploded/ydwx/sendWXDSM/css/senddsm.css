@@ -1,0 +1,266 @@
+﻿@charset "UTF-8";
+#batchFileSend span {
+    width:75px;
+}
+#eq_sendDiv2 table tr td
+{
+    font-size:12px;
+}
+
+#u_o_c_explain a:hover
+{
+    text-decoration: none;
+}
+#showeffinfo p
+{
+    background-position: 90px 8px;
+    width: 100px;
+    height: 24px;
+}
+div#infomodel{
+    width: 250px;
+    height: 337px;
+}
+input#toDraft{
+    text-indent: 10px;
+    letter-spacing: 2px;
+    background-position: 0% -30px;
+}
+td#txtFormat,td#xlsFormat{
+    width: 55px;
+}
+#effinfotable > tbody > tr > td:nth-child(1){
+    width: 100px;
+}
+td#predowninfo{
+    padding-left: 20px;
+}
+table#content{
+    width:580px;
+    table-layout: fixed;
+}
+/*-----网讯发送——动态网讯发送--------*/
+#ydwx_senddsm .ydwx_showmessage{
+	margin-bottom:0px;
+}
+#ydwx_senddsm .ydwx_drafts{
+	margin-left: 20px;cursor:pointer;
+}
+#ydwx_senddsm #wx_righttitle{
+	background-color: #f1f1f9;border-width: 0 1px 1px 1px;width:498px;word-wrap:break-word;word-break:break-all;
+}
+#ydwx_senddsm .ydwx_righttitle_font{
+	color: #888888;
+}
+#ydwx_senddsm .ydwx_smsTailContens{
+	color: #888888;
+}
+#ydwx_senddsm .ydwx_areacount{
+	line-height:12px;float:left;cursor:pointer;padding-top:5px;margin-left:5px;
+}
+#ydwx_senddsm .ydwx_eq_sendDiv{
+	margin-top:-5px;
+}
+#ydwx_senddsm .ydwx_eq_sendDiv_p{
+	margin-top:7px;
+}
+#ydwx_senddsm .ydwx_btnClass4{
+	margin-left:10px;
+}
+#ydwx_senddsm .ydwx_tempupfilediv{
+	display: none;width:500px;float:left;
+}
+#ydwx_senddsm .ydwx_filesdiv{
+	float:left;position:relative;width:510px;text-align: left;height:24px;line-height:24px;padding-top:0;margin-top:0;
+}
+#ydwx_senddsm .ydwx_downlinks{
+	cursor:pointer;height:26px;line-height:26px;float:right;
+}
+#ydwx_senddsm .ydwx_upfilediv{
+	display: none;width:500px;float:left;
+}
+#ydwx_senddsm .ydwx_senttm_dv{
+	padding:3px 0px 0; width: 498px;float:left;line-height: 26px;
+}
+#ydwx_senddsm .ydwx_timerStatus{
+	margin-left: 10px;
+}
+#ydwx_senddsm .ydwx_moreSelect{
+	height:100px;
+}
+#ydwx_senddsm .ydwx_toAdd{
+	margin-left:10px;cursor:pointer;
+}
+#ydwx_senddsm .ydwx_moreSelect_sub_dv{
+	width:580px;
+}
+#ydwx_senddsm .ydwx_tabl{
+	width:100%;height:100%;border:0px;
+}
+#ydwx_senddsm .ydwx_tabl .ydwx_tr1{
+	height:20%;
+}
+#ydwx_senddsm .ydwx_seviceType_font{
+	padding-left:35px;
+}
+#ydwx_senddsm .ydwx_busCode{
+	width:225px;
+}
+#ydwx_senddsm .ydwx_tabl .ydwx_tr2{
+	height:30px;
+}
+#ydwx_senddsm .ydwx_spuser_font{
+	padding-left:35px;
+}
+#ydwx_senddsm .ydwx_spUser{
+	width:225px;
+}
+#ydwx_senddsm .ydwx_tabl .ydwx_tr3{
+	height:30px;
+}
+#ydwx_senddsm .ydwx_filter_repeatnum{
+	padding-left:35px;
+}
+#ydwx_senddsm .ydwx_filter_no{
+	margin-left: 4px;
+}
+#ydwx_senddsm .ydwx_filter_yes{
+	margin-left: 22px;
+}
+#ydwx_senddsm .ydwx_detail_dv{
+	width: 100%; padding: 5px; display: none;
+}
+#ydwx_senddsm .ydwx_messages2_font{
+	color: red;
+}
+#ydwx_senddsm .ydwx_unfold{
+	font-size: 12px;
+}
+#ydwx_senddsm .ydwx_alleff{
+	color: red;
+}
+#ydwx_senddsm .ydwx_somepreview_p{
+	font-size: 12px;font-weight: bold;margin-left: 1%;
+}
+#ydwx_senddsm .ydwx_maindiv{
+	overflow: auto;height: 280px;
+}
+#ydwx_senddsm .ydwx_footer{
+	margin-top: 20px;
+}
+#ydwx_senddsm .ydwx_infomodel{
+	display: none;position: absolute;z-index: 5000;border: 1px solid #dae1cf;background-color: #f7fff0;padding-bottom: 8px;padding-left: 8px;
+}
+#ydwx_senddsm .ydwx_infomodel_tabl{
+	line-height: 25px;
+}
+#ydwx_senddsm .ydwx_infomodel_tabl .ydwx_td1{
+	font-weight: bold;font-size: 14px;
+}
+#ydwx_senddsm .ydwx_divBox_sub{
+	margin-right:10px;margin-top: 3px;
+}
+#ydwx_senddsm .ydwx_ym{
+	width:170px;
+}
+#ydwx_senddsm .ydwx_iphone_dv{
+	width:240px;height:460px;margin-left:30px; margin-top:-3px; background:url('../../../common/img/iphone5.jpg');
+}
+#ydwx_senddsm .ydwx_preview_common{
+	background: white;width:198px;height:325px;margin-top: 65px;margin-left: 22px;
+}
+#ydwx_senddsm .ydwx_contentDiv{
+	padding:5px;display:none;
+}
+#ydwx_senddsm .ydwx_contentFrame{
+	width:620px;height:370px;border: 0;
+}
+#ydwx_senddsm .ydwx_draftDiv{
+	padding:5px;display:none;
+}
+#ydwx_senddsm .ydwx_tempFrame{
+	width:610px;height:515px;border: 0;
+}
+#ydwx_senddsm .dywx_message{
+	padding:5px;display:none;font-size: 12px;
+}
+#ydwx_senddsm .ydwx_message_sub1{
+	height:25px;
+}
+#ydwx_senddsm .ydwx_message_sub2{
+	height:10px;
+}
+#infomodel{
+    left: 650px !important;
+}
+/*-------动态网讯发送——网讯内容选择结束---------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

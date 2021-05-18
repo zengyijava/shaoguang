@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project default="package">
+    <!-- 注意：打整包ZIP使用 -->
+
+	<!--fileset可以设定一组文件集来进行操作，dir指明文件集要进行选择的路径，通过id可以制定这个文件的名称，在使用的时候
+	进行直接的引入 include可以设定包含返回和排除范围**/*.*所有目录中的所有文件-->
+
+
+<!--项目编译classpath-->
+	<path id="tomcat.lib">
+		    <fileset dir="C:\mytomcat\tomcat\lib">
+		        <include name="**/*.jar"/>
+		    </fileset>
+		</path> 
+	<path id="JAVA.rt">  
+				<fileset dir="C:\Program Files\Java\jdk1.6.0_45\jre\bin">
+					<include name="**/*.jar"/>
+			    </fileset>
+			</path>  
+	    <!-- 定义路径，编译java文件时用到的jar包。 -->
+	    <path id="project.lib">
+	    	<path refid="tomcat.lib" />
+	    	<path refid="JAVA.rt" /> 
+	        <fileset dir="${basedir}/WebRoot/WEB-INF/lib">
+	            <include name="**/*.jar"/>
+	        </fileset>
+	    </path>
+
+<!-- 文档路径-->
+       <property name="doc.dir" location="dbscript\single\linux\LINUX系统标准版EMP实时库脚本V73.09"/>
+        <fileset id="doc.path" dir="${doc.dir}" includes="**/*.*" ></fileset>
+ <!--WebRoot路径-->
+        <property name="WebRoot.dir" location="WebRoot"></property>
+ <!--src路径-->
+        <property name="src.dir" location="src"></property>
+ <!--class路径-->
+        <property name="classes.dir" location="WebRoot\WEB-INF\classes"></property>
+ <!-- web文件夹名称--> 
+	<property name="web.name" value="emp"></property>
+ <!-- web压缩文件名称-->
+	<property name="webzip.name" value="emp.zip"></property>
+	<property name="version" value="1"></property>
+	<property name="package.name" value="标准版EMP_LINUX"></property>
+	<property name="package.dir" location="../package/EMPPJ_emp_7.3.0.515_linux/标准版EMP_LINUX_整包"></property>
+	<property name="web.dir" location="${package.dir}/WEB程序/整合EMP"></property>
+	<property name="dbscript.dir" location="${package.dir}/数据库脚本"></property>
+ <!-- 编译java文件路径-->
+	<fileset id="ydcx.path" dir="ydcx" includes="**/*.*" ></fileset>
+	<fileset id="wygl.path" dir="wygl" includes="**/*.*" ></fileset>
+    <fileset id="greport.path" dir="greport" includes="**/*.*" ></fileset>
+	<fileset id="global.path" dir="global" includes="**/*.*" ></fileset>
+    <fileset id="group.path" dir="group" includes="**/*.*" ></fileset>
+    <fileset id="weix.path" dir="weix" includes="**/*.*" ></fileset>
+    <fileset id="jqzx.path" dir="jqzx" includes="**/*.*" ></fileset>
+    <fileset id="txgl.path" dir="txgl" includes="**/*.*" ></fileset>
+    <fileset id="ptjk.path" dir="ptjk" includes="**/*.*" ></fileset>
+    <fileset id="cxtj.path" dir="cxtj" includes="**/*.*" ></fileset>
+    <fileset id="ydcw.path" dir="ydcw" includes="**/*.*" ></fileset>
+	<fileset id="znyq.path" dir="znyq" includes="**/*.*" ></fileset>
+	<fileset id="user.path" dir="user" includes="**/*.*" ></fileset>
+    <fileset id="ydwx.path" dir="ydwx" includes="**/*.*" ></fileset>
+    <fileset id="dxzs.path" dir="dxzs" includes="**/*.*" ></fileset>
+    <fileset id="dxkf.path" dir="dxkf" includes="**/*.*" ></fileset>
+    <fileset id="xtgl.path" dir="xtgl" includes="**/*.*" ></fileset>
+    <fileset id="common.path" dir="common" includes="**/*.*" ></fileset>
+    <fileset id="genericDAO.path" dir="genericDAO" includes="**/*.*" ></fileset>
+    <fileset id="entity.path" dir="entity" includes="**/*.*" ></fileset>
+    <fileset id="table.path" dir="table" includes="**/*.*" ></fileset>
+	<fileset id="dbmanager.path" dir="dbmanager" includes="**/*.*" ></fileset>
+	<fileset id="util.path" dir="util" includes="**/*.*" ></fileset>
+    <fileset id="client.path" dir="client" includes="**/*.*" ></fileset>
+    <fileset id="security.path" dir="security" includes="**/*.*" ></fileset>
+    <fileset id="appmage.path" dir="appmage" includes="**/*.*" ></fileset>
+    <fileset id="appwg.path" dir="appwg" includes="**/*.*" ></fileset>
+    <fileset id="tjgl.path" dir="tjgl" includes="**/*.*" ></fileset>
+	<fileset id="wxgl.path" dir="wxgl" includes="**/*.*" ></fileset>
+    <fileset id="wxproperties.path" dir="wxproperties" includes="**/*.*" ></fileset>
+    <fileset id="wzgl.path" dir="wzgl" includes="**/*.*" ></fileset>
+    <fileset id="yxgl.path" dir="yxgl" includes="**/*.*" ></fileset>
+    <fileset id="znly.path" dir="znly" includes="**/*.*" ></fileset>
+    <fileset id="zxkf.path" dir="zxkf" includes="**/*.*" ></fileset>
+    <fileset id="ydyw.path" dir="ydyw" includes="**/*.*" ></fileset>
+	<fileset id="shorturl.path" dir="shorturl" includes="**/*.*" ></fileset>
+    <fileset id="email.path" dir="email" includes="**/*.*" ></fileset>
+	<fileset id="rms.path" dir="rms" includes="**/*.*" ></fileset>
+	<fileset id="qyll.path" dir="qyll" includes="**/*.*" ></fileset>
+    <fileset id="properties.path" dir="properties" includes="**/*.*" ></fileset>
+    <fileset id="src.path" dir="src" excludes="**/*.java" ></fileset>
+	<replace dir="properties" includes="SystemGlobals.properties">
+	<replacefilter token="modular=1" value="modular=0" />
+	</replace>
+        
+	<!--  <fileset dir="src_dir" excludes="**/*.java"/>-->
+ <!-- 初始化-->
+	<target name="init">
+		
+		   <!-- 创建目录-->
+			  <!--<mkdir dir="build"/>-->
+			  <mkdir dir="src"/>    
+		    <mkdir dir="${web.dir}"/>
+		    <mkdir dir="${dbscript.dir}"/>
+	</target>
+
+ <!-- src路径-->
+
+ <!-- 拷贝源码到src-->  
+	<target name="copySrc" depends="init">
+	  <copy encoding="utf-8" todir="src">
+      <fileset refid="ydcx.path"></fileset>
+      <fileset refid="wygl.path"></fileset>
+      <fileset refid="greport.path"></fileset>
+	  <fileset refid="global.path"></fileset>
+      <fileset refid="group.path"></fileset>
+      <fileset refid="weix.path"></fileset>
+      <fileset refid="jqzx.path"></fileset>
+      <fileset refid="txgl.path"></fileset>
+      <fileset refid="ptjk.path"></fileset>
+      <fileset refid="cxtj.path"></fileset>
+      <fileset refid="ydcw.path"></fileset>
+      <fileset refid="znyq.path"></fileset>
+      <fileset refid="user.path"></fileset>
+      <fileset refid="ydwx.path"></fileset>
+      <fileset refid="dxzs.path"></fileset>
+      <fileset refid="dxkf.path"></fileset>
+      <fileset refid="xtgl.path"></fileset>
+      <fileset refid="common.path"></fileset>
+      <fileset refid="genericDAO.path"></fileset>
+      <fileset refid="entity.path"></fileset>
+      <fileset refid="table.path"></fileset>
+      <fileset refid="dbmanager.path"></fileset>
+      <fileset refid="util.path"></fileset>
+      <fileset refid="client.path"></fileset>
+      <fileset refid="security.path"></fileset>
+      <fileset refid="appmage.path"></fileset>
+      <fileset refid="appwg.path"></fileset>
+      <fileset refid="tjgl.path"></fileset>
+      <fileset refid="wxproperties.path"></fileset>
+	  <fileset refid="wxgl.path"></fileset>
+      <fileset refid="wzgl.path"></fileset>
+      <fileset refid="yxgl.path"></fileset>
+      <fileset refid="znly.path"></fileset>
+      <fileset refid="zxkf.path"></fileset>
+      <fileset refid="ydyw.path"></fileset>
+	  <fileset refid="shorturl.path"></fileset>
+	  <fileset refid="email.path"></fileset>
+	  <fileset refid="rms.path"></fileset>
+	  <fileset refid="qyll.path"></fileset>	
+      <fileset refid="properties.path"></fileset>
+        </copy>
+        </target>
+
+ <!-- 拷贝src不需要编译的文件到class--> 
+	<target name="copyclass" depends="copySrc">
+	 
+      <copy encoding="utf-8" todir="${classes.dir}">
+      <fileset refid="src.path"></fileset>
+          </copy>
+        </target>
+	<!-- 清理 -->
+	<target name="clean" description="clear dir and war">
+	<!--删除当前项目根目录下的所有jar文件-->
+	<echo>help - show help1</echo>
+	<echo>help - show help</echo>
+	</target>
+
+ <!-- 编译src下文件-->  
+	<target name="compile" depends="copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+          <!--给编译器指定编码，防止出现："警告： 编码 GBK 的不可映射字符"-->
+			<compilerarg line="-encoding UTF-8" />
+          <compilerarg value="-XDignore.symbol.file"/>
+          <classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	<!-- 拷贝doc--> 
+		<target name="copydoc" depends="compile">
+	      <copy todir="${dbscript.dir}">
+	        <fileset refid="doc.path"></fileset>
+	      </copy>
+
+          <copy todir="${package.dir}">
+            <fileset dir="${WebRoot.dir}" includes="EMP标准版升级说明.txt"></fileset>
+          </copy>
+		</target>
+    <!-- web程序打包-->
+    <target name="package" depends="copydoc">
+        <zip destfile="${web.dir}/${webzip.name}"  duplicate="preserve" encoding="gbk" update="true">
+            <zipfileset dir="${WebRoot.dir}"  prefix="${web.name}/"></zipfileset>
+        </zip>
+        <echo>打包完成！</echo>
+        <!-- <delete dir="${classes.dir}"  /> -->
+        <delete dir="${src.dir}" />
+    </target>
+
+  </project>
+
+
+	

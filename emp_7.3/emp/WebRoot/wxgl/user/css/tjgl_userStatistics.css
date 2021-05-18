@@ -1,0 +1,81 @@
+.contentkey {
+
+}
+
+.contentkey .tab {
+	
+}
+.fucusCount{
+	height:60px;
+}
+.fucusCount span {
+	width:72px;
+	height:40px;
+	padding: 10px 0 10px 20px;
+	float: left;
+	text-align: left;
+} 
+
+.contentkey .tab ul {
+	list-style-type:none;
+	overflow: hidden;
+}
+
+.contentkey .tab ul li {
+	float: left;
+	width: 80px;
+	text-align: left;
+	height: 30px;
+	line-height: 30px;
+}
+
+.contentkey .tab ul li.tab-end {
+	border-right: 1px solid #eeeeee;
+}
+.contentkey .tab ul li a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+}
+.contentkey .tab ul li.key  {
+	background-color: #fff;
+}
+.contentkey .tab ul li.key a {
+	color : #797979;
+}
+.contentkey .itemList {
+	background-color: #fff;
+	clear: both;
+}
+
+.contentkey .itemList .item {
+	display: none
+}
+
+.contentkey.tab1 .itemList .item.tab1,.contentkey.tab2 .itemList .item.tab2,.contentkey.tab3 .itemList .item.tab3,.contentkey.tab4 .itemList .item.tab4
+	{
+	display: block
+}
+
+.contentkey.tab1 .itemList .item.tab1 .timedivclass {
+	float: left;
+	display: none;
+	line-height: 40px;
+	width: 480px;
+}
+
+.contentkey.tab1 .itemList .item.tab1 .timedivclass .btn-search {
+	width: 56px;
+	height: 25px;
+	background: url(../../../common/img/btn-search.gif) no-repeat 0 0;
+	display: block;
+	text-align: center;
+	line-height: 25px;
+	margin-top: 5px;
+	color: #fff;
+	cursor: pointer;
+}
+#content span{
+	padding:4px 0;
+}

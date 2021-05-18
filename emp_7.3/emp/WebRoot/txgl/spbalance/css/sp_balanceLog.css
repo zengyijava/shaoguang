@@ -1,0 +1,73 @@
+#sp_balanceLog .spUser {
+	width: 176px;
+}
+
+#sp_balanceLog .msgType {
+	width: 182px;
+}
+
+#sp_balanceLog .opType {
+	width: 178px;
+}
+
+#sp_balanceLog .result {
+	width: 178px;
+}
+
+#sp_balanceLog .opUser {
+	width: 176px;
+}
+
+#sp_balanceLog .beginTime {
+	cursor: pointer;
+	width: 178px;
+	background-color: white;
+}
+
+#sp_balanceLog .endTime {
+	cursor: pointer;
+	width: 178px;
+	background-color: white;
+}
+
+#sp_balanceLog .czhsslt_th {
+	width: 13%;
+}
+
+#sp_balanceLog .bz_th {
+	width: 13%;
+}
+
+#sp_balanceLog .czjgy_th {
+	width: 11%;
+}
+
+#sp_balanceLog .czsj_th {
+	width: 12%;
+}
+
+#sp_balanceLog .memo_label {
+	display: none;
+}
+
+#sp_balanceLog .memo-div {
+	padding: 5px;
+	width: 200px;
+	height: 160px;
+	display: none;
+	word-wrap: break-word;
+	word-break: break-all;
+	overflow-y: auto;
+}
+
+#sp_balanceLog .msg_div {
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+}
+
+#sp_balanceLog .msg{
+	width:100%;
+	height:100%;
+}
+

@@ -1,0 +1,25 @@
+﻿body,form,ul,ol,li,p,dl,dt,dd,h1,h2,h3,h4,h5,h6,input{margin:0;padding:0;}
+body{font-size:12px;}
+h1,h2,h3,h4,h5,h6,input,textarea{font-size:12px;}
+li{list-style:none;}
+img{border:0;vertical-align:top;}
+em,i{font-style:normal;}
+input,textarea,select{outline:none;}
+textarea{resize:none;overflow:auto;}
+/* clear float */
+.clearfix:after,.cf:after,.clear:after{content:".";display:block;visibility:hidden;height:0;clear:both;}
+.clearfix,.cf,.clear{zoom:1}
+.cfixBoth{clear:both;height:1px;overflow:hidden;}
+/*label checkbox*/
+label.choice {}
+.checkbox {height:13px; vertical-align:text-top; margin-top:0;margin-right:3px;}
+/*page*/
+.info_list{margin:0 0 15px;}
+.info_list .tit{width:75px;float:left;line-height:30px;}
+.info_list .inp{margin-left:75px;}
+.input_com{border:1px solid #ccc;width:188px;vertical-align:middle;border-radius:2px;color:#808080;}
+.w_input{height:16px;padding:4px 0 4px 5px;}
+.w_select{height:24px;margin:3px 0 0;}
+.exam_range li{height:30px;position:relative;padding:10px 0 0;}
+.exam_total{position:absolute;left:75px;top:5px;}
+

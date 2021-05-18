@@ -1,0 +1,103 @@
+.dxkf_display_none{
+    display:none;
+}
+#chooseSendInfo center {
+	font-size: 14px;
+}
+#chooseSendInfo select {
+	font-size: 14px;
+}
+#chooseSendInfo .dxkf_div1{
+	height:478px;
+}
+#chooseSendInfo .dxkf_td1{
+	font-size:12px;
+	height:26px;
+	vertical-align:top;
+}
+#chooseSendInfo .div_bd.dxkf_div2{
+	width:80px;
+	height:22px;
+	background-color:#ffffff;
+	float:left;
+	vertical-align: middle;
+}
+#chooseSendInfo #chooseType{
+	line-height:22px;
+	height: 100%;
+	width:80px;
+	border:0;
+	padding:0;
+	margin:0;
+	font-size:12px;
+}
+#chooseSendInfo #epname{
+	font-size:12px;
+	border:0px;
+	width:125px;
+	background-color:#F3FAEE;
+}
+#chooseSendInfo .dxkf_td2{
+	font-size:12px;
+	color:#666666;
+	text-align:left;
+}
+#chooseSendInfo #etree{
+	width:242px;
+	height:240px;
+}
+#chooseSendInfo #sonFrame{
+	height:240px;
+	width:240px;
+}
+#chooseSendInfo #egroup,#ecustfield,#wxuser,#ydywgroup{
+	background-color:#ffffff;
+	height:240px;
+	width:240px;
+	display: none;
+}
+#chooseSendInfo .div_bd.div_bg.dxkf_div3{
+	border-bottom:0;
+	margin-top:10px;
+	height:22px;
+	width:242px;
+	float:left;
+	overflow: hidden;
+}
+#chooseSendInfo #showName{
+	float:left;
+	margin-top:3px;
+	font-size:12px;
+}
+#chooseSendInfo .dept.div_bd.dxkf_div4{
+	height: 125px; 
+	width: 237px;
+	overflow:hidden;
+	display:block;
+	padding-left:5px;
+}
+#chooseSendInfo #showUserName{
+	display:none;
+	height:22px;
+	width:240px;
+	padding-top: 5px; 
+	padding-left:10px; 
+	text-align: left;
+	font-size: 12px;
+}
+#chooseSendInfo #right{
+	width:204px;
+	height: 418px;
+	display:none; 
+	border:0;
+	float:left;
+	color: black;
+	font-size: 12px;
+	padding:4px;
+	vertical-align:middle;
+	margin:-6px -10px;
+}
+#chooseSendInfo #pageDiv{
+	margin-top: 3px;
+	text-align:left;
+}

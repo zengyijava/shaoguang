@@ -1,0 +1,81 @@
+@import '../../../libs/assets/less/variables';
+
+.media-editor {
+  .canvas {
+    position: relative;
+    width: 320px;
+    margin: 50px auto 0 auto;
+    background: url('../../../libs/assets/img/phone.png') no-repeat;
+    background-size: 320px 600px;
+    article {
+      height: 560px;
+      .content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 260px;
+        min-height: 292px;
+        max-height: 510px;
+        overflow: auto;
+        border: solid 1px #d6d6d6;
+        border-radius: 16px;
+        outline: none;
+        box-sizing: border-box;
+        > div:first-child .active {
+          border-top-left-radius: 16px;
+          border-top-right-radius: 16px;
+          overflow: hidden;
+        }
+        audio {
+          padding-left: 4px;
+          padding-right: 4px;
+        }
+        img, audio, video {
+          display: block;
+          width: 100%;
+          box-sizing: border-box;
+        }
+        .j-btn {
+          border-top-left-radius: 0 !important;
+          border-top-right-radius: 0 !important;
+        }
+        .no-action {
+          .j-btn {
+            cursor: initial;
+            &:hover {
+              cursor: initial;
+            }
+          }
+        }
+      }
+    }
+    footer {
+      text-align: right;
+      .info {
+        margin: 12px 0 12px auto;
+        font-size: 12px;
+        color: #888;
+        span:first-child{
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  .property {
+    position: fixed;
+    top: 80px;
+    bottom: 20px;
+    width: 350px;
+    right: -350px;
+    border: solid 1px @border;
+    border-radius: 2px;
+    box-sizing: border-box;
+    background-color: @white-light;
+    z-index: 2;
+    transition: right 0.5s ease-in-out;
+    &.show {
+      right: 20px;
+    }
+  }
+}
+

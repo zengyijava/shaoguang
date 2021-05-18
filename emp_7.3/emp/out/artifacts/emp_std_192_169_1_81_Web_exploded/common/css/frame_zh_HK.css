@@ -1,0 +1,11 @@
+.btnClass5 {
+	letter-spacing: 0px;
+}
+.btnClass6 {
+	letter-spacing: 0px;
+}
+input.btnClass5,input.mr23,input.btnClass6{
+	letter-spacing: 0;
+	text-indent: 0;
+	text-align: center;
+}

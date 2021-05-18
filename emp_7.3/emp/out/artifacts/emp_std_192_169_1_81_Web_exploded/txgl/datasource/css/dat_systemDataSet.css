@@ -1,0 +1,109 @@
+#dat_systemDataSet a, a:ACTIVE {
+  	/*color: #0e5ad1;*/
+  	text-decoration: none;
+}
+#dat_systemDataSet .header .inner .logo {
+    background-image: url(<%=iPath %>/images/txt01_<%=langName %>.png);
+}
+
+#dat_systemDataSet td#clusterSwitch,td#StandbyInterURL,td#EMPAccessURL,td#EMPOuterAccessURL,td#server1,td#StandbyOuterURL{
+	width: 165px;
+}
+#dat_systemDataSet a#testBackConnBtn{
+	vertical-align: middle;
+}
+
+
+#dat_systemDataSet .waitTextConnection{
+	color: #808080;
+}
+
+#dat_systemDataSet .rightTextConnection{
+	color: green;
+}
+
+#dat_systemDataSet .errorTextConnection{
+	color: red;
+}
+
+#dat_systemDataSet .sjkkg_table{
+	margin-bottom:0px;
+}
+
+#dat_systemDataSet .sjkkg_td{
+	width:150px;
+}
+
+#dat_systemDataSet .use_backup_server{
+	width:345px;
+}
+
+#dat_systemDataSet .backConn{
+	display:none;
+}
+
+#dat_systemDataSet .sjkdz_td{
+	width:150px;
+}
+
+#dat_systemDataSet .backTest{
+	display:none;
+}
+
+#dat_systemDataSet .waitTextConnection2{
+	color: #808080;
+}
+
+#dat_systemDataSet .rightTextConnection2{
+	color: green;
+}
+
+#dat_systemDataSet .errorTextConnection2{
+	color: red;
+}
+
+#dat_systemDataSet .isCluster{
+	width:345px;
+}
+
+#dat_systemDataSet .serverNum{
+	display:none;
+}
+
+#dat_systemDataSet .serverNumber{
+	width:345px;
+}
+
+#dat_systemDataSet .initCols{
+	display:none;
+}
+
+#dat_systemDataSet .tjby_a{
+	float: left;
+	display: block;
+	line-height: 26px;
+	margin-left: 25px;
+	cursor: pointer;
+	margin-top: 6px;
+}
+
+#dat_systemDataSet .modfiy_pwd{
+	display:none;
+}
+
+#dat_systemDataSet .langEnable_td{
+	width:140px;
+}
+
+#dat_systemDataSet .langSelect_td{
+	width:140px;
+}
+
+#dat_systemDataSet .sjklx_td{
+	width:150px;
+}
+
+#dat_systemDataSet .mrymdx_td{
+	width:140px;
+}
+

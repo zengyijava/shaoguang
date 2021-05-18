@@ -1,0 +1,67 @@
+		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>EMP系统升级通知</title>
+	<style>
+	*{margin:0;padding:0;}
+	body{font-size: 12px;}
+	.p1,.p2,.p3{line-height:22px;font-family:"微软雅黑";}
+	.p1{font-weight:bold;font-size:16px;}
+	.p2{font-size:14px;}
+	.p3{text-align:right;font-size:14px;}
+	#box{width:768px;height: :507px;position:absolute;left:50%;top:50%;margin:-253px 0 0 -384px;border:1px solid #ccc;z-index: 1;background: #fff;}
+	#titlebar{height: 28px;line-height: 28px;text-indent: 10px;background: #d7e8ff;}
+    #box #box_inner{width:672px;height:350px;overflow-y:auto;border:1px solid #ccc;margin:25px auto;padding:10px;}
+    #overView{width:100%;height:100%;opacity:0.5;filter：alpha(opacity=50);background: #000;position:absolute;left:0;top:0;}
+	</style>
+</head>
+<body>
+<div id="box">
+      <div id="titlebar">EMP系统升级通知</div>
+      <div id="box_inner" >
+	    <h2 style="text-align:center;line-height:22px;font-family:"微软雅黑";">V3.2.0.116 版本EMP升级内容</h2>
+	    <p class="p2">本次升级内容具体如下：</p>
+	    <p class="p1">新增应用模块</p>
+	    <p class="p2">1、[企业微信]模块；</p>
+	    <p class="p2">2、[移动网讯]模块。</p>
+	    <p class="p1">二、发送方面</p>
+	    <p class="p2">1、进一步优化发送流程及逻辑，提升系统稳定性及发送速度；</p>
+	    <p class="p2">2、短信发送过程增加运营商余额判断及余额不足提醒功能；</p>
+	    <p class="p2">3、[完美通知]增加手动添加人员、提交预览、人员搜索等功能；</p>
+	    <p class="p2">4、[相同内容群发]、[不同内容群发]发送内容是选择模板还是手动输入，可根据角色权限进行控制；[相同内容群发]发送号码中选择人员、文件导入、手动输入可根据角色权限进行控制。</p>
+	    <p class="p2">5、客户群组发送增加高级搜索功能，实现对会员进行精准营销；</p>
+	    <p class="p2">6、优化发送模块高级设置选项，将发送时间显示在操作页面中；</p>
+	    <p class="p1">三、首页</p>
+	    <p class="p2">7、增加界面版式[传统]主题风格切换及三种换肤；</p>
+	    <p class="p2">8、用户反馈支持多种途径，包括手机二维码在线反馈、热线，传真，邮箱、QQ等。</p>
+	    <p class="p1">四、通讯录</p>
+	    <p class="p2">9、增加[员工机构管理]菜单，新增员工机构排序、调整、合并功能；</p>
+	    <p class="p2">10、美化添加员工及创建操作员界面，完善员工与操作员互转流程，实现一站式完成创建；</p>
+	    <p class="p2">11、客户通讯支持同一客户记录可同时存在于多个机构下；</p>
+	    <p class="p2">12、客户个人群组新增搜索、手动输入、文件导入人员等功能；</p>
+	    <p class="p1">五、查询</p>
+	    <p class="p2">13、[群发任务查看]新增"任务状态"查询条件；</p>
+	    <p class="p2">14、[查询统计]－[数据查询]新增[短信滞留记录]</p>
+	    菜单，可查询因网络、欠费等原因造成未发送成功的信息记录，支持对此类滞留信息进行发送或删除不再发送；
+	    </p>
+	    <p class="p2">15、优化角色设置：相同内容群发权限细分至手动输入号码，文件导入，选择人员，模板内容，手动输入内容；相同内容群发、不同内容群发中模板内容，手动输入内容可以按照角色进行对应功能分配；</p>
+	    <p class="p2">16、优化审核流程设置，新增审核流程开关，可配置审核范围、审核阀值；审核类型提供逐级审核、机构审核、操作员审核三种方式，实现灵活自动适配流程流转；审核流程可挂接操作员或机构，更加省时省力。</p>
+	    <p class="p1">尊敬的用户：</p>
+	    <p class="p2">您好！梦网科技原计划于11月2日23：00至11月3日2：00对EMP平台进行升级，升级工作现已如期顺利完成，EMP平台现在可以正常使用，给您带来不便，敬请谅解！
+	        <p class="p2">　如您在使用过程中有任何疑问、异常或建议，请及时联系我们的客服，联系人：吕磊，电话：0755-86017780，手机：15818550858.</p>
+	    <p class="p2">再次感谢您的支持！</p>
+	    <p class="p2">特此通知!</p>
+	    <p class="p3"> 深圳市梦网科技发展有限公司 </p>
+	    <p class="p3"> 2013年11月2日</p>
+	</div>
+</div>
+<div id="overView"></div>
+<script>
+	window.onload=function(){
+		var overView=document.getElementById('overView');
+		overView.style.height=document.documentElement.clientHeight+'px';
+	}
+</script>
+</body>
+</html>

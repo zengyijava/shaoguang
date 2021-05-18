@@ -1,0 +1,130 @@
+{
+	"JSChart" : {
+		"datasets" : [
+			{
+				"type" : "line",
+				"data" : [
+					{
+						"unit" : "2001",
+						"value" : "2"
+					},
+					{
+						"unit" : "2002",
+						"value" : "0"
+					},
+					{
+						"unit" : "2003",
+						"value" : "3"
+					},
+					{
+						"unit" : "2004",
+						"value" : "6"
+					},
+					{
+						"unit" : "2005",
+						"value" : "8.5"
+					},
+					{
+						"unit" : "2006",
+						"value" : "10"
+					},
+					{
+						"unit" : "2007",
+						"value" : "9"
+					},
+					{
+						"unit" : "2008",
+						"value" : "8"
+					},
+					{
+						"unit" : "2009",
+						"value" : "5"
+					},
+					{
+						"unit" : "2010",
+						"value" : "6"
+					},
+					{
+						"unit" : "2011",
+						"value" : "2.5"
+					}
+				]
+			}
+		],
+		"optionset" : [
+			{
+				"set" : "setAxisColor",
+				"value" : "'#b5b5b5'"
+			},
+			{
+				"set" : "setAxisNameColor",
+				"value" : "'#4A4A4A'"
+			},
+			{
+				"set" : "setAxisNameFontSize",
+				"value" : "12"
+			},
+			{
+				"set" : "setAxisNameX",
+				"value" : "'时间(年)'"
+			},
+			{
+				"set" : "setAxisNameY",
+				"value" : "'发送条数单位万'"
+			},
+			{
+				"set" : "setAxisPaddingLeft",
+				"value" : "60"
+			},
+			{
+				"set" : "setAxisPaddingRight",
+				"value" : "30"
+			},
+			{
+				"set" : "setAxisPaddingTop",
+				"value" : "50"
+			},
+			{
+				"set" : "setAxisPaddingBottom",
+				"value" : "50"
+			},
+			{
+				"set" : "setTextPaddingBottom",
+				"value" : "15"
+			},
+			{
+				"set" : "setTextPaddingLeft",
+				"value" : "15"
+			},
+			{
+				"set" : "setAxisValuesColor",
+				"value" : "'#949494'"
+			},
+			{
+				"set" : "setLineColor",
+				"value" : "'#509ACD'"
+			},
+			{
+				"set" : "setTitle",
+				"value" : "'系统发送趋势图'"
+			},
+			{
+				"set" : "setTitleColor",
+				"value" : "'#000'"
+			},
+			{
+				"set" : "setSize",
+				"value" : "616, 321"
+			},
+			{
+				"set" : "setFlagRadius",
+				"value" : "6"
+			},
+			
+			{
+				"set" : "setBackgroundImage",
+				"value" : "'chart_bg.jpg'"
+			}
+		]
+	}
+}

@@ -1,0 +1,346 @@
+{
+  "label": {
+    "reportTypeLabel": [
+      {
+        "value": 2,
+        "label": "日报表"
+      },
+      {
+        "value": 0,
+        "label": "月报表"
+      },
+      {
+        "value": 1,
+        "label": "年报表"
+      }
+    ],
+    "operatorLabel": [
+      {
+        "value": "",
+        "label": "全部"
+      },
+      {
+        "value": "0",
+        "label": "移动"
+      },
+      {
+        "value": "1",
+        "label": "联通"
+      },
+      {
+        "value": "21",
+        "label": "电信"
+      },
+      {
+        "value": "5",
+        "label": "国外"
+      }
+    ],
+    "MessageType": [
+      {
+        "value": "0",
+        "label": "短信"
+      },
+      {
+        "value": "1",
+        "label": "彩信"
+      }
+    ]
+  },
+  "defaultProps": {
+    "children": "children",
+    "label": "label"
+  },
+  "tableColumns": {
+    "areaReport": [
+      {
+        "prop": "queryTimeStr",
+        "label": "日期",
+        "width": "25%",
+        "sortable": true
+      },
+      {
+        "prop": "provinceAndCity",
+        "label": "区域",
+        "width": "20%"
+      },
+      {
+        "prop": "sendSucc",
+        "label": "发送成功数",
+        "width": "20%",
+        "sortable": true
+      },
+      {
+        "prop": "rfail2",
+        "label": "接受失败数",
+        "width": "20%",
+        "sortable": true
+      }
+    ],
+    "busReport": [
+      {
+        "prop": "queryTimeStr",
+        "label": "日期",
+        "width": "25%",
+        "sortable": true
+      },
+      {
+        "prop": "busName",
+        "label": "业务类型",
+        "width": "15%"
+      },
+      {
+        "prop": "sendName",
+        "label": "发送类型",
+        "width": "15%"
+      },
+      {
+        "prop": "operatorName",
+        "label": "运营商",
+        "width": "10%"
+      },
+      {
+        "prop": "sendSucc",
+        "label": "发送成功数",
+        "width": "10%",
+        "sortable": true
+      },
+      {
+        "prop": "rfail2",
+        "label": "接收失败数",
+        "width": "10%",
+        "sortable": true
+      }
+    ],
+    "dynParamReport": [
+      {
+        "prop": "queryTimeStr",
+        "label": "日期",
+        "width": "20%",
+        "sortable": true
+      },
+      {
+        "prop": "paramName",
+        "label": "未知",
+        "width": "15%"
+      },
+      {
+        "prop": "paramValue",
+        "label": "参数值",
+        "width": "10%"
+      },
+      {
+        "prop": "sendSucc",
+        "label": "发送成功数",
+        "width": "10%",
+        "sortable": true
+      },
+      {
+        "prop": "rfail2",
+        "label": "接收失败数",
+        "width": "10%",
+        "sortable": true
+      }
+    ],
+    "spisuncmMtReport": [
+      {
+        "prop": "queryTimeStr",
+        "label": "日期",
+        "width": "20%",
+        "sortable": true
+      },
+      {
+        "prop": "spIdName",
+        "label": "运营商账户ID",
+        "width": "15%"
+      },
+      {
+        "prop": "operatorName",
+        "label": "运营商类型",
+        "width": "10%"
+      },
+      {
+        "prop": "sendSucc",
+        "label": "发送成功数",
+        "width": "10%",
+        "sortable": true
+      },
+      {
+        "prop": "rfail2",
+        "label": "接收失败数",
+        "width": "10%",
+        "sortable": true
+      }
+    ],
+    "spMtReport": [
+      {
+        "prop": "queryTimeStr",
+        "label": "日期",
+        "width": "15%",
+        "sortable": true
+      },
+      {
+        "prop": "userId",
+        "label": "SP账号",
+        "width": "10%"
+      },
+      {
+        "prop": "staffname",
+        "label": "账户名称",
+        "width": "10%"
+      },
+      {
+        "prop": "spName",
+        "label": "账号类型",
+        "width": "10%"
+      },
+      {
+        "prop": "sendName",
+        "label": "发送类型",
+        "width": "10%"
+      },
+      {
+        "prop": "operatorName",
+        "label": "运营商",
+        "width": "10%"
+      },
+      {
+        "prop": "sendSucc",
+        "label": "发送成功数",
+        "width": "10%",
+        "sortable": true
+      },
+      {
+        "prop": "rfail2",
+        "label": "接收失败数",
+        "width": "10%",
+        "sortable": true
+      }
+    ],
+    "sysUserReport": [
+      {
+        "prop": "queryTimeStr",
+        "label": "日期",
+        "width": "20%",
+        "sortable": true
+      },
+      {
+        "prop": "name",
+        "label": "操作员",
+        "width": "13%"
+      },
+      {
+        "prop": "depName",
+        "label": "机构",
+        "width": "13%"
+      },
+      {
+        "prop": "operatorName",
+        "label": "运营商",
+        "width": "13%"
+      },
+      {
+        "prop": "sendSucc",
+        "label": "发送成功数",
+        "width": "13%",
+        "sortable": true
+      },
+      {
+        "prop": "rfail2",
+        "label": "接收失败数",
+        "width": "13%",
+        "sortable": true
+      }
+    ],
+    "sysDepReport": [
+      {
+        "prop": "queryTimeStr",
+        "label": "日期",
+        "width": "20%",
+        "sortable": true
+      },
+      {
+        "prop": "depOrUserName",
+        "label": "操作员/机构",
+        "width": "15%"
+      },
+      {
+        "prop": "sendName",
+        "label": "发送类型",
+        "width": "13%"
+      },
+      {
+        "prop": "operatorName",
+        "label": "运营商",
+        "width": "13%"
+      },
+      {
+        "prop": "sendSucc",
+        "label": "发送成功数",
+        "width": "12%",
+        "sortable": true
+      },
+      {
+        "prop": "rfail2",
+        "label": "接收失败数",
+        "width": "12%",
+        "sortable": true
+      }
+    ]
+  },
+  "menuItem": {
+    "spType": "spMtReport",
+    "busType": "busReport",
+    "messageType": "areaReport,busReport,sysDepReport,sysUserReport,spisuncmMtReport,spMtReport",
+    "provinces": "areaReport",
+    "spisuncm": "busReport,sysDepReport,sysUserReport,spisuncmMtReport,spMtReport",
+    "sendType": "busReport,spMtReport,sysDepReport",
+    "spuserId": "spMtReport",
+    "org": "sysDepReport,sysUserReport",
+    "user": "sysUserReport",
+    "staffname": "spMtReport",
+    "msType": "spisuncmMtReport",
+    "paramStr": "dynParamReport",
+    "reportType": "areaReport,busReport,sysDepReport,sysUserReport,spisuncmMtReport,spMtReport"
+  },
+  "allData": [
+    "provinces",
+    "user",
+    "org",
+    "spuserId",
+    "spisuncm",
+    "busType"
+  ],
+  "moreDimensions": [
+    {
+      "label": "区域",
+      "key": "provinces",
+      "access": "spMtReport,sysDepReport,sysUserReport,busReport"
+    },
+    {
+      "label": "操作员",
+      "key": "user",
+      "access": "spMtReport,busReport,areaReport"
+    },
+    {
+      "label": "机构",
+      "key": "org",
+      "access": "spMtReport,busReport,areaReport"
+    },
+    {
+      "label": "sp账号",
+      "key": "spuserId",
+      "access": "sysDepReport,sysUserReport,busReport,areaReport"
+    },
+    {
+      "label": "运营商",
+      "key": "spisuncm",
+      "access": "areaReport"
+    },
+    {
+      "label": "业务类型",
+      "key": "busType",
+      "access": "spMtReport,sysDepReport,sysUserReport,areaReport"
+    }
+  ]
+}

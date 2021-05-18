@@ -1,0 +1,23 @@
+
+.formatFont{
+	color:#095AD1;
+}
+#timerTime{
+	background-color: white;
+}
+#infoDiv,.centerBack{
+	background-color:#FAFAFF;
+}
+/*ѡ��Ա��ͼƬ��ʽ*/
+.selectEmp_old
+{
+	background:url("images/selectEmp.png") no-repeat;
+}
+/*�����ļ�ͼƬ��ʽ*/
+.importFile_old
+{
+	background:url("images/importFile.png") no-repeat;
+}
+
+
+

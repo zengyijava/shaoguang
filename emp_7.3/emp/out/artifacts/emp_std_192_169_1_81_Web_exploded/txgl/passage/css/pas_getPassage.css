@@ -1,0 +1,34 @@
+#pas_getPassage table .maxWidth {
+	float: left;
+	width: 190px;
+	padding-top: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	-o-text-overflow: ellipsis; /* Opera */
+	text-overflow: ellipsis; /* IE, Safari (WebKit) */
+}
+
+#pas_getPassage .tdglxx_div{
+	display: block;
+	font-size: 14px;
+	color: #0B151A;
+	font-weight: bold;
+}
+
+#pas_getPassage .tdlx_div{
+	padding-left:40px;
+	background-color: white;
+	border-color: white;
+}
+
+#pas_getPassage .tdlx_table{
+	width:800px;
+	background-color: white;
+	border-color: white;
+	line-height: 30px;
+}
+
+#pas_getPassage .btn{
+	padding-top:20px;
+}
+

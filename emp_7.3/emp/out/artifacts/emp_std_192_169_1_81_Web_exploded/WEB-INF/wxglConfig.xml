@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 基础管理servlet群 -->
+
+<servlet>
+	<description>关注时回复</description>
+	<display-name>关注时回复</display-name>
+	<servlet-name>focusReplySvt</servlet-name>
+	<servlet-class>com.montnets.emp.wxgl.svt.weix_focusReplySvt
+	</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>focusReplySvt</servlet-name>
+	<url-pattern>/weix_focusReply.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>默认回复</description>
+	<display-name>默认回复</display-name>
+	<servlet-name>defaultReplySvt</servlet-name>
+	<servlet-class>com.montnets.emp.wxgl.svt.weix_defaultReplySvt
+	</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>defaultReplySvt</servlet-name>
+	<url-pattern>/weix_defaultReply.htm</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<description>用户增长统计管理</description>
+	<display-name>用户增长统计管理</display-name>
+	<servlet-name>tjgl_subscriberGrowthSvt</servlet-name>
+	<servlet-class>com.montnets.emp.wxgl.user.svt.tjgl_userGrowReportSvt
+	</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>tjgl_subscriberGrowthSvt</servlet-name>
+	<url-pattern>/yhzz_growReport.htm</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+	<description>用户属性统计管理</description>
+	<display-name>用户属性统计管理</display-name>
+	<servlet-name>tjgl_userStatisticsSvt</servlet-name>
+	<servlet-class>com.montnets.emp.wxgl.user.svt.tjgl_userStatisticsSvt
+	</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+	<servlet-name>tjgl_userStatisticsSvt</servlet-name>
+	<url-pattern>/yhsx_userAttrReport.htm</url-pattern>
+</servlet-mapping>
+
+<!-- end 微信项目servlet群 -->
+
+<servlet>
+	<description>自定义菜单</description>
+	<display-name>自定义菜单</display-name>
+	<servlet-name>defineMenuSvt</servlet-name>
+	<servlet-class>com.montnets.emp.wxgl.svt.weix_defineMenuSvt
+	</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>defineMenuSvt</servlet-name>
+	<url-pattern>/weix_defineMenu.htm</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<description>关键字回复</description>
+	<display-name>关键字回复</display-name>
+	<servlet-name>keywordReply</servlet-name>
+	<servlet-class>com.montnets.emp.wxgl.svt.weix_keywordReplySvt
+	</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>keywordReply</servlet-name>
+	<url-pattern>/weix_keywordReply.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>图文详情</description>
+	<servlet-name>imgDetailSvt</servlet-name>
+	<servlet-class>com.montnets.emp.wxgl.svt.weix_imgDetailSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>imgDetailSvt</servlet-name>
+	<url-pattern>/weix_imgDetail.hts</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>公众帐号管理</description>
+	<display-name>公众帐号管理</display-name>
+	<servlet-name>weix_acctManagerSvt</servlet-name>
+	<servlet-class>com.montnets.emp.wxgl.svt.weix_acctManagerSvt
+	</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>weix_acctManagerSvt</servlet-name>
+	<url-pattern>/weix_acctManager.htm</url-pattern>
+</servlet-mapping>
+<servlet>
+	<description>lbs管理</description>
+	<display-name>lbs管理</display-name>
+	<servlet-name>weix_lbsManagerSvt</servlet-name>
+	<servlet-class>com.montnets.emp.wxgl.svt.weix_lbsManagerSvt
+	</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>weix_lbsManagerSvt</servlet-name>
+	<url-pattern>/weix_lbsManager.htm</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>weix_lbsManagerSvt</servlet-name>
+	<url-pattern>/weix_lbsManager.hts</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>用户列表</description>
+	<display-name>用户列表</display-name>
+	<servlet-name>user_contactManagerSvt</servlet-name>
+	<servlet-class>com.montnets.emp.wxgl.svt.weix_contactManagerSvt
+	</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>user_contactManagerSvt</servlet-name>
+	<url-pattern>/user_contactManager.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>群组管理</description>
+	<display-name>群组管理</display-name>
+	<servlet-name>user_groupManagerSvt</servlet-name>
+	<servlet-class>com.montnets.emp.wxgl.svt.weix_groupManagerSvt
+	</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>user_groupManagerSvt</servlet-name>
+	<url-pattern>/user_groupManager.htm</url-pattern>
+</servlet-mapping>
+	
+<!-- 群发管理开始  -->
+<servlet>
+    <description>分组群发</description>
+    <display-name>分组群发</display-name>
+    <servlet-name>yxgl_qunfaMgrSvt</servlet-name>
+    <servlet-class>com.montnets.emp.wxgl.svt.weix_qunfaMgrSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>yxgl_qunfaMgrSvt</servlet-name>
+    <url-pattern>/yxgl_fzqfManager.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <description>微信群发历史</description>
+    <display-name>微信群发历史</display-name>
+    <servlet-name>yxgl_sendHistorySvt</servlet-name>
+    <servlet-class>com.montnets.emp.wxgl.svt.weix_qunfaHistorySvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>yxgl_sendHistorySvt</servlet-name>
+    <url-pattern>/yxgl_sendHistory.htm</url-pattern>
+</servlet-mapping>	
+<!-- 群发管理结束  -->
+
+<servlet>
+	<description>微信平台接入地址</description>
+	<display-name>微信平台接入地址</display-name>
+	<servlet-name>wxCommSvt</servlet-name>
+	<servlet-class>com.montnets.emp.wxgl.svt.weix_wxCommonSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>wxCommSvt</servlet-name>
+	<url-pattern>/api/*</url-pattern>
+</servlet-mapping>

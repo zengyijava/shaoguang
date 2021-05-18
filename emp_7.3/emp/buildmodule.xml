@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="lib_warFile">
+
+	<!--fileset可以设定一组文件集来进行操作，dir指明文件集要进行选择的路径，通过id可以制定这个文件的名称，在使用的时候
+	进行直接的引入 include可以设定包含返回和排除范围**/*.*所有目录中的所有文件-->
+
+
+<!--项目编译classpath-->
+	<path id="tomcat.lib">
+		    <fileset dir="C:\mytomcat\tomcat\lib">
+		        <include name="**/*.jar"/>
+		    </fileset>
+		</path> 
+	<path id="JAVA.rt">  
+				<fileset dir="C:\Program Files\Java\jdk1.6.0_45\jre\bin">
+					<include name="**/*.jar"/>
+					<!--<fileset dir="C:\Program Files\Java\jdk1.6.0_45">
+			        <include name="**/**/*.jar"/>
+					<include name="**/lib/*.jar"/>-->
+			    </fileset>
+			</path>  
+	    <!-- 定义路径，编译java文件时用到的jar包。 -->
+	    <path id="project.lib">
+	    	<path refid="tomcat.lib" />
+	    	<path refid="JAVA.rt" /> 
+	        <fileset dir="${basedir}/WebRoot/WEB-INF/lib">
+	            <include name="**/*.jar"/>
+	        </fileset>
+	    </path>
+
+
+ 	<!--WebRoot路径-->
+	<property name="WebRoot.dir" location="WebRoot"></property>
+ 	<!--src路径-->
+	<property name="src.dir" location="src"></property>
+ 	<!--class路径-->
+    <property name="classes.dir" location="WebRoot\WEB-INF\classes"></property>
+ 	<!-- web文件夹名称--> 
+	<property name="p_appmage" value="p_appmage"></property>
+	<property name="p_client" value="p_client"></property>
+	<property name="p_cxtj" value="p_cxtj"></property>
+	<property name="p_dxkf" value="p_dxkf"></property>
+	<property name="p_dxzs" value="p_dxzs"></property>
+	<property name="p_global" value="p_global"></property>
+	<property name="p_greport" value="p_greport"></property>
+	<property name="p_group" value="p_group"></property>
+	<property name="p_ptjk" value="p_ptjk"></property>
+	<property name="p_qyll" value="p_qyll"></property>
+	<property name="p_rms" value="p_rms"></property>
+	<property name="p_shorturl" value="p_shorturl"></property>
+	<property name="p_txgl" value="p_txgl"></property>
+	<property name="p_user" value="p_user"></property>
+	<property name="p_weix" value="p_weix"></property>
+	<property name="p_wxgl" value="p_wxgl"></property>
+	<property name="p_wygl" value="p_wygl"></property>
+	<property name="p_wzgl" value="p_wzgl"></property>
+	<property name="p_xtgl" value="p_xtgl"></property>
+	<property name="p_ydcw" value="p_ydcw"></property>
+	<property name="p_ydcx" value="p_ydcx"></property>
+	<property name="p_ydwx" value="p_ydwx"></property>
+	<property name="p_ydyw" value="p_ydyw"></property>
+	<property name="p_znyq" value="p_znyq"></property>
+	<property name="p_zxkf" value="p_zxkf"></property>
+	<property name="p_conf" value="p_conf"></property>
+	<property name="p_frame" value="p_frame"></property>
+	<property name="p_lib" value="p_lib"></property>
+ 	<!-- web压缩文件名称
+	<property name="webwar.name" value="emp.war"></property>-->
+	<property name="version" value="1"></property>
+	<property name="build" location="C:\WEB-INF\workspace\04javaemp7.1\build\标准版EMP_WIN\WEB程序\子模块"></property>
+ 	<!-- 编译java文件路径-->
+	<fileset id="appmage.path" dir="appmage" includes="**/*.*" ></fileset>
+	<fileset id="client.path" dir="client" includes="**/*.*" ></fileset>
+	<fileset id="cxtj.path" dir="cxtj" includes="**/*.*" ></fileset>
+	<fileset id="dxkf.path" dir="dxkf" includes="**/*.*" ></fileset>
+	<fileset id="dxzs.path" dir="dxzs" includes="**/*.*" ></fileset>
+	<fileset id="global.path" dir="global" includes="**/*.*" ></fileset>
+	<fileset id="greport.path" dir="greport" includes="**/*.*" ></fileset>
+	<fileset id="group.path" dir="group" includes="**/*.*" ></fileset>
+	<fileset id="ptjk.path" dir="ptjk" includes="**/*.*" ></fileset>
+	<fileset id="qyll.path" dir="qyll" includes="**/*.*" ></fileset>
+	<fileset id="rms.path" dir="rms" includes="**/*.*" ></fileset>
+	<fileset id="shorturl.path" dir="shorturl" includes="**/*.*" ></fileset>
+	<fileset id="util.path" dir="util" includes="**/*.*" ></fileset>
+	<fileset id="entity.path" dir="entity" includes="**/*.*" ></fileset>
+	<fileset id="table.path" dir="table" includes="**/*.*" ></fileset>
+	<fileset id="common.path" dir="common" includes="**/*.*" ></fileset>
+	<fileset id="txgl.path" dir="txgl" includes="**/*.*" ></fileset>
+	<fileset id="user.path" dir="user" includes="**/*.*" ></fileset>
+	<fileset id="weix.path" dir="weix" includes="**/*.*" ></fileset>
+	<fileset id="wxgl.path" dir="wxgl" includes="**/*.*" ></fileset>
+	<fileset id="tjgl.path" dir="tjgl" includes="**/*.*" ></fileset>
+	<fileset id="yxgl.path" dir="yxgl" includes="**/*.*" ></fileset>
+	<fileset id="wygl.path" dir="wygl" includes="**/*.*" ></fileset>
+	<fileset id="wzgl.path" dir="wzgl" includes="**/*.*" ></fileset>
+	<fileset id="xtgl.path" dir="xtgl" includes="**/*.*" ></fileset>
+	<fileset id="ydcw.path" dir="ydcw" includes="**/*.*" ></fileset>
+	<fileset id="ydcx.path" dir="ydcx" includes="**/*.*" ></fileset>
+	<fileset id="ydwx.path" dir="ydwx" includes="**/*.*" ></fileset>
+	<fileset id="ydyw.path" dir="ydyw" includes="**/*.*" ></fileset>
+	<fileset id="znyq.path" dir="znyq" includes="**/*.*" ></fileset>
+	<fileset id="zxkf.path" dir="zxkf" includes="**/*.*" ></fileset>
+      
+    <fileset id="src.path" dir="src" excludes="**/*.java" ></fileset>
+
+	<!--  <fileset dir="src_dir" excludes="**/*.java"/>-->
+ <!-- 初始化-->
+	<target name="init">
+			<delete dir="src"  />
+			<delete dir="${classes.dir}"  />
+		   <!-- 创建目录-->
+			<mkdir dir="${build}"/>  
+			<mkdir dir="${build}/${p_appmage}"/>
+			<mkdir dir="${build}/${p_client}"/>
+			<mkdir dir="${build}/${p_cxtj}"/>
+			<mkdir dir="${build}/${p_dxkf}"/>
+			<mkdir dir="${build}/${p_dxzs}"/>
+			<mkdir dir="${build}/${p_global}"/>
+			<mkdir dir="${build}/${p_greport}"/>
+			<mkdir dir="${build}/${p_group}"/>
+			<mkdir dir="${build}/${p_ptjk}"/>
+			<mkdir dir="${build}/${p_qyll}"/>
+			<mkdir dir="${build}/${p_rms}"/>
+			<mkdir dir="${build}/${p_shorturl}"/>
+			<mkdir dir="${build}/${p_txgl}"/>
+			<mkdir dir="${build}/${p_user}"/>
+			<mkdir dir="${build}/${p_weix}"/>
+			<mkdir dir="${build}/${p_wxgl}"/>
+			<mkdir dir="${build}/${p_wygl}"/>
+			<mkdir dir="${build}/${p_wzgl}"/>
+			<mkdir dir="${build}/${p_xtgl}"/>
+			<mkdir dir="${build}/${p_ydcw}"/>
+			<mkdir dir="${build}/${p_ydcx}"/>
+			<mkdir dir="${build}/${p_ydwx}"/>
+			<mkdir dir="${build}/${p_ydyw}"/>
+			<mkdir dir="${build}/${p_znyq}"/>
+			<mkdir dir="${build}/${p_zxkf}"/>
+			<mkdir dir="${build}/${p_conf}"/>
+			<mkdir dir="${build}/${p_frame}"/>
+			<mkdir dir="${build}/${p_lib}"/>
+	</target>
+
+ <!-- p_appmage子模块-->
+
+ <!-- 拷贝源码到src-->  
+	<target name="appmage_copySrc" depends="init">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/appmage.properties" />
+		</fileset>
+	  <copy encoding="utf-8" todir="src">
+		  <fileset refid="appmage.path"></fileset>
+		  <fileset refid="properties.path"></fileset>
+      </copy>
+    </target>
+
+ <!-- 拷贝src不需要编译的文件到class--> 
+	<target name="appmage_copyclass" depends="appmage_copySrc">
+      <copy encoding="utf-8" todir="${classes.dir}">
+		<fileset refid="src.path"></fileset>
+      </copy>
+    </target>
+
+ <!-- 编译src下文件-->  
+	<target name="appmage_compile" depends="appmage_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+          <!--给编译器指定编码，防止出现："警告： 编码 GBK 的不可映射字符"-->
+			<compilerarg line="-encoding UTF-8" />
+          <compilerarg value="-XDignore.symbol.file"/>
+          <classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	<!-- 定义默认任务，将class文件集合成jar包。-->
+		    <target name="appmage_warFile" depends="appmage_compile">
+		       
+				<copy encoding="utf-8" todir="${build}/${p_appmage}">
+					 <fileset dir="${basedir}/WebRoot">
+		        		   <include name="appmage/**" />
+		        		   <include name="WEB-INF/classes/**" />
+						   <include name="WEB-INF/appmageConfig.xml" />
+		        	 </fileset>
+				</copy>
+		    			<delete dir="src"  />
+						<delete dir="${classes.dir}"  />
+		    </target> 
+			
+			
+			
+<!-- p_client子模块-->
+
+	<target name="client_copySrc" depends="appmage_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/client.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="client.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="client_copyclass" depends="client_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="client_compile" depends="client_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          <compilerarg value="-XDignore.symbol.file"/>
+          <classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="client_warFile" depends="client_compile">
+		<copy encoding="utf-8" todir="${build}/${p_client}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="client/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/clientConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 	
+	
+<!-- p_cxtj子模块-->
+
+	<target name="cxtj_copySrc" depends="client_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/cxtj.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="cxtj.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="cxtj_copyclass" depends="cxtj_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="cxtj_compile" depends="cxtj_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="cxtj_warFile" depends="cxtj_compile">
+		<copy encoding="utf-8" todir="${build}/${p_cxtj}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="cxtj/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/cxtjConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 	
+
+<!-- p_dxkf子模块-->
+
+	<target name="dxkf_copySrc" depends="cxtj_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/dxkf.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="dxkf.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="dxkf_copyclass" depends="dxkf_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="dxkf_compile" depends="dxkf_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="dxkf_warFile" depends="dxkf_compile">
+		<copy encoding="utf-8" todir="${build}/${p_dxkf}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="dxkf/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/dxkfConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+	
+	<!-- p_dxzs子模块-->
+
+	<target name="dxzs_copySrc" depends="dxkf_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/dxzs.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="dxzs.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="dxzs_copyclass" depends="dxzs_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="dxzs_compile" depends="dxzs_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="dxzs_warFile" depends="dxzs_compile">
+		<copy encoding="utf-8" todir="${build}/${p_dxzs}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="dxzs/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/dxzsConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 
+	
+	<!-- p_global子模块-->
+
+	<target name="global_copySrc" depends="dxzs_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/global.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="global.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="global_copyclass" depends="global_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="global_compile" depends="global_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="global_warFile" depends="global_compile">
+		<copy encoding="utf-8" todir="${build}/${p_global}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="common/**" />
+		        <include name="file/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/globConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+<!-- p_greport子模块-->
+
+	<target name="greport_copySrc" depends="global_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/greport.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="greport.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="greport_copyclass" depends="greport_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="greport_compile" depends="greport_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="greport_warFile" depends="greport_compile">
+		<copy encoding="utf-8" todir="${build}/${p_greport}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="greport/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/greportConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+<!-- p_group子模块-->
+
+	<target name="group_copySrc" depends="greport_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/group.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="group.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="group_copyclass" depends="group_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="group_compile" depends="group_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="group_warFile" depends="group_compile">
+		<copy encoding="utf-8" todir="${build}/${p_group}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="group/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/groupConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+<!-- p_ptjk子模块-->
+	<target name="ptjk_copySrc" depends="group_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/ptjk.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="ptjk.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="ptjk_copyclass" depends="ptjk_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="ptjk_compile" depends="ptjk_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="ptjk_warFile" depends="ptjk_compile">
+		<copy encoding="utf-8" todir="${build}/${p_ptjk}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="ptjk/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/ptjkConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+
+	<!-- p_qyll子模块-->
+	<target name="qyll_copySrc" depends="ptjk_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/qyll.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="qyll.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="qyll_copyclass" depends="qyll_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="qyll_compile" depends="qyll_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="qyll_warFile" depends="qyll_compile">
+		<copy encoding="utf-8" todir="${build}/${p_qyll}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="qyll/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/qyllConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+
+	<!-- p_rms子模块-->
+	<target name="rms_copySrc" depends="qyll_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/rms.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="rms.path"></fileset>
+		    <fileset refid="util.path"></fileset>
+		    <fileset refid="entity.path"></fileset>
+		    <fileset refid="table.path"></fileset>
+		    <fileset refid="common.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="rms_copyclass" depends="rms_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="rms_compile" depends="rms_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="rms_warFile" depends="rms_compile">
+		<copy encoding="utf-8" todir="${build}/${p_rms}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="rms/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/rmsConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+
+	<!-- p_shorturl子模块-->
+	<target name="shorturl_copySrc" depends="rms_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/shorturl.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="shorturl.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+			<fileset refid="common.path"></fileset>
+			<fileset refid="util.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="shorturl_copyclass" depends="shorturl_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="shorturl_compile" depends="shorturl_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="shorturl_warFile" depends="shorturl_compile">
+		<copy encoding="utf-8" todir="${build}/${p_shorturl}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="shorturl/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/shorturlConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+
+	
+	<!-- p_txgl子模块-->
+	<target name="txgl_copySrc" depends="shorturl_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/txgl.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="txgl.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="txgl_copyclass" depends="txgl_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="txgl_compile" depends="txgl_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="txgl_warFile" depends="txgl_compile">
+		<copy encoding="utf-8" todir="${build}/${p_txgl}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="txgl/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/txglConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+
+	<!-- p_user子模块-->
+	<target name="user_copySrc" depends="txgl_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/user.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="user.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="user_copyclass" depends="user_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="user_compile" depends="user_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="user_warFile" depends="user_compile">
+		<copy encoding="utf-8" todir="${build}/${p_user}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="user/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/userConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+
+	<!-- p_weix子模块-->
+	<target name="weix_copySrc" depends="user_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/weix.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="weix.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="weix_copyclass" depends="weix_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="weix_compile" depends="weix_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="weix_warFile" depends="weix_compile">
+		<copy encoding="utf-8" todir="${build}/${p_weix}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="weix/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/weixConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+
+	<!-- p_wxgl子模块-->
+	<target name="wxgl_copySrc" depends="weix_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/wxgl.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="wxgl.path"></fileset>
+		    <fileset refid="yxgl.path"></fileset>
+		    <fileset refid="tjgl.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="wxgl_copyclass" depends="wxgl_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="wxgl_compile" depends="wxgl_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="wxgl_warFile" depends="wxgl_compile">
+		<copy encoding="utf-8" todir="${build}/${p_wxgl}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="wxgl/**" />
+		        <include name="wxcommon/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/wxglConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+
+	<!-- p_wygl子模块-->
+	<target name="wygl_copySrc" depends="wxgl_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/wygl.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="wygl.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="wygl_copyclass" depends="wygl_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="wygl_compile" depends="wygl_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="wygl_warFile" depends="wygl_compile">
+		<copy encoding="utf-8" todir="${build}/${p_wygl}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="wygl/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/wyglConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+
+	<!-- p_wzgl子模块-->
+	<target name="wzgl_copySrc" depends="wygl_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/wzgl.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="wzgl.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="wzgl_copyclass" depends="wzgl_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="wzgl_compile" depends="wzgl_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="wzgl_warFile" depends="wzgl_compile">
+		<copy encoding="utf-8" todir="${build}/${p_wzgl}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="wzgl/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/wzglConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+
+	<!-- p_xtgl子模块-->
+	<target name="xtgl_copySrc" depends="wzgl_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/xtgl.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="xtgl.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="xtgl_copyclass" depends="xtgl_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="xtgl_compile" depends="xtgl_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="xtgl_warFile" depends="xtgl_compile">
+		<copy encoding="utf-8" todir="${build}/${p_xtgl}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="xtgl/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/xtglConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+
+	<!-- p_ydcw子模块-->
+	<target name="ydcw_copySrc" depends="xtgl_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/ydcw.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="ydcw.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="ydcw_copyclass" depends="ydcw_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="ydcw_compile" depends="ydcw_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="ydcw_warFile" depends="ydcw_compile">
+		<copy encoding="utf-8" todir="${build}/${p_ydcw}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="ydcw/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/ydcwConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+
+	<!-- p_ydcx子模块-->
+	<target name="ydcx_copySrc" depends="ydcw_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/ydcx.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="ydcx.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="ydcx_copyclass" depends="ydcx_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="ydcx_compile" depends="ydcx_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="ydcx_warFile" depends="ydcx_compile">
+		<copy encoding="utf-8" todir="${build}/${p_ydcx}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="ydcx/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/ydcxConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+
+	<!-- p_ydcx子模块-->
+	<target name="ydwx_copySrc" depends="ydcx_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/ydwx.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="ydwx.path"></fileset>
+		    <fileset refid="common.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="ydwx_copyclass" depends="ydwx_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="ydwx_compile" depends="ydwx_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="ydwx_warFile" depends="ydwx_compile">
+		<copy encoding="utf-8" todir="${build}/${p_ydwx}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="ydwx/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/ydwxConfig.xml" />
+					<include name="WEB-INF/urlrewrite.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+
+	<!-- p_ydyw子模块-->
+	<target name="ydyw_copySrc" depends="ydwx_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/ydyw.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="ydyw.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="ydyw_copyclass" depends="ydyw_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="ydyw_compile" depends="ydyw_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="ydyw_warFile" depends="ydyw_compile">
+		<copy encoding="utf-8" todir="${build}/${p_ydyw}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="ydyw/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/ydywConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+
+	<!-- p_znyq子模块-->
+	<target name="znyq_copySrc" depends="ydyw_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/znyq.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="znyq.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="znyq_copyclass" depends="znyq_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="znyq_compile" depends="znyq_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="znyq_warFile" depends="znyq_compile">
+		<copy encoding="utf-8" todir="${build}/${p_znyq}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="znyq/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/znyqConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+
+	<!-- p_zxkf子模块-->
+	<target name="zxkf_copySrc" depends="znyq_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="menuPro/zxkf.properties" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="zxkf.path"></fileset>
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="zxkf_copyclass" depends="zxkf_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="zxkf_compile" depends="zxkf_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="zxkf_warFile" depends="zxkf_compile">
+		<copy encoding="utf-8" todir="${build}/${p_zxkf}">
+			<fileset dir="${basedir}/WebRoot">
+		        <include name="zxkf/**" />
+		        	<include name="WEB-INF/classes/**" />
+					<include name="WEB-INF/zxkfConfig.xml" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+
+	<!-- p_conf子模块-->
+	<target name="conf_copySrc" depends="zxkf_warFile">
+		<mkdir dir="src"/>
+        <fileset id="properties.path" dir="properties"  >
+			 <include name="**/*.*" />
+		</fileset>
+	    <copy encoding="utf-8" todir="src">
+		    <fileset refid="properties.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="conf_copyclass" depends="conf_copySrc">
+		<copy encoding="utf-8" todir="${classes.dir}">
+			<fileset refid="src.path"></fileset>
+        </copy>
+    </target>
+
+	<target name="conf_compile" depends="conf_copyclass">
+		<javac  source="1.6"  destdir="${classes.dir}" srcdir="${src.dir}" includeantruntime="on" debug="true" fork="true" memoryMaximumSize="512m">
+			<compilerarg line="-encoding UTF-8" />
+          	<compilerarg value="-XDignore.symbol.file"/>
+          	<classpath refid="project.lib"/>  			
+        </javac>	
+	</target>
+	
+	<target name="conf_warFile" depends="conf_compile">
+		<copy encoding="utf-8" todir="${build}/${p_conf}">
+			<fileset dir="${basedir}/WebRoot">
+		        	<include name="WEB-INF/**/*.*" />
+					<exclude name="WEB-INF/lib/*"></exclude>
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+
+	<!-- p_frame子模块-->
+	<target name="frame_warFile" depends="conf_warFile">
+		<copy encoding="utf-8" todir="${build}/${p_frame}">
+			<fileset dir="${basedir}/WebRoot">
+		        	<include name="frame/**" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+
+	<!-- p_frame子模块-->
+	<target name="lib_warFile" depends="frame_warFile">
+		<copy encoding="utf-8" todir="${build}/${p_lib}">
+			<fileset dir="${basedir}/WebRoot">
+		        	<include name="WEB-INF/lib/**" />
+		    </fileset>
+		</copy>
+		<delete dir="src"  />
+		<delete dir="${classes.dir}"  />
+	</target> 		
+
+	
+  </project>
+
+
+	

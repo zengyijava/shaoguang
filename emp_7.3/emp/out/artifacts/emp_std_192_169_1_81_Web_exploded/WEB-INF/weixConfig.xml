@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+	
+<!-- 微信项目servlet群 -->
+<servlet>
+	<description>公众账号管理</description>
+	<display-name>公众账号管理</display-name>
+	<servlet-name>acctmanagerSvt</servlet-name>
+	<servlet-class>com.montnets.emp.weix.servlet.AcctManagerSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>acctmanagerSvt</servlet-name>
+	<url-pattern>/cwc_acctmanager.htm</url-pattern>
+</servlet-mapping>
+<servlet>
+	<description>回复管理</description>
+	<servlet-name>replymangerSvt</servlet-name>
+	<servlet-class>com.montnets.emp.weix.servlet.ReplyMangerSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>replymangerSvt</servlet-name>
+	<url-pattern>/cwc_replymanger.htm</url-pattern>
+</servlet-mapping>
+<servlet>
+	<description>用户中心</description>
+	<servlet-name>usermangerSvt</servlet-name>
+	<servlet-class>com.montnets.emp.weix.servlet.UserMangerSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>usermangerSvt</servlet-name>
+	<url-pattern>/cwc_usermanger.htm</url-pattern>
+</servlet-mapping>
+<servlet>
+	<description>图文详情</description>
+	<servlet-name>imgdetailSvt</servlet-name>
+	<servlet-class>com.montnets.emp.weix.servlet.ImgDetailSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>imgdetailSvt</servlet-name>
+	<url-pattern>/cwc_imgdetail.hts</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+	<description>默认回复</description>
+	<display-name>默认回复</display-name>
+	<servlet-name>defaultrepSvt</servlet-name>
+	<servlet-class>com.montnets.emp.weix.servlet.DefaultrepSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>defaultrepSvt</servlet-name>
+	<url-pattern>/cwc_defaultrep.htm</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<description>关注时回复</description>
+	<display-name>关注时回复</display-name>
+	<servlet-name>focusrepSvt</servlet-name>
+	<servlet-class>com.montnets.emp.weix.servlet.FocusrepSvt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>focusrepSvt</servlet-name>
+	<url-pattern>/cwc_focusrep.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>微信接口</description>
+	<display-name>微信接口</display-name>
+	<servlet-name>weixCommSvt</servlet-name>
+	<servlet-class>com.montnets.emp.weix.servlet.WeixCommSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>weixCommSvt</servlet-name>
+	<url-pattern>/api/*</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>历史消息管理</description>
+	<display-name>历史消息管理</display-name>
+	<servlet-name>msgManagerSvt</servlet-name>
+	<servlet-class>com.montnets.emp.weix.servlet.MsgManagerSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>msgManagerSvt</servlet-name>
+	<url-pattern>/cwc_msgrep.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>微信账号与emp信息关联</description>
+	<display-name>微信账号与emp信息关联</display-name>
+	<servlet-name>InfoRelatedSvt</servlet-name>
+	<servlet-class>com.montnets.emp.weix.servlet.InfoRelatedSvt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>InfoRelatedSvt</servlet-name>
+	<url-pattern>/cwc_infoRelated.hts</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+    <description>自定义菜单</description>
+    <display-name>微信</display-name>
+    <servlet-name>dfm_definemenuSvt</servlet-name>
+    <servlet-class>com.montnets.emp.weix.servlet.DefineMenuSvt</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>dfm_definemenuSvt</servlet-name>
+    <url-pattern>/dfm_definemenu.htm</url-pattern>
+  </servlet-mapping>

@@ -1,0 +1,93 @@
+#pgb_spBind .rContent2 {
+	padding: 5p 0x;
+}
+
+#pgb_spBind .binddiv {
+	display: none;
+}
+
+#pgb_spBind .binddiv_table {
+	width: 100%;
+	text-align: left;
+	margin-top: 10px;
+}
+
+#pgb_spBind .spzh_td {
+	width: 50%;
+	height: 30px;
+}
+
+#pgb_spBind .spzh_div{
+	width:220px;
+	padding-bottom:2px;
+}
+
+#pgb_spBind .spzh_h3{
+	font-size:12px;
+	height: 26px;
+	line-height: 26px;
+}
+
+#pgb_spBind .bdlx_td{
+	width:50%;
+	height:30px;
+	padding-left: 10px;
+}
+
+#pgb_spBind .bdlx_div{
+	width:220px; 
+	padding-bottom:2px;
+}
+
+#pgb_spBind .bdlx_h3{
+	font-size:12px;
+	height: 26px;
+	line-height: 26px;
+}
+
+#pgb_spBind .checkSpUser_td{
+	width:50%; 
+	vertical-align: top;
+	word-break: break-all;
+	padding-right: 10px;
+}
+
+#pgb_spBind .checkSpUser_div{
+	height:350px;
+	padding-top: 10px;
+	padding-left: 10px;
+	overflow-y:auto;
+}
+
+#pgb_spBind .depNam_td{
+	width:50%; 
+	vertical-align: top;
+	word-break: break-all; 
+	padding-left: 10px;
+}
+
+#pgb_spBind .depDiv{
+	width:220px;
+	height:350px;
+	padding: 5px;
+	overflow-y: auto;
+	display: block;
+}
+
+#pgb_spBind .userDiv{
+	width:220px;
+	height:350px; 
+	padding: 5px;
+	overflow-y: auto; 
+	display:none;
+}
+
+#pgb_spBind .dropdownMenu2_down_tr_td{
+	height: 10px;
+}
+
+#pgb_spBind .bind{
+	padding-left: 8px;
+	letter-spacing: 5px;
+}
+

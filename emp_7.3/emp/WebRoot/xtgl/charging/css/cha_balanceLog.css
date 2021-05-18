@@ -1,0 +1,60 @@
+#cha_balanceLog .czhsrz_table{
+	width: 100%;
+}
+
+#cha_balanceLog .beginTime{
+	cursor: pointer; 
+	width: 178px;
+	background-color: white;
+}
+
+#cha_balanceLog .endTime{
+	cursor: pointer; 
+	width: 178px;
+	background-color: white;
+}
+
+#cha_balanceLog .opAction{
+	width: 178px;
+}
+
+#cha_balanceLog .dstName{
+	width: 176px;
+}
+
+#cha_balanceLog .opUser{
+	width: 176px;
+}
+
+#cha_balanceLog .result{
+	width: 178px;
+}
+
+#cha_balanceLog .opInfoType{
+	width: 182px;
+}
+
+#cha_balanceLog .opInfoType{
+	width: 182px;
+}
+
+
+#cha_balanceLog #content .th_bz{
+	width:150px;
+}
+
+#cha_balanceLog .memo-div{
+	padding:5px;
+	width:300px;
+	height:160px;
+	display:none;
+	word-wrap: break-word;
+	word-break:break-all;
+	overflow-y:auto;
+}
+
+#cha_balanceLog .memo-div-div{
+	width:100%;
+	height:100%;
+	overflow-y:auto;
+}

@@ -1,0 +1,118 @@
+#config_manage .tdtxt {
+	width: 19%;
+}
+
+#config_manage .tdinput {
+	width: 15%;
+}
+
+#config_manage #paramValues {
+	padding: 0;
+}
+
+#config_manage #paramValues table  tbody tr th {
+	background-color: #7BF;
+	padding: 4px 5px;
+	border: 1px solid #DDF0F3;
+	font-size: 12px;
+	color: white;
+}
+
+#config_manage .valueinput {
+	width: 143px;
+}
+
+#config_manage #content tbody tr td {
+	padding: 1px 5px;
+	font-size: 12px;
+	text-align: left;
+}
+
+#config_manage #paramValues {
+	margin-left: 10px;
+	margin-top: 10px;
+	vertical-align: top;
+}
+#config_manage .td-no-border {
+	border: none;
+}
+#config_manage .container_down_div {
+	padding: 10px;
+}
+
+#config_manage .paramValues_table {
+	width: 950px;
+	padding: 5px;
+}
+
+#config_manage .generalParamDiv {
+	cursor: pointer;
+	width: 100%;
+	height: 26px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 10px;
+	line-height: 26px;
+	padding-top: 0px !important;
+	padding-top: 9px;
+}
+#config_manage .fixconfig td{
+	width: 50%;
+}
+#config_manage .generalParamIcon1 {
+	text-decoration: none;
+	margin-left: 720px;
+}
+
+#config_manage .generalParamIcon2 {
+	text-decoration: none;
+	margin-left: 812px;
+}
+
+#config_manage .paramDiv_up_tr {
+	height: 20px;
+	background: none;
+}
+
+#config_manage .allParamItems_table{
+	width: 950px;
+	margin-top: 26px;
+}
+
+#config_manage .allParamItems_tr{
+	hieght:24px;
+}
+
+#paramValues select{
+	height: 32px;
+	border: 1px solid #dee2e6;
+}
+#paramValues input:not([type='button']){
+	height: 30px;
+	border: 1px solid #dee2e6;
+}
+.paramDiv_set{
+	height: 36px !important;
+	font-family: 微软雅黑 !important;
+	font-size: 12px !important;
+	color: #222222 !important;
+	background-color: #f5f6fa !important;
+}
+.paramDiv_set b{
+    display: inline-block;
+    margin: 4px 0px 0px 8px;
+    font-family: 微软雅黑;
+}
+.paramValues_table .unfold,.fold{
+    margin: 12px 12px 0px 0px;
+    float: right;
+}
+.tdtxt{
+	font-family: 微软雅黑;
+	font-size: 12px;
+	color: #222222;
+	text-align: right !important;
+}
+#btn{
+	margin-top: 5px;
+}

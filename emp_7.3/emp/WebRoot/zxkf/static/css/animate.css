@@ -1,0 +1,159 @@
+.ywx-main{
+	width: 100%;
+	overflow: hidden;
+	position:relative;
+
+	-webkit-animation-name: mainAnimation;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: 1;
+
+}
+@-webkit-keyframes 'mainAnimation' {
+	from {
+		
+		margin-top:70%;
+		opacity: 0;
+		-moz-opacity: 0;
+		filter:alpha(opacity=0);
+	}
+	50% {
+		margin-top:70%;
+
+	}
+	80% {
+		margin-top:70%;
+		opacity: 0;
+		-moz-opacity: 0;
+		filter:alpha(opacity=0);
+	}
+	to {
+		margin-top:0%;
+		opacity: 1;
+		-moz-opacity: 1;
+		filter:alpha(opacity=1);
+	}
+}
+.ywx{
+	position: absolute;
+	font-family:'Vrinda','Segoe UI','Microsoft Jhenghei','微软雅黑',sans-serif;
+	font-weight:normal;
+	white-space: nowrap;
+	word-wrap: normal;
+	text-align: center;
+	font-size: 12px;
+	left:50%;
+	top:0%;
+	margin:0px 0 0 -360px;
+	text-shadow:0px 1px 3px #333;
+	-webkit-animation-name: logoAnimation;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: 1;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	_display:none;
+
+
+}
+.animate1{color:white;}
+.animate2{
+    color:#666;
+    text-decoration:none;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,.1)), color-stop(40%,rgba(0,0,0,.0)), color-stop(100%,rgba(0,0,0,1)));;
+}
+.copyinfo{
+	font-family: "微软雅黑";
+	color: #666;
+	position: absolute;
+	left:50%;
+	top:50%;
+	width:720px;
+	height:50px;
+	text-align: center;
+	margin: 100px 0 0 -360px;
+	text-align:center;
+	font-size: 30px;
+
+
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+
+	-webkit-animation-name: copyinfoAnimation;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: 1;
+}
+@-webkit-keyframes 'copyinfoAnimation' {
+	from {
+		top:60%;
+		opacity: 0;
+		-moz-opacity: 0;
+		filter:alpha(opacity=0);
+	}
+	50% {
+		top:50%;
+		opacity: 1;
+		-moz-opacity: 1;
+		filter:alpha(opacity=1);
+	}
+	80% {
+		top:50%;
+		opacity: 1;
+		-moz-opacity: 1;
+		filter:alpha(opacity=1);
+	}
+	to {
+		top:100%;
+		opacity: 0;
+		-moz-opacity: 0;
+		filter:alpha(opacity=0);
+		display: none;
+	}
+}
+@-webkit-keyframes 'logoAnimation' {
+	from {
+
+		left:50%;
+		font-size: 60px;
+		width:720px;
+		top:50%;
+		margin: -50px 0 0 -360px;
+
+		text-shadow:1px 2px 9px #333;
+		opacity: 0;
+		-moz-opacity: 0;
+		filter:alpha(opacity=0);
+	}
+	50% {
+		font-size: 60px;
+		width:720px;
+		left:50%;
+		top:50%;
+		margin: -50px 0 0 -360px;
+		text-shadow:1px 2px 9px #333;
+		opacity: 1;
+		-moz-opacity: 1;
+		filter:alpha(opacity=1);
+	}
+	80% {
+		font-size: 60px;
+		width:720px;
+		left:50%;
+		top:50%;
+		margin: -50px 0 0 -440px;
+		text-shadow:1px 2px 9px #333;
+		opacity: 1;
+		-moz-opacity: 1;
+		filter:alpha(opacity=1);
+	}
+	to {
+	
+		font-size: 0px;
+		left:50%;
+		top:0%;
+		margin:0px 0 0 -440px;
+		text-shadow:0px 1px 3px #333;
+	}
+}

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+.ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: block;
+    color:#0e5ad1;
+}
+.ellipsis:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#des-info{
+    word-break: break-all;
+    word-wrap: break-word;
+    padding: 4px;
+}
+#wx_draftlist #loginInfo{
+    display:none;
+}
+#wx_draftlist #rContent{
+    padding: 5px;
+}
+#wx_draftlist .Wdate{
+    cursor: pointer;
+    width: 160px;
+    background-color: white;
+}
+#wx_draftlist .updateTime{
+    width: 18%;
+}
+#wx_draftlist .ellipsis1{
+    width:180px;
+}
+#wx_draftlist .ellipsis2{
+    width:280px;
+ }
+#wx_draftlist .downLoad{
+    margin-left: 6px;
+}
+#wx_draftlist #taskname,#wx_draftlist #msg{
+    width: 160px;
+}

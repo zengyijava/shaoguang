@@ -1,0 +1,84 @@
+.paraContent{
+			float:left;
+			width: 508px;
+			background-color:#fff;
+		}
+		.tit_panel{
+			padding: 5px;
+			overflow:hidden;
+			border-width:0 0 1px 0;
+
+		}
+		.para_cg{
+			float: right;
+		}
+		.showParams{
+			height:60px;
+			position: relative;
+			z-index: 1;
+			border-width:0 0 1px 0;
+			
+		}
+		.showParams ul{
+			
+			overflow:hidden;
+			margin:5px 0 5px 8px;
+		}
+		.showParams li{
+			float: left;
+			display: block;
+			margin:0 7px 4px 0;
+			width: 55px;
+			height: 24px;
+			line-height: 24px;
+		}
+		.showParams a{
+			display: block;
+			background:#f2f4f6 url(../img/ico_arrow_down.gif) no-repeat 3px 50%;
+			padding:0 0 0 15px;
+			color: #333;
+
+		}
+		.showParams a:hover{
+			text-decoration: none;
+			background-color: #c6e5ff;
+		}
+		.showParams .addParams{
+			background:#f2f4f6 url(../img/ico_addParams.gif) no-repeat 3px 50%;
+			color: #3e7dc4;
+		}
+		.showParams em{
+			color:#333;
+			font-style:normal;
+		}
+		.contents_textarea{
+			width:100%;
+			border: 0;
+			resize:none;
+			outline: none;
+			height: 124px;
+			padding:0;
+		}
+		.arrowX{
+			position: absolute;
+			display: block;
+			z-index: 10;
+			right: 20px;
+			top: -17px;
+			*top:-12px;
+			width: 0;
+			height: 0;
+			overflow: hidden;
+			border-width:6px;
+			border-style:dashed dashed solid  dashed;
+			border-left-color: transparent;
+			border-top-color: transparent;
+			border-right-color: transparent;
+		}
+		.arrowX-out{
+			right: 20px;
+			top: -16px;
+			*top:-10px;
+			border-width: 6px;
+			border-color: transparent transparent #fff transparent;
+		}

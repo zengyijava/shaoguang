@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+.clear{clear:both;}
+.pointer{cursor: pointer;}
+.displayn{display: none;}
+.im-left{float:left;height:100%;}
+.im-left .im-menu{position: absolute;width:35px;height: 100%;}
+.im-left .im-block-chose{width:35px;height:17px;background: url("../images/leftMenu/choseBg.png") no-repeat;}
+.im-left .im-block-default{width:35px;height:17px;background: url("../images/leftMenu/defaultBg.png") no-repeat;}
+
+.im-left .im-menu .im-menu-icondiv{width: 35px;height: 100%;}
+.im-left .im-menu .im-tmenu-chose{position:relative;width:35px;height:32%;background: url("../images/leftMenu/choseBg.png") repeat;}
+.im-left .im-menu .im-tmenu-default{position:relative;width:35px;height:32%;background: url("../images/leftMenu/defaultBg.png") repeat;}
+.im-left .im-menu .im-menu-icon{position: absolute;top:35%;}
+.im-left .im-menu .wxIcon{width: 35px;height: 43px;display: block;background: url("../images/leftMenu/wxIcon.png") no-repeat;}
+
+.im-left .im-menu .im-mmenu-chose{position:relative;width:35px;height:32%;background: url("../images/leftMenu/choseBg.png") repeat;}
+.im-left .im-menu .im-mmenu-default{position:relative;width:35px;height:32%;background: url("../images/leftMenu/defaultBg.png") repeat;}
+.im-left .im-menu .appIcon{display: block;width:35px;height:43px;background: url("../images/leftMenu/appIcon.png") no-repeat;}
+
+.im-left .im-menu .im-bmenu-chose{position:relative;width:35px;height:36%;background: url("../images/leftMenu/choseBg.png") repeat;}
+.im-left .im-menu .im-bmenu-default{position:relative;width:35px;height:36%;background: url("../images/leftMenu/defaultBg.png") repeat;}
+.im-left .im-menu .cusIcon{display: block;width:35px;height:43px;background: url("../images/leftMenu/customIcon.png") no-repeat;}
+
+.im-left .im-menu .im-bg1{display: block;width:35px;height:17px;background: url("../images/leftMenu/bg1.png") no-repeat;}
+.im-left .im-menu .im-bg2{display: block;width:35px;height:17px;background: url("../images/leftMenu/bg2.png") no-repeat;}
+.im-left .im-menu .im-bg3{display: block;width:35px;height:17px;background: url("../images/leftMenu/bg3.png") no-repeat;}
+.im-left .im-menu .im-bg4{display: block;width:35px;height:17px;background: url("../images/leftMenu/bg4.png") no-repeat;}
+
+#cus-group-app .im-side-tab li.current{background: none;color: #797979;width: 198px;}
+#cus-group-wx .im-side-tab li{background: none;color: #797979;width: 198px;}
+#cus-group-custom .im-side-tab li{width: 98px;}
+
+.im-menu-icon .count{display:inline-block;padding:0 5px;background-color:#d7605c;border-radius:7px;font-family:Tahoma;font-size:11px;color:#fff;line-height:1.1;font-weight:bold;font-style:normal;margin: 0 0 4px 8px;}
+
+.tip-browser{position: absolute;left:35%;display:none; width:30%; height: 15px;background-color: #fff;margin:0 auto;text-align: center;min-width: 210px;}
+.tip-browser .tip-browser-x{display: block;width:15px;height: 15px;color:#ff0000; float: right;margin-right:10px;background: url("../images/btn_close.png") no-repeat 0px 1px ;cursor: pointer;}
+
+.tab-fav .tab-surmark{float: right;width:16px;height: 14px;background: url("../images/im.png") no-repeat -9px -65px;margin: 4px 10px 0 5px;display: none;}
+.tab-fav .tab-remark{float: right;width:16px;height: 14px;background: url("../images/remark.png") no-repeat;margin: 4px 10px 0 5px;display: none;}
+.tab-fav .cus-input{display: none;width: 80px;height: 16px;border:solid 1px #ccc;margin: 2px 0px;}

@@ -1,0 +1,16 @@
+/*移动办公-员工通讯录*/
+.dxkf_display_none{
+	display:none;
+}
+#epl_employeeBook #etree{
+	height:285px;WIDTH: 200px;OVERFLOW:auto;
+}
+#epl_employeeBook .user_div1{
+	clear:right;
+}
+#epl_employeeBook #changeDep{
+	padding:5px;display:none;
+}
+#epl_employeeBook .user_div2{
+	height: 20px;
+}

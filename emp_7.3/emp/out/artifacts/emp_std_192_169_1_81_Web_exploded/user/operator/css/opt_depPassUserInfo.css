@@ -1,0 +1,14 @@
+#opt_depPassUserInfo .selectForm{
+	height:360px;
+}
+
+#opt_depPassUserInfo .showdepName_td{
+	height:20px;
+	padding-left: 2px;
+}
+
+#opt_depPassUserInfo .sonFrame{
+	height:320px;width:325px;
+}
+
+

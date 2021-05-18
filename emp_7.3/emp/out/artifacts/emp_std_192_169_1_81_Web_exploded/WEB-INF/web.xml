@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+[
+	<!ENTITY user SYSTEM "userConfig.xml">
+	<!ENTITY client SYSTEM "clientConfig.xml">
+	<!ENTITY group SYSTEM "groupConfig.xml">
+	<!ENTITY xtgl SYSTEM "xtglConfig.xml">
+	<!ENTITY dxzs SYSTEM "dxzsConfig.xml">
+	<!ENTITY dxkf SYSTEM "dxkfConfig.xml">
+	<!ENTITY ydcw SYSTEM "ydcwConfig.xml">
+	<!ENTITY ydcx SYSTEM "ydcxConfig.xml">
+	<!ENTITY znyq SYSTEM "znyqConfig.xml">
+	<!ENTITY txgl SYSTEM "txglConfig.xml">
+	<!ENTITY cxtj SYSTEM "cxtjConfig.xml">
+	<!ENTITY greport SYSTEM "greportConfig.xml">
+	<!ENTITY weix SYSTEM "weixConfig.xml">
+	<!ENTITY ydwx SYSTEM "ydwxConfig.xml">
+	<!ENTITY global SYSTEM "globConfig.xml">
+	<!ENTITY ptjk SYSTEM "ptjkConfig.xml">
+	<!ENTITY wygl SYSTEM "wyglConfig.xml">
+	<!ENTITY zxkf SYSTEM "zxkfConfig.xml">
+	<!ENTITY appmage SYSTEM "appmageConfig.xml">
+	<!ENTITY wzgl SYSTEM "wzglConfig.xml">
+	<!ENTITY wxgl SYSTEM "wxglConfig.xml">
+	<!ENTITY ydyw SYSTEM "ydywConfig.xml">
+	<!ENTITY rms SYSTEM "rmsConfig.xml">
+	<!--<!ENTITY shorturl SYSTEM "shorturlConfig.xml">-->
+]>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	&user;<!--用户管理-->
+	&client;<!--客户管理-->
+	&group;<!--群组管理-->
+	&xtgl;<!-- 系统管理 -->
+	&dxzs;<!-- 短信助手 -->
+	&dxkf;<!-- 短信客服 -->
+	&ydcw;<!-- 移动财务 -->
+	&ydcx;<!-- 移动彩讯 -->
+	&znyq;<!-- 智能引擎 -->
+	&txgl;<!-- 通信管理 -->
+	&cxtj;<!-- 查询统计 -->
+	&greport;<!-- 图形报表 -->
+	&ydwx;<!-- 移动网讯 -->
+	&ptjk;<!-- 监控系统-->
+	&global;<!-- 全局应用 -->
+	&zxkf;<!-- 在线客服 -->
+	&wygl;<!-- 网优管理 -->
+	&appmage;<!-- APP管理 -->
+	&wzgl;<!-- 微站管理 -->
+	&wxgl;<!-- 微信管理 -->
+	&ydyw;<!-- 移动业务 -->
+	&rms;<!-- 企业富信 -->
+	<!--&shorturl;&lt;!&ndash; 企业短链 &ndash;&gt;-->
+</web-app>

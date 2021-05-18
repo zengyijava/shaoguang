@@ -1,0 +1,58 @@
+#addAreaPhNo table#editSmstmpTable tr {
+	height: 50px;
+}
+#addAreaPhNo table#editSmstmpTable td input[type="text"] {
+	width: 365px;
+	border: 0;
+}
+
+#addAreaPhNo table#editSmstmpTable td select {
+	width: 365px;
+	border: 0;
+}
+		
+#moServiceUpdateDiv div table tr td{padding: 5px; }
+#moServiceUpdateDiv div table tr td textarea{width:300px; height:60px;}
+	
+#addAreaPhNo .a3 {
+	width: 60px;
+	height:17px;
+	 border: 0;
+	text-align: center;
+	background: white;
+}
+
+
+#addAreaPhNo .hiddenValueDiv{
+	display:none;
+}
+
+#addAreaPhNo .editServiceBindTable{
+	width: 510px;
+	text-align: left;
+}
+
+#addAreaPhNo .editServiceBindTable_td1{
+	width:153px;
+}
+
+#addAreaPhNo .editServiceBindTable_td2{
+	padding-left: 25px;
+}
+
+#addAreaPhNo .province{
+	width:153px;
+}
+
+#addAreaPhNo .city{
+	width:153px;
+}
+
+#addAreaPhNo .mobile{
+	width:152px;
+}
+
+#addAreaPhNo .btn{
+	text-align: center;
+}
+

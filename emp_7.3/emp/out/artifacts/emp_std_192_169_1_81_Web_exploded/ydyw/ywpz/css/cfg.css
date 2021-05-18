@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+#addDiv > table > tbody > tr > td:nth-child(1){
+    width: 17%;
+    text-align: right;
+}
+#addDiv > table > tbody > tr > td:nth-child(2){
+    width: 83%;
+}
+#addDiv > table > tbody > tr > td:nth-child(2) > input,select{
+    width: 345px;
+}
+#addDiv > table > tbody > tr > td:nth-child(2) > textarea{
+    width: 345px;
+    height:60px;
+}

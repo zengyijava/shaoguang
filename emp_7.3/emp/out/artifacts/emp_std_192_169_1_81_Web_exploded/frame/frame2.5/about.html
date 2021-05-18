@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 4.01 Transitional//EN">
+<html>
+  <head>
+	<title>关于EMP</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+  </head>
+  
+  
+  <body onload="showVer()" style="background: url(img/about.png) right center no-repeat #eef2fd;font-size:13px;padding:0;margin:0;background-position-y:10px; " scroll= "no">
+  	<div style="line-height:25px;padding-top: 26px;padding-left: 20px;">
+  		<table border="0px;" style="width:486px;height:176px;">
+  		   <tr>
+  		     <td align="left" width="67px">版本号：</td>
+  		     <td rowspan="6" align="center"><div style="height: 190px;width: 1px;background-color: gray;"></div>
+  		     </td>
+  		     <td>&nbsp;&nbsp;<label id="lab"></label></td>
+  		   </tr>
+  		   <tr>
+  		     <td align="left">版权公司：</td>
+  		     <td>&nbsp;&nbsp;<a style="color:#0000ff;cursor: pointer;" href="http://www.montnets.com" target="_blank"  rel="noopener noreferrer nofollow" >深圳市梦网科技股份有限公司</a></td>
+  		   </tr>
+  		   <tr>
+  		     <td align="left">客服电话：</td>
+  		     <td>&nbsp;&nbsp;0755-86017780&nbsp;&nbsp;400-700-100-9</td>
+  		   </tr>
+  		   <tr>
+  		       <td align="left">有效期：</td>
+  		       <td>&nbsp;&nbsp;<label id="youxiaoday"></label></td>
+  		   </tr>
+  		   <tr>
+  		     <td align="left">认证状态：</td>
+  		     <td>&nbsp;&nbsp;<label id="proInfo"></label></td>
+  		   </tr>
+  		   <tr>
+  		     <td align="left">发送速度：</td>
+  		     <td>&nbsp;&nbsp;<label id="sendspeed"></label></td>
+  		   </tr>
+  		</table>
+  		
+  	</div>
+  	<script>
+	var version = window.dialogArguments;
+	function showVer()
+	{
+		var infos = version.split("&");
+		document.getElementById("lab").innerHTML=infos[0];
+		var day =0;
+		if(infos[2] != null && infos[2] != "null" && infos[2] !="")
+		{
+		   day = infos[2];
+		}
+		document.getElementById("youxiaoday").innerHTML=day+" 天";
+
+		if(infos[3] != null && infos[3] != "null" && infos[3] !="")
+		{
+		    if(infos[3].indexOf("认证成功")>=0)
+		    {
+		       document.getElementById("proInfo").innerHTML=infos[3];
+		    }
+		    else
+		    {
+		       document.getElementById("proInfo").innerHTML=infos[3]+"为了保证系统正常使用，请获取认证！";
+		    }
+		}
+		else
+		{
+		   document.getElementById("proInfo").innerHTML="无法获取！";
+		}
+		
+		if(infos[4] == "9999")
+		{
+		   document.getElementById("sendspeed").innerHTML="不限速！";
+		}
+		else if(infos[4] == null || infos[4] == ""|| infos[4] == "null")
+		{
+		   document.getElementById("sendspeed").innerHTML="无法获取！";
+		}
+		else
+		{
+		   document.getElementById("sendspeed").innerHTML=infos[4]+" 条/秒";
+		}
+	}	
+	</script>
+  </body>
+</html>

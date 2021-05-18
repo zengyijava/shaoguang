@@ -1,0 +1,28 @@
+#dat_addDatasourceConf tr{
+	height:35px;
+}
+
+#dat_addDatasourceConf #detail
+{
+	padding-left:18px;
+}
+
+#dat_addDatasourceConf .hiddenValueDiv{
+	display:none;
+}
+
+#dat_addDatasourceConf .content{
+	width:350px;
+}
+
+#dat_addDatasourceConf .dbType{
+	width:172px;
+}
+
+#dat_addDatasourceConf .dbConnType{
+	width:172px;
+}
+
+#dat_addDatasourceConf .dbPwd{
+	width:169px;
+}

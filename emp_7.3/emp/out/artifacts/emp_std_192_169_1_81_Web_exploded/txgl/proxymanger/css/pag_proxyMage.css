@@ -1,0 +1,12 @@
+#pag_proxyMage .ips-td div {
+	display: none;
+}
+
+#pag_proxyMage #ips {
+	padding-left: 20px;
+	line-height: 16px;
+}
+
+#pag_proxyMage .userId{
+	width:154px;
+}

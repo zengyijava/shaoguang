@@ -1,0 +1,47 @@
+#pag_editorderBind table#editSmstmpTable tr {
+	height: 50px;
+}
+
+#pag_editorderBind table#editSmstmpTable td input[type="text"] {
+	width: 365px;
+	border: 0;
+}
+
+#pag_editorderBind table#editSmstmpTable td select {
+	width: 365px;
+	border: 0;
+}
+
+#pag_editorderBind #moServiceUpdateDiv div table tr td {
+	padding: 5px;
+}
+
+#pag_editorderBind #moServiceUpdateDiv div table tr td textarea {
+	width: 300px;
+	height: 60px;
+}
+
+#pag_editorderBind table#editServiceBindTable {
+	width: 510px;
+	text-align: left;
+}
+
+#pag_editorderBind .a3 {
+	width: 60px;
+	height: 17px;
+	border: 0;
+	text-align: center;
+	background: white;
+}
+
+#pag_editorderBind input#Structcode,input#name,input#Bussysname,select#Spid {
+	width: 175px;
+}
+
+#pag_editorderBind .hiddenValueDiv{
+	display:none;
+}
+
+#pag_editorderBind .btn{
+	text-align: center;
+}

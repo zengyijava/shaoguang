@@ -1,0 +1,53 @@
+#dat_datasourceConf .hiddenValueDiv{
+	display:none;
+}
+
+#dat_datasourceConf .inheritPath_div{
+	height: 30px;
+}
+
+#dat_datasourceConf .addFrame_1{
+	padding:5px 5px 5px 5px;
+	display:none;
+}
+
+#dat_datasourceConf .addFrame_2{
+	padding:5px 5px 5px 25px;
+	display:none;
+}
+
+#dat_datasourceConf .addDataSource_1{
+	width:370px;
+	height:405px;
+	border:0;
+}
+
+#dat_datasourceConf .addDataSource_2{
+	width:350px;
+	height:405px;
+	border:0;
+}
+
+#dat_datasourceConf .editFrame_1{
+	padding:5px 5px 5px 5px;
+	display:none;
+}
+
+#dat_datasourceConf .editFrame_2{
+	padding:5px 5px 5px 25px;
+	display:none;
+}
+
+#dat_datasourceConf .editDataSource_1{
+	width:370px;
+	height:405px;
+	border:0;
+}
+
+#dat_datasourceConf .editDataSource_2{
+	width:350px;
+	height:405px;
+	border:0;
+}
+
+

@@ -1,0 +1,85 @@
+/**
+*移动办公-员工生日祝福
+*/
+/*生日祝福管理开始*/
+#birthdaySendEMP #itemTab tr td{
+	margin-top: 10px;
+}
+#birthdaySendEMP #title{
+	height: 33px;
+}
+#birthdaySendEMP #sendTime{
+	height: 33px;
+}
+#birthdaySendEMP #spUser{
+	height: 33px;
+}
+#birthdaySendEMP .dxzs_input{
+	vertical-align: bottom;
+}
+#birthdaySendEMP .dxzs_span2{
+	margin-top: 5px;
+}
+#birthdaySendEMP .titleBar{
+    height:40px !important;
+    background-color:#f7fafc;
+    border-bottom:1px solid #ecf1f2;
+}
+#birthdaySendEMP .titleBarTxt,#ui-dialog-title-bulkImport_box{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #ababab;
+    font-weight: bold;
+}
+#birthdaySendEMP .ui-dialog .ui-dialog-title {
+    font-size: 14px;
+    margin: 0.2em 0px .2em 0;
+    line-height: 45px !important;
+}
+#birthdaySendEMP #flowFrame{
+	width:658px;
+	height:435px;
+	border: 0;
+}
+#birthdaySendEMP .dxzs_td1{
+	width:700px;
+}
+
+#birthdaySendManageEMP #content thead th{
+	height:50px;
+}
+#birthdaySendManageEMP #add{
+	color:#ffffff;
+}
+/*生日祝福管理结束*/
+
+
+/*发送历史查询开始*/
+#smt_smsTaskRecord #condition table tr td > input, 
+#smt_smsTaskRecord #condition table tr td > div > input,
+#smt_smsTaskRecord  #condition table tr td > label > input{
+	padding-left: 0px;
+}
+#smt_smsTaskRecord .c_selectBox.div_bd{
+	width: 197px;
+}
+
+/*发送历史查询结束*/
+
+#smt_smsTaskRecord #condition table tr td input.dxzs_isContainsSun_ok,
+#smt_smsTaskRecord #condition table tr td input.dxzs_isContainsSun_cancel{
+	width:48px;
+}
+/**
+ 查询框长度调整
+ */
+#depNam {
+	padding-right: 10px !important;
+}
+#sendtime {
+	padding-left: 10px !important;
+}
+#title {
+	padding-left: 10px !important;
+}

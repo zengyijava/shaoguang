@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<servlet>
+	<description>总体发送趋势</description>
+	<display-name>总体发送趋势</display-name>
+	<servlet-name>grpt_totalGreportSvt</servlet-name>
+	<servlet-class>com.montnets.emp.greport.servlet.grpt_totalGreportSvt
+	</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>grpt_totalGreportSvt</servlet-name>
+	<url-pattern>/grpt_totalGreport.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>区域发送对比</description>
+	<display-name>区域发送对比</display-name>
+	<servlet-name>grpt_areaGreportSvt</servlet-name>
+	<servlet-class>com.montnets.emp.greport.servlet.grpt_areaGreportSvt
+	</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>grpt_areaGreportSvt</servlet-name>
+	<url-pattern>/grpt_areaGreport.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>SP账号发送对比</description>
+	<display-name>SP账号发送对比</display-name>
+	<servlet-name>grpt_spuserGreportSvt</servlet-name>
+	<servlet-class>com.montnets.emp.greport.servlet.grpt_spuserGreportSvt
+	</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>grpt_spuserGreportSvt</servlet-name>
+	<url-pattern>/grpt_spuserGreport.htm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description>业务类型发送对比</description>
+	<display-name>业务类型发送对比</display-name>
+	<servlet-name>grpt_busGreportSvt</servlet-name>
+	<servlet-class>com.montnets.emp.greport.servlet.grpt_busGreportSvt
+	</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>grpt_busGreportSvt</servlet-name>
+	<url-pattern>/grpt_busGreport.htm</url-pattern>
+</servlet-mapping>
+
+
+	

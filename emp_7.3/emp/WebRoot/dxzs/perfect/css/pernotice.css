@@ -1,0 +1,140 @@
+#batchFileSend span{
+	text-align : right;
+}
+		  
+#eq_sendDiv table {
+	border-collapse:collapse;
+}
+
+#eq_sendDiv td {
+}
+.infomodelclass ul li {
+	margin-left: 15px;
+}
+div#eq_sendDiv{
+	float: left;
+	margin-bottom: 5px;
+	width:583px;
+}
+
+
+#sengTypes{
+	border:0px;
+	width:390px;
+	height:380px;
+	position: absolute;
+	background-color:white;
+	border:1px solid; 
+	overflow-y:auto;
+	overflow-x:auto;
+	z-index:999;
+}
+
+div#eq_sendDiv select{
+	width:240px;
+	vertical-align:middle;
+	height: 25px;
+	font-size: 14px;
+}
+
+#sendUserIds{
+	width:238px;
+	background-color:#E8E8E8;
+}
+
+
+#infoDiv{
+	background-color:#ffffff;
+	padding:5px;
+	display:none;
+}
+
+
+
+div#eq_sendDiv{
+	float: left;
+	margin-bottom: 5px;
+	width:583px;
+}
+
+
+div #eq_sendDiv .graytext{
+	padding-left:5px;
+	width:490px;
+}
+
+div #emp_btn_table .graytext{
+	line-height:25px;
+	width: 125px; 
+	height: 26px;
+}
+
+#getObject{
+	width:308px;
+	border-top:0px;
+	border-right:0px;
+	float:left;
+	overflow-y: auto;
+	overflow-x: hidden; 
+	height: 115px;
+}
+
+#first{
+	border-left:0;
+	border-right:0;
+}
+
+.emp_btn_table{
+	width:190px;
+	float:left;
+}
+
+#picTab td{
+	cursor:pointer;
+}
+
+.placeholder {
+	color: #CCC;
+	font-size: 12px;
+	position: absolute;
+	background: none;
+	display: inline;
+	left: 100px;
+	height: 20px;
+	line-height: 28px;
+	cursor: text;
+}
+
+.placeholder.adName_la {
+	left: 440px;
+	width: 30px;
+}
+
+.placeholder.adPhone_la {
+	left: 490px;
+	width: 50px;
+}
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

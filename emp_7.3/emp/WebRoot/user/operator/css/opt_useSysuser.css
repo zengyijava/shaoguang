@@ -1,0 +1,158 @@
+#opt_useSysuser .rContent2 {
+	padding: 5px;
+}
+
+#opt_useSysuser .fhsyj_span {
+	margin-right: 35px;
+}
+
+#opt_useSysuser .table_input {
+	border: 0px;
+}
+
+#opt_useSysuser .sysTable {
+	width: 100%;
+	height: 100%;
+}
+
+#opt_useSysuser .font_red {
+	color: red;
+}
+
+#opt_useSysuser .roleName {
+	cursor: pointer;
+}
+
+#opt_useSysuser .allRoleName2 {
+	display: none;
+	z-index: 4000;
+	position: absolute;
+}
+
+#opt_useSysuser .lfdep_div {
+	width: 280px;
+}
+
+#opt_useSysuser .depNam {
+	width: 203px;
+	cursor: pointer;
+}
+
+#opt_useSysuser .ssdep {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#opt_useSysuser .dropMenu {
+	position: absolute;
+	display: none;
+	margin-left: 0px;
+	width: 366px;
+	background-color: white;
+	border: 1px solid;
+	z-index: 999;
+}
+
+#opt_useSysuser .dropdownMenu {
+	margin-left: 0px;
+	height: 450px;
+	width: 356px;
+	background-color: white;
+	overflow-y: auto;
+	overflow-x: auto;
+	z-index: 999;
+}
+
+#opt_useSysuser .depPerm {
+	width: 220px;
+	display: none;
+}
+
+#opt_useSysuser .domdepName {
+	width: 160px;
+	height: 20px;
+	border: 1px solid #7F9DB9;
+}
+
+#opt_useSysuser .selectDepBtn {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#opt_useSysuser .dropMenu2 {
+	position: absolute;
+	display: none;
+	margin-left: 0px;
+	width: 366px;
+	background-color: white;
+	border: 1px solid;
+	z-index: 999;
+}
+
+#opt_useSysuser .dropdownMenu2 {
+	margin-left: 0px;
+	height: 450px;
+	width: 356px;
+	background-color: white;
+	overflow-y: auto;
+	overflow-x: auto;
+	z-index: 999;
+}
+
+#opt_useSysuser .isFlow {
+	cursor: pointer;
+}
+
+#opt_useSysuser .isNeedSubno {
+	width: 15px;
+}
+
+#opt_useSysuser .addSubno {
+	display: none;
+}
+
+#opt_useSysuser .roDiv {
+	display: none;
+}
+
+#opt_useSysuser .roDiv_down_div {
+	width: 300px;
+	height: 200px;
+	padding: 10px 0 10px 10px;
+	overflow: auto;
+}
+
+#opt_useSysuser .roleDiv {
+	width: 140px;
+}
+
+#opt_useSysuser .accDiv {
+	position: absolute;
+	top: 28%;
+	left: 37%;
+	display: none;
+	z-index: 290;
+}
+
+#opt_useSysuser .bangd_th {
+	width: 50px;
+}
+
+#opt_useSysuser .fszh_th {
+	width: 215px;
+}
+
+#opt_useSysuser .isBind_div {
+	overflow-y: scroll;
+	height: 280px;
+	width: 100%;
+}
+
+#opt_useSysuser .isAccNum_td {
+	text-align: center;
+	width: 50px;
+}
+
+#opt_useSysuser .getUserId_td {
+	width: 215px;
+}

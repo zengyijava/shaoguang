@@ -1,0 +1,77 @@
+<html style="height:100%">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset="utf-8" />
+<title>DHTMLX Docs Explorer</title>
+<link rel="STYLESHEET" type="text/css" href="codebase/dhtmlxtree.css">
+
+
+<script  src="codebase/dhtmlxcommon.js"></script>
+<script  src="codebase/dhtmlxtree.js"></script>
+
+
+
+</head>
+
+<body onLoad="loadTree();" onResize="correctSizes();a_tabbar.enableAutoReSize(true,true);" style="padding: 0; margin: 0;overflow:hidden;height:100%;">
+
+
+
+	
+	
+	<script>
+		
+		
+		var type=null;
+		var node=0;
+		
+		function correctSizes(){
+			document.getElementById('tabbarconteiner').style.height = (document.body.offsetHeight - 70)+'px'
+		}
+		
+		/* init tree */
+		var tree;
+		var tree_smpl
+		function loadTree(){
+		      
+			tree=new dhtmlXTreeObject("doctree_box","100%","100%",0);
+			tree.setImagePath("codebase/imgs/");
+			tree.setOnClickHandler(function(id){openPathDocs(id);});
+			tree.attachEvent("onOpenEnd",updateTreeSize);
+			tree.loadXML("xml/a.xml",autoselectNode);
+		//	tree.loadXMLString("<tree id='0'><item id='1' text='默认页面' im0='dhtmlxtree_icon.gif' im1='dhtmlxtree_icon.gif' im2='dhtmlxtree_icon.gif'></item></tree>",autoselectNode);
+		}
+		
+	
+		function openPathDocs(id){
+		   alert(id);
+		alert(tree.getParentId(id));
+			
+		}
+		
+		function updateTreeSize(){
+			this.allTree.style.overflow = "visible";
+			this.allTree.style.height = this.allTree.scrollHeight+"px";
+			
+		}
+		
+		function autoselectNode(){
+			
+				tree.selectItem(node,true);tree.openItem(node)
+			
+		} 
+		
+		function newTree(){
+		    
+		 
+		   tree.insertNewNext("0","2","New Node 2");
+		}
+	</script>
+	
+
+
+<div  id="doctree_box" style="width: 226px; height: 100%; margin-left: 100px;margin-top: 100px;border: 2px solid blue;">
+ <input type="button" value="增加"  onclick="newTree()">
+</div>
+</body>
+</html>
+

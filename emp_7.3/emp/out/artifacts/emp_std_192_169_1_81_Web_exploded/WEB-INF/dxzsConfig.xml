@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+	<servlet>
+		<description>任务查询</description>
+		<display-name>任务短信群发统计报表</display-name>
+		<servlet-name>smt_smsSendedBoxSvt</servlet-name>
+		<servlet-class>com.montnets.emp.smstask.servlet.smt_smsSendedBoxSvt</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>员工生日祝福短信发送</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>bir_birthdaySendEMPSvt</servlet-name>
+		<servlet-class>com.montnets.emp.birthwish.servlet.bir_birthdaySendEMPSvt</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>bir_birthdaySendEMPSvt</servlet-name>
+		<url-pattern>/bir_birthdaySendEMP.htm</url-pattern>
+	</servlet-mapping>
+	
+
+	<servlet-mapping>
+		<!-- 短信助手-群发任务查看 -->
+		<servlet-name>smt_smsSendedBoxSvt</servlet-name>
+		<url-pattern>/smt_smsSendedBox.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<!-- 短信助手-员工生日祝福群发历史查询 -->
+		<servlet-name>smt_smsSendedBoxSvt</servlet-name>
+		<url-pattern>/bir_empSendTask.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>完美通知发送</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>per_sendNotSvt</servlet-name>
+		<servlet-class>com.montnets.emp.perfect.servlet.per_sendNotSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>per_sendNotSvt</servlet-name>
+		<url-pattern>/per_sendNot.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>完美通知发送预览</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>per_previewSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.perfect.servlet.per_previewSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>per_previewSMSSvt</servlet-name>
+		<url-pattern>/per_previewSMS.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>完美通知发送</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>per_sendNoticeSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.perfect.servlet.per_sendNoticeSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>per_sendNoticeSMSSvt</servlet-name>
+		<url-pattern>/per_sendNoticeSMS.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>完美通知历史记录</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>per_queryNotHisSvt</servlet-name>
+		<servlet-class>com.montnets.emp.perfect.servlet.per_queryNotHisSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>per_queryNotHisSvt</servlet-name>
+			<url-pattern>/per_queryNotHis.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>相同内容短信批量发送</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>ssm_sendBatchSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.samesms.servlet.ssm_sendBatchSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ssm_sendBatchSMSSvt</servlet-name>
+		<url-pattern>/ssm_sendBatchSMS.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>相同内容发送预览</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>ssm_previewSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.samesms.servlet.ssm_previewSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ssm_previewSMSSvt</servlet-name>
+		<url-pattern>/ssm_previewSMS.htm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>不同内容群发</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>dsm_sendDiffSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.diffsms.servlet.dsm_sendDiffSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<!-- 不同内容群发 -->
+		<servlet-name>dsm_sendDiffSMSSvt</servlet-name>
+		<url-pattern>/dsm_sendDiffSMS.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>不同内容群发预览</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>dsm_previewSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.diffsms.servlet.dsm_previewSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<!-- 不同内容群发 -->
+		<servlet-name>dsm_previewSMSSvt</servlet-name>
+		<url-pattern>/dsm_previewSMS.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>相同内容短信批量发送</description>
+		<display-name>短信客服</display-name>
+		<servlet-name>ssm_ssendBatchSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.samesms.servlet.ssm_sendBatchSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ssm_ssendBatchSMSSvt</servlet-name>
+		<url-pattern>/ssm_ssendBatchSMS.htm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>不同内容群发</description>
+		<display-name>短信客户</display-name>
+		<servlet-name>dsm_ssendDiffSMSSvt</servlet-name>
+		<servlet-class>com.montnets.emp.diffsms.servlet.dsm_sendDiffSMSSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<!-- 不同内容群发 -->
+		<servlet-name>dsm_ssendDiffSMSSvt</servlet-name>
+		<url-pattern>/dsm_ssendDiffSMS.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>相同内容群发commonServlet</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>ssm_commSvt</servlet-name>
+		<servlet-class>com.montnets.emp.samesms.servlet.ssm_commSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ssm_commSvt</servlet-name>
+		<url-pattern>/ssm_comm.htm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>超大文件导入</description>
+		<display-name>短信助手</display-name>
+		<servlet-name>ssm_dxzsBigFileExportSvt</servlet-name>
+		<servlet-class>com.montnets.emp.samesms.servlet.ssm_bigFileExportSvt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ssm_dxzsBigFileExportSvt</servlet-name>
+		<url-pattern>/ssm_dxzsBigFileExport.htm</url-pattern>
+	</servlet-mapping>
+	

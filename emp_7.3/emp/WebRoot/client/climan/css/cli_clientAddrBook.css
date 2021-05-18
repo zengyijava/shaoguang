@@ -1,0 +1,32 @@
+#cli_clientAddrBook input.w260{
+	width:260px;
+}
+#cli_clientAddrBook{
+	margin:0;
+	padding:0;
+}
+#cli_clientAddrBook #addDep{
+	padding:5px;
+	display:none;
+}
+#cli_clientAddrBook .client_table1{
+	margin-left: 25px;
+}
+#cli_clientAddrBook .client_td1{
+	height: 5px;
+}
+#cli_clientAddrBook #tmpdiv1,#updateDep{
+	padding:16px;
+	display:none;
+}
+#cli_clientAddrBook #infos{
+	width: 98%;
+	border: 0;
+}
+#cli_clientAddrBook #updateDep{
+	margin-left:auto;
+	margin-right: auto;
+}
+#cli_clientAddrBook #tree{
+	width:auto;
+}

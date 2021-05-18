@@ -1,0 +1,33 @@
+@charset "utf-8";
+.halving_line
+{
+	background-image:url(images/halving_line.png);
+}
+
+#tbBody
+{
+	background: url(images/header.png);
+}
+
+.top_info {
+	color: #FFF;
+}
+.top_info a {
+	color: #FFF;
+}
+
+#top_home 
+{
+}
+
+.onSys {
+	background-color: #000;	
+	filter:alpha(opacity=80);
+	opacity:0.8;
+}
+
+.top {
+	background-image: url('images/top_bg_right.png');
+	background-position: top right;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,21 @@
+#cli_custFieldManageTable #group_add,#group_update2,#ct_values_add,#ct_values_update{
+	padding:5px;
+	display:none;
+}
+#cli_custFieldManageTable .client_td1{
+	padding-left:2px;
+}
+#cli_custFieldManageTable #radio2{
+	margin-left:25px;
+}
+#cli_custFieldManageTable .client_td2{
+	text-align:center;
+	padding-top:10px;
+}
+#cli_custFieldManageTable .client_td3{
+	text-align:center;
+}
+#ct_values_update .client_td_4{
+	text-align:center;
+	padding-top:15px;
+}

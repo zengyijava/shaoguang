@@ -1,0 +1,39 @@
+	table
+	{
+		font-size:12px;
+		line-height: 40px !important;
+		line-height: 30px;
+	}
+	table input
+	{
+		width: 200px;
+		height: 24px;
+	}
+	.xinhao
+	{
+		color: red;
+		margin-left: 3px;
+		margin-right: 3px;
+	}
+	.til
+	{
+		margin-left: 3px;
+	}
+	.select
+	{
+		width: 200px;
+	}
+	#content thead tr {  
+   	display:block;  
+}  
+	#content tbody {  
+	    display: block;  
+	    height: 200px;  
+	    overflow-y: auto;  
+	}  
+	#content th {  
+	    width:160px;  
+	}  
+	#content td {  
+	    width:155px;  
+	 }  

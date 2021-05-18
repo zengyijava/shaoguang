@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+.webwidget_scroller_tab{font-size: 12px; font-family:Verdana, Geneva, sans-serif;width:100%;}
+.tabContainer{width:552px;border-bottom:#E0EBFD solid 1px;overflow:hidden;}
+.tabContainer li{float:left;margin-right:2px;background:url(../images/tabOff_right.gif) no-repeat right top;}
+.tabContainer li a{display:block!important;display:inline-block;padding:0 15px;height:27px;line-height:27px;background:url(../images/tabOff_left.gif) no-repeat left top;}
+.webwidget_scroller_tab .tabHead{
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+.webwidget_scroller_tab .tabBody{
+    height: 100%;
+    border-left:#E0EBFD solid 1px;
+    border-right:#E0EBFD solid 1px;
+    background-color: white;
+    overflow: hidden;
+    width:100%;
+    position: relative;
+
+}
+.webwidget_scroller_tab .tabBody ul,li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.webwidget_scroller_tab .tabBody ul{
+    width: 500px;
+    position: absolute;
+}
+.webwidget_scroller_tab .tabBody ul li{
+    float: left;
+    width: 500px;
+}
+.webwidget_scroller_tab .tabHead li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+.webwidget_scroller_tab .tabCot{
+    float: left;
+
+}
+.webwidget_scroller_tab .tabCot p{
+    margin: 0px;
+    padding:5px;
+}
+.webwidget_scroller_tab .tabContainer li.currentBtn{background:url(../images/tabOn_right.gif) no-repeat right top;}
+.webwidget_scroller_tab .tabContainer li.currentBtn a{height:28px;background:url(../images/tabOn_left.gif) no-repeat left top;color:#000000;}
+.webwidget_scroller_tab .modA{margin:10px;}
+.webwidget_scroller_tab .modBody{border-left:#E0EBFD solid 1px;border-right:#0077aa solid 1px; background-color: white;}
+.webwidget_scroller_tab .modTop h3{padding:0px;margin:0px;height:28px;background:url(../images/modAT.gif) repeat-x left top;color:#000000;font-size:12px;line-height:25px;}.modTop span.modATL,.modTop span.modATR{float:left;width:4px;height:28px;background:url(../images/bg.gif) no-repeat left top;overflow:hidden;}.modTop span.modATR{float:right;background:url(../images/bg.gif) no-repeat -4px top;}.modA #sideNav dd a:hover{background:url(../images/bg.gif) no-repeat left -110px;color:#000000;text-decoration:none;}
+.webwidget_scroller_tab .modBottom{border-top:1px solid #E0EBFD; width:100%;height:4px;overflow:hidden;}
+.webwidget_scroller_tab .modBottom span.modABL,.modBottom span.modABR,.modTopB span.modATR,.modTopB span.modATL{float:left;width:4px;height:4px;background:url(../images/bg.gif) no-repeat left -28px;overflow:hidden;}
+.webwidget_scroller_tab .modBottom span.modABR{float:right;background:url(../images/bg.gif) no-repeat -4px -28px;}

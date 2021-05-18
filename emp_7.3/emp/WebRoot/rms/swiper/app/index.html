@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="browsermode" content="application">
+  <title>h5预览</title>
+  <!-- build:css css/index.min.css -->
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- endbuild -->
+</head>
+<body>
+  <div class="h5-preview" id="wrap"></div>
+  <script id="tpl" type="text/html">
+  {{if music}}
+  <audio type="audio/mpeg" src="{{music.src}}" autoplay="{{music.autoPlay}}" data-loop="{{music.loop}}" id="music" style="display: none"></audio>
+  {{/if}}
+  {{set multiple = pages.length > 1}}
+  <div class="swiper-container" data-page-count="{{pages.length}}" data-direction="{{swiper.direction}}" data-effect="{{swiper.effect}}"
+    data-delay="{{swiper.autoPlay.delay}}" data-loop="{{swiper.loop}}" data-allow-touch-move="{{multiple}}">
+    <div class="swiper-wrapper">
+      {{each pages page i}}
+      <section class="swiper-slide">
+        {{set background = page.background}}
+        {{if background.src}}
+        {{set crop = background.crop}}
+        <div class="bg-img-preview" data-cropw="{{crop.w}}" data-croph="{{crop.h}}" style="opacity: {{1 - background.transparency}}">
+          <img src="{{background.src}}" style="{{background|imgStyle}}">
+        </div>
+        {{else if background.color}}
+        <div class="bg-color-preview" style="background-color: {{background.color}}; opacity: {{1 - background.transparency}}"></div>
+        {{/if}}
+        <div class="page-view">
+          {{each page.elements element }}
+          {{set type = element.type}}
+          <div class="content" style="{{element|contentStyle}}">
+            {{if type === 'audio' && element.visible}}
+            <div class="audios-player J-audio-player">
+              <div class="audios-player-bg" style="background-color: {{ element.style.backgroundColor }}; opacity: {{(1 - element.style.transparency)}}"></div>
+              <div class="audios-player-cont clearfix" style="color: {{element.style.color}}">
+                <div class="player-btn paused J-player-btn"></div>
+                <div class="player-control">
+                  <h4 class="audios-name">{{element.title}}</h4>
+                  <div class="progress-bg J-progress-bg">
+                    <div class="progress-bar J-progress-bar"></div>
+                    <div class="slider-bar J-slider-bar"></div>
+                  </div>
+                  <div class="player-times">
+                    <span class="J-show-time">00:00</span>
+                    <span>/{{element|formatTime}}</span>
+                  </div>
+                </div>
+                <audio class="J-audio" src="{{element.src}}"></audio>
+              </div>
+            </div>
+            {{else if type === 'text' && element.visible}}
+            <div class="rich-text" style="width: {{element.w}}px;">{{element.text}}</div>
+            {{else if type === 'image' && element.visible}}
+            <img src="{{element.src}}" style="width: {{element.w}}px; height: {{element.h}}px; border-radius: {{element.borderRadius}}px;" />
+            {{else if type === 'music' &&  element.visible}}
+            <div class="music">
+              <i class="music-icon"></i>
+            </div>
+            {{else if type === 'video' && element.visible}}
+            <div class="video">
+              <video width="{{element.w}}px" height="{{element.h}}px" src="{{element.src}}" poster="{{element.fistFramePath}}">
+                您的浏览器不支持Video标签。
+              </video>
+              <img class="video-btn"
+                src="image/play_icon.png"
+                style="top: {{(element.h - 46) / 2}}px; left: {{(element.w - 46) / 2}}px;"/>
+            </div>
+            {{else if type === 'button' && element.visible}}
+            <div class="btn" style="width: {{element.w}}px; height: {{element.h}}px;">
+              <div class="text" data-element="{{element}}">{{element.text}}</div>
+            </div>
+            {{/if}}
+          </div>
+          {{/each}}
+        </div>
+      </section>
+      {{/each}}
+    </div>
+    {{if swiper.pageAlign}}
+    <div class="swiper-pagination swiper-pagination-fraction" style="text-align: {{swiper.pageAlign}}"></div>
+    {{/if}}
+  </div>
+  {{if multiple}}<img src="image/switch-guide.png" class="switch-guide {{swiper.direction}}">{{/if}}
+  </script>
+  <!-- build:js js/index.min.js -->
+  <script src="js/swiper.min.js"></script>
+  <script src="js/template.min.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/resize.js"></script>
+  <script src="js/main.js"></script>
+  <!-- endbuild -->
+</body>

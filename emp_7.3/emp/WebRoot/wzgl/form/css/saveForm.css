@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+  /*  .delpic {
+	float: right;
+ 	margin-right:5px;
+ 	display: none;
+ 	padding-top: 3px;
+ }
+ .addpic {
+	float: right;
+ 	margin-right:178px;
+ 	display: none;
+ 	padding-top: 3px;
+ }
+ .delpic_hoverBg .delpic {
+ 	display: block;
+ }
+ .delpic_hoverBg .addpic {
+ 	display: block;
+ }
+*/ 
+ 
+ .delpic_hoverBg .nav_opr_btn {
+ 	display: inline-block;
+ }
+     
+.nav_opr_btn {
+	display: none;
+	/*float: right;*/
+	margin-right:3px;
+	cursor: pointer;
+	/*display: none;*/
+  }
+  
+ .opr_icon16.del_icon {
+	background-position: 0 -16px;
+ }
+ .opr_icon16.add_icon {
+	background-position: 0 -32px;
+ }
+	
+.opr_icon16 {
+	display: inline-block;
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+	background: transparent url("../img/ico03.gif");
+	*margin-top:4px;
+}

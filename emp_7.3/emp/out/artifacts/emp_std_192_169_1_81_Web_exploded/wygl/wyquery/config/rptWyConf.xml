@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menus>
+	<menu menuid="1007" desc="网优统计报表">
+		<column colid="1" display="2">提交总数</column>
+		<column colid="2" display="1">发送成功数</column>
+		<column colid="3" display="2">发送失败数</column>
+		<column colid="4" display="2" type="1">接收成功数</column>
+		<column colid="5" display="1">接收失败数</column>
+		<column colid="6" display="2">未返数</column>
+		<column colid="7" display="2">发送成功率</column>
+		<column colid="8" display="2">发送失败率</column>
+		<column colid="9" display="2" type="1">接收成功率</column>
+		<column colid="10" display="2">接收失败率</column>
+		<column colid="11" display="2">未返率</column>
+	</menu>
+</menus>

@@ -1,0 +1,36 @@
+#birthdaySendManageEMP #hiddenValueDiv{
+	display:none;
+}
+#birthdaySendManageEMP .dxzs_input1{
+	width: 175px;
+}
+#birthdaySendManageEMP #spUser,#status{
+	width: 180px;
+}
+#birthdaySendManageEMP .dxzs_textarea{
+	display:none;
+}
+#birthdaySendManageEMP #modify{
+	padding:5px;
+	width:300px;
+	height:160px;
+	display:none;
+}
+#birthdaySendManageEMP #modify table{
+	width: 100%;
+}
+#birthdaySendManageEMP #modify table tr{
+	padding-top:2px;
+	margin-bottom: 2px;
+}
+#birthdaySendManageEMP #modify table td{
+	word-break: break-all;
+}
+#birthdaySendManageEMP #msgcont{
+	width:100%;
+	height:100%;
+	border:0px;
+}
+#birthdaySendManageEMP #condition table tr td select{
+	width:179px;
+}

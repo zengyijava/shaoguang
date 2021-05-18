@@ -1,0 +1,105 @@
+@charset "utf-8";
+body
+{background:#fafafa;
+}
+table {
+	width: 190px !important;
+}
+
+#sider{width: 190px !important;background:url(images/dot.jpg) repeat-y 100% 0;}
+#sider .mune_hidden{width:190px;}
+/*通用边框色*/
+.div_bd {
+	border-color: #b3caee;
+}
+.menu_top {
+	color: #FFFFFF;
+	/*background: url(images/menu_top_bg.png) no-repeat #FFF;*/
+}
+
+.mune_show {
+	color: #434343;
+	background:url(images/menu_normal.png) no-repeat 0 0;
+	width:189px;
+	
+}
+
+.mune_show span
+{
+	line-height: 40px;
+	height: 40px;
+	font-size: 14px;
+	color:#555;
+	width:100%;
+	display:block;
+	background: url(images/icon_right_sel.gif) 24px 12px no-repeat;
+	border-bottom:1px solid #dbdbdb;
+}
+.mune_show.open span {
+	background: url(images/icon_down_sel.gif) 24px 12px no-repeat;
+}
+#modIndex .mune_show span
+{
+	 background: none;
+}
+#userDiv
+{
+	background-image: url(images/line.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+#sider .mune_hidden li a.li_a_hover {
+	background:#ffa14d;
+	color:#000;
+}
+
+.mune_show.li_a_hover {
+	
+	background:url(images/menu_hover.png) no-repeat 0 0;
+	color:#555;
+	text-decoration:none;
+}
+.mune_show.open {
+	background:url(images/menu_sel.png) no-repeat 0 0;
+	color: #555;
+	font-size:14px;
+	font-weight:bold;
+	
+}
+
+#sider .mune_hidden li a.higehLisght {
+	color: #c31f08 !important;
+	background-color: #fff !important;
+	text-decoration: none;
+}
+.higehLisght_parent{position:relative;}
+
+#sider .mune_hidden li.higehLisght_parent i{width:4px;background:#e5f5ff;display:block;height:32px;position:absolute;left:0;top:0;}
+
+
+#sider .mune_hidden li.lihover a.higehLisght {
+	color: #c31f08 !important;
+	background-color: #fff !important;
+	text-decoration: none;
+}
+.mune_hidden 
+{
+	color : #2c2c2c;
+	background-color: #ddd;
+	background-image: url(images/line_new.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+#userInfo
+{
+	background-image: url(images/user_info.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+#photo
+{
+	display:block;
+	width:62px;
+	height:62px;
+	background: url(images/photo.png) no-repeat;
+}

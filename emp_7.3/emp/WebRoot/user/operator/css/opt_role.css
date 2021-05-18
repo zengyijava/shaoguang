@@ -1,0 +1,57 @@
+#opt_role .placeholder {
+	top: 10px;
+}
+
+#opt_role .mod2 {
+	text-indent: 40px;
+	height: 30px;
+	border-top: 0;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+#opt_role .chan_manag_son {
+	overflow: hidden;
+	border-top: 0;
+	margin: 0;
+}
+
+#opt_role .mod2 #opt_role .fico {
+	display: block;
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+	height: 14px;
+}
+
+#opt_role .jslbh5 {
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+}
+
+#opt_role .roleNameHideenDiv {
+	display: none;
+	float: left;
+}
+
+#opt_role .m_container {
+	padding-top: 3px;
+}
+
+#opt_role .showBigMenuName_strong {
+	color: #000000;
+}
+
+#opt_role .checkboxs {
+	vertical-align: middle;
+}
+
+#opt_role .checkboxs_label {
+	cursor: pointer;
+	font-family: tahoma;
+}
+
+#opt_role .remark {
+	display: none;
+}

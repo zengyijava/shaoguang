@@ -1,0 +1,14 @@
+#dat_systemConfig body,html{width:100%;height:100%;}
+#dat_systemConfig body{overflow-X:hidden}
+#dat_systemConfig li{list-style:none;}
+#dat_systemConfig .left{float:left;font-size:14px;line-height:30px;width:170px;height:100%;}
+#dat_systemConfig .right{height: 100%;position: absolute;top: 0;right: -15px;margin-right:15px;}
+#dat_systemConfig .on{color:#124ea0;}
+
+#dat_systemConfig .editWyGateFrame{
+	width:100%;
+	height:100%;
+	border: 0;
+	overflow:scroll;
+	overflow-y:hidden;
+}

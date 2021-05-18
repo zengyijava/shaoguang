@@ -1,0 +1,261 @@
+/*移动客服-客户通讯录管理*/
+/*客户通讯录开始*/
+/*新增*/
+#cli_addClient #addoneDiv {
+    padding-bottom: 580px;
+}
+#cli_addClient .infotd1,.infotd2{
+	height: 36px;
+	line-height: 36px;
+	font-size: 15px;
+	background-color: #f5f8fa;
+}
+#cli_addClient .infotd1{
+	color:#ffffff;
+	background-color: #00ab72;
+	font-weight: bold;
+}
+#cli_addClient .infotd1.dxzs_addone{
+	color:#ffffff;
+	background-color: #00ab72;
+	font-weight: bold;
+}
+#cli_addClient .infotd2.dxzs_addall{
+	color:#ffffff;
+	background-color: #00ab72;
+	font-weight: bold;
+}
+#cli_addClient #sysTable tr{
+	height: 40px;
+}
+#cli_addClient #sysTable tr td input{
+	height: 33px;
+}
+#cli_addClient #sysTable tr td select{
+	height: 33px;
+	border: 1px solid #e8ecf0;
+	width: 264px;
+}
+#cli_addClient #sysTable #depNam{
+	border: 1px solid #e8ecf0;
+}
+#cli_addClient .client_div3{
+	width: 320px;
+	margin-top: 20px;
+}
+#cli_addClient .dxkf_tr1{
+	height: 40px;
+}
+#cli_addClient .dxkf_tr1 input{
+	height: 13px !important;
+}
+
+/*修改*/
+#cli_editClient #detail_Info {
+    padding-bottom: 580px;
+}
+#cli_editClient #sysTable tr{
+	height: 40px;
+}
+#cli_editClient #sysTable tr td input{
+	height: 33px;
+}
+#cli_editClient #sysTable tr td select{
+	height: 33px;
+	border: 1px solid #e8ecf0;
+	width: 264px;
+}
+#cli_editClient #sysTable #depNam{
+	border: 1px solid #e8ecf0;
+}
+#cli_editClient #sysTable #birth{
+	border: 1px solid #e8ecf0;
+	width: 263px;
+}
+#cli_editClient .client_div3{
+	width: 320px;
+	margin-top: 20px;
+}
+#cli_editClient #sysTable #button,#cli_editClient #sysTable #button2{
+    height: 30px;
+}
+#cli_editClient .client_tr1{
+    height: 80px !important;
+}
+#cli_editClient .client_tr2{
+    padding-left: 63px;
+}
+#cli_editClient .dxkf_tr1{
+	height: 40px;
+}
+#cli_editClient .dxkf_tr1 input{
+	height: 13px !important;
+}
+/*机构新增修改*/
+#cli_clientAddrBook #depName{
+	height: 31px;
+}
+#cli_clientAddrBook #depcodethird{
+	height: 31px;
+}
+#cli_clientAddrBook .client_center{
+	height: 57px;
+}
+#cli_clientAddrBook #depNewName{
+	height: 31px;
+}
+#cli_clientAddrBook .client_tr1{
+	height: 40px;
+}
+/*签约详情*/
+#cli_contractDetails #content thead tr{
+	height: 50px;
+}
+/*客户通讯录结束*/
+/*客户属性管理开始*/
+#cli_custFieldManage .buttons a#add{
+	color:#ffffff;
+    width: 100px;
+}
+#cli_custFieldManage .buttons a#delcli{
+    width: 100px;
+}
+#cli_custFieldManage #content thead th{
+	height: 50px;
+}
+#cli_custFieldManage #udgName{
+	height: 35px;
+}
+#cli_custFieldManage #fieldValue{
+	height: 35px;
+}
+#cli_custFieldManage #group_add table{
+	margin-top: 15px;	
+}
+#cli_custFieldManage #group_add table .client_td2{
+	height: 40px;	
+	text-align: center;
+}
+#cli_custFieldManage #ct_values_update table{
+	margin-top: 15px;
+}
+/*客户属性管理结束*/
+
+/* 通讯录权限管理开始*/
+#cli_clientPermissions #content thead th{
+	height: 50px;
+}
+/*权限绑定*/
+#a_addrbookDepTree #tmpdiv1{
+	display: none;
+}
+#cli_clientPermissions #bindUserFrame{
+	width: 875px;
+ 	height: 700px;
+}
+#cli_clientPermissions .client_table1 .client_td2{
+    padding-left: 185px;
+}
+#cli_unbindCliSysusers{
+	overflow: hidden;
+}
+#cli_unbindCliSysusers #condition table tr td:first-child{
+	width: 70px;
+}
+#cli_unbindCliSysusers #condition table tr td > input,
+#cli_unbindCliSysusers #condition table tr td > div > input,
+#cli_unbindCliSysusers #condition table tr td > label > input {
+    width: 170px !important;
+}
+#cli_unbindCliSysusers #content thead tr{
+	height: 50px;
+}
+/* 通讯录权限管理结束*/
+/* 个人群组开始*/
+/* #grp_cliManage #flowFrame{
+	width: 640px;
+	height: 520px;
+}
+#grp_cliAddMember #gpName_div{
+	height: 60px;
+	line-height: 60px;
+}
+#grp_cliAddMember #addGpName{
+	height: 35px;
+}
+#grp_cliAddMember #gpName_label {
+    margin-left: 48px;
+    margin-top: 10px;
+}
+#grp_cliAddMember #chooseType {
+    height: 30px;
+    width: 100px;
+}
+#grp_cliAddMember #epname {
+    float: left;
+    width: 126px;
+    height: 30px;
+}
+#grp_cliAddMember label#enterName {
+    left: 115px;
+    top: 60px;
+}
+#grp_cliAddMember #btnSearch {
+    width: 20px;
+    height: 18px;
+}
+#grp_cliAddMember #searchNameButton {
+    cursor: pointer;
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin-left: -1px;
+}
+#grp_cliAddMember .green-btn {
+    background-color: #00aa72;
+}
+#grp_cliAddMember .search_img {
+    margin-top: 8px;
+}
+#grp_cliAddMember .btnClass1 {
+	background-color: #e7eeef;
+	border-radius:3px;
+	height: 30px;
+	width: 50px;
+}
+#grp_cliAddMember #right_search {
+	height: 28px;
+}
+#grp_cliAddMember #adName {
+    height: 26px;
+    line-height: 26px;
+    width: 85px;
+    border-right: 0px;
+}
+#grp_cliAddMember #adPhone {
+    height: 26px;
+    line-height: 26px;
+    width: 150px;
+}
+#grp_cliAddMember #btnAdd {
+    margin-top: 2px;
+}
+#grp_cliAddMember #right {
+    height: 344px !important;
+    border-top:none
+} */
+#grp_cliManage #groupType{
+	width: 197px;
+}
+#grp_cliManage #shareflowFrame{
+	width: 658px;
+}
+#grp_cliManage #shareDiv{
+	background-color: #ffffff;
+}
+#grp_cliManage #flowFrame, #editFrame {
+    width: 658px;
+    height: 470px;
+    border: 0;
+}
+/* 个人群组结束*/
